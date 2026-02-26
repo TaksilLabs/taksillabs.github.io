@@ -10,7 +10,8 @@
         "description": "Developmental Music Pack focused on Cinematic feeling.",
         "type": "Music",
         "tags": ["Music"]
-    },{
+    },
+    {
         "name": "Republic Music Pack",
         "repo": "SWMM_REP",
         "asset": "REP-1.6.6.1.zip",
@@ -21,7 +22,8 @@
         "description": "Only Prequel Scores. Only for Clone Troopers",
         "type": "Music",
         "tags": ["Music"]
-    },{
+    },
+    {
         "name": "Imperial Music Pack",
         "repo": "SWMM_IMP",
         "asset": "SWMP-1.6.5.2.zip",
@@ -32,5 +34,77 @@
         "description": "Only Original Trilogy Scores. Only for Storm Troopers",
         "type": "Music",
         "tags": ["Music"]
+    },
+    {
+        "name": "Galactic Map Overhaul",
+        "repo": "Map",
+        "asset": "GalacticMap-1.4.7.3.zip",
+        "version": "1.4.7.3",
+        "size": "12 MB",
+        "status": "WORKING",
+        "testedOn": "6.0.3",
+        "description": "Replaces the current Galactic Map with one that aligns with the Star Wars universe.",
+        "type": "UI",
+        "tags": ["UI"]
+    },
+    {
+        "name": "Cape Mod",
+        "repo": "Capes",
+        "asset": "SW-Capes-2.2.zip",
+        "version": "2.2",
+        "size": "29 MB",
+        "status": "WORKING",
+        "testedOn": "6.0.3",
+        "description": "This mod replaces 50 capes to be more Star Wars",
+        "type": "Cape",
+        "tags": ["Cape"]
+    },
+    {
+        "name": "Player Card Mod",
+        "repo": "Cards",
+        "asset": "cards-1.2.zip",
+        "version": "1.2",
+        "size": "901 KB",
+        "status": "WORKING",
+        "testedOn": "6.0.3",
+        "description": "Replaces all Player Cards with Star Wars designs.",
+        "type": "Player Card",
+        "tags": ["Player Card"]
+    },
+    {
+        "name": "Ship Overhaul",
+        "repo": "Ship_Overhaul",
+        "asset": "DTSO-0.1.zip",
+        "version": "0.1",
+        "size": "5 MB",
+        "status": "WORKING",
+        "testedOn": "6.0.3",
+        "description": "Changes the color of Weapons, Armor, Terminal Monitors, and various parts around the Ship.",
+        "type": "Ship Interior",
+        "tags": ["Ship Interior"]
+    },
+    {
+        "name": "NPC Voices",
+        "repo": "NPC_Voices",
+        "asset": "npc-voices-0.5.zip",
+        "version": "0.5",
+        "size": "33.4 MB",
+        "status": "WORKING",
+        "testedOn": "6.0.3",
+        "description": "Replaces Mission Control and In-Mission Democracy Officer with pseudo-voices from the 2005 Battlefront 2.",
+        "type": "Voice",
+        "tags": ["Voice"]
+    },
+    {
+        "name": "SEAF Voices Mod",
+        "repo": "SEAF_Voices",
+        "asset": "SEAF0.2.zip",
+        "version": "0.2",
+        "size": "12 MB",
+        "status": "WORKING",
+        "testedOn": "6.0.3",
+        "description": "Changes the SEAF voices to the Republic Soldier ( 2005 Star Wars Battlefront II )",
+        "type": "Voice",
+        "tags": ["Voice"]
     }
 ]
