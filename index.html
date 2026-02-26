@@ -315,9 +315,15 @@
       // Sort: WORKING first, then UPDATING, UNTESTED, BROKEN; then name
       const rank = { WORKING: 0, UPDATING: 1, UNTESTED: 2, BROKEN: 3 };
       items.sort((a,b) => {
+        const sa = Number.isFinite(a.sort) ? a.sort : 9999;
+        const sb = Number.isFinite(b.sort) ? b.sort : 9999;
+        if (sa !== sb) return sa - sb;
+
+        // tie-breakers if same sort value
         const ra = rank[(a.status||"UNTESTED").toUpperCase()] ?? 9;
         const rb = rank[(b.status||"UNTESTED").toUpperCase()] ?? 9;
-        if(ra !== rb) return ra - rb;
+        if (ra !== rb) return ra - rb;
+
         return String(a.name||"").localeCompare(String(b.name||""));
       });
 
@@ -351,7 +357,6 @@
               <div class="name">${name}</div>
               <div class="desc">${desc}</div>
               <div style="margin-top:6px;">
-                ${type ? `<span class="badge">${type}</span>` : ""}
                 ${version ? `<span class="badge">v${version}</span>` : ""}
                 ${size ? `<span class="badge">${size}</span>` : ""}
                 ${repo ? `<a href="${releasesUrl(repo)}" target="_blank" rel="noopener">Versions</a>` : ""}

@@ -1,6 +1,7 @@
 [
     {
         "name": "Cmp4",
+        "sort": 3,
         "repo": "cmp4",
         "asset": "Cmp4-1.6.6.08.zip",
         "version": "1.6.6.08",
@@ -13,6 +14,7 @@
     },
     {
         "name": "Republic Music Pack",
+        "sort": 4,
         "repo": "SWMM_REP",
         "asset": "REP-1.6.6.1.zip",
         "version": "1.6.6.1",
@@ -25,6 +27,7 @@
     },
     {
         "name": "Imperial Music Pack",
+        "sort": 5,
         "repo": "SWMM_IMP",
         "asset": "SWMP-1.6.5.2.zip",
         "version": "1.6.5.2",
@@ -37,6 +40,7 @@
     },
     {
         "name": "Galactic Map Overhaul",
+        "sort": 13,
         "repo": "Map",
         "asset": "GalacticMap-1.4.7.3.zip",
         "version": "1.4.7.3",
@@ -49,6 +53,7 @@
     },
     {
         "name": "Cape Mod",
+        "sort": 14,
         "repo": "Capes",
         "asset": "SW-Capes-2.2.zip",
         "version": "2.2",
@@ -61,6 +66,7 @@
     },
     {
         "name": "Player Card Mod",
+        "sort": 15,
         "repo": "Cards",
         "asset": "cards-1.2.zip",
         "version": "1.2",
@@ -73,6 +79,7 @@
     },
     {
         "name": "Ship Overhaul",
+        "sort": 20,
         "repo": "Ship_Overhaul",
         "asset": "DTSO-0.1.zip",
         "version": "0.1",
@@ -85,6 +92,7 @@
     },
     {
         "name": "NPC Voices",
+        "sort": 18,
         "repo": "NPC_Voices",
         "asset": "npc-voices-0.5.zip",
         "version": "0.5",
@@ -97,6 +105,7 @@
     },
     {
         "name": "SEAF Voices Mod",
+        "sort": 19,
         "repo": "SEAF_Voices",
         "asset": "SEAF0.2.zip",
         "version": "0.2",
