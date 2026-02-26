@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TaksilLabs — Helldivers II Star Wars Mods</title>
+  <meta name="description" content="Helldivers II mods themed around a Star Wars aesthetic. Downloads via GitHub Releases." />
+
+  <style>
+    :root{
+      /* 90s UI palette, but tuned for modern readability */
+      --bg: #071018;
+      --panel: #0d1b26;
+      --panel2: #0a1520;
+      --text: #e7f1ff;
+      --muted: #a8c2dd;
+
+      --win: #c0c0c0;          /* classic Win95 gray */
+      --win-dark: #7f7f7f;
+      --win-darker: #3f3f3f;
+      --win-light: #ffffff;
+      --win-mid: #dfdfdf;
+
+      --accent: #00e5ff;       /* cyan */
+      --accent2: #6cff7a;      /* green */
+      --warn: #ffd166;
+
+      --link: #7fd6ff;
+
+      --shadow: rgba(0,0,0,.35);
+      --radius: 10px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body{
+      margin:0;
+      background: radial-gradient(1200px 600px at 20% 0%, #0b2a3a 0%, var(--bg) 55%, #050a10 100%);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height: 1.45;
+    }
+
+    /* subtle CRT scanlines (optional but fun) */
+    .scanlines::before{
+      content:"";
+      position: fixed;
+      inset: 0;
+      pointer-events:none;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.03),
+        rgba(255,255,255,0.03) 1px,
+        rgba(0,0,0,0.00) 2px,
+        rgba(0,0,0,0.00) 4px
+      );
+      mix-blend-mode: overlay;
+      opacity: .35;
+    }
+
+    .wrap{
+      max-width: 1100px;
+      margin: 38px auto 60px;
+      padding: 0 16px;
+    }
+
+    /* “Window” header */
+    .window{
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 18px 40px var(--shadow);
+      border: 2px solid #183241;
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,0)) , var(--panel);
+    }
+
+    .titlebar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      padding: 10px 12px;
+      background: linear-gradient(180deg, #2b5b7a, #17384e);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+
+    .titlebar .left{
+      display:flex;
+      align-items:center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .dot{
+      width: 12px; height: 12px;
+      border-radius: 2px;
+      background: var(--accent);
+      box-shadow: 0 0 0 2px rgba(0,0,0,.25) inset, 0 0 18px rgba(0,229,255,.28);
+      flex: 0 0 auto;
+    }
+
+    .titlebar .name{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .titlebar .right a{
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      opacity: .95;
+    }
+    .titlebar .right a:hover{ text-decoration: underline; }
+
+    .content{
+      padding: 16px;
+      background: linear-gradient(180deg, rgba(0,0,0,.16), rgba(0,0,0,0)) , var(--panel2);
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 14px;
+      align-items: start;
+    }
+    @media (max-width: 860px){
+      .hero{ grid-template-columns: 1fr; }
+    }
+
+    h1{
+      margin: 0 0 8px;
+      font-size: clamp(1.35rem, 2.4vw, 2.0rem);
+    }
+    .sub{
+      color: var(--muted);
+      margin: 0 0 10px;
+    }
+    .badges{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(0,0,0,.22);
+      color: var(--text);
+      font-weight: 700;
+      font-size: .86rem;
+    }
+    .badge .b{
+      width: 8px; height: 8px; border-radius: 2px;
+      background: var(--accent2);
+      box-shadow: 0 0 12px rgba(108,255,122,.25);
+    }
+
+    /* Win95-style controls */
+    .controls{
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.18);
+    }
+    .row{
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items:center;
+    }
+    label{
+      font-weight: 800;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    input[type="search"], select{
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(8,16,24,.75);
+      color: var(--text);
+      outline: none;
+    }
+    input[type="search"]::placeholder{ color: rgba(231,241,255,.55); }
+
+    .winbtn{
+      display:inline-block;
+      padding: 9px 12px;
+      font-weight: 900;
+      text-decoration:none;
+      color: #0b0b0b;
+      background: var(--win);
+      border-top: 2px solid var(--win-light);
+      border-left: 2px solid var(--win-light);
+      border-right: 2px solid var(--win-darker);
+      border-bottom: 2px solid var(--win-darker);
+      border-radius: 6px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.25);
+      user-select: none;
+    }
+    .winbtn:active{
+      border-top: 2px solid var(--win-darker);
+      border-left: 2px solid var(--win-darker);
+      border-right: 2px solid var(--win-light);
+      border-bottom: 2px solid var(--win-light);
+      transform: translateY(1px);
+    }
+    .winbtn.primary{
+      background: #b9f6ff;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .card{
+      border-radius: 14px;
+      background: rgba(0,0,0,.16);
+      border: 1px solid rgba(255,255,255,.12);
+      padding: 14px;
+    }
+
+    .card h3{
+      margin: 4px 0 6px;
+      font-size: 1.05rem;
+    }
+
+    .meta{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 8px 0 10px;
+      color: var(--muted);
+      font-weight: 700;
+      font-size: .9rem;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap: 6px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(0,0,0,.18);
+    }
+    .pill .dot2{
+      width: 7px; height: 7px; border-radius: 2px;
+      background: var(--warn);
+      box-shadow: 0 0 10px rgba(255,209,102,.25);
+    }
+
+    .desc{ margin: 0 0 10px; color: var(--text); opacity: .92; }
+
+    .actions{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    a.link{
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 800;
+    }
+    a.link:hover{ text-decoration: underline; }
+
+    .footer{
+      margin-top: 18px;
+      color: rgba(231,241,255,.62);
+      font-size: .9rem;
+      display:flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items:center;
+      justify-content: space-between;
+    }
+
+    .tiny{
+      font-size: .82rem;
+      color: rgba(231,241,255,.65);
+    }
+    .kbd{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: .82rem;
+      padding: 2px 6px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(0,0,0,.22);
+      color: var(--text);
+    }
+  </style>
+</head>
+
+<body class="scanlines">
+  <div class="wrap">
+    <div class="window">
+      <div class="titlebar">
+        <div class="left">
+          <div class="dot"></div>
+          <div class="name">TaksilLabs — Helldivers II Star Wars Mods</div>
+        </div>
+        <div class="right">
+          <a href="https://github.com/TaksilLabs">GitHub</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="hero">
+          <div>
+            <h1>Helldivers II Mods — Star Wars Aesthetic</h1>
+            <p class="sub">
+              Download a zip, drop it into your Helldivers II mod loader, deploy democracy (in a more… galactic style).
+            </p>
+            <div class="badges">
+              <span class="badge"><span class="b"></span>No dependencies</span>
+              <span class="badge"><span class="b"></span>Zipped folders</span>
+              <span class="badge"><span class="b"></span>GitHub Releases</span>
+            </div>
+            <p class="tiny" style="margin-top:10px;">
+              Tip: use <span class="kbd">Ctrl</span> + <span class="kbd">F</span> or the search box.
+            </p>
+          </div>
+
+          <div class="controls">
+            <div>
+              <label for="q">Search mods</label>
+              <input id="q" type="search" placeholder="e.g. clone trooper, blaster, UI, music…" />
+            </div>
+
+            <div class="row">
+              <div style="flex: 1 1 180px;">
+                <label for="sort">Sort</label>
+                <select id="sort">
+                  <option value="popular">Most popular</option>
+                  <option value="newest">Newest</option>
+                  <option value="name">Name (A→Z)</option>
+                  <option value="size">File size (small→large)</option>
+                </select>
+              </div>
+
+              <div style="flex: 1 1 180px;">
+                <label for="type">Type</label>
+                <select id="type">
+                  <option value="all">All</option>
+                  <option value="visual">Visual</option>
+                  <option value="audio">Audio</option>
+                  <option value="ui">UI</option>
+                  <option value="pack">Pack</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <a class="winbtn primary" id="latestAll" href="#" target="_blank" rel="noopener">Open all repos</a>
+              <a class="winbtn" href="https://github.com/TaksilLabs?tab=repositories" target="_blank" rel="noopener">Browse repos</a>
+            </div>
+
+            <div class="tiny">
+              Downloads are served from GitHub Releases. If something breaks after a game patch, check the mod’s README for updates.
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div><strong id="count">0</strong> mods listed</div>
+          <div class="tiny">“1995 UI, 2026 delivery.”</div>
+        </div>
+
+        <div id="grid" class="grid" aria-live="polite"></div>
+
+        <div class="tiny" style="margin-top:16px;">
+          Legal note: these are fan-made mods. Star Wars is owned by its respective rights holders. This site is not affiliated.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // EDIT THIS LIST ONLY. Everything else updates automatically.
+    // sizeMB can be approximate; it’s just for sorting/display.
+    const MODS = [
+      // Example entries — replace with your real mods/repos
+      {
+        name: "Clone Trooper Armor Pack",
+        repo: "clone-trooper-armor-pack",
+        type: "pack",
+        sizeMB: 520,
+        popularity: 10,
+        blurb: "Big visual pack: clone-trooper themed armor aesthetics for HD2.",
+        tags: ["clone", "trooper", "armor", "visual", "pack"]
+      },
+      {
+        name: "Blaster SFX Swap",
+        repo: "blaster-sfx-swap",
+        type: "audio",
+        sizeMB: 28 / 1024, // 28KB example
+        popularity: 6,
+        blurb: "Lightweight audio tweak: blaster-style SFX (tiny download).",
+        tags: ["audio", "blaster", "sfx"]
+      },
+      {
+        name: "Galactic HUD Theme",
+        repo: "galactic-hud-theme",
+        type: "ui",
+        sizeMB: 110,
+        popularity: 7,
+        blurb: "UI reskin inspired by classic sci-fi interfaces.",
+        tags: ["ui", "hud", "theme"]
+      }
+    ];
+
+    const $ = (id) => document.getElementById(id);
+
+    const q = $("q");
+    const sort = $("sort");
+    const type = $("type");
+    const grid = $("grid");
+    const count = $("count");
+    const latestAll = $("latestAll");
+
+    const repoUrl = (r) => `https://github.com/TaksilLabs/${r}`;
+    const latestUrl = (r) => `${repoUrl(r)}/releases/latest`;
+    const versionsUrl = (r) => `${repoUrl(r)}/releases`;
+    const readmeUrl = (r) => `${repoUrl(r)}#readme`;
+
+    latestAll.href = "https://github.com/TaksilLabs?tab=repositories";
+
+    function fmtSize(mb){
+      if (mb < 1) return `${Math.round(mb * 1024)} KB`;
+      if (mb < 1024) return `${Math.round(mb)} MB`;
+      return `${(mb/1024).toFixed(2)} GB`;
+    }
+
+    function pill(text){
+      return `<span class="pill"><span class="dot2"></span>${text}</span>`;
+    }
+
+    function render(){
+      const term = q.value.trim().toLowerCase();
+      const t = type.value;
+
+      let items = MODS.filter(m => {
+        const typeOk = (t === "all") || (m.type === t);
+        const searchHay = (m.name + " " + m.blurb + " " + (m.tags||[]).join(" ")).toLowerCase();
+        const searchOk = !term || searchHay.includes(term);
+        return typeOk && searchOk;
+      });
+
+      // sorting
+      switch(sort.value){
+        case "name":
+          items.sort((a,b) => a.name.localeCompare(b.name));
+          break;
+        case "newest":
+          // If you want real "newest", add a date field per mod (e.g. updated: "2026-02-20").
+          // For now, assume list order ~= newest by default.
+          items = items.slice().reverse();
+          break;
+        case "size":
+          items.sort((a,b) => (a.sizeMB||0) - (b.sizeMB||0));
+          break;
+        case "popular":
+        default:
+          items.sort((a,b) => (b.popularity||0) - (a.popularity||0));
+      }
+
+      count.textContent = items.length;
+
+      grid.innerHTML = items.map(m => `
+        <div class="card">
+          <div class="meta">
+            ${pill(`Type: ${m.type.toUpperCase()}`)}
+            ${pill(`Size: ${fmtSize(m.sizeMB || 0)}`)}
+          </div>
+
+          <h3>${m.name}</h3>
+          <p class="desc">${m.blurb}</p>
+
+          <div class="actions">
+            <a class="winbtn primary" href="${latestUrl(m.repo)}" target="_blank" rel="noopener">Download (Latest)</a>
+            <a class="winbtn" href="${readmeUrl(m.repo)}" target="_blank" rel="noopener">Install / README</a>
+            <a class="winbtn" href="${versionsUrl(m.repo)}" target="_blank" rel="noopener">Versions</a>
+            <a class="link" href="${repoUrl(m.repo)}" target="_blank" rel="noopener">Repo →</a>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    q.addEventListener("input", render);
+    sort.addEventListener("change", render);
+    type.addEventListener("change", render);
+
+    render();
+  </script>
+</body>
+</html>
