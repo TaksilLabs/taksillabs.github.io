@@ -153,6 +153,22 @@
       color: var(--muted);
     }
 
+    .mod-cell{
+      position: relative;
+      min-height: 95px; /* adjust if needed */
+    }
+
+    .mod-content{
+      padding-right: 80px; /* space so text doesn't overlap Versions */
+    }
+
+    .versions-link{
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      font-size: 11px;
+    }
+
     .badge{
       display:inline-block;
       padding: 2px 6px;
@@ -354,13 +370,23 @@
         return `
           <tr>
             <td>
-              <div class="name">${name}</div>
-              <div class="desc">${desc}</div>
-              <div style="margin-top:6px;">
-                ${version ? `<span class="badge">v${version}</span>` : ""}
-                ${size ? `<span class="badge">${size}</span>` : ""}
-                ${repo ? `<a href="${releasesUrl(repo)}" target="_blank" rel="noopener">Versions</a>` : ""}
-              </div>
+              <td class="mod-cell">
+                <div class="mod-content">
+                  <div class="name">${name}</div>
+                  <div class="desc">${desc}</div>
+
+                  <div style="margin-top:6px;">
+                    ${type ? `<span class="badge">${type}</span>` : ""}
+                    ${size ? `<span class="badge">${size}</span>` : ""}
+                  </div>
+                </div>
+
+                ${repo ? `
+                  <div class="versions-link">
+                    <a href="${releasesUrl(repo)}" target="_blank" rel="noopener">Versions</a>
+                  </div>
+                ` : ""}
+              </td>
             </td>
 
             <td>
