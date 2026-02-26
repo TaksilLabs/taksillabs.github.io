@@ -5,9 +5,31 @@
         "asset": "Cmp4-1.6.6.08.zip",
         "version": "1.6.6.08",
         "size": "666 MB",
-        "status": "Tested, Working",
+        "status": "WORKING",
         "testedOn": "6.0.3",
         "description": "Developmental Music Pack focused on Cinematic feeling.",
+        "type": "Music",
+        "tags": ["Music"]
+    },{
+        "name": "Republic Music Pack",
+        "repo": "SWMM_REP",
+        "asset": "REP-1.6.6.1.zip",
+        "version": "1.6.6.1",
+        "size": "724 MB",
+        "status": "WORKING",
+        "testedOn": "6.0.3",
+        "description": "Only Prequel Scores. Only for Clone Troopers",
+        "type": "Music",
+        "tags": ["Music"]
+    },{
+        "name": "Imperial Music Pack",
+        "repo": "SWMM_IMP",
+        "asset": "SWMP-1.6.5.2.zip",
+        "version": "1.6.5.2",
+        "size": "666 MB",
+        "status": "UNTESTED",
+        "testedOn": "6.0.3",
+        "description": "Only Original Trilogy Scores. Only for Storm Troopers",
         "type": "Music",
         "tags": ["Music"]
     }
