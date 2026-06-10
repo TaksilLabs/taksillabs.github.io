@@ -1,0 +1,138 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 8,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 70,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 8,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "LilPrecip",
+            "game_user_id": "1005605"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 160,
+                "shots": 1,
+                "losses": 1,
+                "passes": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 8,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Ranchero",
+            "game_user_id": "1713654"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 175,
+                "blocks": 7,
+                "losses": 1,
+                "passes": 1,
+                "post_hits": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 8,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "My Rick Fell Off",
+            "game_user_id": "1005594"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 585,
+                "shots": 2,
+                "passes": 13,
+                "assists": 4,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 8,
+                "secondary_assists": 1,
+                "possession_time_sec": 12
+            },
+            "username": "SolaceThunders",
+            "game_user_id": "31950"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 5,
+                "score": 865,
+                "shots": 7,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 2,
+                "post_hits": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 8,
+                "possession_time_sec": 10
+            },
+            "username": "Wind",
+            "game_user_id": "613713"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 315,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 15,
+                "assists": 1,
+                "post_hits": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 8,
+                "possession_time_sec": 14
+            },
+            "username": "Magix",
+            "game_user_id": "1064297"
+        }
+    ],
+    "match_id": "5877adf2-1ccd-440a-a39d-48eb5f8c252e",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

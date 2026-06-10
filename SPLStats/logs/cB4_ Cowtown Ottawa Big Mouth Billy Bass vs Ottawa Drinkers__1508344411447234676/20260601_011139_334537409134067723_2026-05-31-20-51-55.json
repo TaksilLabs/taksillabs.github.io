@@ -1,0 +1,137 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 45,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 8,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 15
+            },
+            "username": "BroBurgota",
+            "game_user_id": "431751"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 170,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 13
+            },
+            "username": "Skiz",
+            "game_user_id": "4633"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 160,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 5,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Cozbee",
+            "game_user_id": "66123"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 10,
+                "blocks": 1,
+                "passes": 6,
+                "takeaways": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 16
+            },
+            "username": "LessThanDennis",
+            "game_user_id": "513"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 200,
+                "blocks": 4,
+                "passes": 6,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 22
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 300,
+                "shots": 2,
+                "passes": 11,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 9
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        }
+    ],
+    "match_id": "d8247a54-288c-4d1b-83d3-115576d8aa58",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

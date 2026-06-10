@@ -1,0 +1,176 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 4
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 660,
+                "shots": 9,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 22,
+                "assists": 2,
+                "post_hits": 6,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 33
+            },
+            "username": "Gronk",
+            "game_user_id": "1232982"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 2,
+                "score": 590,
+                "shots": 3,
+                "blocks": 8,
+                "losses": 1,
+                "passes": 18,
+                "assists": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 30
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 70,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 10,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "GiraffeKiller",
+            "game_user_id": "1314542"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 60,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 7,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 10
+            },
+            "username": "Securitron MK II",
+            "game_user_id": "67088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "score": 145,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 18,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 3
+            },
+            "username": "Dave.",
+            "game_user_id": "186"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 3,
+                "saves": 11,
+                "score": 865,
+                "shots": 4,
+                "blocks": 5,
+                "passes": 9,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 101
+            },
+            "username": "Oblivion",
+            "game_user_id": "1071429"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 280,
+                "shots": 1,
+                "blocks": 5,
+                "passes": 13,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 22
+            },
+            "username": "X6C-",
+            "game_user_id": "871020"
+        }
+    ],
+    "match_id": "c9578af7-61e0-469a-8fa9-c283df1a6034",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

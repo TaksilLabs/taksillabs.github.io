@@ -1,0 +1,154 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 5
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 475,
+                "shots": 4,
+                "passes": 14,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 1
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 400,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 5,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 2,
+                "possession_time_sec": 22
+            },
+            "username": "Lucki Eck$",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 265,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 3,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 5,
+                "possession_time_sec": 4
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 190,
+                "shots": 1,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 12
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 75,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "passes": 5,
+                "turnovers": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "withdrawals",
+            "game_user_id": "1326629"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "losses": 1,
+                "games_played": 1,
+                "periods_played": 1
+            },
+            "username": "Midget",
+            "game_user_id": "948283"
+        }
+    ],
+    "match_id": "f38ea682-8bf5-4bb9-8f85-3fe101d23ee0",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

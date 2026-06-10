@@ -1,0 +1,157 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 5
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 465,
+                "shots": 4,
+                "blocks": 5,
+                "passes": 15,
+                "post_hits": 1,
+                "takeaways": 8,
+                "turnovers": 10,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 39
+            },
+            "username": "tovic",
+            "game_user_id": "409115"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 6,
+                "score": 355,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 6,
+                "takeaways": 3,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 15
+            },
+            "username": "BiggieBag",
+            "game_user_id": "1288337"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 365,
+                "shots": 2,
+                "blocks": 11,
+                "passes": 13,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 31
+            },
+            "username": "MR PIGEON",
+            "game_user_id": "508645"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 110,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 21,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 24
+            },
+            "username": "X6C-",
+            "game_user_id": "871020"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 2,
+                "score": 435,
+                "shots": 1,
+                "blocks": 7,
+                "losses": 2,
+                "passes": 14,
+                "assists": 2,
+                "takeaways": 8,
+                "turnovers": 5,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 72
+            },
+            "username": "Oblivion",
+            "game_user_id": "1071429"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 3,
+                "score": 680,
+                "shots": 9,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 19,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 5,
+                "turnovers": 5,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 40
+            },
+            "username": "Gold",
+            "game_user_id": "914959"
+        }
+    ],
+    "match_id": "ed9bb090-005c-4d8e-a42b-d8edd856a2fb",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

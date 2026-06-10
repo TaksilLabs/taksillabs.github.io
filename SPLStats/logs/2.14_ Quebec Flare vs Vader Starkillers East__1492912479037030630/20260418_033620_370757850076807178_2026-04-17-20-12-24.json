@@ -1,0 +1,138 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 80,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 7,
+                "post_hits": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 20
+            },
+            "username": "Heisenberg",
+            "game_user_id": "79549"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 115,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 19
+            },
+            "username": "Q",
+            "game_user_id": "17413"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 60,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 2,
+                "post_hits": 2,
+                "takeaways": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 17
+            },
+            "username": "Nayr[QC]",
+            "game_user_id": "286293"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 2,
+                "score": 400,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 6,
+                "shutouts": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 12
+            },
+            "username": "Grimace (Muted, frick)",
+            "game_user_id": "524911"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 245,
+                "shots": 1,
+                "blocks": 6,
+                "passes": 5,
+                "assists": 1,
+                "shutouts": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 14
+            },
+            "username": "bread",
+            "game_user_id": "825118"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 330,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 7,
+                "shutouts": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 4
+            },
+            "username": "ochase",
+            "game_user_id": "767270"
+        }
+    ],
+    "match_id": "4e41c835-3d02-4fe9-b5c9-7738c4a6ecfd",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

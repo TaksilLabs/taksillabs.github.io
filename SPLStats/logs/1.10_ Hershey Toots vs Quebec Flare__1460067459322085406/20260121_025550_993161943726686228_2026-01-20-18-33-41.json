@@ -1,0 +1,140 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 1
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 230,
+                "shots": 4,
+                "passes": 15,
+                "post_hits": 1,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 24
+            },
+            "username": "Dave.",
+            "game_user_id": "186"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 70,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 18
+            },
+            "username": "YackSlack",
+            "game_user_id": "640761"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 200,
+                "shots": 5,
+                "passes": 13,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 250,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Rhino",
+            "game_user_id": "1147161"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 7,
+                "score": 285,
+                "blocks": 4,
+                "passes": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 7
+            },
+            "username": "SPECT",
+            "game_user_id": "701724"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 160,
+                "blocks": 7,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Nayr[QC]",
+            "game_user_id": "286293"
+        }
+    ],
+    "match_id": "ba7c71b5-d057-41db-8af0-40204be0e39a",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,145 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 7
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 365,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 11,
+                "assists": 2,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 6
+            },
+            "username": "Tweek",
+            "game_user_id": "985994"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 555,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 7,
+                "assists": 5,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "secondary_assists": 2
+            },
+            "username": "bLue :)",
+            "game_user_id": "100703"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 5,
+                "score": 830,
+                "shots": 7,
+                "blocks": 2,
+                "passes": 9,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 3,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 9
+            },
+            "username": "GoldenKnight",
+            "game_user_id": "75184"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "score": 275,
+                "shots": 3,
+                "losses": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "Folapa",
+            "game_user_id": "682"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 235,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 7,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 6,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 3,
+                "score": 240,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 2,
+                "assists": 1,
+                "post_hits": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3
+            },
+            "username": "Looees",
+            "game_user_id": "281017"
+        }
+    ],
+    "match_id": "8de077d1-f54b-4834-aa33-5290f7024a01",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

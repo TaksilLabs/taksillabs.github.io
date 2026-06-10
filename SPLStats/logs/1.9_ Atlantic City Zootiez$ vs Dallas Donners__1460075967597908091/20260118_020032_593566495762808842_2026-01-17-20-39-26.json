@@ -1,0 +1,159 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 4
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 3,
+                "score": 615,
+                "shots": 7,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 17,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 66
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 195,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 11,
+                "assists": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 97
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 395,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 9,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 13
+            },
+            "username": "Midget",
+            "game_user_id": "948283"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 2,
+                "score": 350,
+                "shots": 4,
+                "blocks": 5,
+                "passes": 7,
+                "turnovers": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 4
+            },
+            "username": "Shloompa",
+            "game_user_id": "979880"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 4,
+                "score": 385,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 4,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 30
+            },
+            "username": "BiggieBag",
+            "game_user_id": "1288337"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 295,
+                "shots": 1,
+                "blocks": 6,
+                "passes": 11,
+                "assists": 1,
+                "post_hits": 1,
+                "games_played": 2,
+                "faceoffs_lost": 6,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 5
+            },
+            "username": "Mags:)",
+            "game_user_id": "933862"
+        }
+    ],
+    "match_id": "17678e77-9361-46a7-8fc7-8e864d769833",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

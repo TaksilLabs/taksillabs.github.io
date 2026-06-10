@@ -1,0 +1,126 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 1
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 50,
+                "blocks": 2,
+                "passes": 5,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 26
+            },
+            "username": "JoeMer",
+            "game_user_id": "67383"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 255,
+                "shots": 4,
+                "blocks": 4,
+                "passes": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 10
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 60,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 10
+            },
+            "username": "Napa0",
+            "game_user_id": "296477"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 10,
+                "blocks": 1,
+                "passes": 7,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Shamooda-0*0*0*0*0",
+            "game_user_id": "635984"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 135,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 5,
+                "score": 215,
+                "blocks": 4,
+                "passes": 2,
+                "takeaways": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 48
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        }
+    ],
+    "match_id": "b29c0461-a8f6-4281-8088-94cb4b524590",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

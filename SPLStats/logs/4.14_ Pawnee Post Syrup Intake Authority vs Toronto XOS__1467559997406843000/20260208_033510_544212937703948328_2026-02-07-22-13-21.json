@@ -1,0 +1,138 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 40,
+                "shots": 1,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Topil",
+            "game_user_id": "1781804"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 100,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 3,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 14
+            },
+            "username": "Toppertime",
+            "game_user_id": "618280"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 250,
+                "shots": 1,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 4,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 160,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 5,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "hoodie",
+            "game_user_id": "56374"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 110,
+                "blocks": 1,
+                "passes": 2,
+                "takeaways": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 24
+            },
+            "username": "hodie@bandit",
+            "game_user_id": "972960"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 380,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 12,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 11
+            },
+            "username": "McDruggie",
+            "game_user_id": "1966614"
+        }
+    ],
+    "match_id": "2921b8e0-80e0-4742-ac3b-8da18bd939f5",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

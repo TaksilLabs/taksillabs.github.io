@@ -1,0 +1,134 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 85,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 13
+            },
+            "username": "chausie",
+            "game_user_id": "1234707"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 135,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 8,
+                "turnovers": 3,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 64
+            },
+            "username": "jakee",
+            "game_user_id": "4153"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "losses": 1,
+                "passes": 9,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 5
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 185,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 6,
+                "shutouts": 1,
+                "takeaways": 2,
+                "turnovers": 4,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Gronk",
+            "game_user_id": "1232982"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 125,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 5,
+                "shutouts": 1,
+                "turnovers": 4,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 110,
+                "blocks": 2,
+                "passes": 7,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Securitron MK II",
+            "game_user_id": "67088"
+        }
+    ],
+    "match_id": "5c14f454-66a2-42e0-9843-01726622a2ec",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

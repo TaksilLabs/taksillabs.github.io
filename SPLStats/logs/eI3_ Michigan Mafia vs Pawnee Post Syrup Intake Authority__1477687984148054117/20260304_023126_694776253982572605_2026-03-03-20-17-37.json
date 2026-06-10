@@ -1,0 +1,179 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 5
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "saves": 3,
+                "score": 540,
+                "shots": 4,
+                "blocks": 7,
+                "passes": 18,
+                "assists": 2,
+                "takeaways": 8,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 87
+            },
+            "username": "stiff",
+            "game_user_id": "379522"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 3,
+                "score": 515,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 12,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 6
+            },
+            "username": "barkov",
+            "game_user_id": "180828"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 215,
+                "shots": 3,
+                "blocks": 4,
+                "passes": 16,
+                "takeaways": 1,
+                "turnovers": 5,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 23
+            },
+            "username": "tef",
+            "game_user_id": "136795"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "goals": 2,
+                "saves": 5,
+                "score": 785,
+                "shots": 5,
+                "blocks": 9,
+                "passes": 6,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 71
+            },
+            "username": "Gronk",
+            "game_user_id": "1232982"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 255,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 9,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 17
+            },
+            "username": "Securitron MK II",
+            "game_user_id": "67088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 105,
+                "blocks": 3,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 5,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 26
+            },
+            "username": "Toppertime",
+            "game_user_id": "618280"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 290,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 7,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 6
+            },
+            "username": "Topil",
+            "game_user_id": "1781804"
+        }
+    ],
+    "match_id": "02e4ca99-3e6e-4e9a-a38c-73136d8b6962",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

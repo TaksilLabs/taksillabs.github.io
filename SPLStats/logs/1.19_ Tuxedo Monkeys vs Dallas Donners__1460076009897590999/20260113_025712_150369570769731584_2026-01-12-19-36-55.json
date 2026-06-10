@@ -1,0 +1,137 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 95,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 8,
+                "post_hits": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 15
+            },
+            "username": "RosieYW",
+            "game_user_id": "1238330"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 200,
+                "shots": 1,
+                "blocks": 7,
+                "losses": 1,
+                "passes": 9,
+                "post_hits": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 10,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 4
+            },
+            "username": "Nayr[QC]",
+            "game_user_id": "286293"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 55,
+                "blocks": 4,
+                "passes": 2,
+                "shutouts": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 3
+            },
+            "username": "Shloompa",
+            "game_user_id": "979880"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 215,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 1,
+                "assists": 1,
+                "shutouts": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 4
+            },
+            "username": "BiggieBag",
+            "game_user_id": "1288337"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 525,
+                "shots": 5,
+                "blocks": 7,
+                "passes": 8,
+                "shutouts": 1,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 12
+            },
+            "username": "Richard Tantrum",
+            "game_user_id": "877669"
+        }
+    ],
+    "match_id": "40b76c41-9c1d-4f36-8eb7-2a8a09c96fcf",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

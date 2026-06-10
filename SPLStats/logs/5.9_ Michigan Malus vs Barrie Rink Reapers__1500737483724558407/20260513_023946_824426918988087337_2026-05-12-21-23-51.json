@@ -1,0 +1,154 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 300,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 5,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 43
+            },
+            "username": "lucki",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 175,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 13,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 12
+            },
+            "username": "mace",
+            "game_user_id": "144"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 1,
+                "score": 360,
+                "shots": 2,
+                "losses": 1,
+                "passes": 7,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 11
+            },
+            "username": "Tridoxity",
+            "game_user_id": "1127790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "saves": 1,
+                "score": 520,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 3,
+                "assists": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 6
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 360,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 3,
+                "assists": 3,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 5,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Syy :D [muted]",
+            "game_user_id": "1506478"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 370,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 5,
+                "assists": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 25
+            },
+            "username": "chaos",
+            "game_user_id": "1026914"
+        }
+    ],
+    "match_id": "3086def0-6439-4514-b07e-73c5611ef8ee",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

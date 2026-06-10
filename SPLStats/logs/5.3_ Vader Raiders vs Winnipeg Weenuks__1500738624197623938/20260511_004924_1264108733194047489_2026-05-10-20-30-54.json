@@ -1,0 +1,148 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 190,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 3,
+                "post_hits": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "DrPecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 155,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 1,
+                "assists": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 5
+            },
+            "username": "TheRealAmeriCam",
+            "game_user_id": "1937517"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 145,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 3,
+                "assists": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 5,
+                "score": 725,
+                "shots": 6,
+                "passes": 11,
+                "assists": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 16
+            },
+            "username": "pwod",
+            "game_user_id": "909828"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 415,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 5,
+                "assists": 3,
+                "takeaways": 5,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "secondary_assists": 1,
+                "possession_time_sec": 50
+            },
+            "username": "King",
+            "game_user_id": "634779"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 370,
+                "shots": 3,
+                "passes": 9,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 10
+            },
+            "username": "romey",
+            "game_user_id": "183790"
+        }
+    ],
+    "match_id": "13e813f4-f19c-4d6e-b26a-85df537f0e57",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

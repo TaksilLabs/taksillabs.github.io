@@ -1,0 +1,154 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 430,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 8,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 27
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 310,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 8,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 11
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 285,
+                "shots": 1,
+                "blocks": 5,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 28
+            },
+            "username": "[ATL]PatK9123",
+            "game_user_id": "1392514"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 2,
+                "score": 165,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 1,
+                "assists": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Ol'Woodster",
+            "game_user_id": "16437"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 150,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "JoshAllenfan420",
+            "game_user_id": "16435"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 190,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "post_hits": 2,
+                "takeaways": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 25
+            },
+            "username": "minimongo",
+            "game_user_id": "833724"
+        }
+    ],
+    "match_id": "312eca68-5ce3-4117-a253-c57206afe392",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

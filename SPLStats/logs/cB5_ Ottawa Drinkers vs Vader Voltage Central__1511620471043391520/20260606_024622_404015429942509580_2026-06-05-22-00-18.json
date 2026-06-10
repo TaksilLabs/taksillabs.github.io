@@ -1,0 +1,132 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 140,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 16
+            },
+            "username": "BroBurgota",
+            "game_user_id": "431751"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 150,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 5,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Skiz",
+            "game_user_id": "4633"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 85,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 10,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Cozbee",
+            "game_user_id": "66123"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 175,
+                "shots": 3,
+                "passes": 14,
+                "post_hits": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 8
+            },
+            "username": "SolaceThunders",
+            "game_user_id": "31950"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 275,
+                "shots": 1,
+                "blocks": 6,
+                "passes": 13,
+                "assists": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "Wind",
+            "game_user_id": "613713"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 95,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 8,
+                "takeaways": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 5
+            },
+            "username": "Magix",
+            "game_user_id": "1064297"
+        }
+    ],
+    "match_id": "6c55e794-c95d-4a7b-bb18-39703bcb5a02",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

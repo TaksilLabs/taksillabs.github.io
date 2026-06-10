@@ -1,0 +1,163 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 240,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 53
+            },
+            "username": "FlowZ🍀",
+            "game_user_id": "723576"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 120,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 2,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 6
+            },
+            "username": "SPECT",
+            "game_user_id": "701724"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 3,
+                "score": 310,
+                "shots": 1,
+                "blocks": 8,
+                "losses": 1,
+                "passes": 13,
+                "turnovers": 5,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 11
+            },
+            "username": "spectacular333",
+            "game_user_id": "38517"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 390,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 25,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 15
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 300,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 16,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 60
+            },
+            "username": "Quion Games",
+            "game_user_id": "1519437"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 2,
+                "score": 425,
+                "shots": 5,
+                "blocks": 1,
+                "passes": 28,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 105
+            },
+            "username": "YackSlack",
+            "game_user_id": "640761"
+        }
+    ],
+    "match_id": "d904ad60-6728-4041-a6f9-1b871e9cbc09",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

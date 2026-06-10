@@ -1,0 +1,146 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 5
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 515,
+                "shots": 5,
+                "blocks": 1,
+                "passes": 8,
+                "assists": 1,
+                "post_hits": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 315,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 6,
+                "assists": 2,
+                "post_hits": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 2
+            },
+            "username": "Ademy24",
+            "game_user_id": "710101"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 350,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 2,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 1
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "score": 360,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 2,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3
+            },
+            "username": "DrPecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 200,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 5,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 1
+            },
+            "username": "TheRealAmeriCam",
+            "game_user_id": "1937517"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 3,
+                "score": 305,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 2,
+                "assists": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        }
+    ],
+    "match_id": "2d9e6004-13a3-452b-b351-5336c6c602d9",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

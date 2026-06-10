@@ -1,0 +1,161 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 10,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 6,
+                "score": 490,
+                "shots": 3,
+                "blocks": 6,
+                "losses": 3,
+                "passes": 18,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 10,
+                "periods_played": 3,
+                "contributed_goals": 3,
+                "possession_time_sec": 27
+            },
+            "username": "Camp",
+            "game_user_id": "1403753"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 4,
+                "score": 555,
+                "shots": 4,
+                "blocks": 10,
+                "losses": 3,
+                "passes": 19,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 10,
+                "periods_played": 3,
+                "contributed_goals": 3,
+                "possession_time_sec": 65
+            },
+            "username": "Beamer",
+            "game_user_id": "374"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 6,
+                "score": 450,
+                "shots": 2,
+                "blocks": 13,
+                "losses": 3,
+                "passes": 16,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "conceded_goals": 10,
+                "periods_played": 3,
+                "contributed_goals": 3,
+                "possession_time_sec": 39
+            },
+            "username": "DrY",
+            "game_user_id": "44240"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 3,
+                "goals": 5,
+                "score": 1180,
+                "shots": 14,
+                "blocks": 3,
+                "passes": 31,
+                "assists": 3,
+                "post_hits": 6,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 3,
+                "periods_played": 3,
+                "primary_assists": 3,
+                "contributed_goals": 10,
+                "possession_time_sec": 38
+            },
+            "username": "AlienManaBanana",
+            "game_user_id": "587848"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 3,
+                "goals": 1,
+                "saves": 6,
+                "score": 605,
+                "shots": 1,
+                "blocks": 8,
+                "passes": 14,
+                "assists": 3,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 10,
+                "secondary_assists": 2,
+                "possession_time_sec": 64
+            },
+            "username": "MonsieurGas",
+            "game_user_id": "538553"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 3,
+                "goals": 4,
+                "score": 795,
+                "shots": 11,
+                "blocks": 3,
+                "passes": 23,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 10,
+                "possession_time_sec": 26
+            },
+            "username": "Mollenkoffee",
+            "game_user_id": "17022"
+        }
+    ],
+    "match_id": "2a646976-5fd8-44b6-9363-74b5b66e2363",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

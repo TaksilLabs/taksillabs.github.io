@@ -1,0 +1,148 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 335,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 12,
+                "assists": 1,
+                "takeaways": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 34
+            },
+            "username": "graves",
+            "game_user_id": "437644"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 275,
+                "blocks": 1,
+                "passes": 13,
+                "assists": 3,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 6,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 2,
+                "possession_time_sec": 63
+            },
+            "username": "bLue :)",
+            "game_user_id": "100703"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 275,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 14,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 29
+            },
+            "username": "Fueeqo",
+            "game_user_id": "230791"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 175,
+                "shots": 1,
+                "passes": 3,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 14
+            },
+            "username": "hill",
+            "game_user_id": "1378966"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 140,
+                "blocks": 3,
+                "passes": 1,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 7
+            },
+            "username": "Mahalo",
+            "game_user_id": "550187"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 285,
+                "shots": 2,
+                "passes": 3,
+                "takeaways": 1,
+                "turnovers": 4,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 14
+            },
+            "username": "mace",
+            "game_user_id": "144"
+        }
+    ],
+    "match_id": "7b68540c-d4af-487f-9995-173e907d2bc3",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

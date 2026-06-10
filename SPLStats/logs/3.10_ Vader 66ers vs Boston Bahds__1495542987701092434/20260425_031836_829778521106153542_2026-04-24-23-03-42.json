@@ -1,0 +1,157 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 285,
+                "shots": 2,
+                "blocks": 7,
+                "losses": 2,
+                "passes": 15,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 41
+            },
+            "username": "Rigg",
+            "game_user_id": "1530583"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 320,
+                "shots": 5,
+                "blocks": 8,
+                "losses": 2,
+                "passes": 17,
+                "takeaways": 2,
+                "turnovers": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 15
+            },
+            "username": "lilcricket26",
+            "game_user_id": "1287792"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 280,
+                "shots": 4,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 20,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 23
+            },
+            "username": "LiquidPoo22",
+            "game_user_id": "1722341"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 7,
+                "score": 530,
+                "shots": 1,
+                "blocks": 7,
+                "passes": 7,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 32
+            },
+            "username": "Ademy24",
+            "game_user_id": "710101"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 2,
+                "score": 135,
+                "blocks": 5,
+                "passes": 10,
+                "shutouts": 1,
+                "takeaways": 4,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 17
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 415,
+                "shots": 3,
+                "blocks": 4,
+                "passes": 17,
+                "shutouts": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 12
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        }
+    ],
+    "match_id": "d154a95a-a7c7-458d-b883-53587a0de862",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

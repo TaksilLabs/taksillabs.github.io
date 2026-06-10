@@ -1,0 +1,183 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 10,
+        "home": 7
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 265,
+                "shots": 2,
+                "blocks": 8,
+                "losses": 3,
+                "passes": 13,
+                "assists": 1,
+                "takeaways": 6,
+                "turnovers": 3,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 10,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 29
+            },
+            "username": "mattyb69",
+            "game_user_id": "639136"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 130,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 3,
+                "passes": 6,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 10,
+                "periods_played": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 16
+            },
+            "username": "Mumen Rider",
+            "game_user_id": "639126"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 7,
+                "saves": 2,
+                "score": 1220,
+                "shots": 11,
+                "blocks": 10,
+                "losses": 3,
+                "passes": 10,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 5,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 10,
+                "periods_played": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 30
+            },
+            "username": "mattyb30",
+            "game_user_id": "639097"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 3,
+                "goals": 1,
+                "score": 305,
+                "shots": 2,
+                "blocks": 6,
+                "passes": 22,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 6,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 7,
+                "periods_played": 3,
+                "contributed_goals": 10,
+                "secondary_assists": 1,
+                "possession_time_sec": 10
+            },
+            "username": "snoopy",
+            "game_user_id": "735269"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 6,
+                "saves": 7,
+                "score": 1295,
+                "shots": 8,
+                "blocks": 8,
+                "passes": 11,
+                "assists": 2,
+                "takeaways": 4,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 8,
+                "secondary_assists": 1,
+                "possession_time_sec": 78
+            },
+            "username": "Lucki Eck$",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 285,
+                "shots": 1,
+                "blocks": 7,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 13
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 360,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 9,
+                "assists": 1,
+                "takeaways": 5,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 21
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        }
+    ],
+    "match_id": "4175fa1d-9a28-44d4-bfd9-222c286d1c0b",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

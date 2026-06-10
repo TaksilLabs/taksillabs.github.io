@@ -1,0 +1,189 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 11,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 245,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 5,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 9,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Oblivion",
+            "game_user_id": "1071429"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 200,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 8,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 11,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "X6C   8---D ~",
+            "game_user_id": "871020"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 9,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Tony",
+            "game_user_id": "1294369"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "was_mercy_ruled": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Headass",
+            "game_user_id": "173111"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "losses": 1,
+                "passes": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "was_mercy_ruled": 1,
+                "possession_time_sec": 2
+            },
+            "username": "pl4zma",
+            "game_user_id": "636422"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 595,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 1,
+                "contributed_goals": 10,
+                "secondary_assists": 1,
+                "possession_time_sec": 10
+            },
+            "username": "[MM] sweatshirt 🪄",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 915,
+                "shots": 7,
+                "blocks": 2,
+                "passes": 8,
+                "assists": 4,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 3,
+                "contributed_goals": 11,
+                "secondary_assists": 1,
+                "possession_time_sec": 9
+            },
+            "username": "[MM] Syy :D 🪄",
+            "game_user_id": "1506478"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 825,
+                "shots": 5,
+                "blocks": 1,
+                "passes": 15,
+                "assists": 4,
+                "post_hits": 2,
+                "takeaways": 6,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 3,
+                "contributed_goals": 11,
+                "secondary_assists": 1,
+                "possession_time_sec": 50
+            },
+            "username": "[MM] Chaos 🪄",
+            "game_user_id": "1026914"
+        }
+    ],
+    "match_id": "9780485e-2ecd-4f80-aa66-3f88b242863e",
+    "end_reason": "MercyRule",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

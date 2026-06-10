@@ -1,0 +1,128 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 3
+            },
+            "username": "xRevision",
+            "game_user_id": "1723185"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 80,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 2,
+                "takeaways": 6,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 33
+            },
+            "username": "Rigg",
+            "game_user_id": "1530583"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 170,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 6,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 2
+            },
+            "username": "lilcricket26",
+            "game_user_id": "1287792"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 155,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 6,
+                "shutouts": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 25
+            },
+            "username": "Glitch",
+            "game_user_id": "18350"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "passes": 5,
+                "shutouts": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 210,
+                "shots": 3,
+                "passes": 6,
+                "shutouts": 1,
+                "post_hits": 2,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 24
+            },
+            "username": "JG Wentworth 877-Cash-Now",
+            "game_user_id": "1591253"
+        }
+    ],
+    "match_id": "4d8d9fbe-204d-49e7-83a7-84efd059975a",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

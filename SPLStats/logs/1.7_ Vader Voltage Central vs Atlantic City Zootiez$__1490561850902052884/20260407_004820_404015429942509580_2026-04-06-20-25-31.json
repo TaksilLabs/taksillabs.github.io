@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 45,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Connor",
+            "game_user_id": "365"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 90,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 8,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 16
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 4,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 28
+            },
+            "username": "withdrawals",
+            "game_user_id": "1326629"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 255,
+                "shots": 2,
+                "passes": 6,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 9
+            },
+            "username": "I get no huzz",
+            "game_user_id": "1487752"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 340,
+                "shots": 2,
+                "passes": 7,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 15
+            },
+            "username": "SolaceThunders",
+            "game_user_id": "31950"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 465,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 6,
+                "assists": 2,
+                "shutouts": 1,
+                "takeaways": 4,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 23
+            },
+            "username": "Wind",
+            "game_user_id": "613713"
+        }
+    ],
+    "match_id": "91c2cd4d-7dfe-4072-90af-7822f61828d1",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

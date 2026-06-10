@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 1
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 220,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 12,
+                "shutouts": 1,
+                "post_hits": 1,
+                "turnovers": 4,
+                "games_played": 2,
+                "periods_played": 2,
+                "contributed_goals": 1,
+                "possession_time_sec": 11
+            },
+            "username": "Richard Tantrum",
+            "game_user_id": "877669"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 4,
+                "score": 265,
+                "shots": 2,
+                "blocks": 6,
+                "passes": 4,
+                "shutouts": 1,
+                "takeaways": 6,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "contributed_goals": 1,
+                "possession_time_sec": 90
+            },
+            "username": "ORO",
+            "game_user_id": "163309"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "score": 160,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 33
+            },
+            "username": "maiaa^^🐙",
+            "game_user_id": "1269140"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 5,
+                "score": 320,
+                "shots": 1,
+                "blocks": 9,
+                "losses": 1,
+                "passes": 20,
+                "post_hits": 1,
+                "takeaways": 6,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "possession_time_sec": 59
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 3,
+                "score": 200,
+                "shots": 1,
+                "blocks": 7,
+                "losses": 1,
+                "passes": 12,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "possession_time_sec": 29
+            },
+            "username": "r._.fhtk",
+            "game_user_id": "1238330"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 80,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 13,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "possession_time_sec": 14
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        }
+    ],
+    "match_id": "af8aa997-a730-4f7c-83fc-840d2f4ac465",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

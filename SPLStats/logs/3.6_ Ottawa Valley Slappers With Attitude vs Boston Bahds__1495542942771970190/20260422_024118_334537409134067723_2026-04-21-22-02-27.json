@@ -1,0 +1,131 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 45,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 23
+            },
+            "username": "Crayon",
+            "game_user_id": "61597"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 55,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 6,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 12
+            },
+            "username": "800-588-2300 Empire Today",
+            "game_user_id": "1591250"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 75,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Glitch",
+            "game_user_id": "18350"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 205,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 4,
+                "shutouts": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 39
+            },
+            "username": "Ademy24",
+            "game_user_id": "710101"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 25,
+                "blocks": 1,
+                "passes": 7,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 75,
+                "passes": 9,
+                "assists": 1,
+                "shutouts": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 21
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        }
+    ],
+    "match_id": "a77ee79f-d42f-4b6b-beec-fe150a763fbd",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "shots": 1,
+                "losses": 1,
+                "passes": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 4,
+                "score": 315,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 2,
+                "turnovers": 5,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 23
+            },
+            "username": "Ademy24",
+            "game_user_id": "710101"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 145,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 5,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 210,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 5,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 1
+            },
+            "username": "[GOOS] ScitruS",
+            "game_user_id": "2069819"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 245,
+                "shots": 4,
+                "blocks": 3,
+                "passes": 3,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 7
+            },
+            "username": "[GOOS] MacademySammy88",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 110,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 5,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 35
+            },
+            "username": "xaumes",
+            "game_user_id": "907417"
+        }
+    ],
+    "match_id": "e8736203-b4d7-4199-8b95-8cb2518fbfb7",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

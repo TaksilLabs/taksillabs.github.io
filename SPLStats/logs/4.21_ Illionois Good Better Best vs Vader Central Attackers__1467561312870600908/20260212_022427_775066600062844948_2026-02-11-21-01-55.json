@@ -1,0 +1,147 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 120,
+                "shots": 2,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 11
+            },
+            "username": "mattyb69",
+            "game_user_id": "639136"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 105,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 2,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Mumen Rider",
+            "game_user_id": "639126"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 260,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 20
+            },
+            "username": "mattyb30",
+            "game_user_id": "639097"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 175,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 9,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 5
+            },
+            "username": "snoopy",
+            "game_user_id": "735269"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "saves": 5,
+                "score": 805,
+                "shots": 5,
+                "blocks": 4,
+                "passes": 5,
+                "assists": 1,
+                "takeaways": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 67
+            },
+            "username": "Lucki Eck$",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 85,
+                "blocks": 1,
+                "passes": 4,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 3
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        }
+    ],
+    "match_id": "536e7e54-fb1e-469e-b7d3-6b575f732f5e",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

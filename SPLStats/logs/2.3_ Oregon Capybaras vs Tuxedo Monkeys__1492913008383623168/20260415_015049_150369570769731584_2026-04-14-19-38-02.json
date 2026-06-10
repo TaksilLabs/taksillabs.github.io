@@ -1,0 +1,165 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 165,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 8,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 31
+            },
+            "username": "x6c",
+            "game_user_id": "871020"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 135,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 34
+            },
+            "username": "pl4zma",
+            "game_user_id": "636422"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 50,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 12,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 11
+            },
+            "username": "Carried By Dad",
+            "game_user_id": "323270"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 45,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 54
+            },
+            "username": "Headass",
+            "game_user_id": "173111"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 220,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 15,
+                "shutouts": 2,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 21
+            },
+            "username": "Booby Orr",
+            "game_user_id": "154306"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 2,
+                "score": 335,
+                "shots": 4,
+                "blocks": 5,
+                "passes": 19,
+                "shutouts": 2,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 100
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 2,
+                "score": 225,
+                "blocks": 5,
+                "passes": 13,
+                "assists": 1,
+                "shutouts": 2,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 8
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        }
+    ],
+    "match_id": "7be2e26d-9311-475b-9215-bc1709a362d0",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

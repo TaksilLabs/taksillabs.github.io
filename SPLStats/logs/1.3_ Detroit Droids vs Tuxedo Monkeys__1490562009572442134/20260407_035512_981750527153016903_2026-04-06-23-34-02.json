@@ -1,0 +1,151 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 5
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 480,
+                "shots": 4,
+                "blocks": 5,
+                "passes": 5,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 2,
+                "possession_time_sec": 8
+            },
+            "username": "Hydroid.",
+            "game_user_id": "1836154"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 385,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 7,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 31
+            },
+            "username": "JoeySlaps YT",
+            "game_user_id": "914448"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 380,
+                "shots": 1,
+                "passes": 12,
+                "assists": 3,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 5,
+                "possession_time_sec": 5
+            },
+            "username": "Gold",
+            "game_user_id": "914959"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 210,
+                "shots": 2,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 10,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 55,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 7
+            },
+            "username": "Booby Orr",
+            "game_user_id": "154306"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 2,
+                "score": 180,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 6,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        }
+    ],
+    "match_id": "c57e1918-07d3-4b4f-9ecb-355499522dff",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

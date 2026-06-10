@@ -1,0 +1,137 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 285,
+                "shots": 2,
+                "passes": 7,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "Yon",
+            "game_user_id": "1086511"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 185,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 2,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1
+            },
+            "username": "YackSlack",
+            "game_user_id": "640761"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 300,
+                "shots": 2,
+                "passes": 8,
+                "assists": 2,
+                "post_hits": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3
+            },
+            "username": "Max",
+            "game_user_id": "818797"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 265,
+                "shots": 2,
+                "passes": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "withdrawals",
+            "game_user_id": "1326629"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 3,
+                "score": 180,
+                "shots": 1,
+                "passes": 5,
+                "assists": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 36
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 380,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 7,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 3,
+                "faceoffs_won": 5,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 14
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        }
+    ],
+    "match_id": "d1992d23-13f6-4c4b-9d4f-d7d493b3b6f9",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

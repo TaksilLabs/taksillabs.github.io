@@ -1,0 +1,163 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 6
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 590,
+                "shots": 5,
+                "blocks": 9,
+                "passes": 19,
+                "assists": 4,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 6,
+                "secondary_assists": 1,
+                "possession_time_sec": 28
+            },
+            "username": "[GOOS] ScitruS",
+            "game_user_id": "2069819"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 2,
+                "score": 335,
+                "shots": 3,
+                "blocks": 6,
+                "passes": 8,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 6,
+                "possession_time_sec": 9
+            },
+            "username": "[GOOS] MacademySammy88",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 830,
+                "shots": 9,
+                "blocks": 1,
+                "passes": 23,
+                "assists": 2,
+                "shutouts": 1,
+                "post_hits": 3,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 6,
+                "possession_time_sec": 17
+            },
+            "username": "xaumes",
+            "game_user_id": "907417"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 3,
+                "saves": 2,
+                "score": 590,
+                "shots": 4,
+                "blocks": 9,
+                "losses": 2,
+                "passes": 13,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 10
+            },
+            "username": "TMNNational",
+            "game_user_id": "666987"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 4,
+                "score": 325,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 8,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 2
+            },
+            "username": "kane",
+            "game_user_id": "971165"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 5,
+                "score": 405,
+                "blocks": 8,
+                "losses": 2,
+                "passes": 11,
+                "assists": 2,
+                "takeaways": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 18
+            },
+            "username": "[CCS]?wuzzy¿",
+            "game_user_id": "782837"
+        }
+    ],
+    "match_id": "20ee2c0b-7335-4e39-820c-71cc04070dbf",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

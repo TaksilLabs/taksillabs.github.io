@@ -1,0 +1,167 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 2,
+                "score": 340,
+                "shots": 1,
+                "blocks": 10,
+                "losses": 2,
+                "passes": 12,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 10
+            },
+            "username": "Youud",
+            "game_user_id": "1048636"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 3,
+                "score": 505,
+                "shots": 2,
+                "blocks": 12,
+                "losses": 2,
+                "passes": 20,
+                "takeaways": 4,
+                "turnovers": 6,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 35
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 5,
+                "score": 240,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 20,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 41
+            },
+            "username": "r._.fhtk",
+            "game_user_id": "1238330"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 285,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 9,
+                "assists": 1,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 19
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 220,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 9,
+                "takeaways": 8,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 63
+            },
+            "username": "chaos",
+            "game_user_id": "1026914"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 425,
+                "shots": 6,
+                "passes": 5,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 14
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 60,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "possession_time_sec": 23
+            },
+            "username": "ORO",
+            "game_user_id": "163309"
+        }
+    ],
+    "match_id": "4b7faed0-e499-4ade-a96f-a6f40e4bff97",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

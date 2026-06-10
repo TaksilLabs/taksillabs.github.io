@@ -1,0 +1,158 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 9,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 130,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 10,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 5
+            },
+            "username": "Rhino",
+            "game_user_id": "1147161"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 3,
+                "score": 395,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 11,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "Nayr[QC]",
+            "game_user_id": "286293"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 440,
+                "shots": 2,
+                "blocks": 12,
+                "losses": 2,
+                "passes": 9,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 52
+            },
+            "username": "FlowZ",
+            "game_user_id": "723576"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 6,
+                "score": 960,
+                "shots": 10,
+                "blocks": 2,
+                "passes": 32,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 9,
+                "possession_time_sec": 30
+            },
+            "username": "Flc",
+            "game_user_id": "327512"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 1,
+                "score": 400,
+                "blocks": 3,
+                "passes": 29,
+                "assists": 4,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 9,
+                "secondary_assists": 1,
+                "possession_time_sec": 29
+            },
+            "username": "Xavier",
+            "game_user_id": "625731"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "saves": 1,
+                "score": 840,
+                "shots": 4,
+                "blocks": 4,
+                "passes": 22,
+                "assists": 4,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 6,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 9,
+                "secondary_assists": 1,
+                "possession_time_sec": 61
+            },
+            "username": "rat",
+            "game_user_id": "494865"
+        }
+    ],
+    "match_id": "db835921-3246-465c-8cf8-0101292e3b8a",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

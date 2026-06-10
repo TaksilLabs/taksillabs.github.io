@@ -1,0 +1,145 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 5
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 195,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 6,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 15
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "saves": 1,
+                "score": 750,
+                "shots": 7,
+                "blocks": 5,
+                "passes": 8,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 23
+            },
+            "username": "Lucki Eck$",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 215,
+                "passes": 5,
+                "assists": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 3
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 155,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 8,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 5
+            },
+            "username": "RosieYW",
+            "game_user_id": "1238330"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 3,
+                "score": 185,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 12
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "saves": 1,
+                "score": 310,
+                "shots": 3,
+                "losses": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 3
+            },
+            "username": "Nayr[QC]",
+            "game_user_id": "286293"
+        }
+    ],
+    "match_id": "54735d03-29f9-4b88-9d98-35c857a5083b",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

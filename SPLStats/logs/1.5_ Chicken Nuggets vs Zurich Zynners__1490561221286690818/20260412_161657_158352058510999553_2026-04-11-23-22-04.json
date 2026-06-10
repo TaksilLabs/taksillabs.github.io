@@ -1,0 +1,143 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 220,
+                "blocks": 2,
+                "passes": 9,
+                "assists": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 30
+            },
+            "username": "r._.fhtk",
+            "game_user_id": "1238330"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 3,
+                "score": 280,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 7,
+                "assists": 2,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 2,
+                "possession_time_sec": 2
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "saves": 1,
+                "score": 440,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 6,
+                "post_hits": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 3
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 145,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 5,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 29
+            },
+            "username": "x6c",
+            "game_user_id": "871020"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 60,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 20
+            },
+            "username": "Poppanut",
+            "game_user_id": "191072"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 225,
+                "shots": 3,
+                "losses": 1,
+                "passes": 4,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Pediatric Patrick",
+            "game_user_id": "356153"
+        }
+    ],
+    "match_id": "68b5c3aa-358a-47ba-9c5f-d28e9b7f4106",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

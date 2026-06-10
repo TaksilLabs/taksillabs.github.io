@@ -1,0 +1,160 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 45,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 16,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 10
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 250,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 14,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 10
+            },
+            "username": "Glitch",
+            "game_user_id": "18350"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 75,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 16
+            },
+            "username": "JG Wentworth 877-Cash-Now",
+            "game_user_id": "1591253"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 50,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 6,
+                "turnovers": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 22
+            },
+            "username": "Crayon",
+            "game_user_id": "61597"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 180,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 13,
+                "shutouts": 2,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 13
+            },
+            "username": "DrPecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 2,
+                "score": 305,
+                "shots": 1,
+                "blocks": 6,
+                "passes": 19,
+                "assists": 2,
+                "shutouts": 2,
+                "post_hits": 1,
+                "takeaways": 6,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 88
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 315,
+                "shots": 3,
+                "blocks": 9,
+                "passes": 17,
+                "shutouts": 2,
+                "post_hits": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 13
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        }
+    ],
+    "match_id": "19e83162-12fb-48b7-a218-7a805c48c9b4",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

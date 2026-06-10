@@ -1,0 +1,132 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 1
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 155,
+                "blocks": 3,
+                "passes": 6,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 125,
+                "shots": 1,
+                "passes": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Dead2Soon",
+            "game_user_id": "449498"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 90,
+                "blocks": 4,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 18
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 60,
+                "blocks": 6,
+                "passes": 8,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 34
+            },
+            "username": "krapiix",
+            "game_user_id": "302214"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 145,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 7,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 11
+            },
+            "username": "TryOz",
+            "game_user_id": "690075"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 75,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 11,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "Ninionring",
+            "game_user_id": "1327924"
+        }
+    ],
+    "match_id": "8a51bd46-4abd-4891-9950-2edf4828e28c",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

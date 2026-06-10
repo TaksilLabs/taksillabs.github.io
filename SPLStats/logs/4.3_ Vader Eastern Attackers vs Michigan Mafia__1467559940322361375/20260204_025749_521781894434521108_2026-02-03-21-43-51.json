@@ -1,0 +1,161 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 3,
+                "saves": 2,
+                "score": 545,
+                "shots": 6,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 13,
+                "post_hits": 4,
+                "takeaways": 1,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 33
+            },
+            "username": "Skiz",
+            "game_user_id": "4633"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 4,
+                "score": 385,
+                "shots": 2,
+                "blocks": 8,
+                "losses": 1,
+                "passes": 4,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "secondary_assists": 2,
+                "possession_time_sec": 55
+            },
+            "username": "Reeko",
+            "game_user_id": "634448"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 220,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 12,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 6
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 5,
+                "score": 365,
+                "blocks": 5,
+                "passes": 22,
+                "assists": 2,
+                "takeaways": 7,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 51
+            },
+            "username": "stiff",
+            "game_user_id": "379522"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 330,
+                "shots": 5,
+                "blocks": 3,
+                "passes": 15,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 12
+            },
+            "username": "PixelSquidy",
+            "game_user_id": "3574"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 410,
+                "shots": 4,
+                "blocks": 3,
+                "passes": 15,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 12
+            },
+            "username": "tef",
+            "game_user_id": "136795"
+        }
+    ],
+    "match_id": "d71e76fe-6e52-4f66-ae3e-17d5b3db802a",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

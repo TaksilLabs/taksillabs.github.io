@@ -1,0 +1,148 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 2
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 225,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 16,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 32
+            },
+            "username": "Youud",
+            "game_user_id": "1048636"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "saves": 3,
+                "score": 295,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 19,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 42
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "score": 235,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 24,
+                "assists": 2,
+                "takeaways": 4,
+                "turnovers": 11,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 29
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "saves": 5,
+                "score": 480,
+                "shots": 4,
+                "blocks": 4,
+                "passes": 13,
+                "assists": 2,
+                "takeaways": 13,
+                "turnovers": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 82
+            },
+            "username": "hill",
+            "game_user_id": "1378966"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 250,
+                "shots": 1,
+                "blocks": 8,
+                "passes": 8,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 20
+            },
+            "username": "jqkson",
+            "game_user_id": "837003"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 140,
+                "shots": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 4
+            },
+            "username": "derpthemelon",
+            "game_user_id": "1303760"
+        }
+    ],
+    "match_id": "784d54cd-8abd-49dd-b0ec-449f65a2a669",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

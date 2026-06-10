@@ -1,0 +1,182 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 6
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 160,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 9,
+                "assists": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 10
+            },
+            "username": "DrPecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 5,
+                "saves": 1,
+                "score": 775,
+                "shots": 6,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 12,
+                "post_hits": 2,
+                "takeaways": 3,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "contributed_goals": 6,
+                "possession_time_sec": 8
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 4,
+                "score": 420,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 8,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 33
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 265,
+                "shots": 2,
+                "passes": 6,
+                "assists": 3,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 2
+            },
+            "username": "zuke",
+            "game_user_id": "570261"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 5,
+                "score": 995,
+                "shots": 7,
+                "blocks": 14,
+                "passes": 19,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 19
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 465,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 12,
+                "assists": 3,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "secondary_assists": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 265,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 13,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 7
+            },
+            "username": "AndrewDewar104",
+            "game_user_id": "453698"
+        }
+    ],
+    "match_id": "3ef2a931-4631-4df1-b7ad-b429748fcd5d",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

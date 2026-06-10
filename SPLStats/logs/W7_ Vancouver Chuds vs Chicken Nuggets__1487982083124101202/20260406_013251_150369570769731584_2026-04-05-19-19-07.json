@@ -1,0 +1,137 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "losses": 1,
+                "passes": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 1
+            },
+            "username": "derpthemelon",
+            "game_user_id": "1303760"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 60,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 2,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 2
+            },
+            "username": "kmoe",
+            "game_user_id": "1856401"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 110,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 1,
+                "takeaways": 3,
+                "turnovers": 3,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 20
+            },
+            "username": "jqkson",
+            "game_user_id": "837003"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 330,
+                "shots": 3,
+                "blocks": 4,
+                "passes": 17,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 19
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 315,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 11,
+                "shutouts": 1,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 17
+            },
+            "username": "Youud",
+            "game_user_id": "1048636"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 465,
+                "shots": 2,
+                "passes": 14,
+                "assists": 4,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 4,
+                "contributed_goals": 5,
+                "possession_time_sec": 37
+            },
+            "username": "x6c",
+            "game_user_id": "871020"
+        }
+    ],
+    "match_id": "e3642ae0-0b2a-43d1-97a0-2611a66b6aaa",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

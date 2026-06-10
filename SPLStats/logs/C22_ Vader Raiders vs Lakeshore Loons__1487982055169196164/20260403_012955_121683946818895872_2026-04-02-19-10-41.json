@@ -1,0 +1,193 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 170,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 10,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 16
+            },
+            "username": "DrPecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 3,
+                "score": 445,
+                "shots": 1,
+                "blocks": 11,
+                "losses": 2,
+                "passes": 14,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 29
+            },
+            "username": "GoldRush",
+            "game_user_id": "1572949"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 150,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 39
+            },
+            "username": "☐☐☐★",
+            "game_user_id": "1290298"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 190,
+                "shots": 2,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 9,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "TheRealAmeriCam",
+            "game_user_id": "1937517"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 155,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 14,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 4
+            },
+            "username": "Jot",
+            "game_user_id": "1452681"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 335,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 15,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 12
+            },
+            "username": "West",
+            "game_user_id": "1450864"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 440,
+                "shots": 5,
+                "blocks": 4,
+                "passes": 21,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 15
+            },
+            "username": "frosty",
+            "game_user_id": "1450531"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 150,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 6,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 11
+            },
+            "username": "Rocker`",
+            "game_user_id": "1450474"
+        }
+    ],
+    "match_id": "f94973ef-f936-43bb-b6ee-1519d6df6c05",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

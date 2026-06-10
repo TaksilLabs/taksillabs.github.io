@@ -1,0 +1,119 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 0
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 60,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 5,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Richard Tantrum",
+            "game_user_id": "877669"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 3,
+                "score": 150,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 2,
+                "takeaways": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "possession_time_sec": 58
+            },
+            "username": "ORO",
+            "game_user_id": "163309"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 50,
+                "shots": 2,
+                "passes": 5,
+                "takeaways": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 18
+            },
+            "username": "maiaa^^🐙",
+            "game_user_id": "1269140"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 4,
+                "score": 220,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 11,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 32
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 75,
+                "blocks": 4,
+                "passes": 5,
+                "turnovers": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 9
+            },
+            "username": "r._.fhtk",
+            "game_user_id": "1238330"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 60,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 6,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        }
+    ],
+    "match_id": "c131ffa7-4403-442a-b8d8-d9eb37af9634",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,117 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 0
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 70,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 3,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 65,
+                "blocks": 3,
+                "passes": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 30
+            },
+            "username": "Ademy24",
+            "game_user_id": "710101"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 10,
+                "blocks": 1,
+                "passes": 4,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "possession_time_sec": 3
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 40,
+                "shots": 1,
+                "passes": 11,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 15
+            },
+            "username": "[GOOS] Rat",
+            "game_user_id": "907417"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 55,
+                "blocks": 2,
+                "passes": 9,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 26
+            },
+            "username": "[GOOS] MacademySammy88",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 115,
+                "blocks": 8,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 13
+            },
+            "username": "[GOOS] ScitruS",
+            "game_user_id": "2069819"
+        }
+    ],
+    "match_id": "2379a8b0-bc8b-46ba-a62a-5ec31b900d9f",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

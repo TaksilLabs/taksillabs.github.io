@@ -1,0 +1,137 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 65,
+                "shots": 2,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 12
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "shots": 1,
+                "losses": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 18
+            },
+            "username": "graves",
+            "game_user_id": "437644"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 160,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 5,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 50
+            },
+            "username": "chaos",
+            "game_user_id": "1026914"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 260,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 9,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 28
+            },
+            "username": "Trid",
+            "game_user_id": "1127790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 115,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 6,
+                "assists": 1,
+                "shutouts": 1,
+                "turnovers": 5,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 21
+            },
+            "username": "mace",
+            "game_user_id": "144"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 175,
+                "blocks": 3,
+                "passes": 6,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 35
+            },
+            "username": "lucki",
+            "game_user_id": "1367326"
+        }
+    ],
+    "match_id": "757b76eb-e186-4be1-9348-d1e2690059da",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

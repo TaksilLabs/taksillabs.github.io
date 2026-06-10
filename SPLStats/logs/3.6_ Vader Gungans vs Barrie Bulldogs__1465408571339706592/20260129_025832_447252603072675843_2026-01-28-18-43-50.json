@@ -1,0 +1,146 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 240,
+                "shots": 5,
+                "losses": 2,
+                "passes": 12,
+                "post_hits": 3,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 1,
+                "possession_time_sec": 20
+            },
+            "username": "North Side Diddy",
+            "game_user_id": "173111"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 240,
+                "shots": 2,
+                "blocks": 7,
+                "losses": 2,
+                "passes": 12,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 7,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 20
+            },
+            "username": "sweatshirt",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 85,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 15,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 5,
+                "turnovers": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 50
+            },
+            "username": "DaisyK💜",
+            "game_user_id": "1440597"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "saves": 1,
+                "score": 565,
+                "shots": 4,
+                "blocks": 3,
+                "passes": 13,
+                "takeaways": 9,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 31
+            },
+            "username": "Flc",
+            "game_user_id": "327512"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "score": 55,
+                "blocks": 4,
+                "passes": 11,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 16
+            },
+            "username": "meenimizer",
+            "game_user_id": "439532"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 5,
+                "score": 330,
+                "blocks": 8,
+                "passes": 11,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 4,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 35
+            },
+            "username": "Galalendon",
+            "game_user_id": "249493"
+        }
+    ],
+    "match_id": "7bc22c99-c994-467d-be6c-27b4d555ed57",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

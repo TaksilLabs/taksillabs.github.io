@@ -1,0 +1,192 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 85,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 4,
+                "takeaways": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 8
+            },
+            "username": "Tactical Miss",
+            "game_user_id": "1282529"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 220,
+                "shots": 2,
+                "blocks": 10,
+                "losses": 2,
+                "passes": 6,
+                "takeaways": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 30
+            },
+            "username": "Saucy :(",
+            "game_user_id": "758362"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 7,
+                "score": 335,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 6,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 21
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 420,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 19,
+                "assists": 2,
+                "shutouts": 2,
+                "post_hits": 2,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 35
+            },
+            "username": "jakee",
+            "game_user_id": "4153"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "score": 625,
+                "shots": 6,
+                "passes": 22,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 17
+            },
+            "username": "Jágr",
+            "game_user_id": "560316"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 220,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 9,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 4,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 12
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 285,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 5,
+                "assists": 1,
+                "shutouts": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 3
+            },
+            "username": "The Real Teddy Blueger",
+            "game_user_id": "848840"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 175,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 6
+            },
+            "username": "[CHA] Flc <~",
+            "game_user_id": "327512"
+        }
+    ],
+    "match_id": "db19bf5e-e7a5-4568-b684-3a6e81616c53",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

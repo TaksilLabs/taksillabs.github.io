@@ -1,0 +1,114 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 0
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 65,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 4,
+                "takeaways": 3,
+                "turnovers": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 19
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 55,
+                "blocks": 2,
+                "passes": 4,
+                "turnovers": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 14
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "passes": 4,
+                "turnovers": 4,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "possession_time_sec": 2
+            },
+            "username": "zuke",
+            "game_user_id": "570261"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 35,
+                "blocks": 2,
+                "passes": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 17
+            },
+            "username": "DrPecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 20,
+                "blocks": 2,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 60,
+                "shots": 1,
+                "passes": 8,
+                "takeaways": 8,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 63
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        }
+    ],
+    "match_id": "88eeec74-dc8c-4682-a3ea-ed0919674dde",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

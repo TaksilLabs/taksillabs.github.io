@@ -1,0 +1,134 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 1
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 40,
+                "shots": 1,
+                "passes": 5,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 29
+            },
+            "username": "Lord Osprey",
+            "game_user_id": "19647"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 155,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 12,
+                "post_hits": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 15
+            },
+            "username": "Drewiou",
+            "game_user_id": "200689"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 145,
+                "blocks": 4,
+                "passes": 7,
+                "assists": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 19
+            },
+            "username": "GuyEatingCereal",
+            "game_user_id": "1612111"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 120,
+                "blocks": 1,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 3,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 39
+            },
+            "username": "Camp",
+            "game_user_id": "1403753"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 135,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "DrY",
+            "game_user_id": "44240"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 40,
+                "blocks": 4,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 17
+            },
+            "username": "papi tef 😎",
+            "game_user_id": "472364"
+        }
+    ],
+    "match_id": "c9315285-ccd6-4a3a-a4ad-6888abc194b3",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

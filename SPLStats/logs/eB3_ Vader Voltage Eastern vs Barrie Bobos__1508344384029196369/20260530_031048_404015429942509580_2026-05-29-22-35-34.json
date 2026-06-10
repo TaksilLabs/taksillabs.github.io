@@ -1,0 +1,159 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 2,
+                "score": 365,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 20,
+                "takeaways": 2,
+                "turnovers": 6,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 11
+            },
+            "username": "SolaceThunders",
+            "game_user_id": "31950"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 160,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 13,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 6,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 69
+            },
+            "username": "Wind",
+            "game_user_id": "613713"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 235,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 17,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 5,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 32
+            },
+            "username": "Magix",
+            "game_user_id": "1064297"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 5,
+                "score": 470,
+                "blocks": 8,
+                "passes": 16,
+                "assists": 4,
+                "takeaways": 10,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "secondary_assists": 4,
+                "possession_time_sec": 100
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 435,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 13,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 11
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 615,
+                "shots": 6,
+                "blocks": 7,
+                "passes": 20,
+                "assists": 2,
+                "takeaways": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 13
+            },
+            "username": "[BHB] Yackslack",
+            "game_user_id": "640761"
+        }
+    ],
+    "match_id": "613c8530-967b-4573-8c94-2a35ddcb8d68",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

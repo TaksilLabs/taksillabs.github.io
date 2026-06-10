@@ -1,0 +1,160 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 6,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 12,
+                "score": 865,
+                "shots": 3,
+                "blocks": 11,
+                "losses": 2,
+                "passes": 11,
+                "post_hits": 2,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 30
+            },
+            "username": "Thugger",
+            "game_user_id": "110082"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 160,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 9,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Timmy",
+            "game_user_id": "40"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 4,
+                "score": 430,
+                "shots": 1,
+                "blocks": 9,
+                "losses": 2,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 5,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "Sasha McGavinsky",
+            "game_user_id": "5745"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 2,
+                "score": 470,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 15,
+                "assists": 4,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 6,
+                "secondary_assists": 2,
+                "possession_time_sec": 70
+            },
+            "username": "lucki",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 585,
+                "shots": 9,
+                "blocks": 1,
+                "passes": 23,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 6,
+                "possession_time_sec": 19
+            },
+            "username": "GoldenKnight",
+            "game_user_id": "75184"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 805,
+                "shots": 11,
+                "blocks": 1,
+                "passes": 21,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 6,
+                "turnovers": 4,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 26
+            },
+            "username": "bLue :)",
+            "game_user_id": "100703"
+        }
+    ],
+    "match_id": "4f658388-ad24-4c69-88fe-3b02dfb3428c",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

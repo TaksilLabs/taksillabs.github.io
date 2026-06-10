@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 90,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 10,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "qptreyqp(M)",
+            "game_user_id": "893565"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 80,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Kwispy(ColdHands)",
+            "game_user_id": "524929"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 305,
+                "shots": 4,
+                "blocks": 9,
+                "losses": 1,
+                "passes": 9,
+                "post_hits": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 16
+            },
+            "username": "Grimace (Muted, frick)",
+            "game_user_id": "524911"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 45,
+                "blocks": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 7
+            },
+            "username": "c.o.l.i.x",
+            "game_user_id": "712317"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 315,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 3,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 1
+            },
+            "username": "romey",
+            "game_user_id": "183790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 205,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 5,
+                "post_hits": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 12
+            },
+            "username": "Normalhumanboy",
+            "game_user_id": "265889"
+        }
+    ],
+    "match_id": "6f97d178-8161-4874-b2e3-6357481d7280",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

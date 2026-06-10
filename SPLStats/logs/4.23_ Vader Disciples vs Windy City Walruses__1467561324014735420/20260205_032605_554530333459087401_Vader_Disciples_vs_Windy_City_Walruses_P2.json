@@ -1,0 +1,157 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 12,
+        "home": 5
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "score": 340,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 9,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 15
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 225,
+                "blocks": 7,
+                "losses": 2,
+                "passes": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 10
+            },
+            "username": "TheRealAmeriCam",
+            "game_user_id": "1937517"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 3,
+                "saves": 1,
+                "score": 575,
+                "shots": 5,
+                "blocks": 7,
+                "losses": 2,
+                "passes": 13,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 19
+            },
+            "username": "Rigg",
+            "game_user_id": "1530583"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "saves": 2,
+                "score": 460,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 18,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 3,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 12,
+                "possession_time_sec": 35
+            },
+            "username": "plsstankrate",
+            "game_user_id": "1005628"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 6,
+                "score": 1165,
+                "shots": 9,
+                "blocks": 1,
+                "passes": 15,
+                "assists": 3,
+                "post_hits": 1,
+                "takeaways": 1,
+                "faceoffs_won": 7,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 12,
+                "possession_time_sec": 13
+            },
+            "username": "LilPrecip",
+            "game_user_id": "1005605"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "saves": 1,
+                "score": 845,
+                "shots": 6,
+                "blocks": 2,
+                "passes": 20,
+                "assists": 3,
+                "post_hits": 3,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 12,
+                "possession_time_sec": 29
+            },
+            "username": "My Rick Fell Off",
+            "game_user_id": "1005594"
+        }
+    ],
+    "match_id": "f5b178f2-1652-47f6-9b76-1bc62ead19e5",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

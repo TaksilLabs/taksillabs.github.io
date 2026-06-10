@@ -1,0 +1,143 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 345,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 8,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 3
+            },
+            "username": "AlienManaBanana",
+            "game_user_id": "587848"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 3,
+                "score": 160,
+                "blocks": 4,
+                "passes": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 10
+            },
+            "username": "MonsieurGas",
+            "game_user_id": "538553"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 305,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 8,
+                "post_hits": 1,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 8
+            },
+            "username": "Mollenkoffee",
+            "game_user_id": "17022"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "score": 295,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 10,
+                "post_hits": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 10
+            },
+            "username": "Thugger",
+            "game_user_id": "110082"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 200,
+                "shots": 2,
+                "losses": 1,
+                "passes": 13,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 3
+            },
+            "username": "Timmy",
+            "game_user_id": "40"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 60,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 13
+            },
+            "username": "Sasha McGavinsky",
+            "game_user_id": "5745"
+        }
+    ],
+    "match_id": "6d5e8f0a-4f88-47f4-b754-19c3f5390c13",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

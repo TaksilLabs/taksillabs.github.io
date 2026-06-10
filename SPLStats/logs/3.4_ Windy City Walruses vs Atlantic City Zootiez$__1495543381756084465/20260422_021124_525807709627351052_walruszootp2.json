@@ -1,0 +1,151 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 2,
+                "saves": 4,
+                "score": 570,
+                "shots": 3,
+                "blocks": 8,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 5,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 46
+            },
+            "username": "plsstankrate",
+            "game_user_id": "1005628"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "score": 30,
+                "passes": 6,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 2
+            },
+            "username": "Ranchero",
+            "game_user_id": "1713654"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 320,
+                "shots": 3,
+                "blocks": 7,
+                "passes": 11,
+                "assists": 1,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 24
+            },
+            "username": "My Rick Fell Off",
+            "game_user_id": "1005594"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 330,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 20,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 25
+            },
+            "username": "withdrawals",
+            "game_user_id": "1326629"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 180,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 12,
+                "takeaways": 5,
+                "turnovers": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 44
+            },
+            "username": "BingBong",
+            "game_user_id": "157105"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "saves": 3,
+                "score": 430,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 11,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 74
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        }
+    ],
+    "match_id": "70132131-d972-4905-a998-c4fd022e05cf",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

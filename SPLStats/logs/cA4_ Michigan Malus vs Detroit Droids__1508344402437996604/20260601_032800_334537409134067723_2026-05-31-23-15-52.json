@@ -1,0 +1,163 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 5
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 4,
+                "score": 595,
+                "shots": 5,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 24,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 47
+            },
+            "username": "Syy :D",
+            "game_user_id": "1506478"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 425,
+                "shots": 5,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 25,
+                "assists": 2,
+                "post_hits": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 49
+            },
+            "username": "graves",
+            "game_user_id": "437644"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 490,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 24,
+                "assists": 4,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "secondary_assists": 2,
+                "possession_time_sec": 105
+            },
+            "username": "chaos",
+            "game_user_id": "1026914"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 8,
+                "score": 455,
+                "shots": 1,
+                "blocks": 6,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 7,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 22
+            },
+            "username": "Hydroid.",
+            "game_user_id": "1836154"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 3,
+                "score": 515,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 3,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 1
+            },
+            "username": "nutsack6",
+            "game_user_id": "914448"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 2,
+                "score": 395,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 10
+            },
+            "username": "Gold",
+            "game_user_id": "914959"
+        }
+    ],
+    "match_id": "b6c6907c-8b6f-44d2-87eb-ec3a1ca37586",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

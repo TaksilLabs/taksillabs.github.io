@@ -1,0 +1,139 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 2
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 210,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 8,
+                "assists": 1,
+                "post_hits": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 27
+            },
+            "username": "kevin",
+            "game_user_id": "594707"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 210,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 5,
+                "takeaways": 5,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 22
+            },
+            "username": "Flc",
+            "game_user_id": "327512"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 40,
+                "shots": 1,
+                "passes": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 4
+            },
+            "username": "Poppanut",
+            "game_user_id": "191072"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 220,
+                "blocks": 2,
+                "passes": 3,
+                "assists": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 4
+            },
+            "username": "BroBurgota",
+            "game_user_id": "431751"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 180,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 5,
+                "post_hits": 1,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "Reborn",
+            "game_user_id": "889909"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 160,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 5,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 4
+            },
+            "username": "Axe",
+            "game_user_id": "1202794"
+        }
+    ],
+    "match_id": "d437131a-1a92-447f-b9f1-61781a3ebb8c",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

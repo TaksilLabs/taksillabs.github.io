@@ -1,0 +1,171 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 10
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 640,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 12,
+                "assists": 1,
+                "shutouts": 2,
+                "post_hits": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 1,
+                "contributed_goals": 10,
+                "possession_time_sec": 10
+            },
+            "username": "Fizzy",
+            "game_user_id": "222277"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 435,
+                "shots": 2,
+                "blocks": 7,
+                "passes": 7,
+                "assists": 3,
+                "shutouts": 2,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 2,
+                "contributed_goals": 10,
+                "secondary_assists": 1,
+                "possession_time_sec": 59
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 5,
+                "score": 1050,
+                "shots": 9,
+                "blocks": 4,
+                "passes": 7,
+                "assists": 3,
+                "shutouts": 2,
+                "post_hits": 2,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 3,
+                "contributed_goals": 10,
+                "possession_time_sec": 9
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 60,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "shutouts_against": 1
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 3,
+                "score": 160,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 9,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 10,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "shutouts_against": 2,
+                "possession_time_sec": 24
+            },
+            "username": "r._.fhtk",
+            "game_user_id": "1238330"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 50,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 10,
+                "takeaways": 3,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 10,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "shutouts_against": 2,
+                "possession_time_sec": 11
+            },
+            "username": "Sylvatic",
+            "game_user_id": "406789"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 70,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "was_mercy_ruled": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Youud",
+            "game_user_id": "1048636"
+        }
+    ],
+    "match_id": "412e2e32-5f08-4feb-b3ea-4c47daf15f3a",
+    "end_reason": "MercyRule",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,145 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "score": 335,
+                "shots": 3,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 12,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 19
+            },
+            "username": "Syy :D",
+            "game_user_id": "1506478"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 115,
+                "shots": 3,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 13,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 26
+            },
+            "username": "graves",
+            "game_user_id": "437644"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 185,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 11,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 45
+            },
+            "username": "chaos",
+            "game_user_id": "1026914"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 5,
+                "score": 290,
+                "blocks": 4,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 5,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 13
+            },
+            "username": "Hydroid.",
+            "game_user_id": "1836154"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 475,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 2,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5
+            },
+            "username": "nutsack6",
+            "game_user_id": "914448"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 385,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 5,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 3
+            },
+            "username": "Gold",
+            "game_user_id": "914959"
+        }
+    ],
+    "match_id": "8876d45c-62db-4700-9a16-fc165e17e83d",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

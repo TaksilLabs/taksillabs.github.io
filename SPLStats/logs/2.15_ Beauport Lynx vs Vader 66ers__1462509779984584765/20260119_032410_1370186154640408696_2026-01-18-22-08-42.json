@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "score": 25,
+                "blocks": 1,
+                "passes": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 4
+            },
+            "username": "oskishimoski",
+            "game_user_id": "2004442"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 7,
+                "score": 540,
+                "blocks": 19,
+                "passes": 5,
+                "assists": 1,
+                "takeaways": 6,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 110
+            },
+            "username": "assassinje123",
+            "game_user_id": "1015166"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 4,
+                "saves": 1,
+                "score": 745,
+                "shots": 6,
+                "blocks": 10,
+                "passes": 17,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 23
+            },
+            "username": "illumix22",
+            "game_user_id": "1000671"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 170,
+                "shots": 1,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 12,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 6
+            },
+            "username": "xRevision",
+            "game_user_id": "1723185"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 360,
+                "shots": 6,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 19,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 5,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 21
+            },
+            "username": "LiquidPoo22",
+            "game_user_id": "1722341"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 265,
+                "shots": 4,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 13,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 6
+            },
+            "username": "lilcricket26",
+            "game_user_id": "1287792"
+        }
+    ],
+    "match_id": "25da28c6-e59e-45aa-ae96-56dbdf349aa6",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

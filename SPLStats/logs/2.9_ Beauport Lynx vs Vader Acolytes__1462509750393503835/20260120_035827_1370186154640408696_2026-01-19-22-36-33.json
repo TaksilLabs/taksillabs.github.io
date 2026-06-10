@@ -1,0 +1,147 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 255,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 6,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 56
+            },
+            "username": "assassinje123",
+            "game_user_id": "1015166"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "score": 345,
+                "shots": 4,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 9,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 1
+            },
+            "username": "illumix22",
+            "game_user_id": "1000671"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 30,
+                "losses": 1,
+                "passes": 4,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "oskishimoski",
+            "game_user_id": "2004442"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 360,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 3,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 7
+            },
+            "username": "DrPecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 300,
+                "shots": 2,
+                "passes": 8,
+                "takeaways": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 26
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 270,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 7,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        }
+    ],
+    "match_id": "77118804-8e1d-44a5-a1f3-3482950accdf",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

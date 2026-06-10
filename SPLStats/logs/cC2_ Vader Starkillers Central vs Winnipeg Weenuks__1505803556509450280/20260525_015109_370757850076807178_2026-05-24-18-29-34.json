@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 5
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 590,
+                "shots": 7,
+                "blocks": 4,
+                "passes": 9,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Grimace",
+            "game_user_id": "524911"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 565,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 8,
+                "assists": 4,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 4,
+                "contributed_goals": 5,
+                "possession_time_sec": 16
+            },
+            "username": "Kwispy(ColdHands)",
+            "game_user_id": "524929"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 310,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 5,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 3
+            },
+            "username": "ochase",
+            "game_user_id": "767270"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 195,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 11
+            },
+            "username": "pwod",
+            "game_user_id": "909828"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 7,
+                "score": 260,
+                "losses": 1,
+                "passes": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 4
+            },
+            "username": "c.o.l.i.x",
+            "game_user_id": "712317"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 105,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 17
+            },
+            "username": "romey",
+            "game_user_id": "183790"
+        }
+    ],
+    "match_id": "98430257-1a75-4cbc-9e7c-a67d34101bae",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

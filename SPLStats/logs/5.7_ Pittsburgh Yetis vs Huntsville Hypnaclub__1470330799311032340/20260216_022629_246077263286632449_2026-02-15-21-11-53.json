@@ -1,0 +1,157 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 2,
+                "score": 335,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 18,
+                "assists": 1,
+                "takeaways": 4,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 23
+            },
+            "username": "YEET",
+            "game_user_id": "1863810"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 350,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 13,
+                "assists": 2,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 18
+            },
+            "username": "x901 Amac",
+            "game_user_id": "1362725"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 180,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 15,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 67
+            },
+            "username": "Scrapz",
+            "game_user_id": "893034"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 490,
+                "shots": 5,
+                "blocks": 5,
+                "passes": 10,
+                "shutouts": 1,
+                "post_hits": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 2
+            },
+            "username": "YaCleverName",
+            "game_user_id": "1592510"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 2,
+                "score": 125,
+                "blocks": 4,
+                "passes": 8,
+                "shutouts": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 33
+            },
+            "username": "Oblivion",
+            "game_user_id": "1071429"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 410,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 10,
+                "assists": 2,
+                "shutouts": 1,
+                "post_hits": 3,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 26
+            },
+            "username": "bread",
+            "game_user_id": "825118"
+        }
+    ],
+    "match_id": "c0d58697-46e6-46fe-93d4-272a04e49d78",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

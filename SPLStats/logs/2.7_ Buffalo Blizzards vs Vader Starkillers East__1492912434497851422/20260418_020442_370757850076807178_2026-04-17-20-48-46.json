@@ -1,0 +1,150 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 125,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "JoshAllenfan420",
+            "game_user_id": "16435"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 165,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 5,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 18
+            },
+            "username": "minimongo",
+            "game_user_id": "833724"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 160,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "Ol'Woodster",
+            "game_user_id": "16437"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 515,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 9,
+                "assists": 2,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 23
+            },
+            "username": "bread",
+            "game_user_id": "825118"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "score": 605,
+                "shots": 6,
+                "blocks": 4,
+                "passes": 6,
+                "post_hits": 2,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 11
+            },
+            "username": "ochase",
+            "game_user_id": "767270"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 395,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 4,
+                "assists": 2,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 13
+            },
+            "username": "Grimace (Muted, frick)",
+            "game_user_id": "524911"
+        }
+    ],
+    "match_id": "a3c55a22-6de0-4f0b-b62f-87a860a36da7",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

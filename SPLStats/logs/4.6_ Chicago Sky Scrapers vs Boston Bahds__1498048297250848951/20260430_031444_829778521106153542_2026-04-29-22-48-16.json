@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 4
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 410,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 7,
+                "assists": 4,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 4,
+                "contributed_goals": 4,
+                "possession_time_sec": 10
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 3,
+                "score": 375,
+                "shots": 3,
+                "passes": 9,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 5
+            },
+            "username": "AndrewDewar104",
+            "game_user_id": "453698"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 135,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 4
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 295,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 8,
+                "assists": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 7
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 325,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 5,
+                "assists": 2,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 4
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 480,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 4,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 29
+            },
+            "username": "Ademy24",
+            "game_user_id": "710101"
+        }
+    ],
+    "match_id": "35c83899-62f3-43bd-b9bb-c6ecd6df6c2d",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,178 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 360,
+                "shots": 1,
+                "blocks": 9,
+                "losses": 1,
+                "passes": 6,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 7,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "800-588-2300 Empire Today",
+            "game_user_id": "1591250"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 305,
+                "shots": 3,
+                "blocks": 8,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 5
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 6,
+                "score": 635,
+                "shots": 3,
+                "blocks": 7,
+                "losses": 1,
+                "passes": 7,
+                "assists": 2,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 12
+            },
+            "username": "Glitch",
+            "game_user_id": "18350"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 520,
+                "shots": 7,
+                "blocks": 8,
+                "losses": 1,
+                "passes": 18,
+                "post_hits": 2,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 37
+            },
+            "username": "ScitruS",
+            "game_user_id": "2069819"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 3,
+                "score": 295,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 15,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 10,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 71
+            },
+            "username": "[GOOS] MacademySammy88",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 25,
+                "shots": 1,
+                "passes": 3,
+                "post_hits": 1,
+                "takeaways": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 7
+            },
+            "username": "Epix",
+            "game_user_id": "865399"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 40,
+                "shots": 1,
+                "losses": 1,
+                "passes": 10,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "possession_time_sec": 7
+            },
+            "username": "hog wild stunna",
+            "game_user_id": "1547281"
+        }
+    ],
+    "match_id": "051ea5d9-fd5e-4b8b-9be5-61ee5c1810be",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

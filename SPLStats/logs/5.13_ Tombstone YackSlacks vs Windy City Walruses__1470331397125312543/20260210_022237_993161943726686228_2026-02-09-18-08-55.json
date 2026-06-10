@@ -1,0 +1,158 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 2
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 255,
+                "shots": 2,
+                "passes": 24,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 29
+            },
+            "username": "Headass",
+            "game_user_id": "173111"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "score": 175,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 18,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 46
+            },
+            "username": "YackSlack",
+            "game_user_id": "640761"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 340,
+                "shots": 4,
+                "blocks": 4,
+                "passes": 17,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 13,
+                "turnovers": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 91
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 105,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 11,
+                "assists": 1,
+                "turnovers": 4,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 4
+            },
+            "username": "LilPrecip",
+            "game_user_id": "1005605"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 4,
+                "score": 365,
+                "blocks": 16,
+                "losses": 2,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 7,
+                "turnovers": 8,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 38
+            },
+            "username": "plsstankrate",
+            "game_user_id": "1005628"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 3,
+                "score": 285,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 13,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 7,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 23
+            },
+            "username": "My Rick Fell Off",
+            "game_user_id": "1005594"
+        }
+    ],
+    "match_id": "9eae4be6-6ae4-4e76-864c-6c0cfeda8f86",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,136 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 2
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 145,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 9,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 11
+            },
+            "username": "JoeMer",
+            "game_user_id": "67383"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 185,
+                "shots": 2,
+                "passes": 9,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 44
+            },
+            "username": "Hammertime9000",
+            "game_user_id": "1238207"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 15,
+                "passes": 5,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 6
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 110,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 3,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 4
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 120,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 205,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 26
+            },
+            "username": "[ATL]PatK9123",
+            "game_user_id": "1392514"
+        }
+    ],
+    "match_id": "011cc80d-5125-4e40-9131-8c7d5288c8ee",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

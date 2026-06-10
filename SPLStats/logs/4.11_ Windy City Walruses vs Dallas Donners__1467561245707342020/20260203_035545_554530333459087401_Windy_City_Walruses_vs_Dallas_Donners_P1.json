@@ -1,0 +1,132 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 75,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 5,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 10
+            },
+            "username": "Richard Tantrum",
+            "game_user_id": "877669"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 45,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 1
+            },
+            "username": "BiggieBag",
+            "game_user_id": "1288337"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 205,
+                "shots": 3,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 5,
+                "post_hits": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Shloompa",
+            "game_user_id": "979880"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 200,
+                "blocks": 4,
+                "passes": 1,
+                "assists": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 84
+            },
+            "username": "plsstankrate",
+            "game_user_id": "1005628"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 275,
+                "shots": 3,
+                "passes": 5,
+                "post_hits": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "LilPrecip",
+            "game_user_id": "1005605"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 110,
+                "blocks": 1,
+                "passes": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2
+            },
+            "username": "Potato",
+            "game_user_id": "1277002"
+        }
+    ],
+    "match_id": "74514a0b-d0bf-4dc8-a22a-a6f6b5d52c00",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,134 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 145,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "MacademySammy88",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 45,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 4
+            },
+            "username": "napqleon",
+            "game_user_id": "1314476"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 95,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 8,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 350,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 12,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 47
+            },
+            "username": "Scrapz",
+            "game_user_id": "893034"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 50,
+                "passes": 7,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 11
+            },
+            "username": "x901 Amac",
+            "game_user_id": "1362725"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 160,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 9,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "Yeet",
+            "game_user_id": "1863810"
+        }
+    ],
+    "match_id": "8ff5b805-f014-4d66-839d-7563338b1576",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

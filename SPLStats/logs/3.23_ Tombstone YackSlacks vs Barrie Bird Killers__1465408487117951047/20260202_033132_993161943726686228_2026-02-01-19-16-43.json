@@ -1,0 +1,196 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 3,
+                "saves": 2,
+                "score": 535,
+                "shots": 4,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 7,
+                "takeaways": 3,
+                "turnovers": 9,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 11
+            },
+            "username": "Looees",
+            "game_user_id": "281017"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 5,
+                "score": 175,
+                "losses": 1,
+                "passes": 1,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Cheddx",
+            "game_user_id": "8081"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 215,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 8
+            },
+            "username": "SemenSlayer",
+            "game_user_id": "1427595"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 135,
+                "blocks": 6,
+                "losses": 1,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 2
+            },
+            "username": "Skeetshooter42",
+            "game_user_id": "1329800"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "saves": 2,
+                "score": 800,
+                "shots": 7,
+                "blocks": 2,
+                "passes": 35,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 2,
+                "takeaways": 9,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 116
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 630,
+                "shots": 6,
+                "blocks": 1,
+                "passes": 26,
+                "assists": 3,
+                "shutouts": 1,
+                "post_hits": 2,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 28
+            },
+            "username": "Headass",
+            "game_user_id": "173111"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 260,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 13,
+                "assists": 2,
+                "shutouts": 1,
+                "takeaways": 5,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 39
+            },
+            "username": "YackSlack",
+            "game_user_id": "640761"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 130,
+                "shots": 1,
+                "passes": 10,
+                "assists": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 9
+            },
+            "username": "carti",
+            "game_user_id": "1320348"
+        }
+    ],
+    "match_id": "859b9a75-41d3-4fb6-83bb-71a2de84507e",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

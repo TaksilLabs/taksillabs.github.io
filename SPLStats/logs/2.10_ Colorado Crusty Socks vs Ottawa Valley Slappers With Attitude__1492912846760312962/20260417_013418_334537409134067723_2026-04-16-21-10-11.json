@@ -1,0 +1,137 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 60,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 9,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1
+            },
+            "username": "TMNNational",
+            "game_user_id": "666987"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 110,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 19
+            },
+            "username": "[CCS]Wuzbucket",
+            "game_user_id": "782837"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 155,
+                "shots": 2,
+                "losses": 1,
+                "passes": 15,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 23
+            },
+            "username": "kane",
+            "game_user_id": "971165"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 410,
+                "shots": 2,
+                "passes": 3,
+                "assists": 3,
+                "shutouts": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 4
+            },
+            "username": "Crayon",
+            "game_user_id": "61597"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 365,
+                "shots": 3,
+                "passes": 9,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 4
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 3,
+                "score": 285,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 3,
+                "shutouts": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 17
+            },
+            "username": "JG Wentworth 877-Cash-Now",
+            "game_user_id": "1591253"
+        }
+    ],
+    "match_id": "3a9aeea3-e755-4190-b400-8a7a91f67eff",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

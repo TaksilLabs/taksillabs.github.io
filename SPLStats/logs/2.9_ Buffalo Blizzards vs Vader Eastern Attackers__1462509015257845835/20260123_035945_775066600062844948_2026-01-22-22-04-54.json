@@ -1,0 +1,152 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 180,
+                "passes": 5,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 7
+            },
+            "username": "Ol'Woodster",
+            "game_user_id": "16437"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 310,
+                "shots": 3,
+                "passes": 6,
+                "takeaways": 4,
+                "turnovers": 4,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 8
+            },
+            "username": "JoshAllenfan420",
+            "game_user_id": "16435"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 3,
+                "score": 270,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 4,
+                "takeaways": 3,
+                "turnovers": 5,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 11
+            },
+            "username": "Jabo",
+            "game_user_id": "16422"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 345,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 4,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 24
+            },
+            "username": "Skiz",
+            "game_user_id": "4633"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 315,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 5,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 2,
+                "possession_time_sec": 44
+            },
+            "username": "Reeko",
+            "game_user_id": "634448"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 255,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        }
+    ],
+    "match_id": "12d1d8fb-7162-4f8b-badc-45d6ff3939cb",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

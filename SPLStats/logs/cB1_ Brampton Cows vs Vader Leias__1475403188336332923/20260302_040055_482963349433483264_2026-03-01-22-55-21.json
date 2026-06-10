@@ -1,0 +1,157 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 11
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 8,
+                "score": 1185,
+                "shots": 10,
+                "blocks": 3,
+                "passes": 13,
+                "assists": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 1,
+                "contributed_goals": 11,
+                "possession_time_sec": 21
+            },
+            "username": "Tactical Miss",
+            "game_user_id": "1282529"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "score": 610,
+                "shots": 6,
+                "blocks": 1,
+                "passes": 14,
+                "assists": 5,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 5,
+                "contributed_goals": 11,
+                "possession_time_sec": 34
+            },
+            "username": "LIT",
+            "game_user_id": "633338"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 850,
+                "shots": 6,
+                "blocks": 2,
+                "passes": 9,
+                "assists": 5,
+                "post_hits": 2,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 4,
+                "contributed_goals": 11,
+                "secondary_assists": 1,
+                "possession_time_sec": 41
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 8,
+                "score": 455,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 8,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 11,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "lilcricket26",
+            "game_user_id": "1287792"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 60,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 5,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 11,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "LiquidPoo22",
+            "game_user_id": "1722341"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 3,
+                "score": 220,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 11,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "was_mercy_ruled": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 7
+            },
+            "username": "xRevision",
+            "game_user_id": "1723185"
+        }
+    ],
+    "match_id": "a4a44bc5-6f2f-49f1-9cff-7ce88e6ca7bc",
+    "end_reason": "MercyRule",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

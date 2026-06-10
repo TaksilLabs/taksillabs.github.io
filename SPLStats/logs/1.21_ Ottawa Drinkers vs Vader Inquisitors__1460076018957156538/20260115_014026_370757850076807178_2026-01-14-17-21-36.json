@@ -1,0 +1,158 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "score": 365,
+                "shots": 4,
+                "blocks": 10,
+                "passes": 10,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 7,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 26
+            },
+            "username": "Skiz",
+            "game_user_id": "4633"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 3,
+                "score": 450,
+                "shots": 5,
+                "blocks": 1,
+                "passes": 21,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 22
+            },
+            "username": "KMan",
+            "game_user_id": "77676"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 7,
+                "score": 330,
+                "blocks": 7,
+                "passes": 11,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 34
+            },
+            "username": "Cocksworth (Cozbee)",
+            "game_user_id": "66123"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 435,
+                "shots": 6,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 15,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 28
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 130,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 12,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 34
+            },
+            "username": "meenimizer",
+            "game_user_id": "439532"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 4,
+                "score": 230,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 10,
+                "takeaways": 4,
+                "turnovers": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 78
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        }
+    ],
+    "match_id": "d108ced8-8ceb-4c97-83bc-899cdc84db46",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

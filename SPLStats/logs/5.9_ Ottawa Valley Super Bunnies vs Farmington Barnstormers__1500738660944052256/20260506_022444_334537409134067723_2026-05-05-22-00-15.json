@@ -1,0 +1,150 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 240,
+                "blocks": 5,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 18
+            },
+            "username": "jsTronix",
+            "game_user_id": "43433"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 335,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 7,
+                "assists": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 2
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 515,
+                "shots": 5,
+                "passes": 11,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 21
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "score": 375,
+                "shots": 3,
+                "blocks": 7,
+                "losses": 1,
+                "passes": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 17
+            },
+            "username": "Smellfuzz",
+            "game_user_id": "640618"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 340,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 9,
+                "assists": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 18
+            },
+            "username": "Kjayrage",
+            "game_user_id": "637921"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 150,
+                "shots": 2,
+                "losses": 1,
+                "passes": 6,
+                "assists": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1
+            },
+            "username": "Beefy T's",
+            "game_user_id": "1757156"
+        }
+    ],
+    "match_id": "afe9dd5d-f60a-4924-8dde-cb31d13c3f3a",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

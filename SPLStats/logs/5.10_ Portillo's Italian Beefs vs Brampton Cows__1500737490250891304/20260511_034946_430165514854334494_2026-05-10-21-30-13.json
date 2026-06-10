@@ -1,0 +1,148 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 155,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 5,
+                "assists": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 11
+            },
+            "username": "Cherries",
+            "game_user_id": "937"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 390,
+                "shots": 4,
+                "passes": 12,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 25
+            },
+            "username": "GoldenKnight",
+            "game_user_id": "75184"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 420,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 3,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 15
+            },
+            "username": "bLue :)",
+            "game_user_id": "100703"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 75,
+                "losses": 1,
+                "passes": 8,
+                "assists": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1
+            },
+            "username": "Tactical Miss",
+            "game_user_id": "1282529"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 135,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 3,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Saucy :(",
+            "game_user_id": "758362"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 3,
+                "score": 310,
+                "shots": 1,
+                "blocks": 8,
+                "losses": 1,
+                "passes": 2,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 20
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        }
+    ],
+    "match_id": "65380d99-7cbd-4e81-80c2-1efffcde68d2",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

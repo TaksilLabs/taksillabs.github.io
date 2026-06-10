@@ -1,0 +1,137 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 500,
+                "shots": 7,
+                "blocks": 1,
+                "passes": 9,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 8
+            },
+            "username": "Gronk",
+            "game_user_id": "1232982"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 195,
+                "blocks": 3,
+                "passes": 5,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 28
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 180,
+                "blocks": 4,
+                "passes": 3,
+                "assists": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 13
+            },
+            "username": "GiraffeKiller",
+            "game_user_id": "1314542"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 125,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 15
+            },
+            "username": "LessThanDennis",
+            "game_user_id": "513"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "score": 300,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 2,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 15
+            },
+            "username": "Renard_",
+            "game_user_id": "212"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 4,
+                "score": 140,
+                "losses": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 1
+            },
+            "username": "[OKG] papa shieldz",
+            "game_user_id": "503"
+        }
+    ],
+    "match_id": "78cc25cd-8b6e-4300-bb04-861afdca37fb",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

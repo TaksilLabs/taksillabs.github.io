@@ -1,0 +1,182 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 6
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "goals": 5,
+                "saves": 3,
+                "score": 1115,
+                "shots": 6,
+                "blocks": 18,
+                "passes": 9,
+                "assists": 1,
+                "takeaways": 10,
+                "turnovers": 4,
+                "faceoffs_won": 7,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 60
+            },
+            "username": "sylent",
+            "game_user_id": "1701584"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "saves": 4,
+                "score": 245,
+                "shots": 1,
+                "blocks": 8,
+                "passes": 4,
+                "post_hits": 1,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 3,
+                "contributed_goals": 6,
+                "possession_time_sec": 4
+            },
+            "username": "Seadisrat",
+            "game_user_id": "1703253"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "goals": 1,
+                "saves": 3,
+                "score": 470,
+                "shots": 2,
+                "blocks": 11,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 17
+            },
+            "username": "squikky",
+            "game_user_id": "1750402"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 130,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "c.o.l.i.x",
+            "game_user_id": "712317"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 250,
+                "shots": 2,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 17,
+                "assists": 1,
+                "takeaways": 7,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 95
+            },
+            "username": "dvyr",
+            "game_user_id": "352226"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 460,
+                "shots": 3,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 35,
+                "assists": 3,
+                "turnovers": 5,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 3,
+                "primary_assists": 3,
+                "contributed_goals": 5,
+                "possession_time_sec": 22
+            },
+            "username": "Normalhumanboy",
+            "game_user_id": "265889"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 4,
+                "score": 640,
+                "shots": 9,
+                "losses": 2,
+                "passes": 13,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 15
+            },
+            "username": "tbh silence",
+            "game_user_id": "1067075"
+        }
+    ],
+    "match_id": "44f399d6-12bb-4690-9384-7e1989816ede",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

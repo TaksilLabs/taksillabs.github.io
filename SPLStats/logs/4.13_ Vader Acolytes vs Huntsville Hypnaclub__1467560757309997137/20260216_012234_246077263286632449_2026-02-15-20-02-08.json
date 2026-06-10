@@ -1,0 +1,135 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 90,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 25
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 120,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 4
+            },
+            "username": "TheRealAmeriCam",
+            "game_user_id": "1937517"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 55,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 5,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 100,
+                "blocks": 3,
+                "passes": 1,
+                "shutouts": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "Oblivion",
+            "game_user_id": "1071429"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 45,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 8,
+                "shutouts": 1,
+                "takeaways": 3,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 21
+            },
+            "username": "bread",
+            "game_user_id": "825118"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 475,
+                "shots": 5,
+                "blocks": 2,
+                "passes": 6,
+                "shutouts": 1,
+                "post_hits": 3,
+                "takeaways": 1,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 6
+            },
+            "username": "YaCleverName",
+            "game_user_id": "1592510"
+        }
+    ],
+    "match_id": "6c93f7e5-dbbf-4b13-867c-6804e50df297",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

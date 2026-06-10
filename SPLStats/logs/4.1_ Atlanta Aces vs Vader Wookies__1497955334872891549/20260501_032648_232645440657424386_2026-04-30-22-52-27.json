@@ -1,0 +1,146 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 410,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 4
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 260,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 17
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 185,
+                "blocks": 4,
+                "passes": 12,
+                "assists": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 17
+            },
+            "username": "[ATL]PatK9123",
+            "game_user_id": "1392514"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 185,
+                "shots": 3,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 9,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": ">:)",
+            "game_user_id": "72269"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 2,
+                "score": 170,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 3,
+                "assists": 1,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 27
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        }
+    ],
+    "match_id": "b4e106e0-e4eb-4bea-a3e9-954cf5bfc503",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

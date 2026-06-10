@@ -1,0 +1,132 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 35,
+                "blocks": 2,
+                "losses": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 10
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 50,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 1
+            },
+            "username": "zuke",
+            "game_user_id": "570261"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 140,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 22
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 325,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 6,
+                "assists": 1,
+                "shutouts": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 45
+            },
+            "username": "assassinje123",
+            "game_user_id": "1015166"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 25,
+                "blocks": 1,
+                "passes": 4,
+                "shutouts": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "oskishimoski",
+            "game_user_id": "2004442"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 315,
+                "shots": 3,
+                "blocks": 4,
+                "passes": 11,
+                "shutouts": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 24
+            },
+            "username": "illumix22",
+            "game_user_id": "1000671"
+        }
+    ],
+    "match_id": "cd4e0a24-9d3c-4fff-be87-18acca6e57e4",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

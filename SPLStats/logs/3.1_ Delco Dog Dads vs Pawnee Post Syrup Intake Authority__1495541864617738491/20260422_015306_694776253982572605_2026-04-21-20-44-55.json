@@ -1,0 +1,161 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "saves": 11,
+                "score": 575,
+                "shots": 1,
+                "blocks": 12,
+                "losses": 1,
+                "passes": 23,
+                "takeaways": 6,
+                "turnovers": 4,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 3,
+                "contributed_goals": 1,
+                "possession_time_sec": 115
+            },
+            "username": "The Real Teddy Blueger",
+            "game_user_id": "848840"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "goals": 1,
+                "score": 255,
+                "shots": 3,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 20,
+                "takeaways": 7,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 3,
+                "contributed_goals": 1,
+                "possession_time_sec": 34
+            },
+            "username": "Kavorka",
+            "game_user_id": "816852"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 2,
+                "score": 160,
+                "shots": 1,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 17,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 2,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 21
+            },
+            "username": "Drewiou",
+            "game_user_id": "200689"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "wins": 1,
+                "saves": 1,
+                "score": 280,
+                "shots": 6,
+                "blocks": 2,
+                "passes": 16,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 26
+            },
+            "username": "Gronk",
+            "game_user_id": "1232982"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "wins": 1,
+                "saves": 1,
+                "score": 305,
+                "shots": 2,
+                "blocks": 8,
+                "passes": 18,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 6,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 40
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 2,
+                "wins": 1,
+                "goals": 3,
+                "saves": 2,
+                "score": 555,
+                "shots": 6,
+                "blocks": 2,
+                "passes": 22,
+                "takeaways": 4,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 3,
+                "contributed_goals": 3,
+                "game_winning_goals": 1,
+                "possession_time_sec": 66
+            },
+            "username": "echo",
+            "game_user_id": "22412"
+        }
+    ],
+    "match_id": "a0196a08-0da8-443b-946b-9f7d0c644893",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

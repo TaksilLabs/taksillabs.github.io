@@ -1,0 +1,144 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 95,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Rhino",
+            "game_user_id": "1147161"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 145,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 7,
+                "post_hits": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Nayr[QC]",
+            "game_user_id": "286293"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 165,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 3,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 20
+            },
+            "username": "FlowZ",
+            "game_user_id": "723576"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 5,
+                "score": 685,
+                "shots": 7,
+                "blocks": 1,
+                "passes": 18,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 14
+            },
+            "username": "Flc",
+            "game_user_id": "327512"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 235,
+                "blocks": 2,
+                "passes": 17,
+                "assists": 3,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "secondary_assists": 1,
+                "possession_time_sec": 7
+            },
+            "username": "Xavier",
+            "game_user_id": "625731"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 610,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 14,
+                "assists": 3,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 6,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 40
+            },
+            "username": "rat",
+            "game_user_id": "494865"
+        }
+    ],
+    "match_id": "3c8f8223-1ec5-4995-8e43-d58fefc0e02b",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

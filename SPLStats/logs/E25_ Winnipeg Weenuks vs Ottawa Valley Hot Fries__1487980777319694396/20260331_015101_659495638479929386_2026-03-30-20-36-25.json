@@ -1,0 +1,144 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 300,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 3,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 2
+            },
+            "username": "tbh silence",
+            "game_user_id": "1067075"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 295,
+                "shots": 2,
+                "blocks": 7,
+                "passes": 1,
+                "assists": 1,
+                "takeaways": 6,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 57
+            },
+            "username": "King",
+            "game_user_id": "634779"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 145,
+                "blocks": 2,
+                "passes": 2,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 4
+            },
+            "username": "Normalhumanboy",
+            "game_user_id": "265889"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 135,
+                "shots": 1,
+                "losses": 1,
+                "passes": 8,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 14
+            },
+            "username": "maiaa^^🐙",
+            "game_user_id": "1269140"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 90,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 5
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 145,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 11
+            },
+            "username": "Robthegreat97",
+            "game_user_id": "1276980"
+        }
+    ],
+    "match_id": "9546f7e9-3f4f-47f6-8a5c-fdf607d22953",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

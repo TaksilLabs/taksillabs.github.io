@@ -1,0 +1,139 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 10
+            },
+            "username": "[ATL] Alt",
+            "game_user_id": "24807"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 15
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 9
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 165,
+                "passes": 14,
+                "assists": 2,
+                "shutouts": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 10
+            },
+            "username": "CorruptWolfy",
+            "game_user_id": "785358"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 160,
+                "blocks": 2,
+                "passes": 5,
+                "assists": 2,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 31
+            },
+            "username": "[MM] J",
+            "game_user_id": "379522"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 5,
+                "score": 650,
+                "shots": 5,
+                "blocks": 1,
+                "passes": 12,
+                "shutouts": 1,
+                "post_hits": 2,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 23
+            },
+            "username": "tef",
+            "game_user_id": "136795"
+        }
+    ],
+    "match_id": "66f85d6a-b7b2-484a-910e-877b0a220206",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1,0 +1,163 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 5
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "score": 320,
+                "shots": 3,
+                "blocks": 7,
+                "passes": 25,
+                "assists": 1,
+                "takeaways": 5,
+                "turnovers": 6,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 21
+            },
+            "username": "Jágr",
+            "game_user_id": "560316"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 540,
+                "shots": 4,
+                "blocks": 9,
+                "passes": 16,
+                "assists": 1,
+                "takeaways": 4,
+                "turnovers": 4,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 53
+            },
+            "username": "jakee",
+            "game_user_id": "4153"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "passes": 8,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 310,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 9,
+                "post_hits": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 5
+            },
+            "username": "[CHA] Flc <~",
+            "game_user_id": "327512"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 4,
+                "score": 570,
+                "shots": 4,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 11,
+                "takeaways": 7,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 41
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 5,
+                "score": 230,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 13,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 19
+            },
+            "username": "Nano",
+            "game_user_id": "51902"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 205,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 10,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 20
+            },
+            "username": "Booby Orr",
+            "game_user_id": "154306"
+        }
+    ],
+    "match_id": "da8a3a21-c8d0-40d6-be1f-670573ef3c9e",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

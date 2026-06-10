@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 180,
+                "shots": 2,
+                "losses": 1,
+                "passes": 9,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "JoshAllenfan420",
+            "game_user_id": "16435"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 35,
+                "losses": 1,
+                "passes": 4,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Ol'Woodster",
+            "game_user_id": "16437"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 130,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 3,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 22
+            },
+            "username": "minimongo",
+            "game_user_id": "833724"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 355,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 7,
+                "assists": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 2
+            },
+            "username": ">:)",
+            "game_user_id": "72269"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 460,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 9,
+                "assists": 2,
+                "post_hits": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 240,
+                "blocks": 1,
+                "passes": 4,
+                "assists": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 26
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        }
+    ],
+    "match_id": "cf052e6b-6014-4efe-9784-aa00b35b2a1b",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

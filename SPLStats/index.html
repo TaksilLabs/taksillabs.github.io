@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPLStats</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>SPLStats</h1>
+    <p>All-Time Slapshot Premier League Statistics</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="searchInput" type="text" placeholder="Search player..." />
+    </section>
+
+    <section class="table-wrap">
+      <table id="leaderboard">
+        <thead>
+          <tr>
+            <th data-stat="rank">Rank</th>
+            <th data-stat="player_name">Player</th>
+            <th data-stat="games_played">GP</th>
+            <th data-stat="goals">G</th>
+            <th data-stat="assists">A</th>
+            <th data-stat="points">PTS</th>
+            <th data-stat="shots">Shots</th>
+            <th data-stat="saves">Saves</th>
+            <th data-stat="blocks">Blocks</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

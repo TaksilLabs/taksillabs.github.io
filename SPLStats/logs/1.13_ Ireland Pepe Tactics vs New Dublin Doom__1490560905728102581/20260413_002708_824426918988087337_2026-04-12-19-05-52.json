@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 105,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "post_hits": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 26
+            },
+            "username": "Thugger",
+            "game_user_id": "110082"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 10,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 7,
+                "post_hits": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 4
+            },
+            "username": "Timmy",
+            "game_user_id": "40"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 90,
+                "shots": 2,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Sasha McGavinsky",
+            "game_user_id": "5745"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 360,
+                "shots": 2,
+                "passes": 6,
+                "assists": 1,
+                "shutouts": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 4
+            },
+            "username": "Tridoxity",
+            "game_user_id": "1127790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 3,
+                "score": 285,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 5,
+                "assists": 2,
+                "shutouts": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 2,
+                "possession_time_sec": 41
+            },
+            "username": "Kili",
+            "game_user_id": "1364183"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 265,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 8,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "mace",
+            "game_user_id": "144"
+        }
+    ],
+    "match_id": "53b0e56d-6501-42c6-af8a-82aa9f6ca75f",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

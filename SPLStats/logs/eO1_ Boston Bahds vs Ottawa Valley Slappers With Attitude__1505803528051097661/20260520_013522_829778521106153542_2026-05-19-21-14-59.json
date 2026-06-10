@@ -1,0 +1,134 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 2
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 245,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 6,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 5,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 49
+            },
+            "username": "dvyr",
+            "game_user_id": "352226"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 225,
+                "shots": 3,
+                "passes": 7,
+                "assists": 2,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 6
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 140,
+                "shots": 1,
+                "passes": 4,
+                "shutouts": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 12
+            },
+            "username": "Ademy24",
+            "game_user_id": "710101"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 50,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 5,
+                "turnovers": 6,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 4,
+                "score": 140,
+                "losses": 1,
+                "passes": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Glitch",
+            "game_user_id": "18350"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 45,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 15
+            },
+            "username": "JG Wentworth 877-Cash-Now",
+            "game_user_id": "1591253"
+        }
+    ],
+    "match_id": "bd2dfe5d-7b80-4a45-9e6c-c66684280e0c",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

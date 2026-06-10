@@ -1,0 +1,199 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 6,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 265,
+                "shots": 2,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "TMNNational",
+            "game_user_id": "666987"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 370,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 9,
+                "assists": 2,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 17
+            },
+            "username": "an.drew",
+            "game_user_id": "249202"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 3,
+                "score": 300,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 12,
+                "takeaways": 8,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 43
+            },
+            "username": "King:)",
+            "game_user_id": "634779"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 350,
+                "shots": 1,
+                "blocks": 7,
+                "passes": 19,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 33
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 605,
+                "shots": 6,
+                "blocks": 5,
+                "passes": 11,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 19
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 345,
+                "blocks": 5,
+                "passes": 5,
+                "assists": 3,
+                "post_hits": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 4,
+                "possession_time_sec": 14
+            },
+            "username": "Galalendon",
+            "game_user_id": "249493"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 150,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 11,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 5
+            },
+            "username": ">:)",
+            "game_user_id": "72269"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 305,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 5,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 1
+            },
+            "username": "Max",
+            "game_user_id": "818797"
+        }
+    ],
+    "match_id": "bccf5c6c-0b8e-4940-9387-1c4ff24817db",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

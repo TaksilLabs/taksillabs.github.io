@@ -1,0 +1,155 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 9,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 170,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 13,
+                "takeaways": 4,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 8
+            },
+            "username": "withdrawals",
+            "game_user_id": "1326629"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 140,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 11,
+                "takeaways": 4,
+                "turnovers": 10,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 30
+            },
+            "username": "sawyer",
+            "game_user_id": "1013839"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 3,
+                "score": 245,
+                "shots": 1,
+                "blocks": 7,
+                "losses": 2,
+                "passes": 12,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 9
+            },
+            "username": "Midget",
+            "game_user_id": "948283"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 540,
+                "shots": 5,
+                "blocks": 2,
+                "passes": 13,
+                "assists": 1,
+                "shutouts": 2,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "periods_played": 2,
+                "contributed_goals": 9,
+                "secondary_assists": 1,
+                "possession_time_sec": 28
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "saves": 3,
+                "score": 740,
+                "shots": 5,
+                "blocks": 3,
+                "passes": 16,
+                "assists": 4,
+                "shutouts": 2,
+                "takeaways": 7,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 9,
+                "secondary_assists": 2,
+                "possession_time_sec": 76
+            },
+            "username": "Saucy :(",
+            "game_user_id": "758362"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 875,
+                "shots": 6,
+                "blocks": 1,
+                "passes": 15,
+                "assists": 4,
+                "shutouts": 2,
+                "post_hits": 1,
+                "takeaways": 7,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "periods_played": 2,
+                "primary_assists": 4,
+                "contributed_goals": 9,
+                "possession_time_sec": 42
+            },
+            "username": "Tactical Miss",
+            "game_user_id": "1282529"
+        }
+    ],
+    "match_id": "06e2cb78-1545-4c24-a394-3176882bbd96",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

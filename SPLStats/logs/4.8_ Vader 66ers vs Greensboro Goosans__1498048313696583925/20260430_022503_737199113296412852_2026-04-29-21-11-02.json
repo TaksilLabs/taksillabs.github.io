@@ -1,0 +1,174 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 215,
+                "shots": 2,
+                "blocks": 8,
+                "losses": 2,
+                "passes": 9,
+                "takeaways": 5,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 45
+            },
+            "username": "[GOOS] MacademySammy88",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 80,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 19,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 15
+            },
+            "username": "ScitruS",
+            "game_user_id": "2069819"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "losses": 1,
+                "passes": 11,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 3
+            },
+            "username": "hog wild stunna",
+            "game_user_id": "1547281"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 195,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "Epix",
+            "game_user_id": "865399"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 1,
+                "score": 155,
+                "blocks": 4,
+                "passes": 9,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 5,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 35
+            },
+            "username": "LiquidPoo22",
+            "game_user_id": "1722341"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 535,
+                "shots": 5,
+                "blocks": 2,
+                "passes": 10,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 14
+            },
+            "username": "Galalendon",
+            "game_user_id": "249493"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "saves": 2,
+                "score": 660,
+                "shots": 3,
+                "blocks": 6,
+                "passes": 8,
+                "assists": 3,
+                "shutouts": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 5,
+                "possession_time_sec": 23
+            },
+            "username": "lilcricket26",
+            "game_user_id": "1287792"
+        }
+    ],
+    "match_id": "30c0fa01-8325-4e54-a76b-0558819c25d1",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

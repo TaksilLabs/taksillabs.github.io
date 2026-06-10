@@ -1,0 +1,141 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 65,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 3,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 26
+            },
+            "username": "BroBurgota",
+            "game_user_id": "431751"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 4,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 14
+            },
+            "username": "Skiz",
+            "game_user_id": "4633"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 65,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 10,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 16
+            },
+            "username": "Cozbee",
+            "game_user_id": "66123"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 140,
+                "blocks": 4,
+                "passes": 5,
+                "assists": 2,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 4,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 2,
+                "possession_time_sec": 15
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 215,
+                "shots": 1,
+                "passes": 11,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 8
+            },
+            "username": "LessThanDennis",
+            "game_user_id": "513"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 290,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 10,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 21
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        }
+    ],
+    "match_id": "08c1b109-a4c0-47f9-beaa-5dd104c8f6f4",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

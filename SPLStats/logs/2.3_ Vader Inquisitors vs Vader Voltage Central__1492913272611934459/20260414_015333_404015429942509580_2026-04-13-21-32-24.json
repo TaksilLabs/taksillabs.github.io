@@ -1,0 +1,136 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 110,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 37
+            },
+            "username": "Oblivion",
+            "game_user_id": "1071429"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 4,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 35,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Carried By Dad",
+            "game_user_id": "323270"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 200,
+                "shots": 1,
+                "passes": 7,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4
+            },
+            "username": "SolaceThunders",
+            "game_user_id": "31950"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 215,
+                "shots": 1,
+                "passes": 13,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 41
+            },
+            "username": "Wind",
+            "game_user_id": "613713"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 360,
+                "shots": 4,
+                "blocks": 3,
+                "passes": 9,
+                "shutouts": 1,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 2
+            },
+            "username": "Magix",
+            "game_user_id": "1064297"
+        }
+    ],
+    "match_id": "c71f1c6e-be54-48a4-8cd3-e7ad3a283b4b",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
