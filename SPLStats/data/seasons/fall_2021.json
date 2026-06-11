@@ -2,6 +2,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -29,6 +30,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "BOS",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -56,6 +58,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -83,6 +86,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -110,6 +114,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -137,6 +142,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "CB",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -164,6 +170,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -191,6 +198,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -218,6 +226,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "DDP",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -245,6 +254,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -272,6 +282,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "F/A",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -299,6 +310,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "GTA",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -326,6 +338,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "MLBU",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -353,6 +366,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "MTL",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -380,6 +394,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "OCTS",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -407,6 +422,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "ORB",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -434,6 +450,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "OVSS",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -461,6 +478,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "SEA",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -488,6 +506,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "CHALLENGER - Promotional Series",
     "team_abbr": "TRID",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -515,6 +534,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "BPH",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -542,6 +562,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "BUE2",
     "team_name": "Twin City Toxin (TOX)",
@@ -569,6 +590,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CHA",
     "team_name": "Annapolis Armada (ANNA)",
@@ -596,6 +618,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "COW",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -623,6 +646,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "COW",
     "team_name": "Salt Lake City Stampede (SLC)",
@@ -650,6 +674,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CSC",
     "team_name": "Twin City Toxin (TOX)",
@@ -677,6 +702,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CSC",
     "team_name": "Annapolis Armada (ANNA)",
@@ -704,6 +730,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DCU",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -731,6 +758,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DDS",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -758,6 +786,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DDS",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -785,6 +814,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "FF",
     "team_name": "Annapolis Armada (ANNA)",
@@ -812,6 +842,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HAWT",
     "team_name": "Salt Lake City Stampede (SLC)",
@@ -839,6 +870,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LAC",
     "team_name": "North York Renegades (REN)",
@@ -866,6 +898,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LIL",
     "team_name": "Annapolis Armada (ANNA)",
@@ -893,6 +926,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LIL",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -920,6 +954,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -947,6 +982,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LVS/REN",
     "team_name": "North York Renegades (REN)",
@@ -974,6 +1010,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MAL",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -1001,6 +1038,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MM/QUE",
     "team_name": "Midwest Monarchs (MMA)",
@@ -1028,6 +1066,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MMA",
     "team_name": "Midwest Monarchs (MMA)",
@@ -1055,6 +1094,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MMA",
     "team_name": "Midwest Monarchs (MMA)",
@@ -1082,6 +1122,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MMS",
     "team_name": "New Jersey Noobs (NJN)",
@@ -1109,6 +1150,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NEH",
     "team_name": "Twin City Toxin (TOX)",
@@ -1136,6 +1178,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -1163,6 +1206,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -1190,6 +1234,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PHI",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -1217,6 +1262,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PIT",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -1244,6 +1290,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -1271,6 +1318,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -1298,6 +1346,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PITS",
     "team_name": "Annapolis Armada (ANNA)",
@@ -1325,6 +1374,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PLY",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -1352,6 +1402,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "REN",
     "team_name": "North York Renegades (REN)",
@@ -1379,6 +1430,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "REN",
     "team_name": "North York Renegades (REN)",
@@ -1406,6 +1458,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SLC",
     "team_name": "Salt Lake City Stampede (SLC)",
@@ -1433,6 +1486,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SLC",
     "team_name": "Salt Lake City Stampede (SLC)",
@@ -1460,6 +1514,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SPBS",
     "team_name": "Twin City Toxin (TOX)",
@@ -1487,6 +1542,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SSS",
     "team_name": "Twin City Toxin (TOX)",
@@ -1514,6 +1570,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SSS",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -1541,6 +1598,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "TMS",
     "team_name": "Midwest Monarchs (MMA)",
@@ -1568,6 +1626,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "VIP|CWTN",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -1595,6 +1654,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Play-in",
     "team_abbr": "BHB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -1622,6 +1682,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Play-in",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -1649,6 +1710,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Play-in",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -1676,6 +1738,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Play-in",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -1703,6 +1766,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Play-in",
     "team_abbr": "MM/QUE",
     "team_name": "Midwest Monarchs (MMA)",
@@ -1730,6 +1794,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Play-in",
     "team_abbr": "MMA",
     "team_name": "Midwest Monarchs (MMA)",
@@ -1757,6 +1822,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Challenger Play-in",
     "team_abbr": "TMS",
     "team_name": "Midwest Monarchs (MMA)",
@@ -1784,6 +1850,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "BUF",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -1811,6 +1878,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "BUF",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -1838,6 +1906,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "CHA",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -1865,6 +1934,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -1892,6 +1962,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -1919,6 +1990,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -1946,6 +2018,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "DDDD",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -1973,6 +2046,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "HIGH",
     "team_name": "Michigan Mafia (MM)",
@@ -2000,6 +2074,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "HSCB",
     "team_name": "Winnipeg Wrath (WW)",
@@ -2027,6 +2102,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "LEX",
     "team_name": "Michigan Mafia (MM)",
@@ -2054,6 +2130,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "LIL",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2081,6 +2158,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "MM",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -2108,6 +2186,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "MM",
     "team_name": "Michigan Mafia (MM)",
@@ -2135,6 +2214,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -2162,6 +2242,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -2189,6 +2270,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -2216,6 +2298,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -2243,6 +2326,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -2270,6 +2354,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -2297,6 +2382,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -2324,6 +2410,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -2351,6 +2438,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -2378,6 +2466,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "SASB",
     "team_name": "Winnipeg Wrath (WW)",
@@ -2405,6 +2494,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "TNW",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2432,6 +2522,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -2459,6 +2550,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "INTERMEDIATE - Promotional Series",
     "team_abbr": "[]",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2486,6 +2578,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -2513,6 +2606,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "BOAT",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -2540,6 +2634,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -2567,6 +2662,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -2594,6 +2690,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -2621,6 +2718,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CSC",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -2648,6 +2746,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -2675,6 +2774,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "Ehlasteer",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -2702,6 +2802,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "F/A",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -2729,6 +2830,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "GTA",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -2756,6 +2858,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MAL",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -2783,6 +2886,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MLBU",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -2810,6 +2914,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MMA",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -2837,6 +2942,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NANI",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -2864,6 +2970,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NJM",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -2891,6 +2998,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NJM",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -2918,6 +3026,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OCK",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -2945,6 +3054,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OCTS",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -2972,6 +3082,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "ORB",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -2999,6 +3110,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OVSS",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -3026,6 +3138,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "SEA",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -3053,6 +3166,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "TRI",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -3080,6 +3194,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "TRID",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -3107,6 +3222,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "[]",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -3134,6 +3250,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -3161,6 +3278,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "BOAT",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -3188,6 +3306,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "BOS",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -3215,6 +3334,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -3242,6 +3362,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -3269,6 +3390,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -3296,6 +3418,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CB",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -3323,6 +3446,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -3350,6 +3474,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -3377,6 +3502,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -3404,6 +3530,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -3431,6 +3558,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -3458,6 +3586,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -3485,6 +3614,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "CHI",
     "team_name": "Winnipeg Wrath (WW)",
@@ -3512,6 +3642,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "DCU",
     "team_name": "Ottawa Drinkers (OTT)",
@@ -3539,6 +3670,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "DDP",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -3566,6 +3698,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "DDP",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -3593,6 +3726,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -3620,6 +3754,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "Ehlasteer",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -3647,6 +3782,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "F/A",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -3674,6 +3810,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "FF",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -3700,6 +3837,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "GTA",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -3727,6 +3865,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "HSCB",
     "team_name": "Winnipeg Wrath (WW)",
@@ -3754,6 +3893,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -3781,6 +3921,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -3808,6 +3949,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -3835,6 +3977,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -3862,6 +4005,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "LIL",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -3889,6 +4033,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "MAL",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -3916,6 +4061,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "MLBU",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -3943,6 +4089,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "MTL",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -3970,6 +4117,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "NANI",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -3997,6 +4145,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "NJM",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -4024,6 +4173,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "NJM",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -4051,6 +4201,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "OCK",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -4078,6 +4229,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "OCTS",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -4105,6 +4257,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "ORB",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -4132,6 +4285,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "OVSS",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -4159,6 +4313,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "PTF",
     "team_name": "Ottawa Drinkers (OTT)",
@@ -4186,6 +4341,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "PTF",
     "team_name": "Ottawa Drinkers (OTT)",
@@ -4213,6 +4369,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "SASB",
     "team_name": "Winnipeg Wrath (WW)",
@@ -4240,6 +4397,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "SEA",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -4267,6 +4425,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "SSS",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -4294,6 +4453,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "TRI",
     "team_name": "Ocean City Tsunamis (OCTS)",
@@ -4321,6 +4481,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "TRID",
     "team_name": "Crystal Springs Crusaders (CSC)",
@@ -4348,6 +4509,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "WP",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -4375,6 +4537,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -4402,6 +4565,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -4429,6 +4593,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Baguette - Intermediate Division - Omelette",
     "team_abbr": "[]",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -4456,6 +4621,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "BHB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -4483,6 +4649,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "BOS",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -4510,6 +4677,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -4537,6 +4705,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -4564,6 +4733,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "BYB",
     "team_name": "Hamilton BoneYardBoyz (BYB)",
@@ -4591,6 +4761,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CB",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -4618,6 +4789,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -4645,6 +4817,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -4672,6 +4845,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -4699,6 +4873,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "DCU",
     "team_name": "Ottawa Drinkers (OTT)",
@@ -4726,6 +4901,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "DDP",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -4753,6 +4929,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "DDP",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -4780,6 +4957,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "DDP",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -4807,6 +4985,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "HSCB",
     "team_name": "Winnipeg Wrath (WW)",
@@ -4834,6 +5013,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -4861,6 +5041,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -4888,6 +5069,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -4915,6 +5097,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "JEST",
     "team_name": "Gibsonia Geesters (JEST)",
@@ -4942,6 +5125,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "MTL",
     "team_name": "Delmarva Dandy Popes (DDP)",
@@ -4969,6 +5153,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "NANI",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -4996,6 +5181,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "PTF",
     "team_name": "Ottawa Drinkers (OTT)",
@@ -5023,6 +5209,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "PTF",
     "team_name": "Ottawa Drinkers (OTT)",
@@ -5050,6 +5237,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "SASB",
     "team_name": "Winnipeg Wrath (WW)",
@@ -5077,6 +5265,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -5104,6 +5293,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -5131,6 +5321,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -5158,6 +5349,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ATL",
     "team_name": "Atlanta Vampires (ATL2)",
@@ -5185,6 +5377,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ATL",
     "team_name": "Atlanta Vampires (ATL2)",
@@ -5212,6 +5405,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ATL",
     "team_name": "Atlanta Vampires (ATL2)",
@@ -5239,6 +5433,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BB",
     "team_name": "Toronto Narwhals (TNW)",
@@ -5266,6 +5461,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BHB",
     "team_name": "Toronto Narwhals (TNW)",
@@ -5293,6 +5489,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "COL",
     "team_name": "Atlanta Vampires (ATL2)",
@@ -5320,6 +5517,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "COL",
     "team_name": "Atlanta Vampires (ATL2)",
@@ -5347,6 +5545,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "DDDD",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -5374,6 +5573,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLR",
     "team_name": "Toronto Narwhals (TNW)",
@@ -5401,6 +5601,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HH",
     "team_name": "Hoboken Humidifiers (HH1)",
@@ -5428,6 +5629,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HH",
     "team_name": "Hoboken Humidifiers (HH1)",
@@ -5455,6 +5657,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HIGH",
     "team_name": "Michigan Mafia (MM)",
@@ -5482,6 +5685,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LEX",
     "team_name": "Michigan Mafia (MM)",
@@ -5509,6 +5713,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LIL",
     "team_name": "Toronto Narwhals (TNW)",
@@ -5536,6 +5741,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LLJ",
     "team_name": "Latrobe Lumberjacks (LLJ)",
@@ -5563,6 +5769,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LLJ",
     "team_name": "Latrobe Lumberjacks (LLJ)",
@@ -5590,6 +5797,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LLJ",
     "team_name": "Latrobe Lumberjacks (LLJ)",
@@ -5617,6 +5825,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LLJ",
     "team_name": "Latrobe Lumberjacks (LLJ)",
@@ -5644,6 +5853,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LLJ",
     "team_name": "Latrobe Lumberjacks (LLJ)",
@@ -5671,6 +5881,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MGMT",
     "team_name": "Nashville Niconics (NANI)",
@@ -5698,6 +5909,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MM",
     "team_name": "Nashville Niconics (NANI)",
@@ -5725,6 +5937,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MM",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -5752,6 +5965,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MM",
     "team_name": "Michigan Mafia (MM)",
@@ -5779,6 +5993,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -5806,6 +6021,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -5833,6 +6049,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAP",
     "team_name": "Indiana Agema (AG)",
@@ -5860,6 +6077,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -5887,6 +6105,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -5914,6 +6133,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAP",
     "team_name": "Indiana Agema (AG)",
@@ -5941,6 +6161,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NJB",
     "team_name": "Hoboken Humidifiers (HH1)",
@@ -5968,6 +6189,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -5995,6 +6217,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -6022,6 +6245,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -6049,6 +6273,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OMG",
     "team_name": "Indiana Agema (AG)",
@@ -6076,6 +6301,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6103,6 +6329,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OVPS",
     "team_name": "Hoboken Humidifiers (HH1)",
@@ -6130,6 +6357,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6157,6 +6385,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OVSS",
     "team_name": "Nashville Niconics (NANI)",
@@ -6184,6 +6413,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SEA",
     "team_name": "Michigan Mafia (MM)",
@@ -6211,6 +6441,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SESL",
     "team_name": "Hoboken Humidifiers (HH1)",
@@ -6238,6 +6469,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "STL",
     "team_name": "Okinawa Generations (OKG)",
@@ -6265,6 +6497,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "TNW",
     "team_name": "Toronto Narwhals (TNW)",
@@ -6292,6 +6525,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "TNW",
     "team_name": "Toronto Narwhals (TNW)",
@@ -6319,6 +6553,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "TRI",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6346,6 +6581,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "TheHuman",
     "team_name": "Okinawa Generations (OKG)",
@@ -6373,6 +6609,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "Michigan Mafia (MM)",
@@ -6400,6 +6637,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "Toronto Narwhals (TNW)",
@@ -6427,6 +6665,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6454,6 +6693,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "Nashville Niconics (NANI)",
@@ -6481,6 +6721,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6508,6 +6749,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BSD",
     "team_name": "New York Night Wings (NYNW)",
@@ -6535,6 +6777,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BUF",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -6562,6 +6805,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BUF",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -6589,6 +6833,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BUF",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -6616,6 +6861,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BUF",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -6643,6 +6889,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BUF",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -6670,6 +6917,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CHA",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -6697,6 +6945,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CTH",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -6724,6 +6973,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -6751,6 +7001,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -6778,6 +7029,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -6805,6 +7057,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -6832,6 +7085,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -6859,6 +7113,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLR",
     "team_name": "Phoenix Flare (FLR)",
@@ -6886,6 +7141,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLR",
     "team_name": "Phoenix Flare (FLR)",
@@ -6913,6 +7169,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FLR",
     "team_name": "Toronto Seals (SEA)",
@@ -6940,6 +7197,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -6967,6 +7225,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6994,6 +7253,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -7021,6 +7281,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -7048,6 +7309,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HH",
     "team_name": "New Jersey Loggers (NJL)",
@@ -7075,6 +7337,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "JCG",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -7102,6 +7365,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "LA",
     "team_name": "Toronto Seals (SEA)",
@@ -7129,6 +7393,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "LPHA",
     "team_name": "Love Park Heart Attacks (LPHA)",
@@ -7156,6 +7421,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "LPHA",
     "team_name": "Love Park Heart Attacks (LPHA)",
@@ -7183,6 +7449,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "LPHA",
     "team_name": "Love Park Heart Attacks (LPHA)",
@@ -7210,6 +7477,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MM",
     "team_name": "Phoenix Flare (FLR)",
@@ -7237,6 +7505,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -7264,6 +7533,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -7291,6 +7561,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -7318,6 +7589,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NJB",
     "team_name": "Toronto Seals (SEA)",
@@ -7345,6 +7617,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -7372,6 +7645,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -7398,6 +7672,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -7425,6 +7700,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -7452,6 +7728,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -7479,6 +7756,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVPS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -7506,6 +7784,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVST",
     "team_name": "Phoenix Flare (FLR)",
@@ -7533,6 +7812,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVTT",
     "team_name": "Toronto Seals (SEA)",
@@ -7560,6 +7840,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SEA",
     "team_name": "Toronto Seals (SEA)",
@@ -7587,6 +7868,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SEA",
     "team_name": "Toronto Seals (SEA)",
@@ -7614,6 +7896,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SEA",
     "team_name": "Toronto Seals (SEA)",
@@ -7641,6 +7924,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SSS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -7668,6 +7952,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SXS",
     "team_name": "Sacremento Saxons (SXS)",
@@ -7695,6 +7980,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SXS",
     "team_name": "Sacremento Saxons (SXS)",
@@ -7722,6 +8008,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SXS",
     "team_name": "Sacremento Saxons (SXS)",
@@ -7749,6 +8036,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SXS",
     "team_name": "Sacremento Saxons (SXS)",
@@ -7776,6 +8064,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SXS",
     "team_name": "Sacremento Saxons (SXS)",
@@ -7803,6 +8092,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "TNW",
     "team_name": "Buffalo Buffalos (BUFF)",
@@ -7830,6 +8120,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "BEUT",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -7857,6 +8148,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -7884,6 +8176,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "BOAT",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -7911,6 +8204,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "BOS",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -7938,6 +8232,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "BPH",
     "team_name": "Minneapolis Marauders (MIN)",
@@ -7965,6 +8260,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "BUE2",
     "team_name": "Vancouver Titans (VCT)",
@@ -7992,6 +8288,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CBLU",
     "team_name": "Colorado Blucifers (CBLU)",
@@ -8019,6 +8316,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CBLU",
     "team_name": "Colorado Blucifers (CBLU)",
@@ -8046,6 +8344,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CBLU",
     "team_name": "Colorado Blucifers (CBLU)",
@@ -8073,6 +8372,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -8100,6 +8400,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -8127,6 +8428,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CSC",
     "team_name": "Minneapolis Marauders (MIN)",
@@ -8154,6 +8456,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "DCU",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -8181,6 +8484,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "DD",
     "team_name": "Chicago Vitabois (VTB)",
@@ -8208,6 +8512,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -8235,6 +8540,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "Ehlasteer",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -8262,6 +8568,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "FF",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -8288,6 +8595,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -8315,6 +8623,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -8342,6 +8651,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -8369,6 +8679,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -8396,6 +8707,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "FLR",
     "team_name": "Phoenix Flare (FLR)",
@@ -8423,6 +8735,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "FTW",
     "team_name": "Savannah Bananas (NANA)",
@@ -8450,6 +8763,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "HEAT",
     "team_name": "Minneapolis Marauders (MIN)",
@@ -8477,6 +8791,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "HFX",
     "team_name": "Savannah Bananas (NANA)",
@@ -8504,6 +8819,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "HH",
     "team_name": "New Jersey Loggers (NJL)",
@@ -8531,6 +8847,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "HIGH",
     "team_name": "Michigan Mafia (MM)",
@@ -8558,6 +8875,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LEX",
     "team_name": "Michigan Mafia (MM)",
@@ -8585,6 +8903,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LIL",
     "team_name": "Maui Monkeys - west (MKY)",
@@ -8612,6 +8931,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LIL",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -8639,6 +8959,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LIL",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -8666,6 +8987,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LPHA",
     "team_name": "Love Park Heart Attacks (LPHA)",
@@ -8693,6 +9015,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LPHA",
     "team_name": "Love Park Heart Attacks (LPHA)",
@@ -8720,6 +9043,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LPHA",
     "team_name": "Love Park Heart Attacks (LPHA)",
@@ -8747,6 +9071,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LRR",
     "team_name": "Wyoming Cuddle Bears (WCB1)",
@@ -8774,6 +9099,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LVS",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -8801,6 +9127,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LVS",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -8828,6 +9155,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MAL",
     "team_name": "New Jersey Minutemen (NJM)",
@@ -8855,6 +9183,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MGMT",
     "team_name": "Savannah Bananas (NANA)",
@@ -8882,6 +9211,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MIA",
     "team_name": "Maui Monkeys - west (MKY)",
@@ -8909,6 +9239,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MIO",
     "team_name": "Minneapolis Marauders (MIN)",
@@ -8936,6 +9267,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MKY",
     "team_name": "Maui Monkeys - west (MKY)",
@@ -8963,6 +9295,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MLBU",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -8990,6 +9323,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MM",
     "team_name": "Phoenix Flare (FLR)",
@@ -9017,6 +9351,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MM",
     "team_name": "Michigan Mafia (MM)",
@@ -9044,6 +9379,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MM/QUE",
     "team_name": "Midwest Monarchs (MMA)",
@@ -9071,6 +9407,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MMA",
     "team_name": "Midwest Monarchs (MMA)",
@@ -9098,6 +9435,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MMA",
     "team_name": "Wyoming Cuddle Bears (WCB1)",
@@ -9125,6 +9463,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MMA",
     "team_name": "Midwest Monarchs (MMA)",
@@ -9152,6 +9491,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MMS",
     "team_name": "New Jersey Noobs (NJN)",
@@ -9179,6 +9519,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -9206,6 +9547,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -9233,6 +9575,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "NJB",
     "team_name": "New Jersey Loggers (NJL)",
@@ -9260,6 +9603,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -9287,6 +9631,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -9314,6 +9659,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "NWBD",
     "team_name": "Savannah Bananas (NANA)",
@@ -9341,6 +9687,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "OCA",
     "team_name": "Maui Monkeys - west (MKY)",
@@ -9368,6 +9715,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "OKL",
     "team_name": "Oklahoma Exotics (OKL)",
@@ -9395,6 +9743,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "OKL",
     "team_name": "Oklahoma Exotics (OKL)",
@@ -9422,6 +9771,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "OVST",
     "team_name": "Phoenix Flare (FLR)",
@@ -9449,6 +9799,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "PIT",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -9476,6 +9827,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "REN",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -9503,6 +9855,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "SASB",
     "team_name": "Winnipeg Wrath (WW)",
@@ -9530,6 +9883,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "SMMM",
     "team_name": "San Mateo Milkers (SMMM)",
@@ -9557,6 +9911,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "SMMM",
     "team_name": "San Mateo Milkers (SMMM)",
@@ -9584,6 +9939,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "SMMM",
     "team_name": "San Mateo Milkers (SMMM)",
@@ -9611,6 +9967,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "SMMM",
     "team_name": "San Mateo Milkers (SMMM)",
@@ -9638,6 +9995,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "SSS",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -9665,6 +10023,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "TMS",
     "team_name": "Midwest Monarchs (MMA)",
@@ -9692,6 +10051,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "TRID",
     "team_name": "Wyoming Cuddle Bears (WCB1)",
@@ -9719,6 +10079,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "VCT",
     "team_name": "Vancouver Titans (VCT)",
@@ -9746,6 +10107,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "VCV",
     "team_name": "Chicago Vitabois (VTB)",
@@ -9773,6 +10135,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "VISA",
     "team_name": "Oklahoma Exotics (OKL)",
@@ -9800,6 +10163,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "VTB",
     "team_name": "Chicago Vitabois (VTB)",
@@ -9827,6 +10191,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "WCB",
     "team_name": "Wyoming Cuddle Bears (WCB1)",
@@ -9854,6 +10219,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "WP",
     "team_name": "Syracuse Ice Kings (SIK)",
@@ -9881,6 +10247,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -9908,6 +10275,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "WW",
     "team_name": "Winnipeg Wrath (WW)",
@@ -9935,6 +10303,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "wrap",
     "team_name": "Vancouver Titans (VCT)",
@@ -9962,6 +10331,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "BBB",
     "team_name": "Boston Baked Beans (BBB)",
@@ -9989,6 +10359,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "BBB",
     "team_name": "Boston Baked Beans (BBB)",
@@ -10016,6 +10387,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "BBB",
     "team_name": "Boston Baked Beans (BBB)",
@@ -10043,6 +10415,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "BBB",
     "team_name": "Boston Baked Beans (BBB)",
@@ -10070,6 +10443,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "BPH",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10097,6 +10471,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "COW",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -10124,6 +10499,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "DCU",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -10151,6 +10527,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "DDS",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -10178,6 +10555,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "DDS",
     "team_name": "Delmarva Dandy Skaters (DDS)",
@@ -10205,6 +10583,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "HEAT",
     "team_name": "Ontario Outliers (ONO)",
@@ -10232,6 +10611,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "LAC",
     "team_name": "North York Renegades (REN)",
@@ -10259,6 +10639,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "LIL",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -10286,6 +10667,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10313,6 +10695,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "LVS/REN",
     "team_name": "North York Renegades (REN)",
@@ -10340,6 +10723,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "MAL",
     "team_name": "Ontario Outliers (ONO)",
@@ -10367,6 +10751,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "MM/QUE",
     "team_name": "Midwest Monarchs (MMA)",
@@ -10394,6 +10779,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "MMA",
     "team_name": "Midwest Monarchs (MMA)",
@@ -10421,6 +10807,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "MMA",
     "team_name": "Midwest Monarchs (MMA)",
@@ -10448,6 +10835,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "MMS",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10475,6 +10863,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10502,6 +10891,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10529,6 +10919,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "PHI",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10556,6 +10947,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "PIT",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -10583,6 +10975,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10610,6 +11003,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "REN",
     "team_name": "North York Renegades (REN)",
@@ -10637,6 +11031,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "SSS",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -10664,6 +11059,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "TMS",
     "team_name": "Midwest Monarchs (MMA)",
@@ -10691,6 +11087,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO - Promotional Series",
     "team_abbr": "[]",
     "team_name": "Ontario Outliers (ONO)",
@@ -10718,6 +11115,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "BB",
     "team_name": "Plymouth Plague (PLY)",
@@ -10745,6 +11143,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "BB",
     "team_name": "Plymouth Plague (PLY)",
@@ -10772,6 +11171,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "BKLN",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -10799,6 +11199,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "CLP",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -10826,6 +11227,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "CLP",
     "team_name": "Colorado Cobras (COB)",
@@ -10853,6 +11255,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "CLP",
     "team_name": "Colorado Cobras (COB)",
@@ -10880,6 +11283,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "COB",
     "team_name": "Colorado Cobras (COB)",
@@ -10907,6 +11311,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "COW",
     "team_name": "Los Angeles Comets (LAC)",
@@ -10934,6 +11339,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "GRZ",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -10961,6 +11367,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "LAC",
     "team_name": "Los Angeles Comets (LAC)",
@@ -10988,6 +11395,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "LIL",
     "team_name": "Las Vegas Vandals (LV)",
@@ -11015,6 +11423,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "MAL",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -11042,6 +11451,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "MAS",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11069,6 +11479,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "MIA",
     "team_name": "Las Vegas Vandals (LV)",
@@ -11096,6 +11507,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "MIA",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -11123,6 +11535,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "MIA",
     "team_name": "Las Vegas Vandals (LV)",
@@ -11150,6 +11563,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -11177,6 +11591,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "MKY",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11204,6 +11619,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "NEH",
     "team_name": "Los Angeles Comets (LAC)",
@@ -11231,6 +11647,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "ORL",
     "team_name": "Orlando Otters (ORL)",
@@ -11258,6 +11675,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "ORL",
     "team_name": "Orlando Otters (ORL)",
@@ -11285,6 +11703,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "PLY",
     "team_name": "Orlando Otters (ORL)",
@@ -11312,6 +11731,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "PRO",
     "team_name": "Plymouth Plague (PLY)",
@@ -11339,6 +11759,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "QUE",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11366,6 +11787,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "WP",
     "team_name": "Orlando Otters (ORL)",
@@ -11393,6 +11815,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "WVO",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -11420,6 +11843,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "PRO DIVISION - PLAYOFFS",
     "team_abbr": "[]",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -11447,6 +11871,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BB",
     "team_name": "Plymouth Plague (PLY)",
@@ -11474,6 +11899,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BB",
     "team_name": "Plymouth Plague (PLY)",
@@ -11501,6 +11927,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BBB",
     "team_name": "Boston Baked Beans (BBB)",
@@ -11528,6 +11955,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BBB",
     "team_name": "Boston Baked Beans (BBB)",
@@ -11555,6 +11983,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BBB",
     "team_name": "Boston Baked Beans (BBB)",
@@ -11582,6 +12011,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BKLN",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -11609,6 +12039,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CLP",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -11636,6 +12067,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CLP",
     "team_name": "Colorado Cobras (COB)",
@@ -11663,6 +12095,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CLP",
     "team_name": "Colorado Cobras (COB)",
@@ -11690,6 +12123,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COB",
     "team_name": "Colorado Cobras (COB)",
@@ -11717,6 +12151,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COW",
     "team_name": "Los Angeles Comets (LAC)",
@@ -11744,6 +12179,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COW",
     "team_name": "Los Angeles Comets (LAC)",
@@ -11771,6 +12207,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "DCU",
     "team_name": "Los Angeles Comets (LAC)",
@@ -11798,6 +12235,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "GRZ",
     "team_name": "Orlando Otters (ORL)",
@@ -11825,6 +12263,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "HEAT",
     "team_name": "Ontario Outliers (ONO)",
@@ -11852,6 +12291,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LAC",
     "team_name": "Los Angeles Comets (LAC)",
@@ -11879,6 +12319,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Las Vegas Vandals (LV)",
@@ -11906,6 +12347,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MAL",
     "team_name": "Ontario Outliers (ONO)",
@@ -11933,6 +12375,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MAL",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -11960,6 +12403,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MAS",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11987,6 +12431,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Las Vegas Vandals (LV)",
@@ -12014,6 +12459,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -12041,6 +12487,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Las Vegas Vandals (LV)",
@@ -12068,6 +12515,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Ontario Outliers (ONO)",
@@ -12095,6 +12543,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MKY",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12122,6 +12571,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NEH",
     "team_name": "Los Angeles Comets (LAC)",
@@ -12149,6 +12599,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "ORL",
     "team_name": "Orlando Otters (ORL)",
@@ -12176,6 +12627,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "ORL",
     "team_name": "Orlando Otters (ORL)",
@@ -12203,6 +12655,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PLY",
     "team_name": "Orlando Otters (ORL)",
@@ -12230,6 +12683,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PRO",
     "team_name": "Plymouth Plague (PLY)",
@@ -12257,6 +12711,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "QUE",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12284,6 +12739,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "ROSE",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -12311,6 +12767,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "SCS",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12338,6 +12795,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "WP",
     "team_name": "Ontario Outliers (ONO)",
@@ -12365,6 +12823,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "WP",
     "team_name": "Orlando Otters (ORL)",
@@ -12392,6 +12851,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "WVO",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -12419,6 +12879,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "WVO",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -12446,6 +12907,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "WVO",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -12473,6 +12935,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "[]",
     "team_name": "Ontario Outliers (ONO)",
@@ -12500,6 +12963,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "[]",
     "team_name": "Brooklyn Bandits (BKLN)",
@@ -12527,6 +12991,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BB",
     "team_name": "Kelowna Wolves (KWW)",
@@ -12554,6 +13019,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BB",
     "team_name": "Kelowna Wolves (KWW)",
@@ -12581,6 +13047,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BCB",
     "team_name": "Arizona Stars (ARS)",
@@ -12608,6 +13075,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BCB",
     "team_name": "Oakland Sausages (OAK)",
@@ -12635,6 +13103,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BEUT",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -12662,6 +13131,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -12689,6 +13159,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BONG",
     "team_name": "Kelowna Wolves (KWW)",
@@ -12716,6 +13187,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "BUE2",
     "team_name": "Vancouver Titans (VCT)",
@@ -12743,6 +13215,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "DUD",
     "team_name": "Malibu Moguls (MLBU)",
@@ -12770,6 +13243,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -12797,6 +13271,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "FTW",
     "team_name": "Savannah Bananas (NANA)",
@@ -12824,6 +13299,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "HFX",
     "team_name": "Savannah Bananas (NANA)",
@@ -12851,6 +13327,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "LEX",
     "team_name": "Arizona Stars (ARS)",
@@ -12878,6 +13355,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "LIL",
     "team_name": "Kelowna Wolves (KWW)",
@@ -12905,6 +13383,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "LVS",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -12932,6 +13411,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "MGMT",
     "team_name": "Savannah Bananas (NANA)",
@@ -12959,6 +13439,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "MGMT",
     "team_name": "Arizona Stars (ARS)",
@@ -12986,6 +13467,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -13013,6 +13495,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "MLBU",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -13040,6 +13523,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -13067,6 +13551,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "NWBD",
     "team_name": "Savannah Bananas (NANA)",
@@ -13094,6 +13579,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "REN",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -13121,6 +13607,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "SSS",
     "team_name": "Oakland Sausages (OAK)",
@@ -13148,6 +13635,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "VCT",
     "team_name": "Vancouver Titans (VCT)",
@@ -13175,6 +13663,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "[]",
     "team_name": "Oakland Sausages (OAK)",
@@ -13202,6 +13691,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "postseason",
     "division": "WEST DIVISION - PLAYOFFS",
     "team_abbr": "wrap",
     "team_name": "Vancouver Titans (VCT)",
@@ -13229,6 +13719,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "ARS",
     "team_name": "Arizona Stars (ARS)",
@@ -13256,6 +13747,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BB",
     "team_name": "Kelowna Wolves (KWW)",
@@ -13283,6 +13775,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BB",
     "team_name": "Kelowna Wolves (KWW)",
@@ -13310,6 +13803,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BCB",
     "team_name": "Arizona Stars (ARS)",
@@ -13337,6 +13831,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BCB",
     "team_name": "Oakland Sausages (OAK)",
@@ -13364,6 +13859,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BEUT",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -13391,6 +13887,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -13418,6 +13915,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BONG",
     "team_name": "Kelowna Wolves (KWW)",
@@ -13445,6 +13943,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BUE2",
     "team_name": "Vancouver Titans (VCT)",
@@ -13472,6 +13971,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "CBLU",
     "team_name": "Colorado Blucifers (CBLU)",
@@ -13499,6 +13999,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "CBLU",
     "team_name": "Colorado Blucifers (CBLU)",
@@ -13526,6 +14027,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "CBLU",
     "team_name": "Colorado Blucifers (CBLU)",
@@ -13553,6 +14055,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "CRC",
     "team_name": "Oakland Sausages (OAK)",
@@ -13580,6 +14083,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DUD",
     "team_name": "Oakland Sausages (OAK)",
@@ -13607,6 +14111,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -13634,6 +14139,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "FTW",
     "team_name": "Savannah Bananas (NANA)",
@@ -13661,6 +14167,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "HFX",
     "team_name": "Savannah Bananas (NANA)",
@@ -13688,6 +14195,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LA",
     "team_name": "Arizona Stars (ARS)",
@@ -13715,6 +14223,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LEX",
     "team_name": "Arizona Stars (ARS)",
@@ -13742,6 +14251,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LIL",
     "team_name": "Kelowna Wolves (KWW)",
@@ -13769,6 +14279,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LVS",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -13796,6 +14307,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LVS",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -13823,6 +14335,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MGMT",
     "team_name": "Savannah Bananas (NANA)",
@@ -13850,6 +14363,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MGMT",
     "team_name": "Arizona Stars (ARS)",
@@ -13877,6 +14391,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -13904,6 +14419,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -13931,6 +14447,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MLBU",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -13958,6 +14475,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -13985,6 +14503,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -14012,6 +14531,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "NJB",
     "team_name": "Arizona Stars (ARS)",
@@ -14039,6 +14559,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "NJN",
     "team_name": "Kelowna Wolves (KWW)",
@@ -14066,6 +14587,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "NWBD",
     "team_name": "Savannah Bananas (NANA)",
@@ -14093,6 +14615,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "REN",
     "team_name": "Las Vegas Sentinels (LVS)",
@@ -14120,6 +14643,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "SSS",
     "team_name": "Oakland Sausages (OAK)",
@@ -14147,6 +14671,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "VCT",
     "team_name": "Vancouver Titans (VCT)",
@@ -14174,6 +14699,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "VCT",
     "team_name": "Vancouver Titans (VCT)",
@@ -14201,6 +14727,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "[]",
     "team_name": "Oakland Sausages (OAK)",
@@ -14228,6 +14755,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "[]",
     "team_name": "Arizona Stars (ARS)",
@@ -14255,6 +14783,7 @@
   {
     "season": "Fall 2021",
     "season_id": "fall_2021",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "wrap",
     "team_name": "Vancouver Titans (VCT)",

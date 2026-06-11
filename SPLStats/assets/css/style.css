@@ -79,3 +79,69 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.region-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.region-buttons button {
+  padding: 8px 14px;
+  background: #17212b;
+  color: #f4f4f4;
+  border: 1px solid #00b3b3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.region-buttons button.active,
+.region-buttons button:hover {
+  background: #00b3b3;
+  color: #101820;
+}
+
+.season-type-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.season-type-buttons button {
+  padding: 8px 14px;
+  background: #17212b;
+  color: #f4f4f4;
+  border: 1px solid #ffd166;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.season-type-buttons button.active,
+.season-type-buttons button:hover {
+  background: #ffd166;
+  color: #101820;
+}
+
+.division-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.division-buttons button {
+  padding: 8px 14px;
+  background: #17212b;
+  color: #f4f4f4;
+  border: 1px solid #7bdff2;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.division-buttons button.active,
+.division-buttons button:hover {
+  background: #7bdff2;
+  color: #101820;
+}

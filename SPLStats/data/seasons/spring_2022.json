@@ -2,6 +2,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "CHALLENGER PLAYOFFS",
     "team_abbr": "HAWT",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -29,6 +30,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "CHALLENGER PLAYOFFS",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -56,6 +58,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "CHALLENGER PLAYOFFS",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -83,6 +86,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "CHALLENGER PLAYOFFS",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -110,6 +114,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "CHALLENGER PLAYOFFS",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -137,6 +142,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "CHALLENGER PLAYOFFS",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -164,6 +170,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "CHALLENGER PLAYOFFS",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -191,6 +198,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "BOAT",
     "team_name": "Michigan Mafia (MM)",
@@ -218,6 +226,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "BOS",
     "team_name": "Ontario Outliers (ONO)",
@@ -245,6 +254,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "BPH",
     "team_name": "Pittsburgh Pythons (PP)",
@@ -272,6 +282,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CB",
     "team_name": "Montreal Popes (MTL)",
@@ -299,6 +310,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "COB",
     "team_name": "Ontario Outliers (ONO)",
@@ -326,6 +338,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "COW",
     "team_name": "Ontario Outliers (ONO)",
@@ -353,6 +366,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CSC",
     "team_name": "Michigan Mafia (MM)",
@@ -380,6 +394,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CSC",
     "team_name": "Pittsburgh Pythons (PP)",
@@ -407,6 +422,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CTB",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -434,6 +450,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DCU",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -461,6 +478,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DD",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -488,6 +506,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DDP",
     "team_name": "Montreal Popes (MTL)",
@@ -515,6 +534,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "F/A",
     "team_name": "Pittsburgh Pythons (PP)",
@@ -542,6 +562,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HAWT",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -569,6 +590,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HELL",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -596,6 +618,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HIGH",
     "team_name": "Michigan Mafia (MM)",
@@ -623,6 +646,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LIL",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -650,6 +674,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MM",
     "team_name": "Michigan Mafia (MM)",
@@ -677,6 +702,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MTL",
     "team_name": "Montreal Popes (MTL)",
@@ -704,6 +730,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NANI",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -731,6 +758,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -758,6 +786,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -785,6 +814,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -812,6 +842,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OCK",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -839,6 +870,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OKG",
     "team_name": "Ontario Outliers (ONO)",
@@ -866,6 +898,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "ORL",
     "team_name": "Pittsburgh Pythons (PP)",
@@ -893,6 +926,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OVPS",
     "team_name": "Michigan Mafia (MM)",
@@ -920,6 +954,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OVSS",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -947,6 +982,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PHI",
     "team_name": "Pittsburgh Pythons (PP)",
@@ -974,6 +1010,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1001,6 +1038,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Pythons (PP)",
@@ -1028,6 +1066,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1055,6 +1094,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1082,6 +1122,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1109,6 +1150,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PLY",
     "team_name": "Pittsburgh Pythons (PP)",
@@ -1136,6 +1178,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PP",
     "team_name": "Maryland Ice Orcas (MIO)",
@@ -1163,6 +1206,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "ROSE",
     "team_name": "Montreal Popes (MTL)",
@@ -1190,6 +1234,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SEA",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -1217,6 +1262,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SSS",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -1244,6 +1290,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "WVO",
     "team_name": "West Virginia Orangutans (WVO)",
@@ -1271,6 +1318,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "[]",
     "team_name": "Ontario Outliers (ONO)",
@@ -1298,6 +1346,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "BOAT",
     "team_name": "Michigan Mafia (MM)",
@@ -1325,6 +1374,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "BSD",
     "team_name": "New York Night Wings (NYNW)",
@@ -1352,6 +1402,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "CSC",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -1379,6 +1430,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "DCU",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -1406,6 +1458,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "FF",
     "team_name": "Toronto Narwhals (TNW)",
@@ -1433,6 +1486,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "GTA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -1460,6 +1514,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "HAHA",
     "team_name": "Michigan Mafia (MM)",
@@ -1487,6 +1542,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1514,6 +1570,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1541,6 +1598,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "HIGH",
     "team_name": "Michigan Mafia (MM)",
@@ -1568,6 +1626,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1595,6 +1654,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "LA",
     "team_name": "Toronto Narwhals (TNW)",
@@ -1622,6 +1682,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "MM",
     "team_name": "Michigan Mafia (MM)",
@@ -1649,6 +1710,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "MMA",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -1676,6 +1738,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -1703,6 +1766,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -1730,6 +1794,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -1757,6 +1822,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "OVPS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1784,6 +1850,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "SEA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -1811,6 +1878,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "SEA",
     "team_name": "Michigan Mafia (MM)",
@@ -1838,6 +1906,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "TNW",
     "team_name": "Toronto Narwhals (TNW)",
@@ -1865,6 +1934,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "TRID",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -1892,6 +1962,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "WP",
     "team_name": "Toronto Narwhals (TNW)",
@@ -1919,6 +1990,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Challenger Play-In",
     "team_abbr": "[]",
     "team_name": "Toronto Narwhals (TNW)",
@@ -1946,6 +2018,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "ALB",
     "team_name": "Albuquerque Crystals (ALB)",
@@ -1973,6 +2046,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "ALB",
     "team_name": "Albuquerque Crystals (ALB)",
@@ -2000,6 +2074,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "ALB",
     "team_name": "Albuquerque Crystals (ALB)",
@@ -2027,6 +2102,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "ATL",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -2054,6 +2130,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "BC",
     "team_name": "Bobcaygeon Catfish (BC)",
@@ -2081,6 +2158,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "BC",
     "team_name": "Bobcaygeon Catfish (BC)",
@@ -2108,6 +2186,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "BC",
     "team_name": "Bobcaygeon Catfish (BC)",
@@ -2135,6 +2214,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "CB",
     "team_name": "Michigan Henchmen (MH)",
@@ -2162,6 +2242,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "CTS",
     "team_name": "Michigan Henchmen (MH)",
@@ -2189,6 +2270,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2216,6 +2298,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2243,6 +2326,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2270,6 +2354,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2297,6 +2382,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "DD",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2324,6 +2410,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "ERI",
     "team_name": "Vice City Vitabois (VCV)",
@@ -2351,6 +2438,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "FF",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2378,6 +2466,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "GG",
     "team_name": "Michigan Henchmen (MH)",
@@ -2405,6 +2494,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "OVSS",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2432,6 +2522,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "OVTT",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -2459,6 +2550,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "TNW",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2486,6 +2578,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "TRI",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -2513,6 +2606,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "VCV",
     "team_name": "Vice City Vitabois (VCV)",
@@ -2540,6 +2634,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team_abbr": "VCV",
     "team_name": "Vice City Vitabois (VCV)",
@@ -2567,6 +2662,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "ATL",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -2594,6 +2690,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "BB",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -2621,6 +2718,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "BEUT",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -2648,6 +2746,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "BOLT",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -2675,6 +2774,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "BSD",
     "team_name": "New York Night Wings (NYNW)",
@@ -2702,6 +2802,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CSC",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -2729,6 +2830,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CSC",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -2756,6 +2858,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2783,6 +2886,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DCU",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -2810,6 +2914,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2837,6 +2942,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2864,6 +2970,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2891,6 +2998,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DD",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2918,6 +3026,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "DDS",
     "team_name": "Okinawa Generations (OKG)",
@@ -2945,6 +3054,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "FF",
     "team_name": "Toronto Narwhals (TNW)",
@@ -2972,6 +3082,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "GTA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -2999,6 +3110,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HAHA",
     "team_name": "New York Night Wings (NYNW)",
@@ -3026,6 +3138,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -3053,6 +3166,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -3080,6 +3194,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -3107,6 +3222,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "KING",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -3134,6 +3250,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "LA",
     "team_name": "Toronto Narwhals (TNW)",
@@ -3161,6 +3278,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -3188,6 +3306,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -3215,6 +3334,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -3242,6 +3362,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -3269,6 +3390,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MCF",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -3296,6 +3418,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MMA",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -3323,6 +3446,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "MW",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -3350,6 +3474,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NANI",
     "team_name": "New York Night Wings (NYNW)",
@@ -3377,6 +3502,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NAP",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -3404,6 +3530,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -3431,6 +3558,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -3458,6 +3586,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NYNW",
     "team_name": "New York Night Wings (NYNW)",
@@ -3485,6 +3614,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -3512,6 +3642,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -3539,6 +3670,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -3566,6 +3698,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -3593,6 +3726,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OVPS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -3620,6 +3754,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OVPS",
     "team_name": "Okinawa Generations (OKG)",
@@ -3647,6 +3782,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OVSS",
     "team_name": "Toronto Narwhals (TNW)",
@@ -3674,6 +3810,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OVST",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -3701,6 +3838,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OVTT",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -3728,6 +3866,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "PP",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -3755,6 +3894,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "PVDF",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -3782,6 +3922,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "SEA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -3809,6 +3950,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "TNW",
     "team_name": "Toronto Narwhals (TNW)",
@@ -3836,6 +3978,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "TRI",
     "team_name": "Buffalo Blizzards - old (BB3)",
@@ -3863,6 +4006,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "VIP|CWTN",
     "team_name": "Michigan Mallards (MAL)",
@@ -3890,6 +4034,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "VISA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -3917,6 +4062,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "WP",
     "team_name": "Toronto Narwhals (TNW)",
@@ -3944,6 +4090,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "[]",
     "team_name": "Toronto Narwhals (TNW)",
@@ -3971,6 +4118,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "AAG",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -3998,6 +4146,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "CB",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -4025,6 +4174,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "CTH",
     "team_name": "Hartford Wolves (HFWF)",
@@ -4052,6 +4202,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "CTS",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -4079,6 +4230,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "CTS",
     "team_name": "Michigan Henchmen (MH)",
@@ -4106,6 +4258,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -4133,6 +4286,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -4160,6 +4314,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -4187,6 +4342,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -4214,6 +4370,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DD",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -4241,6 +4398,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -4268,6 +4426,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DDDD",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -4295,6 +4454,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "DDDD",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -4322,6 +4482,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "ERI",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -4349,6 +4510,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "FLR",
     "team_name": "Toronto Flare (TOR2)",
@@ -4376,6 +4538,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "FLR",
     "team_name": "Toronto Flare (TOR2)",
@@ -4403,6 +4566,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "GG",
     "team_name": "Michigan Henchmen (MH)",
@@ -4430,6 +4594,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "HAWT",
     "team_name": "Detroit Demons (DD1)",
@@ -4457,6 +4622,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "HELL",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -4484,6 +4650,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -4511,6 +4678,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -4538,6 +4706,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "MCF",
     "team_name": "Providence Fish (PVDF)",
@@ -4565,6 +4734,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "NAP",
     "team_name": "Providence Fish (PVDF)",
@@ -4592,6 +4762,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "NEN",
     "team_name": "Detroit Demons (DD1)",
@@ -4619,6 +4790,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "OVST",
     "team_name": "Providence Fish (PVDF)",
@@ -4646,6 +4818,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "PVDF",
     "team_name": "Providence Fish (PVDF)",
@@ -4673,6 +4846,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "QUE",
     "team_name": "The Lasalle Nuggets (TLN)",
@@ -4700,6 +4874,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "RHDP",
     "team_name": "Michigan Henchmen (MH)",
@@ -4727,6 +4902,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "TLN",
     "team_name": "The Lasalle Nuggets (TLN)",
@@ -4754,6 +4930,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "TOR",
     "team_name": "The Lasalle Nuggets (TLN)",
@@ -4781,6 +4958,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Intermediate Play-In",
     "team_abbr": "VIM",
     "team_name": "Toronto Flare (TOR2)",
@@ -4808,6 +4986,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "AAG",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -4835,6 +5014,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ALB",
     "team_name": "Albuquerque Crystals (ALB)",
@@ -4862,6 +5042,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ALB",
     "team_name": "Albuquerque Crystals (ALB)",
@@ -4889,6 +5070,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ALB",
     "team_name": "Albuquerque Crystals (ALB)",
@@ -4916,6 +5098,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BB",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -4943,6 +5126,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CB",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -4970,6 +5154,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CB",
     "team_name": "Michigan Henchmen (MH)",
@@ -4997,6 +5182,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CTS",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -5024,6 +5210,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CTS",
     "team_name": "Michigan Henchmen (MH)",
@@ -5051,6 +5238,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "DCU",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -5078,6 +5266,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "DD",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -5105,6 +5294,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "DDDD",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -5132,6 +5322,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "DDDD",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -5159,6 +5350,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLA",
     "team_name": "Florida Flamingos (FLA)",
@@ -5186,6 +5378,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLA",
     "team_name": "Florida Flamingos (FLA)",
@@ -5213,6 +5406,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLA",
     "team_name": "Florida Flamingos (FLA)",
@@ -5240,6 +5434,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -5267,6 +5462,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -5294,6 +5490,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -5321,6 +5518,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -5348,6 +5546,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "FLF",
     "team_name": "Florida Foxes (FLF2)",
@@ -5375,6 +5574,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "GG",
     "team_name": "Michigan Henchmen (MH)",
@@ -5402,6 +5602,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HELL",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -5429,6 +5630,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HH",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5456,6 +5658,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HSRH",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -5483,6 +5686,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HSRH",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -5510,6 +5714,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HSRH",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -5537,6 +5742,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "JOKE",
     "team_name": "Balzac Jokers (JOKE)",
@@ -5564,6 +5770,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "JOKE",
     "team_name": "Balzac Jokers (JOKE)",
@@ -5591,6 +5798,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "JOKE",
     "team_name": "Balzac Jokers (JOKE)",
@@ -5618,6 +5826,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MH",
     "team_name": "Michigan Henchmen (MH)",
@@ -5645,6 +5854,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MM",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -5672,6 +5882,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MODE",
     "team_name": "Mode Club (MODE)",
@@ -5699,6 +5910,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MODE",
     "team_name": "Mode Club (MODE)",
@@ -5726,6 +5938,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MODE",
     "team_name": "Mode Club (MODE)",
@@ -5753,6 +5966,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MODE",
     "team_name": "Mode Club (MODE)",
@@ -5780,6 +5994,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5807,6 +6022,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5834,6 +6050,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5861,6 +6078,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5888,6 +6106,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OMG",
     "team_name": "Albuquerque Crystals (ALB)",
@@ -5915,6 +6134,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "QUE",
     "team_name": "The Lasalle Nuggets (TLN)",
@@ -5942,6 +6162,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "RHDP",
     "team_name": "Michigan Henchmen (MH)",
@@ -5969,6 +6190,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SEA",
     "team_name": "Michigan Henchmen (MH)",
@@ -5996,6 +6218,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "TLN",
     "team_name": "The Lasalle Nuggets (TLN)",
@@ -6023,6 +6246,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "TLN",
     "team_name": "The Lasalle Nuggets (TLN)",
@@ -6050,6 +6274,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "TOR",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -6077,6 +6302,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "The Ding Dong Ding Dongs (DDDD)",
@@ -6104,6 +6330,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BANS",
     "team_name": "Cincinnati Banshees (BANS)",
@@ -6131,6 +6358,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BANS",
     "team_name": "Cincinnati Banshees (BANS)",
@@ -6158,6 +6386,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BANS",
     "team_name": "Cincinnati Banshees (BANS)",
@@ -6185,6 +6414,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BANS",
     "team_name": "Cincinnati Banshees (BANS)",
@@ -6212,6 +6442,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BC",
     "team_name": "Bobcaygeon Catfish (BC)",
@@ -6239,6 +6470,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BC",
     "team_name": "Bobcaygeon Catfish (BC)",
@@ -6266,6 +6498,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BC",
     "team_name": "Bobcaygeon Catfish (BC)",
@@ -6293,6 +6526,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "BC",
     "team_name": "Bobcaygeon Catfish (BC)",
@@ -6320,6 +6554,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CGG",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -6347,6 +6582,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -6374,6 +6610,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -6401,6 +6638,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -6428,6 +6666,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CHI",
     "team_name": "Chicago SlapDaddys (CHI)",
@@ -6455,6 +6694,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CIN",
     "team_name": "Maryland Express (MDX)",
@@ -6482,6 +6722,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "CTH",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6509,6 +6750,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -6536,6 +6778,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -6563,6 +6806,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -6590,6 +6834,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "ERI",
     "team_name": "Vice City Vitabois (VCV)",
@@ -6617,6 +6862,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FF",
     "team_name": "Nashville Niconics (NANI)",
@@ -6644,6 +6890,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "FF",
     "team_name": "Nashville Niconics (NANI)",
@@ -6671,6 +6918,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "GVT",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -6698,6 +6946,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "GVT",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -6725,6 +6974,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "GVT",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -6752,6 +7002,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HAWT",
     "team_name": "Detroit Demons (DD1)",
@@ -6779,6 +7030,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -6806,6 +7058,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6833,6 +7086,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6860,6 +7114,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6887,6 +7142,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "LA",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -6914,6 +7170,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MDX",
     "team_name": "Maryland Express (MDX)",
@@ -6941,6 +7198,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MDX",
     "team_name": "Maryland Express (MDX)",
@@ -6968,6 +7226,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MDX",
     "team_name": "Maryland Express (MDX)",
@@ -6995,6 +7254,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MGMT",
     "team_name": "Kentucky Karens (MGMT)",
@@ -7022,6 +7282,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MGMT",
     "team_name": "Kentucky Karens (MGMT)",
@@ -7049,6 +7310,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MGMT",
     "team_name": "Kentucky Karens (MGMT)",
@@ -7076,6 +7338,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MGMT",
     "team_name": "Kentucky Karens (MGMT)",
@@ -7103,6 +7366,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MM",
     "team_name": "Nashville Niconics (NANI)",
@@ -7130,6 +7394,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MM",
     "team_name": "Hartford Wolves (HFWF)",
@@ -7157,6 +7422,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MVA",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -7184,6 +7450,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "MW",
     "team_name": "Nashville Niconics (NANI)",
@@ -7211,6 +7478,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -7238,6 +7506,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NAPN",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -7265,6 +7534,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NEN",
     "team_name": "Detroit Demons (DD1)",
@@ -7292,6 +7562,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "NJN",
     "team_name": "Kentucky Karens (MGMT)",
@@ -7319,6 +7590,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "ONW",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -7346,6 +7618,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -7373,6 +7646,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -7400,6 +7674,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -7427,6 +7702,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -7454,6 +7730,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVSS",
     "team_name": "Cincinnati Banshees (BANS)",
@@ -7481,6 +7758,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "OVSS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -7508,6 +7786,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "PCP",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -7535,6 +7814,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "PCP",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -7562,6 +7842,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "PCP",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -7589,6 +7870,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "PNDA",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -7616,6 +7898,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SAS",
     "team_name": "Saint Aug Starfish (SAS)",
@@ -7643,6 +7926,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SAS",
     "team_name": "Saint Aug Starfish (SAS)",
@@ -7670,6 +7954,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SAS",
     "team_name": "Saint Aug Starfish (SAS)",
@@ -7697,6 +7982,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SAS",
     "team_name": "Saint Aug Starfish (SAS)",
@@ -7724,6 +8010,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "SEA",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -7751,6 +8038,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "VCV",
     "team_name": "Vice City Vitabois (VCV)",
@@ -7778,6 +8066,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "VCV",
     "team_name": "Vice City Vitabois (VCV)",
@@ -7805,6 +8094,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "VIM",
     "team_name": "Maryland Express (MDX)",
@@ -7832,6 +8122,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "[]",
     "team_name": "Kentucky Karens (MGMT)",
@@ -7859,6 +8150,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Open Division - Dusters",
     "team_abbr": "[]",
     "team_name": "Nashville Niconics (NANI)",
@@ -7886,6 +8178,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "BB",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -7913,6 +8206,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "CB",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -7940,6 +8234,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "CTS",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -7967,6 +8262,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "DCU",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -7994,6 +8290,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "DD",
     "team_name": "Plymouth Blymouth Blague (BB2)",
@@ -8021,6 +8318,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "FF",
     "team_name": "Nashville Niconics (NANI)",
@@ -8048,6 +8346,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "FF",
     "team_name": "Nashville Niconics (NANI)",
@@ -8075,6 +8374,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "HSRH",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -8102,6 +8402,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "HSRH",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -8129,6 +8430,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "MGMT",
     "team_name": "Kentucky Karens (MGMT)",
@@ -8156,6 +8458,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "MGMT",
     "team_name": "Kentucky Karens (MGMT)",
@@ -8183,6 +8486,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "MGMT",
     "team_name": "Kentucky Karens (MGMT)",
@@ -8210,6 +8514,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "MM",
     "team_name": "Nashville Niconics (NANI)",
@@ -8237,6 +8542,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -8264,6 +8570,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -8291,6 +8598,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -8318,6 +8626,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -8345,6 +8654,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "NJN",
     "team_name": "Kentucky Karens (MGMT)",
@@ -8372,6 +8682,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "TOR",
     "team_name": "Hot Springs Red Hots (HSRH)",
@@ -8399,6 +8710,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "Open Division Playoffs",
     "team_abbr": "[]",
     "team_name": "Nashville Niconics (NANI)",
@@ -8426,6 +8738,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CGG",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -8453,6 +8766,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -8480,6 +8794,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -8507,6 +8822,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CHA",
     "team_name": "Charlotte Wildcats (CHA)",
@@ -8534,6 +8850,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "CIN",
     "team_name": "Maryland Express (MDX)",
@@ -8561,6 +8878,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "ERI",
     "team_name": "Vice City Vitabois (VCV)",
@@ -8588,6 +8906,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "GVT",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -8615,6 +8934,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "GVT",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -8642,6 +8962,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "GVT",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -8669,6 +8990,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "LA",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -8696,6 +9018,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -8723,6 +9046,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -8750,6 +9074,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MCF",
     "team_name": "Providence Fish (PVDF)",
@@ -8777,6 +9102,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MDX",
     "team_name": "Maryland Express (MDX)",
@@ -8804,6 +9130,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MDX",
     "team_name": "Maryland Express (MDX)",
@@ -8831,6 +9158,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "MVA",
     "team_name": "Maple Grove Gravy Train (GVT)",
@@ -8858,6 +9186,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "NAP",
     "team_name": "Providence Fish (PVDF)",
@@ -8885,6 +9214,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "OVST",
     "team_name": "Providence Fish (PVDF)",
@@ -8912,6 +9242,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "PCP",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -8939,6 +9270,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "PCP",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -8966,6 +9298,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "PCP",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -8993,6 +9326,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "PNDA",
     "team_name": "Port Charlotte Pedestrians (PCP1)",
@@ -9020,6 +9354,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "PVDF",
     "team_name": "Providence Fish (PVDF)",
@@ -9047,6 +9382,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "SEA",
     "team_name": "Ontario Whitecaps (ONW)",
@@ -9074,6 +9410,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "VCV",
     "team_name": "Vice City Vitabois (VCV)",
@@ -9101,6 +9438,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "VCV",
     "team_name": "Vice City Vitabois (VCV)",
@@ -9128,6 +9466,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Other Matches",
     "team_abbr": "VIP|CWTN",
     "team_name": "Michigan Mallards (MAL)",
@@ -9155,6 +9494,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "GRZ",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -9182,6 +9522,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "LAC",
     "team_name": "Los Angeles Comets (LAC)",
@@ -9209,6 +9550,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "LIL",
     "team_name": "Plymouth Plague (PLY)",
@@ -9236,6 +9578,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "LIL",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -9263,6 +9606,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "LIL",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -9290,6 +9634,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -9317,6 +9662,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "MAL",
     "team_name": "Los Angeles Comets (LAC)",
@@ -9344,6 +9690,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "MAS",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -9371,6 +9718,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -9398,6 +9746,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -9425,6 +9774,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -9452,6 +9802,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "MM/QUE",
     "team_name": "Los Angeles Comets (LAC)",
@@ -9479,6 +9830,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "MMS",
     "team_name": "New Jersey Noobs (NJN)",
@@ -9506,6 +9858,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -9533,6 +9886,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -9560,6 +9914,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -9587,6 +9942,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "PLY",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -9614,6 +9970,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "QUE",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -9641,6 +9998,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "PRO DIVISION PLAYOFFS",
     "team_abbr": "SSS",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -9668,6 +10026,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -9695,6 +10054,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COB",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -9722,6 +10082,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COW",
     "team_name": "New Jersey Noobs (NJN)",
@@ -9749,6 +10110,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COW",
     "team_name": "Los Angeles Comets (LAC)",
@@ -9776,6 +10138,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties (BEU2)",
@@ -9803,6 +10166,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "GRZ",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -9830,6 +10194,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "HAWT",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -9857,6 +10222,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LAC",
     "team_name": "Los Angeles Comets (LAC)",
@@ -9884,6 +10250,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Plymouth Plague (PLY)",
@@ -9911,6 +10278,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -9938,6 +10306,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -9965,6 +10334,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -9992,6 +10362,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MAL",
     "team_name": "Los Angeles Comets (LAC)",
@@ -10019,6 +10390,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MAS",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -10046,6 +10418,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -10073,6 +10446,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -10100,6 +10474,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MKY",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -10127,6 +10502,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MM/QUE",
     "team_name": "Los Angeles Comets (LAC)",
@@ -10154,6 +10530,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MMS",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10181,6 +10558,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10208,6 +10586,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10235,6 +10614,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PHI",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10262,6 +10642,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10289,6 +10670,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10316,6 +10698,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PLY",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10343,6 +10726,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "QUE",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -10370,6 +10754,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "SSS",
     "team_name": "Ocean City Typhoons (OCT)",
@@ -10397,6 +10782,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "BAD",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -10424,6 +10810,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "BCB",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -10451,6 +10838,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -10478,6 +10866,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -10505,6 +10894,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "BONG",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -10532,6 +10922,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "BUE2",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -10559,6 +10950,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "DUD",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -10586,6 +10978,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "DUD",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -10613,6 +11006,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -10640,6 +11034,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "Iggi",
     "team_name": "Malibu Moguls (MLBU)",
@@ -10667,6 +11062,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "LIL",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -10694,6 +11090,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "LVS",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -10721,6 +11118,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "MKY",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -10748,6 +11146,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -10775,6 +11174,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -10802,6 +11202,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -10829,6 +11230,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -10856,6 +11258,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "PHI",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -10883,6 +11286,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "VCT",
     "team_name": "Malibu Moguls (MLBU)",
@@ -10910,6 +11314,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "VIM",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -10937,6 +11342,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "postseason",
     "division": "WEST DIVISION PLAYOFFS",
     "team_abbr": "YY/LIL",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -10964,6 +11370,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BAD",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -10991,6 +11398,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BCB",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -11018,6 +11426,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BCB",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -11045,6 +11454,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -11072,6 +11482,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BEUT",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -11099,6 +11510,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BONG",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -11126,6 +11538,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BUE2",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -11153,6 +11566,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "CB",
     "team_name": "High Pings (LAG)",
@@ -11180,6 +11594,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DUD",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -11207,6 +11622,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DUD",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -11234,6 +11650,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DUD",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -11261,6 +11678,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "HLL",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -11288,6 +11706,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "HOG",
     "team_name": "Palm Bay Puck Hogs (HOG)",
@@ -11315,6 +11734,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "HOG",
     "team_name": "Palm Bay Puck Hogs (HOG)",
@@ -11342,6 +11762,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "Iggi",
     "team_name": "Malibu Moguls (MLBU)",
@@ -11369,6 +11790,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LIL",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -11395,6 +11817,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LIL",
     "team_name": "High Pings (LAG)",
@@ -11422,6 +11845,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LVS",
     "team_name": "Edmonton Beauties - West (BEUT)",
@@ -11449,6 +11873,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MAS",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -11476,6 +11901,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MKY",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -11503,6 +11929,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -11530,6 +11957,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MLBU",
     "team_name": "Malibu Moguls (MLBU)",
@@ -11557,6 +11985,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MM",
     "team_name": "High Pings (LAG)",
@@ -11584,6 +12013,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MM/QUE",
     "team_name": "High Pings (LAG)",
@@ -11611,6 +12041,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "NANI",
     "team_name": "High Pings (LAG)",
@@ -11638,6 +12069,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -11665,6 +12097,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -11692,6 +12125,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "OCA",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -11719,6 +12153,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - west (OCA)",
@@ -11746,6 +12181,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "OVST",
     "team_name": "High Pings (LAG)",
@@ -11773,6 +12209,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "PHI",
     "team_name": "Yosemite Bobcats (BOB)",
@@ -11800,6 +12237,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "RHDP",
     "team_name": "High Pings (LAG)",
@@ -11827,6 +12265,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "VCT",
     "team_name": "Palm Bay Puck Hogs (HOG)",
@@ -11854,6 +12293,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "VCT",
     "team_name": "Malibu Moguls (MLBU)",
@@ -11881,6 +12321,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "VIM",
     "team_name": "Vancouver Island Marmots (VIM)",
@@ -11908,6 +12349,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "YY/LIL",
     "team_name": "Minneapolis Milk Duds (DUD)",
@@ -11935,6 +12377,7 @@
   {
     "season": "Spring 2022",
     "season_id": "spring_2022",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "wrap",
     "team_name": "Palm Bay Puck Hogs (HOG)",

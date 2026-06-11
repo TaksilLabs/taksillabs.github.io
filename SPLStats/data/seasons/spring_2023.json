@@ -2,6 +2,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "ATL",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -29,6 +30,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "BKLN",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -56,6 +58,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "CGX",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -83,6 +86,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "COW",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -110,6 +114,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "CSC",
     "team_name": "St. Louis Royals (STL)",
@@ -137,6 +142,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "CSC",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -164,6 +170,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "CTS",
     "team_name": "Denver Cutthroats (DCU)",
@@ -191,6 +198,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -218,6 +226,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DCU",
     "team_name": "Michigan Mallards (MAL)",
@@ -245,6 +254,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -272,6 +282,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DCU",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -299,6 +310,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -326,6 +338,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -353,6 +366,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -380,6 +394,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DDS",
     "team_name": "Okinawa Generations (OKG)",
@@ -407,6 +422,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "DUD",
     "team_name": "Denver Cutthroats (DCU)",
@@ -434,6 +450,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -461,6 +478,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -488,6 +506,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -515,6 +534,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -542,6 +562,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HAWT",
     "team_name": "Detroit Demons (DD1)",
@@ -569,6 +590,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -596,6 +618,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -623,6 +646,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "HELL",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -650,6 +674,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "IRA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -677,6 +702,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "IRA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -704,6 +730,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "KING",
     "team_name": "Coaticook Kingpins (KING)",
@@ -731,6 +758,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "LIL",
     "team_name": "St. Louis Royals (STL)",
@@ -758,6 +786,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "LIL",
     "team_name": "St. Louis Royals (STL)",
@@ -785,6 +814,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "LVS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -812,6 +842,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -839,6 +870,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -866,6 +898,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -893,6 +926,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "MGMT",
     "team_name": "Detroit Demons (DD1)",
@@ -920,6 +954,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "MIA",
     "team_name": "St. Louis Royals (STL)",
@@ -947,6 +982,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "MRS",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -974,6 +1010,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "NAP",
     "team_name": "Coaticook Kingpins (KING)",
@@ -1001,6 +1038,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "NAPN",
     "team_name": "Coaticook Kingpins (KING)",
@@ -1028,6 +1066,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -1055,6 +1094,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -1082,6 +1122,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -1109,6 +1150,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -1136,6 +1178,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -1163,6 +1206,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "OVPS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1190,6 +1234,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "OVST",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1217,6 +1262,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "PHI",
     "team_name": "St. Louis Royals (STL)",
@@ -1244,6 +1290,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "PIT",
     "team_name": "Coaticook Kingpins (KING)",
@@ -1271,6 +1318,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1298,6 +1346,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1325,6 +1374,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -1352,6 +1402,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "PITS",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -1379,6 +1430,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "QUE",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -1406,6 +1458,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "ROSE",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -1433,6 +1486,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "SSS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1460,6 +1514,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "STL",
     "team_name": "St. Louis Royals (STL)",
@@ -1487,6 +1542,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "TOR",
     "team_name": "Coaticook Kingpins (KING)",
@@ -1514,6 +1570,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "TRID",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -1541,6 +1598,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Cross-Play",
     "team_abbr": "VIP|CWTN",
     "team_name": "Michigan Mallards (MAL)",
@@ -1568,6 +1626,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "ATL",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -1595,6 +1654,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CSC",
     "team_name": "St. Louis Royals (STL)",
@@ -1622,6 +1682,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "CSC",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -1649,6 +1710,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -1676,6 +1738,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -1703,6 +1766,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DD",
     "team_name": "Detroit Demons (DD1)",
@@ -1730,6 +1794,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "DDS",
     "team_name": "Okinawa Generations (OKG)",
@@ -1757,6 +1822,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HAWT",
     "team_name": "Detroit Demons (DD1)",
@@ -1784,6 +1850,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1811,6 +1878,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HAWT",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1838,6 +1906,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "HELL",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -1865,6 +1934,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "KING",
     "team_name": "Coaticook Kingpins (KING)",
@@ -1892,6 +1962,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LIL",
     "team_name": "St. Louis Royals (STL)",
@@ -1919,6 +1990,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LIL",
     "team_name": "St. Louis Royals (STL)",
@@ -1946,6 +2018,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "LVS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -1973,6 +2046,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MGMT",
     "team_name": "Detroit Demons (DD1)",
@@ -2000,6 +2074,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MIA",
     "team_name": "St. Louis Royals (STL)",
@@ -2027,6 +2102,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "MRS",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -2054,6 +2130,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NAP",
     "team_name": "Coaticook Kingpins (KING)",
@@ -2081,6 +2158,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "NAPN",
     "team_name": "Coaticook Kingpins (KING)",
@@ -2108,6 +2186,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -2135,6 +2214,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -2162,6 +2242,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OKG",
     "team_name": "Okinawa Generations (OKG)",
@@ -2189,6 +2270,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "OVPS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -2216,6 +2298,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PHI",
     "team_name": "St. Louis Royals (STL)",
@@ -2243,6 +2326,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PIT",
     "team_name": "St. Louis Royals (STL)",
@@ -2270,6 +2354,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "PIT",
     "team_name": "Coaticook Kingpins (KING)",
@@ -2297,6 +2382,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "ROSE",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -2324,6 +2410,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "SSS",
     "team_name": "Hot Springs Hot Tamales (HAWT)",
@@ -2351,6 +2438,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "STL",
     "team_name": "St. Louis Royals (STL)",
@@ -2378,6 +2466,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division",
     "team_abbr": "TOR",
     "team_name": "Coaticook Kingpins (KING)",
@@ -2405,6 +2494,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "CGX",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -2432,6 +2522,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "COW",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -2459,6 +2550,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "CTS",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2486,6 +2578,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2513,6 +2606,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2540,6 +2634,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "DCU",
     "team_name": "Michigan Mallards (MAL)",
@@ -2567,6 +2662,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2594,6 +2690,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "DCU",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2621,6 +2718,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "DUD",
     "team_name": "Denver Cutthroats (DCU)",
@@ -2648,6 +2746,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -2675,6 +2774,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -2702,6 +2802,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -2729,6 +2830,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "HAM",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -2756,6 +2858,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "IRA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -2783,6 +2886,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "IRA",
     "team_name": "Ireland Pepe Tactics (PEPE)",
@@ -2810,6 +2914,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -2837,6 +2942,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -2864,6 +2970,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "MAL",
     "team_name": "Michigan Mallards (MAL)",
@@ -2891,6 +2998,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -2918,6 +3026,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -2945,6 +3054,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "OVST",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -2972,6 +3082,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -2999,6 +3110,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -3026,6 +3138,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -3053,6 +3166,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "PITS",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -3080,6 +3194,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "QUE",
     "team_name": "Hanover Ham Hoggers (HAM1)",
@@ -3107,6 +3222,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "TRID",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -3134,6 +3250,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Challenger Division - M1NNSNOWTA",
     "team_abbr": "VIP|CWTN",
     "team_name": "Michigan Mallards (MAL)",
@@ -3161,6 +3278,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "CSC",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -3188,6 +3306,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "LIL",
     "team_name": "St. Louis Royals (STL)",
@@ -3215,6 +3334,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "MRS",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -3242,6 +3362,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "OCA",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -3269,6 +3390,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "OVST",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -3296,6 +3418,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "PHI",
     "team_name": "St. Louis Royals (STL)",
@@ -3323,6 +3446,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "PIT",
     "team_name": "St. Louis Royals (STL)",
@@ -3350,6 +3474,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -3377,6 +3502,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -3404,6 +3530,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "PITS",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -3431,6 +3558,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "ROSE",
     "team_name": "Philadelphia Phantasy (PHI)",
@@ -3458,6 +3586,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "STL",
     "team_name": "St. Louis Royals (STL)",
@@ -3485,6 +3614,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Challenger Division - Playoffs",
     "team_abbr": "TRID",
     "team_name": "Oregon Capybaras - East (ORE)",
@@ -3512,6 +3642,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "AAG",
     "team_name": "Austin Alligators (AAG)",
@@ -3539,6 +3670,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "AAG",
     "team_name": "Austin Alligators (AAG)",
@@ -3566,6 +3698,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "BOAT",
     "team_name": "Austin Alligators (AAG)",
@@ -3593,6 +3726,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "BPH",
     "team_name": "Nashville Niconics (NANI)",
@@ -3620,6 +3754,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "BSD",
     "team_name": "Gulfport Gummers (GG2)",
@@ -3647,6 +3782,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -3674,6 +3810,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -3701,6 +3838,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CB",
     "team_name": "Gulfport Gummers (GG2)",
@@ -3728,6 +3866,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -3755,6 +3894,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -3782,6 +3922,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -3809,6 +3950,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CTH",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -3836,6 +3978,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CTS",
     "team_name": "Gulfport Gummers (GG2)",
@@ -3863,6 +4006,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "CTS",
     "team_name": "Gulfport Gummers (GG2)",
@@ -3890,6 +4034,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "DCU",
     "team_name": "Nashville Niconics (NANI)",
@@ -3917,6 +4062,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HAWT",
     "team_name": "Quebec Flare (QUE)",
@@ -3944,6 +4090,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -3971,6 +4118,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -3998,6 +4146,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -4025,6 +4174,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -4052,6 +4202,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -4079,6 +4230,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -4106,6 +4258,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -4133,6 +4286,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "JCG",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -4160,6 +4314,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "LIL",
     "team_name": "Quebec Flare (QUE)",
@@ -4187,6 +4342,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "LIQR",
     "team_name": "Sunnyvale Samsquanches (LIQR)",
@@ -4214,6 +4370,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "LIQR",
     "team_name": "Sunnyvale Samsquanches (LIQR)",
@@ -4241,6 +4398,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "LIQR",
     "team_name": "Sunnyvale Samsquanches (LIQR)",
@@ -4268,6 +4426,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -4295,6 +4454,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -4322,6 +4482,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -4349,6 +4510,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -4376,6 +4538,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -4403,6 +4566,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -4430,6 +4594,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -4457,6 +4622,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -4484,6 +4650,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -4511,6 +4678,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -4538,6 +4706,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -4565,6 +4734,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -4592,6 +4762,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -4619,6 +4790,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -4646,6 +4818,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "OVSS",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -4673,6 +4846,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "OVTT",
     "team_name": "Nashville Niconics (NANI)",
@@ -4700,6 +4874,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "QUE",
     "team_name": "Quebec Flare (QUE)",
@@ -4727,6 +4902,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "QUE",
     "team_name": "Quebec Flare (QUE)",
@@ -4754,6 +4930,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "TRI",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -4781,6 +4958,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "WCW",
     "team_name": "Carolina Bassmasters (CB)",
@@ -4808,6 +4986,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "WCW",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -4835,6 +5014,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "WCW",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -4862,6 +5042,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "WW",
     "team_name": "Quebec Flare (QUE)",
@@ -4889,6 +5070,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "IM Cross-Play",
     "team_abbr": "ZYN",
     "team_name": "Sunnyvale Samsquanches (LIQR)",
@@ -4916,6 +5098,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "AAG",
     "team_name": "Austin Alligators (AAG)",
@@ -4943,6 +5126,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "AAG",
     "team_name": "Austin Alligators (AAG)",
@@ -4970,6 +5154,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "BOAT",
     "team_name": "Austin Alligators (AAG)",
@@ -4997,6 +5182,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -5024,6 +5210,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "CTH",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -5051,6 +5238,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HFWF",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -5078,6 +5266,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -5105,6 +5294,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -5132,6 +5322,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -5159,6 +5350,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -5186,6 +5378,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -5213,6 +5406,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -5240,6 +5434,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -5267,6 +5462,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "JCG",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -5294,6 +5490,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "LIQR",
     "team_name": "Sunnyvale Samsquanches (LIQR)",
@@ -5321,6 +5518,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "LIQR",
     "team_name": "Sunnyvale Samsquanches (LIQR)",
@@ -5348,6 +5546,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5375,6 +5574,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5402,6 +5602,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5429,6 +5630,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5456,6 +5658,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "NJB",
     "team_name": "New Jersey Bullets (NJB)",
@@ -5483,6 +5686,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "OVSS",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -5510,6 +5714,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "WCW",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -5537,6 +5742,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "WCW",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -5564,6 +5770,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division",
     "team_abbr": "ZYN",
     "team_name": "Sunnyvale Samsquanches (LIQR)",
@@ -5591,6 +5798,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "BPH",
     "team_name": "Nashville Niconics (NANI)",
@@ -5618,6 +5826,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "BSD",
     "team_name": "Gulfport Gummers (GG2)",
@@ -5645,6 +5854,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -5672,6 +5882,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -5699,6 +5910,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CB",
     "team_name": "Gulfport Gummers (GG2)",
@@ -5726,6 +5938,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -5753,6 +5966,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -5780,6 +5994,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CTS",
     "team_name": "Gulfport Gummers (GG2)",
@@ -5807,6 +6022,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "CTS",
     "team_name": "Gulfport Gummers (GG2)",
@@ -5834,6 +6050,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "DCU",
     "team_name": "Nashville Niconics (NANI)",
@@ -5861,6 +6078,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "HAWT",
     "team_name": "Quebec Flare (QUE)",
@@ -5888,6 +6106,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "LIL",
     "team_name": "Quebec Flare (QUE)",
@@ -5915,6 +6134,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -5942,6 +6162,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -5969,6 +6190,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -5996,6 +6218,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -6023,6 +6246,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -6050,6 +6274,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -6077,6 +6302,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -6104,6 +6330,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6131,6 +6358,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6158,6 +6386,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6185,6 +6414,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "OVPS",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6212,6 +6442,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "OVTT",
     "team_name": "Nashville Niconics (NANI)",
@@ -6239,6 +6470,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "QUE",
     "team_name": "Quebec Flare (QUE)",
@@ -6266,6 +6498,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "SAG",
     "team_name": "Nashville Niconics (NANI)",
@@ -6292,6 +6525,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "TRI",
     "team_name": "Ottawa Valley Puck Slappers (OVPS)",
@@ -6319,6 +6553,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "WCW",
     "team_name": "Carolina Bassmasters (CB)",
@@ -6346,6 +6581,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Intermediate Division - Omelette",
     "team_abbr": "WW",
     "team_name": "Quebec Flare (QUE)",
@@ -6373,6 +6609,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "AAG",
     "team_name": "Austin Alligators (AAG)",
@@ -6400,6 +6637,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "AAG",
     "team_name": "Austin Alligators (AAG)",
@@ -6427,6 +6665,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "BOAT",
     "team_name": "Austin Alligators (AAG)",
@@ -6454,6 +6693,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "BPH",
     "team_name": "Quebec Flare (QUE)",
@@ -6481,6 +6721,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "BSD",
     "team_name": "Gulfport Gummers (GG2)",
@@ -6508,6 +6749,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -6535,6 +6777,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -6562,6 +6805,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CB",
     "team_name": "Gulfport Gummers (GG2)",
@@ -6589,6 +6833,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -6616,6 +6861,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -6643,6 +6889,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CB",
     "team_name": "Carolina Bassmasters (CB)",
@@ -6670,6 +6917,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CTH",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -6697,6 +6945,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CTS",
     "team_name": "Gulfport Gummers (GG2)",
@@ -6724,6 +6973,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "CTS",
     "team_name": "Gulfport Gummers (GG2)",
@@ -6751,6 +7001,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "HFWF",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -6778,6 +7029,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6805,6 +7057,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6832,6 +7085,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6859,6 +7113,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "HFWF",
     "team_name": "Hartford Wolves (HFWF)",
@@ -6886,6 +7141,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -6913,6 +7169,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "HSCB",
     "team_name": "Hot Springs Cinnamon Bears (HSCB)",
@@ -6940,6 +7197,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -6967,6 +7225,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "NANI",
     "team_name": "Nashville Niconics (NANI)",
@@ -6994,6 +7253,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "OVSS",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -7021,6 +7281,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "OVTT",
     "team_name": "Nashville Niconics (NANI)",
@@ -7048,6 +7309,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "QUE",
     "team_name": "Quebec Flare (QUE)",
@@ -7075,6 +7337,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "QUE",
     "team_name": "Quebec Flare (QUE)",
@@ -7102,6 +7365,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "WCW",
     "team_name": "Carolina Bassmasters (CB)",
@@ -7129,6 +7393,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Intermediate Division - Playoffs",
     "team_abbr": "WCW",
     "team_name": "Windy City Watchmen (WCW1)",
@@ -7156,6 +7421,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ADS",
     "team_name": "Coaticook Carens (ADS)",
@@ -7183,6 +7449,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ADS",
     "team_name": "Coaticook Carens (ADS)",
@@ -7210,6 +7477,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ADS",
     "team_name": "Coaticook Carens (ADS)",
@@ -7237,6 +7505,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BCB",
     "team_name": "New England Niconics (NEN)",
@@ -7264,6 +7533,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BHB",
     "team_name": "Saginaw Stingers (SAG)",
@@ -7291,6 +7561,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BKN",
     "team_name": "Brooklyn Old Skool (BKN)",
@@ -7318,6 +7589,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BKN",
     "team_name": "Brooklyn Old Skool (BKN)",
@@ -7345,6 +7617,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BKN",
     "team_name": "Brooklyn Old Skool (BKN)",
@@ -7372,6 +7645,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BKN",
     "team_name": "Brooklyn Old Skool (BKN)",
@@ -7399,6 +7673,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "BLVB",
     "team_name": "Saginaw Stingers (SAG)",
@@ -7426,6 +7701,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CC",
     "team_name": "Coaticook Carens (ADS)",
@@ -7453,6 +7729,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CC",
     "team_name": "Coaticook Carens (ADS)",
@@ -7480,6 +7757,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCSC",
     "team_name": "Cape Canaveral Sea Cows (CCSC)",
@@ -7507,6 +7785,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCSC",
     "team_name": "Cape Canaveral Sea Cows (CCSC)",
@@ -7534,6 +7813,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCSC",
     "team_name": "Cape Canaveral Sea Cows (CCSC)",
@@ -7561,6 +7841,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7588,6 +7869,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7615,6 +7897,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7642,6 +7925,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7669,6 +7953,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7696,6 +7981,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7723,6 +8009,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7750,6 +8037,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7777,6 +8065,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CCW",
     "team_name": "Cape Cod Whales (CCW)",
@@ -7804,6 +8093,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CHA",
     "team_name": "Syrup City Niconics (SCN)",
@@ -7831,6 +8121,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CHA/BOIS",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -7858,6 +8149,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "CLUD",
     "team_name": "Boca Rink Rats (BRR)",
@@ -7885,6 +8177,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "DUN",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -7912,6 +8205,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ELK",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -7939,6 +8233,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ERI",
     "team_name": "Brooklyn Old Skool (BKN)",
@@ -7966,6 +8261,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ERI",
     "team_name": "Brooklyn Old Skool (BKN)",
@@ -7993,6 +8289,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "GOLD",
     "team_name": "Syrup City Niconics (SCN)",
@@ -8020,6 +8317,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "GRIT",
     "team_name": "Gettysburg Gritters (GRI)",
@@ -8047,6 +8345,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "GRIT",
     "team_name": "Gettysburg Gritters (GRI)",
@@ -8074,6 +8373,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "GRIT",
     "team_name": "Gettysburg Gritters (GRI)",
@@ -8101,6 +8401,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HAWT",
     "team_name": "Chicago Thieves (THT)",
@@ -8128,6 +8429,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HSRH",
     "team_name": "Saginaw Stingers (SAG)",
@@ -8155,6 +8457,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "HSRH",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -8182,6 +8485,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "JCG",
     "team_name": "Jersey City Grinders (JCG)",
@@ -8209,6 +8513,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "JCG",
     "team_name": "Jersey City Grinders (JCG)",
@@ -8236,6 +8541,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "JCG",
     "team_name": "Jersey City Grinders (JCG)",
@@ -8263,6 +8569,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "JCG",
     "team_name": "Jersey City Grinders (JCG)",
@@ -8290,6 +8597,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "KNOX",
     "team_name": "Boca Rink Rats (BRR)",
@@ -8317,6 +8625,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LEX",
     "team_name": "Lexington Bananas (LEX)",
@@ -8344,6 +8653,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LEX",
     "team_name": "Lexington Bananas (LEX)",
@@ -8371,6 +8681,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "LEX",
     "team_name": "Lexington Bananas (LEX)",
@@ -8398,6 +8709,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MAL",
     "team_name": "Chicago Thieves (THT)",
@@ -8425,6 +8737,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MCF",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -8452,6 +8765,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MGMT",
     "team_name": "Coaticook Carens (ADS)",
@@ -8479,6 +8793,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MID",
     "team_name": "Pigeon Forge Proboscis Monkeys (PFPM)",
@@ -8506,6 +8821,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MINN",
     "team_name": "Syrup City Niconics (SCN)",
@@ -8533,6 +8849,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MM",
     "team_name": "Coaticook Carens (ADS)",
@@ -8560,6 +8877,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MM",
     "team_name": "Coaticook Carens (ADS)",
@@ -8587,6 +8905,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "MMM",
     "team_name": "Syrup City Niconics (SCN)",
@@ -8614,6 +8933,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAPN",
     "team_name": "Saginaw Stingers (SAG)",
@@ -8641,6 +8961,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAPR",
     "team_name": "Naperville Niconics (NAPR)",
@@ -8668,6 +8989,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAPR",
     "team_name": "Naperville Niconics (NAPR)",
@@ -8695,6 +9017,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NAPR",
     "team_name": "Naperville Niconics (NAPR)",
@@ -8722,6 +9045,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NEN",
     "team_name": "New England Niconics (NEN)",
@@ -8749,6 +9073,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NEN",
     "team_name": "New England Niconics (NEN)",
@@ -8776,6 +9101,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NEN",
     "team_name": "New England Niconics (NEN)",
@@ -8803,6 +9129,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "NEN",
     "team_name": "New England Niconics (NEN)",
@@ -8830,6 +9157,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OCDD",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -8857,6 +9185,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OMG",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -8884,6 +9213,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OVSS",
     "team_name": "Naperville Niconics (NAPR)",
@@ -8911,6 +9241,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "OVSS",
     "team_name": "Naperville Niconics (NAPR)",
@@ -8938,6 +9269,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "PFPM",
     "team_name": "Pigeon Forge Proboscis Monkeys (PFPM)",
@@ -8965,6 +9297,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "PFPM",
     "team_name": "Pigeon Forge Proboscis Monkeys (PFPM)",
@@ -8992,6 +9325,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "PTF",
     "team_name": "Pound Town Finishers (PTF)",
@@ -9019,6 +9353,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "PTF",
     "team_name": "Pound Town Finishers (PTF)",
@@ -9046,6 +9381,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "PTF",
     "team_name": "Pound Town Finishers (PTF)",
@@ -9073,6 +9409,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "QUE",
     "team_name": "Saginaw Stingers (SAG)",
@@ -9100,6 +9437,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "QUE",
     "team_name": "Saginaw Stingers (SAG)",
@@ -9127,6 +9465,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "RAT",
     "team_name": "Boca Rink Rats (BRR)",
@@ -9154,6 +9493,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "RAT",
     "team_name": "Boca Rink Rats (BRR)",
@@ -9181,6 +9521,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "RAT",
     "team_name": "Boca Rink Rats (BRR)",
@@ -9208,6 +9549,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "RAT",
     "team_name": "Boca Rink Rats (BRR)",
@@ -9235,6 +9577,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SAG",
     "team_name": "Saginaw Stingers (SAG)",
@@ -9262,6 +9605,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SCN",
     "team_name": "Syrup City Niconics (SCN)",
@@ -9289,6 +9633,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SEA",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -9316,6 +9661,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SJMM",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -9343,6 +9689,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SJMM",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -9370,6 +9717,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "SSN",
     "team_name": "Chicago Thieves (THT)",
@@ -9397,6 +9745,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "THC",
     "team_name": "Chicago Thieves (THT)",
@@ -9424,6 +9773,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "WW",
     "team_name": "Saginaw Stingers (SAG)",
@@ -9451,6 +9801,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "WWL",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -9478,6 +9829,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "Cape Cod Whales (CCW)",
@@ -9505,6 +9857,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "[]",
     "team_name": "Cape Cod Whales (CCW)",
@@ -9532,6 +9885,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Open Division",
     "team_abbr": "ching",
     "team_name": "Chicago Thieves (THT)",
@@ -9559,6 +9913,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "BHB",
     "team_name": "Saginaw Stingers (SAG)",
@@ -9586,6 +9941,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "CHA",
     "team_name": "Syrup City Niconics (SCN)",
@@ -9613,6 +9969,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "CHA/BOIS",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -9640,6 +9997,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "CLUD",
     "team_name": "Saginaw Stingers (SAG)",
@@ -9667,6 +10025,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "DUN",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -9694,6 +10053,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "GOLD",
     "team_name": "Syrup City Niconics (SCN)",
@@ -9721,6 +10081,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "HAWT",
     "team_name": "Chicago Thieves (THT)",
@@ -9748,6 +10109,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "HSRH",
     "team_name": "New England Niconics (NEN)",
@@ -9775,6 +10137,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "HSRH",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -9802,6 +10165,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "LEX",
     "team_name": "Lexington Bananas (LEX)",
@@ -9829,6 +10193,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "LEX",
     "team_name": "Lexington Bananas (LEX)",
@@ -9856,6 +10221,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "LEX",
     "team_name": "Lexington Bananas (LEX)",
@@ -9883,6 +10249,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "MAL",
     "team_name": "Chicago Thieves (THT)",
@@ -9910,6 +10277,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "MCF",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -9937,6 +10305,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "MMM",
     "team_name": "Syrup City Niconics (SCN)",
@@ -9964,6 +10333,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "NEN",
     "team_name": "New England Niconics (NEN)",
@@ -9991,6 +10361,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "NEN",
     "team_name": "New England Niconics (NEN)",
@@ -10018,6 +10389,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "OCDD",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -10045,6 +10417,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "OMG",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -10072,6 +10445,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "PTF",
     "team_name": "Pound Town Finishers (PTF)",
@@ -10099,6 +10473,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "PTF",
     "team_name": "Pound Town Finishers (PTF)",
@@ -10126,6 +10501,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "PTF",
     "team_name": "Pound Town Finishers (PTF)",
@@ -10153,6 +10529,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "QUE",
     "team_name": "Saginaw Stingers (SAG)",
@@ -10180,6 +10557,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "SAG",
     "team_name": "Saginaw Stingers (SAG)",
@@ -10207,6 +10585,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "SCN",
     "team_name": "Syrup City Niconics (SCN)",
@@ -10234,6 +10613,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "SEA",
     "team_name": "Manitoba Mega Moose (MMM)",
@@ -10261,6 +10641,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "SSN",
     "team_name": "Chicago Thieves (THT)",
@@ -10288,6 +10669,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "THC",
     "team_name": "Chicago Thieves (THT)",
@@ -10315,6 +10697,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "WW",
     "team_name": "Saginaw Stingers (SAG)",
@@ -10342,6 +10725,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "WWL",
     "team_name": "Minnesota Climax Flamingos (MCP)",
@@ -10369,6 +10753,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "Open Division - Playoffs",
     "team_abbr": "ching",
     "team_name": "Chicago Thieves (THT)",
@@ -10396,6 +10781,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "BB",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -10423,6 +10809,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "BB",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -10450,6 +10837,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "CLP",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10477,6 +10865,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "CLP",
     "team_name": "Plymouth Plague (PLY)",
@@ -10504,6 +10893,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "CTS",
     "team_name": "Coaticook Stars (STAR)",
@@ -10531,6 +10921,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "LAC",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10558,6 +10949,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "LIL",
     "team_name": "Coaticook Stars (STAR)",
@@ -10585,6 +10977,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10612,6 +11005,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10639,6 +11033,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -10666,6 +11061,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -10693,6 +11089,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -10720,6 +11117,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "MIA",
     "team_name": "Coaticook Stars (STAR)",
@@ -10747,6 +11145,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "MM/QUE",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10774,6 +11173,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "MMS",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10801,6 +11201,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -10828,6 +11229,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -10855,6 +11257,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -10882,6 +11285,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -10909,6 +11313,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "ORL",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -10936,6 +11341,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "PRO DIVISION - Playoffs",
     "team_abbr": "SSS",
     "team_name": "Plymouth Plague (PLY)",
@@ -10963,6 +11369,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BB",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -10990,6 +11397,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "BB",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -11017,6 +11425,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CB",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -11044,6 +11453,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CLP",
     "team_name": "New Jersey Noobs (NJN)",
@@ -11071,6 +11481,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CLP",
     "team_name": "Plymouth Plague (PLY)",
@@ -11098,6 +11509,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COB",
     "team_name": "Colorado Cobras (COB)",
@@ -11125,6 +11537,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COW",
     "team_name": "Colorado Cobras (COB)",
@@ -11152,6 +11565,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COW",
     "team_name": "Coaticook Stars (STAR)",
@@ -11179,6 +11593,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "COW",
     "team_name": "Plymouth Plague (PLY)",
@@ -11206,6 +11621,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CRC",
     "team_name": "Cedar Rapids Cottonmouths (CRC)",
@@ -11233,6 +11649,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CSC",
     "team_name": "Cedar Rapids Cottonmouths (CRC)",
@@ -11260,6 +11677,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CSC",
     "team_name": "Cedar Rapids Cottonmouths (CRC)",
@@ -11287,6 +11705,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CSC",
     "team_name": "Cedar Rapids Cottonmouths (CRC)",
@@ -11314,6 +11733,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "CTS",
     "team_name": "Coaticook Stars (STAR)",
@@ -11341,6 +11761,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "DCU",
     "team_name": "Wendake Trappers (TRAP)",
@@ -11368,6 +11789,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "DEN",
     "team_name": "Wendake Trappers (TRAP)",
@@ -11395,6 +11817,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "DUD",
     "team_name": "Cedar Rapids Cottonmouths (CRC)",
@@ -11422,6 +11845,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "ERI",
     "team_name": "Wendake Trappers (TRAP)",
@@ -11449,6 +11873,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "FF",
     "team_name": "Colorado Cobras (COB)",
@@ -11476,6 +11901,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "FF",
     "team_name": "Colorado Cobras (COB)",
@@ -11503,6 +11929,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "FF",
     "team_name": "Colorado Cobras (COB)",
@@ -11530,6 +11957,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "GG",
     "team_name": "Wendake Trappers (TRAP)",
@@ -11557,6 +11985,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "GRZ",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11584,6 +12013,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "GTA",
     "team_name": "Cedar Rapids Cottonmouths (CRC)",
@@ -11611,6 +12041,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LAC",
     "team_name": "New Jersey Noobs (NJN)",
@@ -11638,6 +12069,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Coaticook Stars (STAR)",
@@ -11665,6 +12097,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -11692,6 +12125,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -11719,6 +12153,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "LIL",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -11746,6 +12181,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MAS",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11773,6 +12209,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -11800,6 +12237,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Plymouth Plague (PLY)",
@@ -11827,6 +12265,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11854,6 +12293,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MIA",
     "team_name": "Coaticook Stars (STAR)",
@@ -11881,6 +12321,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MM/QUE",
     "team_name": "New Jersey Noobs (NJN)",
@@ -11908,6 +12349,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MMA",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -11935,6 +12377,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "MMS",
     "team_name": "New Jersey Noobs (NJN)",
@@ -11962,6 +12405,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -11989,6 +12433,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -12016,6 +12461,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -12043,6 +12489,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NAP",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -12070,6 +12517,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "NJN",
     "team_name": "New Jersey Noobs (NJN)",
@@ -12097,6 +12545,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "ORL",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -12124,6 +12573,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "OVPS",
     "team_name": "Cedar Rapids Cottonmouths (CRC)",
@@ -12150,6 +12600,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PHI",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -12177,6 +12628,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PIT",
     "team_name": "Napoli Neapolitans (NAP)",
@@ -12204,6 +12656,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PIT",
     "team_name": "Pittsburgh Vipers (PIT)",
@@ -12231,6 +12684,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "PLY",
     "team_name": "Los Angeles Leopards (LAL)",
@@ -12258,6 +12712,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "QUE",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12285,6 +12740,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "SEA",
     "team_name": "Wendake Trappers (TRAP)",
@@ -12312,6 +12768,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Division",
     "team_abbr": "SSS",
     "team_name": "Plymouth Plague (PLY)",
@@ -12339,6 +12796,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "CSC",
     "team_name": "St. Louis Royals (STL)",
@@ -12366,6 +12824,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "GRZ",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12393,6 +12852,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "MAS",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12420,6 +12880,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "MIA",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12447,6 +12908,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "MIA",
     "team_name": "St. Louis Royals (STL)",
@@ -12474,6 +12936,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "OVST",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -12501,6 +12964,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -12528,6 +12992,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -12555,6 +13020,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "PITS",
     "team_name": "Pittsburgh Spinners (PITS)",
@@ -12582,6 +13048,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "QUE",
     "team_name": "Yosemite Grizzlies (GRZ)",
@@ -12609,6 +13076,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "Pro Play-in",
     "team_abbr": "STL",
     "team_name": "St. Louis Royals (STL)",
@@ -12636,6 +13104,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "disbanded_team",
     "division": "Vs Disbanded Teams",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -12663,6 +13132,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "disbanded_team",
     "division": "Vs Disbanded Teams",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -12690,6 +13160,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "disbanded_team",
     "division": "Vs Disbanded Teams",
     "team_abbr": "MAMA",
     "team_name": "Massachusetts Manatees (MAMA)",
@@ -12717,6 +13188,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "disbanded_team",
     "division": "Vs Disbanded Teams",
     "team_abbr": "SPBS",
     "team_name": "South Philly Board Scrapers (SPBS)",
@@ -12744,6 +13216,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "disbanded_team",
     "division": "Vs Disbanded Teams",
     "team_abbr": "SPBS",
     "team_name": "South Philly Board Scrapers (SPBS)",
@@ -12771,6 +13244,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "disbanded_team",
     "division": "Vs Disbanded Teams",
     "team_abbr": "SSS",
     "team_name": "South Philly Board Scrapers (SPBS)",
@@ -12798,6 +13272,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BCB",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -12825,6 +13300,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BCB",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -12852,6 +13328,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "BOAT",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -12879,6 +13356,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "COW",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -12906,6 +13384,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "CRC",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -12933,6 +13412,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DCU",
     "team_name": "Hot Springs Hot Doritos (HSHD)",
@@ -12960,6 +13440,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DCU",
     "team_name": "Hot Springs Hot Doritos (HSHD)",
@@ -12987,6 +13468,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DD",
     "team_name": "Hot Springs Hot Doritos (HSHD)",
@@ -13014,6 +13496,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "DUD",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13041,6 +13524,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "HSRH",
     "team_name": "Hot Springs Hot Doritos (HSHD)",
@@ -13068,6 +13552,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LIL",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13095,6 +13580,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LIL",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13122,6 +13608,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LIL",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13149,6 +13636,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "LIL",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13176,6 +13664,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MCF",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13203,6 +13692,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "MMM",
     "team_name": "Nowhere Niconics (NONI)",
@@ -13230,6 +13720,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "NANI",
     "team_name": "Nowhere Niconics (NONI)",
@@ -13257,6 +13748,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "NEN",
     "team_name": "Nowhere Niconics (NONI)",
@@ -13284,6 +13776,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "NEN",
     "team_name": "Nowhere Niconics (NONI)",
@@ -13311,6 +13804,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "OCA",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13338,6 +13832,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "OCA",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13365,6 +13860,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "ORL",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13392,6 +13888,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "PHI",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13419,6 +13916,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "PIT",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13446,6 +13944,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "QUE",
     "team_name": "Nowhere Niconics (NONI)",
@@ -13473,6 +13972,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "SSS",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13500,6 +14000,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "TOR",
     "team_name": "Hot Springs Hot Doritos (HSHD)",
@@ -13527,6 +14028,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "regular_season",
     "division": "West Division",
     "team_abbr": "VCT",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13554,6 +14056,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "BCB",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13581,6 +14084,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "BOAT",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13608,6 +14112,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "COW",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13635,6 +14140,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "CRC",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13662,6 +14168,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "DD",
     "team_name": "Hot Springs Hot Doritos (HSHD)",
@@ -13689,6 +14196,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "DUD",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13716,6 +14224,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "HSRH",
     "team_name": "Hot Springs Hot Doritos (HSHD)",
@@ -13743,6 +14252,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "LIL",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13770,6 +14280,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "LIL",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13797,6 +14308,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "LIL",
     "team_name": "Albuquerque Agitators (AQAG)",
@@ -13824,6 +14336,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "MIA",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13851,6 +14364,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "OCA",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13878,6 +14392,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "OCA",
     "team_name": "British Columbia Beavers (BCB1)",
@@ -13905,6 +14420,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "PIT",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13932,6 +14448,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "SSS",
     "team_name": "Syracuse Scorpions (SYC)",
@@ -13959,6 +14476,7 @@
   {
     "season": "Spring 2023",
     "season_id": "spring_2023",
+    "season_type": "postseason",
     "division": "West Division - Playoffs",
     "team_abbr": "TOR",
     "team_name": "Hot Springs Hot Doritos (HSHD)",

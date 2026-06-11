@@ -30,6 +30,30 @@ STAT_MAP = {
     "Losses": "losses",
 }
 
+def classify_season_type(fixture_group):
+    text = fixture_group.lower()
+
+    if "preseason" in text or "pre-season" in text:
+        return "preseason"
+    
+    if "other groups" in text or "vs disbanded teams" in text:
+        return "disbanded_team"
+    
+    playoff_words = [
+        "playoff",
+        "cup",
+        "postseason",
+        "post season",
+        "promotional series",
+        "series",
+        "playoffs"
+    ]
+
+    if any(word in text for word in playoff_words):
+        return "postseason"
+    
+    return "regular_season"
+
 
 def season_from_filename(path):
     # SPL-Winter2025.csv -> ("Winter 2025", "winter_2025")
@@ -137,6 +161,7 @@ def parse_csv(csv_file):
         output.append({
             "season": item["season"],
             "season_id": item["season_id"],
+            "season_type": classify_season_type(item["division"]),
             "division": item["division"],
             "team_abbr": item["team_abbr"],
             "team_name": item["team_name"],
