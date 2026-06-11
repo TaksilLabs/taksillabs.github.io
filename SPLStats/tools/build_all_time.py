@@ -43,8 +43,10 @@ def main():
             if row["division"] not in player["divisions_played"]:
                 player["divisions_played"].append(row["division"])
 
-            if row["team_abbr"] not in player["teams_played_for"]:
-                player["teams_played_for"].append(row["team_abbr"])
+            team = row.get("team") or row.get("team_name") or row.get("team_abbr") or "Unknown"
+
+            if team not in player["teams_played_for"]:
+                player["teams_played_for"].append(team)
 
             for stat, value in row["stats"].items():
                 # We'll recalculate percentage stats later.

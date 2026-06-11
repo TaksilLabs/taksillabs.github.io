@@ -30,6 +30,17 @@ STAT_MAP = {
     "Losses": "losses",
 }
 
+import re
+
+    # Get Team Name from CSV File
+def clean_team_name(team_name):
+    team_name = str(team_name).strip()
+
+    # Remove trailing "(XYZ)"
+    team_name = re.sub(r"\s*\([^)]*\)\s*$", "", team_name)
+
+    return team_name
+
 def classify_season_type(fixture_group):
     text = fixture_group.lower()
 
@@ -77,12 +88,6 @@ def normalize_player_name(name):
     return str(name).strip()
 
 
-def get_team_abbr(first_name):
-    text = str(first_name).strip()
-    match = re.search(r"\[([^\]]+)\]", text)
-    return match.group(1) if match else text
-
-
 def safe_float(value):
     try:
         return float(value)
@@ -100,8 +105,8 @@ def parse_csv(csv_file):
         for row in reader:
             fixture_group = row.get("Fixture Group", "").strip()
             player_name = normalize_player_name(row.get("Last Name", ""))
-            team_abbr = get_team_abbr(row.get("First Name", ""))
-            team_name = row.get("Team", "").strip()
+            team_name = clean_team_name(row.get("Team", ""))
+            team = team_name
 
             stat_desc = row.get("Stat Desc", "").strip()
             stat_key = STAT_MAP.get(stat_desc)
@@ -109,14 +114,14 @@ def parse_csv(csv_file):
             if not player_name or not stat_key:
                 continue
 
-            key = (fixture_group, team_abbr, player_name)
+            key = (fixture_group, team, player_name)
 
             if key not in players:
                 players[key] = {
                     "season": season_name,
                     "season_id": season_id,
                     "division": fixture_group,
-                    "team_abbr": team_abbr,
+                    "team": team,
                     "team_name": team_name,
                     "player_name": player_name,
                     "fixtures": set(),
@@ -163,7 +168,7 @@ def parse_csv(csv_file):
             "season_id": item["season_id"],
             "season_type": classify_season_type(item["division"]),
             "division": item["division"],
-            "team_abbr": item["team_abbr"],
+            "team": item["team"],
             "team_name": item["team_name"],
             "player_name": item["player_name"],
             "stats": {k: round(v, 2) for k, v in stats.items()},
@@ -173,7 +178,7 @@ def parse_csv(csv_file):
         key=lambda p: (
             p["season_id"],
             p["division"],
-            p["team_abbr"],
+            p["team"],
             p["player_name"].lower(),
         )
     )

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPLStats Player</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="playerName">Player</h1>
+    <p><a href="index.html">← Back to Leaderboard</a></p>
+  </header>
+
+  <main>
+    <section class="player-card">
+      <h2>Career Totals</h2>
+      <div id="careerStats" class="stat-grid"></div>
+    </section>
+
+    <section class="player-card">
+      <h2>Teams Played For</h2>
+      <p id="teamsPlayed"></p>
+    </section>
+
+    <section class="player-card">
+      <h2>Season History</h2>
+      <div class="table-wrap">
+        <table id="seasonTable">
+          <thead>
+            <tr>
+              <th>Season</th>
+              <th>Division</th>
+              <th>Team</th>
+              <th>GP</th>
+              <th>G</th>
+              <th>A</th>
+              <th>PTS</th>
+              <th>Shots</th>
+              <th>Saves</th>
+              <th>Blocks</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/player.js"></script>
+</body>
+</html>
