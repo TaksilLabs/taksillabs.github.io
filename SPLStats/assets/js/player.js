@@ -48,7 +48,12 @@ function normalizeName(name) {
 
 function renderPlayer(player) {
   document.title = `${player.player_name} | SPLStats`;
-  document.querySelector("#playerName").textContent = player.player_name;
+
+  document.querySelector("#playerName").textContent =
+    player.player_name;
+
+  document.querySelector("#careerTitle").textContent =
+    `${player.player_name}'s Career Totals`;
 
   renderCareerStats(player);
   renderTeams(player.by_season || []);
@@ -106,8 +111,20 @@ function renderCareerStats(player) {
     ],
 
     [
+      [
+        "Save %",
+        career.save_percent
+          ? (career.save_percent / 100).toFixed(3).replace(/^0/, "")
+          : ".000"
+      ],
+      ["GAA", career.gaa ? career.gaa.toFixed(2) : "0.00"],
       ["Saves", career.saves],
       ["Blocks", career.blocks]
+    ],
+
+    [
+      ["Shots Against", career.shots_against],
+      ["Goals Against", career.goals_against],
     ],
 
     [
@@ -127,6 +144,7 @@ function renderCareerStats(player) {
 
     [
       ["Posts Hit", career.post_hits],
+      ["Passes", career.passes],
       ["Poss Time", formatTime(career.possession_time_sec)]
     ]
   ];

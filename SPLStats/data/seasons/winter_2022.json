@@ -23,9 +23,12 @@
       "shots": 9.0,
       "takeaways": 12.0,
       "turnovers": 16.0,
+      "goals_against": 31.0,
+      "shots_against": 54.0,
       "games_played": 3,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 3.7,
+      "gaa": 10.33,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 68.0
     }
@@ -54,9 +57,12 @@
       "shots": 20.0,
       "takeaways": 11.0,
       "turnovers": 22.0,
+      "goals_against": 31.0,
+      "shots_against": 54.0,
       "games_played": 3,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 25.93,
+      "gaa": 10.33,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 73.33
     }
@@ -85,9 +91,12 @@
       "shots": 19.0,
       "takeaways": 27.0,
       "turnovers": 10.0,
+      "goals_against": 31.0,
+      "shots_against": 54.0,
       "games_played": 3,
       "shot_percent": 36.84,
-      "save_percent": 100.0,
+      "save_percent": 12.96,
+      "gaa": 10.33,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 35.0
     }
@@ -116,9 +125,12 @@
       "shots": 7.0,
       "takeaways": 10.0,
       "turnovers": 6.0,
+      "goals_against": 13.0,
+      "shots_against": 35.0,
       "games_played": 2,
       "shot_percent": 85.71,
-      "save_percent": 100.0,
+      "save_percent": 5.71,
+      "gaa": 6.5,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 66.67
     }
@@ -147,9 +159,12 @@
       "shots": 6.0,
       "takeaways": 27.0,
       "turnovers": 35.0,
+      "goals_against": 13.0,
+      "shots_against": 35.0,
       "games_played": 2,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 31.43,
+      "gaa": 6.5,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 36.36
     }
@@ -178,9 +193,12 @@
       "shots": 1.0,
       "takeaways": 7.0,
       "turnovers": 11.0,
+      "goals_against": 13.0,
+      "shots_against": 35.0,
       "games_played": 2,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 25.71,
+      "gaa": 6.5,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 25.0
     }
@@ -209,9 +227,12 @@
       "shots": 9.0,
       "takeaways": 9.0,
       "turnovers": 17.0,
+      "goals_against": 22.0,
+      "shots_against": 42.0,
       "games_played": 2,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 19.05,
+      "gaa": 11.0,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 25.0
     }
@@ -240,9 +261,12 @@
       "shots": 10.0,
       "takeaways": 13.0,
       "turnovers": 26.0,
+      "goals_against": 22.0,
+      "shots_against": 42.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 2.38,
+      "gaa": 11.0,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 28.57
     }
@@ -271,9 +295,12 @@
       "shots": 7.0,
       "takeaways": 8.0,
       "turnovers": 11.0,
+      "goals_against": 22.0,
+      "shots_against": 42.0,
       "games_played": 2,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 11.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 33.33
     }
@@ -302,9 +329,12 @@
       "shots": 1.0,
       "takeaways": 0.0,
       "turnovers": 0.0,
+      "goals_against": 2.0,
+      "shots_against": 2.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 2.0,
       "faceoffs_total": 1.0,
       "faceoff_win_percent": 0.0
     }
@@ -333,9 +363,12 @@
       "shots": 8.0,
       "takeaways": 5.0,
       "turnovers": 5.0,
+      "goals_against": 3.0,
+      "shots_against": 6.0,
       "games_played": 2,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 1.5,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 54.55
     }
@@ -364,9 +397,12 @@
       "shots": 12.0,
       "takeaways": 4.0,
       "turnovers": 5.0,
+      "goals_against": 3.0,
+      "shots_against": 6.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 1.5,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 55.56
     }
@@ -395,9 +431,12 @@
       "shots": 13.0,
       "takeaways": 14.0,
       "turnovers": 5.0,
+      "goals_against": 3.0,
+      "shots_against": 6.0,
       "games_played": 2,
       "shot_percent": 76.92,
-      "save_percent": 100.0,
+      "save_percent": 33.33,
+      "gaa": 1.5,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 57.14
     }
@@ -426,9 +465,12 @@
       "shots": 11.0,
       "takeaways": 8.0,
       "turnovers": 9.0,
+      "goals_against": 12.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 54.55,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 6.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 85.71
     }
@@ -457,9 +499,12 @@
       "shots": 2.0,
       "takeaways": 4.0,
       "turnovers": 4.0,
+      "goals_against": 12.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 6.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 100.0
     }
@@ -488,9 +533,12 @@
       "shots": 13.0,
       "takeaways": 8.0,
       "turnovers": 9.0,
+      "goals_against": 12.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 76.92,
-      "save_percent": 100.0,
+      "save_percent": 7.69,
+      "gaa": 6.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 66.67
     }
@@ -519,9 +567,12 @@
       "shots": 16.0,
       "takeaways": 28.0,
       "turnovers": 8.0,
+      "goals_against": 12.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 37.5,
-      "save_percent": 100.0,
+      "save_percent": 61.54,
+      "gaa": 6.0,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 87.5
     }
@@ -550,9 +601,12 @@
       "shots": 37.0,
       "takeaways": 27.0,
       "turnovers": 30.0,
+      "goals_against": 33.0,
+      "shots_against": 62.0,
       "games_played": 5,
       "shot_percent": 59.46,
-      "save_percent": 100.0,
+      "save_percent": 14.52,
+      "gaa": 6.6,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 52.38
     }
@@ -581,9 +635,12 @@
       "shots": 14.0,
       "takeaways": 11.0,
       "turnovers": 17.0,
+      "goals_against": 33.0,
+      "shots_against": 62.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 4.84,
+      "gaa": 6.6,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 42.86
     }
@@ -612,9 +669,12 @@
       "shots": 9.0,
       "takeaways": 23.0,
       "turnovers": 16.0,
+      "goals_against": 24.0,
+      "shots_against": 48.0,
       "games_played": 3,
       "shot_percent": 44.44,
-      "save_percent": 100.0,
+      "save_percent": 10.42,
+      "gaa": 8.0,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 31.58
     }
@@ -643,9 +703,12 @@
       "shots": 29.0,
       "takeaways": 40.0,
       "turnovers": 31.0,
+      "goals_against": 23.0,
+      "shots_against": 46.0,
       "games_played": 4,
       "shot_percent": 37.93,
-      "save_percent": 100.0,
+      "save_percent": 26.09,
+      "gaa": 5.75,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 55.56
     }
@@ -674,9 +737,12 @@
       "shots": 1.0,
       "takeaways": 10.0,
       "turnovers": 3.0,
+      "goals_against": 23.0,
+      "shots_against": 34.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 11.5,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 70.0
     }
@@ -705,9 +771,12 @@
       "shots": 2.0,
       "takeaways": 4.0,
       "turnovers": 9.0,
+      "goals_against": 23.0,
+      "shots_against": 34.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 11.76,
+      "gaa": 11.5,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 33.33
     }
@@ -736,9 +805,12 @@
       "shots": 3.0,
       "takeaways": 1.0,
       "turnovers": 11.0,
+      "goals_against": 23.0,
+      "shots_against": 34.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 20.59,
+      "gaa": 11.5,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 33.33
     }
@@ -767,9 +839,12 @@
       "shots": 61.0,
       "takeaways": 106.0,
       "turnovers": 92.0,
+      "goals_against": 139.0,
+      "shots_against": 246.0,
       "games_played": 17,
       "shot_percent": 37.7,
-      "save_percent": 100.0,
+      "save_percent": 11.79,
+      "gaa": 8.18,
       "faceoffs_total": 82.0,
       "faceoff_win_percent": 57.32
     }
@@ -798,9 +873,12 @@
       "shots": 69.0,
       "takeaways": 97.0,
       "turnovers": 82.0,
+      "goals_against": 112.0,
+      "shots_against": 193.0,
       "games_played": 13,
       "shot_percent": 50.72,
-      "save_percent": 100.0,
+      "save_percent": 11.92,
+      "gaa": 8.62,
       "faceoffs_total": 81.0,
       "faceoff_win_percent": 51.85
     }
@@ -829,9 +907,12 @@
       "shots": 17.0,
       "takeaways": 34.0,
       "turnovers": 47.0,
+      "goals_against": 56.0,
+      "shots_against": 101.0,
       "games_played": 7,
       "shot_percent": 41.18,
-      "save_percent": 100.0,
+      "save_percent": 12.87,
+      "gaa": 8.0,
       "faceoffs_total": 28.0,
       "faceoff_win_percent": 32.14
     }
@@ -860,9 +941,12 @@
       "shots": 92.0,
       "takeaways": 156.0,
       "turnovers": 122.0,
+      "goals_against": 139.0,
+      "shots_against": 246.0,
       "games_played": 17,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 17.07,
+      "gaa": 8.18,
       "faceoffs_total": 91.0,
       "faceoff_win_percent": 45.05
     }
@@ -891,9 +975,12 @@
       "shots": 9.0,
       "takeaways": 25.0,
       "turnovers": 35.0,
+      "goals_against": 60.0,
+      "shots_against": 124.0,
       "games_played": 6,
       "shot_percent": 88.89,
-      "save_percent": 100.0,
+      "save_percent": 4.03,
+      "gaa": 10.0,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 31.25
     }
@@ -922,9 +1009,12 @@
       "shots": 9.0,
       "takeaways": 44.0,
       "turnovers": 52.0,
+      "goals_against": 60.0,
+      "shots_against": 124.0,
       "games_played": 6,
       "shot_percent": 44.44,
-      "save_percent": 100.0,
+      "save_percent": 37.9,
+      "gaa": 10.0,
       "faceoffs_total": 29.0,
       "faceoff_win_percent": 24.14
     }
@@ -953,9 +1043,12 @@
       "shots": 4.0,
       "takeaways": 5.0,
       "turnovers": 20.0,
+      "goals_against": 26.0,
+      "shots_against": 60.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 13.33,
+      "gaa": 8.67,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 33.33
     }
@@ -984,9 +1077,12 @@
       "shots": 7.0,
       "takeaways": 7.0,
       "turnovers": 18.0,
+      "goals_against": 44.0,
+      "shots_against": 81.0,
       "games_played": 4,
       "shot_percent": 71.43,
-      "save_percent": 100.0,
+      "save_percent": 4.94,
+      "gaa": 11.0,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 45.0
     }
@@ -1015,9 +1111,12 @@
       "shots": 83.0,
       "takeaways": 108.0,
       "turnovers": 132.0,
+      "goals_against": 117.0,
+      "shots_against": 235.0,
       "games_played": 17,
       "shot_percent": 56.63,
-      "save_percent": 100.0,
+      "save_percent": 16.6,
+      "gaa": 6.88,
       "faceoffs_total": 79.0,
       "faceoff_win_percent": 48.1
     }
@@ -1046,9 +1145,12 @@
       "shots": 33.0,
       "takeaways": 44.0,
       "turnovers": 60.0,
+      "goals_against": 77.0,
+      "shots_against": 154.0,
       "games_played": 12,
       "shot_percent": 57.58,
-      "save_percent": 100.0,
+      "save_percent": 3.25,
+      "gaa": 6.42,
       "faceoffs_total": 45.0,
       "faceoff_win_percent": 68.89
     }
@@ -1077,9 +1179,12 @@
       "shots": 51.0,
       "takeaways": 183.0,
       "turnovers": 147.0,
+      "goals_against": 117.0,
+      "shots_against": 235.0,
       "games_played": 17,
       "shot_percent": 35.29,
-      "save_percent": 100.0,
+      "save_percent": 31.49,
+      "gaa": 6.88,
       "faceoffs_total": 94.0,
       "faceoff_win_percent": 52.13
     }
@@ -1108,9 +1213,12 @@
       "shots": 29.0,
       "takeaways": 38.0,
       "turnovers": 54.0,
+      "goals_against": 50.0,
+      "shots_against": 100.0,
       "games_played": 7,
       "shot_percent": 51.72,
-      "save_percent": 100.0,
+      "save_percent": 6.0,
+      "gaa": 7.14,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 57.5
     }
@@ -1139,9 +1247,12 @@
       "shots": 48.0,
       "takeaways": 109.0,
       "turnovers": 105.0,
+      "goals_against": 112.0,
+      "shots_against": 204.0,
       "games_played": 14,
       "shot_percent": 41.67,
-      "save_percent": 100.0,
+      "save_percent": 21.08,
+      "gaa": 8.0,
       "faceoffs_total": 63.0,
       "faceoff_win_percent": 55.56
     }
@@ -1170,9 +1281,12 @@
       "shots": 54.0,
       "takeaways": 67.0,
       "turnovers": 77.0,
+      "goals_against": 130.0,
+      "shots_against": 235.0,
       "games_played": 16,
       "shot_percent": 64.81,
-      "save_percent": 100.0,
+      "save_percent": 11.06,
+      "gaa": 8.12,
       "faceoffs_total": 82.0,
       "faceoff_win_percent": 50.0
     }
@@ -1201,9 +1315,12 @@
       "shots": 27.0,
       "takeaways": 60.0,
       "turnovers": 49.0,
+      "goals_against": 68.0,
+      "shots_against": 121.0,
       "games_played": 7,
       "shot_percent": 51.85,
-      "save_percent": 100.0,
+      "save_percent": 7.44,
+      "gaa": 9.71,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 27.91
     }
@@ -1232,9 +1349,12 @@
       "shots": 27.0,
       "takeaways": 45.0,
       "turnovers": 51.0,
+      "goals_against": 41.0,
+      "shots_against": 79.0,
       "games_played": 6,
       "shot_percent": 59.26,
-      "save_percent": 100.0,
+      "save_percent": 21.52,
+      "gaa": 6.83,
       "faceoffs_total": 29.0,
       "faceoff_win_percent": 41.38
     }
@@ -1263,9 +1383,12 @@
       "shots": 25.0,
       "takeaways": 46.0,
       "turnovers": 51.0,
+      "goals_against": 57.0,
+      "shots_against": 99.0,
       "games_played": 7,
       "shot_percent": 44.0,
-      "save_percent": 100.0,
+      "save_percent": 10.1,
+      "gaa": 8.14,
       "faceoffs_total": 44.0,
       "faceoff_win_percent": 50.0
     }
@@ -1294,9 +1417,12 @@
       "shots": 60.0,
       "takeaways": 76.0,
       "turnovers": 94.0,
+      "goals_against": 71.0,
+      "shots_against": 126.0,
       "games_played": 16,
       "shot_percent": 53.33,
-      "save_percent": 100.0,
+      "save_percent": 7.94,
+      "gaa": 4.44,
       "faceoffs_total": 66.0,
       "faceoff_win_percent": 50.0
     }
@@ -1325,9 +1451,12 @@
       "shots": 34.0,
       "takeaways": 95.0,
       "turnovers": 48.0,
+      "goals_against": 50.0,
+      "shots_against": 94.0,
       "games_played": 11,
       "shot_percent": 47.06,
-      "save_percent": 100.0,
+      "save_percent": 9.57,
+      "gaa": 4.55,
       "faceoffs_total": 50.0,
       "faceoff_win_percent": 68.0
     }
@@ -1356,9 +1485,12 @@
       "shots": 113.0,
       "takeaways": 147.0,
       "turnovers": 91.0,
+      "goals_against": 60.0,
+      "shots_against": 117.0,
       "games_played": 15,
       "shot_percent": 43.36,
-      "save_percent": 100.0,
+      "save_percent": 30.77,
+      "gaa": 4.0,
       "faceoffs_total": 76.0,
       "faceoff_win_percent": 59.21
     }
@@ -1387,9 +1519,12 @@
       "shots": 121.0,
       "takeaways": 126.0,
       "turnovers": 150.0,
+      "goals_against": 76.0,
+      "shots_against": 141.0,
       "games_played": 17,
       "shot_percent": 50.41,
-      "save_percent": 100.0,
+      "save_percent": 7.09,
+      "gaa": 4.47,
       "faceoffs_total": 80.0,
       "faceoff_win_percent": 55.0
     }
@@ -1418,9 +1553,12 @@
       "shots": 39.0,
       "takeaways": 62.0,
       "turnovers": 76.0,
+      "goals_against": 75.0,
+      "shots_against": 184.0,
       "games_played": 14,
       "shot_percent": 48.72,
-      "save_percent": 100.0,
+      "save_percent": 14.13,
+      "gaa": 5.36,
       "faceoffs_total": 76.0,
       "faceoff_win_percent": 46.05
     }
@@ -1449,9 +1587,12 @@
       "shots": 16.0,
       "takeaways": 53.0,
       "turnovers": 36.0,
+      "goals_against": 29.0,
+      "shots_against": 69.0,
       "games_played": 6,
       "shot_percent": 56.25,
-      "save_percent": 100.0,
+      "save_percent": 10.14,
+      "gaa": 4.83,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 47.83
     }
@@ -1480,9 +1621,12 @@
       "shots": 64.0,
       "takeaways": 132.0,
       "turnovers": 64.0,
+      "goals_against": 65.0,
+      "shots_against": 156.0,
       "games_played": 12,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 32.69,
+      "gaa": 5.42,
       "faceoffs_total": 58.0,
       "faceoff_win_percent": 65.52
     }
@@ -1511,9 +1655,12 @@
       "shots": 102.0,
       "takeaways": 136.0,
       "turnovers": 98.0,
+      "goals_against": 81.0,
+      "shots_against": 195.0,
       "games_played": 15,
       "shot_percent": 50.98,
-      "save_percent": 100.0,
+      "save_percent": 15.38,
+      "gaa": 5.4,
       "faceoffs_total": 74.0,
       "faceoff_win_percent": 56.76
     }
@@ -1542,9 +1689,12 @@
       "shots": 37.0,
       "takeaways": 169.0,
       "turnovers": 104.0,
+      "goals_against": 68.0,
+      "shots_against": 182.0,
       "games_played": 16,
       "shot_percent": 48.65,
-      "save_percent": 100.0,
+      "save_percent": 40.66,
+      "gaa": 4.25,
       "faceoffs_total": 86.0,
       "faceoff_win_percent": 67.44
     }
@@ -1573,9 +1723,12 @@
       "shots": 58.0,
       "takeaways": 69.0,
       "turnovers": 59.0,
+      "goals_against": 30.0,
+      "shots_against": 81.0,
       "games_played": 7,
       "shot_percent": 53.45,
-      "save_percent": 100.0,
+      "save_percent": 4.94,
+      "gaa": 4.29,
       "faceoffs_total": 33.0,
       "faceoff_win_percent": 48.48
     }
@@ -1604,9 +1757,12 @@
       "shots": 85.0,
       "takeaways": 97.0,
       "turnovers": 116.0,
+      "goals_against": 68.0,
+      "shots_against": 182.0,
       "games_played": 16,
       "shot_percent": 51.76,
-      "save_percent": 100.0,
+      "save_percent": 15.38,
+      "gaa": 4.25,
       "faceoffs_total": 71.0,
       "faceoff_win_percent": 54.93
     }
@@ -1635,9 +1791,12 @@
       "shots": 48.0,
       "takeaways": 33.0,
       "turnovers": 68.0,
+      "goals_against": 38.0,
+      "shots_against": 101.0,
       "games_played": 9,
       "shot_percent": 56.25,
-      "save_percent": 100.0,
+      "save_percent": 7.92,
+      "gaa": 4.22,
       "faceoffs_total": 36.0,
       "faceoff_win_percent": 61.11
     }
@@ -1666,9 +1825,12 @@
       "shots": 48.0,
       "takeaways": 93.0,
       "turnovers": 93.0,
+      "goals_against": 102.0,
+      "shots_against": 227.0,
       "games_played": 15,
       "shot_percent": 47.92,
-      "save_percent": 100.0,
+      "save_percent": 11.89,
+      "gaa": 6.8,
       "faceoffs_total": 107.0,
       "faceoff_win_percent": 54.21
     }
@@ -1697,9 +1859,12 @@
       "shots": 43.0,
       "takeaways": 70.0,
       "turnovers": 42.0,
+      "goals_against": 47.0,
+      "shots_against": 90.0,
       "games_played": 6,
       "shot_percent": 53.49,
-      "save_percent": 100.0,
+      "save_percent": 4.44,
+      "gaa": 7.83,
       "faceoffs_total": 30.0,
       "faceoff_win_percent": 50.0
     }
@@ -1728,9 +1893,12 @@
       "shots": 65.0,
       "takeaways": 52.0,
       "turnovers": 89.0,
+      "goals_against": 55.0,
+      "shots_against": 115.0,
       "games_played": 7,
       "shot_percent": 61.54,
-      "save_percent": 100.0,
+      "save_percent": 6.96,
+      "gaa": 7.86,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 59.52
     }
@@ -1759,9 +1927,12 @@
       "shots": 29.0,
       "takeaways": 130.0,
       "turnovers": 77.0,
+      "goals_against": 69.0,
+      "shots_against": 169.0,
       "games_played": 11,
       "shot_percent": 48.28,
-      "save_percent": 100.0,
+      "save_percent": 52.07,
+      "gaa": 6.27,
       "faceoffs_total": 56.0,
       "faceoff_win_percent": 46.43
     }
@@ -1790,9 +1961,12 @@
       "shots": 1.0,
       "takeaways": 1.0,
       "turnovers": 4.0,
+      "goals_against": 15.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 100.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 7.5,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 50.0
     }
@@ -1821,9 +1995,12 @@
       "shots": 58.0,
       "takeaways": 38.0,
       "turnovers": 73.0,
+      "goals_against": 54.0,
+      "shots_against": 128.0,
       "games_played": 9,
       "shot_percent": 53.45,
-      "save_percent": 100.0,
+      "save_percent": 5.47,
+      "gaa": 6.0,
       "faceoffs_total": 33.0,
       "faceoff_win_percent": 45.45
     }
@@ -1852,9 +2029,12 @@
       "shots": 71.0,
       "takeaways": 90.0,
       "turnovers": 111.0,
+      "goals_against": 120.0,
+      "shots_against": 198.0,
       "games_played": 16,
       "shot_percent": 49.3,
-      "save_percent": 100.0,
+      "save_percent": 20.2,
+      "gaa": 7.5,
       "faceoffs_total": 74.0,
       "faceoff_win_percent": 37.84
     }
@@ -1883,9 +2063,12 @@
       "shots": 73.0,
       "turnovers": 86.0,
       "takeaways": 101.0,
+      "goals_against": 103.0,
+      "shots_against": 170.0,
       "games_played": 14,
       "shot_percent": 47.95,
-      "save_percent": 100.0,
+      "save_percent": 10.0,
+      "gaa": 7.36,
       "faceoffs_total": 76.0,
       "faceoff_win_percent": 44.74
     }
@@ -1914,9 +2097,12 @@
       "shots": 69.0,
       "takeaways": 51.0,
       "turnovers": 138.0,
+      "goals_against": 95.0,
+      "shots_against": 163.0,
       "games_played": 13,
       "shot_percent": 50.72,
-      "save_percent": 100.0,
+      "save_percent": 7.36,
+      "gaa": 7.31,
       "faceoffs_total": 65.0,
       "faceoff_win_percent": 41.54
     }
@@ -1945,9 +2131,12 @@
       "shots": 11.0,
       "takeaways": 17.0,
       "turnovers": 42.0,
+      "goals_against": 73.0,
+      "shots_against": 121.0,
       "games_played": 9,
       "shot_percent": 36.36,
-      "save_percent": 100.0,
+      "save_percent": 7.44,
+      "gaa": 8.11,
       "faceoffs_total": 47.0,
       "faceoff_win_percent": 29.79
     }
@@ -1976,9 +2165,12 @@
       "shots": 38.0,
       "takeaways": 38.0,
       "turnovers": 49.0,
+      "goals_against": 66.0,
+      "shots_against": 128.0,
       "games_played": 7,
       "shot_percent": 52.63,
-      "save_percent": 100.0,
+      "save_percent": 1.56,
+      "gaa": 9.43,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 50.0
     }
@@ -2007,9 +2199,12 @@
       "shots": 16.0,
       "takeaways": 25.0,
       "turnovers": 23.0,
+      "goals_against": 35.0,
+      "shots_against": 65.0,
       "games_played": 4,
       "shot_percent": 43.75,
-      "save_percent": 100.0,
+      "save_percent": 6.15,
+      "gaa": 8.75,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 21.43
     }
@@ -2038,9 +2233,12 @@
       "shots": 38.0,
       "takeaways": 56.0,
       "turnovers": 42.0,
+      "goals_against": 56.0,
+      "shots_against": 98.0,
       "games_played": 6,
       "shot_percent": 57.89,
-      "save_percent": 100.0,
+      "save_percent": 8.16,
+      "gaa": 9.33,
       "faceoffs_total": 41.0,
       "faceoff_win_percent": 48.78
     }
@@ -2069,9 +2267,12 @@
       "shots": 12.0,
       "takeaways": 36.0,
       "turnovers": 51.0,
+      "goals_against": 63.0,
+      "shots_against": 125.0,
       "games_played": 6,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 16.8,
+      "gaa": 10.5,
       "faceoffs_total": 38.0,
       "faceoff_win_percent": 50.0
     }
@@ -2100,9 +2301,12 @@
       "shots": 54.0,
       "takeaways": 105.0,
       "turnovers": 145.0,
+      "goals_against": 151.0,
+      "shots_against": 272.0,
       "games_played": 15,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 20.96,
+      "gaa": 10.07,
       "faceoffs_total": 77.0,
       "faceoff_win_percent": 32.47
     }
@@ -2131,9 +2335,12 @@
       "shots": 40.0,
       "takeaways": 85.0,
       "turnovers": 100.0,
+      "goals_against": 127.0,
+      "shots_against": 235.0,
       "games_played": 13,
       "shot_percent": 42.5,
-      "save_percent": 100.0,
+      "save_percent": 17.87,
+      "gaa": 9.77,
       "faceoffs_total": 78.0,
       "faceoff_win_percent": 53.85
     }
@@ -2162,9 +2369,12 @@
       "shots": 7.0,
       "takeaways": 9.0,
       "turnovers": 16.0,
+      "goals_against": 19.0,
+      "shots_against": 33.0,
       "games_played": 2,
       "shot_percent": 14.29,
-      "save_percent": 100.0,
+      "save_percent": 9.09,
+      "gaa": 9.5,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 40.0
     }
@@ -2193,9 +2403,12 @@
       "shots": 9.0,
       "takeaways": 8.0,
       "turnovers": 14.0,
+      "goals_against": 19.0,
+      "shots_against": 33.0,
       "games_played": 2,
       "shot_percent": 44.44,
-      "save_percent": 100.0,
+      "save_percent": 21.21,
+      "gaa": 9.5,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 36.36
     }
@@ -2224,9 +2437,12 @@
       "shots": 7.0,
       "takeaways": 15.0,
       "turnovers": 12.0,
+      "goals_against": 19.0,
+      "shots_against": 33.0,
       "games_played": 2,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 6.06,
+      "gaa": 9.5,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 62.5
     }
@@ -2255,9 +2471,12 @@
       "shots": 6.0,
       "takeaways": 2.0,
       "turnovers": 6.0,
+      "goals_against": 19.0,
+      "shots_against": 33.0,
       "games_played": 2,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 6.06,
+      "gaa": 9.5,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 57.14
     }
@@ -2286,9 +2505,12 @@
       "shots": 8.0,
       "takeaways": 2.0,
       "turnovers": 2.0,
+      "goals_against": 6.0,
+      "shots_against": 17.0,
       "games_played": 1,
       "shot_percent": 62.5,
-      "save_percent": 100.0,
+      "save_percent": 11.76,
+      "gaa": 6.0,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 55.56
     }
@@ -2317,9 +2539,12 @@
       "shots": 5.0,
       "takeaways": 3.0,
       "turnovers": 1.0,
+      "goals_against": 4.0,
+      "shots_against": 9.0,
       "games_played": 1,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 33.33,
+      "gaa": 4.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 25.0
     }
@@ -2348,9 +2573,12 @@
       "shots": 9.0,
       "takeaways": 12.0,
       "turnovers": 6.0,
+      "goals_against": 10.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 44.44,
-      "save_percent": 100.0,
+      "save_percent": 30.77,
+      "gaa": 5.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 62.5
     }
@@ -2379,9 +2607,12 @@
       "shots": 14.0,
       "takeaways": 22.0,
       "turnovers": 12.0,
+      "goals_against": 10.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 28.57,
-      "save_percent": 100.0,
+      "save_percent": 11.54,
+      "gaa": 5.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 50.0
     }
@@ -2410,9 +2641,12 @@
       "shots": 8.0,
       "takeaways": 10.0,
       "turnovers": 11.0,
+      "goals_against": 8.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 37.5,
-      "save_percent": 100.0,
+      "save_percent": 3.85,
+      "gaa": 4.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 50.0
     }
@@ -2441,9 +2675,12 @@
       "shots": 4.0,
       "takeaways": 20.0,
       "turnovers": 15.0,
+      "goals_against": 8.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 57.69,
+      "gaa": 4.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 50.0
     }
@@ -2472,9 +2709,12 @@
       "shots": 8.0,
       "takeaways": 4.0,
       "turnovers": 12.0,
+      "goals_against": 8.0,
+      "shots_against": 26.0,
       "games_played": 2,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 7.69,
+      "gaa": 4.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 57.14
     }
@@ -2503,9 +2743,12 @@
       "shots": 29.0,
       "takeaways": 57.0,
       "turnovers": 37.0,
+      "goals_against": 60.0,
+      "shots_against": 108.0,
       "games_played": 6,
       "shot_percent": 48.28,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 10.0,
       "faceoffs_total": 36.0,
       "faceoff_win_percent": 69.44
     }
@@ -2534,9 +2777,12 @@
       "shots": 15.0,
       "takeaways": 16.0,
       "turnovers": 18.0,
+      "goals_against": 40.0,
+      "shots_against": 71.0,
       "games_played": 4,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 15.49,
+      "gaa": 10.0,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 60.87
     }
@@ -2565,9 +2811,12 @@
       "shots": 9.0,
       "takeaways": 8.0,
       "turnovers": 4.0,
+      "goals_against": 12.0,
+      "shots_against": 17.0,
       "games_played": 1,
       "shot_percent": 77.78,
-      "save_percent": 100.0,
+      "save_percent": 23.53,
+      "gaa": 12.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 54.55
     }
@@ -2596,9 +2845,12 @@
       "shots": 12.0,
       "takeaways": 32.0,
       "turnovers": 21.0,
+      "goals_against": 15.0,
+      "shots_against": 38.0,
       "games_played": 3,
       "shot_percent": 58.33,
-      "save_percent": 100.0,
+      "save_percent": 18.42,
+      "gaa": 5.0,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 70.59
     }
@@ -2627,9 +2879,12 @@
       "shots": 20.0,
       "takeaways": 17.0,
       "turnovers": 22.0,
+      "goals_against": 53.0,
+      "shots_against": 90.0,
       "games_played": 4,
       "shot_percent": 55.0,
-      "save_percent": 100.0,
+      "save_percent": 8.89,
+      "gaa": 13.25,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 41.94
     }
@@ -2658,9 +2913,12 @@
       "shots": 30.0,
       "takeaways": 38.0,
       "turnovers": 46.0,
+      "goals_against": 58.0,
+      "shots_against": 120.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 10.83,
+      "gaa": 11.6,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 22.58
     }
@@ -2689,9 +2947,12 @@
       "shots": 9.0,
       "takeaways": 11.0,
       "turnovers": 27.0,
+      "goals_against": 68.0,
+      "shots_against": 138.0,
       "games_played": 6,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 29.71,
+      "gaa": 11.33,
       "faceoffs_total": 34.0,
       "faceoff_win_percent": 35.29
     }
@@ -2720,9 +2981,12 @@
       "shots": 17.0,
       "takeaways": 9.0,
       "turnovers": 26.0,
+      "goals_against": 54.0,
+      "shots_against": 112.0,
       "games_played": 5,
       "shot_percent": 82.35,
-      "save_percent": 100.0,
+      "save_percent": 9.82,
+      "gaa": 10.8,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 34.38
     }
@@ -2751,9 +3015,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 2.0,
+      "goals_against": 13.0,
+      "shots_against": 24.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 13.0,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 40.0
     }
@@ -2782,9 +3049,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 6.0,
+      "goals_against": 24.0,
+      "shots_against": 44.0,
       "games_played": 2,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 11.36,
+      "gaa": 12.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 0.0
     }
@@ -2813,9 +3083,12 @@
       "shots": 29.0,
       "takeaways": 25.0,
       "turnovers": 34.0,
+      "goals_against": 26.0,
+      "shots_against": 67.0,
       "games_played": 7,
       "shot_percent": 41.38,
-      "save_percent": 100.0,
+      "save_percent": 8.96,
+      "gaa": 3.71,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 84.0
     }
@@ -2844,9 +3117,12 @@
       "shots": 42.0,
       "takeaways": 55.0,
       "turnovers": 50.0,
+      "goals_against": 26.0,
+      "shots_against": 67.0,
       "games_played": 7,
       "shot_percent": 47.62,
-      "save_percent": 100.0,
+      "save_percent": 10.45,
+      "gaa": 3.71,
       "faceoffs_total": 29.0,
       "faceoff_win_percent": 72.41
     }
@@ -2875,9 +3151,12 @@
       "shots": 27.0,
       "takeaways": 93.0,
       "turnovers": 43.0,
+      "goals_against": 26.0,
+      "shots_against": 67.0,
       "games_played": 7,
       "shot_percent": 51.85,
-      "save_percent": 100.0,
+      "save_percent": 32.84,
+      "gaa": 3.71,
       "faceoffs_total": 28.0,
       "faceoff_win_percent": 64.29
     }
@@ -2906,9 +3185,12 @@
       "shots": 3.0,
       "takeaways": 3.0,
       "turnovers": 5.0,
+      "goals_against": 2.0,
+      "shots_against": 6.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 50.0,
+      "gaa": 1.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 50.0
     }
@@ -2937,9 +3219,12 @@
       "shots": 0.0,
       "takeaways": 2.0,
       "turnovers": 4.0,
+      "goals_against": 7.0,
+      "shots_against": 16.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 18.75,
+      "gaa": 7.0,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 40.0
     }
@@ -2968,9 +3253,12 @@
       "shots": 32.0,
       "takeaways": 31.0,
       "turnovers": 33.0,
+      "goals_against": 33.0,
+      "shots_against": 82.0,
       "games_played": 6,
       "shot_percent": 53.12,
-      "save_percent": 100.0,
+      "save_percent": 23.17,
+      "gaa": 5.5,
       "faceoffs_total": 29.0,
       "faceoff_win_percent": 55.17
     }
@@ -2999,9 +3287,12 @@
       "shots": 28.0,
       "takeaways": 42.0,
       "turnovers": 28.0,
+      "goals_against": 33.0,
+      "shots_against": 82.0,
       "games_played": 6,
       "shot_percent": 53.57,
-      "save_percent": 100.0,
+      "save_percent": 6.1,
+      "gaa": 5.5,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 59.38
     }
@@ -3030,9 +3321,12 @@
       "shots": 34.0,
       "takeaways": 23.0,
       "turnovers": 38.0,
+      "goals_against": 23.0,
+      "shots_against": 66.0,
       "games_played": 5,
       "shot_percent": 44.12,
-      "save_percent": 100.0,
+      "save_percent": 36.36,
+      "gaa": 4.6,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 52.0
     }
@@ -3061,9 +3355,12 @@
       "shots": 3.0,
       "takeaways": 5.0,
       "turnovers": 9.0,
+      "goals_against": 10.0,
+      "shots_against": 16.0,
       "games_played": 1,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 6.25,
+      "gaa": 10.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 83.33
     }
@@ -3092,9 +3389,12 @@
       "shots": 6.0,
       "takeaways": 8.0,
       "turnovers": 9.0,
+      "goals_against": 12.0,
+      "shots_against": 21.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 19.05,
+      "gaa": 6.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 36.36
     }
@@ -3123,9 +3423,12 @@
       "shots": 2.0,
       "takeaways": 8.0,
       "turnovers": 15.0,
+      "goals_against": 20.0,
+      "shots_against": 41.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 4.88,
+      "gaa": 10.0,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 35.71
     }
@@ -3154,9 +3457,12 @@
       "shots": 4.0,
       "takeaways": 13.0,
       "turnovers": 15.0,
+      "goals_against": 20.0,
+      "shots_against": 41.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 21.95,
+      "gaa": 10.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 42.86
     }
@@ -3185,9 +3491,12 @@
       "shots": 6.0,
       "takeaways": 4.0,
       "turnovers": 10.0,
+      "goals_against": 6.0,
+      "shots_against": 15.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 20.0,
+      "gaa": 6.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 0.0
     }
@@ -3216,9 +3525,12 @@
       "shots": 24.0,
       "takeaways": 18.0,
       "turnovers": 20.0,
+      "goals_against": 15.0,
+      "shots_against": 36.0,
       "games_played": 3,
       "shot_percent": 58.33,
-      "save_percent": 100.0,
+      "save_percent": 27.78,
+      "gaa": 5.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 60.0
     }
@@ -3247,9 +3559,12 @@
       "shots": 15.0,
       "takeaways": 34.0,
       "turnovers": 22.0,
+      "goals_against": 29.0,
+      "shots_against": 63.0,
       "games_played": 4,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 17.46,
+      "gaa": 7.25,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 50.0
     }
@@ -3278,9 +3593,12 @@
       "shots": 19.0,
       "takeaways": 32.0,
       "turnovers": 23.0,
+      "goals_against": 21.0,
+      "shots_against": 47.0,
       "games_played": 4,
       "shot_percent": 68.42,
-      "save_percent": 100.0,
+      "save_percent": 17.02,
+      "gaa": 5.25,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 72.0
     }
@@ -3309,9 +3627,12 @@
       "shots": 4.0,
       "takeaways": 22.0,
       "turnovers": 23.0,
+      "goals_against": 22.0,
+      "shots_against": 39.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 12.82,
+      "gaa": 7.33,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 23.08
     }
@@ -3340,9 +3661,12 @@
       "shots": 43.0,
       "takeaways": 55.0,
       "turnovers": 55.0,
+      "goals_against": 64.0,
+      "shots_against": 106.0,
       "games_played": 7,
       "shot_percent": 37.21,
-      "save_percent": 100.0,
+      "save_percent": 26.42,
+      "gaa": 9.14,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 37.04
     }
@@ -3371,9 +3695,12 @@
       "shots": 6.0,
       "takeaways": 7.0,
       "turnovers": 16.0,
+      "goals_against": 42.0,
+      "shots_against": 67.0,
       "games_played": 4,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 5.97,
+      "gaa": 10.5,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 42.86
     }
@@ -3402,9 +3729,12 @@
       "shots": 23.0,
       "takeaways": 21.0,
       "turnovers": 65.0,
+      "goals_against": 64.0,
+      "shots_against": 106.0,
       "games_played": 7,
       "shot_percent": 60.87,
-      "save_percent": 100.0,
+      "save_percent": 4.72,
+      "gaa": 9.14,
       "faceoffs_total": 44.0,
       "faceoff_win_percent": 36.36
     }
@@ -3433,9 +3763,12 @@
       "shots": 22.0,
       "takeaways": 31.0,
       "turnovers": 27.0,
+      "goals_against": 41.0,
+      "shots_against": 86.0,
       "games_played": 6,
       "shot_percent": 36.36,
-      "save_percent": 100.0,
+      "save_percent": 2.33,
+      "gaa": 6.83,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 59.09
     }
@@ -3464,9 +3797,12 @@
       "shots": 1.0,
       "takeaways": 1.0,
       "turnovers": 0.0,
+      "goals_against": 6.0,
+      "shots_against": 11.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 6.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 66.67
     }
@@ -3495,9 +3831,12 @@
       "shots": 10.0,
       "takeaways": 26.0,
       "turnovers": 21.0,
+      "goals_against": 47.0,
+      "shots_against": 97.0,
       "games_played": 7,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 6.19,
+      "gaa": 6.71,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 85.71
     }
@@ -3526,9 +3865,12 @@
       "shots": 26.0,
       "takeaways": 30.0,
       "turnovers": 41.0,
+      "goals_against": 38.0,
+      "shots_against": 81.0,
       "games_played": 6,
       "shot_percent": 38.46,
-      "save_percent": 100.0,
+      "save_percent": 3.7,
+      "gaa": 6.33,
       "faceoffs_total": 34.0,
       "faceoff_win_percent": 58.82
     }
@@ -3557,9 +3899,12 @@
       "shots": 67.0,
       "takeaways": 74.0,
       "turnovers": 70.0,
+      "goals_against": 47.0,
+      "shots_against": 97.0,
       "games_played": 7,
       "shot_percent": 47.76,
-      "save_percent": 100.0,
+      "save_percent": 39.18,
+      "gaa": 6.71,
       "faceoffs_total": 38.0,
       "faceoff_win_percent": 50.0
     }
@@ -3586,10 +3931,13 @@
       "shots": 2.0,
       "takeaways": 5.0,
       "turnovers": 8.0,
+      "goals_against": 9.0,
+      "shots_against": 16.0,
       "points": 1.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 6.25,
+      "gaa": 9.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 33.33
     }
@@ -3618,9 +3966,12 @@
       "shots": 27.0,
       "takeaways": 49.0,
       "turnovers": 37.0,
+      "goals_against": 26.0,
+      "shots_against": 49.0,
       "games_played": 6,
       "shot_percent": 51.85,
-      "save_percent": 100.0,
+      "save_percent": 12.24,
+      "gaa": 4.33,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 59.09
     }
@@ -3649,9 +4000,12 @@
       "shots": 4.0,
       "takeaways": 2.0,
       "turnovers": 2.0,
+      "goals_against": 2.0,
+      "shots_against": 4.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 2.0,
       "faceoffs_total": 1.0,
       "faceoff_win_percent": 0.0
     }
@@ -3680,9 +4034,12 @@
       "shots": 12.0,
       "takeaways": 19.0,
       "turnovers": 25.0,
+      "goals_against": 20.0,
+      "shots_against": 40.0,
       "games_played": 5,
       "shot_percent": 58.33,
-      "save_percent": 100.0,
+      "save_percent": 15.0,
+      "gaa": 4.0,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 50.0
     }
@@ -3711,9 +4068,12 @@
       "shots": 28.0,
       "takeaways": 38.0,
       "turnovers": 25.0,
+      "goals_against": 22.0,
+      "shots_against": 35.0,
       "games_played": 4,
       "shot_percent": 39.29,
-      "save_percent": 100.0,
+      "save_percent": 11.43,
+      "gaa": 5.5,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 54.55
     }
@@ -3742,9 +4102,12 @@
       "shots": 22.0,
       "takeaways": 23.0,
       "turnovers": 24.0,
+      "goals_against": 25.0,
+      "shots_against": 45.0,
       "games_played": 5,
       "shot_percent": 40.91,
-      "save_percent": 100.0,
+      "save_percent": 15.56,
+      "gaa": 5.0,
       "faceoffs_total": 26.0,
       "faceoff_win_percent": 61.54
     }
@@ -3773,9 +4136,12 @@
       "shots": 52.0,
       "takeaways": 65.0,
       "turnovers": 42.0,
+      "goals_against": 32.0,
+      "shots_against": 69.0,
       "games_played": 7,
       "shot_percent": 57.69,
-      "save_percent": 100.0,
+      "save_percent": 11.59,
+      "gaa": 4.57,
       "faceoffs_total": 39.0,
       "faceoff_win_percent": 56.41
     }
@@ -3804,9 +4170,12 @@
       "shots": 18.0,
       "takeaways": 29.0,
       "turnovers": 20.0,
+      "goals_against": 32.0,
+      "shots_against": 69.0,
       "games_played": 7,
       "shot_percent": 61.11,
-      "save_percent": 100.0,
+      "save_percent": 34.78,
+      "gaa": 4.57,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 59.38
     }
@@ -3835,9 +4204,12 @@
       "shots": 42.0,
       "takeaways": 34.0,
       "turnovers": 50.0,
+      "goals_against": 32.0,
+      "shots_against": 69.0,
       "games_played": 7,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 8.7,
+      "gaa": 4.57,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 53.49
     }
@@ -3866,9 +4238,12 @@
       "shots": 22.0,
       "takeaways": 49.0,
       "turnovers": 31.0,
+      "goals_against": 37.0,
+      "shots_against": 67.0,
       "games_played": 6,
       "shot_percent": 59.09,
-      "save_percent": 100.0,
+      "save_percent": 14.93,
+      "gaa": 6.17,
       "faceoffs_total": 24.0,
       "faceoff_win_percent": 25.0
     }
@@ -3897,9 +4272,12 @@
       "shots": 26.0,
       "takeaways": 44.0,
       "turnovers": 24.0,
+      "goals_against": 37.0,
+      "shots_against": 67.0,
       "games_played": 6,
       "shot_percent": 30.77,
-      "save_percent": 100.0,
+      "save_percent": 23.88,
+      "gaa": 6.17,
       "faceoffs_total": 30.0,
       "faceoff_win_percent": 46.67
     }
@@ -3928,9 +4306,12 @@
       "shots": 21.0,
       "takeaways": 34.0,
       "turnovers": 51.0,
+      "goals_against": 37.0,
+      "shots_against": 67.0,
       "games_played": 6,
       "shot_percent": 47.62,
-      "save_percent": 100.0,
+      "save_percent": 5.97,
+      "gaa": 6.17,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 40.74
     }
@@ -3959,9 +4340,12 @@
       "shots": 51.0,
       "takeaways": 91.0,
       "turnovers": 40.0,
+      "goals_against": 42.0,
+      "shots_against": 72.0,
       "games_played": 6,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 15.28,
+      "gaa": 7.0,
       "faceoffs_total": 37.0,
       "faceoff_win_percent": 54.05
     }
@@ -3990,9 +4374,12 @@
       "shots": 7.0,
       "takeaways": 3.0,
       "turnovers": 15.0,
+      "goals_against": 8.0,
+      "shots_against": 21.0,
       "games_played": 2,
       "shot_percent": 14.29,
-      "save_percent": 100.0,
+      "save_percent": 4.76,
+      "gaa": 4.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 50.0
     }
@@ -4021,9 +4408,12 @@
       "shots": 2.0,
       "takeaways": 4.0,
       "turnovers": 7.0,
+      "goals_against": 9.0,
+      "shots_against": 14.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 21.43,
+      "gaa": 9.0,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 60.0
     }
@@ -4052,9 +4442,12 @@
       "shots": 19.0,
       "takeaways": 34.0,
       "turnovers": 28.0,
+      "goals_against": 38.0,
+      "shots_against": 64.0,
       "games_played": 5,
       "shot_percent": 57.89,
-      "save_percent": 100.0,
+      "save_percent": 18.75,
+      "gaa": 7.6,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 58.06
     }
@@ -4083,9 +4476,12 @@
       "shots": 32.0,
       "takeaways": 18.0,
       "turnovers": 15.0,
+      "goals_against": 38.0,
+      "shots_against": 59.0,
       "games_played": 5,
       "shot_percent": 46.88,
-      "save_percent": 100.0,
+      "save_percent": 5.08,
+      "gaa": 7.6,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 50.0
     }
@@ -4114,9 +4510,12 @@
       "shots": 22.0,
       "takeaways": 12.0,
       "turnovers": 24.0,
+      "goals_against": 38.0,
+      "shots_against": 73.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 12.33,
+      "gaa": 7.6,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 53.33
     }
@@ -4145,9 +4544,12 @@
       "shots": 0.0,
       "takeaways": 4.0,
       "turnovers": 2.0,
+      "goals_against": 10.0,
+      "shots_against": 21.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 19.05,
+      "gaa": 10.0,
       "faceoffs_total": 0.0,
       "faceoff_win_percent": 0
     }
@@ -4176,9 +4578,12 @@
       "shots": 6.0,
       "takeaways": 8.0,
       "turnovers": 14.0,
+      "goals_against": 39.0,
+      "shots_against": 79.0,
       "games_played": 5,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 13.92,
+      "gaa": 7.8,
       "faceoffs_total": 24.0,
       "faceoff_win_percent": 33.33
     }
@@ -4207,9 +4612,12 @@
       "shots": 14.0,
       "takeaways": 12.0,
       "turnovers": 21.0,
+      "goals_against": 44.0,
+      "shots_against": 83.0,
       "games_played": 5,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 18.07,
+      "gaa": 8.8,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 70.59
     }
@@ -4238,9 +4646,12 @@
       "shots": 6.0,
       "takeaways": 22.0,
       "turnovers": 28.0,
+      "goals_against": 48.0,
+      "shots_against": 95.0,
       "games_played": 6,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 6.32,
+      "gaa": 8.0,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 41.18
     }
@@ -4269,9 +4680,12 @@
       "shots": 13.0,
       "takeaways": 13.0,
       "turnovers": 17.0,
+      "goals_against": 38.0,
+      "shots_against": 73.0,
       "games_played": 5,
       "shot_percent": 30.77,
-      "save_percent": 100.0,
+      "save_percent": 15.07,
+      "gaa": 7.6,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 40.74
     }
@@ -4300,9 +4714,12 @@
       "shots": 25.0,
       "takeaways": 29.0,
       "turnovers": 39.0,
+      "goals_against": 23.0,
+      "shots_against": 48.0,
       "games_played": 4,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 4.17,
+      "gaa": 5.75,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 47.62
     }
@@ -4331,9 +4748,12 @@
       "shots": 4.0,
       "takeaways": 14.0,
       "turnovers": 12.0,
+      "goals_against": 13.0,
+      "shots_against": 32.0,
       "games_played": 2,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 40.62,
+      "gaa": 6.5,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 44.44
     }
@@ -4362,9 +4782,12 @@
       "shots": 2.0,
       "takeaways": 8.0,
       "turnovers": 16.0,
+      "goals_against": 10.0,
+      "shots_against": 21.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 19.05,
+      "gaa": 5.0,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 15.38
     }
@@ -4393,9 +4816,12 @@
       "shots": 9.0,
       "takeaways": 25.0,
       "turnovers": 20.0,
+      "goals_against": 13.0,
+      "shots_against": 32.0,
       "games_played": 2,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 12.5,
+      "gaa": 6.5,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 40.0
     }
@@ -4424,9 +4850,12 @@
       "shots": 2.0,
       "takeaways": 1.0,
       "turnovers": 5.0,
+      "goals_against": 11.0,
+      "shots_against": 20.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 5.0,
+      "gaa": 11.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 0.0
     }
@@ -4455,9 +4884,12 @@
       "shots": 1.0,
       "takeaways": 5.0,
       "turnovers": 6.0,
+      "goals_against": 10.0,
+      "shots_against": 19.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 21.05,
+      "gaa": 10.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 33.33
     }
@@ -4486,9 +4918,12 @@
       "shots": 18.0,
       "takeaways": 12.0,
       "turnovers": 18.0,
+      "goals_against": 20.0,
+      "shots_against": 35.0,
       "games_played": 3,
       "shot_percent": 61.11,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 6.67,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 33.33
     }
@@ -4517,9 +4952,12 @@
       "shots": 1.0,
       "takeaways": 3.0,
       "turnovers": 18.0,
+      "goals_against": 8.0,
+      "shots_against": 16.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 6.25,
+      "gaa": 8.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 75.0
     }
@@ -4548,9 +4986,12 @@
       "shots": 5.0,
       "takeaways": 3.0,
       "turnovers": 10.0,
+      "goals_against": 20.0,
+      "shots_against": 43.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 20.93,
+      "gaa": 10.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 0.0
     }
@@ -4579,9 +5020,12 @@
       "shots": 3.0,
       "takeaways": 4.0,
       "turnovers": 10.0,
+      "goals_against": 20.0,
+      "shots_against": 43.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 11.63,
+      "gaa": 10.0,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 28.57
     }
@@ -4610,9 +5054,12 @@
       "shots": 6.0,
       "takeaways": 7.0,
       "turnovers": 27.0,
+      "goals_against": 20.0,
+      "shots_against": 43.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 18.6,
+      "gaa": 10.0,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 33.33
     }
@@ -4641,9 +5088,12 @@
       "shots": 12.0,
       "takeaways": 11.0,
       "turnovers": 2.0,
+      "goals_against": 9.0,
+      "shots_against": 15.0,
       "games_played": 2,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 13.33,
+      "gaa": 4.5,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 83.33
     }
@@ -4672,9 +5122,12 @@
       "shots": 2.0,
       "takeaways": 8.0,
       "turnovers": 3.0,
+      "goals_against": 9.0,
+      "shots_against": 15.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 13.33,
+      "gaa": 4.5,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 25.0
     }
@@ -4703,9 +5156,12 @@
       "shots": 15.0,
       "takeaways": 31.0,
       "turnovers": 7.0,
+      "goals_against": 9.0,
+      "shots_against": 15.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 4.5,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 71.43
     }
@@ -4734,9 +5190,12 @@
       "shots": 14.0,
       "takeaways": 15.0,
       "turnovers": 4.0,
+      "goals_against": 9.0,
+      "shots_against": 15.0,
       "games_played": 2,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 4.5,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 63.64
     }
@@ -4765,9 +5224,12 @@
       "shots": 6.0,
       "takeaways": 13.0,
       "turnovers": 12.0,
+      "goals_against": 16.0,
+      "shots_against": 28.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 10.71,
+      "gaa": 8.0,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 69.23
     }
@@ -4796,9 +5258,12 @@
       "shots": 4.0,
       "takeaways": 9.0,
       "turnovers": 18.0,
+      "goals_against": 16.0,
+      "shots_against": 28.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 8.0,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 33.33
     }
@@ -4827,9 +5292,12 @@
       "shots": 2.0,
       "takeaways": 6.0,
       "turnovers": 8.0,
+      "goals_against": 11.0,
+      "shots_against": 21.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 33.33,
+      "gaa": 11.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 100.0
     }
@@ -4858,9 +5326,12 @@
       "shots": 3.0,
       "takeaways": 3.0,
       "turnovers": 6.0,
+      "goals_against": 5.0,
+      "shots_against": 7.0,
       "games_played": 1,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 28.57,
+      "gaa": 5.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 50.0
     }
@@ -4889,9 +5360,12 @@
       "shots": 3.0,
       "takeaways": 9.0,
       "turnovers": 14.0,
+      "goals_against": 17.0,
+      "shots_against": 52.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 28.85,
+      "gaa": 8.5,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 9.09
     }
@@ -4920,9 +5394,12 @@
       "shots": 10.0,
       "takeaways": 5.0,
       "turnovers": 31.0,
+      "goals_against": 17.0,
+      "shots_against": 52.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 25.0,
+      "gaa": 8.5,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 25.0
     }
@@ -4951,9 +5428,12 @@
       "shots": 0.0,
       "takeaways": 2.0,
       "turnovers": 5.0,
+      "goals_against": 17.0,
+      "shots_against": 52.0,
       "games_played": 2,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 13.46,
+      "gaa": 8.5,
       "faceoffs_total": 1.0,
       "faceoff_win_percent": 0.0
     }
@@ -4982,9 +5462,12 @@
       "shots": 8.0,
       "takeaways": 8.0,
       "turnovers": 33.0,
+      "goals_against": 26.0,
+      "shots_against": 58.0,
       "games_played": 2,
       "shot_percent": 87.5,
-      "save_percent": 100.0,
+      "save_percent": 13.79,
+      "gaa": 13.0,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 50.0
     }
@@ -5013,9 +5496,12 @@
       "shots": 6.0,
       "takeaways": 13.0,
       "turnovers": 26.0,
+      "goals_against": 26.0,
+      "shots_against": 58.0,
       "games_played": 2,
       "shot_percent": 83.33,
-      "save_percent": 100.0,
+      "save_percent": 5.17,
+      "gaa": 13.0,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 23.53
     }
@@ -5044,9 +5530,12 @@
       "shots": 2.0,
       "takeaways": 7.0,
       "turnovers": 9.0,
+      "goals_against": 26.0,
+      "shots_against": 58.0,
       "games_played": 2,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 36.21,
+      "gaa": 13.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 45.45
     }
@@ -5075,9 +5564,12 @@
       "shots": 5.0,
       "takeaways": 4.0,
       "turnovers": 2.0,
+      "goals_against": 3.0,
+      "shots_against": 14.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 1.5,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 75.0
     }
@@ -5106,9 +5598,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 0.0,
+      "goals_against": 1.0,
+      "shots_against": 7.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 1.0,
       "faceoffs_total": 1.0,
       "faceoff_win_percent": 100.0
     }
@@ -5137,9 +5632,12 @@
       "shots": 12.0,
       "takeaways": 44.0,
       "turnovers": 12.0,
+      "goals_against": 3.0,
+      "shots_against": 14.0,
       "games_played": 2,
       "shot_percent": 58.33,
-      "save_percent": 100.0,
+      "save_percent": 42.86,
+      "gaa": 1.5,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 77.78
     }
@@ -5168,9 +5666,12 @@
       "shots": 15.0,
       "takeaways": 18.0,
       "turnovers": 10.0,
+      "goals_against": 3.0,
+      "shots_against": 14.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 35.71,
+      "gaa": 1.5,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 58.33
     }
@@ -5199,9 +5700,12 @@
       "shots": 9.0,
       "takeaways": 1.0,
       "turnovers": 4.0,
+      "goals_against": 3.0,
+      "shots_against": 14.0,
       "games_played": 2,
       "shot_percent": 77.78,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 1.5,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 66.67
     }
@@ -5230,9 +5734,12 @@
       "shots": 4.0,
       "takeaways": 5.0,
       "turnovers": 11.0,
+      "goals_against": 22.0,
+      "shots_against": 41.0,
       "games_played": 2,
       "shot_percent": 25.0,
-      "save_percent": 100.0,
+      "save_percent": 7.32,
+      "gaa": 11.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 0.0
     }
@@ -5261,9 +5768,12 @@
       "shots": 4.0,
       "takeaways": 6.0,
       "turnovers": 11.0,
+      "goals_against": 22.0,
+      "shots_against": 41.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 14.63,
+      "gaa": 11.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 16.67
     }
@@ -5292,9 +5802,12 @@
       "shots": 3.0,
       "takeaways": 1.0,
       "turnovers": 11.0,
+      "goals_against": 22.0,
+      "shots_against": 41.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 19.51,
+      "gaa": 11.0,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 33.33
     }
@@ -5323,9 +5836,12 @@
       "shots": 3.0,
       "takeaways": 16.0,
       "turnovers": 34.0,
+      "goals_against": 22.0,
+      "shots_against": 41.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 4.88,
+      "gaa": 11.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 50.0
     }
@@ -5354,9 +5870,12 @@
       "shots": 20.0,
       "takeaways": 12.0,
       "turnovers": 11.0,
+      "goals_against": 14.0,
+      "shots_against": 16.0,
       "games_played": 2,
       "shot_percent": 45.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 7.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 45.45
     }
@@ -5385,9 +5904,12 @@
       "shots": 19.0,
       "takeaways": 43.0,
       "turnovers": 9.0,
+      "goals_against": 14.0,
+      "shots_against": 16.0,
       "games_played": 2,
       "shot_percent": 31.58,
-      "save_percent": 100.0,
+      "save_percent": 12.5,
+      "gaa": 7.0,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 66.67
     }
@@ -5416,9 +5938,12 @@
       "shots": 19.0,
       "takeaways": 14.0,
       "turnovers": 7.0,
+      "goals_against": 14.0,
+      "shots_against": 16.0,
       "games_played": 2,
       "shot_percent": 57.89,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 7.0,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 66.67
     }
@@ -5447,9 +5972,12 @@
       "shots": 14.0,
       "takeaways": 18.0,
       "turnovers": 16.0,
+      "goals_against": 20.0,
+      "shots_against": 41.0,
       "games_played": 4,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 14.63,
+      "gaa": 5.0,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 60.87
     }
@@ -5478,9 +6006,12 @@
       "shots": 0.0,
       "takeaways": 1.0,
       "turnovers": 3.0,
+      "goals_against": 9.0,
+      "shots_against": 11.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 9.0,
       "faceoffs_total": 1.0,
       "faceoff_win_percent": 0.0
     }
@@ -5509,9 +6040,12 @@
       "shots": 44.0,
       "takeaways": 17.0,
       "turnovers": 22.0,
+      "goals_against": 20.0,
+      "shots_against": 41.0,
       "games_played": 4,
       "shot_percent": 59.09,
-      "save_percent": 100.0,
+      "save_percent": 14.63,
+      "gaa": 5.0,
       "faceoffs_total": 24.0,
       "faceoff_win_percent": 45.83
     }
@@ -5540,9 +6074,12 @@
       "shots": 18.0,
       "takeaways": 42.0,
       "turnovers": 30.0,
+      "goals_against": 20.0,
+      "shots_against": 41.0,
       "games_played": 4,
       "shot_percent": 38.89,
-      "save_percent": 100.0,
+      "save_percent": 21.95,
+      "gaa": 5.0,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 45.0
     }
@@ -5571,9 +6108,12 @@
       "shots": 5.0,
       "takeaways": 3.0,
       "turnovers": 11.0,
+      "goals_against": 17.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 20.0,
-      "save_percent": 100.0,
+      "save_percent": 6.9,
+      "gaa": 8.5,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 71.43
     }
@@ -5602,9 +6142,12 @@
       "shots": 5.0,
       "takeaways": 8.0,
       "turnovers": 15.0,
+      "goals_against": 17.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 6.9,
+      "gaa": 8.5,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 37.5
     }
@@ -5633,9 +6176,12 @@
       "shots": 7.0,
       "takeaways": 21.0,
       "turnovers": 15.0,
+      "goals_against": 17.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 14.29,
-      "save_percent": 100.0,
+      "save_percent": 17.24,
+      "gaa": 8.5,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 44.44
     }
@@ -5664,9 +6210,12 @@
       "shots": 5.0,
       "takeaways": 4.0,
       "turnovers": 9.0,
+      "goals_against": 17.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 10.34,
+      "gaa": 8.5,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 33.33
     }
@@ -5695,9 +6244,12 @@
       "shots": 43.0,
       "takeaways": 32.0,
       "turnovers": 21.0,
+      "goals_against": 12.0,
+      "shots_against": 35.0,
       "games_played": 4,
       "shot_percent": 34.88,
-      "save_percent": 100.0,
+      "save_percent": 8.57,
+      "gaa": 3.0,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 76.19
     }
@@ -5726,9 +6278,12 @@
       "shots": 2.0,
       "takeaways": 17.0,
       "turnovers": 8.0,
+      "goals_against": 12.0,
+      "shots_against": 35.0,
       "games_played": 4,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 17.14,
+      "gaa": 3.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 37.5
     }
@@ -5757,9 +6312,12 @@
       "shots": 25.0,
       "takeaways": 24.0,
       "turnovers": 18.0,
+      "goals_against": 12.0,
+      "shots_against": 35.0,
       "games_played": 4,
       "shot_percent": 48.0,
-      "save_percent": 100.0,
+      "save_percent": 31.43,
+      "gaa": 3.0,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 60.0
     }
@@ -5788,9 +6346,12 @@
       "shots": 11.0,
       "takeaways": 27.0,
       "turnovers": 5.0,
+      "goals_against": 10.0,
+      "shots_against": 27.0,
       "games_played": 3,
       "shot_percent": 63.64,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 3.33,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 80.0
     }
@@ -5819,9 +6380,12 @@
       "shots": 11.0,
       "takeaways": 13.0,
       "turnovers": 11.0,
+      "goals_against": 23.0,
+      "shots_against": 48.0,
       "games_played": 2,
       "shot_percent": 36.36,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 11.5,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 61.54
     }
@@ -5850,9 +6414,12 @@
       "shots": 4.0,
       "takeaways": 9.0,
       "turnovers": 13.0,
+      "goals_against": 23.0,
+      "shots_against": 48.0,
       "games_played": 2,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 14.58,
+      "gaa": 11.5,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 36.36
     }
@@ -5881,9 +6448,12 @@
       "shots": 0.0,
       "takeaways": 4.0,
       "turnovers": 0.0,
+      "goals_against": 13.0,
+      "shots_against": 22.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 9.09,
+      "gaa": 13.0,
       "faceoffs_total": 1.0,
       "faceoff_win_percent": 100.0
     }
@@ -5912,9 +6482,12 @@
       "shots": 11.0,
       "takeaways": 14.0,
       "turnovers": 10.0,
+      "goals_against": 23.0,
+      "shots_against": 48.0,
       "games_played": 2,
       "shot_percent": 45.45,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 11.5,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 30.77
     }
@@ -5943,9 +6516,12 @@
       "shots": 27.0,
       "takeaways": 64.0,
       "turnovers": 68.0,
+      "goals_against": 88.0,
+      "shots_against": 190.0,
       "games_played": 8,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 17.37,
+      "gaa": 11.0,
       "faceoffs_total": 49.0,
       "faceoff_win_percent": 40.82
     }
@@ -5974,9 +6550,12 @@
       "shots": 5.0,
       "takeaways": 8.0,
       "turnovers": 39.0,
+      "goals_against": 88.0,
+      "shots_against": 190.0,
       "games_played": 8,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 26.84,
+      "gaa": 11.0,
       "faceoffs_total": 45.0,
       "faceoff_win_percent": 24.44
     }
@@ -6005,9 +6584,12 @@
       "shots": 27.0,
       "takeaways": 33.0,
       "turnovers": 75.0,
+      "goals_against": 110.0,
+      "shots_against": 234.0,
       "games_played": 10,
       "shot_percent": 51.85,
-      "save_percent": 100.0,
+      "save_percent": 8.55,
+      "gaa": 11.0,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 32.5
     }
@@ -6036,9 +6618,12 @@
       "shots": 3.0,
       "takeaways": 5.0,
       "turnovers": 24.0,
+      "goals_against": 55.0,
+      "shots_against": 114.0,
       "games_played": 5,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 5.26,
+      "gaa": 11.0,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 7.14
     }
@@ -6067,9 +6652,12 @@
       "shots": 2.0,
       "takeaways": 2.0,
       "turnovers": 6.0,
+      "goals_against": 35.0,
+      "shots_against": 76.0,
       "games_played": 3,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 18.42,
+      "gaa": 11.67,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 15.38
     }
@@ -6098,9 +6686,12 @@
       "shots": 34.0,
       "takeaways": 49.0,
       "turnovers": 71.0,
+      "goals_against": 65.0,
+      "shots_against": 152.0,
       "games_played": 10,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 17.76,
+      "gaa": 6.5,
       "faceoffs_total": 46.0,
       "faceoff_win_percent": 30.43
     }
@@ -6129,9 +6720,12 @@
       "shots": 50.0,
       "takeaways": 98.0,
       "turnovers": 103.0,
+      "goals_against": 65.0,
+      "shots_against": 152.0,
       "games_played": 10,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 3.29,
+      "gaa": 6.5,
       "faceoffs_total": 63.0,
       "faceoff_win_percent": 47.62
     }
@@ -6160,9 +6754,12 @@
       "shots": 0.0,
       "takeaways": 7.0,
       "turnovers": 8.0,
+      "goals_against": 9.0,
+      "shots_against": 12.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 8.33,
+      "gaa": 9.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 100.0
     }
@@ -6191,9 +6788,12 @@
       "shots": 35.0,
       "takeaways": 66.0,
       "turnovers": 83.0,
+      "goals_against": 65.0,
+      "shots_against": 152.0,
       "games_played": 10,
       "shot_percent": 48.57,
-      "save_percent": 100.0,
+      "save_percent": 35.53,
+      "gaa": 6.5,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 41.86
     }
@@ -6222,9 +6822,12 @@
       "shots": 13.0,
       "takeaways": 19.0,
       "turnovers": 32.0,
+      "goals_against": 31.0,
+      "shots_against": 64.0,
       "games_played": 5,
       "shot_percent": 61.54,
-      "save_percent": 100.0,
+      "save_percent": 18.75,
+      "gaa": 6.2,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 65.22
     }
@@ -6253,9 +6856,12 @@
       "shots": 2.0,
       "takeaways": 6.0,
       "turnovers": 12.0,
+      "goals_against": 6.0,
+      "shots_against": 19.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 6.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 50.0
     }
@@ -6284,9 +6890,12 @@
       "shots": 3.0,
       "takeaways": 4.0,
       "turnovers": 9.0,
+      "goals_against": 6.0,
+      "shots_against": 19.0,
       "games_played": 1,
       "shot_percent": 66.67,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 6.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 42.86
     }
@@ -6315,9 +6924,12 @@
       "shots": 28.0,
       "takeaways": 23.0,
       "turnovers": 41.0,
+      "goals_against": 35.0,
+      "shots_against": 81.0,
       "games_played": 6,
       "shot_percent": 67.86,
-      "save_percent": 100.0,
+      "save_percent": 2.47,
+      "gaa": 5.83,
       "faceoffs_total": 29.0,
       "faceoff_win_percent": 48.28
     }
@@ -6346,9 +6958,12 @@
       "shots": 81.0,
       "takeaways": 82.0,
       "turnovers": 72.0,
+      "goals_against": 54.0,
+      "shots_against": 129.0,
       "games_played": 11,
       "shot_percent": 54.32,
-      "save_percent": 100.0,
+      "save_percent": 31.01,
+      "gaa": 4.91,
       "faceoffs_total": 56.0,
       "faceoff_win_percent": 39.29
     }
@@ -6377,9 +6992,12 @@
       "shots": 49.0,
       "takeaways": 81.0,
       "turnovers": 88.0,
+      "goals_against": 54.0,
+      "shots_against": 131.0,
       "games_played": 11,
       "shot_percent": 38.78,
-      "save_percent": 100.0,
+      "save_percent": 11.45,
+      "gaa": 4.91,
       "faceoffs_total": 51.0,
       "faceoff_win_percent": 49.02
     }
@@ -6408,9 +7026,12 @@
       "shots": 43.0,
       "takeaways": 66.0,
       "turnovers": 39.0,
+      "goals_against": 30.0,
+      "shots_against": 74.0,
       "games_played": 7,
       "shot_percent": 51.16,
-      "save_percent": 100.0,
+      "save_percent": 8.11,
+      "gaa": 4.29,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 65.62
     }
@@ -6439,9 +7060,12 @@
       "shots": 65.0,
       "takeaways": 102.0,
       "turnovers": 70.0,
+      "goals_against": 71.0,
+      "shots_against": 127.0,
       "games_played": 12,
       "shot_percent": 43.08,
-      "save_percent": 100.0,
+      "save_percent": 7.09,
+      "gaa": 5.92,
       "faceoffs_total": 45.0,
       "faceoff_win_percent": 62.22
     }
@@ -6470,9 +7094,12 @@
       "shots": 5.0,
       "takeaways": 16.0,
       "turnovers": 12.0,
+      "goals_against": 4.0,
+      "shots_against": 5.0,
       "games_played": 1,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 20.0,
+      "gaa": 4.0,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 80.0
     }
@@ -6501,9 +7128,12 @@
       "shots": 24.0,
       "takeaways": 49.0,
       "turnovers": 45.0,
+      "goals_against": 60.0,
+      "shots_against": 105.0,
       "games_played": 9,
       "shot_percent": 45.83,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 6.67,
       "faceoffs_total": 26.0,
       "faceoff_win_percent": 65.38
     }
@@ -6532,9 +7162,12 @@
       "shots": 52.0,
       "takeaways": 126.0,
       "turnovers": 54.0,
+      "goals_against": 46.0,
+      "shots_against": 88.0,
       "games_played": 9,
       "shot_percent": 40.38,
-      "save_percent": 100.0,
+      "save_percent": 14.77,
+      "gaa": 5.11,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 67.44
     }
@@ -6563,9 +7196,12 @@
       "shots": 35.0,
       "takeaways": 58.0,
       "turnovers": 50.0,
+      "goals_against": 67.0,
+      "shots_against": 122.0,
       "games_played": 11,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 19.67,
+      "gaa": 6.09,
       "faceoffs_total": 58.0,
       "faceoff_win_percent": 67.24
     }
@@ -6594,9 +7230,12 @@
       "shots": 44.0,
       "takeaways": 77.0,
       "turnovers": 88.0,
+      "goals_against": 78.0,
+      "shots_against": 139.0,
       "games_played": 12,
       "shot_percent": 47.73,
-      "save_percent": 100.0,
+      "save_percent": 15.11,
+      "gaa": 6.5,
       "faceoffs_total": 54.0,
       "faceoff_win_percent": 51.85
     }
@@ -6625,9 +7264,12 @@
       "shots": 57.0,
       "takeaways": 92.0,
       "turnovers": 88.0,
+      "goals_against": 78.0,
+      "shots_against": 139.0,
       "games_played": 12,
       "shot_percent": 43.86,
-      "save_percent": 100.0,
+      "save_percent": 20.86,
+      "gaa": 6.5,
       "faceoffs_total": 72.0,
       "faceoff_win_percent": 61.11
     }
@@ -6656,9 +7298,12 @@
       "shots": 42.0,
       "takeaways": 86.0,
       "turnovers": 81.0,
+      "goals_against": 78.0,
+      "shots_against": 139.0,
       "games_played": 12,
       "shot_percent": 45.24,
-      "save_percent": 100.0,
+      "save_percent": 7.91,
+      "gaa": 6.5,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 53.49
     }
@@ -6687,9 +7332,12 @@
       "shots": 99.0,
       "takeaways": 122.0,
       "turnovers": 60.0,
+      "goals_against": 65.0,
+      "shots_against": 119.0,
       "games_played": 12,
       "shot_percent": 49.49,
-      "save_percent": 100.0,
+      "save_percent": 16.81,
+      "gaa": 5.42,
       "faceoffs_total": 58.0,
       "faceoff_win_percent": 65.52
     }
@@ -6718,9 +7366,12 @@
       "shots": 19.0,
       "takeaways": 29.0,
       "turnovers": 23.0,
+      "goals_against": 27.0,
+      "shots_against": 49.0,
       "games_played": 5,
       "shot_percent": 31.58,
-      "save_percent": 100.0,
+      "save_percent": 20.41,
+      "gaa": 5.4,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 59.09
     }
@@ -6749,9 +7400,12 @@
       "shots": 14.0,
       "takeaways": 34.0,
       "turnovers": 29.0,
+      "goals_against": 23.0,
+      "shots_against": 41.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 7.32,
+      "gaa": 4.6,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 33.33
     }
@@ -6780,9 +7434,12 @@
       "shots": 71.0,
       "takeaways": 71.0,
       "turnovers": 37.0,
+      "goals_against": 63.0,
+      "shots_against": 113.0,
       "games_played": 11,
       "shot_percent": 45.07,
-      "save_percent": 100.0,
+      "save_percent": 9.73,
+      "gaa": 5.73,
       "faceoffs_total": 66.0,
       "faceoff_win_percent": 59.09
     }
@@ -6811,9 +7468,12 @@
       "shots": 39.0,
       "takeaways": 24.0,
       "turnovers": 27.0,
+      "goals_against": 34.0,
+      "shots_against": 61.0,
       "games_played": 6,
       "shot_percent": 56.41,
-      "save_percent": 100.0,
+      "save_percent": 16.39,
+      "gaa": 5.67,
       "faceoffs_total": 37.0,
       "faceoff_win_percent": 70.27
     }
@@ -6842,9 +7502,12 @@
       "shots": 32.0,
       "takeaways": 44.0,
       "turnovers": 63.0,
+      "goals_against": 39.0,
+      "shots_against": 74.0,
       "games_played": 5,
       "shot_percent": 53.12,
-      "save_percent": 100.0,
+      "save_percent": 4.05,
+      "gaa": 7.8,
       "faceoffs_total": 33.0,
       "faceoff_win_percent": 45.45
     }
@@ -6873,9 +7536,12 @@
       "shots": 1.0,
       "takeaways": 1.0,
       "turnovers": 3.0,
+      "goals_against": 4.0,
+      "shots_against": 12.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 4.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 0.0
     }
@@ -6904,9 +7570,12 @@
       "shots": 10.0,
       "takeaways": 11.0,
       "turnovers": 14.0,
+      "goals_against": 16.0,
+      "shots_against": 38.0,
       "games_played": 2,
       "shot_percent": 30.0,
-      "save_percent": 100.0,
+      "save_percent": 42.11,
+      "gaa": 8.0,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 55.56
     }
@@ -6935,9 +7604,12 @@
       "shots": 4.0,
       "takeaways": 9.0,
       "turnovers": 9.0,
+      "goals_against": 8.0,
+      "shots_against": 18.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 8.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 50.0
     }
@@ -6966,9 +7638,12 @@
       "shots": 1.0,
       "takeaways": 12.0,
       "turnovers": 8.0,
+      "goals_against": 4.0,
+      "shots_against": 12.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 8.33,
+      "gaa": 4.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 100.0
     }
@@ -6997,9 +7672,12 @@
       "shots": 40.0,
       "takeaways": 48.0,
       "turnovers": 60.0,
+      "goals_against": 63.0,
+      "shots_against": 124.0,
       "games_played": 7,
       "shot_percent": 42.5,
-      "save_percent": 100.0,
+      "save_percent": 10.48,
+      "gaa": 9.0,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 43.75
     }
@@ -7028,9 +7706,12 @@
       "shots": 5.0,
       "takeaways": 17.0,
       "turnovers": 24.0,
+      "goals_against": 16.0,
+      "shots_against": 38.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 7.89,
+      "gaa": 8.0,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 33.33
     }
@@ -7059,9 +7740,12 @@
       "shots": 9.0,
       "takeaways": 14.0,
       "turnovers": 26.0,
+      "goals_against": 36.0,
+      "shots_against": 86.0,
       "games_played": 5,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 19.77,
+      "gaa": 7.2,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 33.33
     }
@@ -7090,9 +7774,12 @@
       "shots": 0.0,
       "takeaways": 6.0,
       "turnovers": 16.0,
+      "goals_against": 33.0,
+      "shots_against": 68.0,
       "games_played": 3,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 30.88,
+      "gaa": 11.0,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 33.33
     }
@@ -7121,9 +7808,12 @@
       "shots": 23.0,
       "takeaways": 32.0,
       "turnovers": 45.0,
+      "goals_against": 49.0,
+      "shots_against": 96.0,
       "games_played": 6,
       "shot_percent": 52.17,
-      "save_percent": 100.0,
+      "save_percent": 13.54,
+      "gaa": 8.17,
       "faceoffs_total": 28.0,
       "faceoff_win_percent": 25.0
     }
@@ -7152,9 +7842,12 @@
       "shots": 38.0,
       "takeaways": 78.0,
       "turnovers": 70.0,
+      "goals_against": 82.0,
+      "shots_against": 145.0,
       "games_played": 9,
       "shot_percent": 44.74,
-      "save_percent": 100.0,
+      "save_percent": 15.86,
+      "gaa": 9.11,
       "faceoffs_total": 51.0,
       "faceoff_win_percent": 50.98
     }
@@ -7183,9 +7876,12 @@
       "shots": 53.0,
       "takeaways": 50.0,
       "turnovers": 53.0,
+      "goals_against": 82.0,
+      "shots_against": 145.0,
       "games_played": 9,
       "shot_percent": 45.28,
-      "save_percent": 100.0,
+      "save_percent": 11.72,
+      "gaa": 9.11,
       "faceoffs_total": 49.0,
       "faceoff_win_percent": 51.02
     }
@@ -7214,9 +7910,12 @@
       "shots": 7.0,
       "takeaways": 16.0,
       "turnovers": 7.0,
+      "goals_against": 13.0,
+      "shots_against": 25.0,
       "games_played": 2,
       "shot_percent": 14.29,
-      "save_percent": 100.0,
+      "save_percent": 28.0,
+      "gaa": 6.5,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 58.33
     }
@@ -7245,9 +7944,12 @@
       "shots": 5.0,
       "takeaways": 6.0,
       "turnovers": 6.0,
+      "goals_against": 10.0,
+      "shots_against": 20.0,
       "games_played": 1,
       "shot_percent": 20.0,
-      "save_percent": 100.0,
+      "save_percent": 15.0,
+      "gaa": 10.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 75.0
     }
@@ -7276,9 +7978,12 @@
       "shots": 24.0,
       "takeaways": 20.0,
       "turnovers": 30.0,
+      "goals_against": 59.0,
+      "shots_against": 100.0,
       "games_played": 6,
       "shot_percent": 54.17,
-      "save_percent": 100.0,
+      "save_percent": 13.0,
+      "gaa": 9.83,
       "faceoffs_total": 38.0,
       "faceoff_win_percent": 57.89
     }
@@ -7307,9 +8012,12 @@
       "shots": 26.0,
       "takeaways": 23.0,
       "turnovers": 18.0,
+      "goals_against": 24.0,
+      "shots_against": 57.0,
       "games_played": 5,
       "shot_percent": 42.31,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 4.8,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 64.29
     }
@@ -7338,9 +8046,12 @@
       "shots": 46.0,
       "takeaways": 70.0,
       "turnovers": 65.0,
+      "goals_against": 55.0,
+      "shots_against": 119.0,
       "games_played": 10,
       "shot_percent": 32.61,
-      "save_percent": 100.0,
+      "save_percent": 7.56,
+      "gaa": 5.5,
       "faceoffs_total": 47.0,
       "faceoff_win_percent": 65.96
     }
@@ -7369,9 +8080,12 @@
       "shots": 55.0,
       "takeaways": 152.0,
       "turnovers": 78.0,
+      "goals_against": 55.0,
+      "shots_against": 119.0,
       "games_played": 10,
       "shot_percent": 52.73,
-      "save_percent": 100.0,
+      "save_percent": 21.85,
+      "gaa": 5.5,
       "faceoffs_total": 50.0,
       "faceoff_win_percent": 74.0
     }
@@ -7400,9 +8114,12 @@
       "shots": 9.0,
       "takeaways": 24.0,
       "turnovers": 16.0,
+      "goals_against": 40.0,
+      "shots_against": 89.0,
       "games_played": 7,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 25.84,
+      "gaa": 5.71,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 52.38
     }
@@ -7431,9 +8148,12 @@
       "shots": 12.0,
       "takeaways": 11.0,
       "turnovers": 41.0,
+      "goals_against": 39.0,
+      "shots_against": 94.0,
       "games_played": 5,
       "shot_percent": 41.67,
-      "save_percent": 100.0,
+      "save_percent": 25.53,
+      "gaa": 7.8,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 36.84
     }
@@ -7462,9 +8182,12 @@
       "shots": 44.0,
       "takeaways": 83.0,
       "turnovers": 82.0,
+      "goals_against": 84.0,
+      "shots_against": 179.0,
       "games_played": 10,
       "shot_percent": 52.27,
-      "save_percent": 100.0,
+      "save_percent": 23.46,
+      "gaa": 8.4,
       "faceoffs_total": 56.0,
       "faceoff_win_percent": 32.14
     }
@@ -7493,9 +8216,12 @@
       "shots": 0.0,
       "takeaways": 2.0,
       "turnovers": 11.0,
+      "goals_against": 9.0,
+      "shots_against": 23.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 39.13,
+      "gaa": 9.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 50.0
     }
@@ -7524,9 +8250,12 @@
       "shots": 15.0,
       "takeaways": 22.0,
       "turnovers": 61.0,
+      "goals_against": 65.0,
+      "shots_against": 126.0,
       "games_played": 7,
       "shot_percent": 46.67,
-      "save_percent": 100.0,
+      "save_percent": 3.17,
+      "gaa": 9.29,
       "faceoffs_total": 41.0,
       "faceoff_win_percent": 29.27
     }
@@ -7555,9 +8284,12 @@
       "shots": 26.0,
       "takeaways": 45.0,
       "turnovers": 50.0,
+      "goals_against": 55.0,
+      "shots_against": 115.0,
       "games_played": 7,
       "shot_percent": 61.54,
-      "save_percent": 100.0,
+      "save_percent": 13.91,
+      "gaa": 7.86,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 30.0
     }
@@ -7586,9 +8318,12 @@
       "shots": 23.0,
       "takeaways": 26.0,
       "turnovers": 32.0,
+      "goals_against": 52.0,
+      "shots_against": 124.0,
       "games_played": 9,
       "shot_percent": 52.17,
-      "save_percent": 100.0,
+      "save_percent": 8.06,
+      "gaa": 5.78,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 51.85
     }
@@ -7617,9 +8352,12 @@
       "shots": 27.0,
       "takeaways": 11.0,
       "turnovers": 22.0,
+      "goals_against": 21.0,
+      "shots_against": 53.0,
       "games_played": 4,
       "shot_percent": 44.44,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.25,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 42.86
     }
@@ -7648,9 +8386,12 @@
       "shots": 10.0,
       "takeaways": 20.0,
       "turnovers": 23.0,
+      "goals_against": 44.0,
+      "shots_against": 103.0,
       "games_played": 8,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 4.85,
+      "gaa": 5.5,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 61.11
     }
@@ -7679,9 +8420,12 @@
       "shots": 30.0,
       "takeaways": 26.0,
       "turnovers": 48.0,
+      "goals_against": 47.0,
+      "shots_against": 115.0,
       "games_played": 9,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 7.83,
+      "gaa": 5.22,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 42.86
     }
@@ -7710,9 +8454,12 @@
       "shots": 71.0,
       "takeaways": 102.0,
       "turnovers": 90.0,
+      "goals_against": 54.0,
+      "shots_against": 130.0,
       "games_played": 10,
       "shot_percent": 59.15,
-      "save_percent": 100.0,
+      "save_percent": 41.54,
+      "gaa": 5.4,
       "faceoffs_total": 58.0,
       "faceoff_win_percent": 50.0
     }
@@ -7741,9 +8488,12 @@
       "shots": 87.0,
       "takeaways": 129.0,
       "turnovers": 80.0,
+      "goals_against": 31.0,
+      "shots_against": 103.0,
       "games_played": 10,
       "shot_percent": 42.53,
-      "save_percent": 100.0,
+      "save_percent": 19.42,
+      "gaa": 3.1,
       "faceoffs_total": 45.0,
       "faceoff_win_percent": 62.22
     }
@@ -7772,9 +8522,12 @@
       "shots": 44.0,
       "takeaways": 44.0,
       "turnovers": 49.0,
+      "goals_against": 31.0,
+      "shots_against": 103.0,
       "games_played": 10,
       "shot_percent": 40.91,
-      "save_percent": 100.0,
+      "save_percent": 44.66,
+      "gaa": 3.1,
       "faceoffs_total": 47.0,
       "faceoff_win_percent": 40.43
     }
@@ -7803,9 +8556,12 @@
       "shots": 66.0,
       "takeaways": 39.0,
       "turnovers": 48.0,
+      "goals_against": 31.0,
+      "shots_against": 103.0,
       "games_played": 10,
       "shot_percent": 42.42,
-      "save_percent": 100.0,
+      "save_percent": 5.83,
+      "gaa": 3.1,
       "faceoffs_total": 49.0,
       "faceoff_win_percent": 63.27
     }
@@ -7834,9 +8590,12 @@
       "shots": 7.0,
       "takeaways": 7.0,
       "turnovers": 17.0,
+      "goals_against": 25.0,
+      "shots_against": 41.0,
       "games_played": 2,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 12.2,
+      "gaa": 12.5,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 46.15
     }
@@ -7865,9 +8624,12 @@
       "shots": 18.0,
       "takeaways": 23.0,
       "turnovers": 37.0,
+      "goals_against": 33.0,
+      "shots_against": 64.0,
       "games_played": 4,
       "shot_percent": 44.44,
-      "save_percent": 100.0,
+      "save_percent": 12.5,
+      "gaa": 8.25,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 55.0
     }
@@ -7896,9 +8658,12 @@
       "shots": 7.0,
       "takeaways": 14.0,
       "turnovers": 18.0,
+      "goals_against": 41.0,
+      "shots_against": 87.0,
       "games_played": 5,
       "shot_percent": 71.43,
-      "save_percent": 100.0,
+      "save_percent": 17.24,
+      "gaa": 8.2,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 35.71
     }
@@ -7927,9 +8692,12 @@
       "shots": 30.0,
       "takeaways": 55.0,
       "turnovers": 52.0,
+      "goals_against": 64.0,
+      "shots_against": 118.0,
       "games_played": 7,
       "shot_percent": 43.33,
-      "save_percent": 100.0,
+      "save_percent": 17.8,
+      "gaa": 9.14,
       "faceoffs_total": 38.0,
       "faceoff_win_percent": 36.84
     }
@@ -7958,9 +8726,12 @@
       "shots": 28.0,
       "takeaways": 56.0,
       "turnovers": 56.0,
+      "goals_against": 79.0,
+      "shots_against": 149.0,
       "games_played": 9,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 4.03,
+      "gaa": 8.78,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 55.0
     }
@@ -7989,9 +8760,12 @@
       "shots": 17.0,
       "takeaways": 27.0,
       "turnovers": 20.0,
+      "goals_against": 38.0,
+      "shots_against": 67.0,
       "games_played": 4,
       "shot_percent": 41.18,
-      "save_percent": 100.0,
+      "save_percent": 22.39,
+      "gaa": 9.5,
       "faceoffs_total": 30.0,
       "faceoff_win_percent": 36.67
     }
@@ -8020,9 +8794,12 @@
       "shots": 2.0,
       "takeaways": 3.0,
       "turnovers": 14.0,
+      "goals_against": 63.0,
+      "shots_against": 91.0,
       "games_played": 6,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 8.79,
+      "gaa": 10.5,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 15.38
     }
@@ -8051,9 +8828,12 @@
       "shots": 1.0,
       "takeaways": 5.0,
       "turnovers": 11.0,
+      "goals_against": 55.0,
+      "shots_against": 81.0,
       "games_played": 5,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 7.41,
+      "gaa": 11.0,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 15.79
     }
@@ -8082,9 +8862,12 @@
       "shots": 2.0,
       "takeaways": 3.0,
       "turnovers": 14.0,
+      "goals_against": 29.0,
+      "shots_against": 61.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 29.51,
+      "gaa": 9.67,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 5.88
     }
@@ -8113,9 +8896,12 @@
       "shots": 1.0,
       "takeaways": 0.0,
       "turnovers": 1.0,
+      "goals_against": 31.0,
+      "shots_against": 47.0,
       "games_played": 3,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 25.53,
+      "gaa": 10.33,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 8.33
     }
@@ -8144,9 +8930,12 @@
       "shots": 4.0,
       "takeaways": 8.0,
       "turnovers": 13.0,
+      "goals_against": 93.0,
+      "shots_against": 154.0,
       "games_played": 9,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 5.19,
+      "gaa": 10.33,
       "faceoffs_total": 34.0,
       "faceoff_win_percent": 20.59
     }
@@ -8175,9 +8964,12 @@
       "shots": 6.0,
       "takeaways": 4.0,
       "turnovers": 11.0,
+      "goals_against": 19.0,
+      "shots_against": 48.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 18.75,
+      "gaa": 9.5,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 33.33
     }
@@ -8206,9 +8998,12 @@
       "shots": 7.0,
       "takeaways": 8.0,
       "turnovers": 10.0,
+      "goals_against": 31.0,
+      "shots_against": 57.0,
       "games_played": 5,
       "shot_percent": 28.57,
-      "save_percent": 100.0,
+      "save_percent": 3.51,
+      "gaa": 6.2,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 30.0
     }
@@ -8237,9 +9032,12 @@
       "shots": 70.0,
       "takeaways": 63.0,
       "turnovers": 34.0,
+      "goals_against": 44.0,
+      "shots_against": 86.0,
       "games_played": 11,
       "shot_percent": 55.71,
-      "save_percent": 100.0,
+      "save_percent": 13.95,
+      "gaa": 4.0,
       "faceoffs_total": 53.0,
       "faceoff_win_percent": 69.81
     }
@@ -8268,9 +9066,12 @@
       "shots": 27.0,
       "takeaways": 24.0,
       "turnovers": 11.0,
+      "goals_against": 5.0,
+      "shots_against": 7.0,
       "games_played": 3,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 1.67,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 76.47
     }
@@ -8299,9 +9100,12 @@
       "shots": 26.0,
       "takeaways": 29.0,
       "turnovers": 23.0,
+      "goals_against": 44.0,
+      "shots_against": 86.0,
       "games_played": 11,
       "shot_percent": 57.69,
-      "save_percent": 100.0,
+      "save_percent": 6.98,
+      "gaa": 4.0,
       "faceoffs_total": 33.0,
       "faceoff_win_percent": 69.7
     }
@@ -8330,9 +9134,12 @@
       "shots": 30.0,
       "takeaways": 49.0,
       "turnovers": 29.0,
+      "goals_against": 37.0,
+      "shots_against": 72.0,
       "games_played": 8,
       "shot_percent": 43.33,
-      "save_percent": 100.0,
+      "save_percent": 18.06,
+      "gaa": 4.62,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 77.42
     }
@@ -8361,9 +9168,12 @@
       "shots": 7.0,
       "takeaways": 16.0,
       "turnovers": 14.0,
+      "goals_against": 22.0,
+      "shots_against": 52.0,
       "games_played": 4,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 15.38,
+      "gaa": 5.5,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 63.64
     }
@@ -8392,9 +9202,12 @@
       "shots": 126.0,
       "takeaways": 100.0,
       "turnovers": 77.0,
+      "goals_against": 63.0,
+      "shots_against": 139.0,
       "games_played": 12,
       "shot_percent": 56.35,
-      "save_percent": 100.0,
+      "save_percent": 9.35,
+      "gaa": 5.25,
       "faceoffs_total": 71.0,
       "faceoff_win_percent": 71.83
     }
@@ -8423,9 +9236,12 @@
       "shots": 3.0,
       "takeaways": 0.0,
       "turnovers": 1.0,
+      "goals_against": 5.0,
+      "shots_against": 16.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 18.75,
+      "gaa": 5.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 50.0
     }
@@ -8454,9 +9270,12 @@
       "shots": 64.0,
       "takeaways": 84.0,
       "turnovers": 54.0,
+      "goals_against": 63.0,
+      "shots_against": 139.0,
       "games_played": 12,
       "shot_percent": 60.94,
-      "save_percent": 100.0,
+      "save_percent": 10.79,
+      "gaa": 5.25,
       "faceoffs_total": 64.0,
       "faceoff_win_percent": 60.94
     }
@@ -8485,9 +9304,12 @@
       "shots": 19.0,
       "takeaways": 40.0,
       "turnovers": 19.0,
+      "goals_against": 58.0,
+      "shots_against": 123.0,
       "games_played": 11,
       "shot_percent": 57.89,
-      "save_percent": 100.0,
+      "save_percent": 36.59,
+      "gaa": 5.27,
       "faceoffs_total": 63.0,
       "faceoff_win_percent": 65.08
     }
@@ -8516,9 +9338,12 @@
       "shots": 36.0,
       "takeaways": 50.0,
       "turnovers": 64.0,
+      "goals_against": 86.0,
+      "shots_against": 172.0,
       "games_played": 11,
       "shot_percent": 47.22,
-      "save_percent": 100.0,
+      "save_percent": 12.21,
+      "gaa": 7.82,
       "faceoffs_total": 44.0,
       "faceoff_win_percent": 65.91
     }
@@ -8547,9 +9372,12 @@
       "shots": 15.0,
       "takeaways": 16.0,
       "turnovers": 30.0,
+      "goals_against": 69.0,
+      "shots_against": 140.0,
       "games_played": 10,
       "shot_percent": 20.0,
-      "save_percent": 100.0,
+      "save_percent": 6.43,
+      "gaa": 6.9,
       "faceoffs_total": 26.0,
       "faceoff_win_percent": 65.38
     }
@@ -8578,9 +9406,12 @@
       "shots": 65.0,
       "takeaways": 73.0,
       "turnovers": 44.0,
+      "goals_against": 77.0,
+      "shots_against": 157.0,
       "games_played": 11,
       "shot_percent": 49.23,
-      "save_percent": 100.0,
+      "save_percent": 11.46,
+      "gaa": 7.0,
       "faceoffs_total": 47.0,
       "faceoff_win_percent": 53.19
     }
@@ -8609,9 +9440,12 @@
       "shots": 28.0,
       "takeaways": 62.0,
       "turnovers": 44.0,
+      "goals_against": 86.0,
+      "shots_against": 172.0,
       "games_played": 11,
       "shot_percent": 39.29,
-      "save_percent": 100.0,
+      "save_percent": 19.77,
+      "gaa": 7.82,
       "faceoffs_total": 50.0,
       "faceoff_win_percent": 38.0
     }
@@ -8640,9 +9474,12 @@
       "shots": 7.0,
       "takeaways": 10.0,
       "turnovers": 6.0,
+      "goals_against": 28.0,
+      "shots_against": 51.0,
       "games_played": 3,
       "shot_percent": 28.57,
-      "save_percent": 100.0,
+      "save_percent": 15.69,
+      "gaa": 9.33,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 56.25
     }
@@ -8671,9 +9508,12 @@
       "shots": 5.0,
       "takeaways": 9.0,
       "turnovers": 27.0,
+      "goals_against": 46.0,
+      "shots_against": 70.0,
       "games_played": 4,
       "shot_percent": 80.0,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 11.5,
       "faceoffs_total": 24.0,
       "faceoff_win_percent": 29.17
     }
@@ -8702,9 +9542,12 @@
       "shots": 18.0,
       "takeaways": 16.0,
       "turnovers": 26.0,
+      "goals_against": 68.0,
+      "shots_against": 91.0,
       "games_played": 8,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 8.79,
+      "gaa": 8.5,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 28.57
     }
@@ -8733,9 +9576,12 @@
       "shots": 38.0,
       "takeaways": 28.0,
       "turnovers": 24.0,
+      "goals_against": 33.0,
+      "shots_against": 42.0,
       "games_played": 5,
       "shot_percent": 39.47,
-      "save_percent": 100.0,
+      "save_percent": 4.76,
+      "gaa": 6.6,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 56.0
     }
@@ -8764,9 +9610,12 @@
       "shots": 31.0,
       "takeaways": 28.0,
       "turnovers": 37.0,
+      "goals_against": 79.0,
+      "shots_against": 112.0,
       "games_played": 9,
       "shot_percent": 51.61,
-      "save_percent": 100.0,
+      "save_percent": 8.04,
+      "gaa": 8.78,
       "faceoffs_total": 47.0,
       "faceoff_win_percent": 34.04
     }
@@ -8795,9 +9644,12 @@
       "shots": 1.0,
       "takeaways": 1.0,
       "turnovers": 3.0,
+      "goals_against": 11.0,
+      "shots_against": 21.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 19.05,
+      "gaa": 11.0,
       "faceoffs_total": 0.0,
       "faceoff_win_percent": 0
     }
@@ -8826,9 +9678,12 @@
       "shots": 0.0,
       "takeaways": 3.0,
       "turnovers": 6.0,
+      "goals_against": 9.0,
+      "shots_against": 22.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 9.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 16.67
     }
@@ -8857,9 +9712,12 @@
       "shots": 3.0,
       "takeaways": 2.0,
       "turnovers": 2.0,
+      "goals_against": 9.0,
+      "shots_against": 22.0,
       "games_played": 1,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 4.55,
+      "gaa": 9.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 33.33
     }
@@ -8888,9 +9746,12 @@
       "shots": 3.0,
       "takeaways": 9.0,
       "turnovers": 5.0,
+      "goals_against": 9.0,
+      "shots_against": 22.0,
       "games_played": 1,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 54.55,
+      "gaa": 9.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 50.0
     }
@@ -8919,9 +9780,12 @@
       "shots": 33.0,
       "takeaways": 51.0,
       "turnovers": 63.0,
+      "goals_against": 65.0,
+      "shots_against": 144.0,
       "games_played": 11,
       "shot_percent": 57.58,
-      "save_percent": 100.0,
+      "save_percent": 24.31,
+      "gaa": 5.91,
       "faceoffs_total": 49.0,
       "faceoff_win_percent": 42.86
     }
@@ -8950,9 +9814,12 @@
       "shots": 29.0,
       "takeaways": 19.0,
       "turnovers": 42.0,
+      "goals_against": 56.0,
+      "shots_against": 127.0,
       "games_played": 9,
       "shot_percent": 44.83,
-      "save_percent": 100.0,
+      "save_percent": 7.87,
+      "gaa": 6.22,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 42.5
     }
@@ -8981,9 +9848,12 @@
       "shots": 5.0,
       "takeaways": 11.0,
       "turnovers": 4.0,
+      "goals_against": 17.0,
+      "shots_against": 34.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 5.88,
+      "gaa": 8.5,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 33.33
     }
@@ -9012,9 +9882,12 @@
       "shots": 58.0,
       "takeaways": 51.0,
       "turnovers": 82.0,
+      "goals_against": 51.0,
+      "shots_against": 124.0,
       "games_played": 9,
       "shot_percent": 55.17,
-      "save_percent": 100.0,
+      "save_percent": 9.68,
+      "gaa": 5.67,
       "faceoffs_total": 52.0,
       "faceoff_win_percent": 36.54
     }
@@ -9043,9 +9916,12 @@
       "turnovers": 21.0,
       "assists": 0.0,
       "points": 2.0,
+      "goals_against": 25.0,
+      "shots_against": 54.0,
       "games_played": 4,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 12.96,
+      "gaa": 6.25,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 44.44
     }
@@ -9074,9 +9950,12 @@
       "shots": 31.0,
       "takeaways": 24.0,
       "turnovers": 39.0,
+      "goals_against": 46.0,
+      "shots_against": 114.0,
       "games_played": 9,
       "shot_percent": 51.61,
-      "save_percent": 100.0,
+      "save_percent": 21.05,
+      "gaa": 5.11,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 59.38
     }
@@ -9105,9 +9984,12 @@
       "shots": 26.0,
       "takeaways": 31.0,
       "turnovers": 46.0,
+      "goals_against": 51.0,
+      "shots_against": 103.0,
       "games_played": 8,
       "shot_percent": 53.85,
-      "save_percent": 100.0,
+      "save_percent": 15.53,
+      "gaa": 6.38,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 54.84
     }
@@ -9136,9 +10018,12 @@
       "shots": 10.0,
       "takeaways": 9.0,
       "turnovers": 14.0,
+      "goals_against": 32.0,
+      "shots_against": 57.0,
       "games_played": 6,
       "shot_percent": 60.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.33,
       "faceoffs_total": 13.0,
       "faceoff_win_percent": 46.15
     }
@@ -9167,9 +10052,12 @@
       "shots": 24.0,
       "takeaways": 49.0,
       "turnovers": 31.0,
+      "goals_against": 17.0,
+      "shots_against": 41.0,
       "games_played": 4,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 29.27,
+      "gaa": 4.25,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 25.0
     }
@@ -9198,9 +10086,12 @@
       "shots": 17.0,
       "takeaways": 30.0,
       "turnovers": 32.0,
+      "goals_against": 48.0,
+      "shots_against": 93.0,
       "games_played": 8,
       "shot_percent": 64.71,
-      "save_percent": 100.0,
+      "save_percent": 13.98,
+      "gaa": 6.0,
       "faceoffs_total": 37.0,
       "faceoff_win_percent": 54.05
     }
@@ -9229,9 +10120,12 @@
       "shots": 32.0,
       "takeaways": 55.0,
       "turnovers": 64.0,
+      "goals_against": 56.0,
+      "shots_against": 112.0,
       "games_played": 10,
       "shot_percent": 62.5,
-      "save_percent": 100.0,
+      "save_percent": 13.39,
+      "gaa": 5.6,
       "faceoffs_total": 41.0,
       "faceoff_win_percent": 39.02
     }
@@ -9260,9 +10154,12 @@
       "shots": 0.0,
       "takeaways": 1.0,
       "turnovers": 3.0,
+      "goals_against": 12.0,
+      "shots_against": 19.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 12.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 0.0
     }
@@ -9291,9 +10188,12 @@
       "shots": 32.0,
       "takeaways": 37.0,
       "turnovers": 41.0,
+      "goals_against": 42.0,
+      "shots_against": 79.0,
       "games_played": 9,
       "shot_percent": 43.75,
-      "save_percent": 100.0,
+      "save_percent": 13.92,
+      "gaa": 4.67,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 57.14
     }
@@ -9322,9 +10222,12 @@
       "shots": 29.0,
       "takeaways": 26.0,
       "turnovers": 36.0,
+      "goals_against": 24.0,
+      "shots_against": 53.0,
       "games_played": 6,
       "shot_percent": 44.83,
-      "save_percent": 100.0,
+      "save_percent": 3.77,
+      "gaa": 4.0,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 59.09
     }
@@ -9353,9 +10256,12 @@
       "shots": 35.0,
       "takeaways": 25.0,
       "turnovers": 39.0,
+      "goals_against": 30.0,
+      "shots_against": 60.0,
       "games_played": 7,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 26.67,
+      "gaa": 4.29,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 61.29
     }
@@ -9384,9 +10290,12 @@
       "shots": 7.0,
       "takeaways": 4.0,
       "turnovers": 6.0,
+      "goals_against": 12.0,
+      "shots_against": 19.0,
       "games_played": 2,
       "shot_percent": 71.43,
-      "save_percent": 100.0,
+      "save_percent": 26.32,
+      "gaa": 6.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 50.0
     }
@@ -9415,9 +10324,12 @@
       "shots": 24.0,
       "takeaways": 31.0,
       "turnovers": 20.0,
+      "goals_against": 29.0,
+      "shots_against": 43.0,
       "games_played": 5,
       "shot_percent": 54.17,
-      "save_percent": 100.0,
+      "save_percent": 6.98,
+      "gaa": 5.8,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 63.16
     }
@@ -9446,9 +10358,12 @@
       "shots": 35.0,
       "takeaways": 91.0,
       "turnovers": 32.0,
+      "goals_against": 35.0,
+      "shots_against": 73.0,
       "games_played": 10,
       "shot_percent": 51.43,
-      "save_percent": 100.0,
+      "save_percent": 4.11,
+      "gaa": 3.5,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 72.5
     }
@@ -9477,9 +10392,12 @@
       "shots": 8.0,
       "takeaways": 16.0,
       "turnovers": 5.0,
+      "goals_against": 15.0,
+      "shots_against": 33.0,
       "games_played": 4,
       "shot_percent": 62.5,
-      "save_percent": 100.0,
+      "save_percent": 9.09,
+      "gaa": 3.75,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 87.5
     }
@@ -9508,9 +10426,12 @@
       "shots": 28.0,
       "takeaways": 37.0,
       "turnovers": 48.0,
+      "goals_against": 37.0,
+      "shots_against": 79.0,
       "games_played": 12,
       "shot_percent": 53.57,
-      "save_percent": 100.0,
+      "save_percent": 13.92,
+      "gaa": 3.08,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 52.5
     }
@@ -9539,9 +10460,12 @@
       "shots": 73.0,
       "takeaways": 66.0,
       "turnovers": 63.0,
+      "goals_against": 37.0,
+      "shots_against": 79.0,
       "games_played": 12,
       "shot_percent": 49.32,
-      "save_percent": 100.0,
+      "save_percent": 29.11,
+      "gaa": 3.08,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 62.79
     }
@@ -9570,9 +10494,12 @@
       "shots": 57.0,
       "takeaways": 75.0,
       "turnovers": 30.0,
+      "goals_against": 29.0,
+      "shots_against": 61.0,
       "games_played": 10,
       "shot_percent": 43.86,
-      "save_percent": 100.0,
+      "save_percent": 3.28,
+      "gaa": 2.9,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 70.97
     }
@@ -9601,9 +10528,12 @@
       "shots": 63.0,
       "takeaways": 69.0,
       "turnovers": 61.0,
+      "goals_against": 51.0,
+      "shots_against": 102.0,
       "games_played": 9,
       "shot_percent": 39.68,
-      "save_percent": 100.0,
+      "save_percent": 4.9,
+      "gaa": 5.67,
       "faceoffs_total": 45.0,
       "faceoff_win_percent": 57.78
     }
@@ -9632,9 +10562,12 @@
       "shots": 17.0,
       "takeaways": 23.0,
       "turnovers": 11.0,
+      "goals_against": 23.0,
+      "shots_against": 42.0,
       "games_played": 4,
       "shot_percent": 29.41,
-      "save_percent": 100.0,
+      "save_percent": 11.9,
+      "gaa": 5.75,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 73.68
     }
@@ -9663,9 +10596,12 @@
       "shots": 45.0,
       "takeaways": 82.0,
       "turnovers": 51.0,
+      "goals_against": 65.0,
+      "shots_against": 139.0,
       "games_played": 11,
       "shot_percent": 51.11,
-      "save_percent": 100.0,
+      "save_percent": 30.94,
+      "gaa": 5.91,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 59.52
     }
@@ -9694,9 +10630,12 @@
       "shots": 15.0,
       "takeaways": 20.0,
       "turnovers": 30.0,
+      "goals_against": 28.0,
+      "shots_against": 68.0,
       "games_played": 5,
       "shot_percent": 46.67,
-      "save_percent": 100.0,
+      "save_percent": 10.29,
+      "gaa": 5.6,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 44.0
     }
@@ -9725,9 +10664,12 @@
       "shots": 4.0,
       "takeaways": 23.0,
       "turnovers": 19.0,
+      "goals_against": 36.0,
+      "shots_against": 83.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 16.87,
+      "gaa": 7.2,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 47.62
     }
@@ -9756,9 +10698,12 @@
       "shots": 44.0,
       "takeaways": 27.0,
       "turnovers": 54.0,
+      "goals_against": 42.0,
+      "shots_against": 116.0,
       "games_played": 8,
       "shot_percent": 52.27,
-      "save_percent": 100.0,
+      "save_percent": 6.03,
+      "gaa": 5.25,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 44.0
     }
@@ -9787,9 +10732,12 @@
       "shots": 18.0,
       "takeaways": 29.0,
       "turnovers": 25.0,
+      "goals_against": 42.0,
+      "shots_against": 103.0,
       "games_played": 7,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 5.83,
+      "gaa": 6.0,
       "faceoffs_total": 33.0,
       "faceoff_win_percent": 33.33
     }
@@ -9818,9 +10766,12 @@
       "shots": 14.0,
       "takeaways": 34.0,
       "turnovers": 19.0,
+      "goals_against": 17.0,
+      "shots_against": 39.0,
       "games_played": 3,
       "shot_percent": 35.71,
-      "save_percent": 100.0,
+      "save_percent": 12.82,
+      "gaa": 5.67,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 57.14
     }
@@ -9849,9 +10800,12 @@
       "shots": 8.0,
       "takeaways": 11.0,
       "turnovers": 24.0,
+      "goals_against": 22.0,
+      "shots_against": 55.0,
       "games_played": 3,
       "shot_percent": 25.0,
-      "save_percent": 100.0,
+      "save_percent": 3.64,
+      "gaa": 7.33,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 31.25
     }
@@ -9880,9 +10834,12 @@
       "shots": 7.0,
       "takeaways": 11.0,
       "turnovers": 10.0,
+      "goals_against": 16.0,
+      "shots_against": 54.0,
       "games_played": 3,
       "shot_percent": 14.29,
-      "save_percent": 100.0,
+      "save_percent": 12.96,
+      "gaa": 5.33,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 33.33
     }
@@ -9911,9 +10868,12 @@
       "shots": 23.0,
       "takeaways": 16.0,
       "turnovers": 14.0,
+      "goals_against": 8.0,
+      "shots_against": 25.0,
       "games_played": 2,
       "shot_percent": 34.78,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 4.0,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 66.67
     }
@@ -9942,9 +10902,12 @@
       "shots": 21.0,
       "takeaways": 31.0,
       "turnovers": 53.0,
+      "goals_against": 47.0,
+      "shots_against": 133.0,
       "games_played": 9,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 55.64,
+      "gaa": 5.22,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 51.61
     }
@@ -9973,9 +10936,12 @@
       "shots": 114.0,
       "takeaways": 110.0,
       "turnovers": 107.0,
+      "goals_against": 89.0,
+      "shots_against": 184.0,
       "games_played": 12,
       "shot_percent": 54.39,
-      "save_percent": 100.0,
+      "save_percent": 19.57,
+      "gaa": 7.42,
       "faceoffs_total": 73.0,
       "faceoff_win_percent": 52.05
     }
@@ -10004,9 +10970,12 @@
       "shots": 9.0,
       "takeaways": 15.0,
       "turnovers": 14.0,
+      "goals_against": 21.0,
+      "shots_against": 41.0,
       "games_played": 4,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 31.71,
+      "gaa": 5.25,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 59.26
     }
@@ -10035,9 +11004,12 @@
       "shots": 35.0,
       "takeaways": 48.0,
       "turnovers": 57.0,
+      "goals_against": 89.0,
+      "shots_against": 184.0,
       "games_played": 12,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 8.7,
+      "gaa": 7.42,
       "faceoffs_total": 64.0,
       "faceoff_win_percent": 31.25
     }
@@ -10066,9 +11038,12 @@
       "shots": 13.0,
       "takeaways": 9.0,
       "turnovers": 34.0,
+      "goals_against": 75.0,
+      "shots_against": 155.0,
       "games_played": 10,
       "shot_percent": 53.85,
-      "save_percent": 100.0,
+      "save_percent": 19.35,
+      "gaa": 7.5,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 35.71
     }
@@ -10097,9 +11072,12 @@
       "shots": 11.0,
       "takeaways": 16.0,
       "turnovers": 21.0,
+      "goals_against": 38.0,
+      "shots_against": 65.0,
       "games_played": 4,
       "shot_percent": 54.55,
-      "save_percent": 100.0,
+      "save_percent": 10.77,
+      "gaa": 9.5,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 44.44
     }
@@ -10128,9 +11106,12 @@
       "shots": 17.0,
       "takeaways": 41.0,
       "turnovers": 37.0,
+      "goals_against": 57.0,
+      "shots_against": 93.0,
       "games_played": 6,
       "shot_percent": 52.94,
-      "save_percent": 100.0,
+      "save_percent": 12.9,
+      "gaa": 9.5,
       "faceoffs_total": 30.0,
       "faceoff_win_percent": 40.0
     }
@@ -10159,9 +11140,12 @@
       "shots": 10.0,
       "takeaways": 38.0,
       "turnovers": 47.0,
+      "goals_against": 65.0,
+      "shots_against": 111.0,
       "games_played": 6,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 18.02,
+      "gaa": 10.83,
       "faceoffs_total": 34.0,
       "faceoff_win_percent": 38.24
     }
@@ -10190,9 +11174,12 @@
       "shots": 34.0,
       "takeaways": 31.0,
       "turnovers": 57.0,
+      "goals_against": 93.0,
+      "shots_against": 160.0,
       "games_played": 9,
       "shot_percent": 52.94,
-      "save_percent": 100.0,
+      "save_percent": 13.12,
+      "gaa": 10.33,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 30.23
     }
@@ -10219,10 +11206,13 @@
       "shots": 0.0,
       "takeaways": 1.0,
       "turnovers": 2.0,
+      "goals_against": 12.0,
+      "shots_against": 25.0,
       "points": 0.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 12.0,
+      "gaa": 12.0,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 20.0
     }
@@ -10251,9 +11241,12 @@
       "shots": 4.0,
       "takeaways": 9.0,
       "turnovers": 1.0,
+      "goals_against": 14.0,
+      "shots_against": 26.0,
       "games_played": 1,
       "shot_percent": 25.0,
-      "save_percent": 100.0,
+      "save_percent": 15.38,
+      "gaa": 14.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 36.36
     }
@@ -10282,9 +11275,12 @@
       "shots": 2.0,
       "takeaways": 5.0,
       "turnovers": 19.0,
+      "goals_against": 65.0,
+      "shots_against": 134.0,
       "games_played": 6,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 20.15,
+      "gaa": 10.83,
       "faceoffs_total": 26.0,
       "faceoff_win_percent": 19.23
     }
@@ -10313,9 +11309,12 @@
       "shots": 4.0,
       "takeaways": 3.0,
       "turnovers": 8.0,
+      "goals_against": 44.0,
+      "shots_against": 92.0,
       "games_played": 4,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 22.83,
+      "gaa": 11.0,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 11.11
     }
@@ -10344,9 +11343,12 @@
       "shots": 0.0,
       "takeaways": 9.0,
       "turnovers": 18.0,
+      "goals_against": 20.0,
+      "shots_against": 40.0,
       "games_played": 2,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 10.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 0.0
     }
@@ -10375,9 +11377,12 @@
       "shots": 0.0,
       "takeaways": 1.0,
       "turnovers": 5.0,
+      "goals_against": 21.0,
+      "shots_against": 42.0,
       "games_played": 2,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 10.5,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 0.0
     }
@@ -10406,9 +11411,12 @@
       "shots": 5.0,
       "takeaways": 3.0,
       "turnovers": 23.0,
+      "goals_against": 65.0,
+      "shots_against": 134.0,
       "games_played": 6,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 8.21,
+      "gaa": 10.83,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 8.7
     }
@@ -10437,9 +11445,12 @@
       "shots": 5.0,
       "takeaways": 10.0,
       "turnovers": 10.0,
+      "goals_against": 18.0,
+      "shots_against": 29.0,
       "games_played": 3,
       "shot_percent": 20.0,
-      "save_percent": 100.0,
+      "save_percent": 6.9,
+      "gaa": 6.0,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 50.0
     }
@@ -10468,9 +11479,12 @@
       "shots": 48.0,
       "takeaways": 16.0,
       "turnovers": 28.0,
+      "goals_against": 64.0,
+      "shots_against": 111.0,
       "games_played": 8,
       "shot_percent": 47.92,
-      "save_percent": 100.0,
+      "save_percent": 7.21,
+      "gaa": 8.0,
       "faceoffs_total": 35.0,
       "faceoff_win_percent": 45.71
     }
@@ -10499,9 +11513,12 @@
       "shots": 9.0,
       "takeaways": 18.0,
       "turnovers": 16.0,
+      "goals_against": 58.0,
+      "shots_against": 103.0,
       "games_played": 7,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 30.1,
+      "gaa": 8.29,
       "faceoffs_total": 45.0,
       "faceoff_win_percent": 37.78
     }
@@ -10530,9 +11547,12 @@
       "shots": 31.0,
       "takeaways": 25.0,
       "turnovers": 39.0,
+      "goals_against": 52.0,
+      "shots_against": 90.0,
       "games_played": 6,
       "shot_percent": 38.71,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 8.67,
       "faceoffs_total": 24.0,
       "faceoff_win_percent": 41.67
     }
@@ -10561,9 +11581,12 @@
       "shots": 60.0,
       "takeaways": 95.0,
       "turnovers": 86.0,
+      "goals_against": 74.0,
+      "shots_against": 154.0,
       "games_played": 11,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 29.22,
+      "gaa": 6.73,
       "faceoffs_total": 64.0,
       "faceoff_win_percent": 59.38
     }
@@ -10590,10 +11613,13 @@
       "shots": 5.0,
       "takeaways": 0.0,
       "turnovers": 4.0,
+      "goals_against": 14.0,
+      "shots_against": 24.0,
       "points": 2.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 4.17,
+      "gaa": 7.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 42.86
     }
@@ -10622,9 +11648,12 @@
       "shots": 32.0,
       "takeaways": 26.0,
       "turnovers": 46.0,
+      "goals_against": 74.0,
+      "shots_against": 154.0,
       "games_played": 11,
       "shot_percent": 43.75,
-      "save_percent": 100.0,
+      "save_percent": 3.9,
+      "gaa": 6.73,
       "faceoffs_total": 56.0,
       "faceoff_win_percent": 50.0
     }
@@ -10653,9 +11682,12 @@
       "shots": 59.0,
       "takeaways": 38.0,
       "turnovers": 55.0,
+      "goals_against": 74.0,
+      "shots_against": 154.0,
       "games_played": 11,
       "shot_percent": 50.85,
-      "save_percent": 100.0,
+      "save_percent": 18.18,
+      "gaa": 6.73,
       "faceoffs_total": 46.0,
       "faceoff_win_percent": 43.48
     }
@@ -10684,9 +11716,12 @@
       "shots": 13.0,
       "takeaways": 27.0,
       "turnovers": 26.0,
+      "goals_against": 77.0,
+      "shots_against": 137.0,
       "games_played": 10,
       "shot_percent": 61.54,
-      "save_percent": 100.0,
+      "save_percent": 21.17,
+      "gaa": 7.7,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 46.51
     }
@@ -10715,9 +11750,12 @@
       "shots": 38.0,
       "takeaways": 75.0,
       "turnovers": 61.0,
+      "goals_against": 77.0,
+      "shots_against": 137.0,
       "games_played": 10,
       "shot_percent": 60.53,
-      "save_percent": 100.0,
+      "save_percent": 8.76,
+      "gaa": 7.7,
       "faceoffs_total": 57.0,
       "faceoff_win_percent": 49.12
     }
@@ -10746,9 +11784,12 @@
       "shots": 58.0,
       "takeaways": 82.0,
       "turnovers": 67.0,
+      "goals_against": 77.0,
+      "shots_against": 137.0,
       "games_played": 10,
       "shot_percent": 37.93,
-      "save_percent": 100.0,
+      "save_percent": 13.87,
+      "gaa": 7.7,
       "faceoffs_total": 49.0,
       "faceoff_win_percent": 48.98
     }
@@ -10777,9 +11818,12 @@
       "shots": 65.0,
       "takeaways": 60.0,
       "turnovers": 73.0,
+      "goals_against": 60.0,
+      "shots_against": 130.0,
       "games_played": 10,
       "shot_percent": 55.38,
-      "save_percent": 100.0,
+      "save_percent": 8.46,
+      "gaa": 6.0,
       "faceoffs_total": 38.0,
       "faceoff_win_percent": 50.0
     }
@@ -10808,9 +11852,12 @@
       "shots": 28.0,
       "takeaways": 11.0,
       "turnovers": 51.0,
+      "goals_against": 60.0,
+      "shots_against": 130.0,
       "games_played": 10,
       "shot_percent": 53.57,
-      "save_percent": 100.0,
+      "save_percent": 10.77,
+      "gaa": 6.0,
       "faceoffs_total": 53.0,
       "faceoff_win_percent": 37.74
     }
@@ -10839,9 +11886,12 @@
       "shots": 29.0,
       "takeaways": 27.0,
       "turnovers": 34.0,
+      "goals_against": 60.0,
+      "shots_against": 130.0,
       "games_played": 10,
       "shot_percent": 58.62,
-      "save_percent": 100.0,
+      "save_percent": 35.38,
+      "gaa": 6.0,
       "faceoffs_total": 56.0,
       "faceoff_win_percent": 35.71
     }
@@ -10870,9 +11920,12 @@
       "shots": 17.0,
       "takeaways": 8.0,
       "turnovers": 6.0,
+      "goals_against": 19.0,
+      "shots_against": 44.0,
       "games_played": 5,
       "shot_percent": 47.06,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 3.8,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 72.73
     }
@@ -10901,9 +11954,12 @@
       "shots": 18.0,
       "takeaways": 7.0,
       "turnovers": 15.0,
+      "goals_against": 18.0,
+      "shots_against": 49.0,
       "games_played": 6,
       "shot_percent": 61.11,
-      "save_percent": 100.0,
+      "save_percent": 6.12,
+      "gaa": 3.0,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 68.18
     }
@@ -10932,9 +11988,12 @@
       "shots": 67.0,
       "takeaways": 81.0,
       "turnovers": 45.0,
+      "goals_against": 37.0,
+      "shots_against": 88.0,
       "games_played": 10,
       "shot_percent": 50.75,
-      "save_percent": 100.0,
+      "save_percent": 36.36,
+      "gaa": 3.7,
       "faceoffs_total": 60.0,
       "faceoff_win_percent": 68.33
     }
@@ -10963,9 +12022,12 @@
       "shots": 60.0,
       "takeaways": 100.0,
       "turnovers": 46.0,
+      "goals_against": 37.0,
+      "shots_against": 88.0,
       "games_played": 10,
       "shot_percent": 53.33,
-      "save_percent": 100.0,
+      "save_percent": 15.91,
+      "gaa": 3.7,
       "faceoffs_total": 48.0,
       "faceoff_win_percent": 66.67
     }
@@ -10994,9 +12056,12 @@
       "shots": 21.0,
       "takeaways": 6.0,
       "turnovers": 18.0,
+      "goals_against": 16.0,
+      "shots_against": 42.0,
       "games_played": 5,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 4.76,
+      "gaa": 3.2,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 81.82
     }
@@ -11025,9 +12090,12 @@
       "shots": 25.0,
       "takeaways": 11.0,
       "turnovers": 28.0,
+      "goals_against": 55.0,
+      "shots_against": 106.0,
       "games_played": 6,
       "shot_percent": 44.0,
-      "save_percent": 100.0,
+      "save_percent": 23.58,
+      "gaa": 9.17,
       "faceoffs_total": 34.0,
       "faceoff_win_percent": 26.47
     }
@@ -11056,9 +12124,12 @@
       "shots": 1.0,
       "takeaways": 3.0,
       "turnovers": 6.0,
+      "goals_against": 8.0,
+      "shots_against": 18.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 5.56,
+      "gaa": 8.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 0.0
     }
@@ -11087,9 +12158,12 @@
       "shots": 13.0,
       "takeaways": 5.0,
       "turnovers": 21.0,
+      "goals_against": 55.0,
+      "shots_against": 106.0,
       "games_played": 6,
       "shot_percent": 46.15,
-      "save_percent": 100.0,
+      "save_percent": 19.81,
+      "gaa": 9.17,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 35.48
     }
@@ -11118,9 +12192,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 0.0,
+      "goals_against": 10.0,
+      "shots_against": 17.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 10.0,
       "faceoffs_total": 0.0,
       "faceoff_win_percent": 0
     }
@@ -11149,9 +12226,12 @@
       "shots": 12.0,
       "takeaways": 12.0,
       "turnovers": 15.0,
+      "goals_against": 55.0,
+      "shots_against": 106.0,
       "games_played": 6,
       "shot_percent": 58.33,
-      "save_percent": 100.0,
+      "save_percent": 4.72,
+      "gaa": 9.17,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 22.73
     }
@@ -11180,9 +12260,12 @@
       "shots": 0.0,
       "takeaways": 5.0,
       "turnovers": 3.0,
+      "goals_against": 6.0,
+      "shots_against": 12.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 25.0,
+      "gaa": 6.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 25.0
     }
@@ -11211,9 +12294,12 @@
       "shots": 63.0,
       "takeaways": 57.0,
       "turnovers": 37.0,
+      "goals_against": 31.0,
+      "shots_against": 54.0,
       "games_played": 7,
       "shot_percent": 60.32,
-      "save_percent": 100.0,
+      "save_percent": 12.96,
+      "gaa": 4.43,
       "faceoffs_total": 51.0,
       "faceoff_win_percent": 70.59
     }
@@ -11242,9 +12328,12 @@
       "shots": 38.0,
       "takeaways": 86.0,
       "turnovers": 34.0,
+      "goals_against": 31.0,
+      "shots_against": 54.0,
       "games_played": 7,
       "shot_percent": 55.26,
-      "save_percent": 100.0,
+      "save_percent": 20.37,
+      "gaa": 4.43,
       "faceoffs_total": 30.0,
       "faceoff_win_percent": 76.67
     }
@@ -11273,9 +12362,12 @@
       "shots": 28.0,
       "takeaways": 36.0,
       "turnovers": 27.0,
+      "goals_against": 25.0,
+      "shots_against": 42.0,
       "games_played": 6,
       "shot_percent": 46.43,
-      "save_percent": 100.0,
+      "save_percent": 4.76,
+      "gaa": 4.17,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 70.97
     }
@@ -11304,9 +12396,12 @@
       "shots": 60.0,
       "takeaways": 58.0,
       "turnovers": 44.0,
+      "goals_against": 44.0,
+      "shots_against": 71.0,
       "games_played": 11,
       "shot_percent": 43.33,
-      "save_percent": 100.0,
+      "save_percent": 8.45,
+      "gaa": 4.0,
       "faceoffs_total": 55.0,
       "faceoff_win_percent": 69.09
     }
@@ -11335,9 +12430,12 @@
       "shots": 3.0,
       "takeaways": 6.0,
       "turnovers": 5.0,
+      "goals_against": 17.0,
+      "shots_against": 29.0,
       "games_played": 4,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 20.69,
+      "gaa": 4.25,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 50.0
     }
@@ -11366,9 +12464,12 @@
       "shots": 10.0,
       "takeaways": 14.0,
       "turnovers": 8.0,
+      "goals_against": 23.0,
+      "shots_against": 42.0,
       "games_played": 7,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 7.14,
+      "gaa": 3.29,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 66.67
     }
@@ -11397,9 +12498,12 @@
       "shots": 118.0,
       "takeaways": 56.0,
       "turnovers": 45.0,
+      "goals_against": 47.0,
+      "shots_against": 78.0,
       "games_played": 12,
       "shot_percent": 50.85,
-      "save_percent": 100.0,
+      "save_percent": 3.85,
+      "gaa": 3.92,
       "faceoffs_total": 62.0,
       "faceoff_win_percent": 64.52
     }
@@ -11428,9 +12532,12 @@
       "shots": 67.0,
       "takeaways": 79.0,
       "turnovers": 31.0,
+      "goals_against": 34.0,
+      "shots_against": 55.0,
       "games_played": 10,
       "shot_percent": 40.3,
-      "save_percent": 100.0,
+      "save_percent": 23.64,
+      "gaa": 3.4,
       "faceoffs_total": 49.0,
       "faceoff_win_percent": 67.35
     }
@@ -11459,9 +12566,12 @@
       "shots": 6.0,
       "takeaways": 2.0,
       "turnovers": 7.0,
+      "goals_against": 22.0,
+      "shots_against": 49.0,
       "games_played": 4,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 2.04,
+      "gaa": 5.5,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 35.29
     }
@@ -11490,9 +12600,12 @@
       "shots": 44.0,
       "takeaways": 30.0,
       "turnovers": 28.0,
+      "goals_against": 52.0,
+      "shots_against": 97.0,
       "games_played": 9,
       "shot_percent": 52.27,
-      "save_percent": 100.0,
+      "save_percent": 5.15,
+      "gaa": 5.78,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 40.62
     }
@@ -11521,9 +12634,12 @@
       "shots": 13.0,
       "takeaways": 21.0,
       "turnovers": 13.0,
+      "goals_against": 26.0,
+      "shots_against": 60.0,
       "games_played": 5,
       "shot_percent": 53.85,
-      "save_percent": 100.0,
+      "save_percent": 21.67,
+      "gaa": 5.2,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 71.43
     }
@@ -11552,9 +12668,12 @@
       "shots": 32.0,
       "takeaways": 71.0,
       "turnovers": 66.0,
+      "goals_against": 56.0,
+      "shots_against": 111.0,
       "games_played": 10,
       "shot_percent": 43.75,
-      "save_percent": 100.0,
+      "save_percent": 26.13,
+      "gaa": 5.6,
       "faceoffs_total": 51.0,
       "faceoff_win_percent": 62.75
     }
@@ -11583,9 +12702,12 @@
       "shots": 46.0,
       "takeaways": 35.0,
       "turnovers": 50.0,
+      "goals_against": 48.0,
+      "shots_against": 98.0,
       "games_played": 9,
       "shot_percent": 41.3,
-      "save_percent": 100.0,
+      "save_percent": 7.14,
+      "gaa": 5.33,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 46.88
     }
@@ -11614,9 +12736,12 @@
       "shots": 3.0,
       "takeaways": 2.0,
       "turnovers": 11.0,
+      "goals_against": 25.0,
+      "shots_against": 69.0,
       "games_played": 3,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 11.59,
+      "gaa": 8.33,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 60.0
     }
@@ -11645,9 +12770,12 @@
       "shots": 5.0,
       "takeaways": 6.0,
       "turnovers": 19.0,
+      "goals_against": 21.0,
+      "shots_against": 47.0,
       "games_played": 2,
       "shot_percent": 20.0,
-      "save_percent": 100.0,
+      "save_percent": 8.51,
+      "gaa": 10.5,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 62.5
     }
@@ -11676,9 +12804,12 @@
       "shots": 6.0,
       "takeaways": 5.0,
       "turnovers": 6.0,
+      "goals_against": 25.0,
+      "shots_against": 72.0,
       "games_played": 4,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 8.33,
+      "gaa": 6.25,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 60.0
     }
@@ -11707,9 +12838,12 @@
       "shots": 12.0,
       "takeaways": 5.0,
       "turnovers": 10.0,
+      "goals_against": 34.0,
+      "shots_against": 81.0,
       "games_played": 4,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 12.35,
+      "gaa": 8.5,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 53.33
     }
@@ -11738,9 +12872,12 @@
       "shots": 4.0,
       "takeaways": 9.0,
       "turnovers": 18.0,
+      "goals_against": 21.0,
+      "shots_against": 47.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 19.15,
+      "gaa": 10.5,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 21.43
     }
@@ -11769,9 +12906,12 @@
       "shots": 8.0,
       "takeaways": 7.0,
       "turnovers": 14.0,
+      "goals_against": 18.0,
+      "shots_against": 46.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 21.74,
+      "gaa": 6.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 50.0
     }
@@ -11800,9 +12940,12 @@
       "shots": 20.0,
       "takeaways": 9.0,
       "turnovers": 9.0,
+      "goals_against": 25.0,
+      "shots_against": 72.0,
       "games_played": 4,
       "shot_percent": 55.0,
-      "save_percent": 100.0,
+      "save_percent": 36.11,
+      "gaa": 6.25,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 43.75
     }
@@ -11831,9 +12974,12 @@
       "shots": 33.0,
       "takeaways": 45.0,
       "turnovers": 32.0,
+      "goals_against": 44.0,
+      "shots_against": 82.0,
       "games_played": 6,
       "shot_percent": 51.52,
-      "save_percent": 100.0,
+      "save_percent": 18.29,
+      "gaa": 7.33,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 37.5
     }
@@ -11862,9 +13008,12 @@
       "shots": 23.0,
       "takeaways": 14.0,
       "turnovers": 26.0,
+      "goals_against": 44.0,
+      "shots_against": 82.0,
       "games_played": 6,
       "shot_percent": 52.17,
-      "save_percent": 100.0,
+      "save_percent": 2.44,
+      "gaa": 7.33,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 59.26
     }
@@ -11893,9 +13042,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 2.0,
+      "goals_against": 7.0,
+      "shots_against": 11.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 9.09,
+      "gaa": 7.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 100.0
     }
@@ -11924,9 +13076,12 @@
       "shots": 9.0,
       "takeaways": 12.0,
       "turnovers": 26.0,
+      "goals_against": 44.0,
+      "shots_against": 82.0,
       "games_played": 6,
       "shot_percent": 44.44,
-      "save_percent": 100.0,
+      "save_percent": 24.39,
+      "gaa": 7.33,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 56.0
     }
@@ -11955,9 +13110,12 @@
       "shots": 20.0,
       "takeaways": 15.0,
       "turnovers": 10.0,
+      "goals_against": 9.0,
+      "shots_against": 19.0,
       "games_played": 2,
       "shot_percent": 45.0,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 4.5,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 20.0
     }
@@ -11986,9 +13144,12 @@
       "shots": 34.0,
       "takeaways": 55.0,
       "turnovers": 44.0,
+      "goals_against": 48.0,
+      "shots_against": 94.0,
       "games_played": 8,
       "shot_percent": 47.06,
-      "save_percent": 100.0,
+      "save_percent": 19.15,
+      "gaa": 6.0,
       "faceoffs_total": 41.0,
       "faceoff_win_percent": 36.59
     }
@@ -12017,9 +13178,12 @@
       "shots": 17.0,
       "takeaways": 23.0,
       "turnovers": 30.0,
+      "goals_against": 47.0,
+      "shots_against": 85.0,
       "games_played": 5,
       "shot_percent": 52.94,
-      "save_percent": 100.0,
+      "save_percent": 4.71,
+      "gaa": 9.4,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 46.88
     }
@@ -12048,9 +13212,12 @@
       "shots": 3.0,
       "takeaways": 1.0,
       "turnovers": 7.0,
+      "goals_against": 0.0,
+      "shots_against": 5.0,
       "games_played": 1,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 20.0,
+      "gaa": 0.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 100.0
     }
@@ -12079,9 +13246,12 @@
       "shots": 6.0,
       "takeaways": 11.0,
       "turnovers": 11.0,
+      "goals_against": 8.0,
+      "shots_against": 19.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 5.26,
+      "gaa": 4.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 42.86
     }
@@ -12110,9 +13280,12 @@
       "shots": 39.0,
       "takeaways": 54.0,
       "turnovers": 39.0,
+      "goals_against": 56.0,
+      "shots_against": 111.0,
       "games_played": 9,
       "shot_percent": 51.28,
-      "save_percent": 100.0,
+      "save_percent": 26.13,
+      "gaa": 6.22,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 58.14
     }
@@ -12141,9 +13314,12 @@
       "shots": 2.0,
       "takeaways": 4.0,
       "turnovers": 20.0,
+      "goals_against": 34.0,
+      "shots_against": 83.0,
       "games_played": 4,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 3.61,
+      "gaa": 8.5,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 31.58
     }
@@ -12172,9 +13348,12 @@
       "shots": 10.0,
       "takeaways": 21.0,
       "turnovers": 18.0,
+      "goals_against": 34.0,
+      "shots_against": 83.0,
       "games_played": 4,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 14.46,
+      "gaa": 8.5,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 21.05
     }
@@ -12203,9 +13382,12 @@
       "shots": 11.0,
       "takeaways": 27.0,
       "turnovers": 18.0,
+      "goals_against": 34.0,
+      "shots_against": 83.0,
       "games_played": 4,
       "shot_percent": 54.55,
-      "save_percent": 100.0,
+      "save_percent": 40.96,
+      "gaa": 8.5,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 37.5
     }
@@ -12234,9 +13416,12 @@
       "shots": 8.0,
       "takeaways": 30.0,
       "turnovers": 7.0,
+      "goals_against": 11.0,
+      "shots_against": 24.0,
       "games_played": 2,
       "shot_percent": 37.5,
-      "save_percent": 100.0,
+      "save_percent": 12.5,
+      "gaa": 5.5,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 75.0
     }
@@ -12265,9 +13450,12 @@
       "shots": 10.0,
       "takeaways": 19.0,
       "turnovers": 7.0,
+      "goals_against": 11.0,
+      "shots_against": 24.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 8.33,
+      "gaa": 5.5,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 55.56
     }
@@ -12296,9 +13484,12 @@
       "shots": 10.0,
       "takeaways": 24.0,
       "turnovers": 14.0,
+      "goals_against": 11.0,
+      "shots_against": 24.0,
       "games_played": 2,
       "shot_percent": 70.0,
-      "save_percent": 100.0,
+      "save_percent": 33.33,
+      "gaa": 5.5,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 71.43
     }
@@ -12327,9 +13518,12 @@
       "shots": 14.0,
       "takeaways": 18.0,
       "turnovers": 23.0,
+      "goals_against": 13.0,
+      "shots_against": 23.0,
       "games_played": 3,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 4.35,
+      "gaa": 4.33,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 66.67
     }
@@ -12358,9 +13552,12 @@
       "shots": 13.0,
       "takeaways": 25.0,
       "turnovers": 10.0,
+      "goals_against": 12.0,
+      "shots_against": 20.0,
       "games_played": 2,
       "shot_percent": 69.23,
-      "save_percent": 100.0,
+      "save_percent": 10.0,
+      "gaa": 6.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 81.82
     }
@@ -12389,9 +13586,12 @@
       "shots": 36.0,
       "takeaways": 65.0,
       "turnovers": 24.0,
+      "goals_against": 25.0,
+      "shots_against": 43.0,
       "games_played": 5,
       "shot_percent": 38.89,
-      "save_percent": 100.0,
+      "save_percent": 25.58,
+      "gaa": 5.0,
       "faceoffs_total": 34.0,
       "faceoff_win_percent": 73.53
     }
@@ -12420,9 +13620,12 @@
       "shots": 41.0,
       "takeaways": 43.0,
       "turnovers": 52.0,
+      "goals_against": 25.0,
+      "shots_against": 43.0,
       "games_played": 5,
       "shot_percent": 46.34,
-      "save_percent": 100.0,
+      "save_percent": 9.3,
+      "gaa": 5.0,
       "faceoffs_total": 29.0,
       "faceoff_win_percent": 72.41
     }
@@ -12451,9 +13654,12 @@
       "shots": 18.0,
       "takeaways": 26.0,
       "turnovers": 46.0,
+      "goals_against": 28.0,
+      "shots_against": 66.0,
       "games_played": 5,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 10.61,
+      "gaa": 5.6,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 36.36
     }
@@ -12482,9 +13688,12 @@
       "shots": 23.0,
       "takeaways": 41.0,
       "turnovers": 48.0,
+      "goals_against": 28.0,
+      "shots_against": 66.0,
       "games_played": 5,
       "shot_percent": 65.22,
-      "save_percent": 100.0,
+      "save_percent": 31.82,
+      "gaa": 5.6,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 44.0
     }
@@ -12513,9 +13722,12 @@
       "shots": 16.0,
       "takeaways": 31.0,
       "turnovers": 55.0,
+      "goals_against": 28.0,
+      "shots_against": 66.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 15.15,
+      "gaa": 5.6,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 73.91
     }
@@ -12544,9 +13756,12 @@
       "shots": 12.0,
       "takeaways": 32.0,
       "turnovers": 16.0,
+      "goals_against": 18.0,
+      "shots_against": 33.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 33.33,
+      "gaa": 6.0,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 29.41
     }
@@ -12575,9 +13790,12 @@
       "shots": 16.0,
       "takeaways": 25.0,
       "turnovers": 29.0,
+      "goals_against": 18.0,
+      "shots_against": 33.0,
       "games_played": 3,
       "shot_percent": 31.25,
-      "save_percent": 100.0,
+      "save_percent": 6.06,
+      "gaa": 6.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 18.18
     }
@@ -12606,9 +13824,12 @@
       "shots": 10.0,
       "takeaways": 19.0,
       "turnovers": 24.0,
+      "goals_against": 18.0,
+      "shots_against": 33.0,
       "games_played": 3,
       "shot_percent": 30.0,
-      "save_percent": 100.0,
+      "save_percent": 6.06,
+      "gaa": 6.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 54.55
     }
@@ -12637,9 +13858,12 @@
       "shots": 2.0,
       "takeaways": 8.0,
       "turnovers": 8.0,
+      "goals_against": 26.0,
+      "shots_against": 44.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 22.73,
+      "gaa": 13.0,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 43.75
     }
@@ -12668,9 +13892,12 @@
       "shots": 4.0,
       "takeaways": 12.0,
       "turnovers": 22.0,
+      "goals_against": 26.0,
+      "shots_against": 44.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 6.82,
+      "gaa": 13.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 20.0
     }
@@ -12699,9 +13926,12 @@
       "shots": 9.0,
       "takeaways": 14.0,
       "turnovers": 34.0,
+      "goals_against": 26.0,
+      "shots_against": 44.0,
       "games_played": 2,
       "shot_percent": 88.89,
-      "save_percent": 100.0,
+      "save_percent": 11.36,
+      "gaa": 13.0,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 28.57
     }
@@ -12730,9 +13960,12 @@
       "shots": 8.0,
       "takeaways": 17.0,
       "turnovers": 30.0,
+      "goals_against": 24.0,
+      "shots_against": 60.0,
       "games_played": 3,
       "shot_percent": 62.5,
-      "save_percent": 100.0,
+      "save_percent": 15.0,
+      "gaa": 8.0,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 14.29
     }
@@ -12761,9 +13994,12 @@
       "shots": 10.0,
       "takeaways": 34.0,
       "turnovers": 36.0,
+      "goals_against": 24.0,
+      "shots_against": 60.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 33.33,
+      "gaa": 8.0,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 23.53
     }
@@ -12792,9 +14028,12 @@
       "shots": 10.0,
       "takeaways": 24.0,
       "turnovers": 21.0,
+      "goals_against": 24.0,
+      "shots_against": 60.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 11.67,
+      "gaa": 8.0,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 26.67
     }
@@ -12823,9 +14062,12 @@
       "shots": 8.0,
       "takeaways": 13.0,
       "turnovers": 12.0,
+      "goals_against": 17.0,
+      "shots_against": 37.0,
       "games_played": 2,
       "shot_percent": 37.5,
-      "save_percent": 100.0,
+      "save_percent": 8.11,
+      "gaa": 8.5,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 40.0
     }
@@ -12854,9 +14096,12 @@
       "shots": 10.0,
       "takeaways": 31.0,
       "turnovers": 14.0,
+      "goals_against": 17.0,
+      "shots_against": 37.0,
       "games_played": 2,
       "shot_percent": 30.0,
-      "save_percent": 100.0,
+      "save_percent": 40.54,
+      "gaa": 8.5,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 50.0
     }
@@ -12885,9 +14130,12 @@
       "shots": 7.0,
       "takeaways": 16.0,
       "turnovers": 13.0,
+      "goals_against": 17.0,
+      "shots_against": 37.0,
       "games_played": 2,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 5.41,
+      "gaa": 8.5,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 35.71
     }
@@ -12916,9 +14164,12 @@
       "shots": 21.0,
       "takeaways": 20.0,
       "turnovers": 30.0,
+      "goals_against": 28.0,
+      "shots_against": 69.0,
       "games_played": 5,
       "shot_percent": 38.1,
-      "save_percent": 100.0,
+      "save_percent": 5.8,
+      "gaa": 5.6,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 72.22
     }
@@ -12947,9 +14198,12 @@
       "shots": 12.0,
       "takeaways": 48.0,
       "turnovers": 42.0,
+      "goals_against": 28.0,
+      "shots_against": 69.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 47.83,
+      "gaa": 5.6,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 50.0
     }
@@ -12978,9 +14232,12 @@
       "shots": 35.0,
       "takeaways": 30.0,
       "turnovers": 63.0,
+      "goals_against": 28.0,
+      "shots_against": 69.0,
       "games_played": 5,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 5.8,
+      "gaa": 5.6,
       "faceoffs_total": 37.0,
       "faceoff_win_percent": 37.84
     }
@@ -13009,9 +14266,12 @@
       "shots": 42.0,
       "takeaways": 37.0,
       "turnovers": 58.0,
+      "goals_against": 57.0,
+      "shots_against": 103.0,
       "games_played": 8,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 6.8,
+      "gaa": 7.12,
       "faceoffs_total": 50.0,
       "faceoff_win_percent": 50.0
     }
@@ -13040,9 +14300,12 @@
       "shots": 32.0,
       "takeaways": 101.0,
       "turnovers": 46.0,
+      "goals_against": 57.0,
+      "shots_against": 103.0,
       "games_played": 8,
       "shot_percent": 59.38,
-      "save_percent": 100.0,
+      "save_percent": 35.92,
+      "gaa": 7.12,
       "faceoffs_total": 39.0,
       "faceoff_win_percent": 58.97
     }
@@ -13071,9 +14334,12 @@
       "shots": 36.0,
       "takeaways": 44.0,
       "turnovers": 56.0,
+      "goals_against": 57.0,
+      "shots_against": 103.0,
       "games_played": 8,
       "shot_percent": 52.78,
-      "save_percent": 100.0,
+      "save_percent": 1.94,
+      "gaa": 7.12,
       "faceoffs_total": 50.0,
       "faceoff_win_percent": 34.0
     }
@@ -13102,9 +14368,12 @@
       "shots": 19.0,
       "takeaways": 15.0,
       "turnovers": 48.0,
+      "goals_against": 32.0,
+      "shots_against": 57.0,
       "games_played": 4,
       "shot_percent": 47.37,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 8.0,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 52.38
     }
@@ -13133,9 +14402,12 @@
       "shots": 18.0,
       "takeaways": 51.0,
       "turnovers": 37.0,
+      "goals_against": 32.0,
+      "shots_against": 57.0,
       "games_played": 4,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 31.58,
+      "gaa": 8.0,
       "faceoffs_total": 29.0,
       "faceoff_win_percent": 34.48
     }
@@ -13164,9 +14436,12 @@
       "shots": 10.0,
       "takeaways": 15.0,
       "turnovers": 38.0,
+      "goals_against": 32.0,
+      "shots_against": 57.0,
       "games_played": 4,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 1.75,
+      "gaa": 8.0,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 41.18
     }
@@ -13195,9 +14470,12 @@
       "shots": 1.0,
       "takeaways": 1.0,
       "turnovers": 0.0,
+      "goals_against": 10.0,
+      "shots_against": 17.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 10.0,
       "faceoffs_total": 0.0,
       "faceoff_win_percent": 0
     }
@@ -13226,9 +14504,12 @@
       "shots": 8.0,
       "takeaways": 15.0,
       "turnovers": 12.0,
+      "goals_against": 26.0,
+      "shots_against": 41.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 14.63,
+      "gaa": 8.67,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 42.86
     }
@@ -13257,9 +14538,12 @@
       "shots": 11.0,
       "takeaways": 30.0,
       "turnovers": 28.0,
+      "goals_against": 26.0,
+      "shots_against": 41.0,
       "games_played": 3,
       "shot_percent": 36.36,
-      "save_percent": 100.0,
+      "save_percent": 19.51,
+      "gaa": 8.67,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 38.89
     }
@@ -13288,9 +14572,12 @@
       "shots": 14.0,
       "takeaways": 10.0,
       "turnovers": 28.0,
+      "goals_against": 26.0,
+      "shots_against": 41.0,
       "games_played": 3,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 2.44,
+      "gaa": 8.67,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 53.33
     }
@@ -13319,9 +14606,12 @@
       "shots": 38.0,
       "takeaways": 57.0,
       "turnovers": 48.0,
+      "goals_against": 48.0,
+      "shots_against": 86.0,
       "games_played": 8,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 9.3,
+      "gaa": 6.0,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 64.52
     }
@@ -13350,9 +14640,12 @@
       "shots": 1.0,
       "takeaways": 1.0,
       "turnovers": 2.0,
+      "goals_against": 15.0,
+      "shots_against": 22.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 7.5,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 50.0
     }
@@ -13381,9 +14674,12 @@
       "shots": 48.0,
       "takeaways": 89.0,
       "turnovers": 57.0,
+      "goals_against": 48.0,
+      "shots_against": 86.0,
       "games_played": 8,
       "shot_percent": 47.92,
-      "save_percent": 100.0,
+      "save_percent": 27.91,
+      "gaa": 6.0,
       "faceoffs_total": 52.0,
       "faceoff_win_percent": 63.46
     }
@@ -13412,9 +14708,12 @@
       "shots": 50.0,
       "takeaways": 45.0,
       "turnovers": 45.0,
+      "goals_against": 48.0,
+      "shots_against": 86.0,
       "games_played": 8,
       "shot_percent": 52.0,
-      "save_percent": 100.0,
+      "save_percent": 6.98,
+      "gaa": 6.0,
       "faceoffs_total": 50.0,
       "faceoff_win_percent": 60.0
     }
@@ -13443,9 +14742,12 @@
       "shots": 8.0,
       "takeaways": 10.0,
       "turnovers": 18.0,
+      "goals_against": 15.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 13.79,
+      "gaa": 7.5,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 37.5
     }
@@ -13474,9 +14776,12 @@
       "shots": 10.0,
       "takeaways": 24.0,
       "turnovers": 20.0,
+      "goals_against": 15.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 40.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 7.5,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 50.0
     }
@@ -13505,9 +14810,12 @@
       "shots": 3.0,
       "takeaways": 29.0,
       "turnovers": 7.0,
+      "goals_against": 15.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 34.48,
+      "gaa": 7.5,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 80.0
     }
@@ -13536,9 +14844,12 @@
       "shots": 12.0,
       "takeaways": 16.0,
       "turnovers": 17.0,
+      "goals_against": 18.0,
+      "shots_against": 42.0,
       "games_played": 2,
       "shot_percent": 58.33,
-      "save_percent": 100.0,
+      "save_percent": 2.38,
+      "gaa": 9.0,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 35.71
     }
@@ -13567,9 +14878,12 @@
       "shots": 5.0,
       "takeaways": 8.0,
       "turnovers": 10.0,
+      "goals_against": 18.0,
+      "shots_against": 42.0,
       "games_played": 2,
       "shot_percent": 80.0,
-      "save_percent": 100.0,
+      "save_percent": 30.95,
+      "gaa": 9.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 42.86
     }
@@ -13598,9 +14912,12 @@
       "shots": 5.0,
       "takeaways": 15.0,
       "turnovers": 22.0,
+      "goals_against": 18.0,
+      "shots_against": 42.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 23.81,
+      "gaa": 9.0,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 50.0
     }
@@ -13629,9 +14946,12 @@
       "shots": 67.0,
       "takeaways": 82.0,
       "turnovers": 145.0,
+      "goals_against": 99.0,
+      "shots_against": 214.0,
       "games_played": 13,
       "shot_percent": 38.81,
-      "save_percent": 100.0,
+      "save_percent": 7.01,
+      "gaa": 7.62,
       "faceoffs_total": 57.0,
       "faceoff_win_percent": 40.35
     }
@@ -13660,9 +14980,12 @@
       "shots": 59.0,
       "takeaways": 177.0,
       "turnovers": 143.0,
+      "goals_against": 116.0,
+      "shots_against": 254.0,
       "games_played": 16,
       "shot_percent": 47.46,
-      "save_percent": 100.0,
+      "save_percent": 39.37,
+      "gaa": 7.25,
       "faceoffs_total": 88.0,
       "faceoff_win_percent": 44.32
     }
@@ -13691,9 +15014,12 @@
       "shots": 87.0,
       "takeaways": 89.0,
       "turnovers": 156.0,
+      "goals_against": 116.0,
+      "shots_against": 254.0,
       "games_played": 16,
       "shot_percent": 45.98,
-      "save_percent": 100.0,
+      "save_percent": 7.87,
+      "gaa": 7.25,
       "faceoffs_total": 93.0,
       "faceoff_win_percent": 31.18
     }
@@ -13722,9 +15048,12 @@
       "shots": 16.0,
       "takeaways": 10.0,
       "turnovers": 33.0,
+      "goals_against": 17.0,
+      "shots_against": 40.0,
       "games_played": 3,
       "shot_percent": 68.75,
-      "save_percent": 100.0,
+      "save_percent": 7.5,
+      "gaa": 5.67,
       "faceoffs_total": 18.0,
       "faceoff_win_percent": 27.78
     }
@@ -13753,9 +15082,12 @@
       "shots": 16.0,
       "takeaways": 13.0,
       "turnovers": 20.0,
+      "goals_against": 17.0,
+      "shots_against": 33.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 8.5,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 53.33
     }
@@ -13784,9 +15116,12 @@
       "shots": 73.0,
       "takeaways": 84.0,
       "turnovers": 65.0,
+      "goals_against": 100.0,
+      "shots_against": 226.0,
       "games_played": 16,
       "shot_percent": 47.95,
-      "save_percent": 100.0,
+      "save_percent": 11.06,
+      "gaa": 6.25,
       "faceoffs_total": 82.0,
       "faceoff_win_percent": 56.1
     }
@@ -13815,9 +15150,12 @@
       "shots": 58.0,
       "takeaways": 166.0,
       "turnovers": 136.0,
+      "goals_against": 100.0,
+      "shots_against": 226.0,
       "games_played": 16,
       "shot_percent": 41.38,
-      "save_percent": 100.0,
+      "save_percent": 41.59,
+      "gaa": 6.25,
       "faceoffs_total": 72.0,
       "faceoff_win_percent": 51.39
     }
@@ -13846,9 +15184,12 @@
       "shots": 77.0,
       "takeaways": 113.0,
       "turnovers": 111.0,
+      "goals_against": 83.0,
+      "shots_against": 193.0,
       "games_played": 14,
       "shot_percent": 49.35,
-      "save_percent": 100.0,
+      "save_percent": 3.63,
+      "gaa": 5.93,
       "faceoffs_total": 74.0,
       "faceoff_win_percent": 50.0
     }
@@ -13877,9 +15218,12 @@
       "shots": 75.0,
       "takeaways": 153.0,
       "turnovers": 143.0,
+      "goals_against": 131.0,
+      "shots_against": 272.0,
       "games_played": 18,
       "shot_percent": 52.0,
-      "save_percent": 100.0,
+      "save_percent": 6.99,
+      "gaa": 7.28,
       "faceoffs_total": 95.0,
       "faceoff_win_percent": 47.37
     }
@@ -13908,9 +15252,12 @@
       "shots": 72.0,
       "takeaways": 117.0,
       "turnovers": 148.0,
+      "goals_against": 131.0,
+      "shots_against": 272.0,
       "games_played": 18,
       "shot_percent": 52.78,
-      "save_percent": 100.0,
+      "save_percent": 12.87,
+      "gaa": 7.28,
       "faceoffs_total": 80.0,
       "faceoff_win_percent": 45.0
     }
@@ -13939,9 +15286,12 @@
       "shots": 57.0,
       "takeaways": 205.0,
       "turnovers": 138.0,
+      "goals_against": 131.0,
+      "shots_against": 272.0,
       "games_played": 18,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 31.99,
+      "gaa": 7.28,
       "faceoffs_total": 90.0,
       "faceoff_win_percent": 65.56
     }
@@ -13970,9 +15320,12 @@
       "shots": 104.0,
       "takeaways": 87.0,
       "turnovers": 125.0,
+      "goals_against": 73.0,
+      "shots_against": 170.0,
       "games_played": 15,
       "shot_percent": 57.69,
-      "save_percent": 100.0,
+      "save_percent": 11.76,
+      "gaa": 4.87,
       "faceoffs_total": 63.0,
       "faceoff_win_percent": 61.9
     }
@@ -14001,9 +15354,12 @@
       "shots": 3.0,
       "takeaways": 10.0,
       "turnovers": 34.0,
+      "goals_against": 10.0,
+      "shots_against": 27.0,
       "games_played": 2,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 7.41,
+      "gaa": 5.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 25.0
     }
@@ -14032,9 +15388,12 @@
       "shots": 57.0,
       "takeaways": 235.0,
       "turnovers": 126.0,
+      "goals_against": 83.0,
+      "shots_against": 197.0,
       "games_played": 17,
       "shot_percent": 49.12,
-      "save_percent": 100.0,
+      "save_percent": 40.61,
+      "gaa": 4.88,
       "faceoffs_total": 90.0,
       "faceoff_win_percent": 60.0
     }
@@ -14063,9 +15422,12 @@
       "shots": 91.0,
       "takeaways": 112.0,
       "turnovers": 105.0,
+      "goals_against": 83.0,
+      "shots_against": 197.0,
       "games_played": 17,
       "shot_percent": 53.85,
-      "save_percent": 100.0,
+      "save_percent": 6.09,
+      "gaa": 4.88,
       "faceoffs_total": 99.0,
       "faceoff_win_percent": 37.37
     }
@@ -14094,9 +15456,12 @@
       "shots": 68.0,
       "takeaways": 63.0,
       "turnovers": 98.0,
+      "goals_against": 83.0,
+      "shots_against": 134.0,
       "games_played": 12,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 12.69,
+      "gaa": 6.92,
       "faceoffs_total": 63.0,
       "faceoff_win_percent": 50.79
     }
@@ -14125,9 +15490,12 @@
       "shots": 81.0,
       "takeaways": 223.0,
       "turnovers": 140.0,
+      "goals_against": 114.0,
+      "shots_against": 186.0,
       "games_played": 16,
       "shot_percent": 39.51,
-      "save_percent": 100.0,
+      "save_percent": 23.66,
+      "gaa": 7.12,
       "faceoffs_total": 86.0,
       "faceoff_win_percent": 50.0
     }
@@ -14156,9 +15524,12 @@
       "shots": 52.0,
       "takeaways": 61.0,
       "turnovers": 96.0,
+      "goals_against": 114.0,
+      "shots_against": 186.0,
       "games_played": 16,
       "shot_percent": 34.62,
-      "save_percent": 100.0,
+      "save_percent": 4.84,
+      "gaa": 7.12,
       "faceoffs_total": 84.0,
       "faceoff_win_percent": 55.95
     }
@@ -14187,9 +15558,12 @@
       "shots": 45.0,
       "takeaways": 28.0,
       "turnovers": 42.0,
+      "goals_against": 31.0,
+      "shots_against": 52.0,
       "games_played": 4,
       "shot_percent": 48.89,
-      "save_percent": 100.0,
+      "save_percent": 3.85,
+      "gaa": 7.75,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 40.91
     }
@@ -14218,9 +15592,12 @@
       "shots": 18.0,
       "takeaways": 21.0,
       "turnovers": 33.0,
+      "goals_against": 36.0,
+      "shots_against": 68.0,
       "games_played": 5,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 2.94,
+      "gaa": 7.2,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 52.63
     }
@@ -14249,9 +15626,12 @@
       "shots": 55.0,
       "takeaways": 41.0,
       "turnovers": 72.0,
+      "goals_against": 75.0,
+      "shots_against": 146.0,
       "games_played": 10,
       "shot_percent": 45.45,
-      "save_percent": 100.0,
+      "save_percent": 3.42,
+      "gaa": 7.5,
       "faceoffs_total": 55.0,
       "faceoff_win_percent": 43.64
     }
@@ -14280,9 +15660,12 @@
       "shots": 27.0,
       "takeaways": 33.0,
       "turnovers": 27.0,
+      "goals_against": 36.0,
+      "shots_against": 68.0,
       "games_played": 5,
       "shot_percent": 37.04,
-      "save_percent": 100.0,
+      "save_percent": 5.88,
+      "gaa": 7.2,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 57.89
     }
@@ -14311,9 +15694,12 @@
       "shots": 58.0,
       "takeaways": 181.0,
       "turnovers": 108.0,
+      "goals_against": 100.0,
+      "shots_against": 196.0,
       "games_played": 14,
       "shot_percent": 36.21,
-      "save_percent": 100.0,
+      "save_percent": 10.2,
+      "gaa": 7.14,
       "faceoffs_total": 65.0,
       "faceoff_win_percent": 63.08
     }
@@ -14342,9 +15728,12 @@
       "shots": 103.0,
       "takeaways": 195.0,
       "turnovers": 158.0,
+      "goals_against": 115.0,
+      "shots_against": 223.0,
       "games_played": 16,
       "shot_percent": 40.78,
-      "save_percent": 100.0,
+      "save_percent": 34.53,
+      "gaa": 7.19,
       "faceoffs_total": 94.0,
       "faceoff_win_percent": 54.26
     }
@@ -14373,9 +15762,12 @@
       "shots": 120.0,
       "takeaways": 164.0,
       "turnovers": 108.0,
+      "goals_against": 99.0,
+      "shots_against": 193.0,
       "games_played": 18,
       "shot_percent": 49.17,
-      "save_percent": 100.0,
+      "save_percent": 9.33,
+      "gaa": 5.5,
       "faceoffs_total": 110.0,
       "faceoff_win_percent": 52.73
     }
@@ -14404,9 +15796,12 @@
       "shots": 25.0,
       "takeaways": 26.0,
       "turnovers": 22.0,
+      "goals_against": 25.0,
+      "shots_against": 63.0,
       "games_played": 6,
       "shot_percent": 44.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 4.17,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 57.14
     }
@@ -14435,9 +15830,12 @@
       "shots": 147.0,
       "takeaways": 156.0,
       "turnovers": 105.0,
+      "goals_against": 99.0,
+      "shots_against": 193.0,
       "games_played": 18,
       "shot_percent": 49.66,
-      "save_percent": 100.0,
+      "save_percent": 32.12,
+      "gaa": 5.5,
       "faceoffs_total": 111.0,
       "faceoff_win_percent": 68.47
     }
@@ -14466,9 +15864,12 @@
       "shots": 100.0,
       "takeaways": 101.0,
       "turnovers": 72.0,
+      "goals_against": 83.0,
+      "shots_against": 145.0,
       "games_played": 13,
       "shot_percent": 54.0,
-      "save_percent": 100.0,
+      "save_percent": 9.66,
+      "gaa": 6.38,
       "faceoffs_total": 96.0,
       "faceoff_win_percent": 55.21
     }
@@ -14497,9 +15898,12 @@
       "shots": 39.0,
       "takeaways": 28.0,
       "turnovers": 44.0,
+      "goals_against": 36.0,
+      "shots_against": 99.0,
       "games_played": 6,
       "shot_percent": 53.85,
-      "save_percent": 100.0,
+      "save_percent": 2.02,
+      "gaa": 6.0,
       "faceoffs_total": 33.0,
       "faceoff_win_percent": 51.52
     }
@@ -14528,9 +15932,12 @@
       "shots": 80.0,
       "takeaways": 102.0,
       "turnovers": 117.0,
+      "goals_against": 70.0,
+      "shots_against": 199.0,
       "games_played": 14,
       "shot_percent": 43.75,
-      "save_percent": 100.0,
+      "save_percent": 17.09,
+      "gaa": 5.0,
       "faceoffs_total": 68.0,
       "faceoff_win_percent": 60.29
     }
@@ -14559,9 +15966,12 @@
       "shots": 52.0,
       "takeaways": 75.0,
       "turnovers": 64.0,
+      "goals_against": 34.0,
+      "shots_against": 100.0,
       "games_played": 8,
       "shot_percent": 48.08,
-      "save_percent": 100.0,
+      "save_percent": 11.0,
+      "gaa": 4.25,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 61.9
     }
@@ -14590,9 +16000,12 @@
       "shots": 57.0,
       "takeaways": 138.0,
       "turnovers": 86.0,
+      "goals_against": 70.0,
+      "shots_against": 199.0,
       "games_played": 14,
       "shot_percent": 47.37,
-      "save_percent": 100.0,
+      "save_percent": 41.21,
+      "gaa": 5.0,
       "faceoffs_total": 68.0,
       "faceoff_win_percent": 61.76
     }
@@ -14621,9 +16034,12 @@
       "shots": 13.0,
       "takeaways": 24.0,
       "turnovers": 40.0,
+      "goals_against": 46.0,
+      "shots_against": 101.0,
       "games_played": 5,
       "shot_percent": 46.15,
-      "save_percent": 100.0,
+      "save_percent": 5.94,
+      "gaa": 9.2,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 39.13
     }
@@ -14652,9 +16068,12 @@
       "shots": 31.0,
       "takeaways": 31.0,
       "turnovers": 67.0,
+      "goals_against": 108.0,
+      "shots_against": 208.0,
       "games_played": 10,
       "shot_percent": 64.52,
-      "save_percent": 100.0,
+      "save_percent": 5.77,
+      "gaa": 10.8,
       "faceoffs_total": 49.0,
       "faceoff_win_percent": 30.61
     }
@@ -14683,9 +16102,12 @@
       "shots": 31.0,
       "takeaways": 130.0,
       "turnovers": 159.0,
+      "goals_against": 145.0,
+      "shots_against": 289.0,
       "games_played": 14,
       "shot_percent": 41.94,
-      "save_percent": 100.0,
+      "save_percent": 30.1,
+      "gaa": 10.36,
       "faceoffs_total": 94.0,
       "faceoff_win_percent": 37.23
     }
@@ -14714,9 +16136,12 @@
       "shots": 54.0,
       "takeaways": 74.0,
       "turnovers": 94.0,
+      "goals_against": 145.0,
+      "shots_against": 289.0,
       "games_played": 14,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 13.49,
+      "gaa": 10.36,
       "faceoffs_total": 72.0,
       "faceoff_win_percent": 38.89
     }
@@ -14745,9 +16170,12 @@
       "shots": 21.0,
       "takeaways": 31.0,
       "turnovers": 92.0,
+      "goals_against": 113.0,
+      "shots_against": 228.0,
       "games_played": 11,
       "shot_percent": 52.38,
-      "save_percent": 100.0,
+      "save_percent": 20.18,
+      "gaa": 10.27,
       "faceoffs_total": 67.0,
       "faceoff_win_percent": 38.81
     }
@@ -14776,9 +16204,12 @@
       "shots": 45.0,
       "takeaways": 73.0,
       "turnovers": 108.0,
+      "goals_against": 99.0,
+      "shots_against": 206.0,
       "games_played": 10,
       "shot_percent": 48.89,
-      "save_percent": 100.0,
+      "save_percent": 5.83,
+      "gaa": 9.9,
       "faceoffs_total": 67.0,
       "faceoff_win_percent": 38.81
     }
@@ -14807,9 +16238,12 @@
       "shots": 30.0,
       "takeaways": 22.0,
       "turnovers": 45.0,
+      "goals_against": 47.0,
+      "shots_against": 106.0,
       "games_played": 5,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 7.55,
+      "gaa": 9.4,
       "faceoffs_total": 37.0,
       "faceoff_win_percent": 51.35
     }
@@ -14838,9 +16272,12 @@
       "shots": 56.0,
       "takeaways": 68.0,
       "turnovers": 97.0,
+      "goals_against": 94.0,
+      "shots_against": 191.0,
       "games_played": 10,
       "shot_percent": 46.43,
-      "save_percent": 100.0,
+      "save_percent": 5.24,
+      "gaa": 9.4,
       "faceoffs_total": 46.0,
       "faceoff_win_percent": 41.3
     }
@@ -14869,9 +16306,12 @@
       "shots": 58.0,
       "takeaways": 149.0,
       "turnovers": 153.0,
+      "goals_against": 162.0,
+      "shots_against": 339.0,
       "games_played": 17,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 29.79,
+      "gaa": 9.53,
       "faceoffs_total": 91.0,
       "faceoff_win_percent": 46.15
     }
@@ -14900,9 +16340,12 @@
       "shots": 5.0,
       "takeaways": 13.0,
       "turnovers": 11.0,
+      "goals_against": 24.0,
+      "shots_against": 40.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 25.0,
+      "gaa": 12.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 70.0
     }
@@ -14931,9 +16374,12 @@
       "shots": 4.0,
       "takeaways": 3.0,
       "turnovers": 9.0,
+      "goals_against": 24.0,
+      "shots_against": 40.0,
       "games_played": 2,
       "shot_percent": 25.0,
-      "save_percent": 100.0,
+      "save_percent": 12.5,
+      "gaa": 12.0,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 57.14
     }
@@ -14962,9 +16408,12 @@
       "shots": 4.0,
       "takeaways": 2.0,
       "turnovers": 17.0,
+      "goals_against": 24.0,
+      "shots_against": 40.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 2.5,
+      "gaa": 12.0,
       "faceoffs_total": 12.0,
       "faceoff_win_percent": 50.0
     }
@@ -14993,9 +16442,12 @@
       "shots": 8.0,
       "takeaways": 1.0,
       "turnovers": 4.0,
+      "goals_against": 10.0,
+      "shots_against": 18.0,
       "games_played": 1,
       "shot_percent": 62.5,
-      "save_percent": 100.0,
+      "save_percent": 5.56,
+      "gaa": 10.0,
       "faceoffs_total": 6.0,
       "faceoff_win_percent": 50.0
     }
@@ -15024,9 +16476,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 2.0,
+      "goals_against": 10.0,
+      "shots_against": 18.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 22.22,
+      "gaa": 10.0,
       "faceoffs_total": 5.0,
       "faceoff_win_percent": 40.0
     }
@@ -15055,9 +16510,12 @@
       "shots": 4.0,
       "takeaways": 9.0,
       "turnovers": 13.0,
+      "goals_against": 10.0,
+      "shots_against": 18.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 10.0,
       "faceoffs_total": 9.0,
       "faceoff_win_percent": 44.44
     }
@@ -15086,9 +16544,12 @@
       "shots": 38.0,
       "takeaways": 34.0,
       "turnovers": 24.0,
+      "goals_against": 18.0,
+      "shots_against": 33.0,
       "games_played": 4,
       "shot_percent": 47.37,
-      "save_percent": 100.0,
+      "save_percent": 30.3,
+      "gaa": 4.5,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 48.0
     }
@@ -15117,9 +16578,12 @@
       "shots": 26.0,
       "takeaways": 23.0,
       "turnovers": 17.0,
+      "goals_against": 13.0,
+      "shots_against": 25.0,
       "games_played": 3,
       "shot_percent": 65.38,
-      "save_percent": 100.0,
+      "save_percent": 4.0,
+      "gaa": 4.33,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 84.21
     }
@@ -15148,9 +16612,12 @@
       "shots": 20.0,
       "takeaways": 49.0,
       "turnovers": 15.0,
+      "goals_against": 23.0,
+      "shots_against": 44.0,
       "games_played": 5,
       "shot_percent": 45.0,
-      "save_percent": 100.0,
+      "save_percent": 15.91,
+      "gaa": 4.6,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 75.0
     }
@@ -15179,9 +16646,12 @@
       "shots": 24.0,
       "takeaways": 58.0,
       "turnovers": 47.0,
+      "goals_against": 27.0,
+      "shots_against": 51.0,
       "games_played": 6,
       "shot_percent": 41.67,
-      "save_percent": 100.0,
+      "save_percent": 11.76,
+      "gaa": 4.5,
       "faceoffs_total": 31.0,
       "faceoff_win_percent": 38.71
     }
@@ -15210,9 +16680,12 @@
       "shots": 9.0,
       "takeaways": 14.0,
       "turnovers": 12.0,
+      "goals_against": 29.0,
+      "shots_against": 48.0,
       "games_played": 3,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 27.08,
+      "gaa": 9.67,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 40.0
     }
@@ -15241,9 +16714,12 @@
       "shots": 6.0,
       "takeaways": 0.0,
       "turnovers": 14.0,
+      "goals_against": 29.0,
+      "shots_against": 48.0,
       "games_played": 3,
       "shot_percent": 16.67,
-      "save_percent": 100.0,
+      "save_percent": 4.17,
+      "gaa": 9.67,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 31.25
     }
@@ -15272,9 +16748,12 @@
       "shots": 15.0,
       "takeaways": 19.0,
       "turnovers": 16.0,
+      "goals_against": 29.0,
+      "shots_against": 48.0,
       "games_played": 3,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 8.33,
+      "gaa": 9.67,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 31.58
     }
@@ -15303,9 +16782,12 @@
       "shots": 26.0,
       "takeaways": 42.0,
       "turnovers": 51.0,
+      "goals_against": 34.0,
+      "shots_against": 77.0,
       "games_played": 6,
       "shot_percent": 65.38,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 5.67,
       "faceoffs_total": 30.0,
       "faceoff_win_percent": 60.0
     }
@@ -15334,9 +16816,12 @@
       "shots": 27.0,
       "takeaways": 26.0,
       "turnovers": 37.0,
+      "goals_against": 34.0,
+      "shots_against": 77.0,
       "games_played": 6,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 11.69,
+      "gaa": 5.67,
       "faceoffs_total": 38.0,
       "faceoff_win_percent": 60.53
     }
@@ -15365,9 +16850,12 @@
       "shots": 16.0,
       "takeaways": 33.0,
       "turnovers": 36.0,
+      "goals_against": 34.0,
+      "shots_against": 77.0,
       "games_played": 6,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 29.87,
+      "gaa": 5.67,
       "faceoffs_total": 20.0,
       "faceoff_win_percent": 45.0
     }
@@ -15396,9 +16884,12 @@
       "shots": 18.0,
       "takeaways": 33.0,
       "turnovers": 16.0,
+      "goals_against": 28.0,
+      "shots_against": 56.0,
       "games_played": 4,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 7.0,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 50.0
     }
@@ -15427,9 +16918,12 @@
       "shots": 16.0,
       "takeaways": 11.0,
       "turnovers": 26.0,
+      "goals_against": 28.0,
+      "shots_against": 56.0,
       "games_played": 4,
       "shot_percent": 62.5,
-      "save_percent": 100.0,
+      "save_percent": 23.21,
+      "gaa": 7.0,
       "faceoffs_total": 27.0,
       "faceoff_win_percent": 33.33
     }
@@ -15458,9 +16952,12 @@
       "shots": 18.0,
       "takeaways": 25.0,
       "turnovers": 28.0,
+      "goals_against": 28.0,
+      "shots_against": 56.0,
       "games_played": 4,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 10.71,
+      "gaa": 7.0,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 46.67
     }
@@ -15489,9 +16986,12 @@
       "shots": 6.0,
       "takeaways": 2.0,
       "turnovers": 2.0,
+      "goals_against": 4.0,
+      "shots_against": 13.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 7.69,
+      "gaa": 2.0,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 25.0
     }
@@ -15520,9 +17020,12 @@
       "shots": 14.0,
       "takeaways": 7.0,
       "turnovers": 17.0,
+      "goals_against": 13.0,
+      "shots_against": 23.0,
       "games_played": 2,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 13.04,
+      "gaa": 6.5,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 50.0
     }
@@ -15551,9 +17054,12 @@
       "shots": 12.0,
       "takeaways": 3.0,
       "turnovers": 0.0,
+      "goals_against": 0.0,
+      "shots_against": 1.0,
       "games_played": 2,
       "shot_percent": 75.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 0.0,
       "faceoffs_total": 11.0,
       "faceoff_win_percent": 100.0
     }
@@ -15582,9 +17088,12 @@
       "shots": 1.0,
       "takeaways": 5.0,
       "turnovers": 2.0,
+      "goals_against": 11.0,
+      "shots_against": 21.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 11.0,
       "faceoffs_total": 1.0,
       "faceoff_win_percent": 0.0
     }
@@ -15613,9 +17122,12 @@
       "shots": 13.0,
       "takeaways": 3.0,
       "turnovers": 12.0,
+      "goals_against": 13.0,
+      "shots_against": 24.0,
       "games_played": 4,
       "shot_percent": 61.54,
-      "save_percent": 100.0,
+      "save_percent": 4.17,
+      "gaa": 3.25,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 56.25
     }
@@ -15644,9 +17156,12 @@
       "shots": 12.0,
       "takeaways": 28.0,
       "turnovers": 14.0,
+      "goals_against": 13.0,
+      "shots_against": 24.0,
       "games_played": 4,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 3.25,
       "faceoffs_total": 14.0,
       "faceoff_win_percent": 71.43
     }
@@ -15675,9 +17190,12 @@
       "shots": 1.0,
       "takeaways": 4.0,
       "turnovers": 6.0,
+      "goals_against": 8.0,
+      "shots_against": 16.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 6.25,
+      "gaa": 8.0,
       "faceoffs_total": 2.0,
       "faceoff_win_percent": 0.0
     }
@@ -15706,9 +17224,12 @@
       "shots": 22.0,
       "takeaways": 56.0,
       "turnovers": 68.0,
+      "goals_against": 77.0,
+      "shots_against": 177.0,
       "games_played": 9,
       "shot_percent": 59.09,
-      "save_percent": 100.0,
+      "save_percent": 35.59,
+      "gaa": 8.56,
       "faceoffs_total": 52.0,
       "faceoff_win_percent": 50.0
     }
@@ -15737,9 +17258,12 @@
       "shots": 8.0,
       "takeaways": 40.0,
       "turnovers": 55.0,
+      "goals_against": 69.0,
+      "shots_against": 161.0,
       "games_played": 8,
       "shot_percent": 87.5,
-      "save_percent": 100.0,
+      "save_percent": 16.15,
+      "gaa": 8.62,
       "faceoffs_total": 34.0,
       "faceoff_win_percent": 26.47
     }
@@ -15768,9 +17292,12 @@
       "shots": 36.0,
       "takeaways": 31.0,
       "turnovers": 55.0,
+      "goals_against": 77.0,
+      "shots_against": 177.0,
       "games_played": 9,
       "shot_percent": 47.22,
-      "save_percent": 100.0,
+      "save_percent": 6.21,
+      "gaa": 8.56,
       "faceoffs_total": 40.0,
       "faceoff_win_percent": 40.0
     }
@@ -15799,9 +17326,12 @@
       "shots": 61.0,
       "takeaways": 86.0,
       "turnovers": 102.0,
+      "goals_against": 91.0,
+      "shots_against": 155.0,
       "games_played": 12,
       "shot_percent": 59.02,
-      "save_percent": 100.0,
+      "save_percent": 15.48,
+      "gaa": 7.58,
       "faceoffs_total": 70.0,
       "faceoff_win_percent": 45.71
     }
@@ -15830,9 +17360,12 @@
       "shots": 33.0,
       "takeaways": 42.0,
       "turnovers": 46.0,
+      "goals_against": 91.0,
+      "shots_against": 155.0,
       "games_played": 12,
       "shot_percent": 60.61,
-      "save_percent": 100.0,
+      "save_percent": 10.97,
+      "gaa": 7.58,
       "faceoffs_total": 58.0,
       "faceoff_win_percent": 50.0
     }
@@ -15861,9 +17394,12 @@
       "shots": 61.0,
       "takeaways": 105.0,
       "turnovers": 100.0,
+      "goals_against": 84.0,
+      "shots_against": 140.0,
       "games_played": 11,
       "shot_percent": 52.46,
-      "save_percent": 100.0,
+      "save_percent": 15.71,
+      "gaa": 7.64,
       "faceoffs_total": 70.0,
       "faceoff_win_percent": 51.43
     }
@@ -15892,9 +17428,12 @@
       "shots": 2.0,
       "takeaways": 1.0,
       "turnovers": 5.0,
+      "goals_against": 7.0,
+      "shots_against": 15.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 7.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 100.0
     }
@@ -15923,9 +17462,12 @@
       "shots": 90.0,
       "takeaways": 75.0,
       "turnovers": 47.0,
+      "goals_against": 41.0,
+      "shots_against": 70.0,
       "games_played": 10,
       "shot_percent": 53.33,
-      "save_percent": 100.0,
+      "save_percent": 11.43,
+      "gaa": 4.1,
       "faceoffs_total": 59.0,
       "faceoff_win_percent": 69.49
     }
@@ -15954,9 +17496,12 @@
       "shots": 72.0,
       "takeaways": 65.0,
       "turnovers": 38.0,
+      "goals_against": 44.0,
+      "shots_against": 76.0,
       "games_played": 10,
       "shot_percent": 51.39,
-      "save_percent": 100.0,
+      "save_percent": 1.32,
+      "gaa": 4.4,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 76.19
     }
@@ -15985,9 +17530,12 @@
       "shots": 14.0,
       "takeaways": 14.0,
       "turnovers": 11.0,
+      "goals_against": 19.0,
+      "shots_against": 32.0,
       "games_played": 4,
       "shot_percent": 71.43,
-      "save_percent": 100.0,
+      "save_percent": 3.12,
+      "gaa": 4.75,
       "faceoffs_total": 21.0,
       "faceoff_win_percent": 57.14
     }
@@ -16016,9 +17564,12 @@
       "shots": 42.0,
       "takeaways": 92.0,
       "turnovers": 60.0,
+      "goals_against": 44.0,
+      "shots_against": 76.0,
       "games_played": 11,
       "shot_percent": 54.76,
-      "save_percent": 100.0,
+      "save_percent": 28.95,
+      "gaa": 4.0,
       "faceoffs_total": 59.0,
       "faceoff_win_percent": 59.32
     }
@@ -16047,9 +17598,12 @@
       "shots": 82.0,
       "takeaways": 85.0,
       "turnovers": 53.0,
+      "goals_against": 69.0,
+      "shots_against": 124.0,
       "games_played": 12,
       "shot_percent": 43.9,
-      "save_percent": 100.0,
+      "save_percent": 24.19,
+      "gaa": 5.75,
       "faceoffs_total": 52.0,
       "faceoff_win_percent": 67.31
     }
@@ -16078,9 +17632,12 @@
       "shots": 49.0,
       "takeaways": 24.0,
       "turnovers": 51.0,
+      "goals_against": 58.0,
+      "shots_against": 105.0,
       "games_played": 10,
       "shot_percent": 44.9,
-      "save_percent": 100.0,
+      "save_percent": 9.52,
+      "gaa": 5.8,
       "faceoffs_total": 42.0,
       "faceoff_win_percent": 69.05
     }
@@ -16109,9 +17666,12 @@
       "shots": 21.0,
       "takeaways": 16.0,
       "turnovers": 47.0,
+      "goals_against": 60.0,
+      "shots_against": 107.0,
       "games_played": 11,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 5.61,
+      "gaa": 5.45,
       "faceoffs_total": 43.0,
       "faceoff_win_percent": 58.14
     }
@@ -16140,9 +17700,12 @@
       "shots": 44.0,
       "takeaways": 72.0,
       "turnovers": 58.0,
+      "goals_against": 69.0,
+      "shots_against": 124.0,
       "games_played": 12,
       "shot_percent": 47.73,
-      "save_percent": 100.0,
+      "save_percent": 7.26,
+      "gaa": 5.75,
       "faceoffs_total": 44.0,
       "faceoff_win_percent": 63.64
     }
@@ -16171,9 +17734,12 @@
       "shots": 50.0,
       "takeaways": 84.0,
       "turnovers": 48.0,
+      "goals_against": 35.0,
+      "shots_against": 69.0,
       "games_played": 9,
       "shot_percent": 56.0,
-      "save_percent": 100.0,
+      "save_percent": 13.04,
+      "gaa": 3.89,
       "faceoffs_total": 53.0,
       "faceoff_win_percent": 62.26
     }
@@ -16202,9 +17768,12 @@
       "shots": 90.0,
       "takeaways": 87.0,
       "turnovers": 62.0,
+      "goals_against": 50.0,
+      "shots_against": 97.0,
       "games_played": 12,
       "shot_percent": 62.22,
-      "save_percent": 100.0,
+      "save_percent": 12.37,
+      "gaa": 4.17,
       "faceoffs_total": 62.0,
       "faceoff_win_percent": 62.9
     }
@@ -16233,9 +17802,12 @@
       "shots": 50.0,
       "takeaways": 88.0,
       "turnovers": 51.0,
+      "goals_against": 50.0,
+      "shots_against": 97.0,
       "games_played": 12,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 26.8,
+      "gaa": 4.17,
       "faceoffs_total": 58.0,
       "faceoff_win_percent": 55.17
     }
@@ -16264,9 +17836,12 @@
       "shots": 24.0,
       "takeaways": 25.0,
       "turnovers": 13.0,
+      "goals_against": 15.0,
+      "shots_against": 28.0,
       "games_played": 3,
       "shot_percent": 41.67,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.0,
       "faceoffs_total": 17.0,
       "faceoff_win_percent": 70.59
     }
@@ -16295,9 +17870,12 @@
       "shots": 59.0,
       "takeaways": 133.0,
       "turnovers": 69.0,
+      "goals_against": 75.0,
+      "shots_against": 148.0,
       "games_played": 12,
       "shot_percent": 52.54,
-      "save_percent": 100.0,
+      "save_percent": 8.78,
+      "gaa": 6.25,
       "faceoffs_total": 52.0,
       "faceoff_win_percent": 59.62
     }
@@ -16326,9 +17904,12 @@
       "shots": 36.0,
       "takeaways": 64.0,
       "turnovers": 73.0,
+      "goals_against": 75.0,
+      "shots_against": 148.0,
       "games_played": 11,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 24.32,
+      "gaa": 6.82,
       "faceoffs_total": 60.0,
       "faceoff_win_percent": 48.33
     }
@@ -16357,9 +17938,12 @@
       "shots": 17.0,
       "takeaways": 19.0,
       "turnovers": 32.0,
+      "goals_against": 28.0,
+      "shots_against": 62.0,
       "games_played": 4,
       "shot_percent": 64.71,
-      "save_percent": 100.0,
+      "save_percent": 12.9,
+      "gaa": 7.0,
       "faceoffs_total": 19.0,
       "faceoff_win_percent": 57.89
     }
@@ -16388,9 +17972,12 @@
       "turnovers": 23.0,
       "assists": 6.0,
       "points": 13.0,
+      "goals_against": 32.0,
+      "shots_against": 66.0,
       "games_played": 6,
       "shot_percent": 77.78,
-      "save_percent": 100.0,
+      "save_percent": 6.06,
+      "gaa": 5.33,
       "faceoffs_total": 16.0,
       "faceoff_win_percent": 50.0
     }
@@ -16419,9 +18006,12 @@
       "shots": 22.0,
       "takeaways": 49.0,
       "turnovers": 25.0,
+      "goals_against": 41.0,
+      "shots_against": 72.0,
       "games_played": 8,
       "shot_percent": 54.55,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 5.12,
       "faceoffs_total": 28.0,
       "faceoff_win_percent": 46.43
     }
@@ -16450,9 +18040,12 @@
       "shots": 11.0,
       "takeaways": 6.0,
       "turnovers": 16.0,
+      "goals_against": 18.0,
+      "shots_against": 36.0,
       "games_played": 2,
       "shot_percent": 45.45,
-      "save_percent": 100.0,
+      "save_percent": 13.89,
+      "gaa": 9.0,
       "faceoffs_total": 10.0,
       "faceoff_win_percent": 40.0
     }
@@ -16481,9 +18074,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 5.0,
+      "goals_against": 11.0,
+      "shots_against": 29.0,
       "games_played": 2,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 27.59,
+      "gaa": 5.5,
       "faceoffs_total": 7.0,
       "faceoff_win_percent": 28.57
     }
@@ -16512,9 +18108,12 @@
       "shots": 11.0,
       "takeaways": 37.0,
       "turnovers": 23.0,
+      "goals_against": 20.0,
+      "shots_against": 44.0,
       "games_played": 3,
       "shot_percent": 36.36,
-      "save_percent": 100.0,
+      "save_percent": 13.64,
+      "gaa": 6.67,
       "faceoffs_total": 15.0,
       "faceoff_win_percent": 26.67
     }
@@ -16543,9 +18142,12 @@
       "shots": 3.0,
       "takeaways": 1.0,
       "turnovers": 0.0,
+      "goals_against": 6.0,
+      "shots_against": 11.0,
       "games_played": 1,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 18.18,
+      "gaa": 6.0,
       "faceoffs_total": 4.0,
       "faceoff_win_percent": 100.0
     }
@@ -16574,9 +18176,12 @@
       "shots": 17.0,
       "takeaways": 18.0,
       "turnovers": 27.0,
+      "goals_against": 22.0,
+      "shots_against": 40.0,
       "games_played": 3,
       "shot_percent": 41.18,
-      "save_percent": 100.0,
+      "save_percent": 10.0,
+      "gaa": 7.33,
       "faceoffs_total": 8.0,
       "faceoff_win_percent": 62.5
     }
@@ -16605,9 +18210,12 @@
       "shots": 19.0,
       "takeaways": 20.0,
       "turnovers": 35.0,
+      "goals_against": 66.0,
+      "shots_against": 122.0,
       "games_played": 9,
       "shot_percent": 57.89,
-      "save_percent": 100.0,
+      "save_percent": 13.93,
+      "gaa": 7.33,
       "faceoffs_total": 37.0,
       "faceoff_win_percent": 35.14
     }
@@ -16636,9 +18244,12 @@
       "shots": 21.0,
       "takeaways": 16.0,
       "turnovers": 18.0,
+      "goals_against": 32.0,
+      "shots_against": 57.0,
       "games_played": 4,
       "shot_percent": 47.62,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 8.0,
       "faceoffs_total": 22.0,
       "faceoff_win_percent": 50.0
     }
@@ -16667,9 +18278,12 @@
       "shots": 8.0,
       "takeaways": 25.0,
       "turnovers": 16.0,
+      "goals_against": 37.0,
+      "shots_against": 57.0,
       "games_played": 5,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 14.04,
+      "gaa": 7.4,
       "faceoffs_total": 25.0,
       "faceoff_win_percent": 32.0
     }
@@ -16698,9 +18312,12 @@
       "shots": 8.0,
       "takeaways": 2.0,
       "turnovers": 19.0,
+      "goals_against": 77.0,
+      "shots_against": 138.0,
       "games_played": 7,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 11.0,
       "faceoffs_total": 23.0,
       "faceoff_win_percent": 13.04
     }
@@ -16729,9 +18346,12 @@
       "shots": 0.0,
       "takeaways": 0.0,
       "turnovers": 4.0,
+      "goals_against": 10.0,
+      "shots_against": 16.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 25.0,
+      "gaa": 10.0,
       "faceoffs_total": 3.0,
       "faceoff_win_percent": 0.0
     }
@@ -16760,9 +18380,12 @@
       "shots": 9.0,
       "takeaways": 5.0,
       "turnovers": 31.0,
+      "goals_against": 87.0,
+      "shots_against": 154.0,
       "games_played": 8,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 15.58,
+      "gaa": 10.88,
       "faceoffs_total": 36.0,
       "faceoff_win_percent": 22.22
     }
@@ -16791,9 +18414,12 @@
       "shots": 6.0,
       "takeaways": 12.0,
       "turnovers": 39.0,
+      "goals_against": 77.0,
+      "shots_against": 133.0,
       "games_played": 7,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 11.0,
       "faceoffs_total": 41.0,
       "faceoff_win_percent": 14.63
     }
@@ -16822,9 +18448,12 @@
       "shots": 9.0,
       "takeaways": 16.0,
       "turnovers": 56.0,
+      "goals_against": 66.0,
+      "shots_against": 114.0,
       "games_played": 7,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 9.43,
       "faceoffs_total": 28.0,
       "faceoff_win_percent": 17.86
     }
@@ -16853,9 +18482,12 @@
       "shots": 16.0,
       "takeaways": 25.0,
       "turnovers": 36.0,
+      "goals_against": 66.0,
+      "shots_against": 114.0,
       "games_played": 7,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 29.82,
+      "gaa": 9.43,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 21.88
     }
@@ -16884,9 +18516,12 @@
       "shots": 6.0,
       "takeaways": 1.0,
       "turnovers": 18.0,
+      "goals_against": 66.0,
+      "shots_against": 114.0,
       "games_played": 7,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 1.75,
+      "gaa": 9.43,
       "faceoffs_total": 32.0,
       "faceoff_win_percent": 18.75
     }

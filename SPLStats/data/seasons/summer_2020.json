@@ -12,10 +12,13 @@
       "goals": 0.0,
       "saves": 8.0,
       "shots": 2.0,
+      "goals_against": 17.0,
+      "shots_against": 33.0,
       "points": 3.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 24.24,
+      "gaa": 8.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -33,10 +36,13 @@
       "goals": 3.0,
       "saves": 6.0,
       "shots": 5.0,
+      "goals_against": 17.0,
+      "shots_against": 33.0,
       "points": 5.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 18.18,
+      "gaa": 8.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -54,10 +60,13 @@
       "goals": 5.0,
       "saves": 2.0,
       "shots": 8.0,
+      "goals_against": 17.0,
+      "shots_against": 33.0,
       "points": 8.0,
       "games_played": 2,
       "shot_percent": 62.5,
-      "save_percent": 100.0,
+      "save_percent": 6.06,
+      "gaa": 8.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -75,10 +84,13 @@
       "goals": 8.0,
       "saves": 3.0,
       "shots": 13.0,
+      "goals_against": 8.0,
+      "shots_against": 15.0,
       "points": 11.0,
       "games_played": 2,
       "shot_percent": 61.54,
-      "save_percent": 100.0,
+      "save_percent": 20.0,
+      "gaa": 4.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -96,10 +108,13 @@
       "goals": 5.0,
       "saves": 1.0,
       "shots": 9.0,
+      "goals_against": 8.0,
+      "shots_against": 15.0,
       "points": 11.0,
       "games_played": 2,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 4.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -117,10 +132,13 @@
       "goals": 4.0,
       "saves": 3.0,
       "shots": 11.0,
+      "goals_against": 8.0,
+      "shots_against": 15.0,
       "points": 8.0,
       "games_played": 2,
       "shot_percent": 36.36,
-      "save_percent": 100.0,
+      "save_percent": 20.0,
+      "gaa": 4.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -138,10 +156,13 @@
       "goals": 5.0,
       "saves": 19.0,
       "shots": 11.0,
+      "goals_against": 32.0,
+      "shots_against": 69.0,
       "points": 10.0,
       "games_played": 5,
       "shot_percent": 45.45,
-      "save_percent": 100.0,
+      "save_percent": 27.54,
+      "gaa": 6.4,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -159,10 +180,13 @@
       "goals": 16.0,
       "saves": 2.0,
       "shots": 35.0,
+      "goals_against": 29.0,
+      "shots_against": 52.0,
       "points": 22.0,
       "games_played": 5,
       "shot_percent": 45.71,
-      "save_percent": 100.0,
+      "save_percent": 3.85,
+      "gaa": 5.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -180,10 +204,13 @@
       "goals": 5.0,
       "saves": 12.0,
       "shots": 15.0,
+      "goals_against": 29.0,
+      "shots_against": 52.0,
       "points": 12.0,
       "games_played": 5,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 23.08,
+      "gaa": 5.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -201,10 +228,13 @@
       "goals": 8.0,
       "saves": 9.0,
       "shots": 19.0,
+      "goals_against": 29.0,
+      "shots_against": 52.0,
       "points": 18.0,
       "games_played": 5,
       "shot_percent": 42.11,
-      "save_percent": 100.0,
+      "save_percent": 17.31,
+      "gaa": 5.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -222,10 +252,13 @@
       "goals": 15.0,
       "saves": 5.0,
       "shots": 37.0,
+      "goals_against": 27.0,
+      "shots_against": 65.0,
       "points": 25.0,
       "games_played": 6,
       "shot_percent": 40.54,
-      "save_percent": 100.0,
+      "save_percent": 7.69,
+      "gaa": 4.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -243,10 +276,13 @@
       "goals": 12.0,
       "saves": 25.0,
       "shots": 23.0,
+      "goals_against": 37.0,
+      "shots_against": 86.0,
       "points": 20.0,
       "games_played": 7,
       "shot_percent": 52.17,
-      "save_percent": 100.0,
+      "save_percent": 29.07,
+      "gaa": 5.29,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -264,10 +300,13 @@
       "goals": 8.0,
       "saves": 0.0,
       "shots": 14.0,
+      "goals_against": 15.0,
+      "shots_against": 38.0,
       "points": 11.0,
       "games_played": 3,
       "shot_percent": 57.14,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -285,10 +324,13 @@
       "goals": 1.0,
       "saves": 0.0,
       "shots": 3.0,
+      "goals_against": 1.0,
+      "shots_against": 4.0,
       "points": 1.0,
       "games_played": 1,
       "shot_percent": 33.33,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 1.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -306,10 +348,13 @@
       "goals": 59.0,
       "saves": 2.0,
       "shots": 95.0,
+      "goals_against": 40.0,
+      "shots_against": 70.0,
       "points": 74.0,
       "games_played": 10,
       "shot_percent": 62.11,
-      "save_percent": 100.0,
+      "save_percent": 2.86,
+      "gaa": 4.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -327,10 +372,13 @@
       "goals": 28.0,
       "saves": 14.0,
       "shots": 64.0,
+      "goals_against": 45.0,
+      "shots_against": 84.0,
       "points": 64.0,
       "games_played": 12,
       "shot_percent": 43.75,
-      "save_percent": 100.0,
+      "save_percent": 16.67,
+      "gaa": 3.75,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -348,10 +396,13 @@
       "goals": 5.0,
       "saves": 0.0,
       "shots": 8.0,
+      "goals_against": 5.0,
+      "shots_against": 14.0,
       "points": 7.0,
       "games_played": 2,
       "shot_percent": 62.5,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 2.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -369,10 +420,13 @@
       "goals": 8.0,
       "saves": 25.0,
       "shots": 28.0,
+      "goals_against": 45.0,
+      "shots_against": 84.0,
       "points": 38.0,
       "games_played": 12,
       "shot_percent": 28.57,
-      "save_percent": 100.0,
+      "save_percent": 29.76,
+      "gaa": 3.75,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -390,10 +444,13 @@
       "goals": 3.0,
       "saves": 27.0,
       "shots": 10.0,
+      "goals_against": 38.0,
+      "shots_against": 80.0,
       "points": 7.0,
       "games_played": 4,
       "shot_percent": 30.0,
-      "save_percent": 100.0,
+      "save_percent": 33.75,
+      "gaa": 9.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -411,10 +468,13 @@
       "goals": 6.0,
       "saves": 1.0,
       "shots": 8.0,
+      "goals_against": 67.0,
+      "shots_against": 122.0,
       "points": 9.0,
       "games_played": 5,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 0.82,
+      "gaa": 13.4,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -432,10 +492,13 @@
       "goals": 8.0,
       "saves": 5.0,
       "shots": 15.0,
+      "goals_against": 34.0,
+      "shots_against": 67.0,
       "points": 14.0,
       "games_played": 5,
       "shot_percent": 53.33,
-      "save_percent": 100.0,
+      "save_percent": 7.46,
+      "gaa": 6.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -453,10 +516,13 @@
       "goals": 14.0,
       "saves": 11.0,
       "shots": 27.0,
+      "goals_against": 99.0,
+      "shots_against": 177.0,
       "points": 17.0,
       "games_played": 10,
       "shot_percent": 51.85,
-      "save_percent": 100.0,
+      "save_percent": 6.21,
+      "gaa": 9.9,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -474,10 +540,13 @@
       "goals": 13.0,
       "saves": 55.0,
       "shots": 23.0,
+      "goals_against": 119.0,
+      "shots_against": 223.0,
       "points": 20.0,
       "games_played": 12,
       "shot_percent": 56.52,
-      "save_percent": 100.0,
+      "save_percent": 24.66,
+      "gaa": 9.92,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -495,10 +564,13 @@
       "goals": 1.0,
       "saves": 17.0,
       "shots": 6.0,
+      "goals_against": 33.0,
+      "shots_against": 62.0,
       "points": 2.0,
       "games_played": 4,
       "shot_percent": 16.67,
-      "save_percent": 100.0,
+      "save_percent": 27.42,
+      "gaa": 8.25,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -516,10 +588,13 @@
       "goals": 19.0,
       "saves": 62.0,
       "shots": 33.0,
+      "goals_against": 108.0,
+      "shots_against": 229.0,
       "points": 33.0,
       "games_played": 11,
       "shot_percent": 57.58,
-      "save_percent": 100.0,
+      "save_percent": 27.07,
+      "gaa": 9.82,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -537,10 +612,13 @@
       "goals": 22.0,
       "saves": 18.0,
       "shots": 38.0,
+      "goals_against": 119.0,
+      "shots_against": 246.0,
       "points": 35.0,
       "games_played": 12,
       "shot_percent": 57.89,
-      "save_percent": 100.0,
+      "save_percent": 7.32,
+      "gaa": 9.92,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -558,10 +636,13 @@
       "goals": 1.0,
       "saves": 4.0,
       "shots": 2.0,
+      "goals_against": 23.0,
+      "shots_against": 45.0,
       "points": 3.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 8.89,
+      "gaa": 11.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -579,10 +660,13 @@
       "goals": 8.0,
       "saves": 17.0,
       "shots": 15.0,
+      "goals_against": 45.0,
+      "shots_against": 95.0,
       "points": 10.0,
       "games_played": 3,
       "shot_percent": 53.33,
-      "save_percent": 100.0,
+      "save_percent": 17.89,
+      "gaa": 15.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -600,10 +684,13 @@
       "goals": 0.0,
       "saves": 1.0,
       "shots": 5.0,
+      "goals_against": 11.0,
+      "shots_against": 17.0,
       "points": 1.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 5.88,
+      "gaa": 11.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -621,10 +708,13 @@
       "goals": 2.0,
       "saves": 8.0,
       "shots": 5.0,
+      "goals_against": 35.0,
+      "shots_against": 76.0,
       "points": 4.0,
       "games_played": 5,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 7.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -642,10 +732,13 @@
       "goals": 4.0,
       "saves": 10.0,
       "shots": 6.0,
+      "goals_against": 9.0,
+      "shots_against": 24.0,
       "points": 7.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 41.67,
+      "gaa": 4.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -663,10 +756,13 @@
       "goals": 39.0,
       "saves": 24.0,
       "shots": 75.0,
+      "goals_against": 58.0,
+      "shots_against": 118.0,
       "points": 78.0,
       "games_played": 11,
       "shot_percent": 52.0,
-      "save_percent": 100.0,
+      "save_percent": 20.34,
+      "gaa": 5.27,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -684,10 +780,13 @@
       "goals": 6.0,
       "saves": 15.0,
       "shots": 11.0,
+      "goals_against": 35.0,
+      "shots_against": 70.0,
       "points": 11.0,
       "games_played": 6,
       "shot_percent": 54.55,
-      "save_percent": 100.0,
+      "save_percent": 21.43,
+      "gaa": 5.83,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -705,10 +804,13 @@
       "goals": 18.0,
       "saves": 5.0,
       "shots": 31.0,
+      "goals_against": 29.0,
+      "shots_against": 49.0,
       "points": 34.0,
       "games_played": 5,
       "shot_percent": 58.06,
-      "save_percent": 100.0,
+      "save_percent": 10.2,
+      "gaa": 5.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -726,10 +828,13 @@
       "goals": 49.0,
       "saves": 9.0,
       "shots": 88.0,
+      "goals_against": 58.0,
+      "shots_against": 118.0,
       "points": 71.0,
       "games_played": 11,
       "shot_percent": 55.68,
-      "save_percent": 100.0,
+      "save_percent": 7.63,
+      "gaa": 5.27,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -747,10 +852,13 @@
       "goals": 25.0,
       "saves": 12.0,
       "shots": 47.0,
+      "goals_against": 70.0,
+      "shots_against": 138.0,
       "points": 38.0,
       "games_played": 11,
       "shot_percent": 53.19,
-      "save_percent": 100.0,
+      "save_percent": 8.7,
+      "gaa": 6.36,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -768,10 +876,13 @@
       "goals": 5.0,
       "saves": 25.0,
       "shots": 13.0,
+      "goals_against": 45.0,
+      "shots_against": 77.0,
       "points": 10.0,
       "games_played": 5,
       "shot_percent": 38.46,
-      "save_percent": 100.0,
+      "save_percent": 32.47,
+      "gaa": 9.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -789,10 +900,13 @@
       "goals": 26.0,
       "saves": 5.0,
       "shots": 63.0,
+      "goals_against": 70.0,
+      "shots_against": 138.0,
       "points": 43.0,
       "games_played": 11,
       "shot_percent": 41.27,
-      "save_percent": 100.0,
+      "save_percent": 3.62,
+      "gaa": 6.36,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -810,10 +924,13 @@
       "goals": 0.0,
       "saves": 27.0,
       "shots": 1.0,
+      "goals_against": 25.0,
+      "shots_against": 61.0,
       "points": 4.0,
       "games_played": 6,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 44.26,
+      "gaa": 4.17,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -831,10 +948,13 @@
       "goals": 36.0,
       "saves": 18.0,
       "shots": 68.0,
+      "goals_against": 52.0,
+      "shots_against": 106.0,
       "points": 53.0,
       "games_played": 12,
       "shot_percent": 52.94,
-      "save_percent": 100.0,
+      "save_percent": 16.98,
+      "gaa": 4.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -852,10 +972,13 @@
       "goals": 36.0,
       "saves": 12.0,
       "shots": 70.0,
+      "goals_against": 52.0,
+      "shots_against": 106.0,
       "points": 56.0,
       "games_played": 12,
       "shot_percent": 51.43,
-      "save_percent": 100.0,
+      "save_percent": 11.32,
+      "gaa": 4.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -873,10 +996,13 @@
       "goals": 18.0,
       "saves": 24.0,
       "shots": 41.0,
+      "goals_against": 52.0,
+      "shots_against": 106.0,
       "points": 42.0,
       "games_played": 12,
       "shot_percent": 43.9,
-      "save_percent": 100.0,
+      "save_percent": 22.64,
+      "gaa": 4.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -894,10 +1020,13 @@
       "goals": 1.0,
       "saves": 3.0,
       "shots": 5.0,
+      "goals_against": 33.0,
+      "shots_against": 49.0,
       "points": 2.0,
       "games_played": 3,
       "shot_percent": 20.0,
-      "save_percent": 100.0,
+      "save_percent": 6.12,
+      "gaa": 11.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -915,10 +1044,13 @@
       "goals": 0.0,
       "saves": 0.0,
       "shots": 0.0,
+      "goals_against": 16.0,
+      "shots_against": 28.0,
       "points": 0.0,
       "games_played": 2,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 8.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -936,10 +1068,13 @@
       "goals": 9.0,
       "saves": 6.0,
       "shots": 19.0,
+      "goals_against": 41.0,
+      "shots_against": 85.0,
       "points": 12.0,
       "games_played": 5,
       "shot_percent": 47.37,
-      "save_percent": 100.0,
+      "save_percent": 7.06,
+      "gaa": 8.2,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -957,10 +1092,13 @@
       "goals": 7.0,
       "saves": 26.0,
       "shots": 13.0,
+      "goals_against": 67.0,
+      "shots_against": 142.0,
       "points": 14.0,
       "games_played": 9,
       "shot_percent": 53.85,
-      "save_percent": 100.0,
+      "save_percent": 18.31,
+      "gaa": 7.44,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -978,10 +1116,13 @@
       "goals": 0.0,
       "saves": 2.0,
       "shots": 3.0,
+      "goals_against": 7.0,
+      "shots_against": 16.0,
       "points": 1.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 12.5,
+      "gaa": 7.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -999,10 +1140,13 @@
       "goals": 10.0,
       "saves": 44.0,
       "shots": 15.0,
+      "goals_against": 100.0,
+      "shots_against": 191.0,
       "points": 17.0,
       "games_played": 12,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 23.04,
+      "gaa": 8.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1020,10 +1164,13 @@
       "goals": 21.0,
       "saves": 6.0,
       "shots": 42.0,
+      "goals_against": 52.0,
+      "shots_against": 90.0,
       "points": 25.0,
       "games_played": 6,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 8.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1041,10 +1188,13 @@
       "goals": 41.0,
       "saves": 5.0,
       "shots": 80.0,
+      "goals_against": 25.0,
+      "shots_against": 75.0,
       "points": 61.0,
       "games_played": 12,
       "shot_percent": 51.25,
-      "save_percent": 100.0,
+      "save_percent": 6.67,
+      "gaa": 2.08,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1062,10 +1212,13 @@
       "goals": 4.0,
       "saves": 0.0,
       "shots": 9.0,
+      "goals_against": 5.0,
+      "shots_against": 13.0,
       "points": 5.0,
       "games_played": 3,
       "shot_percent": 44.44,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 1.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1083,10 +1236,13 @@
       "goals": 1.0,
       "saves": 1.0,
       "shots": 3.0,
+      "goals_against": 2.0,
+      "shots_against": 9.0,
       "points": 1.0,
       "games_played": 1,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 2.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1104,10 +1260,13 @@
       "goals": 18.0,
       "saves": 36.0,
       "shots": 35.0,
+      "goals_against": 25.0,
+      "shots_against": 75.0,
       "points": 36.0,
       "games_played": 12,
       "shot_percent": 51.43,
-      "save_percent": 100.0,
+      "save_percent": 48.0,
+      "gaa": 2.08,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1125,10 +1284,13 @@
       "goals": 37.0,
       "saves": 6.0,
       "shots": 76.0,
+      "goals_against": 21.0,
+      "shots_against": 57.0,
       "points": 48.0,
       "games_played": 9,
       "shot_percent": 48.68,
-      "save_percent": 100.0,
+      "save_percent": 10.53,
+      "gaa": 2.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1146,10 +1308,13 @@
       "goals": 17.0,
       "saves": 31.0,
       "shots": 38.0,
+      "goals_against": 60.0,
+      "shots_against": 117.0,
       "points": 31.0,
       "games_played": 11,
       "shot_percent": 44.74,
-      "save_percent": 100.0,
+      "save_percent": 26.5,
+      "gaa": 5.45,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1167,10 +1332,13 @@
       "goals": 17.0,
       "saves": 8.0,
       "shots": 39.0,
+      "goals_against": 60.0,
+      "shots_against": 117.0,
       "points": 33.0,
       "games_played": 11,
       "shot_percent": 43.59,
-      "save_percent": 100.0,
+      "save_percent": 6.84,
+      "gaa": 5.45,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1188,10 +1356,13 @@
       "goals": 25.0,
       "saves": 20.0,
       "shots": 50.0,
+      "goals_against": 60.0,
+      "shots_against": 117.0,
       "points": 33.0,
       "games_played": 11,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 17.09,
+      "gaa": 5.45,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1209,10 +1380,13 @@
       "goals": 30.0,
       "saves": 13.0,
       "shots": 64.0,
+      "goals_against": 52.0,
+      "shots_against": 100.0,
       "points": 47.0,
       "games_played": 11,
       "shot_percent": 46.88,
-      "save_percent": 100.0,
+      "save_percent": 13.0,
+      "gaa": 4.73,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1230,10 +1404,13 @@
       "goals": 7.0,
       "saves": 27.0,
       "shots": 12.0,
+      "goals_against": 48.0,
+      "shots_against": 87.0,
       "points": 11.0,
       "games_played": 8,
       "shot_percent": 58.33,
-      "save_percent": 100.0,
+      "save_percent": 31.03,
+      "gaa": 6.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1251,10 +1428,13 @@
       "goals": 19.0,
       "saves": 3.0,
       "shots": 41.0,
+      "goals_against": 60.0,
+      "shots_against": 113.0,
       "points": 37.0,
       "games_played": 10,
       "shot_percent": 46.34,
-      "save_percent": 100.0,
+      "save_percent": 2.65,
+      "gaa": 6.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1272,10 +1452,13 @@
       "goals": 23.0,
       "saves": 14.0,
       "shots": 39.0,
+      "goals_against": 26.0,
+      "shots_against": 54.0,
       "points": 39.0,
       "games_played": 7,
       "shot_percent": 58.97,
-      "save_percent": 100.0,
+      "save_percent": 25.93,
+      "gaa": 3.71,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1293,10 +1476,13 @@
       "goals": 18.0,
       "saves": 7.0,
       "shots": 50.0,
+      "goals_against": 38.0,
+      "shots_against": 118.0,
       "points": 31.0,
       "games_played": 11,
       "shot_percent": 36.0,
-      "save_percent": 100.0,
+      "save_percent": 5.93,
+      "gaa": 3.45,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1314,10 +1500,13 @@
       "goals": 1.0,
       "saves": 2.0,
       "shots": 2.0,
+      "goals_against": 2.0,
+      "shots_against": 10.0,
       "points": 1.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 20.0,
+      "gaa": 2.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1335,10 +1524,13 @@
       "goals": 4.0,
       "saves": 38.0,
       "shots": 12.0,
+      "goals_against": 29.0,
+      "shots_against": 87.0,
       "points": 21.0,
       "games_played": 8,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 43.68,
+      "gaa": 3.62,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1356,10 +1548,13 @@
       "goals": 0.0,
       "saves": 14.0,
       "shots": 3.0,
+      "goals_against": 8.0,
+      "shots_against": 32.0,
       "points": 3.0,
       "games_played": 3,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 43.75,
+      "gaa": 2.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1377,10 +1572,13 @@
       "goals": 2.0,
       "saves": 3.0,
       "shots": 2.0,
+      "goals_against": 3.0,
+      "shots_against": 9.0,
       "points": 3.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 33.33,
+      "gaa": 3.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1398,10 +1596,13 @@
       "goals": 38.0,
       "saves": 18.0,
       "shots": 66.0,
+      "goals_against": 38.0,
+      "shots_against": 118.0,
       "points": 47.0,
       "games_played": 11,
       "shot_percent": 57.58,
-      "save_percent": 100.0,
+      "save_percent": 15.25,
+      "gaa": 3.45,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1419,10 +1620,13 @@
       "goals": 6.0,
       "saves": 30.0,
       "shots": 8.0,
+      "goals_against": 82.0,
+      "shots_against": 175.0,
       "points": 7.0,
       "games_played": 9,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 17.14,
+      "gaa": 9.11,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1440,10 +1644,13 @@
       "goals": 6.0,
       "saves": 35.0,
       "shots": 19.0,
+      "goals_against": 84.0,
+      "shots_against": 170.0,
       "points": 8.0,
       "games_played": 9,
       "shot_percent": 31.58,
-      "save_percent": 100.0,
+      "save_percent": 20.59,
+      "gaa": 9.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1461,10 +1668,13 @@
       "goals": 0.0,
       "saves": 6.0,
       "shots": 0.0,
+      "goals_against": 22.0,
+      "shots_against": 48.0,
       "points": 0.0,
       "games_played": 3,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 12.5,
+      "gaa": 7.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1482,10 +1692,13 @@
       "goals": 3.0,
       "saves": 12.0,
       "shots": 6.0,
+      "goals_against": 72.0,
+      "shots_against": 143.0,
       "points": 8.0,
       "games_played": 7,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 8.39,
+      "gaa": 10.29,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1503,10 +1716,13 @@
       "goals": 7.0,
       "saves": 14.0,
       "shots": 15.0,
+      "goals_against": 67.0,
+      "shots_against": 134.0,
       "points": 9.0,
       "games_played": 7,
       "shot_percent": 46.67,
-      "save_percent": 100.0,
+      "save_percent": 10.45,
+      "gaa": 9.57,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1524,10 +1740,13 @@
       "goals": 19.0,
       "saves": 24.0,
       "shots": 42.0,
+      "goals_against": 87.0,
+      "shots_against": 165.0,
       "points": 28.0,
       "games_played": 11,
       "shot_percent": 45.24,
-      "save_percent": 100.0,
+      "save_percent": 14.55,
+      "gaa": 7.91,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1545,10 +1764,13 @@
       "goals": 10.0,
       "saves": 13.0,
       "shots": 18.0,
+      "goals_against": 49.0,
+      "shots_against": 99.0,
       "points": 17.0,
       "games_played": 7,
       "shot_percent": 55.56,
-      "save_percent": 100.0,
+      "save_percent": 13.13,
+      "gaa": 7.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1566,10 +1788,13 @@
       "goals": 2.0,
       "saves": 26.0,
       "shots": 12.0,
+      "goals_against": 86.0,
+      "shots_against": 158.0,
       "points": 7.0,
       "games_played": 10,
       "shot_percent": 16.67,
-      "save_percent": 100.0,
+      "save_percent": 16.46,
+      "gaa": 8.6,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1587,10 +1812,13 @@
       "goals": 5.0,
       "saves": 10.0,
       "shots": 12.0,
+      "goals_against": 68.0,
+      "shots_against": 123.0,
       "points": 8.0,
       "games_played": 8,
       "shot_percent": 41.67,
-      "save_percent": 100.0,
+      "save_percent": 8.13,
+      "gaa": 8.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1608,10 +1836,13 @@
       "goals": 3.0,
       "saves": 6.0,
       "shots": 4.0,
+      "goals_against": 14.0,
+      "shots_against": 23.0,
       "points": 4.0,
       "games_played": 2,
       "shot_percent": 75.0,
-      "save_percent": 100.0,
+      "save_percent": 26.09,
+      "gaa": 7.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1629,10 +1860,13 @@
       "goals": 29.0,
       "saves": 1.0,
       "shots": 60.0,
+      "goals_against": 57.0,
+      "shots_against": 101.0,
       "points": 42.0,
       "games_played": 11,
       "shot_percent": 48.33,
-      "save_percent": 100.0,
+      "save_percent": 0.99,
+      "gaa": 5.18,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1650,10 +1884,13 @@
       "goals": 29.0,
       "saves": 27.0,
       "shots": 42.0,
+      "goals_against": 57.0,
+      "shots_against": 101.0,
       "points": 49.0,
       "games_played": 11,
       "shot_percent": 69.05,
-      "save_percent": 100.0,
+      "save_percent": 26.73,
+      "gaa": 5.18,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1671,10 +1908,13 @@
       "goals": 0.0,
       "saves": 0.0,
       "shots": 0.0,
+      "goals_against": 5.0,
+      "shots_against": 12.0,
       "points": 0.0,
       "games_played": 1,
       "shot_percent": 0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1692,10 +1932,13 @@
       "goals": 16.0,
       "saves": 16.0,
       "shots": 34.0,
+      "goals_against": 57.0,
+      "shots_against": 101.0,
       "points": 39.0,
       "games_played": 11,
       "shot_percent": 47.06,
-      "save_percent": 100.0,
+      "save_percent": 15.84,
+      "gaa": 5.18,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1713,10 +1956,13 @@
       "goals": 4.0,
       "saves": 3.0,
       "shots": 13.0,
+      "goals_against": 27.0,
+      "shots_against": 46.0,
       "points": 10.0,
       "games_played": 3,
       "shot_percent": 30.77,
-      "save_percent": 100.0,
+      "save_percent": 6.52,
+      "gaa": 9.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1734,10 +1980,13 @@
       "goals": 2.0,
       "saves": 1.0,
       "shots": 8.0,
+      "goals_against": 5.0,
+      "shots_against": 7.0,
       "points": 2.0,
       "games_played": 1,
       "shot_percent": 25.0,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1755,10 +2004,13 @@
       "goals": 11.0,
       "saves": 25.0,
       "shots": 17.0,
+      "goals_against": 43.0,
+      "shots_against": 83.0,
       "points": 15.0,
       "games_played": 7,
       "shot_percent": 64.71,
-      "save_percent": 100.0,
+      "save_percent": 30.12,
+      "gaa": 6.14,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1776,10 +2028,13 @@
       "goals": 0.0,
       "saves": 0.0,
       "shots": 1.0,
+      "goals_against": 0.0,
+      "shots_against": 1.0,
       "points": 0.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 0.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1797,10 +2052,13 @@
       "goals": 1.0,
       "saves": 5.0,
       "shots": 2.0,
+      "goals_against": 12.0,
+      "shots_against": 20.0,
       "points": 2.0,
       "games_played": 1,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 25.0,
+      "gaa": 12.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1818,10 +2076,13 @@
       "goals": 12.0,
       "saves": 6.0,
       "shots": 28.0,
+      "goals_against": 47.0,
+      "shots_against": 85.0,
       "points": 19.0,
       "games_played": 8,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 7.06,
+      "gaa": 5.88,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1839,10 +2100,13 @@
       "goals": 2.0,
       "saves": 0.0,
       "shots": 2.0,
+      "goals_against": 12.0,
+      "shots_against": 20.0,
       "points": 3.0,
       "games_played": 1,
       "shot_percent": 100.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 12.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1860,10 +2124,13 @@
       "goals": 23.0,
       "saves": 15.0,
       "shots": 49.0,
+      "goals_against": 82.0,
+      "shots_against": 142.0,
       "points": 38.0,
       "games_played": 12,
       "shot_percent": 46.94,
-      "save_percent": 100.0,
+      "save_percent": 10.56,
+      "gaa": 6.83,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1881,10 +2148,13 @@
       "goals": 4.0,
       "saves": 2.0,
       "shots": 8.0,
+      "goals_against": 29.0,
+      "shots_against": 52.0,
       "points": 4.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 3.85,
+      "gaa": 5.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1902,10 +2172,13 @@
       "goals": 0.0,
       "saves": 0.0,
       "shots": 2.0,
+      "goals_against": 5.0,
+      "shots_against": 7.0,
       "points": 0.0,
       "games_played": 1,
       "shot_percent": 0.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1923,10 +2196,13 @@
       "goals": 21.0,
       "saves": 18.0,
       "shots": 42.0,
+      "goals_against": 50.0,
+      "shots_against": 85.0,
       "points": 50.0,
       "games_played": 10,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 21.18,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1944,10 +2220,13 @@
       "goals": 52.0,
       "saves": 7.0,
       "shots": 91.0,
+      "goals_against": 48.0,
+      "shots_against": 79.0,
       "points": 78.0,
       "games_played": 10,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 8.86,
+      "gaa": 4.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1965,10 +2244,13 @@
       "goals": 4.0,
       "saves": 1.0,
       "shots": 11.0,
+      "goals_against": 19.0,
+      "shots_against": 29.0,
       "points": 11.0,
       "games_played": 5,
       "shot_percent": 36.36,
-      "save_percent": 100.0,
+      "save_percent": 3.45,
+      "gaa": 3.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -1986,10 +2268,13 @@
       "goals": 36.0,
       "saves": 13.0,
       "shots": 58.0,
+      "goals_against": 49.0,
+      "shots_against": 83.0,
       "points": 52.0,
       "games_played": 10,
       "shot_percent": 62.07,
-      "save_percent": 100.0,
+      "save_percent": 15.66,
+      "gaa": 4.9,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2007,10 +2292,13 @@
       "goals": 10.0,
       "saves": 19.0,
       "shots": 21.0,
+      "goals_against": 27.0,
+      "shots_against": 69.0,
       "points": 12.0,
       "games_played": 5,
       "shot_percent": 47.62,
-      "save_percent": 100.0,
+      "save_percent": 27.54,
+      "gaa": 5.4,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2028,10 +2316,13 @@
       "goals": 24.0,
       "saves": 16.0,
       "shots": 44.0,
+      "goals_against": 58.0,
+      "shots_against": 121.0,
       "points": 34.0,
       "games_played": 10,
       "shot_percent": 54.55,
-      "save_percent": 100.0,
+      "save_percent": 13.22,
+      "gaa": 5.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2049,10 +2340,13 @@
       "goals": 14.0,
       "saves": 22.0,
       "shots": 28.0,
+      "goals_against": 73.0,
+      "shots_against": 144.0,
       "points": 36.0,
       "games_played": 12,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 15.28,
+      "gaa": 6.08,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2070,10 +2364,13 @@
       "goals": 2.0,
       "saves": 2.0,
       "shots": 3.0,
+      "goals_against": 9.0,
+      "shots_against": 14.0,
       "points": 4.0,
       "games_played": 1,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 9.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2091,10 +2388,13 @@
       "goals": 11.0,
       "saves": 2.0,
       "shots": 18.0,
+      "goals_against": 26.0,
+      "shots_against": 43.0,
       "points": 19.0,
       "games_played": 4,
       "shot_percent": 61.11,
-      "save_percent": 100.0,
+      "save_percent": 4.65,
+      "gaa": 6.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2112,10 +2412,13 @@
       "goals": 20.0,
       "saves": 9.0,
       "shots": 33.0,
+      "goals_against": 37.0,
+      "shots_against": 61.0,
       "points": 24.0,
       "games_played": 6,
       "shot_percent": 60.61,
-      "save_percent": 100.0,
+      "save_percent": 14.75,
+      "gaa": 6.17,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2133,10 +2436,13 @@
       "goals": 9.0,
       "saves": 16.0,
       "shots": 13.0,
+      "goals_against": 64.0,
+      "shots_against": 141.0,
       "points": 10.0,
       "games_played": 8,
       "shot_percent": 69.23,
-      "save_percent": 100.0,
+      "save_percent": 11.35,
+      "gaa": 8.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2154,10 +2460,13 @@
       "goals": 24.0,
       "saves": 31.0,
       "shots": 42.0,
+      "goals_against": 98.0,
+      "shots_against": 202.0,
       "points": 34.0,
       "games_played": 12,
       "shot_percent": 57.14,
-      "save_percent": 100.0,
+      "save_percent": 15.35,
+      "gaa": 8.17,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2175,10 +2484,13 @@
       "goals": 9.0,
       "saves": 19.0,
       "shots": 24.0,
+      "goals_against": 56.0,
+      "shots_against": 123.0,
       "points": 16.0,
       "games_played": 8,
       "shot_percent": 37.5,
-      "save_percent": 100.0,
+      "save_percent": 15.45,
+      "gaa": 7.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2196,10 +2508,13 @@
       "goals": 14.0,
       "saves": 38.0,
       "shots": 25.0,
+      "goals_against": 98.0,
+      "shots_against": 202.0,
       "points": 21.0,
       "games_played": 12,
       "shot_percent": 56.0,
-      "save_percent": 100.0,
+      "save_percent": 18.81,
+      "gaa": 8.17,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2217,10 +2532,13 @@
       "goals": 2.0,
       "saves": 0.0,
       "shots": 3.0,
+      "goals_against": 10.0,
+      "shots_against": 15.0,
       "points": 3.0,
       "games_played": 2,
       "shot_percent": 66.67,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2238,10 +2556,13 @@
       "goals": 34.0,
       "saves": 7.0,
       "shots": 73.0,
+      "goals_against": 48.0,
+      "shots_against": 91.0,
       "points": 55.0,
       "games_played": 10,
       "shot_percent": 46.58,
-      "save_percent": 100.0,
+      "save_percent": 7.69,
+      "gaa": 4.8,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2259,10 +2580,13 @@
       "goals": 20.0,
       "saves": 33.0,
       "shots": 48.0,
+      "goals_against": 51.0,
+      "shots_against": 96.0,
       "points": 42.0,
       "games_played": 11,
       "shot_percent": 41.67,
-      "save_percent": 100.0,
+      "save_percent": 34.38,
+      "gaa": 4.64,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2280,10 +2604,13 @@
       "goals": 30.0,
       "saves": 5.0,
       "shots": 51.0,
+      "goals_against": 51.0,
+      "shots_against": 96.0,
       "points": 53.0,
       "games_played": 11,
       "shot_percent": 58.82,
-      "save_percent": 100.0,
+      "save_percent": 5.21,
+      "gaa": 4.64,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2301,10 +2628,13 @@
       "goals": 26.0,
       "saves": 3.0,
       "shots": 53.0,
+      "goals_against": 61.0,
+      "shots_against": 109.0,
       "points": 38.0,
       "games_played": 11,
       "shot_percent": 49.06,
-      "save_percent": 100.0,
+      "save_percent": 2.75,
+      "gaa": 5.55,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2322,10 +2652,13 @@
       "goals": 10.0,
       "saves": 1.0,
       "shots": 20.0,
+      "goals_against": 29.0,
+      "shots_against": 37.0,
       "points": 13.0,
       "games_played": 4,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 2.7,
+      "gaa": 7.25,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2343,10 +2676,13 @@
       "goals": 25.0,
       "saves": 13.0,
       "shots": 67.0,
+      "goals_against": 83.0,
+      "shots_against": 138.0,
       "points": 52.0,
       "games_played": 14,
       "shot_percent": 37.31,
-      "save_percent": 100.0,
+      "save_percent": 9.42,
+      "gaa": 5.93,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2364,10 +2700,13 @@
       "goals": 19.0,
       "saves": 38.0,
       "shots": 39.0,
+      "goals_against": 83.0,
+      "shots_against": 138.0,
       "points": 38.0,
       "games_played": 14,
       "shot_percent": 48.72,
-      "save_percent": 100.0,
+      "save_percent": 27.54,
+      "gaa": 5.93,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2385,10 +2724,13 @@
       "goals": 2.0,
       "saves": 0.0,
       "shots": 4.0,
+      "goals_against": 20.0,
+      "shots_against": 36.0,
       "points": 3.0,
       "games_played": 2,
       "shot_percent": 50.0,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 10.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2406,10 +2748,13 @@
       "goals": 8.0,
       "saves": 3.0,
       "shots": 16.0,
+      "goals_against": 36.0,
+      "shots_against": 65.0,
       "points": 13.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 4.62,
+      "gaa": 7.2,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2427,10 +2772,13 @@
       "goals": 15.0,
       "saves": 65.0,
       "shots": 34.0,
+      "goals_against": 101.0,
+      "shots_against": 190.0,
       "points": 40.0,
       "games_played": 14,
       "shot_percent": 44.12,
-      "save_percent": 100.0,
+      "save_percent": 34.21,
+      "gaa": 7.21,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2448,10 +2796,13 @@
       "goals": 17.0,
       "saves": 4.0,
       "shots": 27.0,
+      "goals_against": 45.0,
+      "shots_against": 89.0,
       "points": 27.0,
       "games_played": 7,
       "shot_percent": 62.96,
-      "save_percent": 100.0,
+      "save_percent": 4.49,
+      "gaa": 6.43,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2469,10 +2820,13 @@
       "goals": 43.0,
       "saves": 18.0,
       "shots": 79.0,
+      "goals_against": 101.0,
+      "shots_against": 190.0,
       "points": 62.0,
       "games_played": 14,
       "shot_percent": 54.43,
-      "save_percent": 100.0,
+      "save_percent": 9.47,
+      "gaa": 7.21,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2490,10 +2844,13 @@
       "goals": 3.0,
       "saves": 19.0,
       "shots": 9.0,
+      "goals_against": 27.0,
+      "shots_against": 52.0,
       "points": 15.0,
       "games_played": 4,
       "shot_percent": 33.33,
-      "save_percent": 100.0,
+      "save_percent": 36.54,
+      "gaa": 6.75,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2511,10 +2868,13 @@
       "goals": 57.0,
       "saves": 9.0,
       "shots": 102.0,
+      "goals_against": 79.0,
+      "shots_against": 145.0,
       "points": 85.0,
       "games_played": 14,
       "shot_percent": 55.88,
-      "save_percent": 100.0,
+      "save_percent": 6.21,
+      "gaa": 5.64,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2532,10 +2892,13 @@
       "goals": 11.0,
       "saves": 34.0,
       "shots": 27.0,
+      "goals_against": 52.0,
+      "shots_against": 93.0,
       "points": 37.0,
       "games_played": 10,
       "shot_percent": 40.74,
-      "save_percent": 100.0,
+      "save_percent": 36.56,
+      "gaa": 5.2,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2553,10 +2916,13 @@
       "goals": 51.0,
       "saves": 4.0,
       "shots": 82.0,
+      "goals_against": 79.0,
+      "shots_against": 145.0,
       "points": 71.0,
       "games_played": 14,
       "shot_percent": 62.2,
-      "save_percent": 100.0,
+      "save_percent": 2.76,
+      "gaa": 5.64,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2574,10 +2940,13 @@
       "goals": 15.0,
       "saves": 18.0,
       "shots": 34.0,
+      "goals_against": 95.0,
+      "shots_against": 196.0,
       "points": 34.0,
       "games_played": 11,
       "shot_percent": 44.12,
-      "save_percent": 100.0,
+      "save_percent": 9.18,
+      "gaa": 8.64,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2595,10 +2964,13 @@
       "goals": 27.0,
       "saves": 6.0,
       "shots": 41.0,
+      "goals_against": 85.0,
+      "shots_against": 190.0,
       "points": 36.0,
       "games_played": 11,
       "shot_percent": 65.85,
-      "save_percent": 100.0,
+      "save_percent": 3.16,
+      "gaa": 7.73,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2616,10 +2988,13 @@
       "goals": 8.0,
       "saves": 8.0,
       "shots": 20.0,
+      "goals_against": 70.0,
+      "shots_against": 132.0,
       "points": 17.0,
       "games_played": 7,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 6.06,
+      "gaa": 10.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2637,10 +3012,13 @@
       "goals": 20.0,
       "saves": 96.0,
       "shots": 39.0,
+      "goals_against": 117.0,
+      "shots_against": 245.0,
       "points": 43.0,
       "games_played": 14,
       "shot_percent": 51.28,
-      "save_percent": 100.0,
+      "save_percent": 39.18,
+      "gaa": 8.36,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2658,10 +3036,13 @@
       "goals": 53.0,
       "saves": 13.0,
       "shots": 87.0,
+      "goals_against": 67.0,
+      "shots_against": 160.0,
       "points": 81.0,
       "games_played": 14,
       "shot_percent": 60.92,
-      "save_percent": 100.0,
+      "save_percent": 8.12,
+      "gaa": 4.79,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2679,10 +3060,13 @@
       "goals": 13.0,
       "saves": 71.0,
       "shots": 26.0,
+      "goals_against": 67.0,
+      "shots_against": 160.0,
       "points": 31.0,
       "games_played": 14,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 44.38,
+      "gaa": 4.79,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2700,10 +3084,13 @@
       "goals": 41.0,
       "saves": 10.0,
       "shots": 72.0,
+      "goals_against": 67.0,
+      "shots_against": 160.0,
       "points": 72.0,
       "games_played": 14,
       "shot_percent": 56.94,
-      "save_percent": 100.0,
+      "save_percent": 6.25,
+      "gaa": 4.79,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2721,10 +3108,13 @@
       "goals": 25.0,
       "saves": 43.0,
       "shots": 60.0,
+      "goals_against": 80.0,
+      "shots_against": 155.0,
       "points": 49.0,
       "games_played": 14,
       "shot_percent": 41.67,
-      "save_percent": 100.0,
+      "save_percent": 27.74,
+      "gaa": 5.71,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2742,10 +3132,13 @@
       "goals": 23.0,
       "saves": 13.0,
       "shots": 45.0,
+      "goals_against": 80.0,
+      "shots_against": 155.0,
       "points": 46.0,
       "games_played": 14,
       "shot_percent": 51.11,
-      "save_percent": 100.0,
+      "save_percent": 8.39,
+      "gaa": 5.71,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2763,10 +3156,13 @@
       "goals": 38.0,
       "saves": 19.0,
       "shots": 63.0,
+      "goals_against": 80.0,
+      "shots_against": 155.0,
       "points": 54.0,
       "games_played": 14,
       "shot_percent": 60.32,
-      "save_percent": 100.0,
+      "save_percent": 12.26,
+      "gaa": 5.71,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2784,10 +3180,13 @@
       "goals": 2.0,
       "saves": 1.0,
       "shots": 3.0,
+      "goals_against": 4.0,
+      "shots_against": 7.0,
       "points": 2.0,
       "games_played": 1,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 14.29,
+      "gaa": 4.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2805,10 +3204,13 @@
       "goals": 24.0,
       "saves": 17.0,
       "shots": 59.0,
+      "goals_against": 76.0,
+      "shots_against": 114.0,
       "points": 57.0,
       "games_played": 13,
       "shot_percent": 40.68,
-      "save_percent": 100.0,
+      "save_percent": 14.91,
+      "gaa": 5.85,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2826,10 +3228,13 @@
       "goals": 12.0,
       "saves": 7.0,
       "shots": 23.0,
+      "goals_against": 36.0,
+      "shots_against": 53.0,
       "points": 25.0,
       "games_played": 5,
       "shot_percent": 52.17,
-      "save_percent": 100.0,
+      "save_percent": 13.21,
+      "gaa": 7.2,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2847,10 +3252,13 @@
       "goals": 29.0,
       "saves": 14.0,
       "shots": 64.0,
+      "goals_against": 65.0,
+      "shots_against": 97.0,
       "points": 50.0,
       "games_played": 12,
       "shot_percent": 45.31,
-      "save_percent": 100.0,
+      "save_percent": 14.43,
+      "gaa": 5.42,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2868,10 +3276,13 @@
       "goals": 41.0,
       "saves": 2.0,
       "shots": 71.0,
+      "goals_against": 69.0,
+      "shots_against": 102.0,
       "points": 58.0,
       "games_played": 12,
       "shot_percent": 57.75,
-      "save_percent": 100.0,
+      "save_percent": 1.96,
+      "gaa": 5.75,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2889,10 +3300,13 @@
       "goals": 3.0,
       "saves": 4.0,
       "shots": 7.0,
+      "goals_against": 19.0,
+      "shots_against": 36.0,
       "points": 5.0,
       "games_played": 2,
       "shot_percent": 42.86,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 9.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2910,10 +3324,13 @@
       "goals": 7.0,
       "saves": 73.0,
       "shots": 19.0,
+      "goals_against": 110.0,
+      "shots_against": 225.0,
       "points": 25.0,
       "games_played": 14,
       "shot_percent": 36.84,
-      "save_percent": 100.0,
+      "save_percent": 32.44,
+      "gaa": 7.86,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2931,10 +3348,13 @@
       "goals": 25.0,
       "saves": 25.0,
       "shots": 42.0,
+      "goals_against": 110.0,
+      "shots_against": 225.0,
       "points": 43.0,
       "games_played": 14,
       "shot_percent": 59.52,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 7.86,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2952,10 +3372,13 @@
       "goals": 26.0,
       "saves": 15.0,
       "shots": 46.0,
+      "goals_against": 91.0,
+      "shots_against": 189.0,
       "points": 34.0,
       "games_played": 12,
       "shot_percent": 56.52,
-      "save_percent": 100.0,
+      "save_percent": 7.94,
+      "gaa": 7.58,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2973,10 +3396,13 @@
       "goals": 13.0,
       "saves": 0.0,
       "shots": 19.0,
+      "goals_against": 25.0,
+      "shots_against": 53.0,
       "points": 15.0,
       "games_played": 5,
       "shot_percent": 68.42,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -2994,10 +3420,13 @@
       "goals": 8.0,
       "saves": 6.0,
       "shots": 18.0,
+      "goals_against": 25.0,
+      "shots_against": 53.0,
       "points": 14.0,
       "games_played": 5,
       "shot_percent": 44.44,
-      "save_percent": 100.0,
+      "save_percent": 11.32,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3015,10 +3444,13 @@
       "goals": 4.0,
       "saves": 22.0,
       "shots": 8.0,
+      "goals_against": 25.0,
+      "shots_against": 53.0,
       "points": 12.0,
       "games_played": 5,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 41.51,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3036,10 +3468,13 @@
       "goals": 9.0,
       "saves": 1.0,
       "shots": 22.0,
+      "goals_against": 30.0,
+      "shots_against": 70.0,
       "points": 15.0,
       "games_played": 6,
       "shot_percent": 40.91,
-      "save_percent": 100.0,
+      "save_percent": 1.43,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3057,10 +3492,13 @@
       "goals": 7.0,
       "saves": 27.0,
       "shots": 14.0,
+      "goals_against": 30.0,
+      "shots_against": 70.0,
       "points": 11.0,
       "games_played": 6,
       "shot_percent": 50.0,
-      "save_percent": 100.0,
+      "save_percent": 38.57,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3078,10 +3516,13 @@
       "goals": 13.0,
       "saves": 13.0,
       "shots": 22.0,
+      "goals_against": 30.0,
+      "shots_against": 70.0,
       "points": 18.0,
       "games_played": 6,
       "shot_percent": 59.09,
-      "save_percent": 100.0,
+      "save_percent": 18.57,
+      "gaa": 5.0,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3099,10 +3540,13 @@
       "goals": 26.0,
       "saves": 2.0,
       "shots": 48.0,
+      "goals_against": 21.0,
+      "shots_against": 46.0,
       "points": 34.0,
       "games_played": 6,
       "shot_percent": 54.17,
-      "save_percent": 100.0,
+      "save_percent": 4.35,
+      "gaa": 3.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3120,10 +3564,13 @@
       "goals": 3.0,
       "saves": 19.0,
       "shots": 11.0,
+      "goals_against": 21.0,
+      "shots_against": 46.0,
       "points": 23.0,
       "games_played": 6,
       "shot_percent": 27.27,
-      "save_percent": 100.0,
+      "save_percent": 41.3,
+      "gaa": 3.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3141,10 +3588,13 @@
       "goals": 15.0,
       "saves": 4.0,
       "shots": 28.0,
+      "goals_against": 21.0,
+      "shots_against": 46.0,
       "points": 25.0,
       "games_played": 6,
       "shot_percent": 53.57,
-      "save_percent": 100.0,
+      "save_percent": 8.7,
+      "gaa": 3.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3162,10 +3612,13 @@
       "goals": 6.0,
       "saves": 6.0,
       "shots": 19.0,
+      "goals_against": 34.0,
+      "shots_against": 70.0,
       "points": 14.0,
       "games_played": 6,
       "shot_percent": 31.58,
-      "save_percent": 100.0,
+      "save_percent": 8.57,
+      "gaa": 5.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3183,10 +3636,13 @@
       "goals": 1.0,
       "saves": 28.0,
       "shots": 1.0,
+      "goals_against": 34.0,
+      "shots_against": 70.0,
       "points": 5.0,
       "games_played": 6,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 40.0,
+      "gaa": 5.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3204,10 +3660,13 @@
       "goals": 12.0,
       "saves": 2.0,
       "shots": 32.0,
+      "goals_against": 34.0,
+      "shots_against": 70.0,
       "points": 16.0,
       "games_played": 6,
       "shot_percent": 37.5,
-      "save_percent": 100.0,
+      "save_percent": 2.86,
+      "gaa": 5.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3225,10 +3684,13 @@
       "goals": 0.0,
       "saves": 4.0,
       "shots": 4.0,
+      "goals_against": 11.0,
+      "shots_against": 18.0,
       "points": 2.0,
       "games_played": 2,
       "shot_percent": 0.0,
-      "save_percent": 100.0,
+      "save_percent": 22.22,
+      "gaa": 5.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3246,10 +3708,13 @@
       "goals": 3.0,
       "saves": 1.0,
       "shots": 5.0,
+      "goals_against": 11.0,
+      "shots_against": 18.0,
       "points": 4.0,
       "games_played": 2,
       "shot_percent": 60.0,
-      "save_percent": 100.0,
+      "save_percent": 5.56,
+      "gaa": 5.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3267,10 +3732,13 @@
       "goals": 2.0,
       "saves": 2.0,
       "shots": 2.0,
+      "goals_against": 11.0,
+      "shots_against": 18.0,
       "points": 3.0,
       "games_played": 2,
       "shot_percent": 100.0,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 5.5,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3288,10 +3756,13 @@
       "goals": 6.0,
       "saves": 7.0,
       "shots": 15.0,
+      "goals_against": 19.0,
+      "shots_against": 33.0,
       "points": 11.0,
       "games_played": 3,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 21.21,
+      "gaa": 6.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3309,10 +3780,13 @@
       "goals": 4.0,
       "saves": 3.0,
       "shots": 10.0,
+      "goals_against": 19.0,
+      "shots_against": 33.0,
       "points": 7.0,
       "games_played": 3,
       "shot_percent": 40.0,
-      "save_percent": 100.0,
+      "save_percent": 9.09,
+      "gaa": 6.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3330,10 +3804,13 @@
       "goals": 8.0,
       "saves": 3.0,
       "shots": 12.0,
+      "goals_against": 19.0,
+      "shots_against": 33.0,
       "points": 13.0,
       "games_played": 3,
       "shot_percent": 66.67,
-      "save_percent": 100.0,
+      "save_percent": 9.09,
+      "gaa": 6.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3351,10 +3828,13 @@
       "goals": 5.0,
       "saves": 4.0,
       "shots": 12.0,
+      "goals_against": 22.0,
+      "shots_against": 36.0,
       "points": 9.0,
       "games_played": 3,
       "shot_percent": 41.67,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 7.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3372,10 +3852,13 @@
       "goals": 6.0,
       "saves": 0.0,
       "shots": 7.0,
+      "goals_against": 22.0,
+      "shots_against": 36.0,
       "points": 9.0,
       "games_played": 3,
       "shot_percent": 85.71,
-      "save_percent": 0,
+      "save_percent": 0.0,
+      "gaa": 7.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3393,10 +3876,13 @@
       "goals": 3.0,
       "saves": 11.0,
       "shots": 8.0,
+      "goals_against": 22.0,
+      "shots_against": 36.0,
       "points": 8.0,
       "games_played": 3,
       "shot_percent": 37.5,
-      "save_percent": 100.0,
+      "save_percent": 30.56,
+      "gaa": 7.33,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3414,10 +3900,13 @@
       "goals": 8.0,
       "saves": 3.0,
       "shots": 13.0,
+      "goals_against": 14.0,
+      "shots_against": 27.0,
       "points": 16.0,
       "games_played": 3,
       "shot_percent": 61.54,
-      "save_percent": 100.0,
+      "save_percent": 11.11,
+      "gaa": 4.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3435,10 +3924,13 @@
       "goals": 0.0,
       "saves": 8.0,
       "shots": 0.0,
+      "goals_against": 14.0,
+      "shots_against": 27.0,
       "points": 2.0,
       "games_played": 3,
       "shot_percent": 0,
-      "save_percent": 100.0,
+      "save_percent": 29.63,
+      "gaa": 4.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }
@@ -3456,10 +3948,13 @@
       "goals": 14.0,
       "saves": 2.0,
       "shots": 23.0,
+      "goals_against": 14.0,
+      "shots_against": 27.0,
       "points": 17.0,
       "games_played": 3,
       "shot_percent": 60.87,
-      "save_percent": 100.0,
+      "save_percent": 7.41,
+      "gaa": 4.67,
       "faceoffs_total": 0,
       "faceoff_win_percent": 0
     }

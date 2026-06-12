@@ -50,7 +50,7 @@ def main():
 
             for stat, value in row["stats"].items():
                 # We'll recalculate percentage stats later.
-                if stat.endswith("_percent"):
+                if stat.endswith("_percent") or stat in ["gaa"]:
                     continue
                 player["career"][stat] += float(value or 0)
 
@@ -65,13 +65,17 @@ def main():
         assists = career.get("assists", 0)
         shots = career.get("shots", 0)
         saves = career.get("saves", 0)
-        conceded = career.get("conceded_goals", 0)
         faceoffs_won = career.get("faceoffs_won", 0)
         faceoffs_lost = career.get("faceoffs_lost", 0)
 
+        goals_against = career.get("goals_against", 0)
+        shots_against = career.get("shots_against", 0)
+        games_played = career.get("games_played", 0)
+
         career["points"] = goals + assists
         career["shot_percent"] = (goals / shots * 100) if shots else 0
-        career["save_percent"] = (saves / (saves + conceded) * 100) if (saves + conceded) else 0
+        career["save_percent"] = (saves / shots_against * 100) if shots_against else 0
+        career["gaa"] = (goals_against / games_played) if games_played else 0
         career["faceoffs_total"] = faceoffs_won + faceoffs_lost
         career["faceoff_win_percent"] = (
             faceoffs_won / career["faceoffs_total"] * 100

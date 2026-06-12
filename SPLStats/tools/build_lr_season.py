@@ -43,6 +43,14 @@ def clean_team_name(team_name):
 
     return team_name
 
+def get_fixture_id(row):
+    return "|".join([
+        row.get("Fixture Group", "").strip(),
+        row.get("Fixture Date", "").strip(),
+        row.get("Home Team", "").strip(),
+        row.get("Away Team", "").strip(),
+    ])
+
 def classify_season_type(fixture_group):
     text = fixture_group.lower()
 
@@ -101,45 +109,78 @@ def parse_csv(csv_file):
     season_name, season_id = season_from_filename(csv_file)
     players = {}
 
+    rows = []
+    fixture_team_totals = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
+
+    # Pass 1:
+    # Read every row and calculate each team's total Goals/Shots per fixture.
     with csv_file.open("r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
 
         for row in reader:
-            fixture_group = row.get("Fixture Group", "").strip()
-            player_name = normalize_player_name(row.get("Last Name", ""))
-            team_name = clean_team_name(row.get("Team", ""))
-            team = team_name
+            rows.append(row)
 
+            fixture_id = get_fixture_id(row)
+            team = clean_team_name(row.get("Team", ""))
             stat_desc = row.get("Stat Desc", "").strip()
-            stat_key = STAT_MAP.get(stat_desc)
+            value = safe_float(row.get("Stat Value", 0))
 
-            if not player_name or not stat_key:
+            if stat_desc == "Goals":
+                fixture_team_totals[fixture_id][team]["goals"] += value
+
+            if stat_desc == "Shots":
+                fixture_team_totals[fixture_id][team]["shots"] += value
+
+    # Pass 2:
+    # Build normal player stats and track which fixtures each player appeared in.
+    for row in rows:
+        fixture_group = row.get("Fixture Group", "").strip()
+        player_name = normalize_player_name(row.get("Last Name", ""))
+        team_name = clean_team_name(row.get("Team", ""))
+        team = team_name
+
+        stat_desc = row.get("Stat Desc", "").strip()
+        stat_key = STAT_MAP.get(stat_desc)
+
+        if not player_name or not stat_key:
+            continue
+
+        key = (fixture_group, team, player_name)
+
+        if key not in players:
+            players[key] = {
+                "season": season_name,
+                "season_id": season_id,
+                "division": fixture_group,
+                "team": team,
+                "team_name": team_name,
+                "player_name": player_name,
+                "fixtures": set(),
+                "stats": defaultdict(float),
+            }
+
+        fixture_id = get_fixture_id(row)
+
+        players[key]["fixtures"].add(fixture_id)
+        players[key]["stats"][stat_key] += safe_float(row.get("Stat Value", 0))
+
+    # Pass 3:
+    # After fixture appearances are known, assign Goals Against / Shots Against
+    # exactly once per player per fixture.
+    for item in players.values():
+        team = item["team"]
+
+        for fixture_id in item["fixtures"]:
+            teams_in_fixture = fixture_team_totals[fixture_id]
+            opponents = [t for t in teams_in_fixture.keys() if t != team]
+
+            if not opponents:
                 continue
 
-            key = (fixture_group, team, player_name)
+            opponent = opponents[0]
 
-            if key not in players:
-                players[key] = {
-                    "season": season_name,
-                    "season_id": season_id,
-                    "division": fixture_group,
-                    "team": team,
-                    "team_name": team_name,
-                    "player_name": player_name,
-                    "fixtures": set(),
-                    "stats": defaultdict(float),
-                }
-
-            fixture_id = "|".join([
-                row.get("Fixture Group", "").strip(),
-                row.get("Fixture Date", "").strip(),
-                row.get("Home Team", "").strip(),
-                row.get("Away Team", "").strip(),
-            ])
-
-            players[key]["fixtures"].add(fixture_id)
-
-            players[key]["stats"][stat_key] += safe_float(row.get("Stat Value", 0))
+            item["stats"]["goals_against"] += teams_in_fixture[opponent]["goals"]
+            item["stats"]["shots_against"] += teams_in_fixture[opponent]["shots"]
 
     output = []
 
@@ -150,14 +191,20 @@ def parse_csv(csv_file):
         assists = stats.get("assists", 0)
         shots = stats.get("shots", 0)
         saves = stats.get("saves", 0)
-        conceded = stats.get("conceded_goals", 0)
         faceoffs_won = stats.get("faceoffs_won", 0)
         faceoffs_lost = stats.get("faceoffs_lost", 0)
 
+        goals_against = stats.get("goals_against", 0)
+        shots_against = stats.get("shots_against", 0)
+        games_played = len(item["fixtures"])
+
         stats["points"] = goals + assists
-        stats["games_played"] = len(item["fixtures"])
+        stats["games_played"] = games_played
         stats["shot_percent"] = (goals / shots * 100) if shots else 0
-        stats["save_percent"] = (saves / (saves + conceded) * 100) if (saves + conceded) else 0
+
+        stats["save_percent"] = (saves / shots_against * 100) if shots_against else 0
+        stats["gaa"] = (goals_against / games_played) if games_played else 0
+
         stats["faceoffs_total"] = faceoffs_won + faceoffs_lost
         stats["faceoff_win_percent"] = (
             faceoffs_won / stats["faceoffs_total"] * 100
