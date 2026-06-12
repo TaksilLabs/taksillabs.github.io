@@ -74,7 +74,8 @@ function divisionBelongsToTier(division, tier) {
     ],
 
     "central b": [
-      "central b"
+      "central b",
+      "b bowl"
     ],
 
     "central c": [

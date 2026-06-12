@@ -240,9 +240,36 @@ a:hover {
 .team-name {
   width: 100%;
   padding: 10px;
-  background: #ffd166;
-  color: #101820;
   font-weight: bold;
+  text-decoration: none;
+  display: block;
+  transition:
+    background-color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.team-name:hover {
+  transform: translateY(1px);
+}
+
+.team-name.east:hover {
+  background: #d93c3c;
+  color: white;
+}
+
+.team-name.central:hover {
+  background: #235db0;
+  color: white;
+}
+
+.team-name.west:hover {
+  background: #b84518;
+  color: white;
+}
+
+.team-name.unknown:hover {
+  background: #555;
+  color: white;
 }
 
 .team-box strong {
@@ -276,4 +303,195 @@ a:hover {
 .team-name.unknown {
   background: #666;
   color: white;
+}
+
+#seasonTable a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#seasonTable a:hover {
+  color: #ffd166;
+}
+
+/*
+Career Player Stats Stylers
+*/
+
+.career-stat-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.career-row {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.career-stat {
+  position: relative;
+  min-width: 150px;
+  padding: 10px 18px;
+  isolation: isolate;
+}
+
+.career-stat::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0c141c;
+  border-left: 3px solid #00d1d1;
+  transform: skewX(-12deg);
+  z-index: -1;
+  opacity: 0.95;
+}
+
+.career-stat-label {
+  font-size: 1.05rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.career-stat-value {
+  margin-top: 4px;
+  font-size: 1.95rem;
+  font-weight: 700;
+  text-align: right;
+  color: #ffd166;
+}
+
+/*
+Playe Page, Team Card Stylers
+*/
+
+.team-card-stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.team-card-stats > div {
+  padding: 12px;
+  text-align: center;
+}
+
+.team-card-stats > div:first-child {
+  border-right: 1px solid #2c3e50;
+}
+
+.team-stat-label {
+  display: block;
+  font-size: 0.65rem !important;
+  font-weight: normal !important;
+  color: #aaa;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.team-card-stats strong {
+  font-size: 2.2rem;
+}
+
+
+/* 
+========================================
+TEAM PAGE HELPERS 
+========================================
+*/
+
+
+#seasonList,
+#divisionList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.info-tag {
+  background: #0c141c;
+  border: 1px solid #00b3b3;
+  color: #f4f4f4;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: bold;
+
+  transition:
+    background-color 0.15s ease,
+    color 0.25s ease;
+}
+
+.season-tag {
+  border-color: #ffd166;
+}
+
+.season-tag:hover {
+  background: #ffd166;
+  color: #101820;
+  cursor: default;
+}
+
+.division-tag {
+  border-color: #7bdff2;
+}
+
+.division-tag:hover {
+  background: #7bdff2;
+  color: #101820;
+  cursor: default;
+}
+
+.leader-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.leader-card {
+  background: #0c141c;
+  border: 1px solid #00b3b3;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.leader-card h3 {
+  margin-top: 0;
+  color: #ffd166;
+  text-align: center;
+}
+
+.leader-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid #2c3e50;
+  font-size: 0.9rem;
+}
+
+.leader-row:last-child {
+  border-bottom: none;
+}
+
+.leader-row strong {
+  color: #00d1d1;
+}
+
+@media (max-width: 1100px) {
+  .leader-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+.leader-row a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.leader-row a:hover {
+  color: #ffd166;
 }

@@ -9,12 +9,14 @@ OUT_DIR = Path("../data/seasons")
 
 STAT_MAP = {
     "Games Played": "games_played",
+    "Periods Played": "periods_played",
+    "Points": "points",
     "Goals": "goals",
     "Assists": "assists",
-    "Primary Assists": "primary_assists",
-    "Secondary Assists": "secondary_assists",
+    "Prim. Assists": "primary_assists",
+    "Sec. Assists": "secondary_assists",
     "Shots": "shots",
-    "Post Hits": "post_hits",
+    "Posts Hit": "post_hits",
     "Saves": "saves",
     "Blocks": "blocks",
     "Passes": "passes",
