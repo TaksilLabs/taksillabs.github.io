@@ -1,3 +1,42 @@
+const REGION_PATTERNS = {
+  east: [
+    "erveon",
+    "blade",
+    "genesis",
+    "pro division",
+    "minor league",
+    "challenger",
+    "intermediate",
+    "open division",
+    "prospect",
+    "east"
+  ],
+  central: [
+    "central",
+    "gazz",
+    "gaz",
+    "b bowl"
+  ],
+  west: [
+    "west",
+    "masters",
+    "pacific",
+    "bome",
+    "contenders"
+  ]
+};
+
+function divisionBelongsToRegion(division, region) {
+  if (!region || region === "all") return true;
+
+  const patterns = REGION_PATTERNS[region];
+  if (!patterns) return true;
+
+  const text = String(division || "").toLowerCase();
+
+  return patterns.some(pattern => text.includes(pattern));
+}
+
 function getPlayerIdFromUrl() {
   const params = new URLSearchParams(window.location.search);
   return params.get("id");
@@ -30,7 +69,7 @@ function renderPlayer(player) {
   document.querySelector("#playerName").textContent = player.player_name;
 
   renderCareerStats(player.career || {});
-  renderTeams(player.teams_played_for || []);
+  renderTeams(player.by_season || []);
   renderSeasons(player.by_season || []);
 }
 
@@ -58,9 +97,63 @@ function renderCareerStats(career) {
   `).join("");
 }
 
-function renderTeams(teams) {
-  document.querySelector("#teamsPlayed").textContent =
-    teams.length ? teams.join(", ") : "No teams listed.";
+function renderTeams(rows) {
+  const container = document.querySelector("#teamsPlayed");
+
+  const teamTotals = {};
+
+  rows.forEach(row => {
+    const team = row.team || "Unknown";
+    const gp = Number(row.stats?.games_played || 0);
+
+    if (!teamTotals[team]) {
+      teamTotals[team] = {
+        games: 0,
+        regions: {}
+      };
+    }
+
+    teamTotals[team].games += gp;
+
+    if (divisionBelongsToRegion(row.division, "east")) {
+      teamTotals[team].regions.east = true;
+    }
+
+    if (divisionBelongsToRegion(row.division, "central")) {
+      teamTotals[team].regions.central = true;
+    }
+
+    if (divisionBelongsToRegion(row.division, "west")) {
+      teamTotals[team].regions.west = true;
+    }
+  });
+
+  const teams = Object.entries(teamTotals)
+    .map(([team, info]) => ({
+      team,
+      games: info.games,
+      regions: info.regions
+    }))
+    .sort((a, b) => b.games - a.games);
+
+  container.innerHTML = teams.length
+    ? teams.map(t => {
+        const region =
+          t.regions.east ? "east" :
+          t.regions.central ? "central" :
+          t.regions.west ? "west" :
+          "unknown";
+
+        return `
+          <div class="team-box ${region}">
+            <span class="team-gp">${t.games} GP</span>
+            <div class="team-name ${region}">
+              ${t.team}
+            </div>
+          </div>
+        `;
+      }).join("")
+    : "No teams listed.";
 }
 
 function renderSeasons(rows) {

@@ -179,3 +179,101 @@ a:hover {
   font-size: 24px;
   color: #00d1d1;
 }
+
+
+
+
+
+
+
+.section-title {
+  text-align: center;
+}
+
+.player-card h2 {
+  text-align: center;
+  color: #00d1d1;
+  margin-top: 0;
+}
+
+#teamsPlayed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.team-gp {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 12px;
+  color: white;
+}
+
+.team-box {
+  background: #0c141c;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 180px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-box.east {
+  border: 2px solid #EE4A4A;
+}
+
+.team-box.central {
+  border: 2px solid #2A6DCD;
+}
+
+.team-box.west {
+  border: 2px solid #D5501C;
+}
+
+.team-box.unknown {
+  border: 2px solid #666;
+}
+
+.team-name {
+  width: 100%;
+  padding: 10px;
+  background: #ffd166;
+  color: #101820;
+  font-weight: bold;
+}
+
+.team-box strong {
+  display: block;
+  color: #ffd166;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+.team-box span {
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.team-name.east {
+  background: #EE4A4A;
+  color: white;
+}
+
+.team-name.central {
+  background: #2A6DCD;
+  color: white;
+}
+
+.team-name.west {
+  background: #D5501C;
+  color: white;
+}
+
+.team-name.unknown {
+  background: #666;
+  color: white;
+}
