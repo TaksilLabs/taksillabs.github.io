@@ -34,6 +34,7 @@ def update_player(registry, slap_id, username, match_date):
             "preferred_name": username,
             "display_name": username,
             "aliases": [username],
+            "alias_counts": {},
             "first_seen": match_date,
             "last_seen": match_date,
             "games_found": 0,
@@ -49,7 +50,18 @@ def update_player(registry, slap_id, username, match_date):
     if username not in player["aliases"]:
         player["aliases"].append(username)
 
-    player["display_name"] = player.get("preferred_name") or username
+    if "alias_counts" not in player:
+        player["alias_counts"] = {}
+
+    player["alias_counts"][username] = player["alias_counts"].get(username, 0) + 1
+
+    # Use the most common name as display_name unless preferred_name is manually set.
+    most_common_name = max(
+        player["alias_counts"],
+        key=player["alias_counts"].get
+    )
+
+    player["display_name"] = player.get("preferred_name") or most_common_name
     player["games_found"] = player.get("games_found", 0) + 1
 
     if match_date:
@@ -134,6 +146,19 @@ def main():
                 )
 
             games_used += 1
+
+    PREFERRED_NAMES_FILE = Path("../data/preferred_names.json")
+
+    preferred_names = {}
+
+    if PREFERRED_NAMES_FILE.exists():
+        with PREFERRED_NAMES_FILE.open("r", encoding="utf-8") as f:
+            preferred_names = json.load(f)
+
+    for slap_id, preferred_name in preferred_names.items():
+        if slap_id in registry:
+            registry[slap_id]["preferred_name"] = preferred_name
+            registry[slap_id]["display_name"] = preferred_name
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 

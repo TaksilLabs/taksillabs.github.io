@@ -495,3 +495,49 @@ TEAM PAGE HELPERS
 .leader-row a:hover {
   color: #ffd166;
 }
+
+
+/* 
+========================================
+SLAP ID STYLER
+========================================
+*/
+
+.slap-id-card {
+  max-width: 520px;
+}
+
+.slap-id-badge {
+  display: inline-block;
+  background: #00d1d1;
+  color: #101820;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.alias-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.alias-row {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  background: #0c141c;
+  border-left: 4px solid #ffd166;
+  padding: 8px 12px;
+  align-items: center;
+}
+
+.alias-count {
+  color: #00d1d1;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.alias-name {
+  font-weight: bold;
+}
