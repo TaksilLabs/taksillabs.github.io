@@ -261,6 +261,10 @@ function renderRoster(players) {
       <td>${player.stats.goals ?? 0}</td>
       <td>${player.stats.assists ?? 0}</td>
       <td>${player.stats.points ?? 0}</td>
+      <td>${player.stats.shots ?? 0}</td>
+      <td>${player.stats.saves ?? 0}</td>
+      <td>${player.stats.blocks ?? 0}</td>
+      <td>${player.stats.passes ?? 0}</td>
     </tr>
   `).join("");
 }
