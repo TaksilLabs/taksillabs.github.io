@@ -1,34 +1,350 @@
+let franchisePlayers = [];
+
+let currentSort = "points";
+let sortDescending = true;
+
 function getFranchiseIdFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  return params.get("id");
+    const params = new URLSearchParams(window.location.search);
+    return params.get("id");
 }
 
 async function loadFranchise() {
-  const id = getFranchiseIdFromUrl();
+    const id = getFranchiseIdFromUrl();
 
-  const [metaRes, statsRes] = await Promise.all([
-    fetch("data/franchises.json"),
-    fetch("data/franchise_stats.json")
-  ]);
+     const [metaRes, statsRes] = await Promise.all([
+        fetch("data/franchises.json"),
+        fetch("data/franchise_stats.json")
+    ]);
 
-  const meta = await metaRes.json();
-  const stats = await statsRes.json();
+    const meta = await metaRes.json();
+    const stats = await statsRes.json();
 
-  const metaFranchise = meta.find(f => f.franchise_id === id);
-  const statsFranchise = stats.find(f => f.franchise_id === id);
+    const metaFranchise = meta.find(f => f.franchise_id === id);
+    const statsFranchise = stats.find(f => f.franchise_id === id);
 
-  if (!metaFranchise && !statsFranchise) {
-    document.querySelector("#franchiseName").textContent = "Franchise Not Found";
-    return;
+    const playersRes =
+    await fetch("data/all_time_players.json");
+
+    const allPlayers =
+        await playersRes.json();
+
+    if (!metaFranchise && !statsFranchise) {
+        document.querySelector("#franchiseName").textContent = "Franchise Not Found";
+        return;
   }
 
   // 🔥 Merge them
-  const franchise = {
-    ...metaFranchise,
-    ...statsFranchise
-  };
+    const franchise = {
+        ...metaFranchise,
+        ...statsFranchise
+    };
 
-  renderFranchise(franchise);
+    renderFranchise(franchise);
+
+    renderFranchisePlayerStats(
+        franchise,
+        allPlayers
+    );
+}
+
+function seasonValue(seasonId) {
+    if (!seasonId) return 0;
+
+    const SEASON_ORDER = {
+        winter: 1,
+        spring: 2,
+        summer: 3,
+        fall: 4
+    };
+
+    const [season, year] =
+        seasonId.toLowerCase().split("_");
+
+    return (
+        Number(year) * 10 +
+        (SEASON_ORDER[season] || 0)
+    );
+}
+
+function seasonInRange(
+    seasonId,
+    startSeason,
+    endSeason
+) {
+    const value = seasonValue(seasonId);
+
+    const start = seasonValue(startSeason);
+
+    const end =
+        endSeason
+            ? seasonValue(endSeason)
+            : 999999;
+
+    return value >= start &&
+           value <= end;
+}
+
+function rowBelongsToFranchise(
+    row,
+    franchise
+) {
+    return franchise.memberships.some(
+        membership => {
+
+            if (
+                membership.team !== row.team
+            ) {
+                return false;
+            }
+
+            return seasonInRange(
+                row.season_id,
+                membership.start_season,
+                membership.end_season
+            );
+        }
+    );
+}
+
+function buildFranchisePlayers(
+    franchise,
+    allPlayers
+) {
+    const players = {};
+
+    allPlayers.forEach(player => {
+
+        player.by_season.forEach(row => {
+
+            if (
+                !rowBelongsToFranchise(
+                    row,
+                    franchise
+                )
+            ) {
+                return;
+            }
+
+            const name =
+                player.player_name;
+
+            if (!players[name]) {
+                players[name] = {
+                    player_name: name,
+
+                    games_played: 0,
+                    periods_played: 0,
+
+                    goals: 0,
+                    assists: 0,
+                    points: 0,
+
+                    shots: 0,
+                    saves: 0,
+
+                    faceoffs_won: 0,
+                    faceoffs_lost: 0,
+
+                    takeaways: 0,
+                    turnovers: 0,
+
+                    post_hits: 0,
+                    passes: 0,
+                    blocks: 0,
+
+                    possession_time_sec: 0,
+
+                    seasons: new Set()
+                };
+            }
+
+            const stats =
+                row.stats || {};
+
+            players[name].games_played +=
+                stats.games_played || 0;
+
+            players[name].goals +=
+                stats.goals || 0;
+
+            players[name].assists +=
+                stats.assists || 0;
+
+            players[name].points +=
+                stats.points || 0;
+
+            players[name].shots +=
+                stats.shots || 0;
+
+            players[name].saves +=
+                stats.saves || 0;
+
+            players[name].takeaways +=
+                stats.takeaways || 0;
+
+            players[name].blocks +=
+                stats.blocks || 0;
+
+            players[name].periods_played +=
+                stats.periods_played || 0;
+
+            players[name].faceoffs_won +=
+                stats.faceoffs_won || 0;
+
+            players[name].faceoffs_lost +=
+                stats.faceoffs_lost || 0;
+
+            players[name].turnovers +=
+                stats.turnovers || 0;
+
+            players[name].post_hits +=
+                stats.post_hits || 0;
+
+            players[name].passes +=
+                stats.passes || 0;
+
+            players[name].possession_time_sec +=
+                stats.possession_time_sec || 0;
+
+            players[name].seasons.add(
+                row.season_id
+            );
+        });
+    });
+
+    const result =
+        Object.values(players);
+
+    result.forEach(player => {
+        player.seasons_played =
+            player.seasons.size;
+    });
+
+    return result.sort(
+        (a, b) =>
+            b.points - a.points
+    );
+}
+
+function formatTime(seconds) {
+    seconds = Math.round(Number(seconds || 0));
+
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = seconds % 60;
+
+    return [
+        h,
+        String(m).padStart(2, "0"),
+        String(s).padStart(2, "0")
+    ].join(":");
+}
+
+function renderFranchiseTable() {
+
+    const rows =
+        [...franchisePlayers]
+        .sort((a, b) => {
+
+            const aVal =
+                a[currentSort] ?? 0;
+
+            const bVal =
+                b[currentSort] ?? 0;
+
+            return sortDescending
+                ? bVal - aVal
+                : aVal - bVal;
+        });
+
+    const tbody =
+        document.querySelector(
+            "#franchisePlayerTable tbody"
+        );
+
+    tbody.innerHTML =
+    rows.map((p, index) => `
+        <tr>
+            <td>${index + 1}</td>
+
+            <td>
+                <a href="player.html?id=${encodeURIComponent(
+                    p.player_name.toLowerCase()
+                )}">
+                    ${p.player_name}
+                </a>
+            </td>
+
+            <td>${p.games_played}</td>
+            <td>${p.periods_played}</td>
+            <td>${p.seasons_played}</td>
+
+            <td>${p.goals}</td>
+            <td>${p.assists}</td>
+            <td>${p.points}</td>
+            <td>${p.shots}</td>
+            <td>${p.saves}</td>
+            <td>${p.blocks}</td>
+
+            <td>${p.faceoffs_won}</td>
+            <td>${p.faceoffs_lost}</td>
+
+            <td>${p.takeaways}</td>
+            <td>${p.turnovers}</td>
+
+            <td>${p.post_hits}</td>
+            <td>${p.passes}</td>
+
+            <td>${formatTime(
+                p.possession_time_sec
+            )}</td>
+        </tr>
+    `).join("");
+}
+
+function setupFranchiseSorting() {
+
+    document
+        .querySelectorAll(
+            "#franchisePlayerTable th[data-sort]"
+        )
+        .forEach(th => {
+
+            th.addEventListener(
+                "click",
+                () => {
+
+                    const stat =
+                        th.dataset.sort;
+
+                    if (
+                        currentSort === stat
+                    ) {
+                        sortDescending =
+                            !sortDescending;
+                    }
+                    else {
+                        currentSort = stat;
+                        sortDescending = true;
+                    }
+
+                    renderFranchiseTable();
+                }
+            );
+        });
+}
+
+function renderFranchisePlayerStats(
+    franchise,
+    allPlayers
+) {
+    franchisePlayers =
+        buildFranchisePlayers(
+            franchise,
+            allPlayers
+        );
+
+    renderFranchiseTable();
 }
 
 const LEADER_CATEGORIES = [
@@ -255,4 +571,5 @@ function renderHallOfFame(entries) {
   `).join("");
 }
 
+setupFranchiseSorting();
 loadFranchise();

@@ -630,5 +630,987 @@
         ]
       }
     }
+  },
+  {
+    "franchise_id": "ottawa_valley",
+    "franchise_name": "Ottawa Valley",
+    "status": "active",
+    "description": "",
+    "founders": [
+      "Eggsthink"
+    ],
+    "owners": [
+      "Eggsthink"
+    ],
+    "part_owners": [
+      "null"
+    ],
+    "coaches": [
+      "null"
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Patalie Nortman",
+        "retired_number": "22",
+        "retired_date": "2024-05-23",
+        "induction_speech": "Ottawa Valley is proud to announce the very first jersey to be retired in franchise history. Patalie Nortman was a cornerstone in the Puck Slappers' transition from being a middling open team to the successful team they are now. Patalie Nortman always brought the energy in the locker room and knew how to get the team hyped up whenever they needed it! Although his time on the team was short, every single moment in his career was memorable. From his big three goal debut to his HUGE playoff goals, Patalie Nortman was one of the most exciting players in Ottawa Valley history."
+      },
+      {
+        "player": "YmisScarab",
+        "retired_number": "9",
+        "retired_date": "2025-09-05",
+        "induction_speech": "Ottawa Valley is proud to announce that YmisScarab's jersey will be joining Patalie Nortman and Tee's in the rafter. YmisScarab's Ottawa Valley career started in Season 13 and would last until Season 17 with stops on the Stick Slappers, Post Dingers, Wood Slappers and the Beauties. Scarab started off his Ottawa Valley career hot with a hattrick in 74 seconds, he also owns the Ottawa Valley record for most saves in a single season. Scarab has been a huge part of the behind the scenes working on Ottawa Valley statistics, tournaments and upkeeping the 6v6 Leagues. Although he has hung up his skates, Scarab remains committed to keeping our tournaments going and making sure all of our spreadsheets properly function. Scarab has been the silent backbone of the franchise for a long time and his help has always been appreciated."
+      },
+      {
+        "player": "Tee",
+        "retired_number": "24",
+        "retired_date": "2025-09-05",
+        "induction_speech": "It is with the greatest honor that I, alongside the Ottaway Valley, will be announcing another jersey immortalized in the rafters, @TEE . An icon since the birth of Slapshot, on the ice, and off it too. He's been the center-piece of every play and shows his strong leadership while also being a lovable teammate and even more endearing friend. Even though he believes he 'passed his prime' he still put up elite numbers till the last game he played. As of recent with the Ottawa Valley Puck Slappers he won multiple awards for the team, but also as an individual player. I've watched Tee as an idol of mine early on, then later being trained under his wing to reach my fullest potential, but the whole time Tee and I became closer friends then ever bringing a friendship beyond the games we play. The days we spent together with other members of the Ottawa Valley especially in the 6v6 League will be memories I keep with me forever. From the elite banner he carries on his back to his infinitely rewatchable youtube videos, Tee's name will live forever amongst the community regardless of where the wind takes him. "
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Ottawa Valley Puck Slappers",
+        "order": 1,
+        "start_season": "fall_2021",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Champaign Champagne",
+        "order": 2,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Post Dingers",
+        "order": 3,
+        "start_season": "spring_2024",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Wood Slappers",
+        "order": 4,
+        "start_season": "spring_2024",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Stick Slappers",
+        "order": 5,
+        "start_season": "fall_2023",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Island Boys",
+        "order": 6,
+        "start_season": "spring_2024",
+        "end_season": "winter_2025",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Drinkers",
+        "order": 7,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Slappers With Attitude",
+        "order": 8,
+        "start_season": "fall_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Slap Tuahs",
+        "order": 9,
+        "start_season": "fall_2024",
+        "end_season": "winter_2025",
+        "notes": ""
+      },
+      {
+        "team": "No Name Nighthawks",
+        "order": 10,
+        "start_season": "spring_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Greenland Ducklings",
+        "order": 11,
+        "start_season": "summer_2024",
+        "end_season": "winter_2025",
+        "notes": ""
+      },
+      {
+        "team": "Michigan Magic",
+        "order": 12,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Battle Creek Kings",
+        "order": 13,
+        "start_season": "winter_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Ham and Eggs",
+        "order": 14,
+        "start_season": "fall_2025",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Los Angeles Comets",
+        "order": 15,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Ferrari Bazingas",
+        "order": 16,
+        "start_season": "summer_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Fighting Admirals",
+        "order": 17,
+        "start_season": "spring_2025",
+        "end_season": "sumemr_2025",
+        "notes": ""
+      },
+      {
+        "team": "New England Blazing Stars",
+        "order": 18,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Garden Grove Geekbars",
+        "order": 19,
+        "start_season": "summer_2024",
+        "end_season": "spring_2025",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Ottawa Big Mouth Billy Bass",
+        "order": 20,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Geriatric Slappers",
+        "order": 21,
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Portillos Italian Beefs",
+        "order": 22,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Super Bunnies",
+        "order": 23,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Bible Buddies",
+        "order": 24,
+        "start_season": "spring_2025",
+        "end_season": "spring_2025",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Hammy and Friends",
+        "order": 25,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Mexico Menace",
+        "order": 26,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Michigan Malus",
+        "order": 27,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Hot Fries",
+        "order": 28,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Frost Strike",
+        "order": 29,
+        "start_season": "fall_2024",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Ice Weasels",
+        "order": 30,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Rubber Duckies",
+        "order": 31,
+        "start_season": "fall_2024",
+        "end_season": "winter_2025",
+        "notes": ""
+      },
+      {
+        "team": "Michigan Mafia",
+        "order": 32,
+        "start_season": "spring_2026",
+        "end_season": "spring_2026",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Bowling Alleys",
+        "order": 33,
+        "start_season": "spring_2025",
+        "end_season": "spring_2025",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Sigma Wolves",
+        "order": 34,
+        "start_season": "summer_2024",
+        "end_season": "summer_2024",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Hockey Team",
+        "order": 35,
+        "start_season": "winter_2024",
+        "end_season": "winter_2024",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Tater Tots",
+        "order": 36,
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Ottawa Valley Bench Warmers",
+        "order": 37,
+        "start_season": "summer_2024",
+        "end_season": "summer_2024",
+        "notes": ""
+      },
+      {
+        "team": "St. Cloud Storm",
+        "order": 38,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Central Champagne",
+        "order": 39,
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Edmonton Beauties",
+        "order": 40,
+        "start_season": "spring_2025",
+        "end_season": "spring_2025",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 476.0,
+          "blocks": 1180.0,
+          "faceoffs_lost": 538.0,
+          "faceoffs_won": 552.0,
+          "goals": 513.0,
+          "passes": 4063.0,
+          "periods_played": 585.0,
+          "points": 989.0,
+          "possession_time_sec": 7201.0,
+          "post_hits": 212.0,
+          "primary_assists": 375.0,
+          "saves": 596.0,
+          "secondary_assists": 101.0,
+          "shots": 1072.0,
+          "takeaways": 685.0,
+          "turnovers": 807.0,
+          "goals_against": 1521.0,
+          "shots_against": 3431.0,
+          "games_played": 211.0,
+          "faceoffs_total": 1090.0,
+          "shot_percent": 47.85,
+          "save_percent": 17.37,
+          "gaa": 7.21,
+          "faceoff_win_percent": 50.64
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Tweek",
+              "value": 169.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 56.0
+            },
+            {
+              "player_name": "Square",
+              "value": 46.0
+            },
+            {
+              "player_name": "Chaos",
+              "value": 36.0
+            },
+            {
+              "player_name": "PoppaNut",
+              "value": 36.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Tweek",
+              "value": 68.0
+            },
+            {
+              "player_name": "Chaos",
+              "value": 57.0
+            },
+            {
+              "player_name": "sweatshirt",
+              "value": 52.0
+            },
+            {
+              "player_name": "Square",
+              "value": 42.0
+            },
+            {
+              "player_name": "Kili",
+              "value": 41.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Tweek",
+              "value": 237.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 95.0
+            },
+            {
+              "player_name": "Chaos",
+              "value": 93.0
+            },
+            {
+              "player_name": "Square",
+              "value": 88.0
+            },
+            {
+              "player_name": "sweatshirt",
+              "value": 72.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Tweek",
+              "value": 304.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 118.0
+            },
+            {
+              "player_name": "Square",
+              "value": 106.0
+            },
+            {
+              "player_name": "Chaos",
+              "value": 95.0
+            },
+            {
+              "player_name": "PoppaNut",
+              "value": 66.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Tweek",
+              "value": 131.0
+            },
+            {
+              "player_name": "Chaos",
+              "value": 84.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 78.0
+            },
+            {
+              "player_name": "sweatshirt",
+              "value": 62.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 47.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "TEE",
+              "value": 106.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 90.0
+            },
+            {
+              "player_name": "Kili",
+              "value": 82.0
+            },
+            {
+              "player_name": "Square",
+              "value": 81.0
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 77.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Tweek",
+              "value": 171.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 153.0
+            },
+            {
+              "player_name": "Square",
+              "value": 120.0
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 104.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 99.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "sweatshirt",
+              "value": 66.1
+            },
+            {
+              "player_name": "Chaos",
+              "value": 59.57
+            },
+            {
+              "player_name": "TEE",
+              "value": 55.84
+            },
+            {
+              "player_name": "Tweek",
+              "value": 55.62
+            },
+            {
+              "player_name": "Kili",
+              "value": 54.84
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Tweek",
+              "value": 31.0
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 21.0
+            },
+            {
+              "player_name": "Square",
+              "value": 18.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 16.0
+            },
+            {
+              "player_name": "EggsThink",
+              "value": 16.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Tweek",
+              "value": 2
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 2
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 1
+            },
+            {
+              "player_name": "Square",
+              "value": 1
+            },
+            {
+              "player_name": "Graves",
+              "value": 1
+            }
+          ]
+        },
+        "teams": [
+          "Champaign Champagne",
+          "Los Angeles Comets",
+          "Michigan Magic",
+          "Ottawa Valley Puck Slappers"
+        ],
+        "seasons": [
+          "spring_2026",
+          "fall_2025",
+          "summer_2025"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 7328.0,
+          "blocks": 22226.0,
+          "faceoffs_lost": 10325.0,
+          "faceoffs_won": 10653.0,
+          "goals": 8883.0,
+          "passes": 80664.0,
+          "periods_played": 11968.0,
+          "points": 16211.0,
+          "possession_time_sec": 166974.0,
+          "post_hits": 3856.0,
+          "primary_assists": 6019.0,
+          "saves": 10561.0,
+          "secondary_assists": 1323.0,
+          "shots": 19385.0,
+          "takeaways": 16288.0,
+          "turnovers": 16239.0,
+          "goals_against": 31338.0,
+          "shots_against": 67646.0,
+          "games_played": 4908.0,
+          "faceoffs_total": 20978.0,
+          "shot_percent": 45.82,
+          "save_percent": 15.61,
+          "gaa": 6.39,
+          "faceoff_win_percent": 50.78
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "EggsThink",
+              "value": 816.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 608.0
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 478.0
+            },
+            {
+              "player_name": "Tweek",
+              "value": 277.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 262.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "BroBurgota",
+              "value": 657.0
+            },
+            {
+              "player_name": "EggsThink",
+              "value": 503.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 384.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 238.0
+            },
+            {
+              "player_name": "Chaos",
+              "value": 172.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "EggsThink",
+              "value": 1319.0
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 1135.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 992.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 500.0
+            },
+            {
+              "player_name": "Tweek",
+              "value": 409.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "EggsThink",
+              "value": 1866.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 1405.0
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 1151.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 575.0
+            },
+            {
+              "player_name": "Tweek",
+              "value": 539.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "BroBurgota",
+              "value": 1418.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 1048.0
+            },
+            {
+              "player_name": "EggsThink",
+              "value": 1031.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 605.0
+            },
+            {
+              "player_name": "Chaos",
+              "value": 406.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "BroBurgota",
+              "value": 1836.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 566.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 407.0
+            },
+            {
+              "player_name": "EggsThink",
+              "value": 302.0
+            },
+            {
+              "player_name": "Hammertime9000",
+              "value": 260.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "BroBurgota",
+              "value": 1616.0
+            },
+            {
+              "player_name": "EggsThink",
+              "value": 764.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 763.0
+            },
+            {
+              "player_name": "Robthegreat97",
+              "value": 751.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 674.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Graves",
+              "value": 69.67
+            },
+            {
+              "player_name": "Camp",
+              "value": 68.42
+            },
+            {
+              "player_name": "trevwings",
+              "value": 66.78
+            },
+            {
+              "player_name": "BAM",
+              "value": 66.67
+            },
+            {
+              "player_name": "PHO",
+              "value": 66.0
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "EggsThink",
+              "value": 415.0
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 334.0
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 218.0
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 166.0
+            },
+            {
+              "player_name": "Robthegreat97",
+              "value": 145.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "EggsThink",
+              "value": 18
+            },
+            {
+              "player_name": "BroBurgota",
+              "value": 17
+            },
+            {
+              "player_name": "Troy Bolton",
+              "value": 14
+            },
+            {
+              "player_name": "AboveAverageJoe",
+              "value": 13
+            },
+            {
+              "player_name": "Napa0",
+              "value": 6
+            }
+          ]
+        },
+        "teams": [
+          "Battle Creek Kings",
+          "Central Champagne",
+          "Champaign Champagne",
+          "Cowtown Ottawa Big Mouth Billy Bass",
+          "Edmonton Beauties",
+          "Garden Grove Geekbars",
+          "Greenland Ducklings",
+          "Los Angeles Comets",
+          "Mexico Menace",
+          "Michigan Mafia",
+          "Michigan Magic",
+          "Michigan Malus",
+          "New England Blazing Stars",
+          "No Name Nighthawks",
+          "Ottawa Drinkers",
+          "Ottawa Valley Bench Warmers",
+          "Ottawa Valley Bible Buddies",
+          "Ottawa Valley Bowling Alleys",
+          "Ottawa Valley Ferrari Bazingas",
+          "Ottawa Valley Frost Strike",
+          "Ottawa Valley Geriatric Slappers",
+          "Ottawa Valley Ham and Eggs",
+          "Ottawa Valley Hammy and Friends",
+          "Ottawa Valley Hockey Team",
+          "Ottawa Valley Hot Fries",
+          "Ottawa Valley Ice Weasels",
+          "Ottawa Valley Island Boys",
+          "Ottawa Valley Post Dingers",
+          "Ottawa Valley Puck Slappers",
+          "Ottawa Valley Rubber Duckies",
+          "Ottawa Valley Sigma Wolves",
+          "Ottawa Valley Slap Tuahs",
+          "Ottawa Valley Slappers With Attitude",
+          "Ottawa Valley Stick Slappers",
+          "Ottawa Valley Super Bunnies",
+          "Ottawa Valley Tater Tots",
+          "Ottawa Valley Wood Slappers",
+          "St. Cloud Storm"
+        ],
+        "seasons": [
+          "spring_2026",
+          "winter_2026",
+          "fall_2025",
+          "summer_2025",
+          "spring_2025",
+          "winter_2025",
+          "fall_2024",
+          "summer_2024",
+          "spring_2024",
+          "winter_2024",
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "",
+    "franchise_name": "",
+    "status": "active",
+    "description": "",
+    "founders": [
+      ""
+    ],
+    "owners": [
+      ""
+    ],
+    "part_owners": [
+      ""
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "",
+        "retired_number": "",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": false,
+        "career": {
+          "points": 0,
+          "shot_percent": 0,
+          "save_percent": 0,
+          "gaa": 0,
+          "faceoffs_total": 0,
+          "faceoff_win_percent": 0
+        },
+        "leaders": {
+          "goals": [],
+          "assists": [],
+          "points": [],
+          "shots": [],
+          "takeaways": [],
+          "saves": [],
+          "blocks": [],
+          "faceoff_percent": [],
+          "games_played": [],
+          "seasons_played": []
+        },
+        "teams": [],
+        "seasons": []
+      },
+      "all_divisions": {
+        "has_data": false,
+        "career": {
+          "points": 0,
+          "shot_percent": 0,
+          "save_percent": 0,
+          "gaa": 0,
+          "faceoffs_total": 0,
+          "faceoff_win_percent": 0
+        },
+        "leaders": {
+          "goals": [],
+          "assists": [],
+          "points": [],
+          "shots": [],
+          "takeaways": [],
+          "saves": [],
+          "blocks": [],
+          "faceoff_percent": [],
+          "games_played": [],
+          "seasons_played": []
+        },
+        "teams": [],
+        "seasons": []
+      }
+    }
   }
 ]

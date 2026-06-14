@@ -40,6 +40,54 @@
         <summary>Franchise Leaders (All Divisions)</summary>
         <div class="leader-grid" id="leadersAll"></div>
     </details>
+
+    <details class="franchise-section">
+        <summary>Franchise Player Stats</summary>
+
+        <div class="controls">
+            <input
+                type="text"
+                id="franchisePlayerSearch"
+                placeholder="Search player..."
+            />
+        </div>
+
+        <div class="table-wrapper">
+            <table id="franchisePlayerTable">
+                <thead>
+                    <tr>
+                        <th class="stat-header">#</th>
+                        <th class="stat-header">Player</th>
+
+                        <th data-sort="games_played" class="stat-header">GP</th>
+                        <th data-sort="periods_played" class="stat-header">Per</th>
+                        <th data-sort="seasons_played" class="stat-header">Szns</th>
+
+                        <th data-sort="goals" class="stat-header">G</th>
+                        <th data-sort="assists" class="stat-header">A</th>
+                        <th data-sort="points" class="stat-header">P</th>
+
+                        <th data-sort="shots" class="stat-header">SOG</th>
+                        <th data-sort="saves" class="stat-header">SV</th>
+                        <th data-sort="blocks" class="stat-header">BLKS</th>
+
+                        <th data-sort="faceoffs_won" class="stat-header">FOW</th>
+                        <th data-sort="faceoffs_lost" class="stat-header">FOL</th>
+
+                        <th data-sort="takeaways" class="stat-header">TA</th>
+                        <th data-sort="turnovers" class="stat-header">TO</th>
+
+                        <th data-sort="post_hits" class="stat-header">PH</th>
+                        <th data-sort="passes" class="stat-header">PASS</th>
+
+                        <th data-sort="possession_time_sec" class="stat-header">Poss</th>
+                    </tr>
+                </thead>
+
+                <tbody></tbody>
+            </table>
+        </div>
+    </details>
   </main>
 
   <script src="assets/js/franchise.js"></script>

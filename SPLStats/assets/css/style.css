@@ -497,10 +497,15 @@ TEAM PAGE HELPERS
 }
 
 
+
+
+
+
+
 /* 
-========================================
+============================================================================
 SLAP ID STYLER
-========================================
+============================================================================
 */
 
 .slap-id-card {
@@ -543,10 +548,15 @@ SLAP ID STYLER
 }
 
 
+
+
+
+
+
 /* 
-========================================
+============================================================================
 TEAM SEARCH STYLER
-========================================
+============================================================================
 */
 
 
@@ -754,7 +764,6 @@ Franchise Leader Stylers
     border: 1px solid var(--franchise-primary);
     border-radius: 8px;
     margin-bottom: 16px;
-    overflow: hidden;
 }
 
 .franchise-section summary {
@@ -769,8 +778,6 @@ Franchise Leader Stylers
 .franchise-section > *:not(summary) {
     padding: 0 16px 16px 16px;
 }
-
-
 
 
 /*
@@ -844,4 +851,175 @@ Franchise custom coloring
 
 .franchise-page .team-hub-card h2 {
   color: var(--franchise-accent);
+}
+
+/*Franchise Player Stats Table Helper*/
+#franchisePlayerTable td:nth-child(2),
+#franchisePlayerTable th:nth-child(2) {
+    min-width: 180px;
+}
+
+.franchise-page .stat-header {
+    color: var(--franchise-accent);
+    background: var(--franchise-header)
+}
+
+.franchise-page #franchisePlayerTable thead {
+    background: var(--franchise-surface);
+}
+
+.franchise-page #franchisePlayerTable th {
+    color: var(--franchise-accent);
+    border-color: var(--franchise-primary);
+}
+
+.franchise-page #franchisePlayerTable td {
+    border-color: var(--franchise-primary);
+}
+
+.franchise-page #franchisePlayerTable tbody {
+  background: var(--franchise-surface);
+}
+
+.franchise-page #franchisePlayerTable tbody tr:nth-child(even) {
+    background: rgba(255,255,255,0.03);
+}
+
+.franchise-page #franchisePlayerTable a {
+    color: var(--franchise-accent);
+    text-decoration: none;
+}
+
+.franchise-page #franchisePlayerTable tbody tr:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+.franchise-page #franchisePlayerTable a:hover {
+    color: var(--franchise-primary);
+}
+
+.franchise-page #franchisePlayerTable th {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background: var(--franchise-surface);
+
+    box-shadow:
+        inset 0 -2px 0 var(--franchise-primary);
+}
+
+
+
+
+
+
+/*
+============================================================================
+FRANCHISES BROWSER STYLERS
+============================================================================
+*/
+
+
+/* Grid */
+.franchise-hub-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fill,
+            minmax(320px, 1fr)
+        );
+
+    gap: 16px;
+}
+
+.franchise-hub-card,
+.franchise-hub-card:hover,
+.franchise-hub-card:visited {
+    text-decoration: none;
+}
+
+
+/* Card */
+.franchise-hub-card {
+
+    background:
+        var(--franchise-background);
+
+    border:
+        2px solid
+        var(--franchise-primary);
+
+    border-radius: 8px;
+
+    padding: 16px;
+
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 180px;
+
+    transition:
+        transform 0.15s ease;
+
+    text-decoration: none;
+}
+
+.franchise-hub-card:hover {
+    transform:
+        translateY(-2px);
+}
+
+/* Name */
+.franchise-card-name {
+    text-align: center;
+
+    color:
+        var(--franchise-primary);
+
+    font-size: 2.0rem;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+/* Stats */
+.franchise-card-stats {
+    display: flex;
+
+    justify-content: space-evenly;
+
+    margin: 20px 0;
+}
+
+.franchise-stat {
+    text-align: center;
+}
+
+.franchise-card-label {
+    color:
+        var(--franchise-accent);
+}
+
+.franchise-card-value {
+    color: white;
+
+    font-size: 3rem;
+
+    font-weight: bold;
+}
+
+/* Founded */
+.franchise-card-founded {
+
+    margin-top: auto;
+
+    color:
+        var(--franchise-secondary);
+
+    font-size: 0.9rem;
 }
