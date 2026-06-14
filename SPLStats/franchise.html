@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Franchise | SPLStats</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="franchise-page">
+  <header>
+    <h1 id="franchiseName">Franchise</h1>
+    <p id="franchiseStatus"></p>
+    <div id="franchiseHeaderStats" class="stat-grid"></div>
+    <p><a href="index.html">← Back to Leaderboard</a></p>
+  </header>
+
+  <main>
+    <details open class="franchise-section">
+        <summary>Franchise Info</summary>
+        <div id="franchiseInfo"></div>
+    </details>
+
+    <details open class="franchise-section">
+        <summary>Teams</summary>
+        <div id="franchiseTeams" class="team-hub-grid"></div>
+    </details>
+
+    <details class="franchise-section">
+        <summary>Hall of Fame</summary>
+        <div id="franchiseHOF"></div>
+    </details>
+    
+    <details class="franchise-section" id="franchiseLeadersPro">
+        <summary>Franchise Leaders (Pro Division)</summary>
+        <div class="leader-grid" id="leadersPro"></div>
+    </details>
+
+    <details class="franchise-section" id="franchiseLeadersAll">
+        <summary>Franchise Leaders (All Divisions)</summary>
+        <div class="leader-grid" id="leadersAll"></div>
+    </details>
+  </main>
+
+  <script src="assets/js/franchise.js"></script>
+</body>
+</html>

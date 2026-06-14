@@ -1,0 +1,634 @@
+[
+  {
+    "franchise_id": "hot_springs",
+    "franchise_name": "Hot Springs",
+    "status": "inactive",
+    "description": "",
+    "founders": [
+      "DarthTaksil",
+      "Orange",
+      "Agent P",
+      "Hammy33"
+    ],
+    "owners": [
+      "DarthTaksil",
+      "Orange",
+      "Agent P",
+      "YmisScarab"
+    ],
+    "part_owners": [
+      "N1xoh",
+      "Pino",
+      "Gubby"
+    ],
+    "coaches": [
+      "Cheese"
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Jonnyboy",
+        "retired_number": "50",
+        "retired_date": "2021-10-23",
+        "induction_speech": "Our first inductee into our Hall of Flame, with great pride and honor, we would like to present the best Linebacker this organization will ever see, jonnyboy1207.<br><br> No better canidate could we have asked for to step foot in our organization.  Working with him daily was the highlight of my career and I wish Jonnyboy the best when it comes to future endeavors.<br>Thank you, Jonnyboy."
+      },
+      {
+        "player": "Hammy",
+        "retired_number": "33",
+        "retired_date": "2022-01-23",
+        "induction_speech": "Our Second inductee into our Hall of Flame, Hammy.<br><br> Our founding father and the best Bench Warmer this organization will ever see. Not a single other person enters my mind when I think of who I wanted to build a Slapshot Team with.  Hammy might not have been with the franchise too long but his impression will live on forever through us.<br><br>Thank you, Hammy."
+      },
+      {
+        "player": "MDub",
+        "retired_number": "30",
+        "retired_date": "2022-01-24",
+        "induction_speech": "Our Third inductee into our Hall of Flame, MDub.<br><br> Our most promising prospect this franchise had to date entered into retirement early due to the consumption of shampoo. We wish him well with his future endevours and future oportunities in his young slapshot career. May one day he make pro and all of us proud.<br><br>Thank you, Mdub."
+      },
+      {
+        "player": "Dizruption",
+        "retired_number": "43",
+        "retired_date": "2023/03/30",
+        "induction_speech": "Our Fourth Inductee into the Hall of Flame, Dizruption.<br><br> It is our honor to showcase one of our most prominent playmakers to date.  Whether it be psychological warfare or helping usher the franchise into the era it stands now.  Without him the Tamales would not have found the home they did in pro of Season 8. Showing up early and leaving late to nearly every practice in your time in Hot Springs, we will never forget you.<br><br>We thank you Dizruption for your work ethic, your talent, and the impression you have brought to and left on our facilities.  May fortune be as kind to you as you were to us."
+      },
+      {
+        "player": "Zartholomew",
+        "retired_number": "1",
+        "retired_date": "2023-03-31",
+        "induction_speech": "Our Fifth Inductee into the Hall of Flame, Zartholomew.<br><br> The physical embodiment of 'He Shoots, He Scores.' Zartholomew has been a dominating force on the Hot Springs offense. At the time of this announcement, he has scored the most goals out of everyone who dawned the Flames. He may have only gotten to spend 3 seasons with us, but his legacy will be felt by everyone around the organization for years to come. I'll never forget the day we were walking down Seneca Drive when I tripped and fell onto the train tracks beside the road as a train was coming, only to have Zartholomew scoop me up and carry me to safety as the train came barreling by. We thank you for your on-ice and off-ice efforts that have blessed this organization day in and day out.<br><br>We appreciate everything you brought to our table—the competitive atmosphere, the hunger to win, the edge to drive on. We hope that your next chapter in life, whether it's on SPL ice or not, will show you the same kindness you showed us."
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Hot Springs Hot Tamales",
+        "order": 1,
+        "start_season": "fall_2021",
+        "end_season": "summer_2024",
+        "notes": ""
+      },
+      {
+        "team": "Hot Springs Red Hots",
+        "order": 2,
+        "start_season": "winter_2022",
+        "end_season": "winter_2024",
+        "notes": ""
+      },
+      {
+        "team": "Hot Springs Hot Doggers",
+        "order": 5,
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Hot Springs Cinnamon Bears",
+        "order": 4,
+        "start_season": "winter_2023",
+        "end_season": "fall_2023",
+        "notes": ""
+      },
+      {
+        "team": "Hot Springs Hot Doritos",
+        "order": 3,
+        "start_season": "winter_2023",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Hot Springs Hot Fries",
+        "order": 6,
+        "start_season": "summer_2023",
+        "end_season": "summer_2023",
+        "notes": ""
+      },
+      {
+        "team": "Death Valley Tuskan Raiders",
+        "order": 7,
+        "start_season": "fall_2023",
+        "end_season": "fall_2023",
+        "notes": "First adopted team by Hot Springs that didnt use the Hot Springs Location"
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 63.0,
+          "blocks": 49.0,
+          "faceoffs_lost": 205.0,
+          "faceoffs_won": 95.0,
+          "goals": 90.0,
+          "passes": 679.0,
+          "points": 153.0,
+          "possession_time_sec": 1289.0,
+          "post_hits": 39.0,
+          "primary_assists": 50.0,
+          "saves": 151.0,
+          "secondary_assists": 13.0,
+          "shots": 196.0,
+          "takeaways": 138.0,
+          "turnovers": 188.0,
+          "goals_against": 591.0,
+          "shots_against": 1094.0,
+          "games_played": 60.0,
+          "faceoffs_total": 300.0,
+          "shot_percent": 45.92,
+          "save_percent": 13.8,
+          "gaa": 9.85,
+          "faceoff_win_percent": 31.67
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Gubby",
+              "value": 32.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 26.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 20.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 10.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 2.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Gubby",
+              "value": 23.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 17.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 15.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 7.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 1.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Gubby",
+              "value": 55.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 41.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 37.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 17.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 3.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Gubby",
+              "value": 64.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 57.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 41.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 28.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 6.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Gubby",
+              "value": 56.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 30.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 29.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 20.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 3.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Gubby",
+              "value": 51.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 42.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 28.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 27.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 3.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Gubby",
+              "value": 18.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 14.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 12.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 4.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 1.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Zartholomew",
+              "value": 37.35
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 29.63
+            },
+            {
+              "player_name": "Gubby",
+              "value": 27.27
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Gubby",
+              "value": 17.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 16.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 15.0
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 9.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 3.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Zartholomew",
+              "value": 1
+            },
+            {
+              "player_name": "Gubby",
+              "value": 1
+            },
+            {
+              "player_name": "DeeZy",
+              "value": 1
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 1
+            },
+            {
+              "player_name": "Agent P",
+              "value": 1
+            }
+          ]
+        },
+        "teams": [
+          "Hot Springs Hot Tamales"
+        ],
+        "seasons": [
+          "winter_2023"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 1984.0,
+          "blocks": 1447.0,
+          "faceoffs_lost": 3635.0,
+          "faceoffs_won": 2849.0,
+          "goals": 2525.0,
+          "passes": 21324.0,
+          "periods_played": 2067.0,
+          "points": 4509.0,
+          "possession_time_sec": 38705.0,
+          "post_hits": 1121.0,
+          "primary_assists": 1669.0,
+          "saves": 3583.0,
+          "secondary_assists": 336.0,
+          "shots": 5468.0,
+          "takeaways": 4379.0,
+          "turnovers": 5607.0,
+          "goals_against": 10514.0,
+          "shots_against": 22809.0,
+          "games_played": 1482.0,
+          "faceoffs_total": 6484.0,
+          "shot_percent": 46.18,
+          "save_percent": 15.71,
+          "gaa": 7.09,
+          "faceoff_win_percent": 43.94
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Gubby",
+              "value": 243.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 179.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 178.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 164.0
+            },
+            {
+              "player_name": "CorruptWolfy",
+              "value": 155.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Gubby",
+              "value": 219.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 193.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 175.0
+            },
+            {
+              "player_name": "Cheespup",
+              "value": 174.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 109.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Gubby",
+              "value": 462.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 353.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 340.0
+            },
+            {
+              "player_name": "Cheespup",
+              "value": 294.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 288.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Gubby",
+              "value": 523.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 381.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 378.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 358.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 358.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Gubby",
+              "value": 492.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 460.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 339.0
+            },
+            {
+              "player_name": "Cheespup",
+              "value": 318.0
+            },
+            {
+              "player_name": "Cyoue",
+              "value": 250.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "YmisScarab",
+              "value": 1028.0
+            },
+            {
+              "player_name": "Gubby",
+              "value": 308.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 286.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 279.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 230.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Gubby",
+              "value": 271.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 189.0
+            },
+            {
+              "player_name": "Cheespup",
+              "value": 171.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 135.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 86.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "DeeZy",
+              "value": 57.38
+            },
+            {
+              "player_name": "noxu",
+              "value": 56.25
+            },
+            {
+              "player_name": "Cheespup",
+              "value": 54.23
+            },
+            {
+              "player_name": "Pino",
+              "value": 54.21
+            },
+            {
+              "player_name": "Cloudii",
+              "value": 51.25
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "YmisScarab",
+              "value": 146.0
+            },
+            {
+              "player_name": "Gubby",
+              "value": 125.0
+            },
+            {
+              "player_name": "Dizruption",
+              "value": 95.0
+            },
+            {
+              "player_name": "Cheespup",
+              "value": 91.0
+            },
+            {
+              "player_name": "Agent P",
+              "value": 76.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Agent P",
+              "value": 10
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 9
+            },
+            {
+              "player_name": "Gubby",
+              "value": 7
+            },
+            {
+              "player_name": "poopklown",
+              "value": 7
+            },
+            {
+              "player_name": "YoungBuck",
+              "value": 6
+            }
+          ]
+        },
+        "teams": [
+          "Death Valley Tuskan Raiders",
+          "Hot Springs Cinnamon Bears",
+          "Hot Springs Hot Doggers",
+          "Hot Springs Hot Doritos",
+          "Hot Springs Hot Fries",
+          "Hot Springs Hot Tamales",
+          "Hot Springs Red Hots"
+        ],
+        "seasons": [
+          "summer_2024",
+          "spring_2024",
+          "winter_2024",
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021"
+        ]
+      }
+    }
+  }
+]

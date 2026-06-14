@@ -1,1 +1,131 @@
-[]
+[
+
+    {
+    "franchise_id": "hot_springs",
+    "franchise_name": "Hot Springs",
+    "status": "inactive",
+
+    "theme": {
+        "primary": "#cc0021",
+        "secondary": "#1a1a1a",
+        "accent": "#ecad14",
+
+        "background": "#121212",
+        "card": "#1a1a1a",
+        "surface": "#121212",
+        "header": "#2c2c2c"
+    },
+
+    "description": "",
+
+    "founders": [
+        "DarthTaksil",
+        "Orange",
+        "Agent P",
+        "Hammy33"
+    ],
+
+    "owners": [
+        "DarthTaksil",
+        "Orange",
+        "Agent P",
+        "YmisScarab"
+    ],
+
+    "part_owners": [
+        "N1xoh",
+        "Pino",
+        "Gubby"
+    ],
+
+    "coaches": [
+        "Cheese"
+    ],
+
+    "hall_of_fame": [
+        {
+            "player": "Jonnyboy",
+            "retired_number": "50",
+            "retired_date": "2021-10-23",
+            "induction_speech": "Our first inductee into our Hall of Flame, with great pride and honor, we would like to present the best Linebacker this organization will ever see, jonnyboy1207.<br><br> No better canidate could we have asked for to step foot in our organization.  Working with him daily was the highlight of my career and I wish Jonnyboy the best when it comes to future endeavors.<br>Thank you, Jonnyboy."
+        },
+        {
+            "player": "Hammy",
+            "retired_number": "33",
+            "retired_date": "2022-01-23",
+            "induction_speech": "Our Second inductee into our Hall of Flame, Hammy.<br><br> Our founding father and the best Bench Warmer this organization will ever see. Not a single other person enters my mind when I think of who I wanted to build a Slapshot Team with.  Hammy might not have been with the franchise too long but his impression will live on forever through us.<br><br>Thank you, Hammy."
+        },
+        {
+            "player": "MDub",
+            "retired_number": "30",
+            "retired_date": "2022-01-24",
+            "induction_speech": "Our Third inductee into our Hall of Flame, MDub.<br><br> Our most promising prospect this franchise had to date entered into retirement early due to the consumption of shampoo. We wish him well with his future endevours and future oportunities in his young slapshot career. May one day he make pro and all of us proud.<br><br>Thank you, Mdub."
+        },
+        {
+            "player": "Dizruption",
+            "retired_number": "43",
+            "retired_date": "2023/03/30",
+            "induction_speech": "Our Fourth Inductee into the Hall of Flame, Dizruption.<br><br> It is our honor to showcase one of our most prominent playmakers to date.  Whether it be psychological warfare or helping usher the franchise into the era it stands now.  Without him the Tamales would not have found the home they did in pro of Season 8. Showing up early and leaving late to nearly every practice in your time in Hot Springs, we will never forget you.<br><br>We thank you Dizruption for your work ethic, your talent, and the impression you have brought to and left on our facilities.  May fortune be as kind to you as you were to us."
+        },
+        {
+            "player": "Zartholomew",
+            "retired_number": "1",
+            "retired_date": "2023-03-31",
+            "induction_speech": "Our Fifth Inductee into the Hall of Flame, Zartholomew.<br><br> The physical embodiment of 'He Shoots, He Scores.' Zartholomew has been a dominating force on the Hot Springs offense. At the time of this announcement, he has scored the most goals out of everyone who dawned the Flames. He may have only gotten to spend 3 seasons with us, but his legacy will be felt by everyone around the organization for years to come. I'll never forget the day we were walking down Seneca Drive when I tripped and fell onto the train tracks beside the road as a train was coming, only to have Zartholomew scoop me up and carry me to safety as the train came barreling by. We thank you for your on-ice and off-ice efforts that have blessed this organization day in and day out.<br><br>We appreciate everything you brought to our table—the competitive atmosphere, the hunger to win, the edge to drive on. We hope that your next chapter in life, whether it's on SPL ice or not, will show you the same kindness you showed us."
+        }
+    ],
+
+    "memberships": [
+            {
+            "team": "Hot Springs Hot Tamales",
+            "order": 1,
+            "start_season": "fall_2021",
+            "end_season": "summer_2024",
+            "notes": ""
+            },
+            {
+            "team": "Hot Springs Red Hots",
+            "order": 2,
+            "start_season": "winter_2022",
+            "end_season": "winter_2024",
+            "notes": ""
+            },
+            {
+            "team": "Hot Springs Hot Doggers",
+            "order": 5,
+            "start_season": "spring_2024",
+            "end_season": "spring_2024",
+            "notes": ""
+            },
+            {
+            "team": "Hot Springs Cinnamon Bears",
+            "order": 4,
+            "start_season": "winter_2023",
+            "end_season": "fall_2023",
+            "notes": ""
+            },
+            {
+            "team": "Hot Springs Hot Doritos",
+            "order": 3,
+            "start_season": "winter_2023",
+            "end_season": "spring_2024",
+            "notes": ""
+            },
+            {
+            "team": "Hot Springs Hot Fries",
+            "order": 6,
+            "start_season": "summer_2023",
+            "end_season": "summer_2023",
+            "notes": ""
+            },
+            {
+            "team": "Death Valley Tuskan Raiders",
+            "order": 7,
+            "start_season": "fall_2023",
+            "end_season": "fall_2023",
+            "notes": "First adopted team by Hot Springs that didnt use the Hot Springs Location"
+            }
+        ]
+    }
+
+]
