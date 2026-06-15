@@ -1,8 +1,8 @@
 let players = [];
-let sortKey = "points";
+let sortKey = "games_played";
 let sortDirection = "desc";
 let activeRegion = "all";
-let activeSeasonType = "combined";
+let activeSeasonType = "regular_season";
 let activeDivision = "all";
 
 const tbody = document.querySelector("#leaderboard tbody");

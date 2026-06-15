@@ -18,53 +18,64 @@
   <meta name="twitter:image" content="https://taksillabs.com/SPLStats/assets/images/splstats-card.png" />
 
 </head>
-<body>
-  <header>
-    <h1>SPLStats</h1>
-    <p>All-Time Slapshot Premier League Statistics</p>
-  </header>
 
-  <main>
-    <section class="controls">
 
-      <div class="region-buttons">
-        <button data-region="all" class="active">All</button>
-        <button data-region="east">East</button>
-        <button data-region="central">Central</button>
-        <button data-region="west">West</button>
-      </div>
+<body class="splash-page">
 
-      <div class="season-type-buttons">
-        <button data-season-type="regular_season" class="active">Regular Season</button>
-        <button data-season-type="postseason">Post Season</button>
-        <button data-season-type="combined">Combined</button>
-      </div>
+    <header class="hero">
+        <div class="hero-overlay">
 
-      <div class="division-buttons" id="divisionButtons"></div>
+            <div class="hero-brand">
+                TAKSILABS
+            </div>
 
-      <input id="searchInput" type="text" placeholder="Search player..." />
-    </section>
+            <div class="hero-title">
+                SPLSTATS
+            </div>
 
-    <section class="table-wrap">
-      <table id="leaderboard">
-        <thead>
-          <tr>
-            <th data-stat="rank">Rank</th>
-            <th data-stat="player_name">Player</th>
-            <th data-stat="games_played">GP</th>
-            <th data-stat="goals">G</th>
-            <th data-stat="assists">A</th>
-            <th data-stat="points">PTS</th>
-            <th data-stat="shots">Shots</th>
-            <th data-stat="saves">Saves</th>
-            <th data-stat="blocks">Blocks</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </section>
-  </main>
+            <div class="hero-tagline">
+                YOUR HOME FOR SPL STATISTICS
+            </div>
 
-  <script src="assets/js/app.js"></script>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hub-grid">
+
+            <a href="players.html" class="hub-card players">
+                <div class="hub-card-title">
+                    PLAYERS
+                </div>
+
+                <div class="hub-card-description">
+                    Historical player statistics, records, and leaderboards.
+                </div>
+            </a>
+
+            <a href="teams.html" class="hub-card teams">
+                <div class="hub-card-title">
+                    TEAMS
+                </div>
+
+                <div class="hub-card-description">
+                    Browse team histories and all-time rosters.
+                </div>
+            </a>
+
+            <a href="franchises.html" class="hub-card franchises">
+                <div class="hub-card-title">
+                    FRANCHISES
+                </div>
+
+                <div class="hub-card-description">
+                    Explore organizations and franchise legacies.
+                </div>
+            </a>
+
+        </section>
+
+    </main>
+
 </body>
-</html>

@@ -1,3 +1,296 @@
+/*
+============================================================================
+SITE NAV STYLERS
+============================================================================
+*/
+
+.site-nav {
+
+    position: fixed;
+
+    top: 20px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+
+    z-index: 1000;
+}
+
+.nav-card {
+
+    background: rgba(0,0,0,0.8);
+
+    border: 2px solid ;
+
+    border-radius: 8px;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-family: Evogria;
+
+    padding: 10px 18px;
+
+    min-width: 80px;
+
+    text-align: center;
+
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+.nav-home {
+    border-color: white;
+}
+
+.nav-players {
+    border-color: #00BCD4;
+}
+
+.nav-teams {
+    border-color: #F2C95D;
+}
+
+.nav-franchises {
+    border-color: #FF4646;
+}
+
+.nav-card:hover {
+    transform: translateX(4px);
+    text-decoration: none;
+}
+
+.nav-card.active {
+    border-color: #121212;
+    color: #565656;
+}
+
+.nav-home:hover {
+    box-shadow: 0 0 12px rgba(255,255,255,0.5);
+}
+
+.nav-players:hover {
+    box-shadow: 0 0 12px rgba(0,188,212,0.5);
+}
+
+.nav-teams:hover {
+    box-shadow: 0 0 12px rgba(242,201,93,0.5);
+}
+
+.nav-franchises:hover {
+    box-shadow: 0 0 12px rgba(255,70,70,0.5);
+}
+
+
+
+
+
+/*
+============================================================================
+HOMEPAGE STYLERS
+============================================================================
+*/
+
+.hero {
+  min-height: 500px;
+
+  background-image:
+    url("../images/rink-background.png");
+
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.hero-overlay {
+
+    backdrop-filter: blur(4px);
+
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-brand {
+
+    color: #12c7d8;
+
+    font-family: Evogria;
+
+    font-size: 5rem;
+
+    text-shadow:
+      -5px 5px 0 #000;
+}
+
+.hero-title {
+
+    color: #f2c95d;
+
+    font-family: Evogria;
+
+    font-size: 6rem;
+
+    text-shadow:
+      -5px 5px 0 #000;
+}
+
+.hero-tagline {
+
+    color: white;
+
+    font-family: Evogria;
+
+    font-size: 2rem;
+
+    text-shadow:
+      -3px 3px 0 #000;
+}
+
+
+/* Grid */
+.hub-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 24px;
+
+    max-width: 1400px;
+
+    margin: 50px auto;
+
+    padding: 0 20px;
+}
+
+/* Card Base */
+.hub-card {
+
+    min-height: 180px;
+
+    padding: 32px;
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+/* Hover */
+.hub-card:hover {
+
+    transform:
+        translateY(-4px);
+
+    box-shadow:
+        0 8px 24px rgba(0,0,0,0.35);
+
+    text-decoration: none;
+}
+
+/* Title */
+.hub-card-title {
+
+    font-family: Evogria;
+
+    font-size: 2.5rem;
+
+    margin-bottom: 16px;
+}
+
+/* Description */
+.hub-card-description {
+
+    color: white;
+
+    font-size: 1rem;
+
+    line-height: 1.5;
+}
+
+/* Par Card Themes */
+.players {
+
+    background:
+        rgba(0, 150, 180, 0.20);
+
+    border:
+        2px solid #00BCD4;
+}
+
+.players .hub-card-title {
+    color: #00BCD4;
+}
+
+/* Team Card Themes */
+.teams {
+
+    background:
+        rgba(242, 201, 93, 0.15);
+
+    border:
+        2px solid #F2C95D;
+}
+
+.teams .hub-card-title {
+    color: #F2C95D;
+}
+
+/* Franchise Card Theme */
+.franchises {
+
+    background:
+        rgba(255, 70, 70, 0.15);
+
+    border:
+        2px solid #FF4646;
+}
+
+.franchises .hub-card-title {
+    color: #FF4646;
+}
+
+/**/
+@media (max-width: 1000px) {
+
+    .hub-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+/*
+============================================================================
+GENERAL STYLERS
+============================================================================
+*/
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
