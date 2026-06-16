@@ -567,55 +567,246 @@
 
 
     {
-    "franchise_id": "",
-    "franchise_name": "",
+    "franchise_id": "vader",
+    "franchise_name": "Vader",
     "status": "active",
     "founded": "null",
 
     "theme": {
-        "primary": "#cc0021",
-        "secondary": "#1a1a1a",
-        "accent": "#ecad14",
-
-        "background": "#121212",
-        "card": "#1a1a1a",
-        "surface": "#121212",
-        "header": "#2c2c2c"
+        "primary": "#5A5A5A",
+        "secondary": "#2F2F2F",
+        "accent": "#B22222",
+        "background": "#050505",
+        "card": "#121212",
+        "surface": "#1E1E1E"
     },
 
     "description": "",
 
     "founders": [
-        "Kajun"
+        "Galalendon"
     ],
 
     "owners": [
-        "Kajun"
+        "Galalendon"
     ],
 
     "part_owners": [
-        "Manied"
+        ""
     ],
 
     "coaches": [
-        "Kajun",
-        "Buf"
+        ""
     ],
 
     "hall_of_fame": [
         {
-            "player": "player_name",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+            "player": "Goatwalker",
+            "retired_number": "n/a",
+            "retired_date": "2025-06-08",
+            "induction_speech": "The leader is so many stats I couldn't list them all here, Ghostwalker more like Goatwalker, a goalscoring machine who was played at every level of Vader."
+        },{
+            "player": "Azzeatinszn",
+            "retired_number": "n/a",
+            "retired_date": "2025-06-08",
+            "induction_speech": "The first MVP in franchise history, Azz is the veteran, a team leader, and an absolute menace in a board battle."
+        },{
+            "player": "I GET NO HUZZ",
+            "retired_number": "n/a",
+            "retired_date": "2025-06-08",
+            "induction_speech": "The definition of hard work pays off, Huzz worked his way from JSA B team to captaining two SPL teams in one season, winning a chip along the way!"
+        },{
+            "player": "pvW",
+            "retired_number": "n/a",
+            "retired_date": "2025-06-08",
+            "induction_speech": "The greatest 3 in Vader history, his slick moves, incredible saves, and competitive edge makes him a force on the ice."
+        },{
+            "player": "Galalendon",
+            "retired_number": "n/a",
+            "retired_date": "2025-06-08",
+            "induction_speech": "Just some guy, he's okay at making stuff look good off the ice."
+        },{
+            "player": "oFlick",
+            "retired_number": "n/a",
+            "retired_date": "2025-12-10",
+            "induction_speech": "A champion with multiple chips, great mechanics and the head of the Scouting Department."
+        },{
+            "player": "Drpecker",
+            "retired_number": "n/a",
+            "retired_date": "2025-12-10",
+            "induction_speech": "The most well rounded among us, with life, personality, and amazing vibes."
+        },{
+            "player": "Filip Chytil Stan",
+            "retired_number": "n/a",
+            "retired_date": "2025-12-10",
+            "induction_speech": "The greatest pub pick-up in Vader History, inventor of the Chytil Maneuver and defintion of passion."
+        },{
+            "player": "meenimizer",
+            "retired_number": "n/a",
+            "retired_date": "2026-04-04",
+            "induction_speech": "A menace to play against on any server but East, 3s everywhere hate him, and pubs fear him."
+        },{
+            "player": "Ackattack",
+            "retired_number": "n/a",
+            "retired_date": "2026-04-04",
+            "induction_speech": "The Big A himself, master scouter, IM Chip winner, Central B finalist, who takes after Maurice Richard himself with his tenacity."
+        },{
+            "player": "Lucki",
+            "retired_number": "n/a",
+            "retired_date": "2026-04-04",
+            "induction_speech": "Once considered the best prospect Pro had ever seen, now one of the best Pro has ever seen; our very own superstar."
         }
     ],
 
     "memberships": [
             {
-            "team": "",
+            "team": "Vader Inquisitors",
             "order": 1,
-            "start_season": "",
+            "start_season": "spring_2025",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Central Attackers",
+            "order": 1,
+            "start_season": "fall_2025",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Eastern Attackers",
+            "order": 1,
+            "start_season": "fall_2025",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Acolytes",
+            "order": 1,
+            "start_season": "fall_2025",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Wookies",
+            "order": 1,
+            "start_season": "winter_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader 66ers",
+            "order": 1,
+            "start_season": "winter_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Gungans",
+            "order": 1,
+            "start_season": "fall_2025",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Troopers",
+            "order": 1,
+            "start_season": "summer_2025",
+            "end_season": "fall_2025",
+            "notes": ""
+            },{
+            "team": "Vader Bens",
+            "order": 1,
+            "start_season": "winter_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Enforcers",
+            "order": 1,
+            "start_season": "summer_2025",
+            "end_season": "fall_2025",
+            "notes": ""
+            },{
+            "team": "Vader Starkillers Central",
+            "order": 1,
+            "start_season": "spring_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Voltage Eastern",
+            "order": 1,
+            "start_season": "spring_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Guards",
+            "order": 1,
+            "start_season": "fall_2025",
+            "end_season": "fall_2025",
+            "notes": ""
+            },{
+            "team": "Vader Starkillers East",
+            "order": 1,
+            "start_season": "spring_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Voltage - Central",
+            "order": 1,
+            "start_season": "spring_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Leias",
+            "order": 1,
+            "start_season": "winter_2026",
+            "end_season": "winter_2026",
+            "notes": ""
+            },{
+            "team": "Vader Raiders",
+            "order": 1,
+            "start_season": "spring_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Disciples",
+            "order": 1,
+            "start_season": "winter_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Revanites",
+            "order": 1,
+            "start_season": "spring_2026",
+            "end_season": "",
+            "notes": ""
+            },{
+            "team": "Vader Vapors",
+            "order": 1,
+            "start_season": "fall_2025",
+            "end_season": "fall_2025",
+            "notes": ""
+            },{
+            "team": "Vader Destroyers",
+            "order": 1,
+            "start_season": "fall_2025",
+            "end_season": "fall_2025",
+            "notes": ""
+            },{
+            "team": "Vader Jabbas",
+            "order": 1,
+            "start_season": "winter_2026",
+            "end_season": "winter_2026",
+            "notes": ""
+            },{
+            "team": "Vader Western Inquisitors",
+            "order": 1,
+            "start_season": "summer_2025",
+            "end_season": "sumemr_2025",
+            "notes": ""
+            },{
+            "team": "Vader Droids",
+            "order": 1,
+            "start_season": "summer_2025",
+            "end_season": "sumemr_2025",
+            "notes": ""
+            },{
+            "team": "Vader AT-AT's",
+            "order": 1,
+            "start_season": "spring_2026",
             "end_season": "",
             "notes": ""
             }

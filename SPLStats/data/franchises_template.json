@@ -1,0 +1,55 @@
+{
+    "franchise_id": "",
+    "franchise_name": "",
+    "status": "active",
+    "founded": "yyyy-mm-dd",
+
+    "theme": {
+        "primary": "#cc0021",
+        "secondary": "#1a1a1a",
+        "accent": "#ecad14",
+
+        "background": "#121212",
+        "card": "#1a1a1a",
+        "surface": "#121212",
+        "header": "#2c2c2c"
+    },
+
+    "description": "",
+
+    "founders": [
+        ""
+    ],
+
+    "owners": [
+        ""
+    ],
+
+    "part_owners": [
+        ""
+    ],
+
+    "coaches": [
+        "",
+        ""
+    ],
+
+    "hall_of_fame": [
+        {
+            "player": "player_name",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+        }
+    ],
+
+    "memberships": [
+        {
+            "team": "",
+            "order": 1,
+            "start_season": "",
+            "end_season": "",
+            "notes": ""
+        }
+    ]
+}

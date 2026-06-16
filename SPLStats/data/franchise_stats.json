@@ -2136,90 +2136,810 @@
     }
   },
   {
-    "franchise_id": "",
-    "franchise_name": "",
+    "franchise_id": "vader",
+    "franchise_name": "Vader",
     "status": "active",
     "description": "",
     "founders": [
-      "Kajun"
+      "Galalendon"
     ],
     "owners": [
-      "Kajun"
+      "Galalendon"
     ],
     "part_owners": [
-      "Manied"
+      ""
     ],
     "coaches": [
-      "Kajun",
-      "Buf"
+      ""
     ],
     "hall_of_fame": [
       {
-        "player": "player_name",
-        "retired_number": "##",
-        "retired_date": "yyyy-mm-dd",
-        "induction_speech": ""
+        "player": "Goatwalker",
+        "retired_number": "n/a",
+        "retired_date": "2025-06-08",
+        "induction_speech": "The leader is so many stats I couldn't list them all here, Ghostwalker more like Goatwalker, a goalscoring machine who was played at every level of Vader."
+      },
+      {
+        "player": "Azzeatinszn",
+        "retired_number": "n/a",
+        "retired_date": "2025-06-08",
+        "induction_speech": "The first MVP in franchise history, Azz is the veteran, a team leader, and an absolute menace in a board battle."
+      },
+      {
+        "player": "I GET NO HUZZ",
+        "retired_number": "n/a",
+        "retired_date": "2025-06-08",
+        "induction_speech": "The definition of hard work pays off, Huzz worked his way from JSA B team to captaining two SPL teams in one season, winning a chip along the way!"
+      },
+      {
+        "player": "pvW",
+        "retired_number": "n/a",
+        "retired_date": "2025-06-08",
+        "induction_speech": "The greatest 3 in Vader history, his slick moves, incredible saves, and competitive edge makes him a force on the ice."
+      },
+      {
+        "player": "Galalendon",
+        "retired_number": "n/a",
+        "retired_date": "2025-06-08",
+        "induction_speech": "Just some guy, he's okay at making stuff look good off the ice."
+      },
+      {
+        "player": "oFlick",
+        "retired_number": "n/a",
+        "retired_date": "2025-12-10",
+        "induction_speech": "A champion with multiple chips, great mechanics and the head of the Scouting Department."
+      },
+      {
+        "player": "Drpecker",
+        "retired_number": "n/a",
+        "retired_date": "2025-12-10",
+        "induction_speech": "The most well rounded among us, with life, personality, and amazing vibes."
+      },
+      {
+        "player": "Filip Chytil Stan",
+        "retired_number": "n/a",
+        "retired_date": "2025-12-10",
+        "induction_speech": "The greatest pub pick-up in Vader History, inventor of the Chytil Maneuver and defintion of passion."
+      },
+      {
+        "player": "meenimizer",
+        "retired_number": "n/a",
+        "retired_date": "2026-04-04",
+        "induction_speech": "A menace to play against on any server but East, 3s everywhere hate him, and pubs fear him."
+      },
+      {
+        "player": "Ackattack",
+        "retired_number": "n/a",
+        "retired_date": "2026-04-04",
+        "induction_speech": "The Big A himself, master scouter, IM Chip winner, Central B finalist, who takes after Maurice Richard himself with his tenacity."
+      },
+      {
+        "player": "Lucki",
+        "retired_number": "n/a",
+        "retired_date": "2026-04-04",
+        "induction_speech": "Once considered the best prospect Pro had ever seen, now one of the best Pro has ever seen; our very own superstar."
       }
     ],
     "memberships": [
       {
-        "team": "",
+        "team": "Vader Inquisitors",
         "order": 1,
-        "start_season": "",
+        "start_season": "spring_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Central Attackers",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Eastern Attackers",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Acolytes",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Wookies",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader 66ers",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Gungans",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Troopers",
+        "order": 1,
+        "start_season": "summer_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Vader Bens",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Enforcers",
+        "order": 1,
+        "start_season": "summer_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Vader Starkillers Central",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Voltage Eastern",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Guards",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Vader Starkillers East",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Voltage - Central",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Leias",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Vader Raiders",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Disciples",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Revanites",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Vapors",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Vader Destroyers",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Vader Jabbas",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Vader Western Inquisitors",
+        "order": 1,
+        "start_season": "summer_2025",
+        "end_season": "sumemr_2025",
+        "notes": ""
+      },
+      {
+        "team": "Vader Droids",
+        "order": 1,
+        "start_season": "summer_2025",
+        "end_season": "sumemr_2025",
+        "notes": ""
+      },
+      {
+        "team": "Vader AT-AT's",
+        "order": 1,
+        "start_season": "spring_2026",
         "end_season": "",
         "notes": ""
       }
     ],
     "stats": {
       "pro": {
-        "has_data": false,
+        "has_data": true,
         "career": {
-          "points": 0,
-          "shot_percent": 0,
-          "save_percent": 0,
-          "gaa": 0,
-          "faceoffs_total": 0,
-          "faceoff_win_percent": 0
+          "assists": 411.0,
+          "blocks": 752.0,
+          "faceoffs_lost": 310.0,
+          "faceoffs_won": 393.0,
+          "goals": 391.0,
+          "passes": 3989.0,
+          "periods_played": 392.0,
+          "points": 802.0,
+          "possession_time_sec": 6356.0,
+          "post_hits": 177.0,
+          "primary_assists": 307.0,
+          "saves": 256.0,
+          "secondary_assists": 104.0,
+          "shots": 868.0,
+          "takeaways": 483.0,
+          "turnovers": 459.0,
+          "goals_against": 725.0,
+          "shots_against": 1516.0,
+          "games_played": 138.0,
+          "faceoffs_total": 703.0,
+          "shot_percent": 45.05,
+          "save_percent": 16.89,
+          "gaa": 5.25,
+          "faceoff_win_percent": 55.9
         },
         "leaders": {
-          "goals": [],
-          "assists": [],
-          "points": [],
-          "shots": [],
-          "takeaways": [],
-          "saves": [],
-          "blocks": [],
-          "faceoff_percent": [],
-          "games_played": [],
-          "seasons_played": []
+          "goals": [
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 100.0
+            },
+            {
+              "player_name": "Lucki",
+              "value": 87.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 73.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 65.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 64.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Lucki",
+              "value": 174.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 83.0
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 60.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 48.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 43.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Lucki",
+              "value": 261.0
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 160.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 148.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 121.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 107.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Lucki",
+              "value": 232.0
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 201.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 169.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 134.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 126.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Lucki",
+              "value": 155.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 89.0
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 82.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 81.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 70.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Lucki",
+              "value": 145.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 63.0
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 30.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 9.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 8.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Lucki",
+              "value": 339.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 173.0
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 148.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 57.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 28.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Lucki",
+              "value": 58.15
+            },
+            {
+              "player_name": "Blue",
+              "value": 57.89
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 56.67
+            },
+            {
+              "player_name": "TEE",
+              "value": 56.52
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 51.8
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Lucki",
+              "value": 45.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 29.0
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 28.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 16.0
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 16.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Lucki",
+              "value": 3
+            },
+            {
+              "player_name": "TEE",
+              "value": 2
+            },
+            {
+              "player_name": "9th coming of Jesus",
+              "value": 2
+            },
+            {
+              "player_name": "Blue",
+              "value": 1
+            },
+            {
+              "player_name": "GoldenKnight",
+              "value": 1
+            }
+          ]
         },
-        "teams": [],
-        "seasons": []
+        "teams": [
+          "Vader Bens",
+          "Vader Guards"
+        ],
+        "seasons": [
+          "spring_2026",
+          "winter_2026",
+          "fall_2025"
+        ]
       },
       "all_divisions": {
-        "has_data": false,
+        "has_data": true,
         "career": {
-          "points": 0,
-          "shot_percent": 0,
-          "save_percent": 0,
-          "gaa": 0,
-          "faceoffs_total": 0,
-          "faceoff_win_percent": 0
+          "assists": 3830.0,
+          "blocks": 13697.0,
+          "faceoffs_lost": 5324.0,
+          "faceoffs_won": 4999.0,
+          "goals": 4478.0,
+          "passes": 40108.0,
+          "periods_played": 6156.0,
+          "points": 8308.0,
+          "possession_time_sec": 77954.0,
+          "post_hits": 1868.0,
+          "primary_assists": 3068.0,
+          "saves": 5187.0,
+          "secondary_assists": 764.0,
+          "shots": 9600.0,
+          "takeaways": 7062.0,
+          "turnovers": 7940.0,
+          "goals_against": 14581.0,
+          "shots_against": 31920.0,
+          "games_played": 2316.0,
+          "faceoffs_total": 10323.0,
+          "shot_percent": 46.65,
+          "save_percent": 16.25,
+          "gaa": 6.3,
+          "faceoff_win_percent": 48.43
         },
         "leaders": {
-          "goals": [],
-          "assists": [],
-          "points": [],
-          "shots": [],
-          "takeaways": [],
-          "saves": [],
-          "blocks": [],
-          "faceoff_percent": [],
-          "games_played": [],
-          "seasons_played": []
+          "goals": [
+            {
+              "player_name": "Ghostwalker",
+              "value": 429.0
+            },
+            {
+              "player_name": "Flc",
+              "value": 260.0
+            },
+            {
+              "player_name": "Lucki",
+              "value": 237.0
+            },
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 230.0
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 181.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Lucki",
+              "value": 327.0
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 218.0
+            },
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 208.0
+            },
+            {
+              "player_name": "Ghostwalker",
+              "value": 191.0
+            },
+            {
+              "player_name": "Akakattack",
+              "value": 185.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Ghostwalker",
+              "value": 620.0
+            },
+            {
+              "player_name": "Lucki",
+              "value": 564.0
+            },
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 438.0
+            },
+            {
+              "player_name": "Flc",
+              "value": 400.0
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 399.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Ghostwalker",
+              "value": 852.0
+            },
+            {
+              "player_name": "Lucki",
+              "value": 595.0
+            },
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 533.0
+            },
+            {
+              "player_name": "Flc",
+              "value": 532.0
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 436.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 626.0
+            },
+            {
+              "player_name": "Lucki",
+              "value": 430.0
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 359.0
+            },
+            {
+              "player_name": "Flc",
+              "value": 353.0
+            },
+            {
+              "player_name": "Ghostwalker",
+              "value": 346.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 627.0
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 616.0
+            },
+            {
+              "player_name": "Lucki",
+              "value": 336.0
+            },
+            {
+              "player_name": "pvW.",
+              "value": 297.0
+            },
+            {
+              "player_name": "lilcricket26",
+              "value": 282.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Galalendon",
+              "value": 1100.0
+            },
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 956.0
+            },
+            {
+              "player_name": "Lucki",
+              "value": 777.0
+            },
+            {
+              "player_name": "lilcricket26",
+              "value": 603.0
+            },
+            {
+              "player_name": "Ghostwalker",
+              "value": 570.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "SolaceThunders",
+              "value": 66.67
+            },
+            {
+              "player_name": "Magix",
+              "value": 64.91
+            },
+            {
+              "player_name": "Quion Games",
+              "value": 64.06
+            },
+            {
+              "player_name": "Echo",
+              "value": 62.5
+            },
+            {
+              "player_name": "goldrush_aej2",
+              "value": 61.22
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Galalendon",
+              "value": 150.0
+            },
+            {
+              "player_name": "Ghostwalker",
+              "value": 148.0
+            },
+            {
+              "player_name": "Filip Chytil Stan",
+              "value": 138.0
+            },
+            {
+              "player_name": "Akakattack",
+              "value": 103.0
+            },
+            {
+              "player_name": "Flc",
+              "value": 96.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Ghostwalker",
+              "value": 5
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 5
+            },
+            {
+              "player_name": "pvW.",
+              "value": 5
+            },
+            {
+              "player_name": "Sylvatic",
+              "value": 4
+            },
+            {
+              "player_name": "Flc",
+              "value": 4
+            }
+          ]
         },
-        "teams": [],
-        "seasons": []
+        "teams": [
+          "Vader 66ers",
+          "Vader AT-AT's",
+          "Vader Acolytes",
+          "Vader Bens",
+          "Vader Central Attackers",
+          "Vader Destroyers",
+          "Vader Disciples",
+          "Vader Eastern Attackers",
+          "Vader Enforcers",
+          "Vader Guards",
+          "Vader Gungans",
+          "Vader Inquisitors",
+          "Vader Jabbas",
+          "Vader Leias",
+          "Vader Raiders",
+          "Vader Revanites",
+          "Vader Starkillers Central",
+          "Vader Starkillers East",
+          "Vader Troopers",
+          "Vader Vapors",
+          "Vader Voltage - Central",
+          "Vader Voltage Eastern",
+          "Vader Wookies"
+        ],
+        "seasons": [
+          "spring_2026",
+          "winter_2026",
+          "fall_2025",
+          "summer_2025",
+          "spring_2025"
+        ]
       }
     }
   }
