@@ -643,10 +643,13 @@
       "SheLovesJared"
     ],
     "owners": [
-      "Eggsthink"
+      "Eggsthink",
+      "BroBurgota",
+      "AboveAverageJoe"
     ],
     "part_owners": [
-      "null"
+      "YmisScarab",
+      "Hammy"
     ],
     "coaches": [
       "Hammy"
@@ -788,7 +791,7 @@
         "team": "Ottawa Valley Fighting Admirals",
         "order": 17,
         "start_season": "spring_2025",
-        "end_season": "sumemr_2025",
+        "end_season": "summer_2025",
         "notes": ""
       },
       {
@@ -1219,44 +1222,44 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 7328.0,
-          "blocks": 22226.0,
-          "faceoffs_lost": 10325.0,
-          "faceoffs_won": 10653.0,
-          "goals": 8883.0,
-          "passes": 80664.0,
-          "periods_played": 11968.0,
-          "points": 16211.0,
-          "possession_time_sec": 166974.0,
-          "post_hits": 3856.0,
-          "primary_assists": 6019.0,
-          "saves": 10561.0,
-          "secondary_assists": 1323.0,
-          "shots": 19385.0,
-          "takeaways": 16288.0,
-          "turnovers": 16239.0,
-          "goals_against": 31338.0,
-          "shots_against": 67646.0,
-          "games_played": 4908.0,
-          "faceoffs_total": 20978.0,
-          "shot_percent": 45.82,
-          "save_percent": 15.61,
-          "gaa": 6.39,
-          "faceoff_win_percent": 50.78
+          "assists": 7468.0,
+          "blocks": 22743.0,
+          "faceoffs_lost": 10612.0,
+          "faceoffs_won": 10887.0,
+          "goals": 9054.0,
+          "passes": 82259.0,
+          "periods_played": 12250.0,
+          "points": 16522.0,
+          "possession_time_sec": 170145.0,
+          "post_hits": 3924.0,
+          "primary_assists": 6135.0,
+          "saves": 10926.0,
+          "secondary_assists": 1347.0,
+          "shots": 19778.0,
+          "takeaways": 16633.0,
+          "turnovers": 16700.0,
+          "goals_against": 32257.0,
+          "shots_against": 69806.0,
+          "games_played": 5018.0,
+          "faceoffs_total": 21499.0,
+          "shot_percent": 45.78,
+          "save_percent": 15.65,
+          "gaa": 6.43,
+          "faceoff_win_percent": 50.64
         },
         "leaders": {
           "goals": [
             {
               "player_name": "EggsThink",
-              "value": 816.0
+              "value": 862.0
             },
             {
               "player_name": "AboveAverageJoe",
-              "value": 608.0
+              "value": 699.0
             },
             {
               "player_name": "BroBurgota",
-              "value": 478.0
+              "value": 505.0
             },
             {
               "player_name": "Tweek",
@@ -1270,15 +1273,15 @@
           "assists": [
             {
               "player_name": "BroBurgota",
-              "value": 657.0
+              "value": 702.0
             },
             {
               "player_name": "EggsThink",
-              "value": 503.0
+              "value": 533.0
             },
             {
               "player_name": "AboveAverageJoe",
-              "value": 384.0
+              "value": 417.0
             },
             {
               "player_name": "Troy Bolton",
@@ -1292,15 +1295,15 @@
           "points": [
             {
               "player_name": "EggsThink",
-              "value": 1319.0
+              "value": 1395.0
             },
             {
               "player_name": "BroBurgota",
-              "value": 1135.0
+              "value": 1207.0
             },
             {
               "player_name": "AboveAverageJoe",
-              "value": 992.0
+              "value": 1116.0
             },
             {
               "player_name": "Troy Bolton",
@@ -1314,15 +1317,15 @@
           "shots": [
             {
               "player_name": "EggsThink",
-              "value": 1866.0
+              "value": 1985.0
             },
             {
               "player_name": "AboveAverageJoe",
-              "value": 1405.0
+              "value": 1578.0
             },
             {
               "player_name": "BroBurgota",
-              "value": 1151.0
+              "value": 1213.0
             },
             {
               "player_name": "Troy Bolton",
@@ -1336,15 +1339,15 @@
           "takeaways": [
             {
               "player_name": "BroBurgota",
-              "value": 1418.0
+              "value": 1510.0
             },
             {
               "player_name": "AboveAverageJoe",
-              "value": 1048.0
+              "value": 1185.0
             },
             {
               "player_name": "EggsThink",
-              "value": 1031.0
+              "value": 1061.0
             },
             {
               "player_name": "Troy Bolton",
@@ -1358,7 +1361,7 @@
           "saves": [
             {
               "player_name": "BroBurgota",
-              "value": 1836.0
+              "value": 2025.0
             },
             {
               "player_name": "YmisScarab",
@@ -1370,7 +1373,7 @@
             },
             {
               "player_name": "EggsThink",
-              "value": 302.0
+              "value": 331.0
             },
             {
               "player_name": "Hammertime9000",
@@ -1380,11 +1383,11 @@
           "blocks": [
             {
               "player_name": "BroBurgota",
-              "value": 1616.0
+              "value": 1804.0
             },
             {
               "player_name": "EggsThink",
-              "value": 764.0
+              "value": 854.0
             },
             {
               "player_name": "Troy Bolton",
@@ -1424,15 +1427,15 @@
           "games_played": [
             {
               "player_name": "EggsThink",
-              "value": 415.0
+              "value": 447.0
             },
             {
               "player_name": "BroBurgota",
-              "value": 334.0
+              "value": 363.0
             },
             {
               "player_name": "AboveAverageJoe",
-              "value": 218.0
+              "value": 250.0
             },
             {
               "player_name": "Troy Bolton",
@@ -1453,12 +1456,12 @@
               "value": 17
             },
             {
-              "player_name": "Troy Bolton",
-              "value": 14
+              "player_name": "AboveAverageJoe",
+              "value": 15
             },
             {
-              "player_name": "AboveAverageJoe",
-              "value": 13
+              "player_name": "Troy Bolton",
+              "value": 14
             },
             {
               "player_name": "Napa0",
@@ -1486,6 +1489,7 @@
           "Ottawa Valley Bible Buddies",
           "Ottawa Valley Bowling Alleys",
           "Ottawa Valley Ferrari Bazingas",
+          "Ottawa Valley Fighting Admirals",
           "Ottawa Valley Frost Strike",
           "Ottawa Valley Geriatric Slappers",
           "Ottawa Valley Ham and Eggs",
@@ -2383,14 +2387,14 @@
         "team": "Vader Western Inquisitors",
         "order": 1,
         "start_season": "summer_2025",
-        "end_season": "sumemr_2025",
+        "end_season": "summer_2025",
         "notes": ""
       },
       {
         "team": "Vader Droids",
         "order": 1,
         "start_season": "summer_2025",
-        "end_season": "sumemr_2025",
+        "end_season": "summer_2025",
         "notes": ""
       },
       {
@@ -2665,52 +2669,52 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3830.0,
-          "blocks": 13697.0,
-          "faceoffs_lost": 5324.0,
-          "faceoffs_won": 4999.0,
-          "goals": 4478.0,
-          "passes": 40108.0,
-          "periods_played": 6156.0,
-          "points": 8308.0,
-          "possession_time_sec": 77954.0,
-          "post_hits": 1868.0,
-          "primary_assists": 3068.0,
-          "saves": 5187.0,
-          "secondary_assists": 764.0,
-          "shots": 9600.0,
-          "takeaways": 7062.0,
-          "turnovers": 7940.0,
-          "goals_against": 14581.0,
-          "shots_against": 31920.0,
-          "games_played": 2316.0,
-          "faceoffs_total": 10323.0,
-          "shot_percent": 46.65,
-          "save_percent": 16.25,
-          "gaa": 6.3,
-          "faceoff_win_percent": 48.43
+          "assists": 3881.0,
+          "blocks": 14063.0,
+          "faceoffs_lost": 5461.0,
+          "faceoffs_won": 5119.0,
+          "goals": 4562.0,
+          "passes": 40844.0,
+          "periods_played": 6309.0,
+          "points": 8443.0,
+          "possession_time_sec": 79791.0,
+          "post_hits": 1892.0,
+          "primary_assists": 3115.0,
+          "saves": 5326.0,
+          "secondary_assists": 768.0,
+          "shots": 9767.0,
+          "takeaways": 7316.0,
+          "turnovers": 8154.0,
+          "goals_against": 15010.0,
+          "shots_against": 32804.0,
+          "games_played": 2373.0,
+          "faceoffs_total": 10580.0,
+          "shot_percent": 46.71,
+          "save_percent": 16.24,
+          "gaa": 6.33,
+          "faceoff_win_percent": 48.38
         },
         "leaders": {
           "goals": [
             {
               "player_name": "Ghostwalker",
-              "value": 429.0
+              "value": 430.0
             },
             {
               "player_name": "Flc",
               "value": 260.0
             },
             {
+              "player_name": "Filip Chytil Stan",
+              "value": 242.0
+            },
+            {
               "player_name": "Lucki",
               "value": 237.0
             },
             {
-              "player_name": "Filip Chytil Stan",
-              "value": 230.0
-            },
-            {
               "player_name": "Galalendon",
-              "value": 181.0
+              "value": 196.0
             }
           ],
           "assists": [
@@ -2720,15 +2724,15 @@
             },
             {
               "player_name": "Galalendon",
-              "value": 218.0
+              "value": 224.0
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 208.0
+              "value": 215.0
             },
             {
               "player_name": "Ghostwalker",
-              "value": 191.0
+              "value": 193.0
             },
             {
               "player_name": "Akakattack",
@@ -2738,7 +2742,7 @@
           "points": [
             {
               "player_name": "Ghostwalker",
-              "value": 620.0
+              "value": 623.0
             },
             {
               "player_name": "Lucki",
@@ -2746,21 +2750,21 @@
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 438.0
+              "value": 457.0
+            },
+            {
+              "player_name": "Galalendon",
+              "value": 420.0
             },
             {
               "player_name": "Flc",
               "value": 400.0
-            },
-            {
-              "player_name": "Galalendon",
-              "value": 399.0
             }
           ],
           "shots": [
             {
               "player_name": "Ghostwalker",
-              "value": 852.0
+              "value": 856.0
             },
             {
               "player_name": "Lucki",
@@ -2768,7 +2772,7 @@
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 533.0
+              "value": 556.0
             },
             {
               "player_name": "Flc",
@@ -2776,13 +2780,13 @@
             },
             {
               "player_name": "Galalendon",
-              "value": 436.0
+              "value": 467.0
             }
           ],
           "takeaways": [
             {
               "player_name": "Filip Chytil Stan",
-              "value": 626.0
+              "value": 661.0
             },
             {
               "player_name": "Lucki",
@@ -2790,7 +2794,7 @@
             },
             {
               "player_name": "Galalendon",
-              "value": 359.0
+              "value": 375.0
             },
             {
               "player_name": "Flc",
@@ -2798,17 +2802,17 @@
             },
             {
               "player_name": "Ghostwalker",
-              "value": 346.0
+              "value": 353.0
             }
           ],
           "saves": [
             {
               "player_name": "Filip Chytil Stan",
-              "value": 627.0
+              "value": 663.0
             },
             {
               "player_name": "Galalendon",
-              "value": 616.0
+              "value": 635.0
             },
             {
               "player_name": "Lucki",
@@ -2826,11 +2830,11 @@
           "blocks": [
             {
               "player_name": "Galalendon",
-              "value": 1100.0
+              "value": 1153.0
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 956.0
+              "value": 1015.0
             },
             {
               "player_name": "Lucki",
@@ -2842,7 +2846,7 @@
             },
             {
               "player_name": "Ghostwalker",
-              "value": 570.0
+              "value": 581.0
             }
           ],
           "faceoff_percent": [
@@ -2870,15 +2874,15 @@
           "games_played": [
             {
               "player_name": "Galalendon",
-              "value": 150.0
+              "value": 157.0
             },
             {
               "player_name": "Ghostwalker",
-              "value": 148.0
+              "value": 151.0
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 138.0
+              "value": 147.0
             },
             {
               "player_name": "Akakattack",
@@ -2920,6 +2924,7 @@
           "Vader Central Attackers",
           "Vader Destroyers",
           "Vader Disciples",
+          "Vader Droids",
           "Vader Eastern Attackers",
           "Vader Enforcers",
           "Vader Guards",
@@ -2935,6 +2940,7 @@
           "Vader Vapors",
           "Vader Voltage - Central",
           "Vader Voltage Eastern",
+          "Vader Western Inquisitors",
           "Vader Wookies"
         ],
         "seasons": [
@@ -3411,21 +3417,21 @@
         "team": "Cowtown Humuhumunukunukuapuaa",
         "order": 1,
         "start_season": "spring_2021",
-        "end_season": "sumemr_2025",
+        "end_season": "summer_2025",
         "notes": ""
       },
       {
         "team": "Cowtown Dandy Skaters",
         "order": 1,
         "start_season": "summer_2024",
-        "end_season": "sumemr_2025",
+        "end_season": "summer_2025",
         "notes": ""
       },
       {
         "team": "Cowtown Guppies",
         "order": 1,
         "start_season": "winter_2021",
-        "end_season": "sumemr_2025",
+        "end_season": "summer_2025",
         "notes": ""
       },
       {
@@ -3784,136 +3790,136 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3094.0,
-          "blocks": 6857.0,
-          "faceoffs_lost": 4786.0,
-          "faceoffs_won": 4578.0,
-          "goals": 3847.0,
-          "passes": 33663.0,
-          "periods_played": 4277.0,
-          "points": 6941.0,
-          "possession_time_sec": 67116.0,
-          "post_hits": 1573.0,
-          "primary_assists": 2569.0,
-          "saves": 4595.0,
-          "secondary_assists": 521.0,
-          "shots": 8180.0,
-          "takeaways": 7909.0,
-          "turnovers": 8269.0,
-          "goals_against": 13835.0,
-          "shots_against": 28740.0,
-          "games_played": 2005.0,
-          "faceoffs_total": 9364.0,
-          "shot_percent": 47.03,
-          "save_percent": 15.99,
-          "gaa": 6.9,
-          "faceoff_win_percent": 48.89
+          "assists": 3757.0,
+          "blocks": 9199.0,
+          "faceoffs_lost": 5717.0,
+          "faceoffs_won": 5438.0,
+          "goals": 4661.0,
+          "passes": 40442.0,
+          "periods_played": 5408.0,
+          "points": 8418.0,
+          "possession_time_sec": 79702.0,
+          "post_hits": 1915.0,
+          "primary_assists": 3135.0,
+          "saves": 5465.0,
+          "secondary_assists": 618.0,
+          "shots": 9951.0,
+          "takeaways": 8947.0,
+          "turnovers": 9677.0,
+          "goals_against": 15935.0,
+          "shots_against": 33510.0,
+          "games_played": 2397.0,
+          "faceoffs_total": 11155.0,
+          "shot_percent": 46.84,
+          "save_percent": 16.31,
+          "gaa": 6.65,
+          "faceoff_win_percent": 48.75
         },
         "leaders": {
           "goals": [
+            {
+              "player_name": "Noob_Weapons",
+              "value": 380.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 364.0
+            },
             {
               "player_name": "Zartholomew",
               "value": 356.0
             },
             {
-              "player_name": "Pino",
-              "value": 216.0
+              "player_name": "LessThanDennis",
+              "value": 259.0
             },
             {
               "player_name": "illumix22",
               "value": 205.0
-            },
-            {
-              "player_name": "Noob_Weapons",
-              "value": 194.0
-            },
-            {
-              "player_name": "Quion Games",
-              "value": 137.0
             }
           ],
           "assists": [
+            {
+              "player_name": "Pino",
+              "value": 257.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 235.0
+            },
             {
               "player_name": "noxu",
               "value": 175.0
             },
             {
-              "player_name": "Pino",
-              "value": 161.0
+              "player_name": "LessThanDennis",
+              "value": 172.0
             },
             {
-              "player_name": "assassinje123",
-              "value": 156.0
-            },
-            {
-              "player_name": "Noob_Weapons",
-              "value": 135.0
-            },
-            {
-              "player_name": "Zartholomew",
-              "value": 133.0
+              "player_name": "Pip Starlather",
+              "value": 170.0
             }
           ],
           "points": [
+            {
+              "player_name": "Pino",
+              "value": 621.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 615.0
+            },
             {
               "player_name": "Zartholomew",
               "value": 489.0
             },
             {
-              "player_name": "Pino",
-              "value": 377.0
+              "player_name": "LessThanDennis",
+              "value": 431.0
             },
             {
-              "player_name": "Noob_Weapons",
-              "value": 329.0
-            },
-            {
-              "player_name": "noxu",
-              "value": 308.0
-            },
-            {
-              "player_name": "illumix22",
-              "value": 301.0
+              "player_name": "Pip Starlather",
+              "value": 370.0
             }
           ],
           "shots": [
+            {
+              "player_name": "Noob_Weapons",
+              "value": 793.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 778.0
+            },
             {
               "player_name": "Zartholomew",
               "value": 703.0
             },
             {
-              "player_name": "Pino",
-              "value": 473.0
+              "player_name": "LessThanDennis",
+              "value": 516.0
             },
             {
-              "player_name": "Noob_Weapons",
-              "value": 422.0
-            },
-            {
-              "player_name": "illumix22",
-              "value": 395.0
-            },
-            {
-              "player_name": "noxu",
-              "value": 304.0
+              "player_name": "Pip Starlather",
+              "value": 461.0
             }
           ],
           "takeaways": [
+            {
+              "player_name": "Noob_Weapons",
+              "value": 537.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 479.0
+            },
             {
               "player_name": "noxu",
               "value": 466.0
             },
             {
-              "player_name": "Noob_Weapons",
-              "value": 358.0
-            },
-            {
               "player_name": "Cman",
               "value": 330.0
-            },
-            {
-              "player_name": "Pino",
-              "value": 311.0
             },
             {
               "player_name": "Zartholomew",
@@ -3922,46 +3928,46 @@
           ],
           "saves": [
             {
+              "player_name": "jsTronix",
+              "value": 457.0
+            },
+            {
               "player_name": "Resp",
               "value": 322.0
             },
             {
-              "player_name": "jsTronix",
-              "value": 214.0
+              "player_name": "b*tt",
+              "value": 287.0
             },
             {
               "player_name": "Pino",
-              "value": 169.0
+              "value": 209.0
             },
             {
-              "player_name": "Zartholomew",
-              "value": 166.0
-            },
-            {
-              "player_name": "noxu",
-              "value": 152.0
+              "player_name": "Noob_Weapons",
+              "value": 206.0
             }
           ],
           "blocks": [
             {
-              "player_name": "assassinje123",
-              "value": 486.0
+              "player_name": "Noob_Weapons",
+              "value": 892.0
+            },
+            {
+              "player_name": "jsTronix",
+              "value": 731.0
             },
             {
               "player_name": "Pino",
-              "value": 369.0
+              "value": 613.0
             },
             {
-              "player_name": "Noob_Weapons",
-              "value": 352.0
+              "player_name": "LessThanDennis",
+              "value": 544.0
             },
             {
-              "player_name": "noxu",
-              "value": 315.0
-            },
-            {
-              "player_name": "Jakee",
-              "value": 313.0
+              "player_name": "Pip Starlather",
+              "value": 534.0
             }
           ],
           "faceoff_percent": [
@@ -3982,52 +3988,52 @@
               "value": 64.91
             },
             {
-              "player_name": "b*tt",
-              "value": 64.06
+              "player_name": "Quion Games",
+              "value": 63.71
             }
           ],
           "games_played": [
             {
               "player_name": "Pino",
-              "value": 93.0
-            },
-            {
-              "player_name": "Zartholomew",
-              "value": 90.0
+              "value": 149.0
             },
             {
               "player_name": "Noob_Weapons",
-              "value": 79.0
+              "value": 136.0
             },
             {
-              "player_name": "noxu",
-              "value": 66.0
+              "player_name": "LessThanDennis",
+              "value": 109.0
             },
             {
-              "player_name": "illumix22",
-              "value": 61.0
+              "player_name": "Pip Starlather",
+              "value": 107.0
+            },
+            {
+              "player_name": "jsTronix",
+              "value": 107.0
             }
           ],
           "seasons_played": [
             {
               "player_name": "Noob_Weapons",
-              "value": 5
-            },
-            {
-              "player_name": "Zartholomew",
-              "value": 5
-            },
-            {
-              "player_name": "Agent P",
-              "value": 5
-            },
-            {
-              "player_name": "Nayr[QC]",
-              "value": 4
+              "value": 8
             },
             {
               "player_name": "Pino",
-              "value": 4
+              "value": 7
+            },
+            {
+              "player_name": "Agent P",
+              "value": 7
+            },
+            {
+              "player_name": "LessThanDennis",
+              "value": 6
+            },
+            {
+              "player_name": "Pip Starlather",
+              "value": 6
             }
           ]
         },
@@ -4050,6 +4056,8 @@
           "Quebec Flare of Cowtown"
         ],
         "seasons": [
+          "summer_2025",
+          "spring_2025",
           "winter_2025",
           "fall_2024",
           "summer_2024",
@@ -4632,22 +4640,128 @@
     "status": "inactive",
     "description": "",
     "founders": [
-      "Dylinho"
+      "Dylinho",
+      "Dil",
+      "Pierre Houde"
     ],
     "owners": [
       "Dylinho",
       "Pierre Houde"
     ],
     "part_owners": [
-      "halleJOKEL"
+      "halleJOKEL",
+      "Dil"
     ],
     "coaches": [
-      "",
-      ""
+      "Dil",
+      "Couture",
+      "Crusade"
     ],
     "hall_of_fame": [
       {
-        "player": "player_name",
+        "player": "Blue",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Dylinho",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Pierre Houde",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Dil",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Hallejokel",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Trout",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Jaax",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Chris",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "D-lew",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Lezura",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Berm",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Raidd",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Zantle",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Couture",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "IAMFOREHEAD",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Snail",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Billy",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Spinach",
         "retired_number": "##",
         "retired_date": "yyyy-mm-dd",
         "induction_speech": ""
@@ -4679,7 +4793,7 @@
         "team": "Carolina Bassmasters",
         "order": 1,
         "start_season": "winter_2023",
-        "end_season": "sumemr_2025",
+        "end_season": "summer_2025",
         "notes": ""
       },
       {
@@ -4695,36 +4809,92 @@
         "start_season": "winter_2023",
         "end_season": "winter_2023",
         "notes": ""
+      },
+      {
+        "team": "Astoria Hellhounds",
+        "order": 1,
+        "start_season": "s12",
+        "end_season": "s13",
+        "notes": ""
+      },
+      {
+        "team": "Bermuda Seadevils",
+        "order": 1,
+        "start_season": "s11",
+        "end_season": "s11",
+        "notes": ""
+      },
+      {
+        "team": "Windycity Watchmen",
+        "order": 1,
+        "start_season": "s8",
+        "end_season": "s13",
+        "notes": ""
+      },
+      {
+        "team": "",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
       }
     ],
     "stats": {
       "pro": {
         "has_data": true,
         "career": {
-          "assists": 643.0,
-          "blocks": 502.0,
-          "faceoffs_lost": 727.0,
-          "faceoffs_won": 774.0,
-          "goals": 668.0,
-          "passes": 7698.0,
-          "points": 1311.0,
-          "possession_time_sec": 14035.0,
-          "post_hits": 295.0,
-          "primary_assists": 504.0,
-          "saves": 842.0,
-          "secondary_assists": 139.0,
-          "shots": 1508.0,
-          "takeaways": 1231.0,
-          "turnovers": 1164.0,
-          "goals_against": 2017.0,
-          "shots_against": 4810.0,
-          "games_played": 329.0,
-          "faceoffs_total": 1501.0,
-          "periods_played": 588.0,
-          "shot_percent": 44.3,
-          "save_percent": 17.51,
-          "gaa": 6.13,
-          "faceoff_win_percent": 51.57
+          "assists": 811.0,
+          "blocks": 1180.0,
+          "faceoffs_lost": 1040.0,
+          "faceoffs_won": 997.0,
+          "goals": 864.0,
+          "passes": 9634.0,
+          "points": 1675.0,
+          "possession_time_sec": 17238.0,
+          "post_hits": 381.0,
+          "primary_assists": 640.0,
+          "saves": 1203.0,
+          "secondary_assists": 171.0,
+          "shots": 1929.0,
+          "takeaways": 1569.0,
+          "turnovers": 1583.0,
+          "goals_against": 2912.0,
+          "shots_against": 6887.0,
+          "games_played": 436.0,
+          "faceoffs_total": 2037.0,
+          "periods_played": 881.0,
+          "shot_percent": 44.79,
+          "save_percent": 17.47,
+          "gaa": 6.68,
+          "faceoff_win_percent": 48.94
         },
         "leaders": {
           "goals": [
@@ -4737,22 +4907,26 @@
               "value": 121.0
             },
             {
+              "player_name": "jaax",
+              "value": 106.0
+            },
+            {
               "player_name": "Couture",
               "value": 93.0
             },
             {
-              "player_name": "jaax",
-              "value": 52.0
-            },
-            {
-              "player_name": "Crusade",
-              "value": 46.0
+              "player_name": "Chrislol",
+              "value": 76.0
             }
           ],
           "assists": [
             {
               "player_name": "Couture",
               "value": 116.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 100.0
             },
             {
               "player_name": "Blue",
@@ -4764,11 +4938,7 @@
             },
             {
               "player_name": "Chrislol",
-              "value": 63.0
-            },
-            {
-              "player_name": "IAM FOREHEAD",
-              "value": 48.0
+              "value": 82.0
             }
           ],
           "points": [
@@ -4781,16 +4951,16 @@
               "value": 209.0
             },
             {
+              "player_name": "jaax",
+              "value": 206.0
+            },
+            {
               "player_name": "Dylinho",
               "value": 205.0
             },
             {
-              "player_name": "IAM FOREHEAD",
-              "value": 92.0
-            },
-            {
-              "player_name": "Crusade",
-              "value": 90.0
+              "player_name": "Chrislol",
+              "value": 158.0
             }
           ],
           "shots": [
@@ -4803,22 +4973,26 @@
               "value": 238.0
             },
             {
+              "player_name": "jaax",
+              "value": 237.0
+            },
+            {
               "player_name": "Couture",
               "value": 227.0
             },
             {
-              "player_name": "Crusade",
-              "value": 114.0
-            },
-            {
-              "player_name": "jaax",
-              "value": 114.0
+              "player_name": "Chrislol",
+              "value": 180.0
             }
           ],
           "takeaways": [
             {
               "player_name": "Chrislol",
-              "value": 237.0
+              "value": 291.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 217.0
             },
             {
               "player_name": "Couture",
@@ -4831,16 +5005,16 @@
             {
               "player_name": "Kspyre",
               "value": 96.0
-            },
-            {
-              "player_name": "Dylinho",
-              "value": 92.0
             }
           ],
           "saves": [
             {
+              "player_name": "jaax",
+              "value": 299.0
+            },
+            {
               "player_name": "Chrislol",
-              "value": 243.0
+              "value": 256.0
             },
             {
               "player_name": "Dylinho",
@@ -4853,13 +5027,13 @@
             {
               "player_name": "IAM FOREHEAD",
               "value": 43.0
-            },
-            {
-              "player_name": "jaax",
-              "value": 39.0
             }
           ],
           "blocks": [
+            {
+              "player_name": "jaax",
+              "value": 327.0
+            },
             {
               "player_name": "Couture",
               "value": 120.0
@@ -4869,16 +5043,12 @@
               "value": 109.0
             },
             {
-              "player_name": "Dylinho",
-              "value": 94.0
+              "player_name": "Mollenkoffee",
+              "value": 101.0
             },
             {
               "player_name": "Chrislol",
-              "value": 47.0
-            },
-            {
-              "player_name": "Kspyre",
-              "value": 22.0
+              "value": 98.0
             }
           ],
           "faceoff_percent": [
@@ -4887,12 +5057,12 @@
               "value": 63.24
             },
             {
-              "player_name": "Chrislol",
-              "value": 61.07
-            },
-            {
               "player_name": "Blue",
               "value": 60.12
+            },
+            {
+              "player_name": "Chrislol",
+              "value": 59.09
             },
             {
               "player_name": "Bangaled",
@@ -4905,6 +5075,10 @@
           ],
           "games_played": [
             {
+              "player_name": "jaax",
+              "value": 60.0
+            },
+            {
               "player_name": "Dylinho",
               "value": 47.0
             },
@@ -4913,16 +5087,12 @@
               "value": 44.0
             },
             {
+              "player_name": "Chrislol",
+              "value": 39.0
+            },
+            {
               "player_name": "Blue",
               "value": 35.0
-            },
-            {
-              "player_name": "Chrislol",
-              "value": 29.0
-            },
-            {
-              "player_name": "jaax",
-              "value": 27.0
             }
           ],
           "seasons_played": [
@@ -4931,20 +5101,20 @@
               "value": 4
             },
             {
+              "player_name": "jaax",
+              "value": 4
+            },
+            {
+              "player_name": "halleJOKEL",
+              "value": 4
+            },
+            {
               "player_name": "Dylinho",
               "value": 3
             },
             {
-              "player_name": "Blue",
-              "value": 2
-            },
-            {
-              "player_name": "IAM FOREHEAD",
-              "value": 2
-            },
-            {
               "player_name": "Chrislol",
-              "value": 2
+              "value": 3
             }
           ]
         },
@@ -4953,6 +5123,8 @@
           "Coaticook Stars"
         ],
         "seasons": [
+          "summer_2025",
+          "winter_2025",
           "fall_2024",
           "winter_2024",
           "fall_2023",
@@ -4964,30 +5136,30 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3600.0,
-          "blocks": 3466.0,
-          "faceoffs_lost": 4058.0,
-          "faceoffs_won": 4411.0,
-          "goals": 3952.0,
-          "passes": 35834.0,
-          "points": 7552.0,
-          "possession_time_sec": 65695.0,
-          "post_hits": 1688.0,
-          "primary_assists": 2866.0,
-          "saves": 4137.0,
-          "secondary_assists": 734.0,
-          "shots": 8348.0,
-          "takeaways": 6147.0,
-          "turnovers": 6020.0,
-          "goals_against": 11332.0,
-          "shots_against": 25238.0,
-          "games_played": 1838.0,
-          "faceoffs_total": 8469.0,
-          "periods_played": 3338.0,
-          "shot_percent": 47.34,
-          "save_percent": 16.39,
-          "gaa": 6.17,
-          "faceoff_win_percent": 52.08
+          "assists": 3882.0,
+          "blocks": 4675.0,
+          "faceoffs_lost": 4574.0,
+          "faceoffs_won": 4763.0,
+          "goals": 4291.0,
+          "passes": 38934.0,
+          "points": 8173.0,
+          "possession_time_sec": 70906.0,
+          "post_hits": 1836.0,
+          "primary_assists": 3102.0,
+          "saves": 4748.0,
+          "secondary_assists": 780.0,
+          "shots": 9055.0,
+          "takeaways": 6723.0,
+          "turnovers": 6752.0,
+          "goals_against": 12661.0,
+          "shots_against": 28549.0,
+          "games_played": 2016.0,
+          "faceoffs_total": 9337.0,
+          "periods_played": 3831.0,
+          "shot_percent": 47.39,
+          "save_percent": 16.63,
+          "gaa": 6.28,
+          "faceoff_win_percent": 51.01
         },
         "leaders": {
           "goals": [
@@ -5000,19 +5172,23 @@
               "value": 350.0
             },
             {
+              "player_name": "jaax",
+              "value": 339.0
+            },
+            {
               "player_name": "dlew.",
               "value": 275.0
             },
             {
               "player_name": "Lezura",
               "value": 253.0
-            },
-            {
-              "player_name": "jaax",
-              "value": 246.0
             }
           ],
           "assists": [
+            {
+              "player_name": "jaax",
+              "value": 302.0
+            },
             {
               "player_name": "dlew.",
               "value": 290.0
@@ -5027,14 +5203,14 @@
             },
             {
               "player_name": "Big Trout",
-              "value": 215.0
-            },
-            {
-              "player_name": "Raidd",
-              "value": 213.0
+              "value": 219.0
             }
           ],
           "points": [
+            {
+              "player_name": "jaax",
+              "value": 641.0
+            },
             {
               "player_name": "dlew.",
               "value": 565.0
@@ -5050,16 +5226,16 @@
             {
               "player_name": "Lezura",
               "value": 483.0
-            },
-            {
-              "player_name": "jaax",
-              "value": 433.0
             }
           ],
           "shots": [
             {
               "player_name": "Zantle",
               "value": 724.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 697.0
             },
             {
               "player_name": "Raidd",
@@ -5070,22 +5246,18 @@
               "value": 570.0
             },
             {
-              "player_name": "jaax",
-              "value": 490.0
-            },
-            {
               "player_name": "Lezura",
               "value": 458.0
             }
           ],
           "takeaways": [
             {
-              "player_name": "Big Trout",
-              "value": 436.0
+              "player_name": "jaax",
+              "value": 650.0
             },
             {
-              "player_name": "jaax",
-              "value": 394.0
+              "player_name": "Big Trout",
+              "value": 461.0
             },
             {
               "player_name": "Raidd",
@@ -5096,18 +5268,18 @@
               "value": 368.0
             },
             {
-              "player_name": "dlew.",
-              "value": 350.0
+              "player_name": "Chrislol",
+              "value": 359.0
             }
           ],
           "saves": [
             {
-              "player_name": "dlew.",
-              "value": 492.0
+              "player_name": "jaax",
+              "value": 899.0
             },
             {
-              "player_name": "jaax",
-              "value": 473.0
+              "player_name": "dlew.",
+              "value": 492.0
             },
             {
               "player_name": "Dylinho",
@@ -5119,13 +5291,17 @@
             },
             {
               "player_name": "Chrislol",
-              "value": 300.0
+              "value": 313.0
             }
           ],
           "blocks": [
             {
               "player_name": "jaax",
-              "value": 447.0
+              "value": 995.0
+            },
+            {
+              "player_name": "halleJOKEL",
+              "value": 348.0
             },
             {
               "player_name": "dlew.",
@@ -5133,15 +5309,11 @@
             },
             {
               "player_name": "Dil",
-              "value": 192.0
+              "value": 293.0
             },
             {
               "player_name": "Pierre Houde",
-              "value": 177.0
-            },
-            {
-              "player_name": "halleJOKEL",
-              "value": 156.0
+              "value": 265.0
             }
           ],
           "faceoff_percent": [
@@ -5168,8 +5340,16 @@
           ],
           "games_played": [
             {
+              "player_name": "jaax",
+              "value": 163.0
+            },
+            {
               "player_name": "dlew.",
               "value": 124.0
+            },
+            {
+              "player_name": "halleJOKEL",
+              "value": 122.0
             },
             {
               "player_name": "Berm",
@@ -5178,17 +5358,21 @@
             {
               "player_name": "Lezura",
               "value": 117.0
-            },
-            {
-              "player_name": "Raidd",
-              "value": 116.0
-            },
-            {
-              "player_name": "Zantle",
-              "value": 109.0
             }
           ],
           "seasons_played": [
+            {
+              "player_name": "halleJOKEL",
+              "value": 11
+            },
+            {
+              "player_name": "Big Trout",
+              "value": 10
+            },
+            {
+              "player_name": "jaax",
+              "value": 9
+            },
             {
               "player_name": "dlew.",
               "value": 8
@@ -5196,18 +5380,6 @@
             {
               "player_name": "Zantle",
               "value": 8
-            },
-            {
-              "player_name": "Big Trout",
-              "value": 8
-            },
-            {
-              "player_name": "halleJOKEL",
-              "value": 8
-            },
-            {
-              "player_name": "Raidd",
-              "value": 7
             }
           ]
         },
@@ -5220,6 +5392,9 @@
           "Coaticook Supernovas"
         ],
         "seasons": [
+          "summer_2025",
+          "spring_2025",
+          "winter_2025",
           "fall_2024",
           "summer_2024",
           "spring_2024",
@@ -5245,19 +5420,12 @@
       "Pino"
     ],
     "part_owners": [
-      ""
+      "maki itoh"
     ],
     "coaches": [
-      ""
+      "Acro"
     ],
-    "hall_of_fame": [
-      {
-        "player": "player_name",
-        "retired_number": "##",
-        "retired_date": "yyyy-mm-dd",
-        "induction_speech": ""
-      }
-    ],
+    "hall_of_fame": [],
     "memberships": [
       {
         "team": "Winnipeg Wrath",
@@ -5562,6 +5730,662 @@
           "summer_2020",
           "spring_2020",
           "winter_2020"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "barrie",
+    "franchise_name": "Barrie",
+    "status": "active",
+    "description": "",
+    "founders": [
+      ""
+    ],
+    "owners": [
+      "Looees"
+    ],
+    "part_owners": [
+      ""
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "player_name",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Barrie Bald Boys",
+        "order": 1,
+        "start_season": "summer_2024",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Ice Hounds",
+        "order": 1,
+        "start_season": "summer_2025",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Rink Reapers",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "spring_2026",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Beaver Brigade",
+        "order": 1,
+        "start_season": "fall_2024",
+        "end_season": "summer_2025",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Bag Chasers",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Bird Killers",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Bobos",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Belgian Waffles",
+        "order": 1,
+        "start_season": "spring_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Bunsen Burners",
+        "order": 1,
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "notes": ""
+      },
+      {
+        "team": "Barrie 36ers",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Bulldogs",
+        "order": 1,
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Bruised Bananas",
+        "order": 1,
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "notes": ""
+      },
+      {
+        "team": "Barrie Wild Warriors",
+        "order": 1,
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 353.0,
+          "blocks": 1178.0,
+          "faceoffs_lost": 557.0,
+          "faceoffs_won": 489.0,
+          "goals": 393.0,
+          "passes": 3761.0,
+          "periods_played": 537.0,
+          "points": 746.0,
+          "possession_time_sec": 6783.0,
+          "post_hits": 165.0,
+          "primary_assists": 281.0,
+          "saves": 608.0,
+          "secondary_assists": 72.0,
+          "shots": 817.0,
+          "takeaways": 593.0,
+          "turnovers": 770.0,
+          "goals_against": 1690.0,
+          "shots_against": 3598.0,
+          "games_played": 189.0,
+          "faceoffs_total": 1046.0,
+          "shot_percent": 48.1,
+          "save_percent": 16.9,
+          "gaa": 8.94,
+          "faceoff_win_percent": 46.75
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Tridoxity",
+              "value": 86.0
+            },
+            {
+              "player_name": "Pissy Yonky",
+              "value": 52.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 47.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 40.0
+            },
+            {
+              "player_name": "Taco",
+              "value": 38.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Beefus",
+              "value": 68.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 54.0
+            },
+            {
+              "player_name": "Tridoxity",
+              "value": 46.0
+            },
+            {
+              "player_name": "Taco",
+              "value": 36.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 35.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Tridoxity",
+              "value": 132.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 99.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 94.0
+            },
+            {
+              "player_name": "Pissy Yonky",
+              "value": 85.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 82.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Tridoxity",
+              "value": 182.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 109.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 103.0
+            },
+            {
+              "player_name": "Pissy Yonky",
+              "value": 93.0
+            },
+            {
+              "player_name": "Taco",
+              "value": 85.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Charles",
+              "value": 109.0
+            },
+            {
+              "player_name": "Tridoxity",
+              "value": 90.0
+            },
+            {
+              "player_name": "Taco",
+              "value": 85.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 73.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 69.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Beefus",
+              "value": 258.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 95.0
+            },
+            {
+              "player_name": "Taco",
+              "value": 75.0
+            },
+            {
+              "player_name": "FolapaFish",
+              "value": 29.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 28.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Beefus",
+              "value": 228.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 181.0
+            },
+            {
+              "player_name": "Taco",
+              "value": 163.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 150.0
+            },
+            {
+              "player_name": "FolapaFish",
+              "value": 117.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Beefus",
+              "value": 59.33
+            },
+            {
+              "player_name": "Bangaled",
+              "value": 56.76
+            },
+            {
+              "player_name": "Charles",
+              "value": 51.75
+            },
+            {
+              "player_name": "sweatshirt",
+              "value": 50.0
+            },
+            {
+              "player_name": "Pissy Yonky",
+              "value": 46.85
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Tridoxity",
+              "value": 30.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 26.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 23.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 22.0
+            },
+            {
+              "player_name": "Pissy Yonky",
+              "value": 19.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Charles",
+              "value": 3
+            },
+            {
+              "player_name": "Tridoxity",
+              "value": 2
+            },
+            {
+              "player_name": "Pissy Yonky",
+              "value": 2
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 2
+            },
+            {
+              "player_name": "Beefus",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Barrie 36ers",
+          "Barrie Bald Boys"
+        ],
+        "seasons": [
+          "spring_2026",
+          "winter_2026",
+          "summer_2025"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 2684.0,
+          "blocks": 7988.0,
+          "faceoffs_lost": 3292.0,
+          "faceoffs_won": 3685.0,
+          "goals": 3131.0,
+          "passes": 26592.0,
+          "periods_played": 3847.0,
+          "points": 5815.0,
+          "possession_time_sec": 55953.0,
+          "post_hits": 1293.0,
+          "primary_assists": 2150.0,
+          "saves": 3343.0,
+          "secondary_assists": 534.0,
+          "shots": 6561.0,
+          "takeaways": 5301.0,
+          "turnovers": 4951.0,
+          "goals_against": 9528.0,
+          "shots_against": 20239.0,
+          "games_played": 1385.0,
+          "faceoffs_total": 6977.0,
+          "shot_percent": 47.72,
+          "save_percent": 16.52,
+          "gaa": 6.88,
+          "faceoff_win_percent": 52.82
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "meatballer36",
+              "value": 308.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 292.0
+            },
+            {
+              "player_name": "Tridoxity",
+              "value": 244.0
+            },
+            {
+              "player_name": "hit",
+              "value": 235.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 169.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Beefus",
+              "value": 259.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 240.0
+            },
+            {
+              "player_name": "hit",
+              "value": 168.0
+            },
+            {
+              "player_name": "Pissy Yonky",
+              "value": 141.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 131.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "meatballer36",
+              "value": 548.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 428.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 423.0
+            },
+            {
+              "player_name": "hit",
+              "value": 403.0
+            },
+            {
+              "player_name": "Tridoxity",
+              "value": 362.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "meatballer36",
+              "value": 652.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 580.0
+            },
+            {
+              "player_name": "hit",
+              "value": 497.0
+            },
+            {
+              "player_name": "Tridoxity",
+              "value": 459.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 351.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "meatballer36",
+              "value": 526.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 408.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 394.0
+            },
+            {
+              "player_name": "Rat",
+              "value": 301.0
+            },
+            {
+              "player_name": "hit",
+              "value": 293.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Beefus",
+              "value": 796.0
+            },
+            {
+              "player_name": "Cheddx",
+              "value": 288.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 228.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 137.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 115.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Beefus",
+              "value": 892.0
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 794.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 492.0
+            },
+            {
+              "player_name": "hit",
+              "value": 350.0
+            },
+            {
+              "player_name": "Skeetshooter42",
+              "value": 339.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "9=9",
+              "value": 70.9
+            },
+            {
+              "player_name": "Ender",
+              "value": 67.39
+            },
+            {
+              "player_name": "Crayon",
+              "value": 67.27
+            },
+            {
+              "player_name": "Beefus",
+              "value": 61.45
+            },
+            {
+              "player_name": "Quion Games",
+              "value": 60.67
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "meatballer36",
+              "value": 123.0
+            },
+            {
+              "player_name": "Beefus",
+              "value": 116.0
+            },
+            {
+              "player_name": "hit",
+              "value": 101.0
+            },
+            {
+              "player_name": "Looees",
+              "value": 85.0
+            },
+            {
+              "player_name": "Tridoxity",
+              "value": 68.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "hit",
+              "value": 7
+            },
+            {
+              "player_name": "meatballer36",
+              "value": 6
+            },
+            {
+              "player_name": "Beefus",
+              "value": 6
+            },
+            {
+              "player_name": "Looees",
+              "value": 5
+            },
+            {
+              "player_name": "Lucki",
+              "value": 4
+            }
+          ]
+        },
+        "teams": [
+          "Barrie 36ers",
+          "Barrie Bag Chasers",
+          "Barrie Bald Boys",
+          "Barrie Beaver Brigade",
+          "Barrie Bird Killers",
+          "Barrie Bobos",
+          "Barrie Bruised Bananas",
+          "Barrie Bulldogs",
+          "Barrie Bunsen Burners",
+          "Barrie Ice Hounds",
+          "Barrie Rink Reapers",
+          "Barrie Wild Warriors"
+        ],
+        "seasons": [
+          "spring_2026",
+          "winter_2026",
+          "fall_2025",
+          "summer_2025",
+          "spring_2025",
+          "winter_2025",
+          "fall_2024",
+          "summer_2024"
         ]
       }
     }

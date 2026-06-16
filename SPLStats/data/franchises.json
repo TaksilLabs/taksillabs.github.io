@@ -169,11 +169,14 @@
     ],
 
     "owners": [
-        "Eggsthink"
+        "Eggsthink",
+        "BroBurgota",
+        "AboveAverageJoe"
     ],
 
     "part_owners": [
-        "null"
+        "YmisScarab",
+        "Hammy"
     ],
 
     "coaches": [
@@ -316,7 +319,7 @@
             "team": "Ottawa Valley Fighting Admirals",
             "order": 17,
             "start_season": "spring_2025",
-            "end_season": "sumemr_2025",
+            "end_season": "summer_2025",
             "notes": ""
         },
         {
@@ -835,13 +838,13 @@
             "team": "Vader Western Inquisitors",
             "order": 1,
             "start_season": "summer_2025",
-            "end_season": "sumemr_2025",
+            "end_season": "summer_2025",
             "notes": ""
             },{
             "team": "Vader Droids",
             "order": 1,
             "start_season": "summer_2025",
-            "end_season": "sumemr_2025",
+            "end_season": "summer_2025",
             "notes": ""
             },{
             "team": "Vader AT-AT's",
@@ -1068,19 +1071,19 @@
                 "team": "Cowtown Humuhumunukunukuapuaa",
                 "order": 1,
                 "start_season": "spring_2021",
-                "end_season": "sumemr_2025",
+                "end_season": "summer_2025",
                 "notes": ""
             },{
                 "team": "Cowtown Dandy Skaters",
                 "order": 1,
                 "start_season": "summer_2024",
-                "end_season": "sumemr_2025",
+                "end_season": "summer_2025",
                 "notes": ""
             },{
                 "team": "Cowtown Guppies",
                 "order": 1,
                 "start_season": "winter_2021",
-                "end_season": "sumemr_2025",
+                "end_season": "summer_2025",
                 "notes": ""
             },{
                 "team": "Cowtown Bongfish",
@@ -1277,7 +1280,9 @@
         "description": "",
 
         "founders": [
-            "Dylinho"
+            "Dylinho",
+            "Dil",
+            "Pierre Houde"
         ],
 
         "owners": [
@@ -1286,21 +1291,132 @@
         ],
 
         "part_owners": [
-            "halleJOKEL"
+            "halleJOKEL",
+            "Dil"
+        ],
+
+        "general_managers": [
+            "halleJOKEL",
+            "Berm",
+            "Dil"
         ],
 
         "coaches": [
-            "",
-            ""
+            "Dil",
+            "Couture",
+            "Crusade"
         ],
 
         "hall_of_fame": [
             {
-                "player": "player_name",
-                "retired_number": "##",
-                "retired_date": "yyyy-mm-dd",
-                "induction_speech": ""
+            "player": "Blue",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Dylinho",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Pierre Houde",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Dil",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Hallejokel",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Trout",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Jaax",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Chris",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "D-lew",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Lezura",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Berm",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Raidd",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Zantle",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Couture",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "IAMFOREHEAD",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Snail",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Billy",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
+            },
+            {
+            "player": "Spinach",
+            "retired_number": "##",
+            "retired_date": "yyyy-mm-dd",
+            "induction_speech": ""
             }
+
         ],
 
         "memberships": [
@@ -1326,7 +1442,7 @@
                 "team": "Carolina Bassmasters",
                 "order": 1,
                 "start_season": "winter_2023",
-                "end_season": "sumemr_2025",
+                "end_season": "summer_2025",
                 "notes": ""
             },{
                 "team": "Coaticook Supernovas",
@@ -1339,6 +1455,54 @@
                 "order": 1,
                 "start_season": "winter_2023",
                 "end_season": "winter_2023",
+                "notes": ""
+            },{
+                "team": "Astoria Hellhounds",
+                "order": 1,
+                "start_season": "s12",
+                "end_season": "s13",
+                "notes": ""
+            },{
+                "team": "Bermuda Seadevils",
+                "order": 1,
+                "start_season": "s11",
+                "end_season": "s11",
+                "notes": ""
+            },{
+                "team": "Windycity Watchmen",
+                "order": 1,
+                "start_season": "s8",
+                "end_season": "s13",
+                "notes": ""
+            },{
+                "team": "",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
                 "notes": ""
             }
         ]
@@ -1385,6 +1549,75 @@
         ],
 
         "part_owners": [
+            "maki itoh"
+        ],
+
+        "coaches": [
+            "Acro"
+        ],
+
+        "hall_of_fame": [
+        ],
+
+        "memberships": [
+            {
+                "team": "Winnipeg Wrath",
+                "order": 1,
+                "start_season": "winter_2020",
+                "end_season": "fall_2021",
+                "notes": ""
+            },{
+                "team": "Victoria Vengeance",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "winter_2021",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "barrie",
+        "franchise_name": "Barrie",
+        "status": "active",
+        "founded": "2024-06-19",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#0B3A5A",
+            "secondary": "#FFFFFF",
+            "accent": "#E5B43B",
+            "background": "#03070A",
+            "card": "#071522",
+            "surface": "#0D2335"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Beefus"
+        ],
+
+        "owners": [
+            "Looees",
+            "Beefus"
+        ],
+
+        "part_owners": [
             ""
         ],
 
@@ -1403,16 +1636,82 @@
 
         "memberships": [
             {
-                "team": "Winnipeg Wrath",
+                "team": "Barrie Bald Boys",
                 "order": 1,
-                "start_season": "winter_2020",
-                "end_season": "fall_2021",
+                "start_season": "summer_2024",
+                "end_season": "",
                 "notes": ""
             },{
-                "team": "Victoria Vengeance",
+                "team": "Barrie Ice Hounds",
                 "order": 1,
-                "start_season": "winter_2021",
-                "end_season": "winter_2021",
+                "start_season": "summer_2025",
+                "end_season": "winter_2026",
+                "notes": ""
+            },{
+                "team": "Barrie Rink Reapers",
+                "order": 1,
+                "start_season": "fall_2025",
+                "end_season": "spring_2026",
+                "notes": ""
+            },{
+                "team": "Barrie Beaver Brigade",
+                "order": 1,
+                "start_season": "fall_2024",
+                "end_season": "summer_2025",
+                "notes": ""
+            },{
+                "team": "Barrie Bag Chasers",
+                "order": 1,
+                "start_season": "fall_2025",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Barrie Bird Killers",
+                "order": 1,
+                "start_season": "winter_2026",
+                "end_season": "winter_2026",
+                "notes": ""
+            },{
+                "team": "Barrie Bobos",
+                "order": 1,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Barrie Belgian Waffles",
+                "order": 1,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Barrie Bunsen Burners",
+                "order": 1,
+                "start_season": "summer_2025",
+                "end_season": "summer_2025",
+                "notes": ""
+            },{
+                "team": "Barrie 36ers",
+                "order": 1,
+                "start_season": "winter_2026",
+                "end_season": "winter_2026",
+                "notes": ""
+            },{
+                "team": "Barrie Bulldogs",
+                "order": 1,
+                "start_season": "winter_2026",
+                "end_season": "winter_2026",
+                "notes": ""
+            },{
+                "team": "Barrie Bruised Bananas",
+                "order": 1,
+                "start_season": "fall_2025",
+                "end_season": "fall_2025",
+                "notes": ""
+            },{
+                "team": "Barrie Wild Warriors",
+                "order": 1,
+                "start_season": "summer_2025",
+                "end_season": "summer_2025",
                 "notes": ""
             }
         ]

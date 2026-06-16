@@ -825,6 +825,51 @@ TEAM PAGE HELPERS
   color: #ffd166;
 }
 
+.team-franchise-section {
+    margin: 30px 0;
+}
+
+.team-franchise-card {
+    display: block;
+    background: var(--franchise-card);
+    border: 2px solid var(--franchise-primary);
+    border-radius: 14px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 18px rgba(0,0,0,0.35);
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+.team-franchise-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+    text-decoration: none;
+}
+
+.team-franchise-card:hover * {
+    text-decoration: none;
+}
+
+.team-franchise-name {
+    font-family: Evogria, sans-serif;
+    font-size: 1.5rem;
+    color: var(--franchise-primary);
+    margin-bottom: 8px;
+}
+
+.team-franchise-meta {
+    color: var(--franchise-accent);
+    font-weight: bold;
+}
+
+.team-franchise-order {
+    margin-top: 8px;
+    color: var(--franchise-secondary);
+}
+
 
 
 

@@ -85,11 +85,118 @@ function getTeamFromUrl() {
   return params.get("team");
 }
 
+function formatSeason(value) {
+  if (!value) return "Unknown";
+
+  const text = String(value);
+
+  const match = text.match(/^([a-z]+)_(\d{4})$/i);
+
+  if (!match) {
+    return text;
+  }
+
+  const season =
+    match[1].charAt(0).toUpperCase()
+    + match[1].slice(1).toLowerCase();
+
+  return `${season} ${match[2]}`;
+}
+
+function findTeamFranchise(teamName, franchises) {
+  const cleanTeamName =
+    teamName
+      .replace(/\s*\([^)]*\)$/, "")
+      .trim()
+      .toLowerCase();
+
+  for (const franchise of franchises) {
+    const membership = (franchise.memberships || []).find(m => {
+      const memberTeam =
+        m.team
+          .replace(/\s*\([^)]*\)$/, "")
+          .trim()
+          .toLowerCase();
+
+      return memberTeam === cleanTeamName;
+    });
+
+    if (membership) {
+      return {
+        franchise,
+        membership
+      };
+    }
+  }
+
+  return null;
+}
+
+function renderTeamFranchise(teamName, franchises) {
+  const result = findTeamFranchise(teamName, franchises);
+
+  const section = document.querySelector("#teamFranchiseSection");
+  const card = document.querySelector("#teamFranchiseCard");
+
+  if (!section || !card) {
+    return;
+  }
+
+  if (!result) {
+    section.style.display = "none";
+    return;
+  }
+
+  const { franchise, membership } = result;
+  const theme = franchise.theme || {};
+
+  section.style.display = "";
+
+  card.innerHTML = `
+    <a
+      class="team-franchise-card"
+      href="franchise.html?id=${encodeURIComponent(franchise.franchise_id)}"
+      style="
+        --franchise-primary: ${theme.primary || "#ffffff"};
+        --franchise-secondary: ${theme.secondary || "#cccccc"};
+        --franchise-accent: ${theme.accent || "#ffffff"};
+        --franchise-card: ${theme.card || "#111111"};
+        --franchise-surface: ${theme.surface || "#1a1a1a"};
+      "
+    >
+      <div class="team-franchise-name">
+        ${franchise.franchise_name}
+      </div>
+
+      <div class="team-franchise-meta">
+        ${formatSeason(membership.start_season)}
+        →
+        ${
+          membership.end_season
+            ? formatSeason(membership.end_season)
+            : "Present"
+        }
+      </div>
+
+      ${
+        membership.order
+          ? `<div class="team-franchise-order">Franchise Team #${membership.order}</div>`
+          : ""
+      }
+    </a>
+  `;
+}
+
 async function loadTeam() {
   const teamName = getTeamFromUrl();
 
-  const response = await fetch("data/teams.json");
-  const teams = await response.json();
+  const [teamsResponse, franchisesResponse] = await Promise.all([
+    fetch("data/teams.json"),
+    fetch("data/franchises.json")
+  ]);
+
+  const teams = await teamsResponse.json();
+  const franchises = await franchisesResponse.json();
 
   const team = teams.find(t =>
     t.team_name.toLowerCase() === teamName.toLowerCase()
@@ -101,6 +208,7 @@ async function loadTeam() {
   }
 
   renderTeam(team);
+  renderTeamFranchise(team.team_name, franchises);
 }
 
 function renderHeaderStats(career) {
