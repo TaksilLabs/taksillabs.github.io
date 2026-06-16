@@ -1,10 +1,14 @@
 import json
+import re
 from pathlib import Path
 from collections import defaultdict
 
+
 FRANCHISES_FILE = Path("../data/franchises.json")
 PLAYERS_FILE = Path("../data/all_time_players.json")
+TEAM_RECORDS_FILE = Path("../data/team_records.json")
 OUT_FILE = Path("../data/franchise_stats.json")
+
 
 SEASON_ORDER = {
     "winter": 1,
@@ -28,14 +32,32 @@ LEADER_STATS = [
 ]
 
 
+# ---------------------------------------------------------------------
+# Basic Helpers
+# ---------------------------------------------------------------------
+
 def load_json(path):
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
 
+def clean_team_name(team_name):
+    team_name = str(team_name).strip()
+
+    return re.sub(
+        r"\s*\([^)]*\)\s*$",
+        "",
+        team_name
+    ).strip()
+
+
+def team_lookup_key(team_name):
+    return clean_team_name(team_name).lower()
+
+
 def season_value(season_id):
     try:
-        season, year = season_id.lower().split("_")
+        season, year = str(season_id).lower().split("_")
         return int(year) * 10 + SEASON_ORDER.get(season, 0)
     except Exception:
         return 0
@@ -43,11 +65,25 @@ def season_value(season_id):
 
 def season_in_range(season_id, start_season, end_season):
     value = season_value(season_id)
-    start = season_value(start_season)
-    end = season_value(end_season) if end_season else 999999
+
+    start = (
+        season_value(start_season)
+        if start_season
+        else 0
+    )
+
+    end = (
+        season_value(end_season)
+        if end_season
+        else 999999
+    )
 
     return start <= value <= end
 
+
+# ---------------------------------------------------------------------
+# Player Stat Helpers
+# ---------------------------------------------------------------------
 
 def add_stats(target, stats):
     for stat, value in stats.items():
@@ -107,7 +143,6 @@ def get_leader_value(player, stat):
 
 def build_leaders(players):
     leaders = {}
-
     finalized_players = []
 
     for player_name, data in players.items():
@@ -133,7 +168,10 @@ def build_leaders(players):
                 "value": round(value, 2),
             })
 
-        ranked.sort(key=lambda p: p["value"], reverse=True)
+        ranked.sort(
+            key=lambda p: p["value"],
+            reverse=True
+        )
 
         leaders[stat] = ranked[:5]
 
@@ -159,9 +197,18 @@ def add_row_to_scope(scope, player_name, row):
     add_stats(scope["career"], stats)
     add_stats(scope["players"][player_name]["stats"], stats)
 
-    scope["players"][player_name]["seasons"].add(row.get("season_id"))
-    scope["teams"].add(row.get("team"))
-    scope["seasons"].add(row.get("season_id"))
+    scope["players"][player_name]["seasons"].add(
+        row.get("season_id")
+    )
+
+    scope["teams"].add(
+        row.get("team")
+    )
+
+    scope["seasons"].add(
+        row.get("season_id")
+    )
+
     scope["has_data"] = True
 
 
@@ -186,8 +233,14 @@ def row_belongs_to_franchise(row, franchise):
     if not team or not season_id:
         return False
 
+    row_team_key = team_lookup_key(team)
+
     for membership in franchise.get("memberships", []):
-        if membership.get("team") != team:
+        membership_team_key = team_lookup_key(
+            membership.get("team")
+        )
+
+        if membership_team_key != row_team_key:
             continue
 
         if season_in_range(
@@ -200,9 +253,233 @@ def row_belongs_to_franchise(row, franchise):
     return False
 
 
+# ---------------------------------------------------------------------
+# Franchise Team Record Helpers
+# ---------------------------------------------------------------------
+
+def build_team_record_lookup(team_records):
+    lookup = {}
+
+    for record in team_records:
+        key = team_lookup_key(record.get("team", ""))
+
+        if key:
+            lookup[key] = record
+
+    return lookup
+
+
+def empty_team_totals():
+    return {
+        "teams": 0,
+        "games_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "goal_differential": 0,
+        "win_percent": 0,
+        "seasons": 0,
+    }
+
+
+def finalize_team_totals(totals, seasons):
+    totals["goal_differential"] = (
+        totals["goals_for"]
+        - totals["goals_against"]
+    )
+
+    totals["win_percent"] = (
+        totals["wins"] / totals["games_played"]
+        if totals["games_played"]
+        else 0
+    )
+
+    totals["seasons"] = len(seasons)
+
+    totals["win_percent"] = round(
+        totals["win_percent"],
+        3
+    )
+
+    return totals
+
+
+def calculate_franchise_team_records(team_rows):
+    if not team_rows:
+        return {}
+
+    def best_by(stat):
+        return max(
+            team_rows,
+            key=lambda row: row.get(stat, 0)
+        )
+
+    def fewest_by(stat):
+        return min(
+            team_rows,
+            key=lambda row: row.get(stat, 0)
+        )
+
+    def record_entry(row, stat):
+        return {
+            "team": row.get("team"),
+            "value": row.get(stat, 0)
+        }
+
+    return {
+        "most_games_played": record_entry(
+            best_by("games_played"),
+            "games_played"
+        ),
+        "most_wins": record_entry(
+            best_by("wins"),
+            "wins"
+        ),
+        "best_win_percent": record_entry(
+            best_by("win_percent"),
+            "win_percent"
+        ),
+        "most_goals_for": record_entry(
+            best_by("goals_for"),
+            "goals_for"
+        ),
+        "fewest_goals_against": record_entry(
+            fewest_by("goals_against"),
+            "goals_against"
+        ),
+        "best_goal_differential": record_entry(
+            best_by("goal_differential"),
+            "goal_differential"
+        ),
+    }
+
+
+def calculate_franchise_team_totals(
+    franchise,
+    team_record_lookup
+):
+    totals = empty_team_totals()
+    seasons = set()
+    team_rows = []
+
+    for membership in franchise.get("memberships", []):
+        membership_team = membership.get("team", "")
+        membership_team_key = team_lookup_key(membership_team)
+
+        team_record = team_record_lookup.get(
+            membership_team_key
+        )
+
+        if not team_record:
+            print(
+                f"WARNING: No team record found for "
+                f"{membership_team}"
+            )
+            continue
+
+        row = {
+            "team": membership_team,
+            "games_played": 0,
+            "wins": 0,
+            "losses": 0,
+            "goals_for": 0,
+            "goals_against": 0,
+            "goal_differential": 0,
+            "win_percent": 0,
+            "seasons": [],
+            "start_season": membership.get("start_season"),
+            "end_season": membership.get("end_season"),
+            "order": membership.get("order"),
+        }
+
+        row_seasons = set()
+
+        for season_row in team_record.get("by_season", []):
+            season_id = season_row.get("season_id")
+
+            if not season_in_range(
+                season_id,
+                membership.get("start_season"),
+                membership.get("end_season")
+            ):
+                continue
+
+            gp = int(season_row.get("games_played", 0))
+            wins = int(season_row.get("wins", 0))
+            losses = int(season_row.get("losses", 0))
+            gf = int(season_row.get("goals_for", 0))
+            ga = int(season_row.get("goals_against", 0))
+
+            totals["games_played"] += gp
+            totals["wins"] += wins
+            totals["losses"] += losses
+            totals["goals_for"] += gf
+            totals["goals_against"] += ga
+
+            row["games_played"] += gp
+            row["wins"] += wins
+            row["losses"] += losses
+            row["goals_for"] += gf
+            row["goals_against"] += ga
+
+            seasons.add(season_id)
+            row_seasons.add(season_id)
+
+        if row["games_played"] > 0:
+            row["goal_differential"] = (
+                row["goals_for"]
+                - row["goals_against"]
+            )
+
+            row["win_percent"] = round(
+                row["wins"] / row["games_played"],
+                3
+            )
+
+            row["seasons"] = sorted(
+                row_seasons,
+                key=season_value
+            )
+
+            team_rows.append(row)
+
+    totals["teams"] = len(team_rows)
+
+    totals = finalize_team_totals(
+        totals,
+        seasons
+    )
+
+    team_rows.sort(
+        key=lambda row: (
+            row.get("order") or 999,
+            season_value(row.get("start_season")),
+            row.get("team", "").lower()
+        )
+    )
+
+    return {
+        "team_totals": totals,
+        "team_records": calculate_franchise_team_records(
+            team_rows
+        ),
+        "team_rows": team_rows,
+    }
+
+
+# ---------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------
+
 def main():
     franchises = load_json(FRANCHISES_FILE)
     players = load_json(PLAYERS_FILE)
+    team_records = load_json(TEAM_RECORDS_FILE)
+
+    team_record_lookup = build_team_record_lookup(
+        team_records
+    )
 
     output = []
 
@@ -211,19 +488,38 @@ def main():
         pro = create_scope()
 
         for player in players:
-            player_name = player.get("player_name", "Unknown")
+            player_name = player.get(
+                "player_name",
+                "Unknown"
+            )
 
             for row in player.get("by_season", []):
-                if not row_belongs_to_franchise(row, franchise):
+                if not row_belongs_to_franchise(
+                    row,
+                    franchise
+                ):
                     continue
 
-                add_row_to_scope(all_divisions, player_name, row)
+                add_row_to_scope(
+                    all_divisions,
+                    player_name,
+                    row
+                )
 
                 if (
                     row.get("division") == "Pro Division"
                     and row.get("season_type") == "regular_season"
                 ):
-                    add_row_to_scope(pro, player_name, row)
+                    add_row_to_scope(
+                        pro,
+                        player_name,
+                        row
+                    )
+
+        team_stats = calculate_franchise_team_totals(
+            franchise,
+            team_record_lookup
+        )
 
         output.append({
             "franchise_id": franchise.get("franchise_id"),
@@ -236,6 +532,11 @@ def main():
             "coaches": franchise.get("coaches", []),
             "hall_of_fame": franchise.get("hall_of_fame", []),
             "memberships": franchise.get("memberships", []),
+
+            "team_totals": team_stats["team_totals"],
+            "team_records": team_stats["team_records"],
+            "team_rows": team_stats["team_rows"],
+
             "stats": {
                 "pro": finalize_scope(pro),
                 "all_divisions": finalize_scope(all_divisions),
@@ -243,7 +544,12 @@ def main():
         })
 
     with OUT_FILE.open("w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(
+            output,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
 
     print(f"Franchises written: {len(output)}")
     print(f"Wrote: {OUT_FILE.resolve()}")

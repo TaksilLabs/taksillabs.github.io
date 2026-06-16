@@ -121,9 +121,16 @@
             },
             {
             "team": "Death Valley Tuskan Raiders",
-            "order": 7,
+            "order": 8,
             "start_season": "fall_2023",
             "end_season": "fall_2023",
+            "notes": ""
+            },
+            {
+            "team": "Denver Cutthroats",
+            "order": 7,
+            "start_season": "winter_2023",
+            "end_season": "summer_2024",
             "notes": "First adopted team by Hot Springs that didnt use the Hot Springs Location"
             }
         ]
@@ -351,7 +358,7 @@
             "notes": ""
         },
         {
-            "team": "Portillos Italian Beefs",
+            "team": "Portillo's Italian Beefs",
             "order": 22,
             "start_season": "spring_2026",
             "end_season": "",
@@ -1463,13 +1470,13 @@
                 "end_season": "s13",
                 "notes": ""
             },{
-                "team": "Bermuda Seadevils",
+                "team": "Bermuda Sea Devils",
                 "order": 1,
                 "start_season": "s11",
                 "end_season": "s11",
                 "notes": ""
             },{
-                "team": "Windycity Watchmen",
+                "team": "Windy City Watchmen",
                 "order": 1,
                 "start_season": "s8",
                 "end_season": "s13",

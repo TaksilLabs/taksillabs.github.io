@@ -101,10 +101,212 @@
       },
       {
         "team": "Death Valley Tuskan Raiders",
-        "order": 7,
+        "order": 8,
         "start_season": "fall_2023",
         "end_season": "fall_2023",
+        "notes": ""
+      },
+      {
+        "team": "Denver Cutthroats",
+        "order": 7,
+        "start_season": "winter_2023",
+        "end_season": "summer_2024",
         "notes": "First adopted team by Hot Springs that didnt use the Hot Springs Location"
+      }
+    ],
+    "team_totals": {
+      "teams": 8,
+      "games_played": 544,
+      "wins": 229,
+      "losses": 315,
+      "goals_for": 3312,
+      "goals_against": 3847,
+      "goal_differential": -535,
+      "win_percent": 0.421,
+      "seasons": 11
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Hot Springs Hot Tamales",
+        "value": 180
+      },
+      "most_wins": {
+        "team": "Hot Springs Hot Tamales",
+        "value": 87
+      },
+      "best_win_percent": {
+        "team": "Hot Springs Cinnamon Bears",
+        "value": 0.5
+      },
+      "most_goals_for": {
+        "team": "Hot Springs Hot Tamales",
+        "value": 1161
+      },
+      "fewest_goals_against": {
+        "team": "Hot Springs Hot Fries",
+        "value": 36
+      },
+      "best_goal_differential": {
+        "team": "Denver Cutthroats",
+        "value": -3
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Hot Springs Hot Tamales",
+        "games_played": 180,
+        "wins": 87,
+        "losses": 93,
+        "goals_for": 1161,
+        "goals_against": 1188,
+        "goal_differential": -27,
+        "win_percent": 0.483,
+        "seasons": [
+          "fall_2021",
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024"
+        ],
+        "start_season": "fall_2021",
+        "end_season": "summer_2024",
+        "order": 1
+      },
+      {
+        "team": "Hot Springs Red Hots",
+        "games_played": 83,
+        "wins": 25,
+        "losses": 58,
+        "goals_for": 441,
+        "goals_against": 663,
+        "goal_differential": -222,
+        "win_percent": 0.301,
+        "seasons": [
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "winter_2023",
+          "fall_2023",
+          "winter_2024"
+        ],
+        "start_season": "winter_2022",
+        "end_season": "winter_2024",
+        "order": 2
+      },
+      {
+        "team": "Hot Springs Hot Doritos",
+        "games_played": 71,
+        "wins": 24,
+        "losses": 47,
+        "goals_for": 409,
+        "goals_against": 552,
+        "goal_differential": -143,
+        "win_percent": 0.338,
+        "seasons": [
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "winter_2024",
+          "spring_2024"
+        ],
+        "start_season": "winter_2023",
+        "end_season": "spring_2024",
+        "order": 3
+      },
+      {
+        "team": "Hot Springs Cinnamon Bears",
+        "games_played": 62,
+        "wins": 31,
+        "losses": 31,
+        "goals_for": 403,
+        "goals_against": 434,
+        "goal_differential": -31,
+        "win_percent": 0.5,
+        "seasons": [
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023"
+        ],
+        "start_season": "winter_2023",
+        "end_season": "fall_2023",
+        "order": 4
+      },
+      {
+        "team": "Hot Springs Hot Doggers",
+        "games_played": 15,
+        "wins": 2,
+        "losses": 13,
+        "goals_for": 63,
+        "goals_against": 106,
+        "goal_differential": -43,
+        "win_percent": 0.133,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "order": 5
+      },
+      {
+        "team": "Hot Springs Hot Fries",
+        "games_played": 10,
+        "wins": 3,
+        "losses": 7,
+        "goals_for": 28,
+        "goals_against": 36,
+        "goal_differential": -8,
+        "win_percent": 0.3,
+        "seasons": [
+          "summer_2023"
+        ],
+        "start_season": "summer_2023",
+        "end_season": "summer_2023",
+        "order": 6
+      },
+      {
+        "team": "Denver Cutthroats",
+        "games_played": 114,
+        "wins": 56,
+        "losses": 58,
+        "goals_for": 787,
+        "goals_against": 790,
+        "goal_differential": -3,
+        "win_percent": 0.491,
+        "seasons": [
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "winter_2024",
+          "summer_2024"
+        ],
+        "start_season": "winter_2023",
+        "end_season": "summer_2024",
+        "order": 7
+      },
+      {
+        "team": "Death Valley Tuskan Raiders",
+        "games_played": 9,
+        "wins": 1,
+        "losses": 8,
+        "goals_for": 20,
+        "goals_against": 78,
+        "goal_differential": -58,
+        "win_percent": 0.111,
+        "seasons": [
+          "fall_2023"
+        ],
+        "start_season": "fall_2023",
+        "end_season": "fall_2023",
+        "order": 8
       }
     ],
     "stats": {
@@ -359,33 +561,37 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 1985.0,
-          "blocks": 1447.0,
-          "faceoffs_lost": 3635.0,
-          "faceoffs_won": 2849.0,
-          "goals": 2525.0,
-          "passes": 21324.0,
-          "periods_played": 2067.0,
-          "points": 4510.0,
-          "possession_time_sec": 38705.0,
-          "post_hits": 1121.0,
-          "primary_assists": 1669.0,
-          "saves": 3583.0,
-          "secondary_assists": 336.0,
-          "shots": 5468.0,
-          "takeaways": 4379.0,
-          "turnovers": 5607.0,
-          "goals_against": 10514.0,
-          "shots_against": 22809.0,
-          "games_played": 1482.0,
-          "faceoffs_total": 6484.0,
-          "shot_percent": 46.18,
-          "save_percent": 15.71,
+          "assists": 2679.0,
+          "blocks": 2150.0,
+          "faceoffs_lost": 4556.0,
+          "faceoffs_won": 3737.0,
+          "goals": 3312.0,
+          "passes": 28374.0,
+          "points": 5991.0,
+          "possession_time_sec": 50890.0,
+          "post_hits": 1454.0,
+          "primary_assists": 2233.0,
+          "saves": 4584.0,
+          "secondary_assists": 465.0,
+          "shots": 7030.0,
+          "takeaways": 5360.0,
+          "turnovers": 6843.0,
+          "goals_against": 13168.0,
+          "shots_against": 28733.0,
+          "games_played": 1856.0,
+          "faceoffs_total": 8293.0,
+          "periods_played": 2833.0,
+          "shot_percent": 47.11,
+          "save_percent": 15.95,
           "gaa": 7.09,
-          "faceoff_win_percent": 43.94
+          "faceoff_win_percent": 45.06
         },
         "leaders": {
           "goals": [
+            {
+              "player_name": "N1xoh",
+              "value": 243.0
+            },
             {
               "player_name": "Gubby",
               "value": 243.0
@@ -399,15 +605,15 @@
               "value": 178.0
             },
             {
-              "player_name": "Pino",
-              "value": 164.0
-            },
-            {
               "player_name": "CorruptWolfy",
-              "value": 155.0
+              "value": 170.0
             }
           ],
           "assists": [
+            {
+              "player_name": "$meggy",
+              "value": 244.0
+            },
             {
               "player_name": "Gubby",
               "value": 219.0
@@ -423,10 +629,6 @@
             {
               "player_name": "Cheespup",
               "value": 174.0
-            },
-            {
-              "player_name": "Snail",
-              "value": 109.0
             }
           ],
           "points": [
@@ -435,26 +637,30 @@
               "value": 462.0
             },
             {
+              "player_name": "N1xoh",
+              "value": 391.0
+            },
+            {
+              "player_name": "$meggy",
+              "value": 388.0
+            },
+            {
               "player_name": "Dizruption",
               "value": 353.0
             },
             {
               "player_name": "YmisScarab",
               "value": 340.0
-            },
-            {
-              "player_name": "Cheespup",
-              "value": 294.0
-            },
-            {
-              "player_name": "Snail",
-              "value": 288.0
             }
           ],
           "shots": [
             {
               "player_name": "Gubby",
               "value": 523.0
+            },
+            {
+              "player_name": "N1xoh",
+              "value": 467.0
             },
             {
               "player_name": "YmisScarab",
@@ -466,10 +672,6 @@
             },
             {
               "player_name": "Pino",
-              "value": 358.0
-            },
-            {
-              "player_name": "Snail",
               "value": 358.0
             }
           ],
@@ -483,22 +685,26 @@
               "value": 460.0
             },
             {
+              "player_name": "$meggy",
+              "value": 341.0
+            },
+            {
               "player_name": "YmisScarab",
               "value": 339.0
             },
             {
               "player_name": "Cheespup",
               "value": 318.0
-            },
-            {
-              "player_name": "Cyoue",
-              "value": 250.0
             }
           ],
           "saves": [
             {
               "player_name": "YmisScarab",
               "value": 1028.0
+            },
+            {
+              "player_name": "$meggy",
+              "value": 603.0
             },
             {
               "player_name": "Gubby",
@@ -511,10 +717,6 @@
             {
               "player_name": "Dizruption",
               "value": 279.0
-            },
-            {
-              "player_name": "Agent P",
-              "value": 230.0
             }
           ],
           "blocks": [
@@ -523,20 +725,20 @@
               "value": 271.0
             },
             {
+              "player_name": "$meggy",
+              "value": 259.0
+            },
+            {
               "player_name": "Dizruption",
               "value": 189.0
             },
             {
-              "player_name": "Cheespup",
-              "value": 171.0
+              "player_name": "N1xoh",
+              "value": 182.0
             },
             {
-              "player_name": "YmisScarab",
-              "value": 135.0
-            },
-            {
-              "player_name": "Snail",
-              "value": 86.0
+              "player_name": "Toe Knee",
+              "value": 180.0
             }
           ],
           "faceoff_percent": [
@@ -549,16 +751,16 @@
               "value": 56.25
             },
             {
+              "player_name": "$meggy",
+              "value": 55.48
+            },
+            {
               "player_name": "Cheespup",
               "value": 54.23
             },
             {
               "player_name": "Pino",
               "value": 54.21
-            },
-            {
-              "player_name": "Cloudii",
-              "value": 51.25
             }
           ],
           "games_played": [
@@ -571,16 +773,16 @@
               "value": 125.0
             },
             {
+              "player_name": "$meggy",
+              "value": 112.0
+            },
+            {
               "player_name": "Dizruption",
               "value": 95.0
             },
             {
               "player_name": "Cheespup",
               "value": 91.0
-            },
-            {
-              "player_name": "Agent P",
-              "value": 76.0
             }
           ],
           "seasons_played": [
@@ -608,6 +810,7 @@
         },
         "teams": [
           "Death Valley Tuskan Raiders",
+          "Denver Cutthroats",
           "Hot Springs Cinnamon Bears",
           "Hot Springs Hot Doggers",
           "Hot Springs Hot Doritos",
@@ -823,7 +1026,7 @@
         "notes": ""
       },
       {
-        "team": "Portillos Italian Beefs",
+        "team": "Portillo's Italian Beefs",
         "order": 22,
         "start_season": "spring_2026",
         "end_season": "",
@@ -954,6 +1157,732 @@
         "start_season": "spring_2025",
         "end_season": "spring_2025",
         "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 40,
+      "games_played": 1467,
+      "wins": 712,
+      "losses": 754,
+      "goals_for": 9173,
+      "goals_against": 9412,
+      "goal_differential": -239,
+      "win_percent": 0.485,
+      "seasons": 18
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Ottawa Valley Puck Slappers",
+        "value": 294
+      },
+      "most_wins": {
+        "team": "Ottawa Valley Puck Slappers",
+        "value": 128
+      },
+      "best_win_percent": {
+        "team": "Michigan Magic",
+        "value": 0.889
+      },
+      "most_goals_for": {
+        "team": "Ottawa Valley Puck Slappers",
+        "value": 1760
+      },
+      "fewest_goals_against": {
+        "team": "Portillo's Italian Beefs",
+        "value": 43
+      },
+      "best_goal_differential": {
+        "team": "Ottawa Valley Post Dingers",
+        "value": 159
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Ottawa Valley Puck Slappers",
+        "games_played": 294,
+        "wins": 128,
+        "losses": 166,
+        "goals_for": 1760,
+        "goals_against": 1962,
+        "goal_differential": -202,
+        "win_percent": 0.435,
+        "seasons": [
+          "fall_2021",
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024",
+          "winter_2025",
+          "spring_2025",
+          "summer_2025",
+          "fall_2025",
+          "winter_2026"
+        ],
+        "start_season": "fall_2021",
+        "end_season": "winter_2026",
+        "order": 1
+      },
+      {
+        "team": "Champaign Champagne",
+        "games_played": 20,
+        "wins": 8,
+        "losses": 12,
+        "goals_for": 134,
+        "goals_against": 159,
+        "goal_differential": -25,
+        "win_percent": 0.4,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 2
+      },
+      {
+        "team": "Ottawa Valley Post Dingers",
+        "games_played": 119,
+        "wins": 73,
+        "losses": 46,
+        "goals_for": 789,
+        "goals_against": 630,
+        "goal_differential": 159,
+        "win_percent": 0.613,
+        "seasons": [
+          "spring_2024",
+          "summer_2024",
+          "fall_2024",
+          "winter_2025",
+          "spring_2025",
+          "summer_2025",
+          "spring_2026"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "",
+        "order": 3
+      },
+      {
+        "team": "Ottawa Valley Wood Slappers",
+        "games_played": 114,
+        "wins": 45,
+        "losses": 69,
+        "goals_for": 627,
+        "goals_against": 730,
+        "goal_differential": -103,
+        "win_percent": 0.395,
+        "seasons": [
+          "spring_2024",
+          "summer_2024",
+          "fall_2024",
+          "winter_2025",
+          "spring_2025",
+          "summer_2025",
+          "spring_2026"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "",
+        "order": 4
+      },
+      {
+        "team": "Ottawa Valley Stick Slappers",
+        "games_played": 79,
+        "wins": 33,
+        "losses": 46,
+        "goals_for": 481,
+        "goals_against": 537,
+        "goal_differential": -56,
+        "win_percent": 0.418,
+        "seasons": [
+          "fall_2023",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024",
+          "fall_2024"
+        ],
+        "start_season": "fall_2023",
+        "end_season": "fall_2024",
+        "order": 5
+      },
+      {
+        "team": "Ottawa Valley Island Boys",
+        "games_played": 79,
+        "wins": 42,
+        "losses": 37,
+        "goals_for": 496,
+        "goals_against": 501,
+        "goal_differential": -5,
+        "win_percent": 0.532,
+        "seasons": [
+          "spring_2024",
+          "summer_2024",
+          "fall_2024",
+          "winter_2025"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "winter_2025",
+        "order": 6
+      },
+      {
+        "team": "Ottawa Drinkers",
+        "games_played": 21,
+        "wins": 14,
+        "losses": 7,
+        "goals_for": 148,
+        "goals_against": 125,
+        "goal_differential": 23,
+        "win_percent": 0.667,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 7
+      },
+      {
+        "team": "Ottawa Valley Slappers With Attitude",
+        "games_played": 60,
+        "wins": 32,
+        "losses": 28,
+        "goals_for": 315,
+        "goals_against": 299,
+        "goal_differential": 16,
+        "win_percent": 0.533,
+        "seasons": [
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "",
+        "order": 8
+      },
+      {
+        "team": "Ottawa Valley Slap Tuahs",
+        "games_played": 34,
+        "wins": 20,
+        "losses": 14,
+        "goals_for": 213,
+        "goals_against": 175,
+        "goal_differential": 38,
+        "win_percent": 0.588,
+        "seasons": [
+          "fall_2024",
+          "winter_2025"
+        ],
+        "start_season": "fall_2024",
+        "end_season": "winter_2025",
+        "order": 9
+      },
+      {
+        "team": "No Name Nighthawks",
+        "games_played": 71,
+        "wins": 32,
+        "losses": 39,
+        "goals_for": 397,
+        "goals_against": 436,
+        "goal_differential": -39,
+        "win_percent": 0.451,
+        "seasons": [
+          "spring_2025",
+          "summer_2025",
+          "fall_2025",
+          "spring_2026"
+        ],
+        "start_season": "spring_2025",
+        "end_season": "",
+        "order": 10
+      },
+      {
+        "team": "Greenland Ducklings",
+        "games_played": 50,
+        "wins": 25,
+        "losses": 25,
+        "goals_for": 345,
+        "goals_against": 333,
+        "goal_differential": 12,
+        "win_percent": 0.5,
+        "seasons": [
+          "summer_2024",
+          "fall_2024",
+          "winter_2025"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "winter_2025",
+        "order": 11
+      },
+      {
+        "team": "Michigan Magic",
+        "games_played": 18,
+        "wins": 16,
+        "losses": 2,
+        "goals_for": 184,
+        "goals_against": 91,
+        "goal_differential": 93,
+        "win_percent": 0.889,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 12
+      },
+      {
+        "team": "Battle Creek Kings",
+        "games_played": 16,
+        "wins": 5,
+        "losses": 11,
+        "goals_for": 67,
+        "goals_against": 111,
+        "goal_differential": -44,
+        "win_percent": 0.312,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 13
+      },
+      {
+        "team": "Ottawa Valley Ham and Eggs",
+        "games_played": 28,
+        "wins": 21,
+        "losses": 7,
+        "goals_for": 246,
+        "goals_against": 151,
+        "goal_differential": 95,
+        "win_percent": 0.75,
+        "seasons": [
+          "fall_2025",
+          "winter_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "winter_2026",
+        "order": 14
+      },
+      {
+        "team": "Los Angeles Comets",
+        "games_played": 18,
+        "wins": 10,
+        "losses": 8,
+        "goals_for": 146,
+        "goals_against": 110,
+        "goal_differential": 36,
+        "win_percent": 0.556,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 15
+      },
+      {
+        "team": "Ottawa Valley Ferrari Bazingas",
+        "games_played": 27,
+        "wins": 9,
+        "losses": 18,
+        "goals_for": 152,
+        "goals_against": 207,
+        "goal_differential": -55,
+        "win_percent": 0.333,
+        "seasons": [
+          "summer_2025",
+          "fall_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "fall_2025",
+        "order": 16
+      },
+      {
+        "team": "Ottawa Valley Fighting Admirals",
+        "games_played": 33,
+        "wins": 13,
+        "losses": 20,
+        "goals_for": 171,
+        "goals_against": 282,
+        "goal_differential": -111,
+        "win_percent": 0.394,
+        "seasons": [
+          "spring_2025",
+          "summer_2025"
+        ],
+        "start_season": "spring_2025",
+        "end_season": "summer_2025",
+        "order": 17
+      },
+      {
+        "team": "New England Blazing Stars",
+        "games_played": 20,
+        "wins": 13,
+        "losses": 7,
+        "goals_for": 165,
+        "goals_against": 127,
+        "goal_differential": 38,
+        "win_percent": 0.65,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 18
+      },
+      {
+        "team": "Garden Grove Geekbars",
+        "games_played": 36,
+        "wins": 22,
+        "losses": 14,
+        "goals_for": 233,
+        "goals_against": 213,
+        "goal_differential": 20,
+        "win_percent": 0.611,
+        "seasons": [
+          "summer_2024",
+          "spring_2025"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "spring_2025",
+        "order": 19
+      },
+      {
+        "team": "Cowtown Ottawa Big Mouth Billy Bass",
+        "games_played": 18,
+        "wins": 11,
+        "losses": 6,
+        "goals_for": 120,
+        "goals_against": 86,
+        "goal_differential": 34,
+        "win_percent": 0.611,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 20
+      },
+      {
+        "team": "Ottawa Valley Geriatric Slappers",
+        "games_played": 20,
+        "wins": 11,
+        "losses": 9,
+        "goals_for": 120,
+        "goals_against": 108,
+        "goal_differential": 12,
+        "win_percent": 0.55,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 21
+      },
+      {
+        "team": "Portillo's Italian Beefs",
+        "games_played": 13,
+        "wins": 11,
+        "losses": 2,
+        "goals_for": 119,
+        "goals_against": 43,
+        "goal_differential": 76,
+        "win_percent": 0.846,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 22
+      },
+      {
+        "team": "Ottawa Valley Super Bunnies",
+        "games_played": 19,
+        "wins": 11,
+        "losses": 8,
+        "goals_for": 140,
+        "goals_against": 114,
+        "goal_differential": 26,
+        "win_percent": 0.579,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 23
+      },
+      {
+        "team": "Ottawa Valley Bible Buddies",
+        "games_played": 14,
+        "wins": 6,
+        "losses": 8,
+        "goals_for": 95,
+        "goals_against": 82,
+        "goal_differential": 13,
+        "win_percent": 0.429,
+        "seasons": [
+          "spring_2025"
+        ],
+        "start_season": "spring_2025",
+        "end_season": "spring_2025",
+        "order": 24
+      },
+      {
+        "team": "Ottawa Valley Hammy and Friends",
+        "games_played": 19,
+        "wins": 10,
+        "losses": 9,
+        "goals_for": 136,
+        "goals_against": 114,
+        "goal_differential": 22,
+        "win_percent": 0.526,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 25
+      },
+      {
+        "team": "Mexico Menace",
+        "games_played": 17,
+        "wins": 6,
+        "losses": 11,
+        "goals_for": 98,
+        "goals_against": 126,
+        "goal_differential": -28,
+        "win_percent": 0.353,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 26
+      },
+      {
+        "team": "Michigan Malus",
+        "games_played": 18,
+        "wins": 15,
+        "losses": 3,
+        "goals_for": 144,
+        "goals_against": 88,
+        "goal_differential": 56,
+        "win_percent": 0.833,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 27
+      },
+      {
+        "team": "Ottawa Valley Hot Fries",
+        "games_played": 16,
+        "wins": 6,
+        "losses": 10,
+        "goals_for": 89,
+        "goals_against": 117,
+        "goal_differential": -28,
+        "win_percent": 0.375,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 28
+      },
+      {
+        "team": "Ottawa Valley Frost Strike",
+        "games_played": 9,
+        "wins": 7,
+        "losses": 2,
+        "goals_for": 80,
+        "goals_against": 57,
+        "goal_differential": 23,
+        "win_percent": 0.778,
+        "seasons": [
+          "fall_2024"
+        ],
+        "start_season": "fall_2024",
+        "end_season": "fall_2024",
+        "order": 29
+      },
+      {
+        "team": "Ottawa Valley Ice Weasels",
+        "games_played": 16,
+        "wins": 4,
+        "losses": 12,
+        "goals_for": 78,
+        "goals_against": 127,
+        "goal_differential": -49,
+        "win_percent": 0.25,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 30
+      },
+      {
+        "team": "Ottawa Valley Rubber Duckies",
+        "games_played": 28,
+        "wins": 6,
+        "losses": 22,
+        "goals_for": 147,
+        "goals_against": 241,
+        "goal_differential": -94,
+        "win_percent": 0.214,
+        "seasons": [
+          "fall_2024",
+          "winter_2025"
+        ],
+        "start_season": "fall_2024",
+        "end_season": "winter_2025",
+        "order": 31
+      },
+      {
+        "team": "Michigan Mafia",
+        "games_played": 20,
+        "wins": 14,
+        "losses": 6,
+        "goals_for": 160,
+        "goals_against": 119,
+        "goal_differential": 41,
+        "win_percent": 0.7,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "spring_2026",
+        "order": 32
+      },
+      {
+        "team": "Ottawa Valley Bowling Alleys",
+        "games_played": 16,
+        "wins": 7,
+        "losses": 9,
+        "goals_for": 100,
+        "goals_against": 113,
+        "goal_differential": -13,
+        "win_percent": 0.438,
+        "seasons": [
+          "spring_2025"
+        ],
+        "start_season": "spring_2025",
+        "end_season": "spring_2025",
+        "order": 33
+      },
+      {
+        "team": "Ottawa Valley Sigma Wolves",
+        "games_played": 13,
+        "wins": 3,
+        "losses": 10,
+        "goals_for": 69,
+        "goals_against": 106,
+        "goal_differential": -37,
+        "win_percent": 0.231,
+        "seasons": [
+          "summer_2024"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "summer_2024",
+        "order": 34
+      },
+      {
+        "team": "Ottawa Valley Hockey Team",
+        "games_played": 13,
+        "wins": 5,
+        "losses": 8,
+        "goals_for": 68,
+        "goals_against": 101,
+        "goal_differential": -33,
+        "win_percent": 0.385,
+        "seasons": [
+          "winter_2024"
+        ],
+        "start_season": "winter_2024",
+        "end_season": "winter_2024",
+        "order": 35
+      },
+      {
+        "team": "Ottawa Valley Tater Tots",
+        "games_played": 13,
+        "wins": 4,
+        "losses": 9,
+        "goals_for": 71,
+        "goals_against": 96,
+        "goal_differential": -25,
+        "win_percent": 0.308,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "order": 36
+      },
+      {
+        "team": "Ottawa Valley Bench Warmers",
+        "games_played": 10,
+        "wins": 3,
+        "losses": 7,
+        "goals_for": 64,
+        "goals_against": 87,
+        "goal_differential": -23,
+        "win_percent": 0.3,
+        "seasons": [
+          "summer_2024"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "summer_2024",
+        "order": 37
+      },
+      {
+        "team": "St. Cloud Storm",
+        "games_played": 10,
+        "wins": 6,
+        "losses": 4,
+        "goals_for": 85,
+        "goals_against": 63,
+        "goal_differential": 22,
+        "win_percent": 0.6,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 38
+      },
+      {
+        "team": "Central Champagne",
+        "games_played": 18,
+        "wins": 3,
+        "losses": 15,
+        "goals_for": 73,
+        "goals_against": 157,
+        "goal_differential": -84,
+        "win_percent": 0.167,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "order": 39
+      },
+      {
+        "team": "Edmonton Beauties",
+        "games_played": 10,
+        "wins": 2,
+        "losses": 8,
+        "goals_for": 48,
+        "goals_against": 88,
+        "goal_differential": -40,
+        "win_percent": 0.2,
+        "seasons": [
+          "spring_2025"
+        ],
+        "start_season": "spring_2025",
+        "end_season": "spring_2025",
+        "order": 40
       }
     ],
     "stats": {
@@ -1222,30 +2151,30 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 7468.0,
-          "blocks": 22743.0,
-          "faceoffs_lost": 10612.0,
-          "faceoffs_won": 10887.0,
-          "goals": 9054.0,
-          "passes": 82259.0,
-          "periods_played": 12250.0,
-          "points": 16522.0,
-          "possession_time_sec": 170145.0,
-          "post_hits": 3924.0,
-          "primary_assists": 6135.0,
-          "saves": 10926.0,
-          "secondary_assists": 1347.0,
-          "shots": 19778.0,
-          "takeaways": 16633.0,
-          "turnovers": 16700.0,
-          "goals_against": 32257.0,
-          "shots_against": 69806.0,
-          "games_played": 5018.0,
-          "faceoffs_total": 21499.0,
-          "shot_percent": 45.78,
+          "assists": 7571.0,
+          "blocks": 22911.0,
+          "faceoffs_lost": 10676.0,
+          "faceoffs_won": 11001.0,
+          "goals": 9173.0,
+          "passes": 82934.0,
+          "periods_played": 12361.0,
+          "points": 16744.0,
+          "possession_time_sec": 172113.0,
+          "post_hits": 3976.0,
+          "primary_assists": 6225.0,
+          "saves": 10963.0,
+          "secondary_assists": 1361.0,
+          "shots": 20047.0,
+          "takeaways": 16841.0,
+          "turnovers": 16802.0,
+          "goals_against": 32386.0,
+          "shots_against": 70034.0,
+          "games_played": 5057.0,
+          "faceoffs_total": 21677.0,
+          "shot_percent": 45.76,
           "save_percent": 15.65,
-          "gaa": 6.43,
-          "faceoff_win_percent": 50.64
+          "gaa": 6.4,
+          "faceoff_win_percent": 50.75
         },
         "leaders": {
           "goals": [
@@ -1508,6 +2437,7 @@
           "Ottawa Valley Super Bunnies",
           "Ottawa Valley Tater Tots",
           "Ottawa Valley Wood Slappers",
+          "Portillo's Italian Beefs",
           "St. Cloud Storm"
         ],
         "seasons": [
@@ -1610,6 +2540,103 @@
         "start_season": "fall_2022",
         "end_season": "fall_2022",
         "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 3,
+      "games_played": 249,
+      "wins": 163,
+      "losses": 85,
+      "goals_for": 1782,
+      "goals_against": 1343,
+      "goal_differential": 439,
+      "win_percent": 0.655,
+      "seasons": 8
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Ocean City Typhoons",
+        "value": 152
+      },
+      "most_wins": {
+        "team": "Ocean City Typhoons",
+        "value": 92
+      },
+      "best_win_percent": {
+        "team": "Ocean City Tsunamis",
+        "value": 0.766
+      },
+      "most_goals_for": {
+        "team": "Ocean City Typhoons",
+        "value": 1097
+      },
+      "fewest_goals_against": {
+        "team": "Ocean City Krakens",
+        "value": 110
+      },
+      "best_goal_differential": {
+        "team": "Ocean City Typhoons",
+        "value": 210
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Ocean City Typhoons",
+        "games_played": 152,
+        "wins": 92,
+        "losses": 59,
+        "goals_for": 1097,
+        "goals_against": 887,
+        "goal_differential": 210,
+        "win_percent": 0.605,
+        "seasons": [
+          "winter_2021",
+          "spring_2021",
+          "summer_2021",
+          "fall_2021",
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "winter_2023"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "winter_2023",
+        "order": 1
+      },
+      {
+        "team": "Ocean City Tsunamis",
+        "games_played": 77,
+        "wins": 59,
+        "losses": 18,
+        "goals_for": 546,
+        "goals_against": 346,
+        "goal_differential": 200,
+        "win_percent": 0.766,
+        "seasons": [
+          "spring_2021",
+          "summer_2021",
+          "fall_2021",
+          "winter_2022"
+        ],
+        "start_season": "spring_2021",
+        "end_season": "winter_2022",
+        "order": 2
+      },
+      {
+        "team": "Ocean City Krakens",
+        "games_played": 20,
+        "wins": 12,
+        "losses": 8,
+        "goals_for": 139,
+        "goals_against": 110,
+        "goal_differential": 29,
+        "win_percent": 0.6,
+        "seasons": [
+          "fall_2022"
+        ],
+        "start_season": "fall_2022",
+        "end_season": "fall_2022",
+        "order": 3
       }
     ],
     "stats": {
@@ -2405,6 +3432,462 @@
         "notes": ""
       }
     ],
+    "team_totals": {
+      "teams": 25,
+      "games_played": 718,
+      "wins": 363,
+      "losses": 352,
+      "goals_for": 4562,
+      "goals_against": 4554,
+      "goal_differential": 8,
+      "win_percent": 0.506,
+      "seasons": 5
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Vader Inquisitors",
+        "value": 103
+      },
+      "most_wins": {
+        "team": "Vader Inquisitors",
+        "value": 53
+      },
+      "best_win_percent": {
+        "team": "Vader Voltage - Central",
+        "value": 0.95
+      },
+      "most_goals_for": {
+        "team": "Vader Inquisitors",
+        "value": 636
+      },
+      "fewest_goals_against": {
+        "team": "Vader Droids",
+        "value": 49
+      },
+      "best_goal_differential": {
+        "team": "Vader Bens",
+        "value": 124
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Vader Inquisitors",
+        "games_played": 103,
+        "wins": 53,
+        "losses": 50,
+        "goals_for": 636,
+        "goals_against": 591,
+        "goal_differential": 45,
+        "win_percent": 0.515,
+        "seasons": [
+          "spring_2025",
+          "summer_2025",
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "spring_2025",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Droids",
+        "games_played": 9,
+        "wins": 5,
+        "losses": 4,
+        "goals_for": 49,
+        "goals_against": 49,
+        "goal_differential": 0,
+        "win_percent": 0.556,
+        "seasons": [
+          "summer_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Vader Enforcers",
+        "games_played": 31,
+        "wins": 16,
+        "losses": 15,
+        "goals_for": 213,
+        "goals_against": 200,
+        "goal_differential": 13,
+        "win_percent": 0.516,
+        "seasons": [
+          "summer_2025",
+          "fall_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "fall_2025",
+        "order": 1
+      },
+      {
+        "team": "Vader Troopers",
+        "games_played": 37,
+        "wins": 21,
+        "losses": 16,
+        "goals_for": 229,
+        "goals_against": 232,
+        "goal_differential": -3,
+        "win_percent": 0.568,
+        "seasons": [
+          "summer_2025",
+          "fall_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "fall_2025",
+        "order": 1
+      },
+      {
+        "team": "Vader Western Inquisitors",
+        "games_played": 9,
+        "wins": 1,
+        "losses": 8,
+        "goals_for": 35,
+        "goals_against": 85,
+        "goal_differential": -50,
+        "win_percent": 0.111,
+        "seasons": [
+          "summer_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Vader Acolytes",
+        "games_played": 52,
+        "wins": 21,
+        "losses": 30,
+        "goals_for": 257,
+        "goals_against": 291,
+        "goal_differential": -34,
+        "win_percent": 0.404,
+        "seasons": [
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Central Attackers",
+        "games_played": 58,
+        "wins": 28,
+        "losses": 30,
+        "goals_for": 422,
+        "goals_against": 427,
+        "goal_differential": -5,
+        "win_percent": 0.483,
+        "seasons": [
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Destroyers",
+        "games_played": 11,
+        "wins": 1,
+        "losses": 10,
+        "goals_for": 38,
+        "goals_against": 84,
+        "goal_differential": -46,
+        "win_percent": 0.091,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 1
+      },
+      {
+        "team": "Vader Eastern Attackers",
+        "games_played": 53,
+        "wins": 31,
+        "losses": 21,
+        "goals_for": 405,
+        "goals_against": 350,
+        "goal_differential": 55,
+        "win_percent": 0.585,
+        "seasons": [
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Guards",
+        "games_played": 21,
+        "wins": 15,
+        "losses": 6,
+        "goals_for": 170,
+        "goals_against": 128,
+        "goal_differential": 42,
+        "win_percent": 0.714,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 1
+      },
+      {
+        "team": "Vader Gungans",
+        "games_played": 37,
+        "wins": 14,
+        "losses": 23,
+        "goals_for": 194,
+        "goals_against": 280,
+        "goal_differential": -86,
+        "win_percent": 0.378,
+        "seasons": [
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Vapors",
+        "games_played": 12,
+        "wins": 3,
+        "losses": 9,
+        "goals_for": 71,
+        "goals_against": 108,
+        "goal_differential": -37,
+        "win_percent": 0.25,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 1
+      },
+      {
+        "team": "Vader 66ers",
+        "games_played": 43,
+        "wins": 28,
+        "losses": 14,
+        "goals_for": 278,
+        "goals_against": 210,
+        "goal_differential": 68,
+        "win_percent": 0.651,
+        "seasons": [
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Bens",
+        "games_played": 36,
+        "wins": 26,
+        "losses": 10,
+        "goals_for": 311,
+        "goals_against": 187,
+        "goal_differential": 124,
+        "win_percent": 0.722,
+        "seasons": [
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Disciples",
+        "games_played": 17,
+        "wins": 1,
+        "losses": 16,
+        "goals_for": 48,
+        "goals_against": 162,
+        "goal_differential": -114,
+        "win_percent": 0.059,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Jabbas",
+        "games_played": 10,
+        "wins": 1,
+        "losses": 9,
+        "goals_for": 37,
+        "goals_against": 80,
+        "goal_differential": -43,
+        "win_percent": 0.1,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 1
+      },
+      {
+        "team": "Vader Leias",
+        "games_played": 17,
+        "wins": 8,
+        "losses": 9,
+        "goals_for": 105,
+        "goals_against": 138,
+        "goal_differential": -33,
+        "win_percent": 0.471,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 1
+      },
+      {
+        "team": "Vader Wookies",
+        "games_played": 41,
+        "wins": 19,
+        "losses": 22,
+        "goals_for": 231,
+        "goals_against": 244,
+        "goal_differential": -13,
+        "win_percent": 0.463,
+        "seasons": [
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader AT-AT's",
+        "games_played": 8,
+        "wins": 0,
+        "losses": 8,
+        "goals_for": 12,
+        "goals_against": 81,
+        "goal_differential": -69,
+        "win_percent": 0.0,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Raiders",
+        "games_played": 16,
+        "wins": 2,
+        "losses": 14,
+        "goals_for": 58,
+        "goals_against": 129,
+        "goal_differential": -71,
+        "win_percent": 0.125,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Revanites",
+        "games_played": 14,
+        "wins": 5,
+        "losses": 9,
+        "goals_for": 81,
+        "goals_against": 104,
+        "goal_differential": -23,
+        "win_percent": 0.357,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Starkillers Central",
+        "games_played": 23,
+        "wins": 16,
+        "losses": 7,
+        "goals_for": 166,
+        "goals_against": 128,
+        "goal_differential": 38,
+        "win_percent": 0.696,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Starkillers East",
+        "games_played": 17,
+        "wins": 10,
+        "losses": 7,
+        "goals_for": 107,
+        "goals_against": 91,
+        "goal_differential": 16,
+        "win_percent": 0.588,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Voltage - Central",
+        "games_played": 20,
+        "wins": 19,
+        "losses": 1,
+        "goals_for": 202,
+        "goals_against": 79,
+        "goal_differential": 123,
+        "win_percent": 0.95,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Vader Voltage Eastern",
+        "games_played": 23,
+        "wins": 19,
+        "losses": 4,
+        "goals_for": 207,
+        "goals_against": 96,
+        "goal_differential": 111,
+        "win_percent": 0.826,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
+      }
+    ],
     "stats": {
       "pro": {
         "has_data": true,
@@ -3032,6 +4515,167 @@
         "notes": ""
       }
     ],
+    "team_totals": {
+      "teams": 7,
+      "games_played": 284,
+      "wins": 152,
+      "losses": 132,
+      "goals_for": 1948,
+      "goals_against": 1864,
+      "goal_differential": 84,
+      "win_percent": 0.535,
+      "seasons": 9
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Nashville Niconics",
+        "value": 147
+      },
+      "most_wins": {
+        "team": "Nashville Niconics",
+        "value": 70
+      },
+      "best_win_percent": {
+        "team": "Newark Niconics",
+        "value": 0.824
+      },
+      "most_goals_for": {
+        "team": "Nashville Niconics",
+        "value": 982
+      },
+      "fewest_goals_against": {
+        "team": "Newark Niconics",
+        "value": 47
+      },
+      "best_goal_differential": {
+        "team": "Quebec Flare",
+        "value": 134
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Nashville Niconics",
+        "games_played": 147,
+        "wins": 70,
+        "losses": 77,
+        "goals_for": 982,
+        "goals_against": 1020,
+        "goal_differential": -38,
+        "win_percent": 0.476,
+        "seasons": [
+          "spring_2021",
+          "summer_2021",
+          "fall_2021",
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "winter_2023",
+          "spring_2023",
+          "summer_2023"
+        ],
+        "start_season": "spring_2021",
+        "end_season": "summer_2023",
+        "order": 1
+      },
+      {
+        "team": "Newark Niconics",
+        "games_played": 17,
+        "wins": 14,
+        "losses": 3,
+        "goals_for": 134,
+        "goals_against": 47,
+        "goal_differential": 87,
+        "win_percent": 0.824,
+        "seasons": [
+          "spring_2021"
+        ],
+        "start_season": "spring_2021",
+        "end_season": "spring_2021",
+        "order": 1
+      },
+      {
+        "team": "Quebec Flare",
+        "games_played": 59,
+        "wins": 44,
+        "losses": 15,
+        "goals_for": 488,
+        "goals_against": 354,
+        "goal_differential": 134,
+        "win_percent": 0.746,
+        "seasons": [
+          "winter_2023",
+          "spring_2023",
+          "summer_2023"
+        ],
+        "start_season": "winter_2023",
+        "end_season": "summer_2023",
+        "order": 1
+      },
+      {
+        "team": "Naperville Niconics",
+        "games_played": 15,
+        "wins": 6,
+        "losses": 9,
+        "goals_for": 70,
+        "goals_against": 100,
+        "goal_differential": -30,
+        "win_percent": 0.4,
+        "seasons": [
+          "spring_2023"
+        ],
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "order": 1
+      },
+      {
+        "team": "New England Niconics",
+        "games_played": 18,
+        "wins": 8,
+        "losses": 10,
+        "goals_for": 143,
+        "goals_against": 149,
+        "goal_differential": -6,
+        "win_percent": 0.444,
+        "seasons": [
+          "spring_2023"
+        ],
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "order": 1
+      },
+      {
+        "team": "Nowhere Niconics",
+        "games_played": 12,
+        "wins": 1,
+        "losses": 11,
+        "goals_for": 29,
+        "goals_against": 115,
+        "goal_differential": -86,
+        "win_percent": 0.083,
+        "seasons": [
+          "spring_2023"
+        ],
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "order": 1
+      },
+      {
+        "team": "Syrup City Niconics",
+        "games_played": 16,
+        "wins": 9,
+        "losses": 7,
+        "goals_for": 102,
+        "goals_against": 79,
+        "goal_differential": 23,
+        "win_percent": 0.562,
+        "seasons": [
+          "spring_2023"
+        ],
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "order": 1
+      }
+    ],
     "stats": {
       "pro": {
         "has_data": false,
@@ -3524,6 +5168,331 @@
         "start_season": "winter_2021",
         "end_season": "winter_2021",
         "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 16,
+      "games_played": 746,
+      "wins": 354,
+      "losses": 390,
+      "goals_for": 4661,
+      "goals_against": 4977,
+      "goal_differential": -316,
+      "win_percent": 0.475,
+      "seasons": 9
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Cowtown Humuhumunukunukuapuaa",
+        "value": 136
+      },
+      "most_wins": {
+        "team": "Cowtown Humuhumunukunukuapuaa",
+        "value": 67
+      },
+      "best_win_percent": {
+        "team": "Cowtown Cowtowns",
+        "value": 0.722
+      },
+      "most_goals_for": {
+        "team": "Cowtown Humuhumunukunukuapuaa",
+        "value": 800
+      },
+      "fewest_goals_against": {
+        "team": "Cowtown Goldfish",
+        "value": 51
+      },
+      "best_goal_differential": {
+        "team": "Cowtown Buckaroos",
+        "value": 106
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Cowtown Bongfish",
+        "games_played": 82,
+        "wins": 45,
+        "losses": 37,
+        "goals_for": 509,
+        "goals_against": 501,
+        "goal_differential": 8,
+        "win_percent": 0.549,
+        "seasons": [
+          "winter_2021",
+          "spring_2021",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "summer_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Crusaders",
+        "games_played": 51,
+        "wins": 29,
+        "losses": 22,
+        "goals_for": 327,
+        "goals_against": 307,
+        "goal_differential": 20,
+        "win_percent": 0.569,
+        "seasons": [
+          "winter_2021",
+          "spring_2021",
+          "winter_2024"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "winter_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Goldfish",
+        "games_played": 11,
+        "wins": 7,
+        "losses": 4,
+        "goals_for": 83,
+        "goals_against": 51,
+        "goal_differential": 32,
+        "win_percent": 0.636,
+        "seasons": [
+          "winter_2021"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "winter_2021",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Guppies",
+        "games_played": 91,
+        "wins": 44,
+        "losses": 45,
+        "goals_for": 622,
+        "goals_against": 659,
+        "goal_differential": -37,
+        "win_percent": 0.484,
+        "seasons": [
+          "winter_2021",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024",
+          "fall_2024",
+          "summer_2025"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Stampede",
+        "games_played": 34,
+        "wins": 17,
+        "losses": 17,
+        "goals_for": 218,
+        "goals_against": 215,
+        "goal_differential": 3,
+        "win_percent": 0.5,
+        "seasons": [
+          "winter_2021",
+          "summer_2024"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "summer_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Humuhumunukunukuapuaa",
+        "games_played": 136,
+        "wins": 67,
+        "losses": 69,
+        "goals_for": 800,
+        "goals_against": 788,
+        "goal_differential": 12,
+        "win_percent": 0.493,
+        "seasons": [
+          "spring_2021",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024",
+          "fall_2024",
+          "winter_2025",
+          "spring_2025",
+          "summer_2025"
+        ],
+        "start_season": "spring_2021",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Guplings",
+        "games_played": 35,
+        "wins": 13,
+        "losses": 22,
+        "goals_for": 184,
+        "goals_against": 259,
+        "goal_differential": -75,
+        "win_percent": 0.371,
+        "seasons": [
+          "winter_2024",
+          "summer_2024",
+          "fall_2024"
+        ],
+        "start_season": "winter_2024",
+        "end_season": "fall_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Cowtowns",
+        "games_played": 18,
+        "wins": 13,
+        "losses": 5,
+        "goals_for": 120,
+        "goals_against": 76,
+        "goal_differential": 44,
+        "win_percent": 0.722,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Floorballs",
+        "games_played": 12,
+        "wins": 1,
+        "losses": 11,
+        "goals_for": 51,
+        "goals_against": 133,
+        "goal_differential": -82,
+        "win_percent": 0.083,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Lemons",
+        "games_played": 12,
+        "wins": 3,
+        "losses": 9,
+        "goals_for": 55,
+        "goals_against": 85,
+        "goal_differential": -30,
+        "win_percent": 0.25,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Noxus Team",
+        "games_played": 54,
+        "wins": 30,
+        "losses": 24,
+        "goals_for": 392,
+        "goals_against": 379,
+        "goal_differential": 13,
+        "win_percent": 0.556,
+        "seasons": [
+          "spring_2024",
+          "summer_2024",
+          "fall_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "fall_2024",
+        "order": 1
+      },
+      {
+        "team": "Quebec Flare of Cowtown",
+        "games_played": 17,
+        "wins": 1,
+        "losses": 16,
+        "goals_for": 85,
+        "goals_against": 187,
+        "goal_differential": -102,
+        "win_percent": 0.059,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Buckaroos",
+        "games_played": 61,
+        "wins": 39,
+        "losses": 22,
+        "goals_for": 457,
+        "goals_against": 351,
+        "goal_differential": 106,
+        "win_percent": 0.639,
+        "seasons": [
+          "summer_2024",
+          "fall_2024",
+          "winter_2025"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "winter_2025",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Dandy Skaters",
+        "games_played": 94,
+        "wins": 38,
+        "losses": 56,
+        "goals_for": 556,
+        "goals_against": 625,
+        "goal_differential": -69,
+        "win_percent": 0.404,
+        "seasons": [
+          "summer_2024",
+          "fall_2024",
+          "winter_2025",
+          "spring_2025",
+          "summer_2025"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Whoppers",
+        "games_played": 14,
+        "wins": 1,
+        "losses": 13,
+        "goals_for": 52,
+        "goals_against": 125,
+        "goal_differential": -73,
+        "win_percent": 0.071,
+        "seasons": [
+          "summer_2024"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "summer_2024",
+        "order": 1
+      },
+      {
+        "team": "Cowtown Wolves",
+        "games_played": 24,
+        "wins": 6,
+        "losses": 18,
+        "goals_for": 150,
+        "goals_against": 236,
+        "goal_differential": -86,
+        "win_percent": 0.25,
+        "seasons": [
+          "summer_2024",
+          "fall_2024"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "fall_2024",
+        "order": 1
       }
     ],
     "stats": {
@@ -4115,6 +6084,81 @@
         "start_season": "winter_2021",
         "end_season": "winter_2021",
         "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 2,
+      "games_played": 76,
+      "wins": 32,
+      "losses": 44,
+      "goals_for": 504,
+      "goals_against": 520,
+      "goal_differential": -16,
+      "win_percent": 0.421,
+      "seasons": 5
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Maryland Ice Orcas",
+        "value": 73
+      },
+      "most_wins": {
+        "team": "Maryland Ice Orcas",
+        "value": 30
+      },
+      "best_win_percent": {
+        "team": "Maryland Marlins",
+        "value": 0.667
+      },
+      "most_goals_for": {
+        "team": "Maryland Ice Orcas",
+        "value": 479
+      },
+      "fewest_goals_against": {
+        "team": "Maryland Marlins",
+        "value": 12
+      },
+      "best_goal_differential": {
+        "team": "Maryland Marlins",
+        "value": 13
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Maryland Ice Orcas",
+        "games_played": 73,
+        "wins": 30,
+        "losses": 43,
+        "goals_for": 479,
+        "goals_against": 508,
+        "goal_differential": -29,
+        "win_percent": 0.411,
+        "seasons": [
+          "winter_2021",
+          "spring_2021",
+          "summer_2021",
+          "spring_2022",
+          "fall_2022"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "fall_2022",
+        "order": 1
+      },
+      {
+        "team": "Maryland Marlins",
+        "games_played": 3,
+        "wins": 2,
+        "losses": 1,
+        "goals_for": 25,
+        "goals_against": 12,
+        "goal_differential": 13,
+        "win_percent": 0.667,
+        "seasons": [
+          "winter_2021"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "winter_2021",
+        "order": 1
       }
     ],
     "stats": {
@@ -4818,14 +6862,14 @@
         "notes": ""
       },
       {
-        "team": "Bermuda Seadevils",
+        "team": "Bermuda Sea Devils",
         "order": 1,
         "start_season": "s11",
         "end_season": "s11",
         "notes": ""
       },
       {
-        "team": "Windycity Watchmen",
+        "team": "Windy City Watchmen",
         "order": 1,
         "start_season": "s8",
         "end_season": "s13",
@@ -4865,6 +6909,166 @@
         "start_season": "",
         "end_season": "",
         "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 6,
+      "games_played": 599,
+      "wins": 342,
+      "losses": 256,
+      "goals_for": 4291,
+      "goals_against": 3751,
+      "goal_differential": 540,
+      "win_percent": 0.571,
+      "seasons": 12
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Carolina Bassmasters",
+        "value": 217
+      },
+      "most_wins": {
+        "team": "Carolina Bassmasters",
+        "value": 110
+      },
+      "best_win_percent": {
+        "team": "Coaticook Supernovas",
+        "value": 0.75
+      },
+      "most_goals_for": {
+        "team": "Carolina Bassmasters",
+        "value": 1449
+      },
+      "fewest_goals_against": {
+        "team": "Coaticook Demons",
+        "value": 95
+      },
+      "best_goal_differential": {
+        "team": "Coaticook Stars",
+        "value": 290
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Coaticook Kingpins",
+        "games_played": 171,
+        "wins": 85,
+        "losses": 86,
+        "goals_for": 1281,
+        "goals_against": 1210,
+        "goal_differential": 71,
+        "win_percent": 0.497,
+        "seasons": [
+          "fall_2022",
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024",
+          "fall_2024"
+        ],
+        "start_season": "fall_2022",
+        "end_season": "fall_2024",
+        "order": 1
+      },
+      {
+        "team": "Coaticook Stars",
+        "games_played": 123,
+        "wins": 84,
+        "losses": 39,
+        "goals_for": 931,
+        "goals_against": 641,
+        "goal_differential": 290,
+        "win_percent": 0.683,
+        "seasons": [
+          "fall_2022",
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "fall_2024"
+        ],
+        "start_season": "fall_2022",
+        "end_season": "fall_2024",
+        "order": 1
+      },
+      {
+        "team": "Carolina Bassmasters",
+        "games_played": 217,
+        "wins": 110,
+        "losses": 106,
+        "goals_for": 1449,
+        "goals_against": 1431,
+        "goal_differential": 18,
+        "win_percent": 0.507,
+        "seasons": [
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "winter_2024",
+          "spring_2024",
+          "summer_2024",
+          "fall_2024",
+          "winter_2025",
+          "spring_2025",
+          "summer_2025"
+        ],
+        "start_season": "winter_2023",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Coaticook Demons",
+        "games_played": 17,
+        "wins": 12,
+        "losses": 5,
+        "goals_for": 130,
+        "goals_against": 95,
+        "goal_differential": 35,
+        "win_percent": 0.706,
+        "seasons": [
+          "winter_2023"
+        ],
+        "start_season": "winter_2023",
+        "end_season": "winter_2023",
+        "order": 1
+      },
+      {
+        "team": "Coaticook Carens",
+        "games_played": 51,
+        "wins": 36,
+        "losses": 15,
+        "goals_for": 335,
+        "goals_against": 259,
+        "goal_differential": 76,
+        "win_percent": 0.706,
+        "seasons": [
+          "spring_2023",
+          "summer_2023",
+          "fall_2023"
+        ],
+        "start_season": "spring_2023",
+        "end_season": "fall_2023",
+        "order": 1
+      },
+      {
+        "team": "Coaticook Supernovas",
+        "games_played": 20,
+        "wins": 15,
+        "losses": 5,
+        "goals_for": 165,
+        "goals_against": 115,
+        "goal_differential": 50,
+        "win_percent": 0.75,
+        "seasons": [
+          "fall_2024"
+        ],
+        "start_season": "fall_2024",
+        "end_season": "fall_2024",
+        "order": 1
       }
     ],
     "stats": {
@@ -5442,6 +7646,84 @@
         "notes": ""
       }
     ],
+    "team_totals": {
+      "teams": 2,
+      "games_played": 123,
+      "wins": 33,
+      "losses": 90,
+      "goals_for": 689,
+      "goals_against": 1027,
+      "goal_differential": -338,
+      "win_percent": 0.268,
+      "seasons": 8
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Winnipeg Wrath",
+        "value": 112
+      },
+      "most_wins": {
+        "team": "Winnipeg Wrath",
+        "value": 28
+      },
+      "best_win_percent": {
+        "team": "Victoria Vengeance",
+        "value": 0.455
+      },
+      "most_goals_for": {
+        "team": "Winnipeg Wrath",
+        "value": 633
+      },
+      "fewest_goals_against": {
+        "team": "Victoria Vengeance",
+        "value": 65
+      },
+      "best_goal_differential": {
+        "team": "Victoria Vengeance",
+        "value": -9
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Winnipeg Wrath",
+        "games_played": 112,
+        "wins": 28,
+        "losses": 84,
+        "goals_for": 633,
+        "goals_against": 962,
+        "goal_differential": -329,
+        "win_percent": 0.25,
+        "seasons": [
+          "winter_2020",
+          "spring_2020",
+          "summer_2020",
+          "fall_2020",
+          "winter_2021",
+          "spring_2021",
+          "summer_2021",
+          "fall_2021"
+        ],
+        "start_season": "winter_2020",
+        "end_season": "fall_2021",
+        "order": 1
+      },
+      {
+        "team": "Victoria Vengeance",
+        "games_played": 11,
+        "wins": 5,
+        "losses": 6,
+        "goals_for": 56,
+        "goals_against": 65,
+        "goal_differential": -9,
+        "win_percent": 0.455,
+        "seasons": [
+          "winter_2021"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "winter_2021",
+        "order": 1
+      }
+    ],
     "stats": {
       "pro": {
         "has_data": false,
@@ -5740,10 +8022,11 @@
     "status": "active",
     "description": "",
     "founders": [
-      ""
+      "Beefus"
     ],
     "owners": [
-      "Looees"
+      "Looees",
+      "Beefus"
     ],
     "part_owners": [
       ""
@@ -5850,6 +8133,251 @@
         "start_season": "summer_2025",
         "end_season": "summer_2025",
         "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 12,
+      "games_played": 433,
+      "wins": 239,
+      "losses": 193,
+      "goals_for": 3131,
+      "goals_against": 2981,
+      "goal_differential": 150,
+      "win_percent": 0.552,
+      "seasons": 8
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Barrie Bald Boys",
+        "value": 140
+      },
+      "most_wins": {
+        "team": "Barrie Bald Boys",
+        "value": 74
+      },
+      "best_win_percent": {
+        "team": "Barrie Ice Hounds",
+        "value": 0.719
+      },
+      "most_goals_for": {
+        "team": "Barrie Bald Boys",
+        "value": 980
+      },
+      "fewest_goals_against": {
+        "team": "Barrie Wild Warriors",
+        "value": 45
+      },
+      "best_goal_differential": {
+        "team": "Barrie Ice Hounds",
+        "value": 129
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Barrie Bald Boys",
+        "games_played": 140,
+        "wins": 74,
+        "losses": 66,
+        "goals_for": 980,
+        "goals_against": 982,
+        "goal_differential": -2,
+        "win_percent": 0.529,
+        "seasons": [
+          "summer_2024",
+          "fall_2024",
+          "winter_2025",
+          "spring_2025",
+          "summer_2025",
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "summer_2024",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Barrie Beaver Brigade",
+        "games_played": 41,
+        "wins": 23,
+        "losses": 18,
+        "goals_for": 323,
+        "goals_against": 317,
+        "goal_differential": 6,
+        "win_percent": 0.561,
+        "seasons": [
+          "fall_2024",
+          "spring_2025",
+          "summer_2025"
+        ],
+        "start_season": "fall_2024",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Barrie Bunsen Burners",
+        "games_played": 16,
+        "wins": 6,
+        "losses": 10,
+        "goals_for": 100,
+        "goals_against": 128,
+        "goal_differential": -28,
+        "win_percent": 0.375,
+        "seasons": [
+          "summer_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Barrie Ice Hounds",
+        "games_played": 57,
+        "wins": 41,
+        "losses": 16,
+        "goals_for": 483,
+        "goals_against": 354,
+        "goal_differential": 129,
+        "win_percent": 0.719,
+        "seasons": [
+          "summer_2025",
+          "fall_2025",
+          "winter_2026"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "winter_2026",
+        "order": 1
+      },
+      {
+        "team": "Barrie Wild Warriors",
+        "games_played": 5,
+        "wins": 2,
+        "losses": 3,
+        "goals_for": 38,
+        "goals_against": 45,
+        "goal_differential": -7,
+        "win_percent": 0.4,
+        "seasons": [
+          "summer_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "order": 1
+      },
+      {
+        "team": "Barrie Bag Chasers",
+        "games_played": 39,
+        "wins": 23,
+        "losses": 16,
+        "goals_for": 244,
+        "goals_against": 224,
+        "goal_differential": 20,
+        "win_percent": 0.59,
+        "seasons": [
+          "fall_2025",
+          "spring_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Barrie Bruised Bananas",
+        "games_played": 13,
+        "wins": 8,
+        "losses": 5,
+        "goals_for": 93,
+        "goals_against": 76,
+        "goal_differential": 17,
+        "win_percent": 0.615,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 1
+      },
+      {
+        "team": "Barrie Rink Reapers",
+        "games_played": 56,
+        "wins": 33,
+        "losses": 22,
+        "goals_for": 430,
+        "goals_against": 362,
+        "goal_differential": 68,
+        "win_percent": 0.589,
+        "seasons": [
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "spring_2026",
+        "order": 1
+      },
+      {
+        "team": "Barrie 36ers",
+        "games_played": 15,
+        "wins": 5,
+        "losses": 10,
+        "goals_for": 111,
+        "goals_against": 137,
+        "goal_differential": -26,
+        "win_percent": 0.333,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 1
+      },
+      {
+        "team": "Barrie Bird Killers",
+        "games_played": 19,
+        "wins": 7,
+        "losses": 12,
+        "goals_for": 131,
+        "goals_against": 138,
+        "goal_differential": -7,
+        "win_percent": 0.368,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 1
+      },
+      {
+        "team": "Barrie Bulldogs",
+        "games_played": 13,
+        "wins": 4,
+        "losses": 9,
+        "goals_for": 81,
+        "goals_against": 122,
+        "goal_differential": -41,
+        "win_percent": 0.308,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 1
+      },
+      {
+        "team": "Barrie Bobos",
+        "games_played": 19,
+        "wins": 13,
+        "losses": 6,
+        "goals_for": 117,
+        "goals_against": 96,
+        "goal_differential": 21,
+        "win_percent": 0.684,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "",
+        "order": 1
       }
     ],
     "stats": {

@@ -870,6 +870,37 @@ TEAM PAGE HELPERS
     color: var(--franchise-secondary);
 }
 
+#teamStats {
+  display: block;
+}
+
+.team-stat-row {
+  display: grid;
+  gap: 14px;
+  width: 100%;
+}
+
+.team-record-row {
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 18px;
+}
+
+.player-total-row {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.team-stat-row .stat-box {
+  width: 80%;
+  min-width: 0;
+}
+
+@media (max-width: 1100px) {
+  .team-record-row,
+  .player-total-row {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+}
+
 
 
 
@@ -1018,6 +1049,41 @@ FRANCHISE STYLER
   color: var(--franchise-accent, #ffd166);
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+/*
+Franchise Overall Stats
+*/
+
+#franchiseStats {
+  display: block;
+}
+
+#franchiseStats .franchise-stat-row {
+  display: grid;
+  gap: 14px;
+  width: 100%;
+}
+
+#franchiseStats .franchise-record-row {
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 18px;
+}
+
+#franchiseStats .franchise-player-total-row {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+#franchiseStats .stat-box {
+  width: 80%;
+  min-width: 0;
+}
+
+@media (max-width: 1100px) {
+  #franchiseStats .franchise-record-row,
+  #franchiseStats .franchise-player-total-row {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
 }
 
 /*

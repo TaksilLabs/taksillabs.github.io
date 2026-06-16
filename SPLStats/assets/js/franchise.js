@@ -367,6 +367,11 @@ function renderFranchisePlayerStats(
             allPlayers
         );
 
+    renderFranchiseStats(
+        franchise,
+        franchisePlayers
+    );
+
     renderFranchiseTable();
 }
 
@@ -634,6 +639,86 @@ function renderTeams(
 
     }).join("");
 }
+
+
+
+// Franchise Stat Section
+
+function calculateFranchisePlayerTotals(players) {
+  const totals = {
+    games_played: 0,
+    goals: 0,
+    assists: 0,
+    points: 0,
+    shots: 0,
+    saves: 0,
+    blocks: 0
+  };
+
+  for (const player of players || []) {
+    totals.games_played += Number(player.stats?.games_played || 0);
+    totals.goals += Number(player.stats?.goals || 0);
+    totals.assists += Number(player.stats?.assists || 0);
+    totals.points += Number(player.stats?.points || 0);
+    totals.shots += Number(player.stats?.shots || 0);
+    totals.saves += Number(player.stats?.saves || 0);
+    totals.blocks += Number(player.stats?.blocks || 0);
+  }
+
+  return totals;
+}
+
+function renderFranchiseStats(franchise) {
+  const container = document.querySelector("#franchiseStats");
+
+  if (!container) return;
+
+  const teamTotals = franchise.team_totals || {};
+
+  const career =
+    franchise.stats?.all_divisions?.career || {};
+
+  const franchiseStats = [
+    ["Games Played", teamTotals.games_played ?? 0],
+    ["Wins", teamTotals.wins ?? 0],
+    ["Losses", teamTotals.losses ?? 0],
+    ["Goals For", teamTotals.goals_for ?? 0],
+    ["Goals Against", teamTotals.goals_against ?? 0]
+  ];
+
+  const playerStats = [
+    ["Man Games", career.games_played ?? 0],
+    ["Goals", career.goals ?? 0],
+    ["Assists", career.assists ?? 0],
+    ["Points", career.points ?? 0],
+    ["Shots", career.shots ?? 0],
+    ["Saves", career.saves ?? 0],
+    ["Blocks", career.blocks ?? 0]
+  ];
+
+  const renderCard = ([label, value]) => `
+    <div class="stat-box">
+      <span>${label}</span>
+      <strong>${value ?? 0}</strong>
+    </div>
+  `;
+
+  container.innerHTML = `
+    <div class="franchise-stat-row franchise-record-row">
+      ${franchiseStats.map(renderCard).join("")}
+    </div>
+
+    <div class="franchise-stat-row franchise-player-total-row">
+      ${playerStats.map(renderCard).join("")}
+    </div>
+  `;
+}
+
+// end Franchise Stat Section
+
+
+
+
 
 function renderHallOfFame(entries) {
   const container = document.querySelector("#franchiseHOF");

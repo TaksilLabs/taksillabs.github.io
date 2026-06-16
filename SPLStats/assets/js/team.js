@@ -187,16 +187,37 @@ function renderTeamFranchise(teamName, franchises) {
   `;
 }
 
+function cleanTeamName(teamName) {
+  return String(teamName)
+    .replace(/\s*\([^)]*\)$/, "")
+    .trim()
+    .toLowerCase();
+}
+
+function findTeamRecord(teamName, teamRecords) {
+  const cleanName = cleanTeamName(teamName);
+
+  return teamRecords.find(record =>
+    cleanTeamName(record.team) === cleanName
+  ) || null;
+}
+
 async function loadTeam() {
   const teamName = getTeamFromUrl();
 
-  const [teamsResponse, franchisesResponse] = await Promise.all([
+  const [
+    teamsResponse,
+    franchisesResponse,
+    teamRecordsResponse
+  ] = await Promise.all([
     fetch("data/teams.json"),
-    fetch("data/franchises.json")
+    fetch("data/franchises.json"),
+    fetch("data/team_records.json")
   ]);
 
   const teams = await teamsResponse.json();
   const franchises = await franchisesResponse.json();
+  const teamRecords = await teamRecordsResponse.json();
 
   const team = teams.find(t =>
     t.team_name.toLowerCase() === teamName.toLowerCase()
@@ -207,7 +228,12 @@ async function loadTeam() {
     return;
   }
 
-  renderTeam(team);
+  const teamRecord = findTeamRecord(
+    team.team_name,
+    teamRecords
+  );
+
+  renderTeam(team, teamRecord);
   renderTeamFranchise(team.team_name, franchises);
 }
 
@@ -232,7 +258,7 @@ function renderHeaderStats(career) {
   `).join("");
 }
 
-function renderTeam(team) {
+function renderTeam(team, teamRecord) {
   document.title = `${team.team_name} | SPLStats`;
 
   document.querySelector("#teamName").textContent =
@@ -240,15 +266,23 @@ function renderTeam(team) {
 
   renderTeamLeaders(team.players || []);
 
-  renderCareer(team.career);
+  renderCareer(team.career, teamRecord);
   renderSeasons(team.seasons);
   renderDivisions(team.divisions);
   renderRoster(team.players);
 }
 
-function renderCareer(career) {
-  const stats = [
-    ["GP", career.games_played],
+function renderCareer(career, teamRecord) {
+  const teamStats = [
+    ["Games Played", teamRecord?.games_played],
+    ["Wins", teamRecord?.wins],
+    ["Losses", teamRecord?.losses],
+    ["Goals For", teamRecord?.goals_for],
+    ["Goals Against", teamRecord?.goals_against]
+  ];
+
+  const playerStats = [
+    ["Man Games", career.games_played],
     ["Goals", career.goals],
     ["Assists", career.assists],
     ["Points", career.points],
@@ -257,13 +291,22 @@ function renderCareer(career) {
     ["Blocks", career.blocks]
   ];
 
-  document.querySelector("#careerStats").innerHTML =
-    stats.map(([label, value]) => `
-      <div class="stat-box">
-        <span>${label}</span>
-        <strong>${value ?? 0}</strong>
-      </div>
-    `).join("");
+  const renderCard = ([label, value]) => `
+    <div class="stat-box">
+      <span>${label}</span>
+      <strong>${value ?? 0}</strong>
+    </div>
+  `;
+
+  document.querySelector("#teamStats").innerHTML = `
+    <div class="team-stat-row team-record-row">
+      ${teamStats.map(renderCard).join("")}
+    </div>
+
+    <div class="team-stat-row player-total-row">
+      ${playerStats.map(renderCard).join("")}
+    </div>
+  `;
 }
 
 function renderTagList(selector, items, className = "") {
