@@ -6876,50 +6876,22 @@
         "notes": ""
       },
       {
-        "team": "",
+        "team": "Wendake Trappers",
         "order": 1,
-        "start_season": "",
-        "end_season": "",
-        "notes": ""
-      },
-      {
-        "team": "",
-        "order": 1,
-        "start_season": "",
-        "end_season": "",
-        "notes": ""
-      },
-      {
-        "team": "",
-        "order": 1,
-        "start_season": "",
-        "end_season": "",
-        "notes": ""
-      },
-      {
-        "team": "",
-        "order": 1,
-        "start_season": "",
-        "end_season": "",
-        "notes": ""
-      },
-      {
-        "team": "",
-        "order": 1,
-        "start_season": "",
-        "end_season": "",
+        "start_season": "fall_2022",
+        "end_season": "spring_2023",
         "notes": ""
       }
     ],
     "team_totals": {
-      "teams": 6,
-      "games_played": 599,
-      "wins": 342,
-      "losses": 256,
-      "goals_for": 4291,
-      "goals_against": 3751,
-      "goal_differential": 540,
-      "win_percent": 0.571,
+      "teams": 7,
+      "games_played": 636,
+      "wins": 362,
+      "losses": 273,
+      "goals_for": 4542,
+      "goals_against": 3980,
+      "goal_differential": 562,
+      "win_percent": 0.569,
       "seasons": 12
     },
     "team_records": {
@@ -6992,6 +6964,24 @@
         ],
         "start_season": "fall_2022",
         "end_season": "fall_2024",
+        "order": 1
+      },
+      {
+        "team": "Wendake Trappers",
+        "games_played": 37,
+        "wins": 20,
+        "losses": 17,
+        "goals_for": 251,
+        "goals_against": 229,
+        "goal_differential": 22,
+        "win_percent": 0.541,
+        "seasons": [
+          "fall_2022",
+          "winter_2023",
+          "spring_2023"
+        ],
+        "start_season": "fall_2022",
+        "end_season": "spring_2023",
         "order": 1
       },
       {
@@ -7075,30 +7065,30 @@
       "pro": {
         "has_data": true,
         "career": {
-          "assists": 811.0,
-          "blocks": 1180.0,
-          "faceoffs_lost": 1040.0,
-          "faceoffs_won": 997.0,
-          "goals": 864.0,
-          "passes": 9634.0,
-          "points": 1675.0,
-          "possession_time_sec": 17238.0,
-          "post_hits": 381.0,
-          "primary_assists": 640.0,
-          "saves": 1203.0,
-          "secondary_assists": 171.0,
-          "shots": 1929.0,
-          "takeaways": 1569.0,
-          "turnovers": 1583.0,
-          "goals_against": 2912.0,
-          "shots_against": 6887.0,
-          "games_played": 436.0,
-          "faceoffs_total": 2037.0,
+          "assists": 828.0,
+          "blocks": 1204.0,
+          "faceoffs_lost": 1127.0,
+          "faceoffs_won": 1030.0,
+          "goals": 898.0,
+          "passes": 9960.0,
+          "points": 1726.0,
+          "possession_time_sec": 17960.0,
+          "post_hits": 392.0,
+          "primary_assists": 655.0,
+          "saves": 1285.0,
+          "secondary_assists": 173.0,
+          "shots": 1999.0,
+          "takeaways": 1639.0,
+          "turnovers": 1692.0,
+          "goals_against": 3129.0,
+          "shots_against": 7366.0,
+          "games_played": 458.0,
+          "faceoffs_total": 2157.0,
           "periods_played": 881.0,
-          "shot_percent": 44.79,
-          "save_percent": 17.47,
-          "gaa": 6.68,
-          "faceoff_win_percent": 48.94
+          "shot_percent": 44.92,
+          "save_percent": 17.45,
+          "gaa": 6.83,
+          "faceoff_win_percent": 47.75
         },
         "leaders": {
           "goals": [
@@ -7229,8 +7219,8 @@
               "value": 97.0
             },
             {
-              "player_name": "IAM FOREHEAD",
-              "value": 43.0
+              "player_name": "Dyno Mike",
+              "value": 49.0
             }
           ],
           "blocks": [
@@ -7324,7 +7314,8 @@
         },
         "teams": [
           "Carolina Bassmasters",
-          "Coaticook Stars"
+          "Coaticook Stars",
+          "Wendake Trappers"
         ],
         "seasons": [
           "summer_2025",
@@ -7340,30 +7331,30 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3882.0,
-          "blocks": 4675.0,
-          "faceoffs_lost": 4574.0,
-          "faceoffs_won": 4763.0,
-          "goals": 4291.0,
-          "passes": 38934.0,
-          "points": 8173.0,
-          "possession_time_sec": 70906.0,
-          "post_hits": 1836.0,
-          "primary_assists": 3102.0,
-          "saves": 4748.0,
-          "secondary_assists": 780.0,
-          "shots": 9055.0,
-          "takeaways": 6723.0,
-          "turnovers": 6752.0,
-          "goals_against": 12661.0,
-          "shots_against": 28549.0,
-          "games_played": 2016.0,
-          "faceoffs_total": 9337.0,
+          "assists": 4082.0,
+          "blocks": 4756.0,
+          "faceoffs_lost": 4863.0,
+          "faceoffs_won": 5042.0,
+          "goals": 4542.0,
+          "passes": 41068.0,
+          "points": 8624.0,
+          "possession_time_sec": 76163.0,
+          "post_hits": 1939.0,
+          "primary_assists": 3272.0,
+          "saves": 5015.0,
+          "secondary_assists": 810.0,
+          "shots": 9557.0,
+          "takeaways": 7261.0,
+          "turnovers": 7257.0,
+          "goals_against": 13422.0,
+          "shots_against": 30204.0,
+          "games_played": 2140.0,
+          "faceoffs_total": 9905.0,
           "periods_played": 3831.0,
-          "shot_percent": 47.39,
-          "save_percent": 16.63,
-          "gaa": 6.28,
-          "faceoff_win_percent": 51.01
+          "shot_percent": 47.53,
+          "save_percent": 16.6,
+          "gaa": 6.27,
+          "faceoff_win_percent": 50.9
         },
         "leaders": {
           "goals": [
@@ -7464,12 +7455,12 @@
               "value": 461.0
             },
             {
-              "player_name": "Raidd",
-              "value": 380.0
+              "player_name": "Jenediah",
+              "value": 397.0
             },
             {
-              "player_name": "Jenediah",
-              "value": 368.0
+              "player_name": "Raidd",
+              "value": 380.0
             },
             {
               "player_name": "Chrislol",
@@ -7593,7 +7584,8 @@
           "Coaticook Demons",
           "Coaticook Kingpins",
           "Coaticook Stars",
-          "Coaticook Supernovas"
+          "Coaticook Supernovas",
+          "Wendake Trappers"
         ],
         "seasons": [
           "summer_2025",

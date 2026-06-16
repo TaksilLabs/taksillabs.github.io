@@ -64,6 +64,18 @@ function renderFranchises(franchises) {
                 ?.seasons
                 ?.length || 0;
 
+            const logoHTML =
+                franchise.logo
+                    ? `
+                        <img
+                            class="franchise-card-logo-bg"
+                            src="${franchise.logo}"
+                            alt=""
+                            aria-hidden="true"
+                        >
+                    `
+                    : "";
+
             return `
                 <a
                     class="franchise-hub-card"
@@ -74,39 +86,47 @@ function renderFranchises(franchises) {
                         --franchise-secondary:${franchise.theme?.secondary || "#ffffff"};
                         --franchise-accent:${franchise.theme?.accent || "#ffffff"};
                         --franchise-background:${franchise.theme?.background || "#111"};
+                        --franchise-card:${franchise.theme?.card || "#111"};
+                        --franchise-surface:${franchise.theme?.surface || "#1a1a1a"};
                     "
                 >
 
-                    <div class="franchise-card-name">
-                        ${franchise.franchise_name}
-                    </div>
+                    ${logoHTML}
 
-                    <div class="franchise-card-stats">
+                    <div class="franchise-card-content">
 
-                        <div class="franchise-stat">
-                            <div class="franchise-card-label">
-                                Teams
-                            </div>
-
-                            <div class="franchise-card-value">
-                                ${teams}
-                            </div>
+                        <div class="franchise-card-name">
+                            ${franchise.franchise_name}
                         </div>
 
-                        <div class="franchise-stat">
-                            <div class="franchise-card-label">
-                                Seasons
+                        <div class="franchise-card-stats">
+
+                            <div class="franchise-stat">
+                                <div class="franchise-card-label">
+                                    Teams
+                                </div>
+
+                                <div class="franchise-card-value">
+                                    ${teams}
+                                </div>
                             </div>
-                            
-                            <div class="franchise-card-value">
-                                ${seasons}
+
+                            <div class="franchise-stat">
+                                <div class="franchise-card-label">
+                                    Seasons
+                                </div>
+                                
+                                <div class="franchise-card-value">
+                                    ${seasons}
+                                </div>
                             </div>
+
                         </div>
 
-                    </div>
+                        <div class="franchise-card-founded">
+                            Founded: ${franchise.founded || "Unknown"}
+                        </div>
 
-                    <div class="franchise-card-founded">
-                        Founded: ${franchise.founded || "Unknown"}
                     </div>
 
                 </a>
