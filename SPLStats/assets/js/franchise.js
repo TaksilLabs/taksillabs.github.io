@@ -1,4 +1,5 @@
 let franchisePlayers = [];
+let teamRecordMap = {};
 
 let currentSort = "points";
 let sortDescending = true;
@@ -11,13 +12,35 @@ function getFranchiseIdFromUrl() {
 async function loadFranchise() {
     const id = getFranchiseIdFromUrl();
 
-     const [metaRes, statsRes] = await Promise.all([
+     const [
+        metaRes,
+        statsRes,
+        recordsRes
+    ] = await Promise.all([
         fetch("data/franchises.json"),
-        fetch("data/franchise_stats.json")
+        fetch("data/franchise_stats.json"),
+        fetch("data/team_records.json")
     ]);
 
     const meta = await metaRes.json();
     const stats = await statsRes.json();
+    const teamRecords =
+        await recordsRes.json();
+
+    teamRecordMap = {};
+
+    teamRecords.forEach(record => {
+
+        teamRecordMap[record.team] = record;
+
+        const normalized =
+            record.team.replace(
+                /\s*\([^)]*\)$/,
+                ""
+            );
+
+        teamRecordMap[normalized] = record;
+    });    
 
     const metaFranchise = meta.find(f => f.franchise_id === id);
     const statsFranchise = stats.find(f => f.franchise_id === id);
@@ -451,7 +474,10 @@ function renderFranchise(franchise) {
 
     renderFranchiseHeaderStats(franchise);
     renderInfo(franchise);
-    renderTeams(franchise.memberships || []);
+    renderTeams(
+        franchise.memberships,
+        teamRecordMap
+    );
     renderHallOfFame(franchise.hall_of_fame || []);
     renderFranchiseLeaders(franchise);
 }
@@ -524,29 +550,89 @@ function formatSeason(seasonId) {
   );
 }
 
-function renderTeams(memberships) {
-  const sorted = [...memberships].sort((a, b) => (a.order || 999) - (b.order || 999));
+function renderTeams(
+    memberships,
+    teamRecordMap
+) {
 
-    document.querySelector("#franchiseTeams").innerHTML = sorted.map(m => `
-        <a class="team-hub-card franchise-team-card"
-        href="team.html?team=${encodeURIComponent(m.team)}">
+    const sorted =
+        [...memberships].sort(
+            (a, b) =>
+                (a.order || 999)
+                - (b.order || 999)
+        );
 
-        <div class="franchise-team-name">
-            ${m.team}
-        </div>
+    document.querySelector(
+        "#franchiseTeams"
+    ).innerHTML = sorted.map(m => {
 
-        <div class="franchise-team-spacer"></div>
+        const record =
+            teamRecordMap[m.team]
+            || teamRecordMap[
+                m.team.replace(
+                    /\s*\([^)]*\)$/,
+                    ""
+                )
+            ]
+            || {};
 
-        <div class="franchise-team-years">
-            ${formatSeason(m.start_season)}
-            →
-            ${m.end_season
-            ? formatSeason(m.end_season)
-            : "Present"}
-        </div>
+        const wins =
+            record.wins ?? 0;
 
-    </a>
-    `).join("");
+        const losses =
+            record.losses ?? 0;
+
+        const gd =
+            record.goal_differential ?? 0;
+
+        const winPct =
+            ((record.win_percent ?? 0) * 100)
+                .toFixed(1);
+
+        return `
+            <a
+                class="team-hub-card franchise-team-card"
+                href="team.html?team=${encodeURIComponent(
+                    m.team
+                )}"
+            >
+
+                <div class="franchise-team-name">
+                    ${m.team}
+                </div>
+
+                <div class="franchise-team-record">
+                    ${wins}-${losses}
+                </div>
+
+                <div class="franchise-team-winpct">
+                    ( ${winPct}% )
+                </div>
+
+                <div class="franchise-team-gd">
+                    ${gd >= 0 ? "+" : ""}${gd} GD
+                </div>
+
+                <div class="franchise-team-spacer"></div>
+
+                <div class="franchise-team-years">
+                    ${formatSeason(
+                        m.start_season
+                    )}
+                    →
+                    ${
+                        m.end_season
+                            ? formatSeason(
+                                m.end_season
+                            )
+                            : "Present"
+                    }
+                </div>
+
+            </a>
+        `;
+
+    }).join("");
 }
 
 function renderHallOfFame(entries) {
