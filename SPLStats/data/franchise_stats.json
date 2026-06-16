@@ -2154,7 +2154,7 @@
     ],
     "hall_of_fame": [
       {
-        "player": "Goatwalker",
+        "player": "Ghostwalker",
         "retired_number": "n/a",
         "retired_date": "2025-06-08",
         "induction_speech": "The leader is so many stats I couldn't list them all here, Ghostwalker more like Goatwalker, a goalscoring machine who was played at every level of Vader."
@@ -2172,7 +2172,7 @@
         "induction_speech": "The definition of hard work pays off, Huzz worked his way from JSA B team to captaining two SPL teams in one season, winning a chip along the way!"
       },
       {
-        "player": "pvW",
+        "player": "pvW.",
         "retired_number": "n/a",
         "retired_date": "2025-06-08",
         "induction_speech": "The greatest 3 in Vader history, his slick moves, incredible saves, and competitive edge makes him a force on the ice."
@@ -2939,6 +2939,384 @@
           "fall_2025",
           "summer_2025",
           "spring_2025"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "niconics",
+    "franchise_name": "Niconics",
+    "status": "inactive",
+    "description": "",
+    "founders": [
+      "Whiffleroar",
+      "Dilly"
+    ],
+    "owners": [
+      "Whiffleroar",
+      "Dilly"
+    ],
+    "part_owners": [
+      "YmisScarab",
+      "BAKED Pickle"
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "player_name",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Nashville Niconics",
+        "order": 1,
+        "start_season": "spring_2021",
+        "end_season": "summer_2023",
+        "notes": ""
+      },
+      {
+        "team": "New England Niconics",
+        "order": 1,
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "notes": ""
+      },
+      {
+        "team": "Newark Niconics",
+        "order": 1,
+        "start_season": "spring_2021",
+        "end_season": "spring_2021",
+        "notes": ""
+      },
+      {
+        "team": "Naperville Niconics",
+        "order": 1,
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "notes": ""
+      },
+      {
+        "team": "Syrup City Niconics",
+        "order": 1,
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "notes": ""
+      },
+      {
+        "team": "Nowhere Niconics",
+        "order": 1,
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "notes": ""
+      },
+      {
+        "team": "Quebec Flare",
+        "order": 1,
+        "start_season": "winter_2023",
+        "end_season": "summer_2023",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": false,
+        "career": {
+          "points": 0,
+          "shot_percent": 0,
+          "save_percent": 0,
+          "gaa": 0,
+          "faceoffs_total": 0,
+          "faceoff_win_percent": 0
+        },
+        "leaders": {
+          "goals": [],
+          "assists": [],
+          "points": [],
+          "shots": [],
+          "takeaways": [],
+          "saves": [],
+          "blocks": [],
+          "faceoff_percent": [],
+          "games_played": [],
+          "seasons_played": []
+        },
+        "teams": [],
+        "seasons": []
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 1199.0,
+          "blocks": 665.0,
+          "faceoffs_lost": 2065.0,
+          "faceoffs_won": 2285.0,
+          "goals": 1948.0,
+          "passes": 14363.0,
+          "points": 3147.0,
+          "possession_time_sec": 29059.0,
+          "post_hits": 810.0,
+          "primary_assists": 1267.0,
+          "saves": 2136.0,
+          "secondary_assists": 224.0,
+          "shots": 3970.0,
+          "takeaways": 3776.0,
+          "turnovers": 3357.0,
+          "goals_against": 6038.0,
+          "shots_against": 12988.0,
+          "games_played": 917.0,
+          "faceoffs_total": 4350.0,
+          "periods_played": 315.0,
+          "shot_percent": 49.07,
+          "save_percent": 16.45,
+          "gaa": 6.58,
+          "faceoff_win_percent": 52.53
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Nayr[QC]",
+              "value": 230.0
+            },
+            {
+              "player_name": "whiffleroar",
+              "value": 209.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 100.0
+            },
+            {
+              "player_name": "n00g",
+              "value": 94.0
+            },
+            {
+              "player_name": "Kazxi",
+              "value": 91.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Nayr[QC]",
+              "value": 87.0
+            },
+            {
+              "player_name": "whiffleroar",
+              "value": 71.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 70.0
+            },
+            {
+              "player_name": "Kazxi",
+              "value": 65.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 51.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Nayr[QC]",
+              "value": 317.0
+            },
+            {
+              "player_name": "whiffleroar",
+              "value": 280.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 170.0
+            },
+            {
+              "player_name": "Kazxi",
+              "value": 156.0
+            },
+            {
+              "player_name": "n00g",
+              "value": 133.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Nayr[QC]",
+              "value": 436.0
+            },
+            {
+              "player_name": "whiffleroar",
+              "value": 396.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 196.0
+            },
+            {
+              "player_name": "StarFax",
+              "value": 181.0
+            },
+            {
+              "player_name": "n00g",
+              "value": 171.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "StarFax",
+              "value": 261.0
+            },
+            {
+              "player_name": "whiffleroar",
+              "value": 251.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 236.0
+            },
+            {
+              "player_name": "Kazxi",
+              "value": 191.0
+            },
+            {
+              "player_name": "n00g",
+              "value": 178.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "whiffleroar",
+              "value": 319.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 210.0
+            },
+            {
+              "player_name": "Luxuria",
+              "value": 101.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 92.0
+            },
+            {
+              "player_name": "Dilly",
+              "value": 84.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "whiffleroar",
+              "value": 48.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 43.0
+            },
+            {
+              "player_name": "Meekrs",
+              "value": 36.0
+            },
+            {
+              "player_name": "YmisScarab",
+              "value": 34.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 25.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "trippie [C]",
+              "value": 72.97
+            },
+            {
+              "player_name": "Doug",
+              "value": 69.84
+            },
+            {
+              "player_name": "Style/Carson",
+              "value": 66.18
+            },
+            {
+              "player_name": "SOMEONE",
+              "value": 65.91
+            },
+            {
+              "player_name": "SaltyVeteran",
+              "value": 65.62
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "whiffleroar",
+              "value": 103.0
+            },
+            {
+              "player_name": "Nayr[QC]",
+              "value": 64.0
+            },
+            {
+              "player_name": "Barkov",
+              "value": 37.0
+            },
+            {
+              "player_name": "Kazxi",
+              "value": 34.0
+            },
+            {
+              "player_name": "StarFax",
+              "value": 34.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "whiffleroar",
+              "value": 6
+            },
+            {
+              "player_name": "ap_ultra / Poltergeist Pickle",
+              "value": 5
+            },
+            {
+              "player_name": "Barkov",
+              "value": 4
+            },
+            {
+              "player_name": "Pierre-Luc Dubios",
+              "value": 4
+            },
+            {
+              "player_name": "Nayr[QC]",
+              "value": 3
+            }
+          ]
+        },
+        "teams": [
+          "Naperville Niconics",
+          "Nashville Niconics",
+          "New England Niconics",
+          "Newark Niconics",
+          "Nowhere Niconics",
+          "Quebec Flare",
+          "Syrup City Niconics"
+        ],
+        "seasons": [
+          "summer_2023",
+          "spring_2023",
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021",
+          "spring_2021"
         ]
       }
     }

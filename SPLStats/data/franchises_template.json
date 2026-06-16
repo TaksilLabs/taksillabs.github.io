@@ -1,8 +1,25 @@
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
     "franchise_id": "",
     "franchise_name": "",
     "status": "active",
     "founded": "yyyy-mm-dd",
+    "closed": "yyyy-mm-dd",
 
     "theme": {
         "primary": "#cc0021",
