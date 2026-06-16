@@ -4077,7 +4077,6 @@
       ""
     ],
     "coaches": [
-      "",
       ""
     ],
     "hall_of_fame": [
@@ -4623,6 +4622,946 @@
           "summer_2021",
           "spring_2021",
           "winter_2021"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "coaticook",
+    "franchise_name": "Coaticook",
+    "status": "inactive",
+    "description": "",
+    "founders": [
+      "Dylinho"
+    ],
+    "owners": [
+      "Dylinho",
+      "Pierre Houde"
+    ],
+    "part_owners": [
+      "halleJOKEL"
+    ],
+    "coaches": [
+      "",
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "player_name",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Coaticook Stars",
+        "order": 1,
+        "start_season": "fall_2022",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Coaticook Kingpins",
+        "order": 1,
+        "start_season": "fall_2022",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Coaticook Carens",
+        "order": 1,
+        "start_season": "spring_2023",
+        "end_season": "fall_2023",
+        "notes": ""
+      },
+      {
+        "team": "Carolina Bassmasters",
+        "order": 1,
+        "start_season": "winter_2023",
+        "end_season": "sumemr_2025",
+        "notes": ""
+      },
+      {
+        "team": "Coaticook Supernovas",
+        "order": 1,
+        "start_season": "fall_2024",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Coaticook Demons",
+        "order": 1,
+        "start_season": "winter_2023",
+        "end_season": "winter_2023",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 643.0,
+          "blocks": 502.0,
+          "faceoffs_lost": 727.0,
+          "faceoffs_won": 774.0,
+          "goals": 668.0,
+          "passes": 7698.0,
+          "points": 1311.0,
+          "possession_time_sec": 14035.0,
+          "post_hits": 295.0,
+          "primary_assists": 504.0,
+          "saves": 842.0,
+          "secondary_assists": 139.0,
+          "shots": 1508.0,
+          "takeaways": 1231.0,
+          "turnovers": 1164.0,
+          "goals_against": 2017.0,
+          "shots_against": 4810.0,
+          "games_played": 329.0,
+          "faceoffs_total": 1501.0,
+          "periods_played": 588.0,
+          "shot_percent": 44.3,
+          "save_percent": 17.51,
+          "gaa": 6.13,
+          "faceoff_win_percent": 51.57
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Blue",
+              "value": 127.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 121.0
+            },
+            {
+              "player_name": "Couture",
+              "value": 93.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 52.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 46.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Couture",
+              "value": 116.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 85.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 84.0
+            },
+            {
+              "player_name": "Chrislol",
+              "value": 63.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 48.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Blue",
+              "value": 212.0
+            },
+            {
+              "player_name": "Couture",
+              "value": 209.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 205.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 92.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 90.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Blue",
+              "value": 278.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 238.0
+            },
+            {
+              "player_name": "Couture",
+              "value": 227.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 114.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 114.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Chrislol",
+              "value": 237.0
+            },
+            {
+              "player_name": "Couture",
+              "value": 174.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 173.0
+            },
+            {
+              "player_name": "Kspyre",
+              "value": 96.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 92.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Chrislol",
+              "value": 243.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 191.0
+            },
+            {
+              "player_name": "Couture",
+              "value": 97.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 43.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 39.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Couture",
+              "value": 120.0
+            },
+            {
+              "player_name": "Charles",
+              "value": 109.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 94.0
+            },
+            {
+              "player_name": "Chrislol",
+              "value": 47.0
+            },
+            {
+              "player_name": "Kspyre",
+              "value": 22.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Charles",
+              "value": 63.24
+            },
+            {
+              "player_name": "Chrislol",
+              "value": 61.07
+            },
+            {
+              "player_name": "Blue",
+              "value": 60.12
+            },
+            {
+              "player_name": "Bangaled",
+              "value": 58.44
+            },
+            {
+              "player_name": "Couture",
+              "value": 57.83
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Dylinho",
+              "value": 47.0
+            },
+            {
+              "player_name": "Couture",
+              "value": 44.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 35.0
+            },
+            {
+              "player_name": "Chrislol",
+              "value": 29.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 27.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Couture",
+              "value": 4
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 3
+            },
+            {
+              "player_name": "Blue",
+              "value": 2
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 2
+            },
+            {
+              "player_name": "Chrislol",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Carolina Bassmasters",
+          "Coaticook Stars"
+        ],
+        "seasons": [
+          "fall_2024",
+          "winter_2024",
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "winter_2023"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 3600.0,
+          "blocks": 3466.0,
+          "faceoffs_lost": 4058.0,
+          "faceoffs_won": 4411.0,
+          "goals": 3952.0,
+          "passes": 35834.0,
+          "points": 7552.0,
+          "possession_time_sec": 65695.0,
+          "post_hits": 1688.0,
+          "primary_assists": 2866.0,
+          "saves": 4137.0,
+          "secondary_assists": 734.0,
+          "shots": 8348.0,
+          "takeaways": 6147.0,
+          "turnovers": 6020.0,
+          "goals_against": 11332.0,
+          "shots_against": 25238.0,
+          "games_played": 1838.0,
+          "faceoffs_total": 8469.0,
+          "periods_played": 3338.0,
+          "shot_percent": 47.34,
+          "save_percent": 16.39,
+          "gaa": 6.17,
+          "faceoff_win_percent": 52.08
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Raidd",
+              "value": 350.0
+            },
+            {
+              "player_name": "Zantle",
+              "value": 350.0
+            },
+            {
+              "player_name": "dlew.",
+              "value": 275.0
+            },
+            {
+              "player_name": "Lezura",
+              "value": 253.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 246.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "dlew.",
+              "value": 290.0
+            },
+            {
+              "player_name": "Berm",
+              "value": 260.0
+            },
+            {
+              "player_name": "Lezura",
+              "value": 230.0
+            },
+            {
+              "player_name": "Big Trout",
+              "value": 215.0
+            },
+            {
+              "player_name": "Raidd",
+              "value": 213.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "dlew.",
+              "value": 565.0
+            },
+            {
+              "player_name": "Raidd",
+              "value": 563.0
+            },
+            {
+              "player_name": "Zantle",
+              "value": 518.0
+            },
+            {
+              "player_name": "Lezura",
+              "value": 483.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 433.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Zantle",
+              "value": 724.0
+            },
+            {
+              "player_name": "Raidd",
+              "value": 679.0
+            },
+            {
+              "player_name": "dlew.",
+              "value": 570.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 490.0
+            },
+            {
+              "player_name": "Lezura",
+              "value": 458.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Big Trout",
+              "value": 436.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 394.0
+            },
+            {
+              "player_name": "Raidd",
+              "value": 380.0
+            },
+            {
+              "player_name": "Jenediah",
+              "value": 368.0
+            },
+            {
+              "player_name": "dlew.",
+              "value": 350.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "dlew.",
+              "value": 492.0
+            },
+            {
+              "player_name": "jaax",
+              "value": 473.0
+            },
+            {
+              "player_name": "Dylinho",
+              "value": 375.0
+            },
+            {
+              "player_name": "Berm",
+              "value": 320.0
+            },
+            {
+              "player_name": "Chrislol",
+              "value": 300.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "jaax",
+              "value": 447.0
+            },
+            {
+              "player_name": "dlew.",
+              "value": 327.0
+            },
+            {
+              "player_name": "Dil",
+              "value": 192.0
+            },
+            {
+              "player_name": "Pierre Houde",
+              "value": 177.0
+            },
+            {
+              "player_name": "halleJOKEL",
+              "value": 156.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Bangaled",
+              "value": 68.04
+            },
+            {
+              "player_name": "buddy",
+              "value": 65.38
+            },
+            {
+              "player_name": "gr8e",
+              "value": 63.09
+            },
+            {
+              "player_name": "Zoofle",
+              "value": 60.32
+            },
+            {
+              "player_name": "tmoneytom",
+              "value": 60.0
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "dlew.",
+              "value": 124.0
+            },
+            {
+              "player_name": "Berm",
+              "value": 120.0
+            },
+            {
+              "player_name": "Lezura",
+              "value": 117.0
+            },
+            {
+              "player_name": "Raidd",
+              "value": 116.0
+            },
+            {
+              "player_name": "Zantle",
+              "value": 109.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "dlew.",
+              "value": 8
+            },
+            {
+              "player_name": "Zantle",
+              "value": 8
+            },
+            {
+              "player_name": "Big Trout",
+              "value": 8
+            },
+            {
+              "player_name": "halleJOKEL",
+              "value": 8
+            },
+            {
+              "player_name": "Raidd",
+              "value": 7
+            }
+          ]
+        },
+        "teams": [
+          "Carolina Bassmasters",
+          "Coaticook Carens",
+          "Coaticook Demons",
+          "Coaticook Kingpins",
+          "Coaticook Stars",
+          "Coaticook Supernovas"
+        ],
+        "seasons": [
+          "fall_2024",
+          "summer_2024",
+          "spring_2024",
+          "winter_2024",
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "winter_2023",
+          "fall_2022"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "winnipeg",
+    "franchise_name": "Winnipeg",
+    "status": "active",
+    "description": "",
+    "founders": [
+      "Pino"
+    ],
+    "owners": [
+      "Pino"
+    ],
+    "part_owners": [
+      ""
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "player_name",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Winnipeg Wrath",
+        "order": 1,
+        "start_season": "winter_2020",
+        "end_season": "fall_2021",
+        "notes": ""
+      },
+      {
+        "team": "Victoria Vengeance",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "winter_2021",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": false,
+        "career": {
+          "points": 0,
+          "shot_percent": 0,
+          "save_percent": 0,
+          "gaa": 0,
+          "faceoffs_total": 0,
+          "faceoff_win_percent": 0
+        },
+        "leaders": {
+          "goals": [],
+          "assists": [],
+          "points": [],
+          "shots": [],
+          "takeaways": [],
+          "saves": [],
+          "blocks": [],
+          "faceoff_percent": [],
+          "games_played": [],
+          "seasons_played": []
+        },
+        "teams": [],
+        "seasons": []
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 478.0,
+          "goals": 689.0,
+          "saves": 1067.0,
+          "shots": 1504.0,
+          "goals_against": 3097.0,
+          "shots_against": 6264.0,
+          "points": 1167.0,
+          "games_played": 372.0,
+          "faceoffs_total": 1275.0,
+          "blocks": 196.0,
+          "faceoffs_lost": 747.0,
+          "faceoffs_won": 528.0,
+          "passes": 2913.0,
+          "possession_time_sec": 5059.0,
+          "post_hits": 192.0,
+          "primary_assists": 259.0,
+          "secondary_assists": 34.0,
+          "takeaways": 1113.0,
+          "turnovers": 1791.0,
+          "shot_percent": 45.81,
+          "save_percent": 17.03,
+          "gaa": 8.33,
+          "faceoff_win_percent": 41.41
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "maki itoh",
+              "value": 213.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 135.0
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 133.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 92.0
+            },
+            {
+              "player_name": "Tupac",
+              "value": 23.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Ohgood",
+              "value": 127.0
+            },
+            {
+              "player_name": "maki itoh",
+              "value": 120.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 104.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 58.0
+            },
+            {
+              "player_name": "Tupac",
+              "value": 13.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "maki itoh",
+              "value": 333.0
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 260.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 239.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 150.0
+            },
+            {
+              "player_name": "Tupac",
+              "value": 36.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "maki itoh",
+              "value": 474.0
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 288.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 273.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 236.0
+            },
+            {
+              "player_name": "DarthTaksil",
+              "value": 45.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Pino",
+              "value": 262.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 235.0
+            },
+            {
+              "player_name": "maki itoh",
+              "value": 227.0
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 215.0
+            },
+            {
+              "player_name": "DarthTaksil",
+              "value": 45.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Ohgood",
+              "value": 403.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 348.0
+            },
+            {
+              "player_name": "maki itoh",
+              "value": 91.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 32.0
+            },
+            {
+              "player_name": "DarthTaksil",
+              "value": 30.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Pino",
+              "value": 57.0
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 55.0
+            },
+            {
+              "player_name": "maki itoh",
+              "value": 28.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 20.0
+            },
+            {
+              "player_name": "Acro",
+              "value": 18.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "DarthTaksil",
+              "value": 47.06
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 44.91
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 43.78
+            },
+            {
+              "player_name": "maki itoh",
+              "value": 43.09
+            },
+            {
+              "player_name": "Acro",
+              "value": 43.08
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "maki itoh",
+              "value": 87.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 85.0
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 85.0
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 29.0
+            },
+            {
+              "player_name": "Tupac",
+              "value": 13.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Pino",
+              "value": 8
+            },
+            {
+              "player_name": "maki itoh",
+              "value": 7
+            },
+            {
+              "player_name": "Ohgood",
+              "value": 7
+            },
+            {
+              "player_name": "Acro",
+              "value": 3
+            },
+            {
+              "player_name": "Autumnnn",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Victoria Vengeance",
+          "Winnipeg Wrath"
+        ],
+        "seasons": [
+          "fall_2021",
+          "summer_2021",
+          "spring_2021",
+          "winter_2021",
+          "fall_2020",
+          "summer_2020",
+          "spring_2020",
+          "winter_2020"
         ]
       }
     }

@@ -1186,14 +1186,12 @@
         "closed": "n/a",
 
         "theme": {
-            "primary": "#cc0021",
-            "secondary": "#1a1a1a",
-            "accent": "#ecad14",
-
-            "background": "#121212",
-            "card": "#1a1a1a",
-            "surface": "#121212",
-            "header": "#2c2c2c"
+        "primary": "#7ED6E8",
+        "secondary": "#FFFFFF",
+        "accent": "#B9F3FF",
+        "background": "#020607",
+        "card": "#071113",
+        "surface": "#0D1C20"
         },
 
         "description": "",
@@ -1212,7 +1210,6 @@
         ],
 
         "coaches": [
-            "",
             ""
         ],
 
@@ -1239,6 +1236,180 @@
                 "notes": ""
             },{
                 "team": "Maryland Marlins",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "winter_2021",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "coaticook",
+        "franchise_name": "Coaticook",
+        "status": "inactive",
+        "founded": "2022-05-14",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#F01808",
+            "secondary": "#FF7A00",
+            "accent": "#E8F000",
+            "background": "#050500",
+            "card": "#141006",
+            "surface": "#221A08"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Dylinho"
+        ],
+
+        "owners": [
+            "Dylinho",
+            "Pierre Houde"
+        ],
+
+        "part_owners": [
+            "halleJOKEL"
+        ],
+
+        "coaches": [
+            "",
+            ""
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "player_name",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Coaticook Stars",
+                "order": 1,
+                "start_season": "fall_2022",
+                "end_season": "fall_2024",
+                "notes": ""
+            },{
+                "team": "Coaticook Kingpins",
+                "order": 1,
+                "start_season": "fall_2022",
+                "end_season": "fall_2024",
+                "notes": ""
+            },{
+                "team": "Coaticook Carens",
+                "order": 1,
+                "start_season": "spring_2023",
+                "end_season": "fall_2023",
+                "notes": ""
+            },{
+                "team": "Carolina Bassmasters",
+                "order": 1,
+                "start_season": "winter_2023",
+                "end_season": "sumemr_2025",
+                "notes": ""
+            },{
+                "team": "Coaticook Supernovas",
+                "order": 1,
+                "start_season": "fall_2024",
+                "end_season": "fall_2024",
+                "notes": ""
+            },{
+                "team": "Coaticook Demons",
+                "order": 1,
+                "start_season": "winter_2023",
+                "end_season": "winter_2023",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "winnipeg",
+        "franchise_name": "Winnipeg",
+        "status": "active",
+        "founded": "yyyy-mm-dd",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#D71920",
+            "secondary": "#7A0000",
+            "accent": "#F2F2F2",
+            "background": "#030303",
+            "card": "#120404",
+            "surface": "#1F0707"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Pino"
+        ],
+
+        "owners": [
+            "Pino"
+        ],
+
+        "part_owners": [
+            ""
+        ],
+
+        "coaches": [
+            ""
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "player_name",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Winnipeg Wrath",
+                "order": 1,
+                "start_season": "winter_2020",
+                "end_season": "fall_2021",
+                "notes": ""
+            },{
+                "team": "Victoria Vengeance",
                 "order": 1,
                 "start_season": "winter_2021",
                 "end_season": "winter_2021",
