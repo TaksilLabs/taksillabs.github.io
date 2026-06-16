@@ -359,14 +359,14 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 1984.0,
+          "assists": 1985.0,
           "blocks": 1447.0,
           "faceoffs_lost": 3635.0,
           "faceoffs_won": 2849.0,
           "goals": 2525.0,
           "passes": 21324.0,
           "periods_played": 2067.0,
-          "points": 4509.0,
+          "points": 4510.0,
           "possession_time_sec": 38705.0,
           "post_hits": 1121.0,
           "primary_assists": 1669.0,
@@ -1853,7 +1853,7 @@
               "value": 1
             },
             {
-              "player_name": "Buf",
+              "player_name": "Panarin",
               "value": 1
             }
           ]
@@ -1871,13 +1871,13 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 1277.0,
+          "assists": 1567.0,
           "blocks": 631.0,
           "faceoffs_lost": 1630.0,
           "faceoffs_won": 2053.0,
           "goals": 1782.0,
           "passes": 16874.0,
-          "points": 3059.0,
+          "points": 3349.0,
           "possession_time_sec": 33111.0,
           "post_hits": 788.0,
           "primary_assists": 1286.0,
@@ -1921,45 +1921,45 @@
           "assists": [
             {
               "player_name": "Kajun",
-              "value": 278.0
+              "value": 323.0
             },
             {
               "player_name": "Cosmo",
-              "value": 114.0
-            },
-            {
-              "player_name": "cON",
-              "value": 99.0
-            },
-            {
-              "player_name": "spectacular333",
-              "value": 96.0
+              "value": 146.0
             },
             {
               "player_name": "Clifford",
-              "value": 87.0
+              "value": 131.0
+            },
+            {
+              "player_name": "cON",
+              "value": 122.0
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 118.0
             }
           ],
           "points": [
             {
               "player_name": "Kajun",
-              "value": 562.0
+              "value": 607.0
             },
             {
               "player_name": "spectacular333",
-              "value": 303.0
+              "value": 325.0
             },
             {
               "player_name": "Cosmo",
-              "value": 275.0
+              "value": 307.0
             },
             {
               "player_name": "cON",
-              "value": 222.0
+              "value": 245.0
             },
             {
               "player_name": "Clifford",
-              "value": 188.0
+              "value": 232.0
             }
           ],
           "shots": [
@@ -1976,11 +1976,11 @@
               "value": 330.0
             },
             {
-              "player_name": "cON",
+              "player_name": "Clifford",
               "value": 255.0
             },
             {
-              "player_name": "Clifford",
+              "player_name": "cON",
               "value": 255.0
             }
           ],
@@ -3055,13 +3055,13 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 1199.0,
+          "assists": 1455.0,
           "blocks": 665.0,
           "faceoffs_lost": 2065.0,
           "faceoffs_won": 2285.0,
           "goals": 1948.0,
           "passes": 14363.0,
-          "points": 3147.0,
+          "points": 3403.0,
           "possession_time_sec": 29059.0,
           "post_hits": 810.0,
           "primary_assists": 1267.0,
@@ -3105,12 +3105,12 @@
           ],
           "assists": [
             {
-              "player_name": "Nayr[QC]",
-              "value": 87.0
+              "player_name": "whiffleroar",
+              "value": 118.0
             },
             {
-              "player_name": "whiffleroar",
-              "value": 71.0
+              "player_name": "Nayr[QC]",
+              "value": 87.0
             },
             {
               "player_name": "Barkov",
@@ -3121,18 +3121,18 @@
               "value": 65.0
             },
             {
-              "player_name": "Zesh",
-              "value": 51.0
+              "player_name": "trippie [C]",
+              "value": 52.0
             }
           ],
           "points": [
             {
-              "player_name": "Nayr[QC]",
-              "value": 317.0
+              "player_name": "whiffleroar",
+              "value": 327.0
             },
             {
-              "player_name": "whiffleroar",
-              "value": 280.0
+              "player_name": "Nayr[QC]",
+              "value": 317.0
             },
             {
               "player_name": "Barkov",
@@ -3784,14 +3784,14 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 2440.0,
+          "assists": 3094.0,
           "blocks": 6857.0,
           "faceoffs_lost": 4786.0,
           "faceoffs_won": 4578.0,
           "goals": 3847.0,
           "passes": 33663.0,
           "periods_played": 4277.0,
-          "points": 6287.0,
+          "points": 6941.0,
           "possession_time_sec": 67116.0,
           "post_hits": 1573.0,
           "primary_assists": 2569.0,
@@ -3834,6 +3834,10 @@
           ],
           "assists": [
             {
+              "player_name": "noxu",
+              "value": 175.0
+            },
+            {
               "player_name": "Pino",
               "value": 161.0
             },
@@ -3842,38 +3846,34 @@
               "value": 156.0
             },
             {
-              "player_name": "noxu",
-              "value": 132.0
-            },
-            {
-              "player_name": "Resp",
-              "value": 116.0
-            },
-            {
               "player_name": "Noob_Weapons",
-              "value": 106.0
+              "value": 135.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 133.0
             }
           ],
           "points": [
             {
               "player_name": "Zartholomew",
-              "value": 441.0
+              "value": 489.0
             },
             {
               "player_name": "Pino",
               "value": 377.0
             },
             {
-              "player_name": "illumix22",
-              "value": 301.0
-            },
-            {
               "player_name": "Noob_Weapons",
-              "value": 300.0
+              "value": 329.0
             },
             {
               "player_name": "noxu",
-              "value": 265.0
+              "value": 308.0
+            },
+            {
+              "player_name": "illumix22",
+              "value": 301.0
             }
           ],
           "shots": [
@@ -4055,6 +4055,572 @@
           "summer_2024",
           "spring_2024",
           "winter_2024",
+          "spring_2021",
+          "winter_2021"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "maryland",
+    "franchise_name": "Maryland",
+    "status": "inactive",
+    "description": "",
+    "founders": [
+      "Skiztastic"
+    ],
+    "owners": [
+      "Skiztastic",
+      "HeatedTank"
+    ],
+    "part_owners": [
+      ""
+    ],
+    "coaches": [
+      "",
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Joeshmoe",
+        "retired_number": "3",
+        "retired_date": "2021-04-07",
+        "induction_speech": "Our first entry into the Orcas hall of fame is @JoeShmoe, although he was a short term addition he brought the Orcas through qualifiers and established our name into the scene, for this we thank you. The number 3 will be retired for no future orca to wear, thank you for your contribution."
+      },
+      {
+        "player": "Mugzrd",
+        "retired_number": "8",
+        "retired_date": "2021-04-07",
+        "induction_speech": "Our second entry into the Orcas hall of fame is @MUGZRD. Mugzrd was a tough decision to bring in over the OG Joeshmoe. Although his impact wasn't in the numbers he made a real impact behind the scene and was always a great guy to run up pugs with. We retire the number 8 into the HOF and it will be used by no future orcas. Thank you Mugz!"
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Maryland Ice Orcas",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "fall_2022",
+        "notes": ""
+      },
+      {
+        "team": "Maryland Marlins",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "winter_2021",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 178.0,
+          "blocks": 92.0,
+          "faceoffs_lost": 319.0,
+          "faceoffs_won": 252.0,
+          "goals": 231.0,
+          "passes": 1873.0,
+          "points": 409.0,
+          "possession_time_sec": 3241.0,
+          "post_hits": 86.0,
+          "primary_assists": 156.0,
+          "saves": 351.0,
+          "secondary_assists": 39.0,
+          "shots": 468.0,
+          "takeaways": 644.0,
+          "turnovers": 913.0,
+          "goals_against": 830.0,
+          "shots_against": 1930.0,
+          "games_played": 112.0,
+          "faceoffs_total": 571.0,
+          "shot_percent": 49.36,
+          "save_percent": 18.19,
+          "gaa": 7.41,
+          "faceoff_win_percent": 44.13
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Skiztastic",
+              "value": 84.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 46.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 41.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 25.0
+            },
+            {
+              "player_name": "Cameron",
+              "value": 11.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Resp",
+              "value": 52.0
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 49.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 28.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 18.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 10.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Skiztastic",
+              "value": 133.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 93.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 74.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 35.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 29.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Skiztastic",
+              "value": 166.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 90.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 89.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 44.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 31.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Resp",
+              "value": 181.0
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 145.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 112.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 79.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 48.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Resp",
+              "value": 184.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 63.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 44.0
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 30.0
+            },
+            {
+              "player_name": "Bigsby45",
+              "value": 11.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Resp",
+              "value": 34.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 17.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 16.0
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 10.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 6.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "HeatedTank",
+              "value": 57.14
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 42.36
+            },
+            {
+              "player_name": "Resp",
+              "value": 41.56
+            },
+            {
+              "player_name": "Saji",
+              "value": 38.33
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Skiztastic",
+              "value": 33.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 30.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 13.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 11.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 9.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Skiztastic",
+              "value": 2
+            },
+            {
+              "player_name": "Resp",
+              "value": 2
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 2
+            },
+            {
+              "player_name": "Timmy",
+              "value": 1
+            },
+            {
+              "player_name": "Cman",
+              "value": 1
+            }
+          ]
+        },
+        "teams": [
+          "Maryland Ice Orcas"
+        ],
+        "seasons": [
+          "summer_2021",
+          "spring_2021"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "blocks": 200.0,
+          "faceoffs_lost": 615.0,
+          "faceoffs_won": 564.0,
+          "goals": 504.0,
+          "passes": 3556.0,
+          "post_hits": 194.0,
+          "primary_assists": 320.0,
+          "saves": 669.0,
+          "secondary_assists": 50.0,
+          "shots": 997.0,
+          "takeaways": 1521.0,
+          "turnovers": 1794.0,
+          "possession_time_sec": 7180.0,
+          "goals_against": 1621.0,
+          "shots_against": 3662.0,
+          "assists": 352.0,
+          "points": 856.0,
+          "games_played": 235.0,
+          "faceoffs_total": 1179.0,
+          "shot_percent": 50.55,
+          "save_percent": 18.27,
+          "gaa": 6.9,
+          "faceoff_win_percent": 47.84
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Skiztastic",
+              "value": 159.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 135.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 43.0
+            },
+            {
+              "player_name": "Cameron",
+              "value": 31.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 27.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Skiztastic",
+              "value": 101.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 57.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 57.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 35.0
+            },
+            {
+              "player_name": "Cameron",
+              "value": 16.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Skiztastic",
+              "value": 260.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 192.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 100.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 62.0
+            },
+            {
+              "player_name": "Cameron",
+              "value": 47.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Skiztastic",
+              "value": 308.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 244.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 98.0
+            },
+            {
+              "player_name": "Cameron",
+              "value": 64.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 62.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Skiztastic",
+              "value": 317.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 266.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 213.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 157.0
+            },
+            {
+              "player_name": "Cameron",
+              "value": 104.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Resp",
+              "value": 225.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 116.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 106.0
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 65.0
+            },
+            {
+              "player_name": "Lizard",
+              "value": 33.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "HeatedTank",
+              "value": 42.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 39.0
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 28.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 28.0
+            },
+            {
+              "player_name": "Lizard",
+              "value": 12.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "HeatedTank",
+              "value": 59.46
+            },
+            {
+              "player_name": "Cameron",
+              "value": 52.24
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 44.75
+            },
+            {
+              "player_name": "Saji",
+              "value": 41.53
+            },
+            {
+              "player_name": "Resp",
+              "value": 40.66
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Skiztastic",
+              "value": 62.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 35.0
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 31.0
+            },
+            {
+              "player_name": "Saji",
+              "value": 25.0
+            },
+            {
+              "player_name": "Cameron",
+              "value": 13.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Skiztastic",
+              "value": 5
+            },
+            {
+              "player_name": "HeatedTank",
+              "value": 3
+            },
+            {
+              "player_name": "Resp",
+              "value": 2
+            },
+            {
+              "player_name": "Cameron",
+              "value": 2
+            },
+            {
+              "player_name": "Saji",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Maryland Ice Orcas",
+          "Maryland Marlins"
+        ],
+        "seasons": [
+          "fall_2022",
+          "spring_2022",
+          "summer_2021",
           "spring_2021",
           "winter_2021"
         ]

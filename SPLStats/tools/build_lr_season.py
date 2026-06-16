@@ -12,9 +12,15 @@ STAT_MAP = {
     "Periods Played": "periods_played",
     "Points": "points",
     "Goals": "goals",
+
     "Assists": "assists",
+
     "Prim. Assists": "primary_assists",
+    "Primary Assists": "primary_assists",
+
     "Sec. Assists": "secondary_assists",
+    "Secondary Assists": "secondary_assists",
+
     "Shots": "shots",
     "Posts Hit": "post_hits",
     "Saves": "saves",
@@ -157,12 +163,19 @@ def parse_csv(csv_file):
                 "player_name": player_name,
                 "fixtures": set(),
                 "stats": defaultdict(float),
+
+                # Used to avoid double-counting assists when both
+                # Assists and Primary/Secondary Assists exist.
+                "has_assists_stat": False,
             }
 
         fixture_id = get_fixture_id(row)
 
         players[key]["fixtures"].add(fixture_id)
         players[key]["stats"][stat_key] += safe_float(row.get("Stat Value", 0))
+
+        if stat_key == "assists":
+            players[key]["has_assists_stat"] = True
 
     # Pass 3:
     # After fixture appearances are known, assign Goals Against / Shots Against
@@ -188,7 +201,18 @@ def parse_csv(csv_file):
         stats = dict(item["stats"])
 
         goals = stats.get("goals", 0)
-        assists = stats.get("assists", 0)
+        
+        raw_assists = stats.get("assists", 0)
+        primary_assists = stats.get("primary_assists", 0)
+        secondary_assists = stats.get("secondary_assists", 0)
+
+        if item.get("has_assists_stat"):
+            assists = raw_assists
+        else:
+            assists = primary_assists + secondary_assists
+
+        stats["assists"] = assists
+
         shots = stats.get("shots", 0)
         saves = stats.get("saves", 0)
         faceoffs_won = stats.get("faceoffs_won", 0)

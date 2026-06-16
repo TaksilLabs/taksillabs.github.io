@@ -974,194 +974,277 @@
 
 
 
-{
-    "franchise_id": "cowtown",
-    "franchise_name": "Cowtown",
-    "status": "active",
-    "founded": "2020/12/28",
+    {
+        "franchise_id": "cowtown",
+        "franchise_name": "Cowtown",
+        "status": "active",
+        "founded": "2020/12/28",
 
-    "theme": {
-        "primary": "#D000E8",
-        "secondary": "#8F00A8",
-        "accent": "#F5F5F5",
-        "background": "#080608",
-        "card": "#181418",
-        "surface": "#241E24"
+        "theme": {
+            "primary": "#D000E8",
+            "secondary": "#8F00A8",
+            "accent": "#F5F5F5",
+            "background": "#080608",
+            "card": "#181418",
+            "surface": "#241E24"
+        },
+
+        "description": "",
+
+        "founders": [
+            "OhLookADeliMeat",
+            "Jaskcon"
+        ],
+
+        "owners": [
+            "OhLookADeliMeat",
+            "Jaskcon"
+        ],
+
+        "part_owners": [
+            ""
+        ],
+
+        "coaches": [
+            ""
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "Matikor",
+                "retired_number": "79",
+                "retired_date": "2021-02-16",
+                "induction_speech": "We are so proud to announce the first ever number retirement in Cowtown history. @Matikor , after saving the Guppies undefeated season this Sunday will have his 79 never worn again by anyone else in Cowtown. We congratulate him and his family on this honor. Please, if you see Matikor in the future. Give thanks. It is well deserved "
+            },{
+                "player": "Masked",
+                "retired_number": "6",
+                "retired_date": "2021-02-27",
+                "induction_speech": "We are so proud to announce the second ever number retirement in Cowtown history. @Masked , after saving the Bongfish from a forfeit this Saturday will have his 6 never worn again by anyone else in Cowtown. We congratulate him and his family on this honor. Please, if you see Masked in the future. Give thanks. It is well deserved."
+            },{
+                "player": "Dyno Mike",
+                "retired_number": "66",
+                "retired_date": "2021-04-05",
+                "induction_speech": "Happy to be retiring Dyno Mike's number after an incredible year with the Guppies."
+            },{
+                "player": "GhettoStarfish",
+                "retired_number": "00",
+                "retired_date": "2021-04-05",
+                "induction_speech": "Ghetto has done an incredible job as not only a player in Cowtown, but a GM here."
+            },{
+                "player": "The Ghoul",
+                "retired_number": "15",
+                "retired_date": "2021-04-05",
+                "induction_speech": "For all the great contributions he helped make to the team we will be retiring Ghoul's number"
+            },{
+                "player": "Noob_Weapons",
+                "retired_number": "51",
+                "retired_date": "2021-04-05",
+                "induction_speech": "Noob Weapons, the cornerstone of Cowtown, of course gets the numbered retired."
+            },{
+                "player": "Renard",
+                "retired_number": "12",
+                "retired_date": "2021-04-05",
+                "induction_speech": "Renard basically bringing the current Guppies together deserves all the love in the world and will have his number retired."
+            },{
+                "player": "Skiztastic",
+                "retired_number": "13",
+                "retired_date": "2021-04-05",
+                "induction_speech": "Skimz was an easy choice for many reasons. Mostly his Cowtown segment on his podcast every episode."
+            },{
+                "player": "Litfox",
+                "retired_number": "n/a",
+                "retired_date": "2024-02-12",
+                "induction_speech": "Unfortunately, we were gearing up for Litfox's number retirement but someone who was vaping in an unapproved area was standing too close, and the cover for the banner caught on fire. We were only able to scavenge one piece from the burns. Since we sank all the rest of our money into the jerseys we released today, we cannot buy a new banner for Litfox. So, since his number or name can't be seen on the banner, anyone can still use the #77 in Cowtown! Thank you! Feel free to buy a Cowtown jersey this week!"
+            },{
+                "player": "milkyway",
+                "retired_number": "7",
+                "retired_date": "2024-03-29",
+                "induction_speech": "Congratulations to @rxiderzz on having his number retired to the rafters! After an incredible season captaining the return of the Guplings, Milker will be hanging up the laces and joining our Alumni! What a memorable career and we are so honored having his name and number forever remembered! Everyone give Milker a big cowtown MOO!"
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Cowtown Humuhumunukunukuapuaa",
+                "order": 1,
+                "start_season": "spring_2021",
+                "end_season": "sumemr_2025",
+                "notes": ""
+            },{
+                "team": "Cowtown Dandy Skaters",
+                "order": 1,
+                "start_season": "summer_2024",
+                "end_season": "sumemr_2025",
+                "notes": ""
+            },{
+                "team": "Cowtown Guppies",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "sumemr_2025",
+                "notes": ""
+            },{
+                "team": "Cowtown Bongfish",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "summer_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Buckaroos",
+                "order": 1,
+                "start_season": "summer_2024",
+                "end_season": "winter_2025",
+                "notes": ""
+            },{
+                "team": "Cowtown Crusaders",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "winter_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Noxus Team",
+                "order": 1,
+                "start_season": "spring_2024",
+                "end_season": "fall_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Stampede",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "summer_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Guplings",
+                "order": 1,
+                "start_season": "winter_2024",
+                "end_season": "fall_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Wolves",
+                "order": 1,
+                "start_season": "summer_2024",
+                "end_season": "fall_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Cowtowns",
+                "order": 1,
+                "start_season": "spring_2024",
+                "end_season": "spring_2024",
+                "notes": ""
+            },{
+                "team": "Quebec Flare of Cowtown",
+                "order": 1,
+                "start_season": "spring_2024",
+                "end_season": "spring_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Whoppers",
+                "order": 1,
+                "start_season": "summer_2024",
+                "end_season": "summer_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Floorballs",
+                "order": 1,
+                "start_season": "spring_2024",
+                "end_season": "spring_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Lemons",
+                "order": 1,
+                "start_season": "spring_2024",
+                "end_season": "spring_2024",
+                "notes": ""
+            },{
+                "team": "Cowtown Goldfish",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "winter_2021",
+                "notes": ""
+            }
+        ]
     },
 
-    "description": "",
 
-    "founders": [
-        "OhLookADeliMeat",
-        "Jaskcon"
-    ],
 
-    "owners": [
-        "OhLookADeliMeat",
-        "Jaskcon"
-    ],
 
-    "part_owners": [
-        ""
-    ],
 
-    "coaches": [
-        ""
-    ],
 
-    "hall_of_fame": [
-        {
-            "player": "Matikor",
-            "retired_number": "79",
-            "retired_date": "2021-02-16",
-            "induction_speech": "We are so proud to announce the first ever number retirement in Cowtown history. @Matikor , after saving the Guppies undefeated season this Sunday will have his 79 never worn again by anyone else in Cowtown. We congratulate him and his family on this honor. Please, if you see Matikor in the future. Give thanks. It is well deserved "
-        },{
-            "player": "Masked",
-            "retired_number": "6",
-            "retired_date": "2021-02-27",
-            "induction_speech": "We are so proud to announce the second ever number retirement in Cowtown history. @Masked , after saving the Bongfish from a forfeit this Saturday will have his 6 never worn again by anyone else in Cowtown. We congratulate him and his family on this honor. Please, if you see Masked in the future. Give thanks. It is well deserved."
-        },{
-            "player": "Dyno Mike",
-            "retired_number": "66",
-            "retired_date": "2021-04-05",
-            "induction_speech": "Happy to be retiring Dyno Mike's number after an incredible year with the Guppies."
-        },{
-            "player": "GhettoStarfish",
-            "retired_number": "00",
-            "retired_date": "2021-04-05",
-            "induction_speech": "Ghetto has done an incredible job as not only a player in Cowtown, but a GM here."
-        },{
-            "player": "The Ghoul",
-            "retired_number": "15",
-            "retired_date": "2021-04-05",
-            "induction_speech": "For all the great contributions he helped make to the team we will be retiring Ghoul's number"
-        },{
-            "player": "Noob_Weapons",
-            "retired_number": "51",
-            "retired_date": "2021-04-05",
-            "induction_speech": "Noob Weapons, the cornerstone of Cowtown, of course gets the numbered retired."
-        },{
-            "player": "Renard",
-            "retired_number": "12",
-            "retired_date": "2021-04-05",
-            "induction_speech": "Renard basically bringing the current Guppies together deserves all the love in the world and will have his number retired."
-        },{
-            "player": "Skiztastic",
-            "retired_number": "13",
-            "retired_date": "2021-04-05",
-            "induction_speech": "Skimz was an easy choice for many reasons. Mostly his Cowtown segment on his podcast every episode."
-        },{
-            "player": "Litfox",
-            "retired_number": "n/a",
-            "retired_date": "2024-02-12",
-            "induction_speech": "Unfortunately, we were gearing up for Litfox's number retirement but someone who was vaping in an unapproved area was standing too close, and the cover for the banner caught on fire. We were only able to scavenge one piece from the burns. Since we sank all the rest of our money into the jerseys we released today, we cannot buy a new banner for Litfox. So, since his number or name can't be seen on the banner, anyone can still use the #77 in Cowtown! Thank you! Feel free to buy a Cowtown jersey this week!"
-        },{
-            "player": "milkyway",
-            "retired_number": "7",
-            "retired_date": "2024-03-29",
-            "induction_speech": "Congratulations to @rxiderzz on having his number retired to the rafters! After an incredible season captaining the return of the Guplings, Milker will be hanging up the laces and joining our Alumni! What a memorable career and we are so honored having his name and number forever remembered! Everyone give Milker a big cowtown MOO!"
-        }
-    ],
 
-    "memberships": [
-        {
-            "team": "Cowtown Humuhumunukunukuapuaa",
-            "order": 1,
-            "start_season": "spring_2021",
-            "end_season": "sumemr_2025",
-            "notes": ""
-        },{
-            "team": "Cowtown Dandy Skaters",
-            "order": 1,
-            "start_season": "summer_2024",
-            "end_season": "sumemr_2025",
-            "notes": ""
-        },{
-            "team": "Cowtown Guppies",
-            "order": 1,
-            "start_season": "winter_2021",
-            "end_season": "sumemr_2025",
-            "notes": ""
-        },{
-            "team": "Cowtown Bongfish",
-            "order": 1,
-            "start_season": "winter_2021",
-            "end_season": "summer_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Buckaroos",
-            "order": 1,
-            "start_season": "summer_2024",
-            "end_season": "winter_2025",
-            "notes": ""
-        },{
-            "team": "Cowtown Crusaders",
-            "order": 1,
-            "start_season": "winter_2021",
-            "end_season": "winter_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Noxus Team",
-            "order": 1,
-            "start_season": "spring_2024",
-            "end_season": "fall_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Stampede",
-            "order": 1,
-            "start_season": "winter_2021",
-            "end_season": "summer_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Guplings",
-            "order": 1,
-            "start_season": "winter_2024",
-            "end_season": "fall_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Wolves",
-            "order": 1,
-            "start_season": "summer_2024",
-            "end_season": "fall_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Cowtowns",
-            "order": 1,
-            "start_season": "spring_2024",
-            "end_season": "spring_2024",
-            "notes": ""
-        },{
-            "team": "Quebec Flare of Cowtown",
-            "order": 1,
-            "start_season": "spring_2024",
-            "end_season": "spring_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Whoppers",
-            "order": 1,
-            "start_season": "summer_2024",
-            "end_season": "summer_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Floorballs",
-            "order": 1,
-            "start_season": "spring_2024",
-            "end_season": "spring_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Lemons",
-            "order": 1,
-            "start_season": "spring_2024",
-            "end_season": "spring_2024",
-            "notes": ""
-        },{
-            "team": "Cowtown Goldfish",
-            "order": 1,
-            "start_season": "winter_2021",
-            "end_season": "winter_2021",
-            "notes": ""
-        }
-    ]
-}
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "maryland",
+        "franchise_name": "Maryland",
+        "status": "inactive",
+        "founded": "2021-02-02",
+        "closed": "n/a",
+
+        "theme": {
+            "primary": "#cc0021",
+            "secondary": "#1a1a1a",
+            "accent": "#ecad14",
+
+            "background": "#121212",
+            "card": "#1a1a1a",
+            "surface": "#121212",
+            "header": "#2c2c2c"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Skiztastic"
+        ],
+
+        "owners": [
+            "Skiztastic",
+            "HeatedTank"
+        ],
+
+        "part_owners": [
+            ""
+        ],
+
+        "coaches": [
+            "",
+            ""
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "Joeshmoe",
+                "retired_number": "3",
+                "retired_date": "2021-04-07",
+                "induction_speech": "Our first entry into the Orcas hall of fame is @JoeShmoe, although he was a short term addition he brought the Orcas through qualifiers and established our name into the scene, for this we thank you. The number 3 will be retired for no future orca to wear, thank you for your contribution."
+            },{
+                "player": "Mugzrd",
+                "retired_number": "8",
+                "retired_date": "2021-04-07",
+                "induction_speech": "Our second entry into the Orcas hall of fame is @MUGZRD. Mugzrd was a tough decision to bring in over the OG Joeshmoe. Although his impact wasn't in the numbers he made a real impact behind the scene and was always a great guy to run up pugs with. We retire the number 8 into the HOF and it will be used by no future orcas. Thank you Mugz!"
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Maryland Ice Orcas",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "fall_2022",
+                "notes": ""
+            },{
+                "team": "Maryland Marlins",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "winter_2021",
+                "notes": ""
+            }
+        ]
+    }
 
 ]
