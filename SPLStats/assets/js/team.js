@@ -152,6 +152,18 @@ function renderTeamFranchise(teamName, franchises) {
 
   section.style.display = "";
 
+  const logoHTML =
+  franchise.logo
+    ? `
+      <img
+        class="team-franchise-logo-bg"
+        src="${franchise.logo}"
+        alt=""
+        aria-hidden="true"
+      >
+    `
+    : "";
+
   card.innerHTML = `
     <a
       class="team-franchise-card"
@@ -160,29 +172,34 @@ function renderTeamFranchise(teamName, franchises) {
         --franchise-primary: ${theme.primary || "#ffffff"};
         --franchise-secondary: ${theme.secondary || "#cccccc"};
         --franchise-accent: ${theme.accent || "#ffffff"};
+        --franchise-background: ${theme.background || "#050505"};
         --franchise-card: ${theme.card || "#111111"};
         --franchise-surface: ${theme.surface || "#1a1a1a"};
       "
     >
-      <div class="team-franchise-name">
-        ${franchise.franchise_name}
-      </div>
+      ${logoHTML}
 
-      <div class="team-franchise-meta">
-        ${formatSeason(membership.start_season)}
-        →
+      <div class="team-franchise-card-content">
+        <div class="team-franchise-name">
+          ${franchise.franchise_name}
+        </div>
+
+        <div class="team-franchise-meta">
+          ${formatSeason(membership.start_season)}
+          →
+          ${
+            membership.end_season
+              ? formatSeason(membership.end_season)
+              : "Present"
+          }
+        </div>
+
         ${
-          membership.end_season
-            ? formatSeason(membership.end_season)
-            : "Present"
+          membership.order
+            ? `<div class="team-franchise-order">Franchise Team #${membership.order}</div>`
+            : ""
         }
       </div>
-
-      ${
-        membership.order
-          ? `<div class="team-franchise-order">Franchise Team #${membership.order}</div>`
-          : ""
-      }
     </a>
   `;
 }

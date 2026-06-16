@@ -694,7 +694,7 @@ Career Player Stats Stylers
 }
 
 /*
-Playe Page, Team Card Stylers
+Player Page, Team Card Stylers
 */
 
 .team-card-stats {
@@ -830,44 +830,93 @@ TEAM PAGE HELPERS
 }
 
 .team-franchise-card {
-    display: block;
-    background: var(--franchise-card);
-    border: 2px solid var(--franchise-primary);
-    border-radius: 14px;
-    padding: 20px;
-    text-decoration: none;
-    color: white;
-    box-shadow: 0 0 18px rgba(0,0,0,0.35);
-    transition:
-        transform 0.15s ease,
-        box-shadow 0.15s ease;
+  position: relative;
+  overflow: hidden;
+
+  display: block;
+  background: var(--franchise-card);
+  border: 2px solid var(--franchise-primary);
+  border-radius: 14px;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 0 18px rgba(0,0,0,0.35);
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.team-franchise-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--franchise-background) 96%, transparent) 0%,
+      color-mix(in srgb, var(--franchise-background) 78%, transparent) 45%,
+      color-mix(in srgb, var(--franchise-background) 30%, transparent) 100%
+    );
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+.team-franchise-logo-bg {
+  position: absolute;
+  right: -2%;
+  top: 80%;
+
+  height: 250%;
+  width: auto;
+
+  transform: translateY(-50%);
+
+  opacity: 0.32;
+  filter: blur(2px);
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 0;
+}
+
+.team-franchise-card-content {
+  position: relative;
+  z-index: 2;
+
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.95),
+    0 0 12px rgba(0, 0, 0, 0.8);
 }
 
 .team-franchise-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
-    text-decoration: none;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+  text-decoration: none;
 }
 
 .team-franchise-card:hover * {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .team-franchise-name {
-    font-family: Evogria, sans-serif;
-    font-size: 1.5rem;
-    color: var(--franchise-primary);
-    margin-bottom: 8px;
+  font-family: Evogria, sans-serif;
+  font-size: 1.5rem;
+  color: var(--franchise-primary);
+  margin-bottom: 8px;
 }
 
 .team-franchise-meta {
-    color: var(--franchise-accent);
-    font-weight: bold;
+  color: var(--franchise-accent);
+  font-weight: bold;
 }
 
 .team-franchise-order {
-    margin-top: 8px;
-    color: var(--franchise-secondary);
+  margin-top: 8px;
+  color: var(--franchise-secondary);
 }
 
 #teamStats {
@@ -980,16 +1029,128 @@ TEAM SEARCH STYLER
   color: inherit;
   text-align: center;
   text-decoration: none;
+
+  position: relative;
+  overflow: hidden;
+  min-height: 210px;
 }
 
 .team-hub-card:hover {
   background: #203040;
   border-color: #ffd166;
+  text-decoration: none;
 }
 
 .team-hub-card h2 {
   margin-top: 0;
   color: #ffd166;
+}
+
+.team-hub-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.team-hub-card-content {
+  position: relative;
+  z-index: 2;
+
+  height: 100%;
+  min-height: 170px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.team-hub-card-content h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.team-hub-bottom {
+  margin-top: auto;
+}
+
+.franchise-linked-team {
+  background: var(--franchise-card);
+  border-color: var(--franchise-primary);
+  box-shadow:
+    0 0 14px color-mix(in srgb, var(--franchise-primary) 35%, transparent);
+}
+
+.franchise-linked-team::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--franchise-background) 96%, transparent) 0%,
+      color-mix(in srgb, var(--franchise-background) 78%, transparent) 45%,
+      color-mix(in srgb, var(--franchise-background) 30%, transparent) 100%
+    );
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+.team-hub-logo-bg {
+  position: absolute;
+  right: -8%;
+  top: 50%;
+
+  height: 140%;
+  width: auto;
+
+  transform: translateY(-50%);
+
+  opacity: 0.28;
+  filter: blur(2px);
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 0;
+}
+
+.franchise-linked-team h2 {
+  color: var(--franchise-primary);
+  text-shadow:
+    0 2px 4px rgba(0,0,0,0.95),
+    0 0 12px rgba(0,0,0,0.8);
+}
+
+.team-franchise-pill {
+  display: inline-block;
+  margin: 6px 0 12px;
+  padding: 4px 10px;
+
+  border: 1px solid var(--franchise-accent);
+  border-radius: 999px;
+
+  color: var(--franchise-accent);
+  background: color-mix(
+    in srgb,
+    var(--franchise-background) 70%,
+    transparent
+  );
+
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.team-hub-record {
+  color: white;
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+.team-hub-substats {
+  color: var(--franchise-secondary);
+  font-size: 0.9rem;
+  margin-top: 6px;
 }
 
 
