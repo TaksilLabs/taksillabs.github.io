@@ -474,6 +474,84 @@
 
 
     {
+    "franchise_id": "ocean_city",
+    "franchise_name": "Ocean City",
+    "status": "inactive",
+    "founded": "2021-03-02",
+
+    "theme": {
+        "primary": "#407BFF",
+        "secondary": "#407BFF",
+        "accent": "#A8C7FF",
+        "background": "#0A122B",
+        "card": "#15254D",
+        "surface": "#0F1C3D"
+    },
+
+    "description": "",
+
+    "founders": [
+        "Kajun"
+    ],
+
+    "owners": [
+        "Kajun"
+    ],
+
+    "part_owners": [
+        "Manied"
+    ],
+
+    "coaches": [
+        "Kajun",
+        "Buf"
+    ],
+
+    "hall_of_fame": [
+        {
+            "player": "Dizruption",
+            "retired_number": "43",
+            "retired_date": "2022-04-04",
+            "induction_speech": "The first number to ever be retired in the typhoons history is #43. The #43 was the number of the player with the most points on the typhoons for 2 seasons, Dizruption. Dizruption was also a big part of how the typhoons got to challenger. "
+        },{
+            "player": "Skiztastic",
+            "retired_number": "13",
+            "retired_date": "2022-04-04",
+            "induction_speech": "The second number to be retired is #13. Skiztastic is the best scorer in typhoons history putting up 91 goals in 1 season and 113 total."
+        },{
+            "player": "N",
+            "retired_number": "92",
+            "retired_date": "2022-04-04",
+            "induction_speech": "The third number to be retired is #92. N, joined the typhoons last second right before their first season in pro. N played in challenger and IM all his career. People were skeptical if N would be able to compete in pro. He showed what he was able to do by putting up 71 points with 24 goals and 47 assists. N hanged up the skates with the typhoons and will not be seen soon."
+        }
+    ],
+
+    "memberships": [
+            {
+            "team": "Ocean City Typhoons",
+            "order": 1,
+            "start_season": "winter_2021",
+            "end_season": "winter_2023",
+            "notes": ""
+            },{
+            "team": "Ocean City Tsunamis",
+            "order": 2,
+            "start_season": "spring_2021",
+            "end_season": "winter_2022",
+            "notes": ""
+            },{
+            "team": "Ocean City Krakens",
+            "order": 3,
+            "start_season": "fall_2022",
+            "end_season": "fall_2022",
+            "notes": ""
+            }
+        ]
+    },
+
+
+
+    {
     "franchise_id": "",
     "franchise_name": "",
     "status": "active",
@@ -493,25 +571,26 @@
     "description": "",
 
     "founders": [
-        ""
+        "Kajun"
     ],
 
     "owners": [
-        ""
+        "Kajun"
     ],
 
     "part_owners": [
-        ""
+        "Manied"
     ],
 
     "coaches": [
-        ""
+        "Kajun",
+        "Buf"
     ],
 
     "hall_of_fame": [
         {
-            "player": "",
-            "retired_number": "",
+            "player": "player_name",
+            "retired_number": "##",
             "retired_date": "yyyy-mm-dd",
             "induction_speech": ""
         }

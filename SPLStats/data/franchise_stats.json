@@ -637,7 +637,10 @@
     "status": "active",
     "description": "",
     "founders": [
-      "Eggsthink"
+      "Eggsthink",
+      "BroBurgota",
+      "Ty12HockeyPro",
+      "SheLovesJared"
     ],
     "owners": [
       "Eggsthink"
@@ -646,7 +649,7 @@
       "null"
     ],
     "coaches": [
-      "null"
+      "Hammy"
     ],
     "hall_of_fame": [
       {
@@ -1527,26 +1530,615 @@
     }
   },
   {
+    "franchise_id": "ocean_city",
+    "franchise_name": "Ocean City",
+    "status": "inactive",
+    "description": "",
+    "founders": [
+      "Kajun"
+    ],
+    "owners": [
+      "Kajun"
+    ],
+    "part_owners": [
+      "Manied"
+    ],
+    "coaches": [
+      "Kajun",
+      "Buf"
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Dizruption",
+        "retired_number": "43",
+        "retired_date": "2022-04-04",
+        "induction_speech": "The first number to ever be retired in the typhoons history is #43. The #43 was the number of the player with the most points on the typhoons for 2 seasons, Dizruption. Dizruption was also a big part of how the typhoons got to challenger. "
+      },
+      {
+        "player": "Skiztastic",
+        "retired_number": "13",
+        "retired_date": "2022-04-04",
+        "induction_speech": "The second number to be retired is #13. Skiztastic is the best scorer in typhoons history putting up 91 goals in 1 season and 113 total."
+      },
+      {
+        "player": "N",
+        "retired_number": "92",
+        "retired_date": "2022-04-04",
+        "induction_speech": "The third number to be retired is #92. N, joined the typhoons last second right before their first season in pro. N played in challenger and IM all his career. People were skeptical if N would be able to compete in pro. He showed what he was able to do by putting up 71 points with 24 goals and 47 assists. N hanged up the skates with the typhoons and will not be seen soon."
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Ocean City Typhoons",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "winter_2023",
+        "notes": ""
+      },
+      {
+        "team": "Ocean City Tsunamis",
+        "order": 2,
+        "start_season": "spring_2021",
+        "end_season": "winter_2022",
+        "notes": ""
+      },
+      {
+        "team": "Ocean City Krakens",
+        "order": 3,
+        "start_season": "fall_2022",
+        "end_season": "fall_2022",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 387.0,
+          "blocks": 182.0,
+          "faceoffs_lost": 405.0,
+          "faceoffs_won": 485.0,
+          "goals": 392.0,
+          "passes": 4172.0,
+          "points": 779.0,
+          "possession_time_sec": 8372.0,
+          "post_hits": 187.0,
+          "primary_assists": 297.0,
+          "saves": 358.0,
+          "secondary_assists": 90.0,
+          "shots": 873.0,
+          "takeaways": 1151.0,
+          "turnovers": 1057.0,
+          "goals_against": 1115.0,
+          "shots_against": 2218.0,
+          "games_played": 189.0,
+          "faceoffs_total": 890.0,
+          "shot_percent": 44.9,
+          "save_percent": 16.14,
+          "gaa": 5.9,
+          "faceoff_win_percent": 54.49
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Kajun",
+              "value": 80.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 62.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 50.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 45.0
+            },
+            {
+              "player_name": "AJmanboy",
+              "value": 27.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Kajun",
+              "value": 116.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 57.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 37.0
+            },
+            {
+              "player_name": "N.",
+              "value": 35.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 33.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Kajun",
+              "value": 196.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 107.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 95.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 82.0
+            },
+            {
+              "player_name": "N.",
+              "value": 53.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Kajun",
+              "value": 191.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 120.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 112.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 92.0
+            },
+            {
+              "player_name": "AJmanboy",
+              "value": 65.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Kajun",
+              "value": 497.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 140.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 127.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 92.0
+            },
+            {
+              "player_name": "N.",
+              "value": 61.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Kajun",
+              "value": 143.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 71.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 31.0
+            },
+            {
+              "player_name": "Panarin",
+              "value": 24.0
+            },
+            {
+              "player_name": "AJmanboy",
+              "value": 22.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Kajun",
+              "value": 76.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 26.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 24.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 14.0
+            },
+            {
+              "player_name": "AJmanboy",
+              "value": 9.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "TEE",
+              "value": 71.43
+            },
+            {
+              "player_name": "Bangaled",
+              "value": 61.4
+            },
+            {
+              "player_name": "N.",
+              "value": 55.95
+            },
+            {
+              "player_name": "Kajun",
+              "value": 52.22
+            },
+            {
+              "player_name": "AJmanboy",
+              "value": 47.62
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Kajun",
+              "value": 43.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 23.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 22.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 17.0
+            },
+            {
+              "player_name": "N.",
+              "value": 16.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Kajun",
+              "value": 3
+            },
+            {
+              "player_name": "Jagr",
+              "value": 2
+            },
+            {
+              "player_name": "TEE",
+              "value": 2
+            },
+            {
+              "player_name": "hex",
+              "value": 1
+            },
+            {
+              "player_name": "Buf",
+              "value": 1
+            }
+          ]
+        },
+        "teams": [
+          "Ocean City Typhoons"
+        ],
+        "seasons": [
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 1277.0,
+          "blocks": 631.0,
+          "faceoffs_lost": 1630.0,
+          "faceoffs_won": 2053.0,
+          "goals": 1782.0,
+          "passes": 16874.0,
+          "points": 3059.0,
+          "possession_time_sec": 33111.0,
+          "post_hits": 788.0,
+          "primary_assists": 1286.0,
+          "saves": 1463.0,
+          "secondary_assists": 283.0,
+          "shots": 3878.0,
+          "takeaways": 5674.0,
+          "turnovers": 4874.0,
+          "goals_against": 4177.0,
+          "shots_against": 8709.0,
+          "games_played": 780.0,
+          "faceoffs_total": 3683.0,
+          "shot_percent": 45.95,
+          "save_percent": 16.8,
+          "gaa": 5.36,
+          "faceoff_win_percent": 55.74
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Kajun",
+              "value": 284.0
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 207.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 161.0
+            },
+            {
+              "player_name": "cON",
+              "value": 123.0
+            },
+            {
+              "player_name": "Skiztastic",
+              "value": 113.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Kajun",
+              "value": 278.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 114.0
+            },
+            {
+              "player_name": "cON",
+              "value": 99.0
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 96.0
+            },
+            {
+              "player_name": "Clifford",
+              "value": 87.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Kajun",
+              "value": 562.0
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 303.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 275.0
+            },
+            {
+              "player_name": "cON",
+              "value": 222.0
+            },
+            {
+              "player_name": "Clifford",
+              "value": 188.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Kajun",
+              "value": 621.0
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 469.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 330.0
+            },
+            {
+              "player_name": "cON",
+              "value": 255.0
+            },
+            {
+              "player_name": "Clifford",
+              "value": 255.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Kajun",
+              "value": 1416.0
+            },
+            {
+              "player_name": "cON",
+              "value": 665.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 537.0
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 498.0
+            },
+            {
+              "player_name": "Clifford",
+              "value": 423.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Kajun",
+              "value": 422.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 180.0
+            },
+            {
+              "player_name": "Clifford",
+              "value": 134.0
+            },
+            {
+              "player_name": "Zacmasta",
+              "value": 96.0
+            },
+            {
+              "player_name": "AJmanboy",
+              "value": 92.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Kajun",
+              "value": 234.0
+            },
+            {
+              "player_name": "Clifford",
+              "value": 46.0
+            },
+            {
+              "player_name": "cON",
+              "value": 44.0
+            },
+            {
+              "player_name": "AJmanboy",
+              "value": 40.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 37.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "TEE",
+              "value": 74.13
+            },
+            {
+              "player_name": "Zacmasta",
+              "value": 68.06
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 63.24
+            },
+            {
+              "player_name": "cON",
+              "value": 62.78
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 60.98
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Kajun",
+              "value": 131.0
+            },
+            {
+              "player_name": "Clifford",
+              "value": 73.0
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 71.0
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 61.0
+            },
+            {
+              "player_name": "cON",
+              "value": 61.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Kajun",
+              "value": 7
+            },
+            {
+              "player_name": "cON",
+              "value": 6
+            },
+            {
+              "player_name": "spectacular333",
+              "value": 5
+            },
+            {
+              "player_name": "Cosmo",
+              "value": 4
+            },
+            {
+              "player_name": "Clifford",
+              "value": 4
+            }
+          ]
+        },
+        "teams": [
+          "Ocean City Krakens",
+          "Ocean City Tsunamis",
+          "Ocean City Typhoons"
+        ],
+        "seasons": [
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021",
+          "spring_2021",
+          "winter_2021"
+        ]
+      }
+    }
+  },
+  {
     "franchise_id": "",
     "franchise_name": "",
     "status": "active",
     "description": "",
     "founders": [
-      ""
+      "Kajun"
     ],
     "owners": [
-      ""
+      "Kajun"
     ],
     "part_owners": [
-      ""
+      "Manied"
     ],
     "coaches": [
-      ""
+      "Kajun",
+      "Buf"
     ],
     "hall_of_fame": [
       {
-        "player": "",
-        "retired_number": "",
+        "player": "player_name",
+        "retired_number": "##",
         "retired_date": "yyyy-mm-dd",
         "induction_speech": ""
       }
