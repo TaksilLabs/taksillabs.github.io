@@ -2141,16 +2141,20 @@
     "status": "active",
     "description": "",
     "founders": [
-      "Galalendon"
+      "YmisScarab"
     ],
     "owners": [
-      "Galalendon"
+      "Galalendon",
+      "YmisScarab"
     ],
     "part_owners": [
-      ""
+      "Filip Chytil Stan",
+      "Akakattack",
+      "Meenimizer"
     ],
     "coaches": [
-      ""
+      "Resp",
+      "Carried By Dad"
     ],
     "hall_of_fame": [
       {
@@ -2961,7 +2965,7 @@
       "BAKED Pickle"
     ],
     "coaches": [
-      ""
+      "Kajun"
     ],
     "hall_of_fame": [
       {
@@ -3317,6 +3321,742 @@
           "fall_2021",
           "summer_2021",
           "spring_2021"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "cowtown",
+    "franchise_name": "Cowtown",
+    "status": "active",
+    "description": "",
+    "founders": [
+      "OhLookADeliMeat",
+      "Jaskcon"
+    ],
+    "owners": [
+      "OhLookADeliMeat",
+      "Jaskcon"
+    ],
+    "part_owners": [
+      ""
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Matikor",
+        "retired_number": "79",
+        "retired_date": "2021-02-16",
+        "induction_speech": "We are so proud to announce the first ever number retirement in Cowtown history. @Matikor , after saving the Guppies undefeated season this Sunday will have his 79 never worn again by anyone else in Cowtown. We congratulate him and his family on this honor. Please, if you see Matikor in the future. Give thanks. It is well deserved "
+      },
+      {
+        "player": "Masked",
+        "retired_number": "6",
+        "retired_date": "2021-02-27",
+        "induction_speech": "We are so proud to announce the second ever number retirement in Cowtown history. @Masked , after saving the Bongfish from a forfeit this Saturday will have his 6 never worn again by anyone else in Cowtown. We congratulate him and his family on this honor. Please, if you see Masked in the future. Give thanks. It is well deserved."
+      },
+      {
+        "player": "Dyno Mike",
+        "retired_number": "66",
+        "retired_date": "2021-04-05",
+        "induction_speech": "Happy to be retiring Dyno Mike's number after an incredible year with the Guppies."
+      },
+      {
+        "player": "GhettoStarfish",
+        "retired_number": "00",
+        "retired_date": "2021-04-05",
+        "induction_speech": "Ghetto has done an incredible job as not only a player in Cowtown, but a GM here."
+      },
+      {
+        "player": "The Ghoul",
+        "retired_number": "15",
+        "retired_date": "2021-04-05",
+        "induction_speech": "For all the great contributions he helped make to the team we will be retiring Ghoul's number"
+      },
+      {
+        "player": "Noob_Weapons",
+        "retired_number": "51",
+        "retired_date": "2021-04-05",
+        "induction_speech": "Noob Weapons, the cornerstone of Cowtown, of course gets the numbered retired."
+      },
+      {
+        "player": "Renard",
+        "retired_number": "12",
+        "retired_date": "2021-04-05",
+        "induction_speech": "Renard basically bringing the current Guppies together deserves all the love in the world and will have his number retired."
+      },
+      {
+        "player": "Skiztastic",
+        "retired_number": "13",
+        "retired_date": "2021-04-05",
+        "induction_speech": "Skimz was an easy choice for many reasons. Mostly his Cowtown segment on his podcast every episode."
+      },
+      {
+        "player": "Litfox",
+        "retired_number": "n/a",
+        "retired_date": "2024-02-12",
+        "induction_speech": "Unfortunately, we were gearing up for Litfox's number retirement but someone who was vaping in an unapproved area was standing too close, and the cover for the banner caught on fire. We were only able to scavenge one piece from the burns. Since we sank all the rest of our money into the jerseys we released today, we cannot buy a new banner for Litfox. So, since his number or name can't be seen on the banner, anyone can still use the #77 in Cowtown! Thank you! Feel free to buy a Cowtown jersey this week!"
+      },
+      {
+        "player": "milkyway",
+        "retired_number": "7",
+        "retired_date": "2024-03-29",
+        "induction_speech": "Congratulations to @rxiderzz on having his number retired to the rafters! After an incredible season captaining the return of the Guplings, Milker will be hanging up the laces and joining our Alumni! What a memorable career and we are so honored having his name and number forever remembered! Everyone give Milker a big cowtown MOO!"
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Cowtown Humuhumunukunukuapuaa",
+        "order": 1,
+        "start_season": "spring_2021",
+        "end_season": "sumemr_2025",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Dandy Skaters",
+        "order": 1,
+        "start_season": "summer_2024",
+        "end_season": "sumemr_2025",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Guppies",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "sumemr_2025",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Bongfish",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "summer_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Buckaroos",
+        "order": 1,
+        "start_season": "summer_2024",
+        "end_season": "winter_2025",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Crusaders",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "winter_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Noxus Team",
+        "order": 1,
+        "start_season": "spring_2024",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Stampede",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "summer_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Guplings",
+        "order": 1,
+        "start_season": "winter_2024",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Wolves",
+        "order": 1,
+        "start_season": "summer_2024",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Cowtowns",
+        "order": 1,
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Quebec Flare of Cowtown",
+        "order": 1,
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Whoppers",
+        "order": 1,
+        "start_season": "summer_2024",
+        "end_season": "summer_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Floorballs",
+        "order": 1,
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Lemons",
+        "order": 1,
+        "start_season": "spring_2024",
+        "end_season": "spring_2024",
+        "notes": ""
+      },
+      {
+        "team": "Cowtown Goldfish",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "winter_2021",
+        "notes": ""
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 295.0,
+          "blocks": 676.0,
+          "faceoffs_lost": 543.0,
+          "faceoffs_won": 426.0,
+          "goals": 353.0,
+          "passes": 3639.0,
+          "periods_played": 524.0,
+          "points": 648.0,
+          "possession_time_sec": 7150.0,
+          "post_hits": 139.0,
+          "primary_assists": 235.0,
+          "saves": 592.0,
+          "secondary_assists": 59.0,
+          "shots": 747.0,
+          "takeaways": 721.0,
+          "turnovers": 804.0,
+          "goals_against": 1525.0,
+          "shots_against": 3340.0,
+          "games_played": 182.0,
+          "faceoffs_total": 969.0,
+          "shot_percent": 47.26,
+          "save_percent": 17.72,
+          "gaa": 8.38,
+          "faceoff_win_percent": 43.96
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Romminator",
+              "value": 87.0
+            },
+            {
+              "player_name": "hex",
+              "value": 53.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 51.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 42.0
+            },
+            {
+              "player_name": "Tweek",
+              "value": 32.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Crusade",
+              "value": 50.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 43.0
+            },
+            {
+              "player_name": "gr8e",
+              "value": 41.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 39.0
+            },
+            {
+              "player_name": "Romminator",
+              "value": 32.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Romminator",
+              "value": 119.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 101.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 85.0
+            },
+            {
+              "player_name": "hex",
+              "value": 80.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 62.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Romminator",
+              "value": 186.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 121.0
+            },
+            {
+              "player_name": "hex",
+              "value": 101.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 84.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 60.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Crusade",
+              "value": 158.0
+            },
+            {
+              "player_name": "Romminator",
+              "value": 129.0
+            },
+            {
+              "player_name": "hex",
+              "value": 125.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 65.0
+            },
+            {
+              "player_name": "Kspyre",
+              "value": 57.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Resp",
+              "value": 219.0
+            },
+            {
+              "player_name": "gr8e",
+              "value": 102.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 77.0
+            },
+            {
+              "player_name": "Kspyre",
+              "value": 42.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 40.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 178.0
+            },
+            {
+              "player_name": "gr8e",
+              "value": 162.0
+            },
+            {
+              "player_name": "hex",
+              "value": 95.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 59.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 44.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "hex",
+              "value": 49.51
+            },
+            {
+              "player_name": "gr8e",
+              "value": 47.37
+            },
+            {
+              "player_name": "Kspyre",
+              "value": 45.95
+            },
+            {
+              "player_name": "Crusade",
+              "value": 44.22
+            },
+            {
+              "player_name": "Resp",
+              "value": 43.75
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Romminator",
+              "value": 29.0
+            },
+            {
+              "player_name": "Crusade",
+              "value": 28.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 24.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 21.0
+            },
+            {
+              "player_name": "hex",
+              "value": 20.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Crusade",
+              "value": 3
+            },
+            {
+              "player_name": "Resp",
+              "value": 3
+            },
+            {
+              "player_name": "hex",
+              "value": 2
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 2
+            },
+            {
+              "player_name": "gr8e",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Cowtown Guppies"
+        ],
+        "seasons": [
+          "fall_2024",
+          "summer_2024",
+          "spring_2024",
+          "winter_2024"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 2440.0,
+          "blocks": 6857.0,
+          "faceoffs_lost": 4786.0,
+          "faceoffs_won": 4578.0,
+          "goals": 3847.0,
+          "passes": 33663.0,
+          "periods_played": 4277.0,
+          "points": 6287.0,
+          "possession_time_sec": 67116.0,
+          "post_hits": 1573.0,
+          "primary_assists": 2569.0,
+          "saves": 4595.0,
+          "secondary_assists": 521.0,
+          "shots": 8180.0,
+          "takeaways": 7909.0,
+          "turnovers": 8269.0,
+          "goals_against": 13835.0,
+          "shots_against": 28740.0,
+          "games_played": 2005.0,
+          "faceoffs_total": 9364.0,
+          "shot_percent": 47.03,
+          "save_percent": 15.99,
+          "gaa": 6.9,
+          "faceoff_win_percent": 48.89
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Zartholomew",
+              "value": 356.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 216.0
+            },
+            {
+              "player_name": "illumix22",
+              "value": 205.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 194.0
+            },
+            {
+              "player_name": "Quion Games",
+              "value": 137.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Pino",
+              "value": 161.0
+            },
+            {
+              "player_name": "assassinje123",
+              "value": 156.0
+            },
+            {
+              "player_name": "noxu",
+              "value": 132.0
+            },
+            {
+              "player_name": "Resp",
+              "value": 116.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 106.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Zartholomew",
+              "value": 441.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 377.0
+            },
+            {
+              "player_name": "illumix22",
+              "value": 301.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 300.0
+            },
+            {
+              "player_name": "noxu",
+              "value": 265.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Zartholomew",
+              "value": 703.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 473.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 422.0
+            },
+            {
+              "player_name": "illumix22",
+              "value": 395.0
+            },
+            {
+              "player_name": "noxu",
+              "value": 304.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "noxu",
+              "value": 466.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 358.0
+            },
+            {
+              "player_name": "Cman",
+              "value": 330.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 311.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 303.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Resp",
+              "value": 322.0
+            },
+            {
+              "player_name": "jsTronix",
+              "value": 214.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 169.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 166.0
+            },
+            {
+              "player_name": "noxu",
+              "value": 152.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "assassinje123",
+              "value": 486.0
+            },
+            {
+              "player_name": "Pino",
+              "value": 369.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 352.0
+            },
+            {
+              "player_name": "noxu",
+              "value": 315.0
+            },
+            {
+              "player_name": "Jakee",
+              "value": 313.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Dyno Mike",
+              "value": 69.09
+            },
+            {
+              "player_name": "Snoman",
+              "value": 66.04
+            },
+            {
+              "player_name": "Red Foreman",
+              "value": 65.52
+            },
+            {
+              "player_name": "Midget",
+              "value": 64.91
+            },
+            {
+              "player_name": "b*tt",
+              "value": 64.06
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Pino",
+              "value": 93.0
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 90.0
+            },
+            {
+              "player_name": "Noob_Weapons",
+              "value": 79.0
+            },
+            {
+              "player_name": "noxu",
+              "value": 66.0
+            },
+            {
+              "player_name": "illumix22",
+              "value": 61.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Noob_Weapons",
+              "value": 5
+            },
+            {
+              "player_name": "Zartholomew",
+              "value": 5
+            },
+            {
+              "player_name": "Agent P",
+              "value": 5
+            },
+            {
+              "player_name": "Nayr[QC]",
+              "value": 4
+            },
+            {
+              "player_name": "Pino",
+              "value": 4
+            }
+          ]
+        },
+        "teams": [
+          "Cowtown Bongfish",
+          "Cowtown Buckaroos",
+          "Cowtown Cowtowns",
+          "Cowtown Crusaders",
+          "Cowtown Dandy Skaters",
+          "Cowtown Floorballs",
+          "Cowtown Goldfish",
+          "Cowtown Guplings",
+          "Cowtown Guppies",
+          "Cowtown Humuhumunukunukuapuaa",
+          "Cowtown Lemons",
+          "Cowtown Noxus Team",
+          "Cowtown Stampede",
+          "Cowtown Whoppers",
+          "Cowtown Wolves",
+          "Quebec Flare of Cowtown"
+        ],
+        "seasons": [
+          "winter_2025",
+          "fall_2024",
+          "summer_2024",
+          "spring_2024",
+          "winter_2024",
+          "spring_2021",
+          "winter_2021"
         ]
       }
     }
