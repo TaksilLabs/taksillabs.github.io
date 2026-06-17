@@ -164,13 +164,71 @@ function normalizeDivisionName(division) {
   return DIVISION_DISPLAY_NAMES[division] || division || "Unknown";
 }
 
-function renderPlayer(player, championships = []) {
+function getCareerStat(player, statName) {
+  return Number(player?.career?.[statName] || 0);
+}
+
+function calculateTopPercentile(player, allPlayers, statName = "points") {
+  const playerValue = getCareerStat(player, statName);
+
+  const eligiblePlayers = allPlayers.filter(p =>
+    getCareerStat(p, "games_played") > 0
+    && getCareerStat(p, statName) > 0
+  );
+
+  if (!eligiblePlayers.length || playerValue <= 0) {
+    return null;
+  }
+
+  const playersAbove = eligiblePlayers.filter(p =>
+    getCareerStat(p, statName) > playerValue
+  ).length;
+
+  const rank = playersAbove + 1;
+  const percentile = Math.ceil((rank / eligiblePlayers.length) * 100);
+
+  return {
+    rank,
+    totalPlayers: eligiblePlayers.length,
+    percentile: Math.max(1, percentile),
+    value: playerValue
+  };
+}
+
+function renderCareerPercentile(player, allPlayers) {
+  const badge = document.querySelector("#careerPercentileBadge");
+  if (!badge) return;
+
+  const result = calculateTopPercentile(player, allPlayers, "points");
+
+  if (!result) {
+    badge.innerHTML = "";
+    badge.style.display = "none";
+    return;
+  }
+
+  badge.style.display = "";
+
+  badge.innerHTML = `
+    <div class="career-percentile-main">
+      Top ${result.percentile}%
+    </div>
+    <div class="career-percentile-sub">
+      Career Points
+    </div>
+    <div class="career-percentile-rank">
+      Rank #${result.rank} of ${result.totalPlayers}
+    </div>
+  `;
+}
+
+function renderPlayer(player, championships = [], allPlayers = []) {
   document.title = `${player.player_name} | SPLStats`;
   document.querySelector("#playerName").textContent = player.player_name;
 
   renderPlayerChampionships(player, championships);
 
-  renderCareerStats(player);
+  renderCareerStats(player, allPlayers);
   renderTeams(player.by_season || []);
   renderSeasons(player.by_season || []);
 }
@@ -227,6 +285,7 @@ function renderPlayerChampionships(player, championships) {
   if (!playerChamps.length) {
     card.style.display = "none";
     container.innerHTML = "";
+    container.classList.remove("championship-carousel-centered");
 
     if (countsContainer) {
       countsContainer.innerHTML = "";
@@ -236,6 +295,11 @@ function renderPlayerChampionships(player, championships) {
   }
 
   card.style.display = "";
+
+  container.classList.toggle(
+    "championship-carousel-centered",
+    playerChamps.length <= 3
+  );
 
   const counts = getChampionshipCounts(playerChamps);
 
@@ -345,7 +409,7 @@ async function loadPlayer() {
     return;
   }
 
-  renderPlayer(player, championships);
+  renderPlayer(player, championships, players);
 }
 
 function formatTime(seconds) {
@@ -362,22 +426,22 @@ function formatTime(seconds) {
   ].join(":");
 }
 
-function renderCareerStats(player) {
+function renderCareerStats(player, allPlayers = []) {
   const career = player.career || {};
   const container = document.querySelector("#careerStats");
 
   const statRows = [
     [
-      ["Seasons", player.seasons_played?.length || 0],
-      ["Games", career.games_played],
-      ["Periods", career.periods_played]
+      ["Seasons", player.seasons_played?.length || 0, "seasons_played"],
+      ["Games", career.games_played, "games_played"],
+      ["Periods", career.periods_played, "periods_played"]
     ],
 
     [
-      ["Goals", career.goals],
-      ["Assists", career.assists],
-      ["Points", career.points],
-      ["Shots", career.shots]
+      ["Goals", career.goals, "goals"],
+      ["Assists", career.assists, "assists"],
+      ["Points", career.points, "points"],
+      ["Shots", career.shots, "shots"]
     ],
 
     [
@@ -385,37 +449,37 @@ function renderCareerStats(player) {
         "Save %",
         career.save_percent
           ? (career.save_percent / 100).toFixed(3).replace(/^0/, "")
-          : ".000"
+          : ".000", "save_percent"
       ],
-      ["GAA", career.gaa ? career.gaa.toFixed(2) : "0.00"],
-      ["Saves", career.saves],
-      ["Blocks", career.blocks]
+      ["GAA", career.gaa ? career.gaa.toFixed(2) : "0.00", "gaa"],
+      ["Saves", career.saves, "saves"],
+      ["Blocks", career.blocks, "blocks"]
     ],
 
     [
-      ["Shots Against", career.shots_against],
-      ["Goals Against", career.goals_against],
+      ["Shots Against", career.shots_against, "shots_against"],
+      ["Goals Against", career.goals_against, "goals_against"],
     ],
 
     [
-      ["Takeaways", career.takeaways],
-      ["Turnovers", career.turnovers]
+      ["Takeaways", career.takeaways, "takeaways"],
+      ["Turnovers", career.turnovers, "turnovers"]
     ],
 
     [
       ["Faceoff %",
         career.faceoff_win_percent
           ? `${career.faceoff_win_percent.toFixed(1)}%`
-          : "0.0%"
+          : "0.0%", "faceoff_win_percent"
       ],
-      ["Faceoffs Won", career.faceoffs_won],
-      ["Faceoffs Lost", career.faceoffs_lost]
+      ["Faceoffs Won", career.faceoffs_won, "faceoffs_won"],
+      ["Faceoffs Lost", career.faceoffs_lost, "faceoffs_lost"]
     ],
 
     [
-      ["Posts Hit", career.post_hits],
-      ["Passes", career.passes],
-      ["Poss Time", formatTime(career.possession_time_sec)]
+      ["Posts Hit", career.post_hits, "post_hits"],
+      ["Passes", career.passes, "passes"],
+      ["Poss Time", formatTime(career.possession_time_sec), "possession_time_sec"]
     ]
   ];
 
@@ -423,14 +487,103 @@ function renderCareerStats(player) {
 
   container.innerHTML = statRows.map(row => `
     <div class="career-row">
-      ${row.map(([label, value]) => `
-        <div class="career-stat">
-          <div class="career-stat-label">${label}</div>
-          <div class="career-stat-value">${value ?? 0}</div>
-        </div>
-      `).join("")}
+      ${row.map(([label, value, statKey]) =>
+        renderCareerStat(label, value, statKey, player, allPlayers)
+      ).join("")}
     </div>
   `).join("");
+}
+
+function renderCareerStat(label, value, statKey, player, allPlayers) {
+  return `
+    <div class="career-stat">
+      ${renderPercentileBadge(player, allPlayers, statKey)}
+      <div class="career-stat-label">${label}</div>
+      <div class="career-stat-value">${value ?? 0}</div>
+    </div>
+  `;
+}
+
+function getCareerValue(player, statKey) {
+  if (statKey === "seasons_played") {
+    return Array.isArray(player?.seasons_played)
+      ? player.seasons_played.length
+      : Number(player?.seasons_played || 0);
+  }
+
+  return Number(player?.career?.[statKey] || 0);
+}
+
+function formatPercentile(percentile) {
+  if (!Number.isFinite(percentile)) {
+    return "0%";
+  }
+
+  if (percentile < 1) {
+    return `${percentile.toFixed(2)}%`;
+  }
+
+  if (percentile < 10) {
+    return `${percentile.toFixed(1)}%`;
+  }
+
+  return `${Math.round(percentile)}%`;
+}
+
+function calculateTopPercentileForStat(player, allPlayers, statKey) {
+  const playerValue = getCareerValue(player, statKey);
+
+  const eligiblePlayers = allPlayers.filter(p =>
+    getCareerValue(p, "games_played") > 0
+    && getCareerValue(p, statKey) > 0
+  );
+
+  if (!eligiblePlayers.length || playerValue <= 0) {
+    return null;
+  }
+
+  const playersAbove = eligiblePlayers.filter(p =>
+    getCareerValue(p, statKey) > playerValue
+  ).length;
+
+  const rank = playersAbove + 1;
+  const percentile = (rank / eligiblePlayers.length) * 100;
+
+  return {
+    rank,
+    totalPlayers: eligiblePlayers.length,
+    percentile,
+    percentileText: formatPercentile(percentile)
+  };
+}
+
+function renderPercentileBadge(player, allPlayers, statKey) {
+  const result = calculateTopPercentileForStat(player, allPlayers, statKey);
+
+  if (!result) {
+    return "";
+  }
+
+  const percentileClass = getPercentileClass(result.percentile);
+
+  return `
+    <div
+      class="career-stat-percentile ${percentileClass}"
+      title="Rank #${result.rank} of ${result.totalPlayers}"
+    >
+      Top ${result.percentileText}
+    </div>
+  `;
+}
+
+function getPercentileClass(percentile) {
+  if (percentile <= 1) return "percentile-elite";
+  if (percentile <= 5) return "percentile-great";
+  if (percentile <= 10) return "percentile-good";
+  if (percentile <= 25) return "percentile-solid";
+  if (percentile <= 50) return "percentile-average";
+
+  return "percentile-normal";
 }
 
 function renderTeams(rows) {
