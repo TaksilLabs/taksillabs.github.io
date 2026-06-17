@@ -1,138 +1,139 @@
 [
 
     {
-    "franchise_id": "hot_springs",
-    "franchise_name": "Hot Springs",
-    "logo": "assets/images/franchises/hot_springs.png",
-    "status": "retired",
-    "founded": "2021-09-04",
+        "franchise_id": "hot_springs",
+        "franchise_name": "Hot Springs",
+        "logo": "assets/images/franchises/hot_springs.png",
+        "status": "retired",
+        "founded": "2021-09-04",
+        "closed": "yyyy-mm-dd",
 
-    "theme": {
-        "primary": "#cc0021",
-        "secondary": "#565656",
-        "accent": "#ecad14",
+        "theme": {
+            "primary": "#cc0021",
+            "secondary": "#565656",
+            "accent": "#ecad14",
 
-        "background": "#121212",
-        "card": "#1a1a1a",
-        "surface": "#121212",
-        "header": "#2c2c2c"
-    },
-
-    "description": "",
-
-    "founders": [
-        "DarthTaksil",
-        "Orange",
-        "Agent P",
-        "Hammy33"
-    ],
-
-    "owners": [
-        "DarthTaksil",
-        "Orange",
-        "Agent P",
-        "YmisScarab"
-    ],
-
-    "part_owners": [
-        "N1xoh",
-        "Pino",
-        "Gubby"
-    ],
-
-    "coaches": [
-        "Cheese"
-    ],
-
-    "hall_of_fame": [
-        {
-            "player": "Jonnyboy",
-            "retired_number": "50",
-            "retired_date": "2021-10-23",
-            "induction_speech": "Our first inductee into our Hall of Flame, with great pride and honor, we would like to present the best Linebacker this organization will ever see, jonnyboy1207.<br><br> No better canidate could we have asked for to step foot in our organization.  Working with him daily was the highlight of my career and I wish Jonnyboy the best when it comes to future endeavors.<br>Thank you, Jonnyboy."
+            "background": "#121212",
+            "card": "#1a1a1a",
+            "surface": "#121212",
+            "header": "#2c2c2c"
         },
-        {
-            "player": "Hammy",
-            "retired_number": "33",
-            "retired_date": "2022-01-23",
-            "induction_speech": "Our Second inductee into our Hall of Flame, Hammy.<br><br> Our founding father and the best Bench Warmer this organization will ever see. Not a single other person enters my mind when I think of who I wanted to build a Slapshot Team with.  Hammy might not have been with the franchise too long but his impression will live on forever through us.<br><br>Thank you, Hammy."
-        },
-        {
-            "player": "MDub",
-            "retired_number": "30",
-            "retired_date": "2022-01-24",
-            "induction_speech": "Our Third inductee into our Hall of Flame, MDub.<br><br> Our most promising prospect this franchise had to date entered into retirement early due to the consumption of shampoo. We wish him well with his future endevours and future oportunities in his young slapshot career. May one day he make pro and all of us proud.<br><br>Thank you, Mdub."
-        },
-        {
-            "player": "Dizruption",
-            "retired_number": "43",
-            "retired_date": "2023/03/30",
-            "induction_speech": "Our Fourth Inductee into the Hall of Flame, Dizruption.<br><br> It is our honor to showcase one of our most prominent playmakers to date.  Whether it be psychological warfare or helping usher the franchise into the era it stands now.  Without him the Tamales would not have found the home they did in pro of Season 8. Showing up early and leaving late to nearly every practice in your time in Hot Springs, we will never forget you.<br><br>We thank you Dizruption for your work ethic, your talent, and the impression you have brought to and left on our facilities.  May fortune be as kind to you as you were to us."
-        },
-        {
-            "player": "Zartholomew",
-            "retired_number": "1",
-            "retired_date": "2023-03-31",
-            "induction_speech": "Our Fifth Inductee into the Hall of Flame, Zartholomew.<br><br> The physical embodiment of 'He Shoots, He Scores.' Zartholomew has been a dominating force on the Hot Springs offense. At the time of this announcement, he has scored the most goals out of everyone who dawned the Flames. He may have only gotten to spend 3 seasons with us, but his legacy will be felt by everyone around the organization for years to come. I'll never forget the day we were walking down Seneca Drive when I tripped and fell onto the train tracks beside the road as a train was coming, only to have Zartholomew scoop me up and carry me to safety as the train came barreling by. We thank you for your on-ice and off-ice efforts that have blessed this organization day in and day out.<br><br>We appreciate everything you brought to our table—the competitive atmosphere, the hunger to win, the edge to drive on. We hope that your next chapter in life, whether it's on SPL ice or not, will show you the same kindness you showed us."
-        }
-    ],
 
-    "memberships": [
+        "description": "",
+
+        "founders": [
+            "DarthTaksil",
+            "Orange",
+            "Agent P",
+            "Hammy33"
+        ],
+
+        "owners": [
+            "DarthTaksil",
+            "Orange",
+            "Agent P",
+            "YmisScarab"
+        ],
+
+        "part_owners": [
+            "N1xoh",
+            "Pino",
+            "Gubby"
+        ],
+
+        "coaches": [
+            "Cheese"
+        ],
+
+        "hall_of_fame": [
             {
-            "team": "Hot Springs Hot Tamales",
-            "order": 1,
-            "start_season": "fall_2021",
-            "end_season": "summer_2024",
-            "notes": ""
+                "player": "Jonnyboy",
+                "retired_number": "50",
+                "retired_date": "2021-10-23",
+                "induction_speech": "Our first inductee into our Hall of Flame, with great pride and honor, we would like to present the best Linebacker this organization will ever see, jonnyboy1207.<br><br> No better canidate could we have asked for to step foot in our organization.  Working with him daily was the highlight of my career and I wish Jonnyboy the best when it comes to future endeavors.<br>Thank you, Jonnyboy."
             },
             {
-            "team": "Hot Springs Red Hots",
-            "order": 2,
-            "start_season": "winter_2022",
-            "end_season": "winter_2024",
-            "notes": ""
+                "player": "Hammy",
+                "retired_number": "33",
+                "retired_date": "2022-01-23",
+                "induction_speech": "Our Second inductee into our Hall of Flame, Hammy.<br><br> Our founding father and the best Bench Warmer this organization will ever see. Not a single other person enters my mind when I think of who I wanted to build a Slapshot Team with.  Hammy might not have been with the franchise too long but his impression will live on forever through us.<br><br>Thank you, Hammy."
             },
             {
-            "team": "Hot Springs Hot Doggers",
-            "order": 5,
-            "start_season": "spring_2024",
-            "end_season": "spring_2024",
-            "notes": ""
+                "player": "MDub",
+                "retired_number": "30",
+                "retired_date": "2022-01-24",
+                "induction_speech": "Our Third inductee into our Hall of Flame, MDub.<br><br> Our most promising prospect this franchise had to date entered into retirement early due to the consumption of shampoo. We wish him well with his future endevours and future oportunities in his young slapshot career. May one day he make pro and all of us proud.<br><br>Thank you, Mdub."
             },
             {
-            "team": "Hot Springs Cinnamon Bears",
-            "order": 4,
-            "start_season": "winter_2023",
-            "end_season": "fall_2023",
-            "notes": ""
+                "player": "Dizruption",
+                "retired_number": "43",
+                "retired_date": "2023/03/30",
+                "induction_speech": "Our Fourth Inductee into the Hall of Flame, Dizruption.<br><br> It is our honor to showcase one of our most prominent playmakers to date.  Whether it be psychological warfare or helping usher the franchise into the era it stands now.  Without him the Tamales would not have found the home they did in pro of Season 8. Showing up early and leaving late to nearly every practice in your time in Hot Springs, we will never forget you.<br><br>We thank you Dizruption for your work ethic, your talent, and the impression you have brought to and left on our facilities.  May fortune be as kind to you as you were to us."
             },
             {
-            "team": "Hot Springs Hot Doritos",
-            "order": 3,
-            "start_season": "winter_2023",
-            "end_season": "spring_2024",
-            "notes": ""
+                "player": "Zartholomew",
+                "retired_number": "1",
+                "retired_date": "2023-03-31",
+                "induction_speech": "Our Fifth Inductee into the Hall of Flame, Zartholomew.<br><br> The physical embodiment of 'He Shoots, He Scores.' Zartholomew has been a dominating force on the Hot Springs offense. At the time of this announcement, he has scored the most goals out of everyone who dawned the Flames. He may have only gotten to spend 3 seasons with us, but his legacy will be felt by everyone around the organization for years to come. I'll never forget the day we were walking down Seneca Drive when I tripped and fell onto the train tracks beside the road as a train was coming, only to have Zartholomew scoop me up and carry me to safety as the train came barreling by. We thank you for your on-ice and off-ice efforts that have blessed this organization day in and day out.<br><br>We appreciate everything you brought to our table—the competitive atmosphere, the hunger to win, the edge to drive on. We hope that your next chapter in life, whether it's on SPL ice or not, will show you the same kindness you showed us."
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Hot Springs Hot Tamales",
+                "order": 1,
+                "start_season": "fall_2021",
+                "end_season": "summer_2024",
+                "notes": ""
             },
             {
-            "team": "Hot Springs Hot Fries",
-            "order": 6,
-            "start_season": "summer_2023",
-            "end_season": "summer_2023",
-            "notes": ""
+                "team": "Hot Springs Red Hots",
+                "order": 2,
+                "start_season": "winter_2022",
+                "end_season": "winter_2024",
+                "notes": ""
             },
             {
-            "team": "Death Valley Tuskan Raiders",
-            "order": 8,
-            "start_season": "fall_2023",
-            "end_season": "fall_2023",
-            "notes": ""
+                "team": "Hot Springs Hot Doggers",
+                "order": 5,
+                "start_season": "spring_2024",
+                "end_season": "spring_2024",
+                "notes": ""
             },
             {
-            "team": "Denver Cutthroats",
-            "order": 7,
-            "start_season": "winter_2023",
-            "end_season": "summer_2024",
-            "notes": "First adopted team by Hot Springs that didnt use the Hot Springs Location"
+                "team": "Hot Springs Cinnamon Bears",
+                "order": 4,
+                "start_season": "winter_2023",
+                "end_season": "fall_2023",
+                "notes": ""
+            },
+            {
+                "team": "Hot Springs Hot Doritos",
+                "order": 3,
+                "start_season": "winter_2023",
+                "end_season": "spring_2024",
+                "notes": ""
+            },
+            {
+                "team": "Hot Springs Hot Fries",
+                "order": 6,
+                "start_season": "summer_2023",
+                "end_season": "summer_2023",
+                "notes": ""
+            },
+            {
+                "team": "Death Valley Tuskan Raiders",
+                "order": 8,
+                "start_season": "fall_2023",
+                "end_season": "fall_2023",
+                "notes": ""
+            },
+            {
+                "team": "Denver Cutthroats",
+                "order": 7,
+                "start_season": "winter_2023",
+                "end_season": "summer_2024",
+                "notes": "First adopted team by Hot Springs that didnt use the Hot Springs Location"
             }
         ]
     },
@@ -152,347 +153,348 @@
 
 
     {
-    "franchise_id": "ottawa_valley",
-    "franchise_name": "Ottawa Valley",
-    "logo": "assets/images/franchises/ottawa_valley.png",
-    "status": "active",
-    "founded": "2021-10-21",
+        "franchise_id": "ottawa_valley",
+        "franchise_name": "Ottawa Valley",
+        "logo": "assets/images/franchises/ottawa_valley.png",
+        "status": "active",
+        "founded": "2021-10-21",
+        "closed": "yyyy-mm-dd",
 
-    "theme": {
-        "primary": "#FF6A00",
-        "secondary": "#565656",
-        "accent": "#FF6A00",
+        "theme": {
+            "primary": "#FF6A00",
+            "secondary": "#565656",
+            "accent": "#FF6A00",
 
-        "background": "#101010",
-        "card": "#1A0C00",
-        "surface": "#2A1400"
-    },
+            "background": "#101010",
+            "card": "#1A0C00",
+            "surface": "#2A1400"
+        },
 
-    "description": "",
+        "description": "",
 
-    "founders": [
-        "Eggsthink",
-        "BroBurgota",
-        "Ty12HockeyPro",
-        "SheLovesJared"
-    ],
+        "founders": [
+            "Eggsthink",
+            "BroBurgota",
+            "Ty12HockeyPro",
+            "SheLovesJared"
+        ],
 
-    "owners": [
-        "Eggsthink",
-        "BroBurgota",
-        "AboveAverageJoe"
-    ],
+        "owners": [
+            "Eggsthink",
+            "BroBurgota",
+            "AboveAverageJoe"
+        ],
 
-    "part_owners": [
-        "YmisScarab",
-        "Hammy"
-    ],
+        "part_owners": [
+            "YmisScarab",
+            "Hammy"
+        ],
 
-    "coaches": [
-        "Hammy"
-    ],
+        "coaches": [
+            "Hammy"
+        ],
 
-    "hall_of_fame": [
-        {
-            "player": "Patalie Nortman",
-            "retired_number": "22",
-            "retired_date": "2024-05-23",
-            "induction_speech": "Ottawa Valley is proud to announce the very first jersey to be retired in franchise history. Patalie Nortman was a cornerstone in the Puck Slappers' transition from being a middling open team to the successful team they are now. Patalie Nortman always brought the energy in the locker room and knew how to get the team hyped up whenever they needed it! Although his time on the team was short, every single moment in his career was memorable. From his big three goal debut to his HUGE playoff goals, Patalie Nortman was one of the most exciting players in Ottawa Valley history."
-        },{
-            "player": "YmisScarab",
-            "retired_number": "9",
-            "retired_date": "2025-09-05",
-            "induction_speech": "Ottawa Valley is proud to announce that YmisScarab's jersey will be joining Patalie Nortman and Tee's in the rafter. YmisScarab's Ottawa Valley career started in Season 13 and would last until Season 17 with stops on the Stick Slappers, Post Dingers, Wood Slappers and the Beauties. Scarab started off his Ottawa Valley career hot with a hattrick in 74 seconds, he also owns the Ottawa Valley record for most saves in a single season. Scarab has been a huge part of the behind the scenes working on Ottawa Valley statistics, tournaments and upkeeping the 6v6 Leagues. Although he has hung up his skates, Scarab remains committed to keeping our tournaments going and making sure all of our spreadsheets properly function. Scarab has been the silent backbone of the franchise for a long time and his help has always been appreciated."
-        },{
-            "player": "Tee",
-            "retired_number": "24",
-            "retired_date": "2025-09-05",
-            "induction_speech": "It is with the greatest honor that I, alongside the Ottaway Valley, will be announcing another jersey immortalized in the rafters, @TEE . An icon since the birth of Slapshot, on the ice, and off it too. He's been the center-piece of every play and shows his strong leadership while also being a lovable teammate and even more endearing friend. Even though he believes he 'passed his prime' he still put up elite numbers till the last game he played. As of recent with the Ottawa Valley Puck Slappers he won multiple awards for the team, but also as an individual player. I've watched Tee as an idol of mine early on, then later being trained under his wing to reach my fullest potential, but the whole time Tee and I became closer friends then ever bringing a friendship beyond the games we play. The days we spent together with other members of the Ottawa Valley especially in the 6v6 League will be memories I keep with me forever. From the elite banner he carries on his back to his infinitely rewatchable youtube videos, Tee's name will live forever amongst the community regardless of where the wind takes him. "
-        }
-    ],
+        "hall_of_fame": [
+            {
+                "player": "Patalie Nortman",
+                "retired_number": "22",
+                "retired_date": "2024-05-23",
+                "induction_speech": "Ottawa Valley is proud to announce the very first jersey to be retired in franchise history. Patalie Nortman was a cornerstone in the Puck Slappers' transition from being a middling open team to the successful team they are now. Patalie Nortman always brought the energy in the locker room and knew how to get the team hyped up whenever they needed it! Although his time on the team was short, every single moment in his career was memorable. From his big three goal debut to his HUGE playoff goals, Patalie Nortman was one of the most exciting players in Ottawa Valley history."
+            },{
+                "player": "YmisScarab",
+                "retired_number": "9",
+                "retired_date": "2025-09-05",
+                "induction_speech": "Ottawa Valley is proud to announce that YmisScarab's jersey will be joining Patalie Nortman and Tee's in the rafter. YmisScarab's Ottawa Valley career started in Season 13 and would last until Season 17 with stops on the Stick Slappers, Post Dingers, Wood Slappers and the Beauties. Scarab started off his Ottawa Valley career hot with a hattrick in 74 seconds, he also owns the Ottawa Valley record for most saves in a single season. Scarab has been a huge part of the behind the scenes working on Ottawa Valley statistics, tournaments and upkeeping the 6v6 Leagues. Although he has hung up his skates, Scarab remains committed to keeping our tournaments going and making sure all of our spreadsheets properly function. Scarab has been the silent backbone of the franchise for a long time and his help has always been appreciated."
+            },{
+                "player": "Tee",
+                "retired_number": "24",
+                "retired_date": "2025-09-05",
+                "induction_speech": "It is with the greatest honor that I, alongside the Ottaway Valley, will be announcing another jersey immortalized in the rafters, @TEE . An icon since the birth of Slapshot, on the ice, and off it too. He's been the center-piece of every play and shows his strong leadership while also being a lovable teammate and even more endearing friend. Even though he believes he 'passed his prime' he still put up elite numbers till the last game he played. As of recent with the Ottawa Valley Puck Slappers he won multiple awards for the team, but also as an individual player. I've watched Tee as an idol of mine early on, then later being trained under his wing to reach my fullest potential, but the whole time Tee and I became closer friends then ever bringing a friendship beyond the games we play. The days we spent together with other members of the Ottawa Valley especially in the 6v6 League will be memories I keep with me forever. From the elite banner he carries on his back to his infinitely rewatchable youtube videos, Tee's name will live forever amongst the community regardless of where the wind takes him. "
+            }
+        ],
 
-    "memberships": [
-        {
-            "team": "Ottawa Valley Puck Slappers",
-            "order": 1,
-            "start_season": "fall_2021",
-            "end_season": "winter_2026",
-            "notes": ""
-        },
-        {
-            "team": "Champaign Champagne",
-            "order": 2,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Post Dingers",
-            "order": 3,
-            "start_season": "spring_2024",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Wood Slappers",
-            "order": 4,
-            "start_season": "spring_2024",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Stick Slappers",
-            "order": 5,
-            "start_season": "fall_2023",
-            "end_season": "fall_2024",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Island Boys",
-            "order": 6,
-            "start_season": "spring_2024",
-            "end_season": "winter_2025",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Drinkers",
-            "order": 7,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Slappers With Attitude",
-            "order": 8,
-            "start_season": "fall_2025",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Slap Tuahs",
-            "order": 9,
-            "start_season": "fall_2024",
-            "end_season": "winter_2025",
-            "notes": ""
-        },
-        {
-            "team": "No Name Nighthawks",
-            "order": 10,
-            "start_season": "spring_2025",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Greenland Ducklings",
-            "order": 11,
-            "start_season": "summer_2024",
-            "end_season": "winter_2025",
-            "notes": ""
-        },
-        {
-            "team": "Michigan Magic",
-            "order": 12,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Battle Creek Kings",
-            "order": 13,
-            "start_season": "winter_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Ham and Eggs",
-            "order": 14,
-            "start_season": "fall_2025",
-            "end_season": "winter_2026",
-            "notes": ""
-        },
-        {
-            "team": "Los Angeles Comets",
-            "order": 15,
-            "start_season": "fall_2025",
-            "end_season": "fall_2025",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Ferrari Bazingas",
-            "order": 16,
-            "start_season": "summer_2025",
-            "end_season": "fall_2025",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Fighting Admirals",
-            "order": 17,
-            "start_season": "spring_2025",
-            "end_season": "summer_2025",
-            "notes": ""
-        },
-        {
-            "team": "New England Blazing Stars",
-            "order": 18,
-            "start_season": "fall_2025",
-            "end_season": "fall_2025",
-            "notes": ""
-        },
-        {
-            "team": "Garden Grove Geekbars",
-            "order": 19,
-            "start_season": "summer_2024",
-            "end_season": "spring_2025",
-            "notes": ""
-        },
-        {
-            "team": "Cowtown Ottawa Big Mouth Billy Bass",
-            "order": 20,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Geriatric Slappers",
-            "order": 21,
-            "start_season": "winter_2026",
-            "end_season": "winter_2026",
-            "notes": ""
-        },
-        {
-            "team": "Portillo's Italian Beefs",
-            "order": 22,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Super Bunnies",
-            "order": 23,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Bible Buddies",
-            "order": 24,
-            "start_season": "spring_2025",
-            "end_season": "spring_2025",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Hammy and Friends",
-            "order": 25,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Mexico Menace",
-            "order": 26,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Michigan Malus",
-            "order": 27,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Hot Fries",
-            "order": 28,
-            "start_season": "spring_2026",
-            "end_season": "",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Frost Strike",
-            "order": 29,
-            "start_season": "fall_2024",
-            "end_season": "fall_2024",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Ice Weasels",
-            "order": 30,
-            "start_season": "fall_2025",
-            "end_season": "fall_2025",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Rubber Duckies",
-            "order": 31,
-            "start_season": "fall_2024",
-            "end_season": "winter_2025",
-            "notes": ""
-        },
-        {
-            "team": "Michigan Mafia",
-            "order": 32,
-            "start_season": "spring_2026",
-            "end_season": "spring_2026",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Bowling Alleys",
-            "order": 33,
-            "start_season": "spring_2025",
-            "end_season": "spring_2025",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Sigma Wolves",
-            "order": 34,
-            "start_season": "summer_2024",
-            "end_season": "summer_2024",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Hockey Team",
-            "order": 35,
-            "start_season": "winter_2024",
-            "end_season": "winter_2024",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Tater Tots",
-            "order": 36,
-            "start_season": "spring_2024",
-            "end_season": "spring_2024",
-            "notes": ""
-        },
-        {
-            "team": "Ottawa Valley Bench Warmers",
-            "order": 37,
-            "start_season": "summer_2024",
-            "end_season": "summer_2024",
-            "notes": ""
-        },
-        {
-            "team": "St. Cloud Storm",
-            "order": 38,
-            "start_season": "fall_2025",
-            "end_season": "fall_2025",
-            "notes": ""
-        },
-        {
-            "team": "Central Champagne",
-            "order": 39,
-            "start_season": "spring_2024",
-            "end_season": "spring_2024",
-            "notes": ""
-        },
-        {
-            "team": "Edmonton Beauties",
-            "order": 40,
-            "start_season": "spring_2025",
-            "end_season": "spring_2025",
-            "notes": ""
-        }
-    ]
+        "memberships": [
+            {
+                "team": "Ottawa Valley Puck Slappers",
+                "order": 1,
+                "start_season": "fall_2021",
+                "end_season": "winter_2026",
+                "notes": ""
+            },
+            {
+                "team": "Champaign Champagne",
+                "order": 2,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Post Dingers",
+                "order": 3,
+                "start_season": "spring_2024",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Wood Slappers",
+                "order": 4,
+                "start_season": "spring_2024",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Stick Slappers",
+                "order": 5,
+                "start_season": "fall_2023",
+                "end_season": "fall_2024",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Island Boys",
+                "order": 6,
+                "start_season": "spring_2024",
+                "end_season": "winter_2025",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Drinkers",
+                "order": 7,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Slappers With Attitude",
+                "order": 8,
+                "start_season": "fall_2025",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Slap Tuahs",
+                "order": 9,
+                "start_season": "fall_2024",
+                "end_season": "winter_2025",
+                "notes": ""
+            },
+            {
+                "team": "No Name Nighthawks",
+                "order": 10,
+                "start_season": "spring_2025",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Greenland Ducklings",
+                "order": 11,
+                "start_season": "summer_2024",
+                "end_season": "winter_2025",
+                "notes": ""
+            },
+            {
+                "team": "Michigan Magic",
+                "order": 12,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Battle Creek Kings",
+                "order": 13,
+                "start_season": "winter_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Ham and Eggs",
+                "order": 14,
+                "start_season": "fall_2025",
+                "end_season": "winter_2026",
+                "notes": ""
+            },
+            {
+                "team": "Los Angeles Comets",
+                "order": 15,
+                "start_season": "fall_2025",
+                "end_season": "fall_2025",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Ferrari Bazingas",
+                "order": 16,
+                "start_season": "summer_2025",
+                "end_season": "fall_2025",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Fighting Admirals",
+                "order": 17,
+                "start_season": "spring_2025",
+                "end_season": "summer_2025",
+                "notes": ""
+            },
+            {
+                "team": "New England Blazing Stars",
+                "order": 18,
+                "start_season": "fall_2025",
+                "end_season": "fall_2025",
+                "notes": ""
+            },
+            {
+                "team": "Garden Grove Geekbars",
+                "order": 19,
+                "start_season": "summer_2024",
+                "end_season": "spring_2025",
+                "notes": ""
+            },
+            {
+                "team": "Cowtown Ottawa Big Mouth Billy Bass",
+                "order": 20,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Geriatric Slappers",
+                "order": 21,
+                "start_season": "winter_2026",
+                "end_season": "winter_2026",
+                "notes": ""
+            },
+            {
+                "team": "Portillo's Italian Beefs",
+                "order": 22,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Super Bunnies",
+                "order": 23,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Bible Buddies",
+                "order": 24,
+                "start_season": "spring_2025",
+                "end_season": "spring_2025",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Hammy and Friends",
+                "order": 25,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Mexico Menace",
+                "order": 26,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Michigan Malus",
+                "order": 27,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Hot Fries",
+                "order": 28,
+                "start_season": "spring_2026",
+                "end_season": "",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Frost Strike",
+                "order": 29,
+                "start_season": "fall_2024",
+                "end_season": "fall_2024",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Ice Weasels",
+                "order": 30,
+                "start_season": "fall_2025",
+                "end_season": "fall_2025",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Rubber Duckies",
+                "order": 31,
+                "start_season": "fall_2024",
+                "end_season": "winter_2025",
+                "notes": ""
+            },
+            {
+                "team": "Michigan Mafia",
+                "order": 32,
+                "start_season": "spring_2026",
+                "end_season": "spring_2026",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Bowling Alleys",
+                "order": 33,
+                "start_season": "spring_2025",
+                "end_season": "spring_2025",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Sigma Wolves",
+                "order": 34,
+                "start_season": "summer_2024",
+                "end_season": "summer_2024",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Hockey Team",
+                "order": 35,
+                "start_season": "winter_2024",
+                "end_season": "winter_2024",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Tater Tots",
+                "order": 36,
+                "start_season": "spring_2024",
+                "end_season": "spring_2024",
+                "notes": ""
+            },
+            {
+                "team": "Ottawa Valley Bench Warmers",
+                "order": 37,
+                "start_season": "summer_2024",
+                "end_season": "summer_2024",
+                "notes": ""
+            },
+            {
+                "team": "St. Cloud Storm",
+                "order": 38,
+                "start_season": "fall_2025",
+                "end_season": "fall_2025",
+                "notes": ""
+            },
+            {
+                "team": "Central Champagne",
+                "order": 39,
+                "start_season": "spring_2024",
+                "end_season": "spring_2024",
+                "notes": ""
+            },
+            {
+                "team": "Edmonton Beauties",
+                "order": 40,
+                "start_season": "spring_2025",
+                "end_season": "spring_2025",
+                "notes": ""
+            }
+        ]
     },
 
 
@@ -510,93 +512,94 @@
 
 
     {
-    "franchise_id": "ocean_city",
-    "franchise_name": "Ocean City",
-    "logo": "assets/images/franchises/ocean_city.png",
-    "status": "retired",
-    "founded": "2021-03-02",
+        "franchise_id": "ocean_city",
+        "franchise_name": "Ocean City",
+        "logo": "assets/images/franchises/ocean_city.png",
+        "status": "retired",
+        "founded": "2021-03-02",
+        "closed": "yyyy-mm-dd",
 
-    "theme": {
-        "primary": "#407BFF",
-        "secondary": "#407BFF",
-        "accent": "#A8C7FF",
-        "background": "#0A122B",
-        "card": "#15254D",
-        "surface": "#0F1C3D"
-    },
+        "theme": {
+            "primary": "#407BFF",
+            "secondary": "#407BFF",
+            "accent": "#A8C7FF",
+            "background": "#0A122B",
+            "card": "#15254D",
+            "surface": "#0F1C3D"
+        },
 
-    "description": "",
+        "description": "",
 
-    "founders": [
-        "Kajun"
-    ],
+        "founders": [
+            "Kajun"
+        ],
 
-    "owners": [
-        "Kajun"
-    ],
+        "owners": [
+            "Kajun"
+        ],
 
-    "part_owners": [
-        "Manied"
-    ],
+        "part_owners": [
+            "Manied"
+        ],
 
-    "coaches": [
-        "Kajun",
-        "Resp"
-    ],
+        "coaches": [
+            "Kajun",
+            "Resp"
+        ],
 
-    "hall_of_fame": [
-        {
-            "player": "Dizruption",
-            "retired_number": "43",
-            "retired_date": "2022-04-04",
-            "induction_speech": "The first number to ever be retired in the typhoons history is #43. The #43 was the number of the player with the most points on the typhoons for 2 seasons, Dizruption. Dizruption was also a big part of how the typhoons got to challenger. "
-        },{
-            "player": "Skiztastic",
-            "retired_number": "13",
-            "retired_date": "2022-04-04",
-            "induction_speech": "The second number to be retired is #13. Skiztastic is the best scorer in typhoons history putting up 91 goals in 1 season and 113 total."
-        },{
-            "player": "N",
-            "retired_number": "92",
-            "retired_date": "2022-04-04",
-            "induction_speech": "The third number to be retired is #92. N, joined the typhoons last second right before their first season in pro. N played in challenger and IM all his career. People were skeptical if N would be able to compete in pro. He showed what he was able to do by putting up 71 points with 24 goals and 47 assists. N hanged up the skates with the typhoons and will not be seen soon."
-        },{
-            "player": "Tee",
-            "retired_number": "24",
-            "retired_date": "2026-06-14",
-            "induction_speech": " "
-        },{
-            "player": "Jagr",
-            "retired_number": "68",
-            "retired_date": "2026-06-14",
-            "induction_speech": " "
-        },{
-            "player": "Hex",
-            "retired_number": "13",
-            "retired_date": "2026-06-14",
-            "induction_speech": " "
-        }
-    ],
-
-    "memberships": [
+        "hall_of_fame": [
             {
-            "team": "Ocean City Typhoons",
-            "order": 1,
-            "start_season": "winter_2021",
-            "end_season": "winter_2023",
-            "notes": ""
+                "player": "Dizruption",
+                "retired_number": "43",
+                "retired_date": "2022-04-04",
+                "induction_speech": "The first number to ever be retired in the typhoons history is #43. The #43 was the number of the player with the most points on the typhoons for 2 seasons, Dizruption. Dizruption was also a big part of how the typhoons got to challenger. "
             },{
-            "team": "Ocean City Tsunamis",
-            "order": 2,
-            "start_season": "spring_2021",
-            "end_season": "winter_2022",
-            "notes": ""
+                "player": "Skiztastic",
+                "retired_number": "13",
+                "retired_date": "2022-04-04",
+                "induction_speech": "The second number to be retired is #13. Skiztastic is the best scorer in typhoons history putting up 91 goals in 1 season and 113 total."
             },{
-            "team": "Ocean City Krakens",
-            "order": 3,
-            "start_season": "fall_2022",
-            "end_season": "fall_2022",
-            "notes": ""
+                "player": "N",
+                "retired_number": "92",
+                "retired_date": "2022-04-04",
+                "induction_speech": "The third number to be retired is #92. N, joined the typhoons last second right before their first season in pro. N played in challenger and IM all his career. People were skeptical if N would be able to compete in pro. He showed what he was able to do by putting up 71 points with 24 goals and 47 assists. N hanged up the skates with the typhoons and will not be seen soon."
+            },{
+                "player": "Tee",
+                "retired_number": "24",
+                "retired_date": "2026-06-14",
+                "induction_speech": " "
+            },{
+                "player": "Jagr",
+                "retired_number": "68",
+                "retired_date": "2026-06-14",
+                "induction_speech": " "
+            },{
+                "player": "Hex",
+                "retired_number": "13",
+                "retired_date": "2026-06-14",
+                "induction_speech": " "
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Ocean City Typhoons",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "winter_2023",
+                "notes": ""
+            },{
+                "team": "Ocean City Tsunamis",
+                "order": 2,
+                "start_season": "spring_2021",
+                "end_season": "winter_2022",
+                "notes": ""
+            },{
+                "team": "Ocean City Krakens",
+                "order": 3,
+                "start_season": "fall_2022",
+                "end_season": "fall_2022",
+                "notes": ""
             }
         ]
     },
@@ -621,6 +624,7 @@
         "logo": "assets/images/franchises/vader.png",
         "status": "active",
         "founded": "2025-01-03",
+        "closed": "yyyy-mm-dd",
 
         "theme": {
             "primary": "#5A5A5A",
@@ -713,158 +717,158 @@
         ],
 
         "memberships": [
-                {
+            {
                 "team": "Vader Inquisitors",
                 "order": 1,
                 "start_season": "spring_2025",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Central Attackers",
                 "order": 1,
                 "start_season": "fall_2025",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Eastern Attackers",
                 "order": 1,
                 "start_season": "fall_2025",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Acolytes",
                 "order": 1,
                 "start_season": "fall_2025",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Wookies",
                 "order": 1,
                 "start_season": "winter_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader 66ers",
                 "order": 1,
                 "start_season": "winter_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Gungans",
                 "order": 1,
                 "start_season": "fall_2025",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Troopers",
                 "order": 1,
                 "start_season": "summer_2025",
                 "end_season": "fall_2025",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Bens",
                 "order": 1,
                 "start_season": "winter_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Enforcers",
                 "order": 1,
                 "start_season": "summer_2025",
                 "end_season": "fall_2025",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Starkillers Central",
                 "order": 1,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Voltage Eastern",
                 "order": 1,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Guards",
                 "order": 1,
                 "start_season": "fall_2025",
                 "end_season": "fall_2025",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Starkillers East",
                 "order": 1,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Voltage - Central",
                 "order": 1,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Leias",
                 "order": 1,
                 "start_season": "winter_2026",
                 "end_season": "winter_2026",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Raiders",
                 "order": 1,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Disciples",
                 "order": 1,
                 "start_season": "winter_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Revanites",
                 "order": 1,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Vapors",
                 "order": 1,
                 "start_season": "fall_2025",
                 "end_season": "fall_2025",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Destroyers",
                 "order": 1,
                 "start_season": "fall_2025",
                 "end_season": "fall_2025",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Jabbas",
                 "order": 1,
                 "start_season": "winter_2026",
                 "end_season": "winter_2026",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Western Inquisitors",
                 "order": 1,
                 "start_season": "summer_2025",
                 "end_season": "summer_2025",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader Droids",
                 "order": 1,
                 "start_season": "summer_2025",
                 "end_season": "summer_2025",
                 "notes": ""
-                },{
+            },{
                 "team": "Vader AT-AT's",
                 "order": 1,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
-                }
-            ]
+            }
+        ]
     },
 
 
@@ -995,6 +999,7 @@
         "logo": "assets/images/franchises/cowtown.png",
         "status": "active",
         "founded": "2020/12/28",
+        "closed": "yyyy-mm-dd",
 
         "theme": {
             "primary": "#D000E8",
@@ -1324,112 +1329,112 @@
 
         "hall_of_fame": [
             {
-            "player": "Blue",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Blue",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Dylinho",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Dylinho",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Pierre Houde",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Pierre Houde",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Dil",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Dil",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Hallejokel",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Hallejokel",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Trout",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Trout",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Jaax",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Jaax",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Chris",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Chris",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "D-lew",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "D-lew",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Lezura",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Lezura",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Berm",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Berm",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Raidd",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Raidd",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Zantle",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Zantle",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Couture",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Couture",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "IAMFOREHEAD",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "IAMFOREHEAD",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Snail",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Snail",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Billy",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Billy",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             },
             {
-            "player": "Spinach",
-            "retired_number": "##",
-            "retired_date": "yyyy-mm-dd",
-            "induction_speech": ""
+                "player": "Spinach",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
             }
 
         ],
@@ -1517,8 +1522,8 @@
         "franchise_id": "winnipeg",
         "franchise_name": "Winnipeg",
         "logo": "assets/images/franchises/winnipeg.png",
-        "status": "active",
-        "founded": "yyyy-mm-dd",
+        "status": "retired",
+        "founded": "2021-01-31",
         "closed": "yyyy-mm-dd",
 
         "theme": {
