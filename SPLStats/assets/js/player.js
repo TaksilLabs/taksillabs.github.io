@@ -1,3 +1,19 @@
+async function fetchJsonOrFallback(url, fallback) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      console.warn(`Could not load ${url}: ${response.status}`);
+      return fallback;
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.warn(`Could not load ${url}:`, error);
+    return fallback;
+  }
+}
+
 const REGION_PATTERNS = {
   east: [
     "erveon",
@@ -26,118 +42,7 @@ const REGION_PATTERNS = {
   ]
 };
 
-function normalizeDivisionName(division) {
-
-  // Last Updated 2026-06-16    //    SPL 22 - Summer 2026
-  const DIVISION_DISPLAY_NAMES = {
-    "B Bowl - Playoffs": "B Bowl Playoffs",
-    "B Bowl Playoffs": "B Bowl Playoffs",
-    "Blade Cup - Playoffs": "Blade Cup Playoffs",
-    "Blade Cup Playoffs": "Blade Cup Playoffs",
-    "Bome Cup - Playoffs": "Bome Cup Playoffs",
-    "CHALLENGER - Promotional Series": "Challenger Promotional Series",
-    "CHALLENGER PLAYOFFS": "Blade Cup Playoffs",
-    "CHALLENGER PROMOTIONAL SERIES": "Challenger Promotional Series",
-    "Central A": "Central A",
-    "Central A - Playoffs": "Gazz Cup Playoffs",
-    "Central B": "Central B",
-    "Central B - East": "Central B",
-    "Central B - East vs North": "Central B",
-    "Central B - East vs South": "Central B",
-    "Central B - East vs West": "Central B",
-    "Central B - Playoffs": "B Bowl Playoffs",
-    "Central B - South": "Central B",
-    "Central B - South vs North": "Central B",
-    "Central B - South vs West": "Central B",
-    "Central B - West": "Central B",
-    "Central B - West vs North": "Central B",
-    "Central C": "Central C",
-    "Central C - Playoffs": "Central C Playoffs",
-    "Central C Playoffs": "Central C Playoffs",
-    "Central D": "Central D",
-    "Central D - Playoffs": "Central D Playoffs",
-    "Challenger Cross-Conf": "Challenger Division",
-    "Challenger Cross-Play": "Challenger Division",
-    "Challenger Division": "Challenger Division",
-    "Challenger Division - M1NNSNOWTA": "Challenger Division",
-    "Challenger Division - Playoffs": "Balde Cup Playoffs",
-    "Challenger Play-In": "Challenger Play-In Tournament",
-    "Challenger Play-in": "Challenger Play-In Tournament",
-    "Challenger Promotional Series": "Challenger Promotional Series",
-    "Cluster Cup - Playoffs": "Cluster Cup Playoffs",
-    "Contenders Circuit": "Contenders Circuit",
-    "Contenders Playoffs": "Bome Cup Playoffs",
-    "Erveon Cup - Playoffs": "Erveon Cup Playoffs",
-    "Erveon Cup Playoffs": "Erveon Cup Playoffs",
-    "Erveon Trophy - Playoffs": "Erveon Cup Playoffs",
-    "Gazz Cup - Playoffs": "Gazz Cup Playoffs",
-    "Gazz Cup Playoffs": "Gazz Cup Playoffs",
-    "Genesis Cup - Playoffs": "Genesis Cup Playoffs",
-    "Genesis Cup Playoffs": "Genesis Cup Playoffs",
-    "IM Cross-Play": "Intermediate Division",
-    "IM Play-in": "Intermediate Play-In Tournament",
-    "IM Play-in Series": "Intermediate Play-In Tournament",
-    "IM Promotional Series": "Intermediate Promotional Series",
-    "INTERMEDIATE - Promotional Series": "Intermediate Promotional Series",
-    "INTERMEDIATE PROMOTIONAL SERIES": "Intermediate Promotional Series",
-    "Intermediate Cross-Play": "Intermediate Division",
-    "Intermediate Cup - Playoffs": "Intermediate Cup Playoffs",
-    "Intermediate Division": "Intermediate Division",
-    "Intermediate Division - Baguette - Intermediate Division - Omelette": "Intermediate Division",
-    "Intermediate Division - Omelette": "Intermediate Division",
-    "Intermediate Division - Omelette - Intermediate Division": "Intermediate Division",
-    "Intermediate Division - Playoffs": "Intermediate Cup Playoffs",
-    "Intermediate Play-In": "Intermediate Play-In Tournament",
-    "Intermediate Playoffs": "Intermediate Cup Playoffs",
-    "Intermediate Promotional Series": "Intermediate Promotional Series",
-    "Intermediate Promotional Tournament": "Intermediate Promotional Series",
-    "Masters Playoffs": "Pacific Cup Playoffs",
-    "Minor League": "Minor League",
-    "OPEN Promotional Series": "Intermediate Promotional Series",
-    "Open Benders - Playoffs": "Genesis Cup Playoffs",
-    "Open Cross Conf": "Open Division",
-    "Open Division": "Open Division",
-    "Open Division - Dusters": "Open Division",
-    "Open Division - Playoffs": "Genesis Cup Playoffs",
-    "Open Division Playoffs": "Genesis Cup Playoffs",
-    "Open Dusters - Playoffs": "Genesis Cup Playoffs",
-    "Other Matches": "Vs Disbanded Teams",
-    "PRO - Promotional Series": "Pro Promotional Series",
-    "PRO DIVISION - PLAYOFFS": "Erveon Cup Playoffs",
-    "PRO DIVISION - Playoffs": "Erveon Cup Playoffs",
-    "PRO DIVISION PLAYOFFS": "Erveon Cup Playoffs",
-    "PRO PROMOTIONAL SERIES": "Pro Promotional Series",
-    "PRO Playoffs": "Erveon Cup Playoffs",
-    "Pacific Cup - Playoffs": "Pacific Cup Playoffs",
-    "Pacific Cup Playoffs": "Pacific Cup Playoffs",
-    "Placement Season Playoffs": "Erveon Cup Playoffs",
-    "Play-ins": "Preseason",
-    "Preseason": "Preseason",
-    "Preseason Playin": "Preseason",
-    "Pro Division": "Pro Division",
-    "Pro Division Playoffs": "Erveon Cup Playoffs",
-    "Pro Play-in": "Pro Play-In Tournament",
-    "Pro Promotional Series": "Pro Promotional Series",
-    "Pro Promotional Tournament": "Pro Promotional Series",
-    "Prospect Cross-Play": "Prospect Division",
-    "Prospect Division": "Prospect Division",
-    "Prospect Division - Beauties": "Prospect Division",
-    "Prospect Division - Playoffs": "Prospect Cup Playoffs",
-    "Prospect Play-in": "Prospect Play-In",
-    "S1 Pro Playoffs": "Erveon Cup Playoffs",
-    "SPL Season 1 Pro Playoffs": "Erveon Cup Playoffs",
-    "Season 1 Intermediate Play-In Tournament": "Intermediate Play-In",
-    "Underdog Cup - Playoffs": "Underdog Cup Playoffs",
-    "Vs Disbanded Teams": "Vs Disbanded Teams",
-    "WEST DIVISION - PLAYOFFS": "Pacific Cup Playoffs",
-    "WEST DIVISION PLAYOFFS": "Pacific Cup Playoffs",
-    "West - Contenders Division": "Contenders Division",
-    "West Division": "West Division",
-    "West Division - Playoffs": "Pacific Cup Playoffs"
-  };
-
-  return DIVISION_DISPLAY_NAMES[division] || division || "Unknown";
-}
+let DIVISION_DISPLAY_NAMES = {};
 
 function mergePlayerSeasonRows(rows) {
   const merged = new Map();
@@ -255,25 +160,181 @@ function normalizeName(name) {
   return String(name || "").toLowerCase();
 }
 
-function renderPlayer(player) {
+function normalizeDivisionName(division) {
+  return DIVISION_DISPLAY_NAMES[division] || division || "Unknown";
+}
+
+function renderPlayer(player, championships = []) {
   document.title = `${player.player_name} | SPLStats`;
+  document.querySelector("#playerName").textContent = player.player_name;
 
-  document.querySelector("#playerName").textContent =
-    player.player_name;
-
-  document.querySelector("#careerTitle").textContent =
-    `${player.player_name}'s Career Totals`;
+  renderPlayerChampionships(player, championships);
 
   renderCareerStats(player);
   renderTeams(player.by_season || []);
   renderSeasons(player.by_season || []);
 }
 
+function normalizePlayerNameForCompare(name) {
+  return String(name || "")
+    .trim()
+    .toLowerCase();
+}
+
+function getPlayerChampionships(player, championships = []) {
+  const playerName = normalizePlayerNameForCompare(player.player_name);
+
+  return championships.filter(champ =>
+    (champ.championship_roster || []).some(rosterPlayer =>
+      normalizePlayerNameForCompare(rosterPlayer.player_name) === playerName
+    )
+  );
+}
+
+function getChampionshipClass(championship) {
+  const cup = String(championship || "").toLowerCase();
+
+  if (cup.includes("erveon")) return "champ-east";
+  if (cup.includes("gazz")) return "champ-central";
+  if (cup.includes("pacific")) return "champ-west";
+
+  return "";
+}
+
+function getQualifiedByText(rosterEntry) {
+  const qualifiedBy = rosterEntry.qualified_by || [];
+
+  const labels = {
+    regular_season_50_percent: "Regular Season",
+    playoffs_50_percent: "Playoffs",
+    finals_appearance: "Finals Appearance"
+  };
+
+  return qualifiedBy
+    .map(key => labels[key] || key)
+    .join(", ");
+}
+
+function renderPlayerChampionships(player, championships) {
+  const card = document.querySelector("#championshipsCard");
+  const container = document.querySelector("#playerChampionships");
+  const countsContainer = document.querySelector("#playerChampionshipCounts");
+
+  if (!card || !container) return;
+
+  const playerChamps = getPlayerChampionships(player, championships);
+
+  if (!playerChamps.length) {
+    card.style.display = "none";
+    container.innerHTML = "";
+
+    if (countsContainer) {
+      countsContainer.innerHTML = "";
+    }
+
+    return;
+  }
+
+  card.style.display = "";
+
+  const counts = getChampionshipCounts(playerChamps);
+
+  container.innerHTML = playerChamps.map(champ => {
+    const rosterEntry = (champ.championship_roster || []).find(rosterPlayer =>
+      normalizePlayerNameForCompare(rosterPlayer.player_name)
+        === normalizePlayerNameForCompare(player.player_name)
+    );
+
+    const champClass = getChampionshipClass(champ.championship);
+
+    return `
+      <div class="championship-card ${champClass}">
+        <div class="championship-ring">🏆</div>
+
+        <div class="championship-season">
+          ${champ.season}
+        </div>
+
+        <div class="championship-card-main">
+          <div class="championship-title">
+            ${champ.championship}
+          </div>
+
+          <div class="championship-team">
+            ${champ.winner_team}
+          </div>
+
+          <div class="championship-series">
+            def. ${champ.runner_up_team}
+            ${champ.series_result ? `(${champ.series_result})` : ""}
+          </div>
+        </div>
+
+        <div class="championship-qualifier">
+          ${getQualifiedByText(rosterEntry || {})}
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  if (countsContainer) {
+    countsContainer.innerHTML = `
+      <div class="championship-count championship-count-total">
+        <span>Total</span>
+        <strong>${counts.total}</strong>
+      </div>
+
+      <div class="championship-count champ-east">
+        <span>East</span>
+        <strong>${counts.east}</strong>
+      </div>
+
+      <div class="championship-count champ-central">
+        <span>Central</span>
+        <strong>${counts.central}</strong>
+      </div>
+
+      <div class="championship-count champ-west">
+        <span>West</span>
+        <strong>${counts.west}</strong>
+      </div>
+    `;
+  }
+}
+
+function getChampionshipCounts(playerChamps) {
+  const counts = {
+    total: playerChamps.length,
+    east: 0,
+    central: 0,
+    west: 0
+  };
+
+  playerChamps.forEach(champ => {
+    const region = String(champ.region || "").toLowerCase();
+
+    if (region === "east") counts.east += 1;
+    if (region === "central") counts.central += 1;
+    if (region === "west") counts.west += 1;
+  });
+
+  return counts;
+}
+
 async function loadPlayer() {
   const playerId = getPlayerIdFromUrl();
 
-  const response = await fetch("data/all_time_players.json");
-  const players = await response.json();
+  const [
+    players,
+    divisionNames,
+    championships
+  ] = await Promise.all([
+    fetchJsonOrFallback("data/all_time_players.json", []),
+    fetchJsonOrFallback("data/division_display_names.json", {}),
+    fetchJsonOrFallback("data/championships.json", [])
+  ]);
+
+  DIVISION_DISPLAY_NAMES = divisionNames;
 
   const player = players.find(p =>
     normalizeName(p.player_name) === normalizeName(playerId)
@@ -284,7 +345,7 @@ async function loadPlayer() {
     return;
   }
 
-  renderPlayer(player);
+  renderPlayer(player, championships);
 }
 
 function formatTime(seconds) {
