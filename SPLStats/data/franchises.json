@@ -4,7 +4,7 @@
     "franchise_id": "hot_springs",
     "franchise_name": "Hot Springs",
     "logo": "assets/images/franchises/hot_springs.png",
-    "status": "inactive",
+    "status": "retired",
     "founded": "2021-09-04",
 
     "theme": {
@@ -513,7 +513,7 @@
     "franchise_id": "ocean_city",
     "franchise_name": "Ocean City",
     "logo": "assets/images/franchises/ocean_city.png",
-    "status": "inactive",
+    "status": "retired",
     "founded": "2021-03-02",
 
     "theme": {
@@ -885,7 +885,7 @@
         "franchise_id": "niconics",
         "franchise_name": "Niconics",
         "logo": "assets/images/franchises/niconics.png",
-        "status": "inactive",
+        "status": "retired",
         "founded": "2021-04-13",
         "closed": "2023-06-20",
 
@@ -1198,7 +1198,7 @@
         "franchise_id": "maryland",
         "franchise_name": "Maryland",
         "logo": "assets/images/franchises/maryland.png",
-        "status": "inactive",
+        "status": "retired",
         "founded": "2021-02-02",
         "closed": "n/a",
 
@@ -1279,7 +1279,7 @@
         "franchise_id": "coaticook",
         "franchise_name": "Coaticook",
         "logo": "assets/images/franchises/coaticook.png",
-        "status": "inactive",
+        "status": "retired",
         "founded": "2022-05-14",
         "closed": "yyyy-mm-dd",
 
@@ -1705,6 +1705,217 @@
                 "order": 1,
                 "start_season": "summer_2025",
                 "end_season": "summer_2025",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "delmarva",
+        "franchise_name": "Delmarva",
+        "logo": "assets/images/franchises/delmarva.png",
+        "status": "retired",
+        "founded": "yyyy-mm-dd",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#F26A21",
+            "secondary": "#C9D1D9",
+            "accent": "#FFF4E8",
+            "background": "#111317",
+            "card": "#1B1F25",
+            "surface": "#242A33"
+        },
+
+        "description": "",
+
+        "founders": [
+            "LessThanDennis"
+        ],
+
+        "owners": [
+            "LessThanDennis"
+        ],
+
+        "part_owners": [
+            "Papa Shieldz"
+        ],
+
+        "coaches": [
+            "AboveAverageJoe",
+            "Pip Starlather",
+            "KevinEleven"
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "Crusade",
+                "retired_number": "21",
+                "retired_date": "2021-09-18",
+                "induction_speech": ""
+            },{
+                "player": "Dr_Samurai",
+                "retired_number": "51",
+                "retired_date": "2021-09-18",
+                "induction_speech": ""
+            },{
+                "player": "Papa Shieldz",
+                "retired_number": "21",
+                "retired_date": "2021-09-18",
+                "induction_speech": ""
+            },{
+                "player": "Jougie",
+                "retired_number": "16",
+                "retired_date": "2021-09-18",
+                "induction_speech": ""
+            },{
+                "player": "Blue",
+                "retired_number": "39",
+                "retired_date": "2021-09-18",
+                "induction_speech": ""
+            },{
+                "player": "Snail",
+                "retired_number": "21",
+                "retired_date": "2021-09-18",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Delmarva Dandy Skaters",
+                "order": 1,
+                "start_season": "winter_2021",
+                "end_season": "fall_2021",
+                "notes": ""
+            },{
+                "team": "Delmarva Dandy Popes",
+                "order": 2,
+                "start_season": "summer_2021",
+                "end_season": "winter_2022",
+                "notes": ""
+            },{
+                "team": "Delmarva Dandy Staff",
+                "order": 3,
+                "start_season": "fall_2023",
+                "end_season": "fall_2023",
+                "notes": ""
+            },{
+                "team": "Delmarva dandy rockies",
+                "order": 4,
+                "start_season": "fall_2024",
+                "end_season": "fall_2024",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "yosemite",
+        "franchise_name": "Yosemite",
+        "logo": "assets/images/franchises/yosemite.png",
+        "status": "retired",
+        "founded": "yyyy-mm-dd",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#FFC84A",
+            "secondary": "#5A1F14",
+            "accent": "#FFC84A",
+            "background": "#050505",
+            "card": "#14100A",
+            "surface": "#241A10"
+            },
+
+        "description": "",
+
+        "founders": [
+            "Wendy's Cashier"
+        ],
+
+        "owners": [
+            "Wendy's Cashier",
+            "Baumz"
+        ],
+
+        "part_owners": [
+            ""
+        ],
+
+        "coaches": [
+            ""
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "Wendy's Cashier",
+                "retired_number": "12",
+                "retired_date": "2023-04-04",
+                "induction_speech": "The glue guy every locker room needs. The leader every front office wants. Men fear him. Women fear him. Fish fear him. Everyone fears him."
+            },{
+                "player": "Baumz",
+                "retired_number": "69",
+                "retired_date": "2023-04-04",
+                "induction_speech": "'The original number 69.' -DarthTaksil"
+            },{
+                "player": "A Rambome Player",
+                "retired_number": "7",
+                "retired_date": "2023-04-04",
+                "induction_speech": "A western hero. An individual every man should aspire to be. We live merely lives. This man lived a legacy."
+            },{
+                "player": "Darnell",
+                "retired_number": "15",
+                "retired_date": "2023-04-04",
+                "induction_speech": "The only Pro Slapshot player to be credited with a goal while playing with a Trackpad"
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Yosemite Grizzlies",
+                "order": 1,
+                "start_season": "fall_2020",
+                "end_season": "spring_2023",
+                "notes": ""
+            },{
+                "team": "Yosemite Bobcats",
+                "order": 2,
+                "start_season": "winter_2021",
+                "end_season": "fall_2024",
+                "notes": ""
+            },{
+                "team": "Yosemite Cubs",
+                "order": 3,
+                "start_season": "winter_2021",
+                "end_season": "spring_2021",
                 "notes": ""
             }
         ]

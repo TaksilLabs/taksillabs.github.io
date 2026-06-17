@@ -17,6 +17,7 @@
     {
         "franchise_id": "",
         "franchise_name": "",
+        "logo": "assets/images/franchises/.png",
         "status": "active",
         "founded": "yyyy-mm-dd",
         "closed": "yyyy-mm-dd",

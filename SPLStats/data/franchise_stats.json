@@ -2,7 +2,7 @@
   {
     "franchise_id": "hot_springs",
     "franchise_name": "Hot Springs",
-    "status": "inactive",
+    "status": "retired",
     "description": "",
     "founders": [
       "DarthTaksil",
@@ -2466,7 +2466,7 @@
   {
     "franchise_id": "ocean_city",
     "franchise_name": "Ocean City",
-    "status": "inactive",
+    "status": "retired",
     "description": "",
     "founders": [
       "Kajun"
@@ -4439,7 +4439,7 @@
   {
     "franchise_id": "niconics",
     "franchise_name": "Niconics",
-    "status": "inactive",
+    "status": "retired",
     "description": "",
     "founders": [
       "Whiffleroar",
@@ -6041,7 +6041,7 @@
   {
     "franchise_id": "maryland",
     "franchise_name": "Maryland",
-    "status": "inactive",
+    "status": "retired",
     "description": "",
     "founders": [
       "Skiztastic"
@@ -6681,7 +6681,7 @@
   {
     "franchise_id": "coaticook",
     "franchise_name": "Coaticook",
-    "status": "inactive",
+    "status": "retired",
     "description": "",
     "founders": [
       "Dylinho",
@@ -8906,6 +8906,1195 @@
           "winter_2025",
           "fall_2024",
           "summer_2024"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "delmarva",
+    "franchise_name": "Delmarva",
+    "status": "retired",
+    "description": "",
+    "founders": [
+      "LessThanDennis"
+    ],
+    "owners": [
+      "LessThanDennis"
+    ],
+    "part_owners": [
+      "Papa Shieldz"
+    ],
+    "coaches": [
+      "AboveAverageJoe",
+      "Pip Starlather",
+      "KevinEleven"
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Crusade",
+        "retired_number": "21",
+        "retired_date": "2021-09-18",
+        "induction_speech": ""
+      },
+      {
+        "player": "Dr_Samurai",
+        "retired_number": "51",
+        "retired_date": "2021-09-18",
+        "induction_speech": ""
+      },
+      {
+        "player": "Papa Shieldz",
+        "retired_number": "21",
+        "retired_date": "2021-09-18",
+        "induction_speech": ""
+      },
+      {
+        "player": "Jougie",
+        "retired_number": "16",
+        "retired_date": "2021-09-18",
+        "induction_speech": ""
+      },
+      {
+        "player": "Blue",
+        "retired_number": "39",
+        "retired_date": "2021-09-18",
+        "induction_speech": ""
+      },
+      {
+        "player": "Snail",
+        "retired_number": "21",
+        "retired_date": "2021-09-18",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Delmarva Dandy Skaters",
+        "order": 1,
+        "start_season": "winter_2021",
+        "end_season": "fall_2021",
+        "notes": ""
+      },
+      {
+        "team": "Delmarva Dandy Popes",
+        "order": 2,
+        "start_season": "summer_2021",
+        "end_season": "winter_2022",
+        "notes": ""
+      },
+      {
+        "team": "Delmarva Dandy Staff",
+        "order": 3,
+        "start_season": "fall_2023",
+        "end_season": "fall_2023",
+        "notes": ""
+      },
+      {
+        "team": "Delmarva dandy rockies",
+        "order": 4,
+        "start_season": "fall_2024",
+        "end_season": "fall_2024",
+        "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 4,
+      "games_played": 154,
+      "wins": 96,
+      "losses": 57,
+      "goals_for": 1125,
+      "goals_against": 823,
+      "goal_differential": 302,
+      "win_percent": 0.623,
+      "seasons": 7
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Delmarva Dandy Skaters",
+        "value": 78
+      },
+      "most_wins": {
+        "team": "Delmarva Dandy Skaters",
+        "value": 49
+      },
+      "best_win_percent": {
+        "team": "Delmarva Dandy Popes",
+        "value": 0.725
+      },
+      "most_goals_for": {
+        "team": "Delmarva Dandy Skaters",
+        "value": 535
+      },
+      "fewest_goals_against": {
+        "team": "Delmarva Dandy Staff",
+        "value": 22
+      },
+      "best_goal_differential": {
+        "team": "Delmarva Dandy Popes",
+        "value": 188
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Delmarva Dandy Skaters",
+        "games_played": 78,
+        "wins": 49,
+        "losses": 29,
+        "goals_for": 535,
+        "goals_against": 406,
+        "goal_differential": 129,
+        "win_percent": 0.628,
+        "seasons": [
+          "winter_2021",
+          "spring_2021",
+          "summer_2021",
+          "fall_2021"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "fall_2021",
+        "order": 1
+      },
+      {
+        "team": "Delmarva Dandy Popes",
+        "games_played": 51,
+        "wins": 37,
+        "losses": 14,
+        "goals_for": 460,
+        "goals_against": 272,
+        "goal_differential": 188,
+        "win_percent": 0.725,
+        "seasons": [
+          "summer_2021",
+          "fall_2021",
+          "winter_2022"
+        ],
+        "start_season": "summer_2021",
+        "end_season": "winter_2022",
+        "order": 2
+      },
+      {
+        "team": "Delmarva Dandy Staff",
+        "games_played": 5,
+        "wins": 0,
+        "losses": 5,
+        "goals_for": 4,
+        "goals_against": 22,
+        "goal_differential": -18,
+        "win_percent": 0.0,
+        "seasons": [
+          "fall_2023"
+        ],
+        "start_season": "fall_2023",
+        "end_season": "fall_2023",
+        "order": 3
+      },
+      {
+        "team": "Delmarva dandy rockies",
+        "games_played": 20,
+        "wins": 10,
+        "losses": 9,
+        "goals_for": 126,
+        "goals_against": 123,
+        "goal_differential": 3,
+        "win_percent": 0.5,
+        "seasons": [
+          "fall_2024"
+        ],
+        "start_season": "fall_2024",
+        "end_season": "fall_2024",
+        "order": 4
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": false,
+        "career": {
+          "points": 0,
+          "shot_percent": 0,
+          "save_percent": 0,
+          "gaa": 0,
+          "faceoffs_total": 0,
+          "faceoff_win_percent": 0
+        },
+        "leaders": {
+          "goals": [],
+          "assists": [],
+          "points": [],
+          "shots": [],
+          "takeaways": [],
+          "saves": [],
+          "blocks": [],
+          "faceoff_percent": [],
+          "games_played": [],
+          "seasons_played": []
+        },
+        "teams": [],
+        "seasons": []
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "blocks": 823.0,
+          "faceoffs_lost": 1045.0,
+          "faceoffs_won": 1219.0,
+          "goals": 1125.0,
+          "passes": 7772.0,
+          "possession_time_sec": 17230.0,
+          "post_hits": 507.0,
+          "primary_assists": 716.0,
+          "saves": 983.0,
+          "secondary_assists": 156.0,
+          "shots": 2331.0,
+          "takeaways": 2948.0,
+          "turnovers": 2691.0,
+          "goals_against": 2833.0,
+          "shots_against": 6326.0,
+          "assists": 876.0,
+          "points": 2001.0,
+          "games_played": 547.0,
+          "faceoffs_total": 2264.0,
+          "periods_played": 270.0,
+          "shot_percent": 48.26,
+          "save_percent": 15.54,
+          "gaa": 5.18,
+          "faceoff_win_percent": 53.84
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Wayne Glensky",
+              "value": 169.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 137.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 136.0
+            },
+            {
+              "player_name": "LessThanDennis",
+              "value": 121.0
+            },
+            {
+              "player_name": "T-Rax",
+              "value": 113.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "T-Rax",
+              "value": 121.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 120.0
+            },
+            {
+              "player_name": "Wayne Glensky",
+              "value": 120.0
+            },
+            {
+              "player_name": "LessThanDennis",
+              "value": 94.0
+            },
+            {
+              "player_name": "Jougie",
+              "value": 66.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Wayne Glensky",
+              "value": 289.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 256.0
+            },
+            {
+              "player_name": "T-Rax",
+              "value": 234.0
+            },
+            {
+              "player_name": "LessThanDennis",
+              "value": 215.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 177.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Wayne Glensky",
+              "value": 305.0
+            },
+            {
+              "player_name": "Blue",
+              "value": 292.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 269.0
+            },
+            {
+              "player_name": "LessThanDennis",
+              "value": 268.0
+            },
+            {
+              "player_name": "T-Rax",
+              "value": 247.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Wayne Glensky",
+              "value": 362.0
+            },
+            {
+              "player_name": "Jougie",
+              "value": 331.0
+            },
+            {
+              "player_name": "T-Rax",
+              "value": 320.0
+            },
+            {
+              "player_name": "LessThanDennis",
+              "value": 307.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 300.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Snail",
+              "value": 186.0
+            },
+            {
+              "player_name": "LessThanDennis",
+              "value": 111.0
+            },
+            {
+              "player_name": "Wayne Glensky",
+              "value": 96.0
+            },
+            {
+              "player_name": "Hammertime9000",
+              "value": 80.0
+            },
+            {
+              "player_name": "T-Rax",
+              "value": 64.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Wind",
+              "value": 144.0
+            },
+            {
+              "player_name": "Hammertime9000",
+              "value": 141.0
+            },
+            {
+              "player_name": "Midget",
+              "value": 89.0
+            },
+            {
+              "player_name": "Napa0",
+              "value": 71.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 53.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Jougie",
+              "value": 65.81
+            },
+            {
+              "player_name": "Blue",
+              "value": 65.19
+            },
+            {
+              "player_name": "Wayne Glensky",
+              "value": 61.43
+            },
+            {
+              "player_name": "Dr_Samurai",
+              "value": 57.81
+            },
+            {
+              "player_name": "Wind",
+              "value": 57.63
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "LessThanDennis",
+              "value": 75.0
+            },
+            {
+              "player_name": "Snail",
+              "value": 48.0
+            },
+            {
+              "player_name": "T-Rax",
+              "value": 47.0
+            },
+            {
+              "player_name": "Dr_Samurai",
+              "value": 45.0
+            },
+            {
+              "player_name": "Wayne Glensky",
+              "value": 43.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "LessThanDennis",
+              "value": 5
+            },
+            {
+              "player_name": "Dr_Samurai",
+              "value": 4
+            },
+            {
+              "player_name": "Snail",
+              "value": 3
+            },
+            {
+              "player_name": "Wayne Glensky",
+              "value": 3
+            },
+            {
+              "player_name": "T-Rax",
+              "value": 3
+            }
+          ]
+        },
+        "teams": [
+          "Delmarva Dandy Popes",
+          "Delmarva Dandy Skaters",
+          "Delmarva Dandy Staff",
+          "Delmarva dandy rockies"
+        ],
+        "seasons": [
+          "fall_2024",
+          "fall_2023",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021",
+          "spring_2021",
+          "winter_2021"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "yosemite",
+    "franchise_name": "Yosemite",
+    "status": "retired",
+    "description": "",
+    "founders": [
+      "Wendy's Cashier"
+    ],
+    "owners": [
+      "Wendy's Cashier",
+      "Baumz"
+    ],
+    "part_owners": [
+      ""
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Wendy's Cashier",
+        "retired_number": "12",
+        "retired_date": "2023-04-04",
+        "induction_speech": "The glue guy every locker room needs. The leader every front office wants. Men fear him. Women fear him. Fish fear him. Everyone fears him."
+      },
+      {
+        "player": "Baumz",
+        "retired_number": "69",
+        "retired_date": "2023-04-04",
+        "induction_speech": "'The original number 69.' -DarthTaksil"
+      },
+      {
+        "player": "A Rambome Player",
+        "retired_number": "7",
+        "retired_date": "2023-04-04",
+        "induction_speech": "A western hero. An individual every man should aspire to be. We live merely lives. This man lived a legacy."
+      },
+      {
+        "player": "Darnell",
+        "retired_number": "15",
+        "retired_date": "2023-04-04",
+        "induction_speech": "The only Pro Slapshot player to be credited with a goal while playing with a Trackpad"
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Yosemite Grizzlies",
+        "order": 1,
+        "start_season": "fall_2020",
+        "end_season": "spring_2023",
+        "notes": ""
+      },
+      {
+        "team": "Yosemite Bobcats",
+        "order": 2,
+        "start_season": "winter_2021",
+        "end_season": "fall_2024",
+        "notes": ""
+      },
+      {
+        "team": "Yosemite Cubs",
+        "order": 3,
+        "start_season": "winter_2021",
+        "end_season": "spring_2021",
+        "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 3,
+      "games_played": 242,
+      "wins": 108,
+      "losses": 134,
+      "goals_for": 1386,
+      "goals_against": 1638,
+      "goal_differential": -252,
+      "win_percent": 0.446,
+      "seasons": 10
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Yosemite Grizzlies",
+        "value": 157
+      },
+      "most_wins": {
+        "team": "Yosemite Grizzlies",
+        "value": 65
+      },
+      "best_win_percent": {
+        "team": "Yosemite Bobcats",
+        "value": 0.647
+      },
+      "most_goals_for": {
+        "team": "Yosemite Grizzlies",
+        "value": 861
+      },
+      "fewest_goals_against": {
+        "team": "Yosemite Cubs",
+        "value": 252
+      },
+      "best_goal_differential": {
+        "team": "Yosemite Bobcats",
+        "value": 58
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Yosemite Grizzlies",
+        "games_played": 157,
+        "wins": 65,
+        "losses": 92,
+        "goals_for": 861,
+        "goals_against": 1086,
+        "goal_differential": -225,
+        "win_percent": 0.414,
+        "seasons": [
+          "fall_2020",
+          "winter_2021",
+          "spring_2021",
+          "summer_2021",
+          "fall_2021",
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "spring_2023"
+        ],
+        "start_season": "fall_2020",
+        "end_season": "spring_2023",
+        "order": 1
+      },
+      {
+        "team": "Yosemite Bobcats",
+        "games_played": 51,
+        "wins": 33,
+        "losses": 18,
+        "goals_for": 358,
+        "goals_against": 300,
+        "goal_differential": 58,
+        "win_percent": 0.647,
+        "seasons": [
+          "winter_2021",
+          "spring_2021",
+          "spring_2022",
+          "fall_2024"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "fall_2024",
+        "order": 2
+      },
+      {
+        "team": "Yosemite Cubs",
+        "games_played": 34,
+        "wins": 10,
+        "losses": 24,
+        "goals_for": 167,
+        "goals_against": 252,
+        "goal_differential": -85,
+        "win_percent": 0.294,
+        "seasons": [
+          "winter_2021",
+          "spring_2021"
+        ],
+        "start_season": "winter_2021",
+        "end_season": "spring_2021",
+        "order": 3
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 571.0,
+          "blocks": 311.0,
+          "faceoffs_lost": 997.0,
+          "faceoffs_won": 869.0,
+          "goals": 691.0,
+          "passes": 5888.0,
+          "points": 1262.0,
+          "possession_time_sec": 14605.0,
+          "post_hits": 333.0,
+          "primary_assists": 474.0,
+          "saves": 964.0,
+          "secondary_assists": 97.0,
+          "shots": 1469.0,
+          "takeaways": 2653.0,
+          "turnovers": 2911.0,
+          "goals_against": 2779.0,
+          "shots_against": 5775.0,
+          "games_played": 382.0,
+          "faceoffs_total": 1866.0,
+          "shot_percent": 47.04,
+          "save_percent": 16.69,
+          "gaa": 7.27,
+          "faceoff_win_percent": 46.57
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 183.0
+            },
+            {
+              "player_name": "Green",
+              "value": 174.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 158.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 83.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 34.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 218.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 107.0
+            },
+            {
+              "player_name": "Green",
+              "value": 89.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 64.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 39.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 401.0
+            },
+            {
+              "player_name": "Green",
+              "value": 263.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 222.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 190.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 73.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 420.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 345.0
+            },
+            {
+              "player_name": "Green",
+              "value": 335.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 156.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 88.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 873.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 564.0
+            },
+            {
+              "player_name": "Green",
+              "value": 352.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 342.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 300.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 395.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 287.0
+            },
+            {
+              "player_name": "Green",
+              "value": 84.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 74.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 56.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 125.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 64.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 30.0
+            },
+            {
+              "player_name": "Green",
+              "value": 29.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 29.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "qslvr",
+              "value": 53.33
+            },
+            {
+              "player_name": "Green",
+              "value": 50.31
+            },
+            {
+              "player_name": "Baumz",
+              "value": 48.34
+            },
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 47.08
+            },
+            {
+              "player_name": "spillz",
+              "value": 43.86
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 116.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 70.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 69.0
+            },
+            {
+              "player_name": "Green",
+              "value": 63.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 26.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 8
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 6
+            },
+            {
+              "player_name": "Green",
+              "value": 6
+            },
+            {
+              "player_name": "Baumz",
+              "value": 6
+            },
+            {
+              "player_name": "qslvr",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Yosemite Grizzlies"
+        ],
+        "seasons": [
+          "spring_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021",
+          "spring_2021",
+          "winter_2021"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "blocks": 777.0,
+          "faceoffs_lost": 1766.0,
+          "faceoffs_won": 1692.0,
+          "goals": 1386.0,
+          "passes": 11021.0,
+          "possession_time_sec": 28242.0,
+          "post_hits": 603.0,
+          "primary_assists": 836.0,
+          "saves": 1836.0,
+          "secondary_assists": 163.0,
+          "shots": 2958.0,
+          "takeaways": 4984.0,
+          "turnovers": 5338.0,
+          "goals_against": 5210.0,
+          "shots_against": 11004.0,
+          "assists": 1049.0,
+          "points": 2435.0,
+          "games_played": 766.0,
+          "faceoffs_total": 3458.0,
+          "periods_played": 96.0,
+          "shot_percent": 46.86,
+          "save_percent": 16.68,
+          "gaa": 6.8,
+          "faceoff_win_percent": 48.93
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 255.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 229.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 221.0
+            },
+            {
+              "player_name": "Green",
+              "value": 198.0
+            },
+            {
+              "player_name": "Wocky Slush",
+              "value": 55.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 282.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 226.0
+            },
+            {
+              "player_name": "Green",
+              "value": 96.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 89.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 49.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 537.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 455.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 310.0
+            },
+            {
+              "player_name": "Green",
+              "value": 294.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 86.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 573.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 456.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 440.0
+            },
+            {
+              "player_name": "Green",
+              "value": 375.0
+            },
+            {
+              "player_name": "tyler.exe",
+              "value": 108.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 1143.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 847.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 695.0
+            },
+            {
+              "player_name": "Green",
+              "value": 426.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 346.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "A Rambome Player",
+              "value": 550.0
+            },
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 485.0
+            },
+            {
+              "player_name": "Green",
+              "value": 111.0
+            },
+            {
+              "player_name": "qslvr",
+              "value": 102.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 82.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "A Rambome Player",
+              "value": 221.0
+            },
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 162.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 70.0
+            },
+            {
+              "player_name": "Stryker",
+              "value": 46.0
+            },
+            {
+              "player_name": "Green",
+              "value": 39.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Holyfeel$",
+              "value": 75.0
+            },
+            {
+              "player_name": "IAM FOREHEAD",
+              "value": 65.33
+            },
+            {
+              "player_name": "tyler.exe",
+              "value": 61.29
+            },
+            {
+              "player_name": "Wocky Slush",
+              "value": 57.69
+            },
+            {
+              "player_name": "lilq",
+              "value": 55.81
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 158.0
+            },
+            {
+              "player_name": "A Rambome Player",
+              "value": 139.0
+            },
+            {
+              "player_name": "Baumz",
+              "value": 93.0
+            },
+            {
+              "player_name": "Green",
+              "value": 75.0
+            },
+            {
+              "player_name": "Stryker",
+              "value": 38.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "A Rambome Player",
+              "value": 9
+            },
+            {
+              "player_name": "Wendy's Cashier",
+              "value": 9
+            },
+            {
+              "player_name": "Baumz",
+              "value": 7
+            },
+            {
+              "player_name": "Green",
+              "value": 6
+            },
+            {
+              "player_name": "Stryker",
+              "value": 4
+            }
+          ]
+        },
+        "teams": [
+          "Yosemite Bobcats",
+          "Yosemite Cubs",
+          "Yosemite Grizzlies"
+        ],
+        "seasons": [
+          "fall_2024",
+          "spring_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021",
+          "spring_2021",
+          "winter_2021",
+          "fall_2020"
         ]
       }
     }
