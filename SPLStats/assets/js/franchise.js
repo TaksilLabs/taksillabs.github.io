@@ -15,17 +15,20 @@ async function loadFranchise() {
      const [
         metaRes,
         statsRes,
-        recordsRes
+        recordsRes,
+        championshipsResponse
     ] = await Promise.all([
         fetch("data/franchises.json"),
         fetch("data/franchise_stats.json"),
-        fetch("data/team_records.json")
+        fetch("data/team_records.json"),
+        fetch("data/championships.json")
     ]);
 
     const meta = await metaRes.json();
     const stats = await statsRes.json();
     const teamRecords =
         await recordsRes.json();
+    const championships = await championshipsResponse.json();
 
     teamRecordMap = {};
 
@@ -68,6 +71,133 @@ async function loadFranchise() {
         franchise,
         allPlayers
     );
+
+    renderFranchiseChampionships(franchise, championships);
+}
+
+function getFranchiseChampionships(franchise, championships = []) {
+  const franchiseId = String(franchise.franchise_id || "").trim();
+
+  return championships.filter(champ =>
+    String(champ.winner_franchise_id || "").trim() === franchiseId
+  );
+}
+
+function getChampionshipClass(championship) {
+  const cup = String(championship || "").toLowerCase();
+
+  if (cup.includes("erveon")) return "champ-east";
+  if (cup.includes("gazz")) return "champ-central";
+  if (cup.includes("pacific")) return "champ-west";
+
+  return "";
+}
+
+function getFranchiseChampionshipCounts(franchiseChamps) {
+  const counts = {
+    total: franchiseChamps.length,
+    east: 0,
+    central: 0,
+    west: 0
+  };
+
+  franchiseChamps.forEach(champ => {
+    const region = String(champ.region || "").toLowerCase();
+
+    if (region === "east") counts.east += 1;
+    if (region === "central") counts.central += 1;
+    if (region === "west") counts.west += 1;
+  });
+
+  return counts;
+}
+
+function renderFranchiseChampionships(franchise, championships = []) {
+  const card = document.querySelector("#franchiseChampionshipsCard");
+  const container = document.querySelector("#franchiseChampionships");
+  const countsContainer = document.querySelector("#franchiseChampionshipCounts");
+
+  if (!card || !container) return;
+
+  const franchiseChamps = getFranchiseChampionships(franchise, championships);
+
+  if (!franchiseChamps.length) {
+    card.style.display = "none";
+    container.innerHTML = "";
+    container.classList.remove("championship-carousel-centered");
+
+    if (countsContainer) {
+      countsContainer.innerHTML = "";
+    }
+
+    return;
+  }
+
+  card.style.display = "";
+
+  container.classList.toggle(
+    "championship-carousel-centered",
+    franchiseChamps.length <= 4
+  );
+
+  const counts = getFranchiseChampionshipCounts(franchiseChamps);
+
+  container.innerHTML = franchiseChamps.map(champ => {
+    const champClass = getChampionshipClass(champ.championship);
+
+    return `
+      <div class="championship-card ${champClass}">
+        <div class="championship-ring">🏆</div>
+
+        <div class="championship-season">
+          ${champ.season}
+        </div>
+
+        <div class="championship-card-main">
+          <div class="championship-title">
+            ${champ.championship}
+          </div>
+
+          <div class="championship-team">
+            ${champ.winner_team}
+          </div>
+
+          <div class="championship-series">
+            def. ${champ.runner_up_team}
+            ${champ.series_result ? `(${champ.series_result})` : ""}
+          </div>
+        </div>
+
+        <div class="championship-qualifier">
+          ${champ.championship_roster?.length || 0} Qualified Players
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  if (countsContainer) {
+    countsContainer.innerHTML = `
+      <div class="championship-count championship-count-total">
+        <span>Total</span>
+        <strong>${counts.total}</strong>
+      </div>
+
+      <div class="championship-count champ-east">
+        <span>East</span>
+        <strong>${counts.east}</strong>
+      </div>
+
+      <div class="championship-count champ-central">
+        <span>Central</span>
+        <strong>${counts.central}</strong>
+      </div>
+
+      <div class="championship-count champ-west">
+        <span>West</span>
+        <strong>${counts.west}</strong>
+      </div>
+    `;
+  }
 }
 
 function seasonValue(seasonId) {
@@ -440,7 +570,7 @@ function formatLeaderValue(value, stat) {
   return Math.round(Number(value));
 }
 
-function renderFranchise(franchise) {
+function renderFranchise(franchise, championships =[]) {
   document.title = `${franchise.franchise_name} | SPLStats`;
   document.querySelector("#franchiseName").textContent = franchise.franchise_name;
 

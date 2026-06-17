@@ -910,7 +910,7 @@ Player Page, Team Card Stylers
 
 .championship-card {
   position: relative;
-  flex: 0 0 240px;
+  flex: 0 0 225px;
   min-height: 190px;
 
   display: flex;
@@ -920,7 +920,7 @@ Player Page, Team Card Stylers
 
   border: 2px solid #d6a935;
   border-radius: 14px;
-  padding: 18px;
+  padding: 15px 16px;
 
   background:
     radial-gradient(circle at top right, rgba(255, 215, 80, 0.22), transparent 35%),
@@ -1402,6 +1402,24 @@ TEAM PAGE HELPERS
 }
 
 
+/* Team Championship Stylers */
+#teamChampionshipsCard {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+#teamChampionships {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+
 
 
 
@@ -1697,6 +1715,26 @@ Franchise Overall Stats
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
 }
+
+/*
+Franchise Championship Card Styler
+*/
+#franchiseChampionshipsCard {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+#franchiseChampionships {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 
 /*
 Franchise Leader Stylers

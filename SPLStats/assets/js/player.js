@@ -298,7 +298,7 @@ function renderPlayerChampionships(player, championships) {
 
   container.classList.toggle(
     "championship-carousel-centered",
-    playerChamps.length <= 3
+    playerChamps.length <= 4
   );
 
   const counts = getChampionshipCounts(playerChamps);
