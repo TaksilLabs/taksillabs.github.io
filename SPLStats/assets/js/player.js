@@ -26,6 +26,215 @@ const REGION_PATTERNS = {
   ]
 };
 
+function normalizeDivisionName(division) {
+
+  // Last Updated 2026-06-16    //    SPL 22 - Summer 2026
+  const DIVISION_DISPLAY_NAMES = {
+    "B Bowl - Playoffs": "B Bowl Playoffs",
+    "B Bowl Playoffs": "B Bowl Playoffs",
+    "Blade Cup - Playoffs": "Blade Cup Playoffs",
+    "Blade Cup Playoffs": "Blade Cup Playoffs",
+    "Bome Cup - Playoffs": "Bome Cup Playoffs",
+    "CHALLENGER - Promotional Series": "Challenger Promotional Series",
+    "CHALLENGER PLAYOFFS": "Blade Cup Playoffs",
+    "CHALLENGER PROMOTIONAL SERIES": "Challenger Promotional Series",
+    "Central A": "Central A",
+    "Central A - Playoffs": "Gazz Cup Playoffs",
+    "Central B": "Central B",
+    "Central B - East": "Central B",
+    "Central B - East vs North": "Central B",
+    "Central B - East vs South": "Central B",
+    "Central B - East vs West": "Central B",
+    "Central B - Playoffs": "B Bowl Playoffs",
+    "Central B - South": "Central B",
+    "Central B - South vs North": "Central B",
+    "Central B - South vs West": "Central B",
+    "Central B - West": "Central B",
+    "Central B - West vs North": "Central B",
+    "Central C": "Central C",
+    "Central C - Playoffs": "Central C Playoffs",
+    "Central C Playoffs": "Central C Playoffs",
+    "Central D": "Central D",
+    "Central D - Playoffs": "Central D Playoffs",
+    "Challenger Cross-Conf": "Challenger Division",
+    "Challenger Cross-Play": "Challenger Division",
+    "Challenger Division": "Challenger Division",
+    "Challenger Division - M1NNSNOWTA": "Challenger Division",
+    "Challenger Division - Playoffs": "Balde Cup Playoffs",
+    "Challenger Play-In": "Challenger Play-In Tournament",
+    "Challenger Play-in": "Challenger Play-In Tournament",
+    "Challenger Promotional Series": "Challenger Promotional Series",
+    "Cluster Cup - Playoffs": "Cluster Cup Playoffs",
+    "Contenders Circuit": "Contenders Circuit",
+    "Contenders Playoffs": "Bome Cup Playoffs",
+    "Erveon Cup - Playoffs": "Erveon Cup Playoffs",
+    "Erveon Cup Playoffs": "Erveon Cup Playoffs",
+    "Erveon Trophy - Playoffs": "Erveon Cup Playoffs",
+    "Gazz Cup - Playoffs": "Gazz Cup Playoffs",
+    "Gazz Cup Playoffs": "Gazz Cup Playoffs",
+    "Genesis Cup - Playoffs": "Genesis Cup Playoffs",
+    "Genesis Cup Playoffs": "Genesis Cup Playoffs",
+    "IM Cross-Play": "Intermediate Division",
+    "IM Play-in": "Intermediate Play-In Tournament",
+    "IM Play-in Series": "Intermediate Play-In Tournament",
+    "IM Promotional Series": "Intermediate Promotional Series",
+    "INTERMEDIATE - Promotional Series": "Intermediate Promotional Series",
+    "INTERMEDIATE PROMOTIONAL SERIES": "Intermediate Promotional Series",
+    "Intermediate Cross-Play": "Intermediate Division",
+    "Intermediate Cup - Playoffs": "Intermediate Cup Playoffs",
+    "Intermediate Division": "Intermediate Division",
+    "Intermediate Division - Baguette - Intermediate Division - Omelette": "Intermediate Division",
+    "Intermediate Division - Omelette": "Intermediate Division",
+    "Intermediate Division - Omelette - Intermediate Division": "Intermediate Division",
+    "Intermediate Division - Playoffs": "Intermediate Cup Playoffs",
+    "Intermediate Play-In": "Intermediate Play-In Tournament",
+    "Intermediate Playoffs": "Intermediate Cup Playoffs",
+    "Intermediate Promotional Series": "Intermediate Promotional Series",
+    "Intermediate Promotional Tournament": "Intermediate Promotional Series",
+    "Masters Playoffs": "Pacific Cup Playoffs",
+    "Minor League": "Minor League",
+    "OPEN Promotional Series": "Intermediate Promotional Series",
+    "Open Benders - Playoffs": "Genesis Cup Playoffs",
+    "Open Cross Conf": "Open Division",
+    "Open Division": "Open Division",
+    "Open Division - Dusters": "Open Division",
+    "Open Division - Playoffs": "Genesis Cup Playoffs",
+    "Open Division Playoffs": "Genesis Cup Playoffs",
+    "Open Dusters - Playoffs": "Genesis Cup Playoffs",
+    "Other Matches": "Vs Disbanded Teams",
+    "PRO - Promotional Series": "Pro Promotional Series",
+    "PRO DIVISION - PLAYOFFS": "Erveon Cup Playoffs",
+    "PRO DIVISION - Playoffs": "Erveon Cup Playoffs",
+    "PRO DIVISION PLAYOFFS": "Erveon Cup Playoffs",
+    "PRO PROMOTIONAL SERIES": "Pro Promotional Series",
+    "PRO Playoffs": "Erveon Cup Playoffs",
+    "Pacific Cup - Playoffs": "Pacific Cup Playoffs",
+    "Pacific Cup Playoffs": "Pacific Cup Playoffs",
+    "Placement Season Playoffs": "Erveon Cup Playoffs",
+    "Play-ins": "Preseason",
+    "Preseason": "Preseason",
+    "Preseason Playin": "Preseason",
+    "Pro Division": "Pro Division",
+    "Pro Division Playoffs": "Erveon Cup Playoffs",
+    "Pro Play-in": "Pro Play-In Tournament",
+    "Pro Promotional Series": "Pro Promotional Series",
+    "Pro Promotional Tournament": "Pro Promotional Series",
+    "Prospect Cross-Play": "Prospect Division",
+    "Prospect Division": "Prospect Division",
+    "Prospect Division - Beauties": "Prospect Division",
+    "Prospect Division - Playoffs": "Prospect Cup Playoffs",
+    "Prospect Play-in": "Prospect Play-In",
+    "S1 Pro Playoffs": "Erveon Cup Playoffs",
+    "SPL Season 1 Pro Playoffs": "Erveon Cup Playoffs",
+    "Season 1 Intermediate Play-In Tournament": "Intermediate Play-In",
+    "Underdog Cup - Playoffs": "Underdog Cup Playoffs",
+    "Vs Disbanded Teams": "Vs Disbanded Teams",
+    "WEST DIVISION - PLAYOFFS": "Pacific Cup Playoffs",
+    "WEST DIVISION PLAYOFFS": "Pacific Cup Playoffs",
+    "West - Contenders Division": "Contenders Division",
+    "West Division": "West Division",
+    "West Division - Playoffs": "Pacific Cup Playoffs"
+  };
+
+  return DIVISION_DISPLAY_NAMES[division] || division || "Unknown";
+}
+
+function mergePlayerSeasonRows(rows) {
+  const merged = new Map();
+
+  for (const row of rows || []) {
+    const normalizedDivision =
+      normalizeDivisionName(row.division);
+
+    const key = [
+      row.season_id || row.season || "",
+      normalizedDivision,
+      row.team || row.team_name || ""
+    ].join("|");
+
+    if (!merged.has(key)) {
+      merged.set(key, {
+        ...row,
+        division: normalizedDivision,
+        stats: { ...(row.stats || {}) },
+
+        // Optional: preserves the original LR division labels
+        source_divisions: row.division
+          ? [row.division]
+          : []
+      });
+
+      continue;
+    }
+
+    const existing = merged.get(key);
+
+    // Keep track of what got combined.
+    if (
+      row.division &&
+      !existing.source_divisions.includes(row.division)
+    ) {
+      existing.source_divisions.push(row.division);
+    }
+
+    // Add raw stat totals together.
+    for (const [stat, value] of Object.entries(row.stats || {})) {
+      const numberValue = Number(value || 0);
+
+      // Skip derived percentage/rate stats.
+      // We'll recalculate these after merging.
+      if (
+        stat.endsWith("_percent") ||
+        stat === "gaa" ||
+        stat === "save_percent" ||
+        stat === "shot_percent" ||
+        stat === "faceoff_win_percent"
+      ) {
+        continue;
+      }
+
+      existing.stats[stat] =
+        Number(existing.stats[stat] || 0) + numberValue;
+    }
+  }
+
+  // Recalculate derived stats after merging.
+  for (const row of merged.values()) {
+    const stats = row.stats;
+
+    const goals = Number(stats.goals || 0);
+    const assists = Number(stats.assists || 0);
+    const shots = Number(stats.shots || 0);
+    const saves = Number(stats.saves || 0);
+    const shotsAgainst = Number(stats.shots_against || 0);
+    const goalsAgainst = Number(stats.goals_against || 0);
+    const gamesPlayed = Number(stats.games_played || 0);
+    const faceoffsWon = Number(stats.faceoffs_won || 0);
+    const faceoffsLost = Number(stats.faceoffs_lost || 0);
+
+    stats.points = goals + assists;
+
+    stats.shot_percent =
+      shots ? (goals / shots) * 100 : 0;
+
+    stats.save_percent =
+      shotsAgainst ? (saves / shotsAgainst) * 100 : 0;
+
+    stats.gaa =
+      gamesPlayed ? goalsAgainst / gamesPlayed : 0;
+
+    stats.faceoffs_total =
+      faceoffsWon + faceoffsLost;
+
+    stats.faceoff_win_percent =
+      stats.faceoffs_total
+        ? (faceoffsWon / stats.faceoffs_total) * 100
+        : 0;
+  }
+
+  return [...merged.values()];
+}
+
 function divisionBelongsToRegion(division, region) {
   if (!region || region === "all") return true;
 
@@ -238,6 +447,8 @@ function renderTeams(rows) {
 function renderSeasons(rows) {
   const tbody = document.querySelector("#seasonTable tbody");
 
+  rows = mergePlayerSeasonRows(rows);
+
   const SEASON_ORDER = {
     winter: 1,
     spring: 2,
@@ -245,15 +456,74 @@ function renderSeasons(rows) {
     fall: 4
   };
 
+  function divisionDisplaySortValue(division) {
+  const text = String(division || "").toLowerCase();
+
+  if (text.includes("playoffs")) {
+    return 1;
+  }
+
+  if (text.includes("preseason")) {
+    return 3;
+  }
+
+  if (text.includes("vs disbanded teams")) {
+    return 4;
+  }
+
+  return 2;
+}
+
   rows.sort((a, b) => {
-        const [seasonA, yearA] = String(a.season_id || "").toLowerCase().split("_");
-        const [seasonB, yearB] = String(b.season_id || "").toLowerCase().split("_");
+    const [seasonA, yearA] =
+      String(a.season_id || "")
+        .toLowerCase()
+        .split("_");
 
-        const valueA = (Number(yearA) * 10) + (SEASON_ORDER[seasonA] || 0);
-        const valueB = (Number(yearB) * 10) + (SEASON_ORDER[seasonB] || 0);
+    const [seasonB, yearB] =
+      String(b.season_id || "")
+        .toLowerCase()
+        .split("_");
 
-        return valueB - valueA;
-    });
+    const valueA =
+      (Number(yearA) * 10)
+      + (SEASON_ORDER[seasonA] || 0);
+
+    const valueB =
+      (Number(yearB) * 10)
+      + (SEASON_ORDER[seasonB] || 0);
+
+    // 1. Season order, newest first
+    if (valueB !== valueA) {
+      return valueB - valueA;
+    }
+
+    // 2. Team name grouping
+    const teamCompare =
+      String(a.team || "").localeCompare(
+        String(b.team || "")
+      );
+
+    if (teamCompare !== 0) {
+      return teamCompare;
+    }
+
+    // 3. Division type inside team group
+    const divA =
+      divisionDisplaySortValue(a.division);
+
+    const divB =
+      divisionDisplaySortValue(b.division);
+
+    if (divA !== divB) {
+      return divA - divB;
+    }
+
+    // 4. Fallback alphabetical division sort
+    return String(a.division || "").localeCompare(
+      String(b.division || "")
+    );
+  });
 
   tbody.innerHTML = rows.map(row => {
     const s = row.stats || {};
