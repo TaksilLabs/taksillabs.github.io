@@ -1,3 +1,21 @@
+function getPlayerUrlId(player) {
+  return (
+    player.player_id
+    || player.player_name
+    || player.player_display_name
+    || ""
+  );
+}
+
+function getPlayerDisplayName(player) {
+  return (
+    player.player_display_name
+    || player.player_name
+    || player.player_id
+    || "Unknown Player"
+  );
+}
+
 const LEADER_CATEGORIES = [
   ["Goals", "goals"],
   ["Assists", "assists"],
@@ -66,8 +84,8 @@ function renderTeamLeaders(players) {
             <div class="leader-row">
                 <span>
                 ${i + 1}.
-                <a href="player.html?id=${encodeURIComponent(p.player_name.toLowerCase())}">
-                    ${p.player_name}
+                <a href="player.html?id=${encodeURIComponent(getPlayerUrlId(p))}">
+                    ${getPlayerDisplayName(p)}
                 </a>
                 </span>
                 <strong>${formatLeaderValue(p.leaderValue, stat)}</strong>
@@ -556,8 +574,8 @@ function renderRoster(players) {
   tbody.innerHTML = players.map(player => `
     <tr>
       <td>
-        <a href="player.html?id=${encodeURIComponent(player.player_name.toLowerCase())}">
-          ${player.player_name}
+        <a href="player.html?id=${encodeURIComponent(getPlayerUrlId(player))}">
+          ${getPlayerDisplayName(player)}
         </a>
       </td>
       <td>${player.stats.games_played ?? 0}</td>

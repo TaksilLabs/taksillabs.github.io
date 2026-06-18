@@ -6,7 +6,12 @@
     "division": "Open Division",
     "team": "Brooklyn Bandits",
     "team_name": "Brooklyn Bandits",
+    "player_id": "blueraider",
     "player_name": "Blueraider",
+    "player_display_name": "Blueraider",
+    "aliases": [
+      "Blueraider"
+    ],
     "stats": {
       "assists": 11.0,
       "goals": 4.0,
@@ -30,7 +35,12 @@
     "division": "Open Division",
     "team": "Brooklyn Bandits",
     "team_name": "Brooklyn Bandits",
+    "player_id": "derek",
     "player_name": "Derek",
+    "player_display_name": "Derek",
+    "aliases": [
+      "Derek"
+    ],
     "stats": {
       "assists": 13.0,
       "goals": 28.0,
@@ -54,7 +64,12 @@
     "division": "Open Division",
     "team": "Brooklyn Bandits",
     "team_name": "Brooklyn Bandits",
+    "player_id": "donut",
     "player_name": "Donut",
+    "player_display_name": "Donut",
+    "aliases": [
+      "Donut"
+    ],
     "stats": {
       "assists": 21.0,
       "goals": 29.0,
@@ -78,7 +93,12 @@
     "division": "Open Division",
     "team": "Brooklyn Bandits",
     "team_name": "Brooklyn Bandits",
+    "player_id": "duker",
     "player_name": "Duker",
+    "player_display_name": "Duker",
+    "aliases": [
+      "Duker"
+    ],
     "stats": {
       "assists": 12.0,
       "goals": 16.0,
@@ -102,31 +122,12 @@
     "division": "Open Division",
     "team": "Chicago Sail",
     "team_name": "Chicago Sail",
-    "player_name": "b*tt",
-    "stats": {
-      "assists": 4.0,
-      "goals": 4.0,
-      "points": 8.0,
-      "saves": 26.0,
-      "shots": 9.0,
-      "goals_against": 41.0,
-      "shots_against": 86.0,
-      "games_played": 5,
-      "shot_percent": 44.44,
-      "save_percent": 30.23,
-      "gaa": 8.2,
-      "faceoffs_total": 0,
-      "faceoff_win_percent": 0
-    }
-  },
-  {
-    "season": "Fall 2019",
-    "season_id": "fall_2019",
-    "season_type": "regular_season",
-    "division": "Open Division",
-    "team": "Chicago Sail",
-    "team_name": "Chicago Sail",
+    "player_id": "booyah2g1c_c",
     "player_name": "BooYAH2g1c [C]",
+    "player_display_name": "BooYAH2g1c [C]",
+    "aliases": [
+      "BooYAH2g1c [C]"
+    ],
     "stats": {
       "assists": 12.0,
       "goals": 16.0,
@@ -150,7 +151,41 @@
     "division": "Open Division",
     "team": "Chicago Sail",
     "team_name": "Chicago Sail",
+    "player_id": "btt",
+    "player_name": "b*tt",
+    "player_display_name": "b*tt",
+    "aliases": [
+      "b*tt"
+    ],
+    "stats": {
+      "assists": 4.0,
+      "goals": 4.0,
+      "points": 8.0,
+      "saves": 26.0,
+      "shots": 9.0,
+      "goals_against": 41.0,
+      "shots_against": 86.0,
+      "games_played": 5,
+      "shot_percent": 44.44,
+      "save_percent": 30.23,
+      "gaa": 8.2,
+      "faceoffs_total": 0,
+      "faceoff_win_percent": 0
+    }
+  },
+  {
+    "season": "Fall 2019",
+    "season_id": "fall_2019",
+    "season_type": "regular_season",
+    "division": "Open Division",
+    "team": "Chicago Sail",
+    "team_name": "Chicago Sail",
+    "player_id": "emi",
     "player_name": "Emi",
+    "player_display_name": "Emi",
+    "aliases": [
+      "Emi"
+    ],
     "stats": {
       "assists": 17.0,
       "goals": 32.0,
@@ -174,7 +209,12 @@
     "division": "Open Division",
     "team": "Chicago Sail",
     "team_name": "Chicago Sail",
+    "player_id": "vorq",
     "player_name": "vorq",
+    "player_display_name": "vorq",
+    "aliases": [
+      "vorq"
+    ],
     "stats": {
       "assists": 14.0,
       "goals": 37.0,
@@ -198,7 +238,12 @@
     "division": "Open Division",
     "team": "Columbus Clappers",
     "team_name": "Columbus Clappers",
+    "player_id": "criz",
     "player_name": "Criz",
+    "player_display_name": "Criz",
+    "aliases": [
+      "Criz"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 1.0,
@@ -222,7 +267,12 @@
     "division": "Open Division",
     "team": "Columbus Clappers",
     "team_name": "Columbus Clappers",
+    "player_id": "dream",
     "player_name": "Dream",
+    "player_display_name": "Dream",
+    "aliases": [
+      "Dream"
+    ],
     "stats": {
       "assists": 25.0,
       "goals": 40.0,
@@ -246,7 +296,12 @@
     "division": "Open Division",
     "team": "Columbus Clappers",
     "team_name": "Columbus Clappers",
+    "player_id": "meatsale",
     "player_name": "meatsale",
+    "player_display_name": "meatsale",
+    "aliases": [
+      "meatsale"
+    ],
     "stats": {
       "assists": 41.0,
       "goals": 43.0,
@@ -270,7 +325,12 @@
     "division": "Open Division",
     "team": "Columbus Clappers",
     "team_name": "Columbus Clappers",
+    "player_id": "panarin",
     "player_name": "Panarin",
+    "player_display_name": "Panarin",
+    "aliases": [
+      "Panarin"
+    ],
     "stats": {
       "assists": 36.0,
       "goals": 44.0,
@@ -294,7 +354,12 @@
     "division": "Open Division",
     "team": "Denver Omelets",
     "team_name": "Denver Omelets",
+    "player_id": "balucha",
     "player_name": "Balucha",
+    "player_display_name": "Balucha",
+    "aliases": [
+      "Balucha"
+    ],
     "stats": {
       "assists": 17.0,
       "goals": 21.0,
@@ -318,7 +383,12 @@
     "division": "Open Division",
     "team": "Denver Omelets",
     "team_name": "Denver Omelets",
+    "player_id": "johnny",
     "player_name": "Johnny",
+    "player_display_name": "Johnny",
+    "aliases": [
+      "Johnny"
+    ],
     "stats": {
       "assists": 36.0,
       "goals": 48.0,
@@ -342,7 +412,12 @@
     "division": "Open Division",
     "team": "Denver Omelets",
     "team_name": "Denver Omelets",
+    "player_id": "scodz",
     "player_name": "scodz",
+    "player_display_name": "scodz",
+    "aliases": [
+      "scodz"
+    ],
     "stats": {
       "assists": 29.0,
       "goals": 28.0,
@@ -366,7 +441,12 @@
     "division": "Open Division",
     "team": "Denver Omelets",
     "team_name": "Denver Omelets",
+    "player_id": "shiba",
     "player_name": "Shiba",
+    "player_display_name": "Shiba",
+    "aliases": [
+      "Shiba"
+    ],
     "stats": {
       "assists": 32.0,
       "goals": 39.0,
@@ -390,7 +470,12 @@
     "division": "Open Division",
     "team": "Drumbo Cows (old)",
     "team_name": "Drumbo Cows (old)",
+    "player_id": "a_rambome_player",
     "player_name": "A Rambome Player",
+    "player_display_name": "A Rambome Player",
+    "aliases": [
+      "A Rambome Player"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 15.0,
@@ -414,7 +499,12 @@
     "division": "Open Division",
     "team": "Drumbo Cows (old)",
     "team_name": "Drumbo Cows (old)",
+    "player_id": "laf",
     "player_name": "LAF",
+    "player_display_name": "LAF",
+    "aliases": [
+      "LAF"
+    ],
     "stats": {
       "assists": 4.0,
       "goals": 5.0,
@@ -438,7 +528,12 @@
     "division": "Open Division",
     "team": "Drumbo Cows (old)",
     "team_name": "Drumbo Cows (old)",
+    "player_id": "lemonbond",
     "player_name": "LemonBond",
+    "player_display_name": "LemonBond",
+    "aliases": [
+      "LemonBond"
+    ],
     "stats": {
       "assists": 10.0,
       "goals": 17.0,
@@ -462,7 +557,12 @@
     "division": "Open Division",
     "team": "Drumbo Cows (old)",
     "team_name": "Drumbo Cows (old)",
+    "player_id": "milkman",
     "player_name": "Milkman",
+    "player_display_name": "Milkman",
+    "aliases": [
+      "Milkman"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 1.0,
@@ -486,7 +586,12 @@
     "division": "Open Division",
     "team": "Drumbo Cows (old)",
     "team_name": "Drumbo Cows (old)",
+    "player_id": "toker",
     "player_name": "toker",
+    "player_display_name": "toker",
+    "aliases": [
+      "toker"
+    ],
     "stats": {
       "assists": 6.0,
       "goals": 16.0,
@@ -510,7 +615,12 @@
     "division": "Open Division",
     "team": "Honolulu Hootenannys",
     "team_name": "Honolulu Hootenannys",
+    "player_id": "epicman67",
     "player_name": "EpicMan67",
+    "player_display_name": "EpicMan67",
+    "aliases": [
+      "EpicMan67"
+    ],
     "stats": {
       "assists": 23.0,
       "goals": 35.0,
@@ -534,7 +644,12 @@
     "division": "Open Division",
     "team": "Honolulu Hootenannys",
     "team_name": "Honolulu Hootenannys",
+    "player_id": "fatleft",
     "player_name": "FatLeft",
+    "player_display_name": "FatLeft",
+    "aliases": [
+      "FatLeft"
+    ],
     "stats": {
       "assists": 25.0,
       "goals": 25.0,
@@ -558,7 +673,12 @@
     "division": "Open Division",
     "team": "Honolulu Hootenannys",
     "team_name": "Honolulu Hootenannys",
+    "player_id": "jambi",
     "player_name": "Jambi",
+    "player_display_name": "Jambi",
+    "aliases": [
+      "Jambi"
+    ],
     "stats": {
       "assists": 10.0,
       "goals": 17.0,
@@ -582,7 +702,12 @@
     "division": "Open Division",
     "team": "Honolulu Hootenannys",
     "team_name": "Honolulu Hootenannys",
+    "player_id": "theluigi",
     "player_name": "TheLuigi",
+    "player_display_name": "TheLuigi",
+    "aliases": [
+      "TheLuigi"
+    ],
     "stats": {
       "assists": 29.0,
       "goals": 43.0,
@@ -606,7 +731,12 @@
     "division": "Open Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "jakee",
     "player_name": "Jakee",
+    "player_display_name": "Jakee",
+    "aliases": [
+      "Jakee"
+    ],
     "stats": {
       "assists": 5.0,
       "goals": 9.0,
@@ -630,7 +760,12 @@
     "division": "Open Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "monki",
     "player_name": "Monki",
+    "player_display_name": "Monki",
+    "aliases": [
+      "Monki"
+    ],
     "stats": {
       "assists": 13.0,
       "goals": 33.0,
@@ -654,7 +789,12 @@
     "division": "Open Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "timmy",
     "player_name": "Timmy",
+    "player_display_name": "Timmy",
+    "aliases": [
+      "Timmy"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 7.0,
@@ -678,7 +818,12 @@
     "division": "Open Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "wh_lazytrout",
     "player_name": "WH Lazytrout",
+    "player_display_name": "WH Lazytrout",
+    "aliases": [
+      "WH Lazytrout"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 9.0,
@@ -702,7 +847,12 @@
     "division": "Open Division",
     "team": "Jersey Iron Lotus",
     "team_name": "Jersey Iron Lotus",
+    "player_id": "begrip",
     "player_name": "Begrip",
+    "player_display_name": "Begrip",
+    "aliases": [
+      "Begrip"
+    ],
     "stats": {
       "assists": 5.0,
       "goals": 14.0,
@@ -726,7 +876,12 @@
     "division": "Open Division",
     "team": "Jersey Iron Lotus",
     "team_name": "Jersey Iron Lotus",
+    "player_id": "goyeetyourself",
     "player_name": "GoYeetYourself",
+    "player_display_name": "GoYeetYourself",
+    "aliases": [
+      "GoYeetYourself"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 0.0,
@@ -750,7 +905,12 @@
     "division": "Open Division",
     "team": "Jersey Iron Lotus",
     "team_name": "Jersey Iron Lotus",
+    "player_id": "mdub",
     "player_name": "MDub",
+    "player_display_name": "MDub",
+    "aliases": [
+      "MDub"
+    ],
     "stats": {
       "assists": 7.0,
       "goals": 15.0,
@@ -774,7 +934,12 @@
     "division": "Open Division",
     "team": "Jersey Iron Lotus",
     "team_name": "Jersey Iron Lotus",
+    "player_id": "reek",
     "player_name": "Reek",
+    "player_display_name": "Reek",
+    "aliases": [
+      "Reek"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 2.0,
@@ -798,7 +963,12 @@
     "division": "Open Division",
     "team": "Jersey Iron Lotus",
     "team_name": "Jersey Iron Lotus",
+    "player_id": "rick",
     "player_name": "Rick",
+    "player_display_name": "Rick",
+    "aliases": [
+      "Rick"
+    ],
     "stats": {
       "assists": 2.0,
       "goals": 3.0,
@@ -822,7 +992,12 @@
     "division": "Open Division",
     "team": "Jersey Iron Lotus",
     "team_name": "Jersey Iron Lotus",
+    "player_id": "the_ghoul",
     "player_name": "The Ghoul",
+    "player_display_name": "The Ghoul",
+    "aliases": [
+      "The Ghoul"
+    ],
     "stats": {
       "assists": 9.0,
       "goals": 12.0,
@@ -846,7 +1021,12 @@
     "division": "Open Division",
     "team": "Jersey Iron Lotus",
     "team_name": "Jersey Iron Lotus",
+    "player_id": "voidrl",
     "player_name": "VoidRL",
+    "player_display_name": "VoidRL",
+    "aliases": [
+      "VoidRL"
+    ],
     "stats": {
       "assists": 4.0,
       "goals": 0.0,
@@ -870,7 +1050,12 @@
     "division": "Open Division",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "bradyb",
     "player_name": "BradyB",
+    "player_display_name": "BradyB",
+    "aliases": [
+      "BradyB"
+    ],
     "stats": {
       "assists": 7.0,
       "goals": 3.0,
@@ -894,7 +1079,12 @@
     "division": "Open Division",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "dyno_mike",
     "player_name": "Dyno Mike",
+    "player_display_name": "Dyno Mike",
+    "aliases": [
+      "Dyno Mike"
+    ],
     "stats": {
       "assists": 25.0,
       "goals": 54.0,
@@ -918,7 +1108,12 @@
     "division": "Open Division",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "golden_boy_blaise",
     "player_name": "Golden Boy Blaise",
+    "player_display_name": "Golden Boy Blaise",
+    "aliases": [
+      "Golden Boy Blaise"
+    ],
     "stats": {
       "assists": 3.0,
       "goals": 10.0,
@@ -942,7 +1137,12 @@
     "division": "Open Division",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "noob_weapons",
     "player_name": "Noob_Weapons",
+    "player_display_name": "Noob_Weapons",
+    "aliases": [
+      "Noob_Weapons"
+    ],
     "stats": {
       "assists": 29.0,
       "goals": 30.0,
@@ -966,7 +1166,12 @@
     "division": "Open Division",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "panther",
     "player_name": "Panther",
+    "player_display_name": "Panther",
+    "aliases": [
+      "Panther"
+    ],
     "stats": {
       "assists": 26.0,
       "goals": 20.0,
@@ -990,7 +1195,12 @@
     "division": "Open Division",
     "team": "Miami Vice",
     "team_name": "Miami Vice",
+    "player_id": "hellhaunt",
     "player_name": "Hellhaunt",
+    "player_display_name": "Hellhaunt",
+    "aliases": [
+      "Hellhaunt"
+    ],
     "stats": {
       "assists": 17.0,
       "goals": 13.0,
@@ -1014,7 +1224,12 @@
     "division": "Open Division",
     "team": "Miami Vice",
     "team_name": "Miami Vice",
+    "player_id": "rath",
     "player_name": "Rath",
+    "player_display_name": "Rath",
+    "aliases": [
+      "Rath"
+    ],
     "stats": {
       "assists": 27.0,
       "goals": 35.0,
@@ -1038,7 +1253,12 @@
     "division": "Open Division",
     "team": "Miami Vice",
     "team_name": "Miami Vice",
+    "player_id": "seppy",
     "player_name": "Seppy",
+    "player_display_name": "Seppy",
+    "aliases": [
+      "Seppy"
+    ],
     "stats": {
       "assists": 26.0,
       "goals": 47.0,
@@ -1062,7 +1282,12 @@
     "division": "Open Division",
     "team": "Nashville Knights",
     "team_name": "Nashville Knights",
+    "player_id": "galzzy",
     "player_name": "GaLzZy",
+    "player_display_name": "GaLzZy",
+    "aliases": [
+      "GaLzZy"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 14.0,
@@ -1086,7 +1311,12 @@
     "division": "Open Division",
     "team": "Nashville Knights",
     "team_name": "Nashville Knights",
+    "player_id": "gerritt",
     "player_name": "Gerritt",
+    "player_display_name": "Gerritt",
+    "aliases": [
+      "Gerritt"
+    ],
     "stats": {
       "assists": 11.0,
       "goals": 10.0,
@@ -1110,7 +1340,12 @@
     "division": "Open Division",
     "team": "Nashville Knights",
     "team_name": "Nashville Knights",
+    "player_id": "kodiak",
     "player_name": "Kodiak",
+    "player_display_name": "Kodiak",
+    "aliases": [
+      "Kodiak"
+    ],
     "stats": {
       "assists": 19.0,
       "goals": 39.0,
@@ -1134,7 +1369,12 @@
     "division": "Open Division",
     "team": "Nashville Knights",
     "team_name": "Nashville Knights",
+    "player_id": "qdub",
     "player_name": "Qdub",
+    "player_display_name": "Qdub",
+    "aliases": [
+      "Qdub"
+    ],
     "stats": {
       "assists": 23.0,
       "goals": 36.0,
@@ -1158,7 +1398,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "coachy",
     "player_name": "Coachy ^-^",
+    "player_display_name": "Coachy ^-^",
+    "aliases": [
+      "Coachy ^-^"
+    ],
     "stats": {
       "assists": 0.0,
       "goals": 1.0,
@@ -1182,7 +1427,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "green",
     "player_name": "Green",
+    "player_display_name": "Green",
+    "aliases": [
+      "Green"
+    ],
     "stats": {
       "assists": 11.0,
       "goals": 15.0,
@@ -1206,7 +1456,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "groog",
     "player_name": "Groog",
+    "player_display_name": "Groog",
+    "aliases": [
+      "Groog"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 1.0,
@@ -1230,7 +1485,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "jabou",
     "player_name": "Jabou",
+    "player_display_name": "Jabou",
+    "aliases": [
+      "Jabou"
+    ],
     "stats": {
       "assists": 0.0,
       "goals": 2.0,
@@ -1254,7 +1514,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "jakee",
     "player_name": "Jakee",
+    "player_display_name": "Jakee",
+    "aliases": [
+      "Jakee"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 14.0,
@@ -1278,7 +1543,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "northern",
     "player_name": "Northern",
+    "player_display_name": "Northern",
+    "aliases": [
+      "Northern"
+    ],
     "stats": {
       "assists": 0.0,
       "goals": 1.0,
@@ -1302,7 +1572,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "qjared",
     "player_name": "qjared",
+    "player_display_name": "qjared",
+    "aliases": [
+      "qjared"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 5.0,
@@ -1326,7 +1601,12 @@
     "division": "Open Division",
     "team": "Omaha Ogres",
     "team_name": "Omaha Ogres",
+    "player_id": "sapster",
     "player_name": "Sapster",
+    "player_display_name": "Sapster",
+    "aliases": [
+      "Sapster"
+    ],
     "stats": {
       "assists": 7.0,
       "goals": 4.0,
@@ -1350,7 +1630,12 @@
     "division": "Open Division",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "delvige",
     "player_name": "Delvige",
+    "player_display_name": "Delvige",
+    "aliases": [
+      "Delvige"
+    ],
     "stats": {
       "assists": 10.0,
       "goals": 14.0,
@@ -1374,7 +1659,12 @@
     "division": "Open Division",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "jak",
     "player_name": "Jak",
+    "player_display_name": "Jak",
+    "aliases": [
+      "Jak"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 6.0,
@@ -1398,7 +1688,12 @@
     "division": "Open Division",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "occelloth",
     "player_name": "Occelloth",
+    "player_display_name": "Occelloth",
+    "aliases": [
+      "Occelloth"
+    ],
     "stats": {
       "assists": 15.0,
       "goals": 27.0,
@@ -1422,7 +1717,12 @@
     "division": "Open Division",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "renard",
     "player_name": "Renard_",
+    "player_display_name": "Renard_",
+    "aliases": [
+      "Renard_"
+    ],
     "stats": {
       "assists": 18.0,
       "goals": 13.0,
@@ -1446,7 +1746,12 @@
     "division": "Open Division",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "walster",
     "player_name": "Walster",
+    "player_display_name": "Walster",
+    "aliases": [
+      "Walster"
+    ],
     "stats": {
       "assists": 14.0,
       "goals": 42.0,
@@ -1470,7 +1775,12 @@
     "division": "Open Division",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "denn1s",
     "player_name": "DENN1S",
+    "player_display_name": "DENN1S",
+    "aliases": [
+      "DENN1S"
+    ],
     "stats": {
       "assists": 11.0,
       "goals": 15.0,
@@ -1494,7 +1804,12 @@
     "division": "Open Division",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "kspyre",
     "player_name": "Kspyre",
+    "player_display_name": "Kspyre",
+    "aliases": [
+      "Kspyre"
+    ],
     "stats": {
       "assists": 24.0,
       "goals": 38.0,
@@ -1518,7 +1833,12 @@
     "division": "Open Division",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "sooperdooperkyle",
     "player_name": "SooperDooperKyle",
+    "player_display_name": "SooperDooperKyle",
+    "aliases": [
+      "SooperDooperKyle"
+    ],
     "stats": {
       "assists": 28.0,
       "goals": 22.0,
@@ -1542,7 +1862,12 @@
     "division": "Open Division",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "thec0ckywalrus",
     "player_name": "TheC0ckyWalrus",
+    "player_display_name": "TheC0ckyWalrus",
+    "aliases": [
+      "TheC0ckyWalrus"
+    ],
     "stats": {
       "assists": 20.0,
       "goals": 34.0,
@@ -1566,7 +1891,12 @@
     "division": "Open Division",
     "team": "Seattle Kraken",
     "team_name": "Seattle Kraken",
+    "player_id": "get_woke",
     "player_name": "Get Woke",
+    "player_display_name": "Get Woke",
+    "aliases": [
+      "Get Woke"
+    ],
     "stats": {
       "assists": 4.0,
       "goals": 10.0,
@@ -1590,7 +1920,12 @@
     "division": "Open Division",
     "team": "Seattle Kraken",
     "team_name": "Seattle Kraken",
+    "player_id": "jaycer",
     "player_name": "Jaycer",
+    "player_display_name": "Jaycer",
+    "aliases": [
+      "Jaycer"
+    ],
     "stats": {
       "assists": 18.0,
       "goals": 17.0,
@@ -1614,7 +1949,12 @@
     "division": "Open Division",
     "team": "Seattle Kraken",
     "team_name": "Seattle Kraken",
+    "player_id": "sonicshadow555",
     "player_name": "Sonicshadow555",
+    "player_display_name": "Sonicshadow555",
+    "aliases": [
+      "Sonicshadow555"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 24.0,
@@ -1638,7 +1978,12 @@
     "division": "Open Division",
     "team": "Seattle Kraken",
     "team_name": "Seattle Kraken",
+    "player_id": "spleen",
     "player_name": "Spleen",
+    "player_display_name": "Spleen",
+    "aliases": [
+      "Spleen"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 12.0,
@@ -1662,7 +2007,12 @@
     "division": "Open Division",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "cc",
     "player_name": "CC",
+    "player_display_name": "CC",
+    "aliases": [
+      "CC"
+    ],
     "stats": {
       "assists": 3.0,
       "goals": 3.0,
@@ -1686,7 +2036,12 @@
     "division": "Open Division",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "fsi",
     "player_name": "fsi",
+    "player_display_name": "fsi",
+    "aliases": [
+      "fsi"
+    ],
     "stats": {
       "assists": 30.0,
       "goals": 23.0,
@@ -1710,7 +2065,12 @@
     "division": "Open Division",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "jak",
     "player_name": "Jak",
+    "player_display_name": "Jak",
+    "aliases": [
+      "Jak"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 3.0,
@@ -1734,7 +2094,12 @@
     "division": "Open Division",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "reno",
     "player_name": "Reno",
+    "player_display_name": "Reno",
+    "aliases": [
+      "Reno"
+    ],
     "stats": {
       "assists": 31.0,
       "goals": 13.0,
@@ -1758,7 +2123,12 @@
     "division": "Open Division",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "rodeo",
     "player_name": "Rodeo",
+    "player_display_name": "Rodeo",
+    "aliases": [
+      "Rodeo"
+    ],
     "stats": {
       "assists": 21.0,
       "goals": 66.0,
@@ -1782,7 +2152,12 @@
     "division": "Placement Season Playoffs",
     "team": "Columbus Clappers",
     "team_name": "Columbus Clappers",
+    "player_id": "dream",
     "player_name": "Dream",
+    "player_display_name": "Dream",
+    "aliases": [
+      "Dream"
+    ],
     "stats": {
       "assists": 6.0,
       "goals": 22.0,
@@ -1806,7 +2181,12 @@
     "division": "Placement Season Playoffs",
     "team": "Columbus Clappers",
     "team_name": "Columbus Clappers",
+    "player_id": "meatsale",
     "player_name": "meatsale",
+    "player_display_name": "meatsale",
+    "aliases": [
+      "meatsale"
+    ],
     "stats": {
       "assists": 15.0,
       "goals": 19.0,
@@ -1830,7 +2210,12 @@
     "division": "Placement Season Playoffs",
     "team": "Columbus Clappers",
     "team_name": "Columbus Clappers",
+    "player_id": "panarin",
     "player_name": "Panarin",
+    "player_display_name": "Panarin",
+    "aliases": [
+      "Panarin"
+    ],
     "stats": {
       "assists": 22.0,
       "goals": 10.0,
@@ -1854,7 +2239,12 @@
     "division": "Placement Season Playoffs",
     "team": "Denver Omelets",
     "team_name": "Denver Omelets",
+    "player_id": "balucha",
     "player_name": "Balucha",
+    "player_display_name": "Balucha",
+    "aliases": [
+      "Balucha"
+    ],
     "stats": {
       "assists": 4.0,
       "goals": 5.0,
@@ -1878,7 +2268,12 @@
     "division": "Placement Season Playoffs",
     "team": "Denver Omelets",
     "team_name": "Denver Omelets",
+    "player_id": "johnny",
     "player_name": "Johnny",
+    "player_display_name": "Johnny",
+    "aliases": [
+      "Johnny"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 9.0,
@@ -1902,7 +2297,12 @@
     "division": "Placement Season Playoffs",
     "team": "Denver Omelets",
     "team_name": "Denver Omelets",
+    "player_id": "scodz",
     "player_name": "scodz",
+    "player_display_name": "scodz",
+    "aliases": [
+      "scodz"
+    ],
     "stats": {
       "assists": 5.0,
       "goals": 3.0,
@@ -1926,7 +2326,12 @@
     "division": "Placement Season Playoffs",
     "team": "Honolulu Hootenannys",
     "team_name": "Honolulu Hootenannys",
+    "player_id": "epicman67",
     "player_name": "EpicMan67",
+    "player_display_name": "EpicMan67",
+    "aliases": [
+      "EpicMan67"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 0.0,
@@ -1950,7 +2355,12 @@
     "division": "Placement Season Playoffs",
     "team": "Honolulu Hootenannys",
     "team_name": "Honolulu Hootenannys",
+    "player_id": "fatleft",
     "player_name": "FatLeft",
+    "player_display_name": "FatLeft",
+    "aliases": [
+      "FatLeft"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 1.0,
@@ -1974,7 +2384,12 @@
     "division": "Placement Season Playoffs",
     "team": "Honolulu Hootenannys",
     "team_name": "Honolulu Hootenannys",
+    "player_id": "theluigi",
     "player_name": "TheLuigi",
+    "player_display_name": "TheLuigi",
+    "aliases": [
+      "TheLuigi"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 3.0,
@@ -1998,7 +2413,12 @@
     "division": "Placement Season Playoffs",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "dyno_mike",
     "player_name": "Dyno Mike",
+    "player_display_name": "Dyno Mike",
+    "aliases": [
+      "Dyno Mike"
+    ],
     "stats": {
       "assists": 6.0,
       "goals": 17.0,
@@ -2022,7 +2442,12 @@
     "division": "Placement Season Playoffs",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "noob_weapons",
     "player_name": "Noob_Weapons",
+    "player_display_name": "Noob_Weapons",
+    "aliases": [
+      "Noob_Weapons"
+    ],
     "stats": {
       "assists": 10.0,
       "goals": 10.0,
@@ -2046,7 +2471,12 @@
     "division": "Placement Season Playoffs",
     "team": "Long Island Fishermen",
     "team_name": "Long Island Fishermen",
+    "player_id": "panther",
     "player_name": "Panther",
+    "player_display_name": "Panther",
+    "aliases": [
+      "Panther"
+    ],
     "stats": {
       "assists": 11.0,
       "goals": 11.0,
@@ -2070,7 +2500,12 @@
     "division": "Placement Season Playoffs",
     "team": "Miami Vice",
     "team_name": "Miami Vice",
+    "player_id": "hellhaunt",
     "player_name": "Hellhaunt",
+    "player_display_name": "Hellhaunt",
+    "aliases": [
+      "Hellhaunt"
+    ],
     "stats": {
       "assists": 0.0,
       "goals": 0.0,
@@ -2094,7 +2529,12 @@
     "division": "Placement Season Playoffs",
     "team": "Miami Vice",
     "team_name": "Miami Vice",
+    "player_id": "rath",
     "player_name": "Rath",
+    "player_display_name": "Rath",
+    "aliases": [
+      "Rath"
+    ],
     "stats": {
       "assists": 2.0,
       "goals": 2.0,
@@ -2118,7 +2558,12 @@
     "division": "Placement Season Playoffs",
     "team": "Miami Vice",
     "team_name": "Miami Vice",
+    "player_id": "seppy",
     "player_name": "Seppy",
+    "player_display_name": "Seppy",
+    "aliases": [
+      "Seppy"
+    ],
     "stats": {
       "assists": 0.0,
       "goals": 3.0,
@@ -2142,7 +2587,12 @@
     "division": "Placement Season Playoffs",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "delvige",
     "player_name": "Delvige",
+    "player_display_name": "Delvige",
+    "aliases": [
+      "Delvige"
+    ],
     "stats": {
       "assists": 0.0,
       "goals": 0.0,
@@ -2166,7 +2616,12 @@
     "division": "Placement Season Playoffs",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "occelloth",
     "player_name": "Occelloth",
+    "player_display_name": "Occelloth",
+    "aliases": [
+      "Occelloth"
+    ],
     "stats": {
       "assists": 2.0,
       "goals": 2.0,
@@ -2190,7 +2645,12 @@
     "division": "Placement Season Playoffs",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "renard",
     "player_name": "Renard_",
+    "player_display_name": "Renard_",
+    "aliases": [
+      "Renard_"
+    ],
     "stats": {
       "assists": 1.0,
       "goals": 0.0,
@@ -2214,7 +2674,12 @@
     "division": "Placement Season Playoffs",
     "team": "Ontario Outliers",
     "team_name": "Ontario Outliers",
+    "player_id": "walster",
     "player_name": "Walster",
+    "player_display_name": "Walster",
+    "aliases": [
+      "Walster"
+    ],
     "stats": {
       "assists": 0.0,
       "goals": 5.0,
@@ -2238,7 +2703,12 @@
     "division": "Placement Season Playoffs",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "denn1s",
     "player_name": "DENN1S",
+    "player_display_name": "DENN1S",
+    "aliases": [
+      "DENN1S"
+    ],
     "stats": {
       "assists": 3.0,
       "goals": 8.0,
@@ -2262,7 +2732,12 @@
     "division": "Placement Season Playoffs",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "kspyre",
     "player_name": "Kspyre",
+    "player_display_name": "Kspyre",
+    "aliases": [
+      "Kspyre"
+    ],
     "stats": {
       "assists": 8.0,
       "goals": 13.0,
@@ -2286,7 +2761,12 @@
     "division": "Placement Season Playoffs",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "sooperdooperkyle",
     "player_name": "SooperDooperKyle",
+    "player_display_name": "SooperDooperKyle",
+    "aliases": [
+      "SooperDooperKyle"
+    ],
     "stats": {
       "assists": 9.0,
       "goals": 3.0,
@@ -2310,7 +2790,12 @@
     "division": "Placement Season Playoffs",
     "team": "Richmond Rats",
     "team_name": "Richmond Rats",
+    "player_id": "thec0ckywalrus",
     "player_name": "TheC0ckyWalrus",
+    "player_display_name": "TheC0ckyWalrus",
+    "aliases": [
+      "TheC0ckyWalrus"
+    ],
     "stats": {
       "assists": 4.0,
       "goals": 7.0,
@@ -2334,7 +2819,12 @@
     "division": "Placement Season Playoffs",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "fsi",
     "player_name": "fsi",
+    "player_display_name": "fsi",
+    "aliases": [
+      "fsi"
+    ],
     "stats": {
       "assists": 7.0,
       "goals": 8.0,
@@ -2358,7 +2848,12 @@
     "division": "Placement Season Playoffs",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "reno",
     "player_name": "Reno",
+    "player_display_name": "Reno",
+    "aliases": [
+      "Reno"
+    ],
     "stats": {
       "assists": 9.0,
       "goals": 4.0,
@@ -2382,7 +2877,12 @@
     "division": "Placement Season Playoffs",
     "team": "St. Louis Storm",
     "team_name": "St. Louis Storm",
+    "player_id": "rodeo",
     "player_name": "Rodeo",
+    "player_display_name": "Rodeo",
+    "aliases": [
+      "Rodeo"
+    ],
     "stats": {
       "assists": 6.0,
       "goals": 14.0,

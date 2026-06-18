@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 from collections import defaultdict
 
@@ -11,20 +12,60 @@ def load_json(path):
         return json.load(f)
 
 
+def make_fallback_player_id(name):
+    text = str(name or "").strip().lower()
+
+    text = re.sub(r"[^a-z0-9_\-\s]", "", text)
+    text = re.sub(r"[\s\-]+", "_", text)
+    text = re.sub(r"_+", "_", text)
+
+    return text.strip("_") or "unknown_player"
+
+
+def get_row_player_id(row):
+    return (
+        row.get("player_id")
+        or make_fallback_player_id(row.get("player_name", ""))
+    )
+
+
+def get_row_display_name(row):
+    return (
+        row.get("player_display_name")
+        or row.get("player_name")
+        or row.get("player_id")
+        or "Unknown Player"
+    )
+
+
 def main():
     players = {}
 
-    for season_file in SEASONS_DIR.glob("*.json"):
+    season_files = sorted(SEASONS_DIR.glob("*.json"))
+
+    for season_file in season_files:
         season_rows = load_json(season_file)
 
         for row in season_rows:
-            name = row["player_name"].strip()
-            key = name.lower()
+            player_id = get_row_player_id(row)
+            display_name = get_row_display_name(row)
+
+            if not player_id:
+                continue
+
+            key = player_id.lower()
 
             if key not in players:
                 players[key] = {
-                    "player_name": name,
-                    "aliases": [name],
+                    "player_id": player_id,
+
+                    # Keep player_name for compatibility with existing frontend code.
+                    "player_name": display_name,
+
+                    # Preferred display field going forward.
+                    "player_display_name": display_name,
+
+                    "aliases": [],
                     "seasons_played": [],
                     "divisions_played": [],
                     "teams_played_for": [],
@@ -34,8 +75,19 @@ def main():
 
             player = players[key]
 
-            if name not in player["aliases"]:
-                player["aliases"].append(name)
+            # Prefer the latest display name from the season row/alias system.
+            player["player_name"] = display_name
+            player["player_display_name"] = display_name
+
+            aliases = row.get("aliases", [])
+
+            if isinstance(aliases, list):
+                for alias in aliases:
+                    if alias and alias not in player["aliases"]:
+                        player["aliases"].append(alias)
+
+            if display_name and display_name not in player["aliases"]:
+                player["aliases"].append(display_name)
 
             if row["season"] not in player["seasons_played"]:
                 player["seasons_played"].append(row["season"])
@@ -43,15 +95,21 @@ def main():
             if row["division"] not in player["divisions_played"]:
                 player["divisions_played"].append(row["division"])
 
-            team = row.get("team") or row.get("team_name") or row.get("team_abbr") or "Unknown"
+            team = (
+                row.get("team")
+                or row.get("team_name")
+                or row.get("team_abbr")
+                or "Unknown"
+            )
 
             if team not in player["teams_played_for"]:
                 player["teams_played_for"].append(team)
 
             for stat, value in row["stats"].items():
-                # We'll recalculate percentage stats later.
+                # We'll recalculate percentage/rate stats later.
                 if stat.endswith("_percent") or stat in ["gaa"]:
                     continue
+
                 player["career"][stat] += float(value or 0)
 
             player["by_season"].append(row)
@@ -73,10 +131,27 @@ def main():
         games_played = career.get("games_played", 0)
 
         career["points"] = goals + assists
-        career["shot_percent"] = (goals / shots * 100) if shots else 0
-        career["save_percent"] = (saves / shots_against * 100) if shots_against else 0
-        career["gaa"] = (goals_against / games_played) if games_played else 0
+
+        career["shot_percent"] = (
+            goals / shots * 100
+            if shots
+            else 0
+        )
+
+        career["save_percent"] = (
+            saves / shots_against * 100
+            if shots_against
+            else 0
+        )
+
+        career["gaa"] = (
+            goals_against / games_played
+            if games_played
+            else 0
+        )
+
         career["faceoffs_total"] = faceoffs_won + faceoffs_lost
+
         career["faceoff_win_percent"] = (
             faceoffs_won / career["faceoffs_total"] * 100
             if career["faceoffs_total"]
@@ -84,21 +159,39 @@ def main():
         )
 
         output.append({
-            "player_name": player["player_name"],
-            "aliases": sorted(player["aliases"]),
+            "player_id": player["player_id"],
+
+            # Compatibility
+            "player_name": player["player_display_name"],
+
+            # Preferred display field
+            "player_display_name": player["player_display_name"],
+
+            "aliases": sorted(set(player["aliases"])),
             "seasons_played": sorted(player["seasons_played"]),
             "divisions_played": sorted(player["divisions_played"]),
             "teams_played_for": sorted(player["teams_played_for"]),
-            "career": {k: round(v, 2) for k, v in career.items()},
+            "career": {
+                k: round(v, 2)
+                for k, v in career.items()
+            },
             "by_season": player["by_season"]
         })
 
-    output.sort(key=lambda p: p["career"].get("points", 0), reverse=True)
+    output.sort(
+        key=lambda p: p["career"].get("points", 0),
+        reverse=True
+    )
 
     with OUT_FILE.open("w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(
+            output,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
 
-    print(f"Season files read: {len(list(SEASONS_DIR.glob('*.json')))}")
+    print(f"Season files read: {len(season_files)}")
     print(f"Players written: {len(output)}")
     print(f"Wrote: {OUT_FILE.resolve()}")
 

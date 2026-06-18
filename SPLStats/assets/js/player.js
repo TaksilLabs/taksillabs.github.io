@@ -1,3 +1,21 @@
+function normalizeId(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase();
+}
+
+function playerMatchesUrlId(player, urlId) {
+  const target = normalizeId(urlId);
+
+  if (normalizeId(player.player_id) === target) return true;
+  if (normalizeId(player.player_name) === target) return true;
+  if (normalizeId(player.player_display_name) === target) return true;
+
+  return (player.aliases || []).some(alias =>
+    normalizeId(alias) === target
+  );
+}
+
 async function fetchJsonOrFallback(url, fallback) {
   try {
     const response = await fetch(url);
@@ -223,8 +241,14 @@ function renderCareerPercentile(player, allPlayers) {
 }
 
 function renderPlayer(player, championships = [], allPlayers = []) {
-  document.title = `${player.player_name} | SPLStats`;
-  document.querySelector("#playerName").textContent = player.player_name;
+  const displayName =
+    player.player_display_name
+    || player.player_name
+    || player.player_id
+    || "Unknown Player";
+
+  document.title = `${displayName} | SPLStats`;
+  document.querySelector("#playerName").textContent = displayName;
 
   renderPlayerChampionships(player, championships);
 

@@ -6,7 +6,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "flake",
     "player_name": "Flake",
+    "player_display_name": "Flake",
+    "aliases": [
+      "Flake"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -40,7 +45,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "greyghost",
     "player_name": "Greyghost",
+    "player_display_name": "Greyghost",
+    "aliases": [
+      "Greyghost"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 1.0,
@@ -74,7 +84,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "lessthandennis",
     "player_name": "LessThanDennis",
+    "player_display_name": "LessThanDennis",
+    "aliases": [
+      "LessThanDennis"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -108,7 +123,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "papa_shieldz",
     "player_name": "Papa Shieldz",
+    "player_display_name": "Papa Shieldz",
+    "aliases": [
+      "Papa Shieldz"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -142,7 +162,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "pip_starlather",
     "player_name": "Pip Starlather",
+    "player_display_name": "Pip Starlather",
+    "aliases": [
+      "Pip Starlather"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 0.0,
@@ -176,7 +201,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "cherries",
     "player_name": "Cherries",
+    "player_display_name": "Cherries",
+    "aliases": [
+      "Cherries"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 0.0,
@@ -210,7 +240,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "hzr",
     "player_name": "hzr",
+    "player_display_name": "hzr",
+    "aliases": [
+      "hzr"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 0.0,
@@ -244,7 +279,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "thugger",
     "player_name": "Thugger",
+    "player_display_name": "Thugger",
+    "aliases": [
+      "Thugger"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 7.0,
@@ -278,7 +318,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Philadelphia Phantasy",
     "team_name": "Philadelphia Phantasy",
+    "player_id": "gr8e",
     "player_name": "gr8e",
+    "player_display_name": "gr8e",
+    "aliases": [
+      "gr8e"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 4.0,
@@ -312,7 +357,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Philadelphia Phantasy",
     "team_name": "Philadelphia Phantasy",
+    "player_id": "ragu",
     "player_name": "ragu",
+    "player_display_name": "ragu",
+    "aliases": [
+      "ragu"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 1.0,
@@ -346,7 +396,12 @@
     "division": "CHALLENGER PROMOTIONAL SERIES",
     "team": "Philadelphia Phantasy",
     "team_name": "Philadelphia Phantasy",
+    "player_id": "zyn",
     "player_name": "ZYN",
+    "player_display_name": "ZYN",
+    "aliases": [
+      "ZYN"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 3.0,
@@ -380,7 +435,12 @@
     "division": "Challenger Division",
     "team": "Cedar Rapids Cottonmouths",
     "team_name": "Cedar Rapids Cottonmouths",
+    "player_id": "buf",
     "player_name": "Buf",
+    "player_display_name": "Buf",
+    "aliases": [
+      "Buf"
+    ],
     "stats": {
       "assists": 29.0,
       "blocks": 26.0,
@@ -414,7 +474,12 @@
     "division": "Challenger Division",
     "team": "Cedar Rapids Cottonmouths",
     "team_name": "Cedar Rapids Cottonmouths",
+    "player_id": "goldenknight",
     "player_name": "GoldenKnight",
+    "player_display_name": "GoldenKnight",
+    "aliases": [
+      "GoldenKnight"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 1.0,
@@ -448,7 +513,12 @@
     "division": "Challenger Division",
     "team": "Cedar Rapids Cottonmouths",
     "team_name": "Cedar Rapids Cottonmouths",
+    "player_id": "mvm13",
     "player_name": "MVM13",
+    "player_display_name": "MVM13",
+    "aliases": [
+      "MVM13"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 6.0,
@@ -482,7 +552,12 @@
     "division": "Challenger Division",
     "team": "Cedar Rapids Cottonmouths",
     "team_name": "Cedar Rapids Cottonmouths",
+    "player_id": "soullxss",
     "player_name": "SoulLxss",
+    "player_display_name": "SoulLxss",
+    "aliases": [
+      "SoulLxss"
+    ],
     "stats": {
       "assists": 24.0,
       "blocks": 7.0,
@@ -516,7 +591,12 @@
     "division": "Challenger Division",
     "team": "Edmonton Beauties",
     "team_name": "Edmonton Beauties",
+    "player_id": "clifford",
     "player_name": "Clifford",
+    "player_display_name": "Clifford",
+    "aliases": [
+      "Clifford"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 16.0,
@@ -550,7 +630,12 @@
     "division": "Challenger Division",
     "team": "Edmonton Beauties",
     "team_name": "Edmonton Beauties",
+    "player_id": "fueeqo",
     "player_name": "fueeqo",
+    "player_display_name": "fueeqo",
+    "aliases": [
+      "fueeqo"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 13.0,
@@ -584,7 +669,12 @@
     "division": "Challenger Division",
     "team": "Edmonton Beauties",
     "team_name": "Edmonton Beauties",
+    "player_id": "rabbi_mekhail",
     "player_name": "Rabbi Mekhail",
+    "player_display_name": "Rabbi Mekhail",
+    "aliases": [
+      "Rabbi Mekhail"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 14.0,
@@ -618,7 +708,12 @@
     "division": "Challenger Division",
     "team": "Hot Springs Hot Tamales",
     "team_name": "Hot Springs Hot Tamales",
+    "player_id": "agent_p",
     "player_name": "Agent P",
+    "player_display_name": "Agent P",
+    "aliases": [
+      "Agent P"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -652,7 +747,12 @@
     "division": "Challenger Division",
     "team": "Hot Springs Hot Tamales",
     "team_name": "Hot Springs Hot Tamales",
+    "player_id": "dizruption",
     "player_name": "Dizruption",
+    "player_display_name": "Dizruption",
+    "aliases": [
+      "Dizruption"
+    ],
     "stats": {
       "assists": 26.0,
       "blocks": 11.0,
@@ -686,7 +786,12 @@
     "division": "Challenger Division",
     "team": "Hot Springs Hot Tamales",
     "team_name": "Hot Springs Hot Tamales",
+    "player_id": "gubby",
     "player_name": "Gubby",
+    "player_display_name": "Gubby",
+    "aliases": [
+      "Gubby"
+    ],
     "stats": {
       "assists": 35.0,
       "blocks": 15.0,
@@ -720,7 +825,12 @@
     "division": "Challenger Division",
     "team": "Hot Springs Hot Tamales",
     "team_name": "Hot Springs Hot Tamales",
+    "player_id": "pino",
     "player_name": "Pino",
+    "player_display_name": "Pino",
+    "aliases": [
+      "Pino"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 2.0,
@@ -754,7 +864,12 @@
     "division": "Challenger Division",
     "team": "Hot Springs Hot Tamales",
     "team_name": "Hot Springs Hot Tamales",
+    "player_id": "zartholomew",
     "player_name": "Zartholomew",
+    "player_display_name": "Zartholomew",
+    "aliases": [
+      "Zartholomew"
+    ],
     "stats": {
       "assists": 20.0,
       "blocks": 9.0,
@@ -788,7 +903,12 @@
     "division": "Challenger Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "blades",
     "player_name": "Blades",
+    "player_display_name": "Blades",
+    "aliases": [
+      "Blades"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 8.0,
@@ -822,7 +942,12 @@
     "division": "Challenger Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "bolty",
     "player_name": "Bolty",
+    "player_display_name": "Bolty",
+    "aliases": [
+      "Bolty"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 2.0,
@@ -856,7 +981,12 @@
     "division": "Challenger Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "bray",
     "player_name": "Bray",
+    "player_display_name": "Bray",
+    "aliases": [
+      "Bray"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 3.0,
@@ -890,7 +1020,12 @@
     "division": "Challenger Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "dave",
     "player_name": "dave",
+    "player_display_name": "dave",
+    "aliases": [
+      "dave"
+    ],
     "stats": {
       "assists": 19.0,
       "blocks": 3.0,
@@ -924,7 +1059,12 @@
     "division": "Challenger Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "jak",
     "player_name": "Jak",
+    "player_display_name": "Jak",
+    "aliases": [
+      "Jak"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 10.0,
@@ -958,7 +1098,12 @@
     "division": "Challenger Division",
     "team": "Ireland Pepe Tactics",
     "team_name": "Ireland Pepe Tactics",
+    "player_id": "qslvr",
     "player_name": "qslvr",
+    "player_display_name": "qslvr",
+    "aliases": [
+      "qslvr"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -992,7 +1137,12 @@
     "division": "Challenger Division",
     "team": "Maryland Ice Orcas",
     "team_name": "Maryland Ice Orcas",
+    "player_id": "cameron",
     "player_name": "Cameron",
+    "player_display_name": "Cameron",
+    "aliases": [
+      "Cameron"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 3.0,
@@ -1026,7 +1176,12 @@
     "division": "Challenger Division",
     "team": "Maryland Ice Orcas",
     "team_name": "Maryland Ice Orcas",
+    "player_id": "cape",
     "player_name": "Cape",
+    "player_display_name": "Cape",
+    "aliases": [
+      "Cape"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 7.0,
@@ -1060,7 +1215,12 @@
     "division": "Challenger Division",
     "team": "Maryland Ice Orcas",
     "team_name": "Maryland Ice Orcas",
+    "player_id": "eyes",
     "player_name": "Eyes",
+    "player_display_name": "Eyes",
+    "aliases": [
+      "Eyes"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 3.0,
@@ -1094,7 +1254,12 @@
     "division": "Challenger Division",
     "team": "Maryland Ice Orcas",
     "team_name": "Maryland Ice Orcas",
+    "player_id": "skiztastic",
     "player_name": "Skiztastic",
+    "player_display_name": "Skiztastic",
+    "aliases": [
+      "Skiztastic"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 3.0,
@@ -1128,7 +1293,12 @@
     "division": "Challenger Division",
     "team": "Ocean City Krakens",
     "team_name": "Ocean City Krakens",
+    "player_id": "ajmanboy",
     "player_name": "AJmanboy",
+    "player_display_name": "AJmanboy",
+    "aliases": [
+      "AJmanboy"
+    ],
     "stats": {
       "assists": 40.0,
       "blocks": 24.0,
@@ -1162,7 +1332,12 @@
     "division": "Challenger Division",
     "team": "Ocean City Krakens",
     "team_name": "Ocean City Krakens",
+    "player_id": "bangaled",
     "player_name": "Bangaled",
+    "player_display_name": "Bangaled",
+    "aliases": [
+      "Bangaled"
+    ],
     "stats": {
       "assists": 20.0,
       "blocks": 2.0,
@@ -1196,7 +1371,12 @@
     "division": "Challenger Division",
     "team": "Ocean City Krakens",
     "team_name": "Ocean City Krakens",
+    "player_id": "con",
     "player_name": "cON",
+    "player_display_name": "cON",
+    "aliases": [
+      "cON"
+    ],
     "stats": {
       "assists": 34.0,
       "blocks": 12.0,
@@ -1230,7 +1410,12 @@
     "division": "Challenger Division",
     "team": "Orlando Otters",
     "team_name": "Orlando Otters",
+    "player_id": "chaser",
     "player_name": "Chaser",
+    "player_display_name": "Chaser",
+    "aliases": [
+      "Chaser"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 2.0,
@@ -1264,7 +1449,12 @@
     "division": "Challenger Division",
     "team": "Orlando Otters",
     "team_name": "Orlando Otters",
+    "player_id": "crusade",
     "player_name": "Crusade",
+    "player_display_name": "Crusade",
+    "aliases": [
+      "Crusade"
+    ],
     "stats": {
       "assists": 29.0,
       "blocks": 12.0,
@@ -1298,7 +1488,12 @@
     "division": "Challenger Division",
     "team": "Orlando Otters",
     "team_name": "Orlando Otters",
+    "player_id": "green",
     "player_name": "Green",
+    "player_display_name": "Green",
+    "aliases": [
+      "Green"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -1332,7 +1527,12 @@
     "division": "Challenger Division",
     "team": "Orlando Otters",
     "team_name": "Orlando Otters",
+    "player_id": "jagr",
     "player_name": "Jagr",
+    "player_display_name": "Jagr",
+    "aliases": [
+      "Jagr"
+    ],
     "stats": {
       "assists": 29.0,
       "blocks": 11.0,
@@ -1366,7 +1566,12 @@
     "division": "Challenger Division",
     "team": "Orlando Otters",
     "team_name": "Orlando Otters",
+    "player_id": "rokybo",
     "player_name": "Rokybo",
+    "player_display_name": "Rokybo",
+    "aliases": [
+      "Rokybo"
+    ],
     "stats": {
       "assists": 20.0,
       "blocks": 7.0,
@@ -1400,7 +1605,12 @@
     "division": "Challenger Division",
     "team": "Philadelphia Phantasy",
     "team_name": "Philadelphia Phantasy",
+    "player_id": "gr8e",
     "player_name": "gr8e",
+    "player_display_name": "gr8e",
+    "aliases": [
+      "gr8e"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 15.0,
@@ -1434,7 +1644,12 @@
     "division": "Challenger Division",
     "team": "Philadelphia Phantasy",
     "team_name": "Philadelphia Phantasy",
+    "player_id": "ragu",
     "player_name": "ragu",
+    "player_display_name": "ragu",
+    "aliases": [
+      "ragu"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 1.0,
@@ -1468,7 +1683,12 @@
     "division": "Challenger Division",
     "team": "Philadelphia Phantasy",
     "team_name": "Philadelphia Phantasy",
+    "player_id": "wizrud",
     "player_name": "wizrud",
+    "player_display_name": "wizrud",
+    "aliases": [
+      "wizrud"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -1502,7 +1722,12 @@
     "division": "Challenger Division",
     "team": "Philadelphia Phantasy",
     "team_name": "Philadelphia Phantasy",
+    "player_id": "zyn",
     "player_name": "ZYN",
+    "player_display_name": "ZYN",
+    "aliases": [
+      "ZYN"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 10.0,
@@ -1536,7 +1761,12 @@
     "division": "Challenger Division",
     "team": "Syracuse Scorpions",
     "team_name": "Syracuse Scorpions",
+    "player_id": "borat",
     "player_name": "Borat",
+    "player_display_name": "Borat",
+    "aliases": [
+      "Borat"
+    ],
     "stats": {
       "assists": 30.0,
       "blocks": 10.0,
@@ -1570,7 +1800,12 @@
     "division": "Challenger Division",
     "team": "Syracuse Scorpions",
     "team_name": "Syracuse Scorpions",
+    "player_id": "cman",
     "player_name": "Cman",
+    "player_display_name": "Cman",
+    "aliases": [
+      "Cman"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 4.0,
@@ -1604,7 +1839,12 @@
     "division": "Challenger Division",
     "team": "Syracuse Scorpions",
     "team_name": "Syracuse Scorpions",
+    "player_id": "echo",
     "player_name": "Echo",
+    "player_display_name": "Echo",
+    "aliases": [
+      "Echo"
+    ],
     "stats": {
       "assists": 17.0,
       "blocks": 4.0,
@@ -1638,7 +1878,12 @@
     "division": "Challenger Division",
     "team": "Syracuse Scorpions",
     "team_name": "Syracuse Scorpions",
+    "player_id": "hex",
     "player_name": "hex",
+    "player_display_name": "hex",
+    "aliases": [
+      "hex"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 4.0,
@@ -1672,7 +1917,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "badger",
     "player_name": "badger",
+    "player_display_name": "badger",
+    "aliases": [
+      "badger"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 1.0,
@@ -1706,7 +1956,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "faustino",
     "player_name": "Faustino",
+    "player_display_name": "Faustino",
+    "aliases": [
+      "Faustino"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -1740,7 +1995,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "mijax",
     "player_name": "mijax",
+    "player_display_name": "mijax",
+    "aliases": [
+      "mijax"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 3.0,
@@ -1774,7 +2034,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "datboiiwadup",
     "player_name": "DatBoiiWadup",
+    "player_display_name": "DatBoiiWadup",
+    "aliases": [
+      "DatBoiiWadup"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -1808,7 +2073,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "kman",
     "player_name": "kman",
+    "player_display_name": "kman",
+    "aliases": [
+      "kman"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 4.0,
@@ -1842,7 +2112,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "patmister",
     "player_name": "Patmister",
+    "player_display_name": "Patmister",
+    "aliases": [
+      "Patmister"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -1876,7 +2151,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "rat",
     "player_name": "Rat",
+    "player_display_name": "Rat",
+    "aliases": [
+      "Rat"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 0.0,
@@ -1910,7 +2190,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "wade",
     "player_name": "Wade",
+    "player_display_name": "Wade",
+    "aliases": [
+      "Wade"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -1944,7 +2229,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "bill_mcreary",
     "player_name": "Bill Mcreary",
+    "player_display_name": "Bill Mcreary",
+    "aliases": [
+      "Bill Mcreary"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 1.0,
@@ -1978,7 +2268,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "lit",
     "player_name": "LIT",
+    "player_display_name": "LIT",
+    "aliases": [
+      "LIT"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -2012,7 +2307,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "liv",
     "player_name": "LIV",
+    "player_display_name": "LIV",
+    "aliases": [
+      "LIV"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -2046,7 +2346,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "lol",
     "player_name": "LOL",
+    "player_display_name": "LOL",
+    "aliases": [
+      "LOL"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -2080,7 +2385,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "pastracawk",
     "player_name": "Pastracawk",
+    "player_display_name": "Pastracawk",
+    "aliases": [
+      "Pastracawk"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 2.0,
@@ -2114,7 +2424,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "barkov",
     "player_name": "Barkov",
+    "player_display_name": "Barkov",
+    "aliases": [
+      "Barkov"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 7.0,
@@ -2148,7 +2463,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "frownybrowny",
     "player_name": "frownybrowny",
+    "player_display_name": "frownybrowny",
+    "aliases": [
+      "frownybrowny"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 3.0,
@@ -2182,7 +2502,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "kazxi",
     "player_name": "Kazxi",
+    "player_display_name": "Kazxi",
+    "aliases": [
+      "Kazxi"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 2.0,
@@ -2216,7 +2541,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "curt",
     "player_name": "Curt",
+    "player_display_name": "Curt",
+    "aliases": [
+      "Curt"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -2250,7 +2580,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "n00g",
     "player_name": "n00g",
+    "player_display_name": "n00g",
+    "aliases": [
+      "n00g"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 1.0,
@@ -2284,7 +2619,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "olenikiboy",
     "player_name": "Olenikiboy",
+    "player_display_name": "Olenikiboy",
+    "aliases": [
+      "Olenikiboy"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 2.0,
@@ -2318,7 +2658,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Worcester Pack",
     "team_name": "Worcester Pack",
+    "player_id": "bey",
     "player_name": "Bey",
+    "player_display_name": "Bey",
+    "aliases": [
+      "Bey"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 3.0,
@@ -2352,7 +2697,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Worcester Pack",
     "team_name": "Worcester Pack",
+    "player_id": "jperkss",
     "player_name": "JPerksS",
+    "player_display_name": "JPerksS",
+    "aliases": [
+      "JPerksS"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 3.0,
@@ -2386,7 +2736,12 @@
     "division": "INTERMEDIATE PROMOTIONAL SERIES",
     "team": "Worcester Pack",
     "team_name": "Worcester Pack",
+    "player_id": "ls",
     "player_name": "LS",
+    "player_display_name": "LS",
+    "aliases": [
+      "LS"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 3.0,
@@ -2420,7 +2775,12 @@
     "division": "Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "3ffxct",
     "player_name": "3ffxct",
+    "player_display_name": "3ffxct",
+    "aliases": [
+      "3ffxct"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 3.0,
@@ -2454,7 +2814,12 @@
     "division": "Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "aboveaveragejoe",
     "player_name": "AboveAverageJoe",
+    "player_display_name": "AboveAverageJoe",
+    "aliases": [
+      "AboveAverageJoe"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 3.0,
@@ -2488,7 +2853,12 @@
     "division": "Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "dionysus",
     "player_name": "Dionysus",
+    "player_display_name": "Dionysus",
+    "aliases": [
+      "Dionysus"
+    ],
     "stats": {
       "blocks": 5.0,
       "faceoffs_lost": 15.0,
@@ -2522,7 +2892,12 @@
     "division": "Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "love",
     "player_name": "Love",
+    "player_display_name": "Love",
+    "aliases": [
+      "Love"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 14.0,
@@ -2556,7 +2931,12 @@
     "division": "Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "maseinyourface",
     "player_name": "MaseInYourFace",
+    "player_display_name": "MaseInYourFace",
+    "aliases": [
+      "MaseInYourFace"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 5.0,
@@ -2590,7 +2970,12 @@
     "division": "Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "bam",
     "player_name": "BAM",
+    "player_display_name": "BAM",
+    "aliases": [
+      "BAM"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 5.0,
@@ -2624,7 +3009,12 @@
     "division": "Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "burtgummer28",
     "player_name": "Burtgummer28",
+    "player_display_name": "Burtgummer28",
+    "aliases": [
+      "Burtgummer28"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -2658,7 +3048,12 @@
     "division": "Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "dil",
     "player_name": "Dil",
+    "player_display_name": "Dil",
+    "aliases": [
+      "Dil"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 9.0,
@@ -2692,7 +3087,12 @@
     "division": "Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "dylinho",
     "player_name": "Dylinho",
+    "player_display_name": "Dylinho",
+    "aliases": [
+      "Dylinho"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 3.0,
@@ -2726,7 +3126,12 @@
     "division": "Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "pierre_houde",
     "player_name": "Pierre Houde",
+    "player_display_name": "Pierre Houde",
+    "aliases": [
+      "Pierre Houde"
+    ],
     "stats": {
       "assists": 29.0,
       "blocks": 12.0,
@@ -2760,7 +3165,12 @@
     "division": "Intermediate Division",
     "team": "Massachusetts Puck'n Monkeys",
     "team_name": "Massachusetts Puck'n Monkeys",
+    "player_id": "peaches_caden",
     "player_name": "Peaches / Caden",
+    "player_display_name": "Peaches / Caden",
+    "aliases": [
+      "Peaches / Caden"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 0.0,
@@ -2794,7 +3204,12 @@
     "division": "Intermediate Division",
     "team": "Massachusetts Puck'n Monkeys",
     "team_name": "Massachusetts Puck'n Monkeys",
+    "player_id": "tcw",
     "player_name": "TCW",
+    "player_display_name": "TCW",
+    "aliases": [
+      "TCW"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 7.0,
@@ -2828,7 +3243,12 @@
     "division": "Intermediate Division",
     "team": "Massachusetts Puck'n Monkeys",
     "team_name": "Massachusetts Puck'n Monkeys",
+    "player_id": "trippy",
     "player_name": "Trippy",
+    "player_display_name": "Trippy",
+    "aliases": [
+      "Trippy"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 3.0,
@@ -2862,7 +3282,12 @@
     "division": "Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "eshvan",
     "player_name": "Eshvan",
+    "player_display_name": "Eshvan",
+    "aliases": [
+      "Eshvan"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 2.0,
@@ -2896,7 +3321,12 @@
     "division": "Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "schmog",
     "player_name": "Schmog",
+    "player_display_name": "Schmog",
+    "aliases": [
+      "Schmog"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 3.0,
@@ -2930,7 +3360,12 @@
     "division": "Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "spillz",
     "player_name": "spillz",
+    "player_display_name": "spillz",
+    "aliases": [
+      "spillz"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 9.0,
@@ -2964,7 +3399,12 @@
     "division": "Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "therealdstrus",
     "player_name": "therealdstrus",
+    "player_display_name": "therealdstrus",
+    "aliases": [
+      "therealdstrus"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 4.0,
@@ -2998,7 +3438,12 @@
     "division": "Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "tradedeal",
     "player_name": "Tradedeal",
+    "player_display_name": "Tradedeal",
+    "aliases": [
+      "Tradedeal"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 5.0,
@@ -3032,7 +3477,12 @@
     "division": "Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "flake",
     "player_name": "Flake",
+    "player_display_name": "Flake",
+    "aliases": [
+      "Flake"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -3066,7 +3516,12 @@
     "division": "Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "greyghost",
     "player_name": "Greyghost",
+    "player_display_name": "Greyghost",
+    "aliases": [
+      "Greyghost"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 4.0,
@@ -3100,7 +3555,12 @@
     "division": "Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "lessthandennis",
     "player_name": "LessThanDennis",
+    "player_display_name": "LessThanDennis",
+    "aliases": [
+      "LessThanDennis"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 5.0,
@@ -3134,7 +3594,12 @@
     "division": "Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "papa_shieldz",
     "player_name": "Papa Shieldz",
+    "player_display_name": "Papa Shieldz",
+    "aliases": [
+      "Papa Shieldz"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 4.0,
@@ -3168,7 +3633,12 @@
     "division": "Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "pip_starlather",
     "player_name": "Pip Starlather",
+    "player_display_name": "Pip Starlather",
+    "aliases": [
+      "Pip Starlather"
+    ],
     "stats": {
       "assists": 19.0,
       "blocks": 3.0,
@@ -3202,7 +3672,12 @@
     "division": "Intermediate Division",
     "team": "The Lasalle Nuggets",
     "team_name": "The Lasalle Nuggets",
+    "player_id": "bailey_topg",
     "player_name": "Bailey / TopG",
+    "player_display_name": "Bailey / TopG",
+    "aliases": [
+      "Bailey / TopG"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 4.0,
@@ -3236,7 +3711,12 @@
     "division": "Intermediate Division",
     "team": "The Lasalle Nuggets",
     "team_name": "The Lasalle Nuggets",
+    "player_id": "colify",
     "player_name": "Colify",
+    "player_display_name": "Colify",
+    "aliases": [
+      "Colify"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 3.0,
@@ -3270,7 +3750,12 @@
     "division": "Intermediate Division",
     "team": "The Lasalle Nuggets",
     "team_name": "The Lasalle Nuggets",
+    "player_id": "lucky",
     "player_name": "Luckyツ",
+    "player_display_name": "Luckyツ",
+    "aliases": [
+      "Luckyツ"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 13.0,
@@ -3304,7 +3789,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Albuquerque Crystals",
     "team_name": "Albuquerque Crystals",
+    "player_id": "hyvus",
     "player_name": "Hyvus",
+    "player_display_name": "Hyvus",
+    "aliases": [
+      "Hyvus"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 2.0,
@@ -3338,7 +3828,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Albuquerque Crystals",
     "team_name": "Albuquerque Crystals",
+    "player_id": "macrosv2",
     "player_name": "MacrosV2",
+    "player_display_name": "MacrosV2",
+    "aliases": [
+      "MacrosV2"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -3372,7 +3867,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Albuquerque Crystals",
     "team_name": "Albuquerque Crystals",
+    "player_id": "matt8865",
     "player_name": "matt8865",
+    "player_display_name": "matt8865",
+    "aliases": [
+      "matt8865"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -3406,7 +3906,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "andrew",
     "player_name": "an.drew",
+    "player_display_name": "an.drew",
+    "aliases": [
+      "an.drew"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -3440,7 +3945,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "cheespup",
     "player_name": "Cheespup",
+    "player_display_name": "Cheespup",
+    "aliases": [
+      "Cheespup"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 7.0,
@@ -3474,7 +3984,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "dobby",
     "player_name": "Dobby",
+    "player_display_name": "Dobby",
+    "aliases": [
+      "Dobby"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -3508,7 +4023,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "lizard",
     "player_name": "Lizard",
+    "player_display_name": "Lizard",
+    "aliases": [
+      "Lizard"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 3.0,
@@ -3542,7 +4062,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "n00g",
     "player_name": "n00g",
+    "player_display_name": "n00g",
+    "aliases": [
+      "n00g"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 3.0,
@@ -3576,7 +4101,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "youngbuck",
     "player_name": "YoungBuck",
+    "player_display_name": "YoungBuck",
+    "aliases": [
+      "YoungBuck"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 4.0,
@@ -3610,7 +4140,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "cherries",
     "player_name": "Cherries",
+    "player_display_name": "Cherries",
+    "aliases": [
+      "Cherries"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 1.0,
@@ -3644,7 +4179,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "hzr",
     "player_name": "hzr",
+    "player_display_name": "hzr",
+    "aliases": [
+      "hzr"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 3.0,
@@ -3678,7 +4218,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "sasha_mcgavinsky",
     "player_name": "Sasha McGavinsky",
+    "player_display_name": "Sasha McGavinsky",
+    "aliases": [
+      "Sasha McGavinsky"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -3712,7 +4257,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "thugger",
     "player_name": "Thugger",
+    "player_display_name": "Thugger",
+    "aliases": [
+      "Thugger"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 10.0,
@@ -3746,7 +4296,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "americanmaniac",
     "player_name": "AmericanManiac",
+    "player_display_name": "AmericanManiac",
+    "aliases": [
+      "AmericanManiac"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 3.0,
@@ -3780,7 +4335,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "doubleosevs",
     "player_name": "doubleosevs",
+    "player_display_name": "doubleosevs",
+    "aliases": [
+      "doubleosevs"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 1.0,
@@ -3814,7 +4374,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "pinks0",
     "player_name": "Pinks0",
+    "player_display_name": "Pinks0",
+    "aliases": [
+      "Pinks0"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 3.0,
@@ -3848,7 +4413,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "sirgrizzles",
     "player_name": "SirGrizzles",
+    "player_display_name": "SirGrizzles",
+    "aliases": [
+      "SirGrizzles"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 3.0,
@@ -3882,7 +4452,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "agent_p",
     "player_name": "Agent P",
+    "player_display_name": "Agent P",
+    "aliases": [
+      "Agent P"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -3916,7 +4491,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "couture",
     "player_name": "Couture",
+    "player_display_name": "Couture",
+    "aliases": [
+      "Couture"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 1.0,
@@ -3950,7 +4530,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "jenediah",
     "player_name": "Jenediah",
+    "player_display_name": "Jenediah",
+    "aliases": [
+      "Jenediah"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 4.0,
@@ -3984,7 +4569,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "spinach",
     "player_name": "Spinach",
+    "player_display_name": "Spinach",
+    "aliases": [
+      "Spinach"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -4018,7 +4608,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "starfax",
     "player_name": "StarFax",
+    "player_display_name": "StarFax",
+    "aliases": [
+      "StarFax"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 4.0,
@@ -4052,7 +4647,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "stas",
     "player_name": "Stas",
+    "player_display_name": "Stas",
+    "aliases": [
+      "Stas"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 1.0,
@@ -4086,7 +4686,12 @@
     "division": "Intermediate Division - Omelette",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "tim",
     "player_name": "TIM",
+    "player_display_name": "TIM",
+    "aliases": [
+      "TIM"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 1.0,
@@ -4120,7 +4725,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Albuquerque Crystals",
     "team_name": "Albuquerque Crystals",
+    "player_id": "macrosv2",
     "player_name": "MacrosV2",
+    "player_display_name": "MacrosV2",
+    "aliases": [
+      "MacrosV2"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 4.0,
@@ -4154,7 +4764,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Albuquerque Crystals",
     "team_name": "Albuquerque Crystals",
+    "player_id": "matt8865",
     "player_name": "matt8865",
+    "player_display_name": "matt8865",
+    "aliases": [
+      "matt8865"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 4.0,
@@ -4188,7 +4803,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Albuquerque Crystals",
     "team_name": "Albuquerque Crystals",
+    "player_id": "versalty",
     "player_name": "Versalty",
+    "player_display_name": "Versalty",
+    "aliases": [
+      "Versalty"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 5.0,
@@ -4222,7 +4842,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "3ffxct",
     "player_name": "3ffxct",
+    "player_display_name": "3ffxct",
+    "aliases": [
+      "3ffxct"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 2.0,
@@ -4256,7 +4881,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "aboveaveragejoe",
     "player_name": "AboveAverageJoe",
+    "player_display_name": "AboveAverageJoe",
+    "aliases": [
+      "AboveAverageJoe"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -4290,7 +4920,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "dionysus",
     "player_name": "Dionysus",
+    "player_display_name": "Dionysus",
+    "aliases": [
+      "Dionysus"
+    ],
     "stats": {
       "blocks": 5.0,
       "faceoffs_lost": 4.0,
@@ -4324,7 +4959,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "love",
     "player_name": "Love",
+    "player_display_name": "Love",
+    "aliases": [
+      "Love"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 4.0,
@@ -4358,7 +4998,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Buffalo Blizzards - old",
     "team_name": "Buffalo Blizzards - old",
+    "player_id": "maseinyourface",
     "player_name": "MaseInYourFace",
+    "player_display_name": "MaseInYourFace",
+    "aliases": [
+      "MaseInYourFace"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -4392,7 +5037,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "bam",
     "player_name": "BAM",
+    "player_display_name": "BAM",
+    "aliases": [
+      "BAM"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 2.0,
@@ -4426,7 +5076,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "burtgummer28",
     "player_name": "Burtgummer28",
+    "player_display_name": "Burtgummer28",
+    "aliases": [
+      "Burtgummer28"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -4460,7 +5115,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "dil",
     "player_name": "Dil",
+    "player_display_name": "Dil",
+    "aliases": [
+      "Dil"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 2.0,
@@ -4494,7 +5154,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "dylinho",
     "player_name": "Dylinho",
+    "player_display_name": "Dylinho",
+    "aliases": [
+      "Dylinho"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 8.0,
@@ -4528,7 +5193,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Coaticook Stars",
     "team_name": "Coaticook Stars",
+    "player_id": "pierre_houde",
     "player_name": "Pierre Houde",
+    "player_display_name": "Pierre Houde",
+    "aliases": [
+      "Pierre Houde"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 3.0,
@@ -4562,7 +5232,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "andrew",
     "player_name": "an.drew",
+    "player_display_name": "an.drew",
+    "aliases": [
+      "an.drew"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 1.0,
@@ -4596,7 +5271,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "cheespup",
     "player_name": "Cheespup",
+    "player_display_name": "Cheespup",
+    "aliases": [
+      "Cheespup"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 2.0,
@@ -4630,7 +5310,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "dobby",
     "player_name": "Dobby",
+    "player_display_name": "Dobby",
+    "aliases": [
+      "Dobby"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 1.0,
@@ -4664,7 +5349,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "lizard",
     "player_name": "Lizard",
+    "player_display_name": "Lizard",
+    "aliases": [
+      "Lizard"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 6.0,
@@ -4698,7 +5388,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "n00g",
     "player_name": "n00g",
+    "player_display_name": "n00g",
+    "aliases": [
+      "n00g"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -4732,7 +5427,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Detroit Demons",
     "team_name": "Detroit Demons",
+    "player_id": "youngbuck",
     "player_name": "YoungBuck",
+    "player_display_name": "YoungBuck",
+    "aliases": [
+      "YoungBuck"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 2.0,
@@ -4766,7 +5466,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Massachusetts Puck'n Monkeys",
     "team_name": "Massachusetts Puck'n Monkeys",
+    "player_id": "peaches_caden",
     "player_name": "Peaches / Caden",
+    "player_display_name": "Peaches / Caden",
+    "aliases": [
+      "Peaches / Caden"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -4800,7 +5505,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Massachusetts Puck'n Monkeys",
     "team_name": "Massachusetts Puck'n Monkeys",
+    "player_id": "tcw",
     "player_name": "TCW",
+    "player_display_name": "TCW",
+    "aliases": [
+      "TCW"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 5.0,
@@ -4834,7 +5544,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Massachusetts Puck'n Monkeys",
     "team_name": "Massachusetts Puck'n Monkeys",
+    "player_id": "trippy",
     "player_name": "Trippy",
+    "player_display_name": "Trippy",
+    "aliases": [
+      "Trippy"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 0.0,
@@ -4868,7 +5583,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "eshvan",
     "player_name": "Eshvan",
+    "player_display_name": "Eshvan",
+    "aliases": [
+      "Eshvan"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 2.0,
@@ -4902,7 +5622,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "schmog",
     "player_name": "Schmog",
+    "player_display_name": "Schmog",
+    "aliases": [
+      "Schmog"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 2.0,
@@ -4936,7 +5661,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "spillz",
     "player_name": "spillz",
+    "player_display_name": "spillz",
+    "aliases": [
+      "spillz"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 3.0,
@@ -4970,7 +5700,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "therealdstrus",
     "player_name": "therealdstrus",
+    "player_display_name": "therealdstrus",
+    "aliases": [
+      "therealdstrus"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 2.0,
@@ -5004,7 +5739,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "New Jersey Bullets",
     "team_name": "New Jersey Bullets",
+    "player_id": "tradedeal",
     "player_name": "Tradedeal",
+    "player_display_name": "Tradedeal",
+    "aliases": [
+      "Tradedeal"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -5038,7 +5778,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "flake",
     "player_name": "Flake",
+    "player_display_name": "Flake",
+    "aliases": [
+      "Flake"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -5072,7 +5817,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "greyghost",
     "player_name": "Greyghost",
+    "player_display_name": "Greyghost",
+    "aliases": [
+      "Greyghost"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 1.0,
@@ -5106,7 +5856,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "lessthandennis",
     "player_name": "LessThanDennis",
+    "player_display_name": "LessThanDennis",
+    "aliases": [
+      "LessThanDennis"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 3.0,
@@ -5140,7 +5895,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "papa_shieldz",
     "player_name": "Papa Shieldz",
+    "player_display_name": "Papa Shieldz",
+    "aliases": [
+      "Papa Shieldz"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 3.0,
@@ -5174,7 +5934,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Okinawa Generations",
     "team_name": "Okinawa Generations",
+    "player_id": "pip_starlather",
     "player_name": "Pip Starlather",
+    "player_display_name": "Pip Starlather",
+    "aliases": [
+      "Pip Starlather"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 1.0,
@@ -5208,7 +5973,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "cherries",
     "player_name": "Cherries",
+    "player_display_name": "Cherries",
+    "aliases": [
+      "Cherries"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 2.0,
@@ -5242,7 +6012,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "hzr",
     "player_name": "hzr",
+    "player_display_name": "hzr",
+    "aliases": [
+      "hzr"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 1.0,
@@ -5276,7 +6051,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "shallisa",
     "player_name": "Shallisa",
+    "player_display_name": "Shallisa",
+    "aliases": [
+      "Shallisa"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 0.0,
@@ -5310,7 +6090,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "thugger",
     "player_name": "Thugger",
+    "player_display_name": "Thugger",
+    "aliases": [
+      "Thugger"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 10.0,
@@ -5344,7 +6129,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Pennsylvania Ball-Peen Hammers",
     "team_name": "Pennsylvania Ball-Peen Hammers",
+    "player_id": "yurtle",
     "player_name": "yurtle",
+    "player_display_name": "yurtle",
+    "aliases": [
+      "yurtle"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 0.0,
@@ -5378,7 +6168,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "americanmaniac",
     "player_name": "AmericanManiac",
+    "player_display_name": "AmericanManiac",
+    "aliases": [
+      "AmericanManiac"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 3.0,
@@ -5412,7 +6207,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "doubleosevs",
     "player_name": "doubleosevs",
+    "player_display_name": "doubleosevs",
+    "aliases": [
+      "doubleosevs"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -5446,7 +6246,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "pinks0",
     "player_name": "Pinks0",
+    "player_display_name": "Pinks0",
+    "aliases": [
+      "Pinks0"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 1.0,
@@ -5480,7 +6285,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "The Ding Dong Ding Dongs",
     "team_name": "The Ding Dong Ding Dongs",
+    "player_id": "sirgrizzles",
     "player_name": "SirGrizzles",
+    "player_display_name": "SirGrizzles",
+    "aliases": [
+      "SirGrizzles"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 2.0,
@@ -5514,7 +6324,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "The Lasalle Nuggets",
     "team_name": "The Lasalle Nuggets",
+    "player_id": "bailey_topg",
     "player_name": "Bailey / TopG",
+    "player_display_name": "Bailey / TopG",
+    "aliases": [
+      "Bailey / TopG"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 0.0,
@@ -5548,7 +6363,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "The Lasalle Nuggets",
     "team_name": "The Lasalle Nuggets",
+    "player_id": "colify",
     "player_name": "Colify",
+    "player_display_name": "Colify",
+    "aliases": [
+      "Colify"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 0.0,
@@ -5582,7 +6402,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "The Lasalle Nuggets",
     "team_name": "The Lasalle Nuggets",
+    "player_id": "lucky",
     "player_name": "Luckyツ",
+    "player_display_name": "Luckyツ",
+    "aliases": [
+      "Luckyツ"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 0.0,
@@ -5616,7 +6441,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "couture",
     "player_name": "Couture",
+    "player_display_name": "Couture",
+    "aliases": [
+      "Couture"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 8.0,
@@ -5650,7 +6480,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "jenediah",
     "player_name": "Jenediah",
+    "player_display_name": "Jenediah",
+    "aliases": [
+      "Jenediah"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -5684,7 +6519,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "starfax",
     "player_name": "StarFax",
+    "player_display_name": "StarFax",
+    "aliases": [
+      "StarFax"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -5718,7 +6558,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "stas",
     "player_name": "Stas",
+    "player_display_name": "Stas",
+    "aliases": [
+      "Stas"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 4.0,
@@ -5752,7 +6597,12 @@
     "division": "Intermediate Division - Omelette - Intermediate Division",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "tim",
     "player_name": "TIM",
+    "player_display_name": "TIM",
+    "aliases": [
+      "TIM"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 0.0,
@@ -5786,7 +6636,12 @@
     "division": "Open Division",
     "team": "Booger Hole Binguses",
     "team_name": "Booger Hole Binguses",
+    "player_id": "big_bingus",
     "player_name": "Big Bingus",
+    "player_display_name": "Big Bingus",
+    "aliases": [
+      "Big Bingus"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -5820,7 +6675,12 @@
     "division": "Open Division",
     "team": "Booger Hole Binguses",
     "team_name": "Booger Hole Binguses",
+    "player_id": "coreyiscringy",
     "player_name": "CoreyIsCringy",
+    "player_display_name": "CoreyIsCringy",
+    "aliases": [
+      "CoreyIsCringy"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 1.0,
@@ -5854,7 +6714,12 @@
     "division": "Open Division",
     "team": "Booger Hole Binguses",
     "team_name": "Booger Hole Binguses",
+    "player_id": "looees",
     "player_name": "Looees",
+    "player_display_name": "Looees",
+    "aliases": [
+      "Looees"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 3.0,
@@ -5888,7 +6753,12 @@
     "division": "Open Division",
     "team": "Booger Hole Binguses",
     "team_name": "Booger Hole Binguses",
+    "player_id": "lord_osprey",
     "player_name": "Lord Osprey",
+    "player_display_name": "Lord Osprey",
+    "aliases": [
+      "Lord Osprey"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 11.0,
@@ -5922,7 +6792,12 @@
     "division": "Open Division",
     "team": "Booger Hole Binguses",
     "team_name": "Booger Hole Binguses",
+    "player_id": "shaqueef_black",
     "player_name": "Shaqueef Black",
+    "player_display_name": "Shaqueef Black",
+    "aliases": [
+      "Shaqueef Black"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 2.0,
@@ -5956,7 +6831,12 @@
     "division": "Open Division",
     "team": "Booger Hole Binguses",
     "team_name": "Booger Hole Binguses",
+    "player_id": "sno1w",
     "player_name": "Sno1w",
+    "player_display_name": "Sno1w",
+    "aliases": [
+      "Sno1w"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -5990,7 +6870,12 @@
     "division": "Open Division",
     "team": "Booger Hole Binguses",
     "team_name": "Booger Hole Binguses",
+    "player_id": "zantle",
     "player_name": "Zantle",
+    "player_display_name": "Zantle",
+    "aliases": [
+      "Zantle"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 2.0,
@@ -6024,7 +6909,12 @@
     "division": "Open Division",
     "team": "Charleston Glizzy Gobblers",
     "team_name": "Charleston Glizzy Gobblers",
+    "player_id": "americanhockeyp1ayer",
     "player_name": "AmericanHockeyP1ayer",
+    "player_display_name": "AmericanHockeyP1ayer",
+    "aliases": [
+      "AmericanHockeyP1ayer"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 10.0,
@@ -6058,7 +6948,12 @@
     "division": "Open Division",
     "team": "Charleston Glizzy Gobblers",
     "team_name": "Charleston Glizzy Gobblers",
+    "player_id": "gary96367",
     "player_name": "gary96367",
+    "player_display_name": "gary96367",
+    "aliases": [
+      "gary96367"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -6092,7 +6987,12 @@
     "division": "Open Division",
     "team": "Charleston Glizzy Gobblers",
     "team_name": "Charleston Glizzy Gobblers",
+    "player_id": "headass",
     "player_name": "Headass",
+    "player_display_name": "Headass",
+    "aliases": [
+      "Headass"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 2.0,
@@ -6126,7 +7026,12 @@
     "division": "Open Division",
     "team": "Charleston Glizzy Gobblers",
     "team_name": "Charleston Glizzy Gobblers",
+    "player_id": "kippdawimp",
     "player_name": "KIPPDAWIMP",
+    "player_display_name": "KIPPDAWIMP",
+    "aliases": [
+      "KIPPDAWIMP"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -6160,7 +7065,12 @@
     "division": "Open Division",
     "team": "Charleston Glizzy Gobblers",
     "team_name": "Charleston Glizzy Gobblers",
+    "player_id": "stub_hub",
     "player_name": "Stub Hub",
+    "player_display_name": "Stub Hub",
+    "aliases": [
+      "Stub Hub"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 3.0,
@@ -6194,7 +7104,12 @@
     "division": "Open Division",
     "team": "Cincinnati Banshees",
     "team_name": "Cincinnati Banshees",
+    "player_id": "alienmanbanana",
     "player_name": "AlienManBanana",
+    "player_display_name": "AlienManBanana",
+    "aliases": [
+      "AlienManBanana"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 2.0,
@@ -6228,7 +7143,12 @@
     "division": "Open Division",
     "team": "Cincinnati Banshees",
     "team_name": "Cincinnati Banshees",
+    "player_id": "bcal98",
     "player_name": "BCal98",
+    "player_display_name": "BCal98",
+    "aliases": [
+      "BCal98"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -6262,7 +7182,12 @@
     "division": "Open Division",
     "team": "Cincinnati Banshees",
     "team_name": "Cincinnati Banshees",
+    "player_id": "brewski",
     "player_name": "Brewski",
+    "player_display_name": "Brewski",
+    "aliases": [
+      "Brewski"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 14.0,
@@ -6296,7 +7221,12 @@
     "division": "Open Division",
     "team": "Cincinnati Banshees",
     "team_name": "Cincinnati Banshees",
+    "player_id": "chino",
     "player_name": "Chino",
+    "player_display_name": "Chino",
+    "aliases": [
+      "Chino"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 5.0,
@@ -6330,7 +7260,12 @@
     "division": "Open Division",
     "team": "Cincinnati Banshees",
     "team_name": "Cincinnati Banshees",
+    "player_id": "cozbee",
     "player_name": "Cozbee",
+    "player_display_name": "Cozbee",
+    "aliases": [
+      "Cozbee"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 5.0,
@@ -6364,7 +7299,12 @@
     "division": "Open Division",
     "team": "Cincinnati Banshees",
     "team_name": "Cincinnati Banshees",
+    "player_id": "forg",
     "player_name": "Forg",
+    "player_display_name": "Forg",
+    "aliases": [
+      "Forg"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 3.0,
@@ -6398,7 +7338,12 @@
     "division": "Open Division",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "berm",
     "player_name": "Berm",
+    "player_display_name": "Berm",
+    "aliases": [
+      "Berm"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 8.0,
@@ -6432,7 +7377,12 @@
     "division": "Open Division",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "deagmeister_slug",
     "player_name": "Deagmeister Slug",
+    "player_display_name": "Deagmeister Slug",
+    "aliases": [
+      "Deagmeister Slug"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 3.0,
@@ -6466,7 +7416,12 @@
     "division": "Open Division",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "dlew",
     "player_name": "dlew.",
+    "player_display_name": "dlew.",
+    "aliases": [
+      "dlew."
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 3.0,
@@ -6500,7 +7455,12 @@
     "division": "Open Division",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "spinach",
     "player_name": "Spinach",
+    "player_display_name": "Spinach",
+    "aliases": [
+      "Spinach"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 5.0,
@@ -6534,7 +7494,12 @@
     "division": "Open Division",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "tmoneytom",
     "player_name": "tmoneytom",
+    "player_display_name": "tmoneytom",
+    "aliases": [
+      "tmoneytom"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 8.0,
@@ -6568,7 +7533,12 @@
     "division": "Open Division",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "acolinist",
     "player_name": "aColinist",
+    "player_display_name": "aColinist",
+    "aliases": [
+      "aColinist"
+    ],
     "stats": {
       "assists": 18.0,
       "blocks": 1.0,
@@ -6602,7 +7572,12 @@
     "division": "Open Division",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "chrislol",
     "player_name": "Chrislol",
+    "player_display_name": "Chrislol",
+    "aliases": [
+      "Chrislol"
+    ],
     "stats": {
       "assists": 26.0,
       "blocks": 8.0,
@@ -6636,7 +7611,12 @@
     "division": "Open Division",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "diemos",
     "player_name": "Diemos",
+    "player_display_name": "Diemos",
+    "aliases": [
+      "Diemos"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 7.0,
@@ -6670,7 +7650,12 @@
     "division": "Open Division",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "rev",
     "player_name": "Rev",
+    "player_display_name": "Rev",
+    "aliases": [
+      "Rev"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -6704,7 +7689,12 @@
     "division": "Open Division",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "xero",
     "player_name": "Xero",
+    "player_display_name": "Xero",
+    "aliases": [
+      "Xero"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 2.0,
@@ -6738,7 +7728,12 @@
     "division": "Open Division",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "datboiiwadup",
     "player_name": "DatBoiiWadup",
+    "player_display_name": "DatBoiiWadup",
+    "aliases": [
+      "DatBoiiWadup"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 14.0,
@@ -6772,7 +7767,12 @@
     "division": "Open Division",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "kman",
     "player_name": "kman",
+    "player_display_name": "kman",
+    "aliases": [
+      "kman"
+    ],
     "stats": {
       "assists": 18.0,
       "blocks": 9.0,
@@ -6806,7 +7806,12 @@
     "division": "Open Division",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "patmister",
     "player_name": "Patmister",
+    "player_display_name": "Patmister",
+    "aliases": [
+      "Patmister"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 1.0,
@@ -6840,7 +7845,12 @@
     "division": "Open Division",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "rat",
     "player_name": "Rat",
+    "player_display_name": "Rat",
+    "aliases": [
+      "Rat"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 2.0,
@@ -6874,7 +7884,12 @@
     "division": "Open Division",
     "team": "Denver Cutthroats",
     "team_name": "Denver Cutthroats",
+    "player_id": "wade",
     "player_name": "Wade",
+    "player_display_name": "Wade",
+    "aliases": [
+      "Wade"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -6908,7 +7923,12 @@
     "division": "Open Division",
     "team": "Hamilton Hammers",
     "team_name": "Hamilton Hammers",
+    "player_id": "bertoli_the_beautiful",
     "player_name": "Bertoli the Beautiful",
+    "player_display_name": "Bertoli the Beautiful",
+    "aliases": [
+      "Bertoli the Beautiful"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 4.0,
@@ -6942,7 +7962,12 @@
     "division": "Open Division",
     "team": "Hamilton Hammers",
     "team_name": "Hamilton Hammers",
+    "player_id": "don",
     "player_name": "Don",
+    "player_display_name": "Don",
+    "aliases": [
+      "Don"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 4.0,
@@ -6976,7 +8001,12 @@
     "division": "Open Division",
     "team": "Hamilton Hammers",
     "team_name": "Hamilton Hammers",
+    "player_id": "glaffo",
     "player_name": "Glaffo",
+    "player_display_name": "Glaffo",
+    "aliases": [
+      "Glaffo"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 6.0,
@@ -7010,7 +8040,12 @@
     "division": "Open Division",
     "team": "Hamilton Hammers",
     "team_name": "Hamilton Hammers",
+    "player_id": "reggiegeno",
     "player_name": "ReggieGeno",
+    "player_display_name": "ReggieGeno",
+    "aliases": [
+      "ReggieGeno"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 3.0,
@@ -7044,7 +8079,12 @@
     "division": "Open Division",
     "team": "Hamilton Hammers",
     "team_name": "Hamilton Hammers",
+    "player_id": "spacedogg24_c",
     "player_name": "spacedogg24 [C]",
+    "player_display_name": "spacedogg24 [C]",
+    "aliases": [
+      "spacedogg24 [C]"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 4.0,
@@ -7078,7 +8118,12 @@
     "division": "Open Division",
     "team": "Hot Springs Red Hots",
     "team_name": "Hot Springs Red Hots",
+    "player_id": "busta",
     "player_name": "Busta",
+    "player_display_name": "Busta",
+    "aliases": [
+      "Busta"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -7112,7 +8157,12 @@
     "division": "Open Division",
     "team": "Hot Springs Red Hots",
     "team_name": "Hot Springs Red Hots",
+    "player_id": "jman",
     "player_name": "jman",
+    "player_display_name": "jman",
+    "aliases": [
+      "jman"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 10.0,
@@ -7146,7 +8196,12 @@
     "division": "Open Division",
     "team": "Hot Springs Red Hots",
     "team_name": "Hot Springs Red Hots",
+    "player_id": "poopklown",
     "player_name": "poopklown",
+    "player_display_name": "poopklown",
+    "aliases": [
+      "poopklown"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 9.0,
@@ -7180,7 +8235,12 @@
     "division": "Open Division",
     "team": "Hot Springs Red Hots",
     "team_name": "Hot Springs Red Hots",
+    "player_id": "suuk3",
     "player_name": "Suuk3",
+    "player_display_name": "Suuk3",
+    "aliases": [
+      "Suuk3"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 1.0,
@@ -7214,7 +8274,12 @@
     "division": "Open Division",
     "team": "Hot Springs Red Hots",
     "team_name": "Hot Springs Red Hots",
+    "player_id": "ymisscarab",
     "player_name": "YmisScarab",
+    "player_display_name": "YmisScarab",
+    "aliases": [
+      "YmisScarab"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 15.0,
@@ -7248,7 +8313,12 @@
     "division": "Open Division",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "bill_mcreary",
     "player_name": "Bill Mcreary",
+    "player_display_name": "Bill Mcreary",
+    "aliases": [
+      "Bill Mcreary"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 4.0,
@@ -7282,7 +8352,12 @@
     "division": "Open Division",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "lit",
     "player_name": "LIT",
+    "player_display_name": "LIT",
+    "aliases": [
+      "LIT"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 7.0,
@@ -7316,7 +8391,12 @@
     "division": "Open Division",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "liv",
     "player_name": "LIV",
+    "player_display_name": "LIV",
+    "aliases": [
+      "LIV"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 1.0,
@@ -7350,7 +8430,12 @@
     "division": "Open Division",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "lol",
     "player_name": "LOL",
+    "player_display_name": "LOL",
+    "aliases": [
+      "LOL"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 3.0,
@@ -7384,7 +8469,12 @@
     "division": "Open Division",
     "team": "Kentucky Karens",
     "team_name": "Kentucky Karens",
+    "player_id": "pastracawk",
     "player_name": "Pastracawk",
+    "player_display_name": "Pastracawk",
+    "aliases": [
+      "Pastracawk"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 12.0,
@@ -7418,7 +8508,12 @@
     "division": "Open Division",
     "team": "Massachusetts Manatees",
     "team_name": "Massachusetts Manatees",
+    "player_id": "cosmo_kramer",
     "player_name": "Cosmo Kramer",
+    "player_display_name": "Cosmo Kramer",
+    "aliases": [
+      "Cosmo Kramer"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 12.0,
@@ -7452,7 +8547,12 @@
     "division": "Open Division",
     "team": "Massachusetts Manatees",
     "team_name": "Massachusetts Manatees",
+    "player_id": "post_master",
     "player_name": "Post Master",
+    "player_display_name": "Post Master",
+    "aliases": [
+      "Post Master"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 3.0,
@@ -7486,7 +8586,12 @@
     "division": "Open Division",
     "team": "Massachusetts Manatees",
     "team_name": "Massachusetts Manatees",
+    "player_id": "skonchy",
     "player_name": "Skonchy",
+    "player_display_name": "Skonchy",
+    "aliases": [
+      "Skonchy"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 15.0,
@@ -7520,7 +8625,12 @@
     "division": "Open Division",
     "team": "Vice City Vitabois",
     "team_name": "Vice City Vitabois",
+    "player_id": "archie_klumper",
     "player_name": "Archie Klumper",
+    "player_display_name": "Archie Klumper",
+    "aliases": [
+      "Archie Klumper"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 1.0,
@@ -7554,7 +8664,12 @@
     "division": "Open Division",
     "team": "Vice City Vitabois",
     "team_name": "Vice City Vitabois",
+    "player_id": "bubby",
     "player_name": "Bubby",
+    "player_display_name": "Bubby",
+    "aliases": [
+      "Bubby"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 5.0,
@@ -7588,7 +8703,12 @@
     "division": "Open Division",
     "team": "Vice City Vitabois",
     "team_name": "Vice City Vitabois",
+    "player_id": "future",
     "player_name": "Future",
+    "player_display_name": "Future",
+    "aliases": [
+      "Future"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 10.0,
@@ -7622,7 +8742,12 @@
     "division": "Open Division",
     "team": "Vice City Vitabois",
     "team_name": "Vice City Vitabois",
+    "player_id": "nexus",
     "player_name": "NeXuS",
+    "player_display_name": "NeXuS",
+    "aliases": [
+      "NeXuS"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 14.0,
@@ -7656,7 +8781,12 @@
     "division": "Open Division",
     "team": "Worcester Pack",
     "team_name": "Worcester Pack",
+    "player_id": "bey",
     "player_name": "Bey",
+    "player_display_name": "Bey",
+    "aliases": [
+      "Bey"
+    ],
     "stats": {
       "assists": 24.0,
       "blocks": 6.0,
@@ -7690,7 +8820,12 @@
     "division": "Open Division",
     "team": "Worcester Pack",
     "team_name": "Worcester Pack",
+    "player_id": "jperkss",
     "player_name": "JPerksS",
+    "player_display_name": "JPerksS",
+    "aliases": [
+      "JPerksS"
+    ],
     "stats": {
       "assists": 20.0,
       "blocks": 5.0,
@@ -7724,7 +8859,12 @@
     "division": "Open Division",
     "team": "Worcester Pack",
     "team_name": "Worcester Pack",
+    "player_id": "ls",
     "player_name": "LS",
+    "player_display_name": "LS",
+    "aliases": [
+      "LS"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 6.0,
@@ -7758,7 +8898,12 @@
     "division": "Open Division",
     "team": "Worcester Pack",
     "team_name": "Worcester Pack",
+    "player_id": "sky",
     "player_name": "SkY!",
+    "player_display_name": "SkY!",
+    "aliases": [
+      "SkY!"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 2.0,
@@ -7792,7 +8937,12 @@
     "division": "Open Division - Dusters",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "badger",
     "player_name": "badger",
+    "player_display_name": "badger",
+    "aliases": [
+      "badger"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 5.0,
@@ -7826,7 +8976,12 @@
     "division": "Open Division - Dusters",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "faustino",
     "player_name": "Faustino",
+    "player_display_name": "Faustino",
+    "aliases": [
+      "Faustino"
+    ],
     "stats": {
       "assists": 18.0,
       "blocks": 4.0,
@@ -7860,7 +9015,12 @@
     "division": "Open Division - Dusters",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "mijax",
     "player_name": "mijax",
+    "player_display_name": "mijax",
+    "aliases": [
+      "mijax"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 8.0,
@@ -7894,7 +9054,12 @@
     "division": "Open Division - Dusters",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "spleen",
     "player_name": "Spleen",
+    "player_display_name": "Spleen",
+    "aliases": [
+      "Spleen"
+    ],
     "stats": {
       "blocks": 3.0,
       "faceoffs_lost": 3.0,
@@ -7928,7 +9093,12 @@
     "division": "Open Division - Dusters",
     "team": "Bolton Bombers",
     "team_name": "Bolton Bombers",
+    "player_id": "the_ghoul",
     "player_name": "The Ghoul",
+    "player_display_name": "The Ghoul",
+    "aliases": [
+      "The Ghoul"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -7962,7 +9132,12 @@
     "division": "Open Division - Dusters",
     "team": "Green GRIT",
     "team_name": "Green GRIT",
+    "player_id": "limbo",
     "player_name": "Limbo",
+    "player_display_name": "Limbo",
+    "aliases": [
+      "Limbo"
+    ],
     "stats": {
       "assists": 37.0,
       "blocks": 3.0,
@@ -7996,7 +9171,12 @@
     "division": "Open Division - Dusters",
     "team": "Green GRIT",
     "team_name": "Green GRIT",
+    "player_id": "satan",
     "player_name": "Satan",
+    "player_display_name": "Satan",
+    "aliases": [
+      "Satan"
+    ],
     "stats": {
       "assists": 30.0,
       "blocks": 10.0,
@@ -8030,7 +9210,12 @@
     "division": "Open Division - Dusters",
     "team": "Green GRIT",
     "team_name": "Green GRIT",
+    "player_id": "sawmax",
     "player_name": "Sawmax",
+    "player_display_name": "Sawmax",
+    "aliases": [
+      "Sawmax"
+    ],
     "stats": {
       "assists": 24.0,
       "blocks": 11.0,
@@ -8064,7 +9249,12 @@
     "division": "Open Division - Dusters",
     "team": "Gulf Stream Geckos",
     "team_name": "Gulf Stream Geckos",
+    "player_id": "boosterrider",
     "player_name": "BoosterRider",
+    "player_display_name": "BoosterRider",
+    "aliases": [
+      "BoosterRider"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -8098,7 +9288,12 @@
     "division": "Open Division - Dusters",
     "team": "Gulf Stream Geckos",
     "team_name": "Gulf Stream Geckos",
+    "player_id": "oobish333",
     "player_name": "Oobish333",
+    "player_display_name": "Oobish333",
+    "aliases": [
+      "Oobish333"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -8132,7 +9327,12 @@
     "division": "Open Division - Dusters",
     "team": "Gulf Stream Geckos",
     "team_name": "Gulf Stream Geckos",
+    "player_id": "pouchetta",
     "player_name": "Pouchetta",
+    "player_display_name": "Pouchetta",
+    "aliases": [
+      "Pouchetta"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -8166,7 +9366,12 @@
     "division": "Open Division - Dusters",
     "team": "Gulf Stream Geckos",
     "team_name": "Gulf Stream Geckos",
+    "player_id": "roosta",
     "player_name": "Roosta",
+    "player_display_name": "Roosta",
+    "aliases": [
+      "Roosta"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 5.0,
@@ -8200,7 +9405,12 @@
     "division": "Open Division - Dusters",
     "team": "Gulf Stream Geckos",
     "team_name": "Gulf Stream Geckos",
+    "player_id": "sweenis",
     "player_name": "Sweenis",
+    "player_display_name": "Sweenis",
+    "aliases": [
+      "Sweenis"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 3.0,
@@ -8234,7 +9444,12 @@
     "division": "Open Division - Dusters",
     "team": "Hartford Wolves",
     "team_name": "Hartford Wolves",
+    "player_id": "darthtaksil",
     "player_name": "DarthTaksil",
+    "player_display_name": "DarthTaksil",
+    "aliases": [
+      "DarthTaksil"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 2.0,
@@ -8268,7 +9483,12 @@
     "division": "Open Division - Dusters",
     "team": "Hartford Wolves",
     "team_name": "Hartford Wolves",
+    "player_id": "glueshop",
     "player_name": "Glueshop",
+    "player_display_name": "Glueshop",
+    "aliases": [
+      "Glueshop"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 6.0,
@@ -8302,7 +9522,12 @@
     "division": "Open Division - Dusters",
     "team": "Hartford Wolves",
     "team_name": "Hartford Wolves",
+    "player_id": "inphidel",
     "player_name": "Inphidel",
+    "player_display_name": "Inphidel",
+    "aliases": [
+      "Inphidel"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 8.0,
@@ -8336,7 +9561,12 @@
     "division": "Open Division - Dusters",
     "team": "Hartford Wolves",
     "team_name": "Hartford Wolves",
+    "player_id": "jstronix",
     "player_name": "jsTronix",
+    "player_display_name": "jsTronix",
+    "aliases": [
+      "jsTronix"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 20.0,
@@ -8370,7 +9600,12 @@
     "division": "Open Division - Dusters",
     "team": "Hartford Wolves",
     "team_name": "Hartford Wolves",
+    "player_id": "ultrawolf",
     "player_name": "Ultrawolf",
+    "player_display_name": "Ultrawolf",
+    "aliases": [
+      "Ultrawolf"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -8404,7 +9639,12 @@
     "division": "Open Division - Dusters",
     "team": "Lexington Bananas",
     "team_name": "Lexington Bananas",
+    "player_id": "brickbloxxor",
     "player_name": "BrickBloxxor",
+    "player_display_name": "BrickBloxxor",
+    "aliases": [
+      "BrickBloxxor"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -8438,7 +9678,12 @@
     "division": "Open Division - Dusters",
     "team": "Lexington Bananas",
     "team_name": "Lexington Bananas",
+    "player_id": "darkarrow576",
     "player_name": "DarkArrow576",
+    "player_display_name": "DarkArrow576",
+    "aliases": [
+      "DarkArrow576"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 24.0,
@@ -8472,7 +9717,12 @@
     "division": "Open Division - Dusters",
     "team": "Lexington Bananas",
     "team_name": "Lexington Bananas",
+    "player_id": "muffinxnuts",
     "player_name": "MuffinxNutS",
+    "player_display_name": "MuffinxNutS",
+    "aliases": [
+      "MuffinxNutS"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -8506,7 +9756,12 @@
     "division": "Open Division - Dusters",
     "team": "Lexington Bananas",
     "team_name": "Lexington Bananas",
+    "player_id": "scruffywaffle",
     "player_name": "ScruffyWaffle",
+    "player_display_name": "ScruffyWaffle",
+    "aliases": [
+      "ScruffyWaffle"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 7.0,
@@ -8540,7 +9795,12 @@
     "division": "Open Division - Dusters",
     "team": "Lexington Bananas",
     "team_name": "Lexington Bananas",
+    "player_id": "tubbypancake",
     "player_name": "TubbyPancake",
+    "player_display_name": "TubbyPancake",
+    "aliases": [
+      "TubbyPancake"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 11.0,
@@ -8574,7 +9834,12 @@
     "division": "Open Division - Dusters",
     "team": "Long Island Chicken Parms",
     "team_name": "Long Island Chicken Parms",
+    "player_id": "azzeatinszn",
     "player_name": "Azzeatinszn",
+    "player_display_name": "Azzeatinszn",
+    "aliases": [
+      "Azzeatinszn"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 5.0,
@@ -8608,7 +9873,12 @@
     "division": "Open Division - Dusters",
     "team": "Long Island Chicken Parms",
     "team_name": "Long Island Chicken Parms",
+    "player_id": "dcortselli23",
     "player_name": "dcortselli23",
+    "player_display_name": "dcortselli23",
+    "aliases": [
+      "dcortselli23"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 4.0,
@@ -8642,7 +9912,12 @@
     "division": "Open Division - Dusters",
     "team": "Long Island Chicken Parms",
     "team_name": "Long Island Chicken Parms",
+    "player_id": "regis",
     "player_name": "Regis",
+    "player_display_name": "Regis",
+    "aliases": [
+      "Regis"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 5.0,
@@ -8676,7 +9951,12 @@
     "division": "Open Division - Dusters",
     "team": "Long Island Chicken Parms",
     "team_name": "Long Island Chicken Parms",
+    "player_id": "resp",
     "player_name": "Resp",
+    "player_display_name": "Resp",
+    "aliases": [
+      "Resp"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 10.0,
@@ -8710,7 +9990,12 @@
     "division": "Open Division - Dusters",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "barkov",
     "player_name": "Barkov",
+    "player_display_name": "Barkov",
+    "aliases": [
+      "Barkov"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 5.0,
@@ -8744,7 +10029,12 @@
     "division": "Open Division - Dusters",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "dilly",
     "player_name": "Dilly",
+    "player_display_name": "Dilly",
+    "aliases": [
+      "Dilly"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 4.0,
@@ -8778,7 +10068,12 @@
     "division": "Open Division - Dusters",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "frownybrowny",
     "player_name": "frownybrowny",
+    "player_display_name": "frownybrowny",
+    "aliases": [
+      "frownybrowny"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 4.0,
@@ -8812,7 +10107,12 @@
     "division": "Open Division - Dusters",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "kazxi",
     "player_name": "Kazxi",
+    "player_display_name": "Kazxi",
+    "aliases": [
+      "Kazxi"
+    ],
     "stats": {
       "assists": 18.0,
       "blocks": 8.0,
@@ -8846,7 +10146,12 @@
     "division": "Open Division - Dusters",
     "team": "Nashville Niconics",
     "team_name": "Nashville Niconics",
+    "player_id": "whiffleroar",
     "player_name": "whiffleroar",
+    "player_display_name": "whiffleroar",
+    "aliases": [
+      "whiffleroar"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -8880,7 +10185,12 @@
     "division": "Open Division - Dusters",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "big_trout",
     "player_name": "Big Trout",
+    "player_display_name": "Big Trout",
+    "aliases": [
+      "Big Trout"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -8914,7 +10224,12 @@
     "division": "Open Division - Dusters",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "carried_by_dad",
     "player_name": "Carried by Dad",
+    "player_display_name": "Carried by Dad",
+    "aliases": [
+      "Carried by Dad"
+    ],
     "stats": {
       "assists": 19.0,
       "blocks": 6.0,
@@ -8948,7 +10263,12 @@
     "division": "Open Division - Dusters",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "curt",
     "player_name": "Curt",
+    "player_display_name": "Curt",
+    "aliases": [
+      "Curt"
+    ],
     "stats": {
       "assists": 19.0,
       "blocks": 13.0,
@@ -8982,7 +10302,12 @@
     "division": "Open Division - Dusters",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "laggz",
     "player_name": "Laggz",
+    "player_display_name": "Laggz",
+    "aliases": [
+      "Laggz"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 4.0,
@@ -9016,7 +10341,12 @@
     "division": "Open Division - Dusters",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "n00g",
     "player_name": "n00g",
+    "player_display_name": "n00g",
+    "aliases": [
+      "n00g"
+    ],
     "stats": {
       "blocks": 5.0,
       "faceoffs_lost": 13.0,
@@ -9050,7 +10380,12 @@
     "division": "Open Division - Dusters",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "olenikiboy",
     "player_name": "Olenikiboy",
+    "player_display_name": "Olenikiboy",
+    "aliases": [
+      "Olenikiboy"
+    ],
     "stats": {
       "blocks": 1.0,
       "faceoffs_lost": 4.0,
@@ -9084,7 +10419,12 @@
     "division": "Open Division - Dusters",
     "team": "Oregon Capybaras - East",
     "team_name": "Oregon Capybaras - East",
+    "player_id": "pl4zma",
     "player_name": "Pl4zma",
+    "player_display_name": "Pl4zma",
+    "aliases": [
+      "Pl4zma"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 4.0,
@@ -9118,7 +10458,12 @@
     "division": "Open Division - Dusters",
     "team": "Ottawa Valley Puck Slappers",
     "team_name": "Ottawa Valley Puck Slappers",
+    "player_id": "baby_caweb",
     "player_name": "Baby Caweb",
+    "player_display_name": "Baby Caweb",
+    "aliases": [
+      "Baby Caweb"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 4.0,
@@ -9152,7 +10497,12 @@
     "division": "Open Division - Dusters",
     "team": "Ottawa Valley Puck Slappers",
     "team_name": "Ottawa Valley Puck Slappers",
+    "player_id": "broburgota",
     "player_name": "BroBurgota",
+    "player_display_name": "BroBurgota",
+    "aliases": [
+      "BroBurgota"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 11.0,
@@ -9186,7 +10536,12 @@
     "division": "Open Division - Dusters",
     "team": "Ottawa Valley Puck Slappers",
     "team_name": "Ottawa Valley Puck Slappers",
+    "player_id": "eggsthink",
     "player_name": "EggsThink",
+    "player_display_name": "EggsThink",
+    "aliases": [
+      "EggsThink"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 7.0,
@@ -9220,7 +10575,12 @@
     "division": "Open Division - Dusters",
     "team": "Ottawa Valley Puck Slappers",
     "team_name": "Ottawa Valley Puck Slappers",
+    "player_id": "troy_bolton",
     "player_name": "Troy Bolton",
+    "player_display_name": "Troy Bolton",
+    "aliases": [
+      "Troy Bolton"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 11.0,
@@ -9254,7 +10614,12 @@
     "division": "Open Division - Dusters",
     "team": "Ottawa Valley Puck Slappers",
     "team_name": "Ottawa Valley Puck Slappers",
+    "player_id": "ty12hockeypro",
     "player_name": "ty12hockeypro",
+    "player_display_name": "ty12hockeypro",
+    "aliases": [
+      "ty12hockeypro"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 18.0,
@@ -9288,7 +10653,12 @@
     "division": "Open Division - Dusters",
     "team": "Quebec Flare",
     "team_name": "Quebec Flare",
+    "player_id": "le_negan_du_qc",
     "player_name": "Le Negan du Qc",
+    "player_display_name": "Le Negan du Qc",
+    "aliases": [
+      "Le Negan du Qc"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 15.0,
@@ -9322,7 +10692,12 @@
     "division": "Open Division - Dusters",
     "team": "Quebec Flare",
     "team_name": "Quebec Flare",
+    "player_id": "mat_jek",
     "player_name": "Mat_Jek",
+    "player_display_name": "Mat_Jek",
+    "aliases": [
+      "Mat_Jek"
+    ],
     "stats": {
       "assists": 17.0,
       "blocks": 9.0,
@@ -9356,7 +10731,12 @@
     "division": "Open Division - Dusters",
     "team": "Quebec Flare",
     "team_name": "Quebec Flare",
+    "player_id": "nayrqc",
     "player_name": "Nayr[QC]",
+    "player_display_name": "Nayr[QC]",
+    "aliases": [
+      "Nayr[QC]"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 1.0,
@@ -9390,7 +10770,12 @@
     "division": "Open Division - Dusters",
     "team": "Sunnyvale Samsquanches",
     "team_name": "Sunnyvale Samsquanches",
+    "player_id": "big_nic",
     "player_name": "Big Nic",
+    "player_display_name": "Big Nic",
+    "aliases": [
+      "Big Nic"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 5.0,
@@ -9424,7 +10809,12 @@
     "division": "Open Division - Dusters",
     "team": "Sunnyvale Samsquanches",
     "team_name": "Sunnyvale Samsquanches",
+    "player_id": "gabino",
     "player_name": "Gabino",
+    "player_display_name": "Gabino",
+    "aliases": [
+      "Gabino"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 3.0,
@@ -9458,7 +10848,12 @@
     "division": "Open Division - Dusters",
     "team": "Sunnyvale Samsquanches",
     "team_name": "Sunnyvale Samsquanches",
+    "player_id": "glue_eater_c",
     "player_name": "Glue Eater [C]",
+    "player_display_name": "Glue Eater [C]",
+    "aliases": [
+      "Glue Eater [C]"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 2.0,
@@ -9492,7 +10887,12 @@
     "division": "Open Division - Dusters",
     "team": "Sunnyvale Samsquanches",
     "team_name": "Sunnyvale Samsquanches",
+    "player_id": "juixius",
     "player_name": "Juixius",
+    "player_display_name": "Juixius",
+    "aliases": [
+      "Juixius"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 4.0,
@@ -9526,7 +10926,12 @@
     "division": "Open Division - Dusters",
     "team": "Sunnyvale Samsquanches",
     "team_name": "Sunnyvale Samsquanches",
+    "player_id": "mollenkoffee",
     "player_name": "Mollenkoffee",
+    "player_display_name": "Mollenkoffee",
+    "aliases": [
+      "Mollenkoffee"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 4.0,
@@ -9560,7 +10965,12 @@
     "division": "Open Division - Dusters",
     "team": "Sunnyvale Samsquanches",
     "team_name": "Sunnyvale Samsquanches",
+    "player_id": "rick",
     "player_name": "Rick",
+    "player_display_name": "Rick",
+    "aliases": [
+      "Rick"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 0.0,
@@ -9594,7 +11004,12 @@
     "division": "Open Division - Dusters",
     "team": "Sunnyvale Samsquanches",
     "team_name": "Sunnyvale Samsquanches",
+    "player_id": "the_lone_glue_eater",
     "player_name": "The Lone Glue Eater",
+    "player_display_name": "The Lone Glue Eater",
+    "aliases": [
+      "The Lone Glue Eater"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 1.0,
@@ -9628,7 +11043,12 @@
     "division": "Open Division - Dusters",
     "team": "Toronto Narwhals",
     "team_name": "Toronto Narwhals",
+    "player_id": "jace",
     "player_name": "Jace",
+    "player_display_name": "Jace",
+    "aliases": [
+      "Jace"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 4.0,
@@ -9662,7 +11082,12 @@
     "division": "Open Division - Dusters",
     "team": "Toronto Narwhals",
     "team_name": "Toronto Narwhals",
+    "player_id": "mnamejeff",
     "player_name": "m'namejeff",
+    "player_display_name": "m'namejeff",
+    "aliases": [
+      "m'namejeff"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 8.0,
@@ -9696,7 +11121,12 @@
     "division": "Open Division - Dusters",
     "team": "Toronto Narwhals",
     "team_name": "Toronto Narwhals",
+    "player_id": "napa0",
     "player_name": "Napa0",
+    "player_display_name": "Napa0",
+    "aliases": [
+      "Napa0"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 6.0,
@@ -9730,7 +11160,12 @@
     "division": "Open Division - Dusters",
     "team": "Toronto Narwhals",
     "team_name": "Toronto Narwhals",
+    "player_id": "pissy_yonky",
     "player_name": "Pissy Yonky",
+    "player_display_name": "Pissy Yonky",
+    "aliases": [
+      "Pissy Yonky"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 5.0,
@@ -9764,7 +11199,12 @@
     "division": "Open Division - Dusters",
     "team": "Toronto Narwhals",
     "team_name": "Toronto Narwhals",
+    "player_id": "vinculum",
     "player_name": "Vinculum",
+    "player_display_name": "Vinculum",
+    "aliases": [
+      "Vinculum"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -9798,7 +11238,12 @@
     "division": "Open Division - Dusters",
     "team": "Yorktown Yungbloods",
     "team_name": "Yorktown Yungbloods",
+    "player_id": "osr",
     "player_name": "osr",
+    "player_display_name": "osr",
+    "aliases": [
+      "osr"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 4.0,
@@ -9832,7 +11277,12 @@
     "division": "Open Division - Dusters",
     "team": "Yorktown Yungbloods",
     "team_name": "Yorktown Yungbloods",
+    "player_id": "scaryshow",
     "player_name": "scaryshow",
+    "player_display_name": "scaryshow",
+    "aliases": [
+      "scaryshow"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 6.0,
@@ -9866,7 +11316,12 @@
     "division": "Open Division - Dusters",
     "team": "Yorktown Yungbloods",
     "team_name": "Yorktown Yungbloods",
+    "player_id": "tripp",
     "player_name": "tripp[",
+    "player_display_name": "tripp[",
+    "aliases": [
+      "tripp["
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 3.0,
@@ -9900,7 +11355,12 @@
     "division": "Other Matches",
     "team": "Cedar Rapids Cottonmouths",
     "team_name": "Cedar Rapids Cottonmouths",
+    "player_id": "buf",
     "player_name": "Buf",
+    "player_display_name": "Buf",
+    "aliases": [
+      "Buf"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -9934,7 +11394,12 @@
     "division": "Other Matches",
     "team": "Cedar Rapids Cottonmouths",
     "team_name": "Cedar Rapids Cottonmouths",
+    "player_id": "mvm13",
     "player_name": "MVM13",
+    "player_display_name": "MVM13",
+    "aliases": [
+      "MVM13"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 1.0,
@@ -9968,7 +11433,12 @@
     "division": "Other Matches",
     "team": "Cedar Rapids Cottonmouths",
     "team_name": "Cedar Rapids Cottonmouths",
+    "player_id": "soullxss",
     "player_name": "SoulLxss",
+    "player_display_name": "SoulLxss",
+    "aliases": [
+      "SoulLxss"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -10002,7 +11472,12 @@
     "division": "Other Matches",
     "team": "Chicago SlapDaddys",
     "team_name": "Chicago SlapDaddys",
+    "player_id": "biggs_c",
     "player_name": "BIGGS (C)",
+    "player_display_name": "BIGGS (C)",
+    "aliases": [
+      "BIGGS (C)"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 0.0,
@@ -10036,7 +11511,12 @@
     "division": "Other Matches",
     "team": "Chicago SlapDaddys",
     "team_name": "Chicago SlapDaddys",
+    "player_id": "gront",
     "player_name": "GRONT",
+    "player_display_name": "GRONT",
+    "aliases": [
+      "GRONT"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 0.0,
@@ -10070,7 +11550,12 @@
     "division": "Other Matches",
     "team": "Chicago SlapDaddys",
     "team_name": "Chicago SlapDaddys",
+    "player_id": "monte",
     "player_name": "Monte",
+    "player_display_name": "Monte",
+    "aliases": [
+      "Monte"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -10104,7 +11589,12 @@
     "division": "Other Matches",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "berm",
     "player_name": "Berm",
+    "player_display_name": "Berm",
+    "aliases": [
+      "Berm"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 0.0,
@@ -10138,7 +11628,12 @@
     "division": "Other Matches",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "deagmeister_slug",
     "player_name": "Deagmeister Slug",
+    "player_display_name": "Deagmeister Slug",
+    "aliases": [
+      "Deagmeister Slug"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -10172,7 +11667,12 @@
     "division": "Other Matches",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "dlew",
     "player_name": "dlew.",
+    "player_display_name": "dlew.",
+    "aliases": [
+      "dlew."
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -10206,7 +11706,12 @@
     "division": "Other Matches",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "sullyman",
     "player_name": "Sullyman",
+    "player_display_name": "Sullyman",
+    "aliases": [
+      "Sullyman"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 0.0,
@@ -10240,7 +11745,12 @@
     "division": "Other Matches",
     "team": "Coaticook Kingpins",
     "team_name": "Coaticook Kingpins",
+    "player_id": "tmoneytom",
     "player_name": "tmoneytom",
+    "player_display_name": "tmoneytom",
+    "aliases": [
+      "tmoneytom"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -10274,7 +11784,12 @@
     "division": "Other Matches",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "chrislol",
     "player_name": "Chrislol",
+    "player_display_name": "Chrislol",
+    "aliases": [
+      "Chrislol"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -10308,7 +11823,12 @@
     "division": "Other Matches",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "rev",
     "player_name": "Rev",
+    "player_display_name": "Rev",
+    "aliases": [
+      "Rev"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -10342,7 +11862,12 @@
     "division": "Other Matches",
     "team": "Copenhagen Cult",
     "team_name": "Copenhagen Cult",
+    "player_id": "xero",
     "player_name": "Xero",
+    "player_display_name": "Xero",
+    "aliases": [
+      "Xero"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -10376,7 +11901,12 @@
     "division": "Other Matches",
     "team": "Florida Goons",
     "team_name": "Florida Goons",
+    "player_id": "commanderhuy_c",
     "player_name": "CommanderHuy [C]",
+    "player_display_name": "CommanderHuy [C]",
+    "aliases": [
+      "CommanderHuy [C]"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -10410,7 +11940,12 @@
     "division": "Other Matches",
     "team": "Florida Goons",
     "team_name": "Florida Goons",
+    "player_id": "flamegrizz",
     "player_name": "Flamegrizz",
+    "player_display_name": "Flamegrizz",
+    "aliases": [
+      "Flamegrizz"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -10444,7 +11979,12 @@
     "division": "Other Matches",
     "team": "Florida Goons",
     "team_name": "Florida Goons",
+    "player_id": "jdall",
     "player_name": "jDall",
+    "player_display_name": "jDall",
+    "aliases": [
+      "jDall"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -10478,7 +12018,12 @@
     "division": "Other Matches",
     "team": "Michigan Mallards",
     "team_name": "Michigan Mallards",
+    "player_id": "blades",
     "player_name": "Blades",
+    "player_display_name": "Blades",
+    "aliases": [
+      "Blades"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -10512,7 +12057,12 @@
     "division": "Other Matches",
     "team": "Michigan Mallards",
     "team_name": "Michigan Mallards",
+    "player_id": "johnboi",
     "player_name": "Johnboi",
+    "player_display_name": "Johnboi",
+    "aliases": [
+      "Johnboi"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -10546,7 +12096,12 @@
     "division": "Other Matches",
     "team": "Michigan Mallards",
     "team_name": "Michigan Mallards",
+    "player_id": "toker",
     "player_name": "toker",
+    "player_display_name": "toker",
+    "aliases": [
+      "toker"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 0.0,
@@ -10580,7 +12135,12 @@
     "division": "Other Matches",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "couture",
     "player_name": "Couture",
+    "player_display_name": "Couture",
+    "aliases": [
+      "Couture"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 0.0,
@@ -10614,7 +12174,12 @@
     "division": "Other Matches",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "spinach",
     "player_name": "Spinach",
+    "player_display_name": "Spinach",
+    "aliases": [
+      "Spinach"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 1.0,
@@ -10648,7 +12213,12 @@
     "division": "Other Matches",
     "team": "Wendake Trappers",
     "team_name": "Wendake Trappers",
+    "player_id": "tim",
     "player_name": "TIM",
+    "player_display_name": "TIM",
+    "aliases": [
+      "TIM"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 0.0,
@@ -10682,7 +12252,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "bolty",
     "player_name": "Bolty",
+    "player_display_name": "Bolty",
+    "aliases": [
+      "Bolty"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 0.0,
@@ -10716,7 +12291,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "derek",
     "player_name": "Derek",
+    "player_display_name": "Derek",
+    "aliases": [
+      "Derek"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 3.0,
@@ -10750,7 +12330,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "doug",
     "player_name": "Doug",
+    "player_display_name": "Doug",
+    "aliases": [
+      "Doug"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 1.0,
@@ -10784,7 +12369,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "kspyre",
     "player_name": "Kspyre",
+    "player_display_name": "Kspyre",
+    "aliases": [
+      "Kspyre"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 5.0,
@@ -10818,7 +12408,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "snail",
     "player_name": "Snail",
+    "player_display_name": "Snail",
+    "aliases": [
+      "Snail"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 2.0,
@@ -10852,7 +12447,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "t_rax",
     "player_name": "T-Rax",
+    "player_display_name": "T-Rax",
+    "aliases": [
+      "T-Rax"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 5.0,
@@ -10886,7 +12486,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "wayne_glensky",
     "player_name": "Wayne Glensky",
+    "player_display_name": "Wayne Glensky",
+    "aliases": [
+      "Wayne Glensky"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 2.0,
@@ -10920,7 +12525,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Napoli Neapolitans",
     "team_name": "Napoli Neapolitans",
+    "player_id": "hero",
     "player_name": "Hero",
+    "player_display_name": "Hero",
+    "aliases": [
+      "Hero"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 5.0,
@@ -10954,7 +12564,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Napoli Neapolitans",
     "team_name": "Napoli Neapolitans",
+    "player_id": "meow",
     "player_name": "Meow",
+    "player_display_name": "Meow",
+    "aliases": [
+      "Meow"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 3.0,
@@ -10988,7 +12603,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Napoli Neapolitans",
     "team_name": "Napoli Neapolitans",
+    "player_id": "noah",
     "player_name": "Noah",
+    "player_display_name": "Noah",
+    "aliases": [
+      "Noah"
+    ],
     "stats": {
       "assists": 8.0,
       "blocks": 7.0,
@@ -11022,7 +12642,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "New Jersey Noobs",
     "team_name": "New Jersey Noobs",
+    "player_id": "brewtl",
     "player_name": "BrewtL",
+    "player_display_name": "BrewtL",
+    "aliases": [
+      "BrewtL"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -11056,7 +12681,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "New Jersey Noobs",
     "team_name": "New Jersey Noobs",
+    "player_id": "ilovefatchicks",
     "player_name": "ILoveFatChicks",
+    "player_display_name": "ILoveFatChicks",
+    "aliases": [
+      "ILoveFatChicks"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 3.0,
@@ -11090,7 +12720,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "New Jersey Noobs",
     "team_name": "New Jersey Noobs",
+    "player_id": "xbingbong",
     "player_name": "X(BingBong)",
+    "player_display_name": "X(BingBong)",
+    "aliases": [
+      "X(BingBong)"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 1.0,
@@ -11124,7 +12759,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Ocean City Typhoons",
     "team_name": "Ocean City Typhoons",
+    "player_id": "flaccidlettuce",
     "player_name": "FlaccidLettuce",
+    "player_display_name": "FlaccidLettuce",
+    "aliases": [
+      "FlaccidLettuce"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 3.0,
@@ -11158,7 +12798,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Ocean City Typhoons",
     "team_name": "Ocean City Typhoons",
+    "player_id": "kajun",
     "player_name": "Kajun",
+    "player_display_name": "Kajun",
+    "aliases": [
+      "Kajun"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 9.0,
@@ -11192,7 +12837,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Ocean City Typhoons",
     "team_name": "Ocean City Typhoons",
+    "player_id": "tee",
     "player_name": "TEE",
+    "player_display_name": "TEE",
+    "aliases": [
+      "TEE"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 0.0,
@@ -11226,7 +12876,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Pittsburgh Vipers",
     "team_name": "Pittsburgh Vipers",
+    "player_id": "christianff",
     "player_name": "ChristianFF",
+    "player_display_name": "ChristianFF",
+    "aliases": [
+      "ChristianFF"
+    ],
     "stats": {
       "assists": 30.0,
       "blocks": 2.0,
@@ -11260,7 +12915,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Pittsburgh Vipers",
     "team_name": "Pittsburgh Vipers",
+    "player_id": "eli",
     "player_name": "Eli",
+    "player_display_name": "Eli",
+    "aliases": [
+      "Eli"
+    ],
     "stats": {
       "blocks": 0.0,
       "faceoffs_lost": 1.0,
@@ -11294,7 +12954,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Pittsburgh Vipers",
     "team_name": "Pittsburgh Vipers",
+    "player_id": "enry",
     "player_name": "Enry",
+    "player_display_name": "Enry",
+    "aliases": [
+      "Enry"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 5.0,
@@ -11328,7 +12993,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Pittsburgh Vipers",
     "team_name": "Pittsburgh Vipers",
+    "player_id": "jahziah",
     "player_name": "Jahziah",
+    "player_display_name": "Jahziah",
+    "aliases": [
+      "Jahziah"
+    ],
     "stats": {
       "assists": 24.0,
       "blocks": 5.0,
@@ -11362,7 +13032,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Plymouth Plague",
     "team_name": "Plymouth Plague",
+    "player_id": "kylar",
     "player_name": "Kylar",
+    "player_display_name": "Kylar",
+    "aliases": [
+      "Kylar"
+    ],
     "stats": {
       "assists": 32.0,
       "blocks": 8.0,
@@ -11396,7 +13071,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Plymouth Plague",
     "team_name": "Plymouth Plague",
+    "player_id": "kyler",
     "player_name": "kyler",
+    "player_display_name": "kyler",
+    "aliases": [
+      "kyler"
+    ],
     "stats": {
       "assists": 17.0,
       "blocks": 11.0,
@@ -11430,7 +13110,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Plymouth Plague",
     "team_name": "Plymouth Plague",
+    "player_id": "milk",
     "player_name": "milk",
+    "player_display_name": "milk",
+    "aliases": [
+      "milk"
+    ],
     "stats": {
       "assists": 22.0,
       "blocks": 3.0,
@@ -11464,7 +13149,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "green",
     "player_name": "Green",
+    "player_display_name": "Green",
+    "aliases": [
+      "Green"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 3.0,
@@ -11498,7 +13188,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "qslvr",
     "player_name": "qslvr",
+    "player_display_name": "qslvr",
+    "aliases": [
+      "qslvr"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 4.0,
@@ -11532,7 +13227,12 @@
     "division": "PRO DIVISION PLAYOFFS",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "wendys_cashier",
     "player_name": "Wendy's Cashier",
+    "player_display_name": "Wendy's Cashier",
+    "aliases": [
+      "Wendy's Cashier"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -11566,7 +13266,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Ocean City Krakens",
     "team_name": "Ocean City Krakens",
+    "player_id": "ajmanboy",
     "player_name": "AJmanboy",
+    "player_display_name": "AJmanboy",
+    "aliases": [
+      "AJmanboy"
+    ],
     "stats": {
       "assists": 18.0,
       "blocks": 7.0,
@@ -11600,7 +13305,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Ocean City Krakens",
     "team_name": "Ocean City Krakens",
+    "player_id": "bangaled",
     "player_name": "Bangaled",
+    "player_display_name": "Bangaled",
+    "aliases": [
+      "Bangaled"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 1.0,
@@ -11634,7 +13344,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Ocean City Krakens",
     "team_name": "Ocean City Krakens",
+    "player_id": "con",
     "player_name": "cON",
+    "player_display_name": "cON",
+    "aliases": [
+      "cON"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 3.0,
@@ -11668,7 +13383,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "cheese",
     "player_name": "Cheese",
+    "player_display_name": "Cheese",
+    "aliases": [
+      "Cheese"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 4.0,
@@ -11702,7 +13422,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "cyoue",
     "player_name": "Cyoue",
+    "player_display_name": "Cyoue",
+    "aliases": [
+      "Cyoue"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 0.0,
@@ -11736,7 +13461,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "kennyt",
     "player_name": "KennyT",
+    "player_display_name": "KennyT",
+    "aliases": [
+      "KennyT"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 1.0,
@@ -11770,7 +13500,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "polamalu119",
     "player_name": "polamalu119",
+    "player_display_name": "polamalu119",
+    "aliases": [
+      "polamalu119"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 2.0,
@@ -11804,7 +13539,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Syracuse Scorpions",
     "team_name": "Syracuse Scorpions",
+    "player_id": "borat",
     "player_name": "Borat",
+    "player_display_name": "Borat",
+    "aliases": [
+      "Borat"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 3.0,
@@ -11838,7 +13578,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Syracuse Scorpions",
     "team_name": "Syracuse Scorpions",
+    "player_id": "cman",
     "player_name": "Cman",
+    "player_display_name": "Cman",
+    "aliases": [
+      "Cman"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 5.0,
@@ -11872,7 +13617,12 @@
     "division": "PRO PROMOTIONAL SERIES",
     "team": "Syracuse Scorpions",
     "team_name": "Syracuse Scorpions",
+    "player_id": "hex",
     "player_name": "hex",
+    "player_display_name": "hex",
+    "aliases": [
+      "hex"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 1.0,
@@ -11906,7 +13656,12 @@
     "division": "Pro Division",
     "team": "Kingston Caribou",
     "team_name": "Kingston Caribou",
+    "player_id": "panarin",
     "player_name": "Panarin",
+    "player_display_name": "Panarin",
+    "aliases": [
+      "Panarin"
+    ],
     "stats": {
       "assists": 17.0,
       "blocks": 18.0,
@@ -11940,7 +13695,12 @@
     "division": "Pro Division",
     "team": "Kingston Caribou",
     "team_name": "Kingston Caribou",
+    "player_id": "ridge",
     "player_name": "Ridge",
+    "player_display_name": "Ridge",
+    "aliases": [
+      "Ridge"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 5.0,
@@ -11974,7 +13734,12 @@
     "division": "Pro Division",
     "team": "Kingston Caribou",
     "team_name": "Kingston Caribou",
+    "player_id": "rodeo",
     "player_name": "Rodeo",
+    "player_display_name": "Rodeo",
+    "aliases": [
+      "Rodeo"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 2.0,
@@ -12008,7 +13773,12 @@
     "division": "Pro Division",
     "team": "Kingston Caribou",
     "team_name": "Kingston Caribou",
+    "player_id": "romminator",
     "player_name": "Romminator",
+    "player_display_name": "Romminator",
+    "aliases": [
+      "Romminator"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 3.0,
@@ -12042,7 +13812,12 @@
     "division": "Pro Division",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "bolty",
     "player_name": "Bolty",
+    "player_display_name": "Bolty",
+    "aliases": [
+      "Bolty"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 8.0,
@@ -12076,7 +13851,12 @@
     "division": "Pro Division",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "derek",
     "player_name": "Derek",
+    "player_display_name": "Derek",
+    "aliases": [
+      "Derek"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 21.0,
@@ -12110,7 +13890,12 @@
     "division": "Pro Division",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "doug",
     "player_name": "Doug",
+    "player_display_name": "Doug",
+    "aliases": [
+      "Doug"
+    ],
     "stats": {
       "assists": 29.0,
       "blocks": 16.0,
@@ -12144,7 +13929,12 @@
     "division": "Pro Division",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "kspyre",
     "player_name": "Kspyre",
+    "player_display_name": "Kspyre",
+    "aliases": [
+      "Kspyre"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 14.0,
@@ -12178,7 +13968,12 @@
     "division": "Pro Division",
     "team": "Los Angeles Comets",
     "team_name": "Los Angeles Comets",
+    "player_id": "lafftrakk",
     "player_name": "LaffTrakk",
+    "player_display_name": "LaffTrakk",
+    "aliases": [
+      "LaffTrakk"
+    ],
     "stats": {
       "assists": 10.0,
       "blocks": 1.0,
@@ -12212,7 +14007,12 @@
     "division": "Pro Division",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "renard",
     "player_name": "Renard_",
+    "player_display_name": "Renard_",
+    "aliases": [
+      "Renard_"
+    ],
     "stats": {
       "assists": 22.0,
       "blocks": 3.0,
@@ -12246,7 +14046,12 @@
     "division": "Pro Division",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "scodz",
     "player_name": "scodz",
+    "player_display_name": "scodz",
+    "aliases": [
+      "scodz"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 1.0,
@@ -12280,7 +14085,12 @@
     "division": "Pro Division",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "snail",
     "player_name": "Snail",
+    "player_display_name": "Snail",
+    "aliases": [
+      "Snail"
+    ],
     "stats": {
       "assists": 28.0,
       "blocks": 14.0,
@@ -12314,7 +14124,12 @@
     "division": "Pro Division",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "t_rax",
     "player_name": "T-Rax",
+    "player_display_name": "T-Rax",
+    "aliases": [
+      "T-Rax"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 6.0,
@@ -12348,7 +14163,12 @@
     "division": "Pro Division",
     "team": "Montreal Popes",
     "team_name": "Montreal Popes",
+    "player_id": "wayne_glensky",
     "player_name": "Wayne Glensky",
+    "player_display_name": "Wayne Glensky",
+    "aliases": [
+      "Wayne Glensky"
+    ],
     "stats": {
       "assists": 29.0,
       "blocks": 15.0,
@@ -12382,7 +14202,12 @@
     "division": "Pro Division",
     "team": "Napoli Neapolitans",
     "team_name": "Napoli Neapolitans",
+    "player_id": "cloudii",
     "player_name": "Cloudii",
+    "player_display_name": "Cloudii",
+    "aliases": [
+      "Cloudii"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 0.0,
@@ -12416,7 +14241,12 @@
     "division": "Pro Division",
     "team": "Napoli Neapolitans",
     "team_name": "Napoli Neapolitans",
+    "player_id": "hero",
     "player_name": "Hero",
+    "player_display_name": "Hero",
+    "aliases": [
+      "Hero"
+    ],
     "stats": {
       "assists": 35.0,
       "blocks": 4.0,
@@ -12450,7 +14280,12 @@
     "division": "Pro Division",
     "team": "Napoli Neapolitans",
     "team_name": "Napoli Neapolitans",
+    "player_id": "meow",
     "player_name": "Meow",
+    "player_display_name": "Meow",
+    "aliases": [
+      "Meow"
+    ],
     "stats": {
       "assists": 45.0,
       "blocks": 33.0,
@@ -12484,7 +14319,12 @@
     "division": "Pro Division",
     "team": "Napoli Neapolitans",
     "team_name": "Napoli Neapolitans",
+    "player_id": "noah",
     "player_name": "Noah",
+    "player_display_name": "Noah",
+    "aliases": [
+      "Noah"
+    ],
     "stats": {
       "assists": 42.0,
       "blocks": 26.0,
@@ -12518,7 +14358,12 @@
     "division": "Pro Division",
     "team": "New Jersey Noobs",
     "team_name": "New Jersey Noobs",
+    "player_id": "brewtl",
     "player_name": "BrewtL",
+    "player_display_name": "BrewtL",
+    "aliases": [
+      "BrewtL"
+    ],
     "stats": {
       "assists": 33.0,
       "blocks": 18.0,
@@ -12552,7 +14397,12 @@
     "division": "Pro Division",
     "team": "New Jersey Noobs",
     "team_name": "New Jersey Noobs",
+    "player_id": "ilovefatchicks",
     "player_name": "ILoveFatChicks",
+    "player_display_name": "ILoveFatChicks",
+    "aliases": [
+      "ILoveFatChicks"
+    ],
     "stats": {
       "assists": 32.0,
       "blocks": 20.0,
@@ -12586,7 +14436,12 @@
     "division": "Pro Division",
     "team": "New Jersey Noobs",
     "team_name": "New Jersey Noobs",
+    "player_id": "xbingbong",
     "player_name": "X(BingBong)",
+    "player_display_name": "X(BingBong)",
+    "aliases": [
+      "X(BingBong)"
+    ],
     "stats": {
       "assists": 24.0,
       "blocks": 20.0,
@@ -12620,7 +14475,12 @@
     "division": "Pro Division",
     "team": "Ocean City Typhoons",
     "team_name": "Ocean City Typhoons",
+    "player_id": "flaccidlettuce",
     "player_name": "FlaccidLettuce",
+    "player_display_name": "FlaccidLettuce",
+    "aliases": [
+      "FlaccidLettuce"
+    ],
     "stats": {
       "assists": 37.0,
       "blocks": 14.0,
@@ -12654,7 +14514,12 @@
     "division": "Pro Division",
     "team": "Ocean City Typhoons",
     "team_name": "Ocean City Typhoons",
+    "player_id": "kajun",
     "player_name": "Kajun",
+    "player_display_name": "Kajun",
+    "aliases": [
+      "Kajun"
+    ],
     "stats": {
       "assists": 50.0,
       "blocks": 24.0,
@@ -12688,7 +14553,12 @@
     "division": "Pro Division",
     "team": "Ocean City Typhoons",
     "team_name": "Ocean City Typhoons",
+    "player_id": "spectacular333",
     "player_name": "spectacular333",
+    "player_display_name": "spectacular333",
+    "aliases": [
+      "spectacular333"
+    ],
     "stats": {
       "assists": 19.0,
       "blocks": 2.0,
@@ -12722,7 +14592,12 @@
     "division": "Pro Division",
     "team": "Ocean City Typhoons",
     "team_name": "Ocean City Typhoons",
+    "player_id": "tee",
     "player_name": "TEE",
+    "player_display_name": "TEE",
+    "aliases": [
+      "TEE"
+    ],
     "stats": {
       "assists": 29.0,
       "blocks": 3.0,
@@ -12756,7 +14631,12 @@
     "division": "Pro Division",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "cheese",
     "player_name": "Cheese",
+    "player_display_name": "Cheese",
+    "aliases": [
+      "Cheese"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 23.0,
@@ -12790,7 +14670,12 @@
     "division": "Pro Division",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "cyoue",
     "player_name": "Cyoue",
+    "player_display_name": "Cyoue",
+    "aliases": [
+      "Cyoue"
+    ],
     "stats": {
       "assists": 18.0,
       "blocks": 14.0,
@@ -12824,7 +14709,12 @@
     "division": "Pro Division",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "kennyt",
     "player_name": "KennyT",
+    "player_display_name": "KennyT",
+    "aliases": [
+      "KennyT"
+    ],
     "stats": {
       "assists": 18.0,
       "blocks": 11.0,
@@ -12858,7 +14748,12 @@
     "division": "Pro Division",
     "team": "Pittsburgh Spinners",
     "team_name": "Pittsburgh Spinners",
+    "player_id": "polamalu119",
     "player_name": "polamalu119",
+    "player_display_name": "polamalu119",
+    "aliases": [
+      "polamalu119"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 7.0,
@@ -12892,7 +14787,12 @@
     "division": "Pro Division",
     "team": "Pittsburgh Vipers",
     "team_name": "Pittsburgh Vipers",
+    "player_id": "christianff",
     "player_name": "ChristianFF",
+    "player_display_name": "ChristianFF",
+    "aliases": [
+      "ChristianFF"
+    ],
     "stats": {
       "assists": 62.0,
       "blocks": 4.0,
@@ -12926,7 +14826,12 @@
     "division": "Pro Division",
     "team": "Pittsburgh Vipers",
     "team_name": "Pittsburgh Vipers",
+    "player_id": "enry",
     "player_name": "Enry",
+    "player_display_name": "Enry",
+    "aliases": [
+      "Enry"
+    ],
     "stats": {
       "assists": 81.0,
       "blocks": 20.0,
@@ -12960,7 +14865,12 @@
     "division": "Pro Division",
     "team": "Pittsburgh Vipers",
     "team_name": "Pittsburgh Vipers",
+    "player_id": "jahziah",
     "player_name": "Jahziah",
+    "player_display_name": "Jahziah",
+    "aliases": [
+      "Jahziah"
+    ],
     "stats": {
       "assists": 47.0,
       "blocks": 9.0,
@@ -12994,7 +14904,12 @@
     "division": "Pro Division",
     "team": "Plymouth Plague",
     "team_name": "Plymouth Plague",
+    "player_id": "blue",
     "player_name": "Blue",
+    "player_display_name": "Blue",
+    "aliases": [
+      "Blue"
+    ],
     "stats": {
       "assists": 0.0,
       "blocks": 2.0,
@@ -13028,7 +14943,12 @@
     "division": "Pro Division",
     "team": "Plymouth Plague",
     "team_name": "Plymouth Plague",
+    "player_id": "kylar",
     "player_name": "Kylar",
+    "player_display_name": "Kylar",
+    "aliases": [
+      "Kylar"
+    ],
     "stats": {
       "assists": 40.0,
       "blocks": 16.0,
@@ -13062,7 +14982,12 @@
     "division": "Pro Division",
     "team": "Plymouth Plague",
     "team_name": "Plymouth Plague",
+    "player_id": "kyler",
     "player_name": "kyler",
+    "player_display_name": "kyler",
+    "aliases": [
+      "kyler"
+    ],
     "stats": {
       "assists": 24.0,
       "blocks": 11.0,
@@ -13096,7 +15021,12 @@
     "division": "Pro Division",
     "team": "Plymouth Plague",
     "team_name": "Plymouth Plague",
+    "player_id": "milk",
     "player_name": "milk",
+    "player_display_name": "milk",
+    "aliases": [
+      "milk"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 1.0,
@@ -13130,7 +15060,12 @@
     "division": "Pro Division",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "a_rambome_player",
     "player_name": "A Rambome Player",
+    "player_display_name": "A Rambome Player",
+    "aliases": [
+      "A Rambome Player"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 4.0,
@@ -13164,7 +15099,12 @@
     "division": "Pro Division",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "baumz",
     "player_name": "Baumz",
+    "player_display_name": "Baumz",
+    "aliases": [
+      "Baumz"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 3.0,
@@ -13198,7 +15138,12 @@
     "division": "Pro Division",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "green",
     "player_name": "Green",
+    "player_display_name": "Green",
+    "aliases": [
+      "Green"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 5.0,
@@ -13232,7 +15177,12 @@
     "division": "Pro Division",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "qslvr",
     "player_name": "qslvr",
+    "player_display_name": "qslvr",
+    "aliases": [
+      "qslvr"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 7.0,
@@ -13266,7 +15216,12 @@
     "division": "Pro Division",
     "team": "Yosemite Grizzlies",
     "team_name": "Yosemite Grizzlies",
+    "player_id": "wendys_cashier",
     "player_name": "Wendy's Cashier",
+    "player_display_name": "Wendy's Cashier",
+    "aliases": [
+      "Wendy's Cashier"
+    ],
     "stats": {
       "assists": 9.0,
       "blocks": 11.0,
@@ -13300,7 +15255,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "Halifax Hydras",
     "team_name": "Halifax Hydras",
+    "player_id": "doug",
     "player_name": "Doug",
+    "player_display_name": "Doug",
+    "aliases": [
+      "Doug"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 1.0,
@@ -13334,7 +15294,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "Halifax Hydras",
     "team_name": "Halifax Hydras",
+    "player_id": "kajun",
     "player_name": "Kajun",
+    "player_display_name": "Kajun",
+    "aliases": [
+      "Kajun"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 4.0,
@@ -13368,7 +15333,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "Halifax Hydras",
     "team_name": "Halifax Hydras",
+    "player_id": "stub_hub",
     "player_name": "Stub Hub",
+    "player_display_name": "Stub Hub",
+    "aliases": [
+      "Stub Hub"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 1.0,
@@ -13402,7 +15372,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "barbeque",
     "player_name": "Barbeque",
+    "player_display_name": "Barbeque",
+    "aliases": [
+      "Barbeque"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 2.0,
@@ -13437,7 +15412,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "derangedtoad",
     "player_name": "DerangedToad",
+    "player_display_name": "DerangedToad",
+    "aliases": [
+      "DerangedToad"
+    ],
     "stats": {
       "assists": 19.0,
       "blocks": 4.0,
@@ -13471,7 +15451,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "fueeqo",
     "player_name": "fueeqo",
+    "player_display_name": "fueeqo",
+    "aliases": [
+      "fueeqo"
+    ],
     "stats": {
       "assists": 11.0,
       "blocks": 3.0,
@@ -13506,7 +15491,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "graves",
     "player_name": "Graves",
+    "player_display_name": "Graves",
+    "aliases": [
+      "Graves"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 4.0,
@@ -13541,7 +15531,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "San Diego Sentinels",
     "team_name": "San Diego Sentinels",
+    "player_id": "babu_frigg",
     "player_name": "Babu Frigg",
+    "player_display_name": "Babu Frigg",
+    "aliases": [
+      "Babu Frigg"
+    ],
     "stats": {
       "assists": 4.0,
       "blocks": 2.0,
@@ -13576,7 +15571,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "San Diego Sentinels",
     "team_name": "San Diego Sentinels",
+    "player_id": "blue",
     "player_name": "Blue",
+    "player_display_name": "Blue",
+    "aliases": [
+      "Blue"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 9.0,
@@ -13611,7 +15611,12 @@
     "division": "WEST DIVISION PLAYOFFS",
     "team": "San Diego Sentinels",
     "team_name": "San Diego Sentinels",
+    "player_id": "dynasty",
     "player_name": "Dynasty",
+    "player_display_name": "Dynasty",
+    "aliases": [
+      "Dynasty"
+    ],
     "stats": {
       "assists": 3.0,
       "blocks": 2.0,
@@ -13646,7 +15651,12 @@
     "division": "West Division",
     "team": "Denver Cutthroats - West",
     "team_name": "Denver Cutthroats - West",
+    "player_id": "kyler",
     "player_name": "kyler",
+    "player_display_name": "kyler",
+    "aliases": [
+      "kyler"
+    ],
     "stats": {
       "assists": 1.0,
       "blocks": 3.0,
@@ -13680,7 +15690,12 @@
     "division": "West Division",
     "team": "Denver Cutthroats - West",
     "team_name": "Denver Cutthroats - West",
+    "player_id": "rat",
     "player_name": "Rat",
+    "player_display_name": "Rat",
+    "aliases": [
+      "Rat"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 16.0,
@@ -13714,7 +15729,12 @@
     "division": "West Division",
     "team": "Denver Cutthroats - West",
     "team_name": "Denver Cutthroats - West",
+    "player_id": "wade",
     "player_name": "Wade",
+    "player_display_name": "Wade",
+    "aliases": [
+      "Wade"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 7.0,
@@ -13748,7 +15768,12 @@
     "division": "West Division",
     "team": "Denver Cutthroats - West",
     "team_name": "Denver Cutthroats - West",
+    "player_id": "ymisscarab",
     "player_name": "YmisScarab",
+    "player_display_name": "YmisScarab",
+    "aliases": [
+      "YmisScarab"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 18.0,
@@ -13782,7 +15807,12 @@
     "division": "West Division",
     "team": "Glendale Gardeners",
     "team_name": "Glendale Gardeners",
+    "player_id": "cabbagefarmer",
     "player_name": "CabbageFarmer",
+    "player_display_name": "CabbageFarmer",
+    "aliases": [
+      "CabbageFarmer"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 9.0,
@@ -13816,7 +15846,12 @@
     "division": "West Division",
     "team": "Glendale Gardeners",
     "team_name": "Glendale Gardeners",
+    "player_id": "damoni",
     "player_name": "damoni",
+    "player_display_name": "damoni",
+    "aliases": [
+      "damoni"
+    ],
     "stats": {
       "assists": 12.0,
       "blocks": 11.0,
@@ -13850,7 +15885,12 @@
     "division": "West Division",
     "team": "Glendale Gardeners",
     "team_name": "Glendale Gardeners",
+    "player_id": "davies301",
     "player_name": "Davies301",
+    "player_display_name": "Davies301",
+    "aliases": [
+      "Davies301"
+    ],
     "stats": {
       "assists": 19.0,
       "blocks": 15.0,
@@ -13884,7 +15924,12 @@
     "division": "West Division",
     "team": "Glendale Gardeners",
     "team_name": "Glendale Gardeners",
+    "player_id": "zoink",
     "player_name": "Zoink",
+    "player_display_name": "Zoink",
+    "aliases": [
+      "Zoink"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 5.0,
@@ -13918,7 +15963,12 @@
     "division": "West Division",
     "team": "Halifax Hydras",
     "team_name": "Halifax Hydras",
+    "player_id": "doug",
     "player_name": "Doug",
+    "player_display_name": "Doug",
+    "aliases": [
+      "Doug"
+    ],
     "stats": {
       "assists": 14.0,
       "blocks": 3.0,
@@ -13952,7 +16002,12 @@
     "division": "West Division",
     "team": "Halifax Hydras",
     "team_name": "Halifax Hydras",
+    "player_id": "headass",
     "player_name": "Headass",
+    "player_display_name": "Headass",
+    "aliases": [
+      "Headass"
+    ],
     "stats": {
       "assists": 25.0,
       "blocks": 3.0,
@@ -13986,7 +16041,12 @@
     "division": "West Division",
     "team": "Halifax Hydras",
     "team_name": "Halifax Hydras",
+    "player_id": "kajun",
     "player_name": "Kajun",
+    "player_display_name": "Kajun",
+    "aliases": [
+      "Kajun"
+    ],
     "stats": {
       "assists": 35.0,
       "blocks": 28.0,
@@ -14020,7 +16080,12 @@
     "division": "West Division",
     "team": "Halifax Hydras",
     "team_name": "Halifax Hydras",
+    "player_id": "stub_hub",
     "player_name": "Stub Hub",
+    "player_display_name": "Stub Hub",
+    "aliases": [
+      "Stub Hub"
+    ],
     "stats": {
       "assists": 28.0,
       "blocks": 10.0,
@@ -14054,7 +16119,12 @@
     "division": "West Division",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "barbeque",
     "player_name": "Barbeque",
+    "player_display_name": "Barbeque",
+    "aliases": [
+      "Barbeque"
+    ],
     "stats": {
       "assists": 51.0,
       "blocks": 7.0,
@@ -14088,7 +16158,12 @@
     "division": "West Division",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "derangedtoad",
     "player_name": "DerangedToad",
+    "player_display_name": "DerangedToad",
+    "aliases": [
+      "DerangedToad"
+    ],
     "stats": {
       "assists": 58.0,
       "blocks": 20.0,
@@ -14122,7 +16197,12 @@
     "division": "West Division",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "fueeqo",
     "player_name": "fueeqo",
+    "player_display_name": "fueeqo",
+    "aliases": [
+      "fueeqo"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 3.0,
@@ -14156,7 +16236,12 @@
     "division": "West Division",
     "team": "Malibu Moguls",
     "team_name": "Malibu Moguls",
+    "player_id": "graves",
     "player_name": "Graves",
+    "player_display_name": "Graves",
+    "aliases": [
+      "Graves"
+    ],
     "stats": {
       "assists": 34.0,
       "blocks": 2.0,
@@ -14190,7 +16275,12 @@
     "division": "West Division",
     "team": "Oregon Capybaras - west",
     "team_name": "Oregon Capybaras - west",
+    "player_id": "carried_by_dad",
     "player_name": "Carried by Dad",
+    "player_display_name": "Carried by Dad",
+    "aliases": [
+      "Carried by Dad"
+    ],
     "stats": {
       "assists": 16.0,
       "blocks": 6.0,
@@ -14224,7 +16314,12 @@
     "division": "West Division",
     "team": "Oregon Capybaras - west",
     "team_name": "Oregon Capybaras - west",
+    "player_id": "curt",
     "player_name": "Curt",
+    "player_display_name": "Curt",
+    "aliases": [
+      "Curt"
+    ],
     "stats": {
       "assists": 26.0,
       "blocks": 15.0,
@@ -14258,7 +16353,12 @@
     "division": "West Division",
     "team": "Oregon Capybaras - west",
     "team_name": "Oregon Capybaras - west",
+    "player_id": "laggz",
     "player_name": "Laggz",
+    "player_display_name": "Laggz",
+    "aliases": [
+      "Laggz"
+    ],
     "stats": {
       "assists": 37.0,
       "blocks": 13.0,
@@ -14292,7 +16392,12 @@
     "division": "West Division",
     "team": "Oregon Capybaras - west",
     "team_name": "Oregon Capybaras - west",
+    "player_id": "wiki",
     "player_name": "Wiki",
+    "player_display_name": "Wiki",
+    "aliases": [
+      "Wiki"
+    ],
     "stats": {
       "assists": 15.0,
       "blocks": 2.0,
@@ -14326,7 +16431,12 @@
     "division": "West Division",
     "team": "San Diego Sentinels",
     "team_name": "San Diego Sentinels",
+    "player_id": "babu_frigg",
     "player_name": "Babu Frigg",
+    "player_display_name": "Babu Frigg",
+    "aliases": [
+      "Babu Frigg"
+    ],
     "stats": {
       "assists": 24.0,
       "blocks": 7.0,
@@ -14360,7 +16470,12 @@
     "division": "West Division",
     "team": "San Diego Sentinels",
     "team_name": "San Diego Sentinels",
+    "player_id": "blue",
     "player_name": "Blue",
+    "player_display_name": "Blue",
+    "aliases": [
+      "Blue"
+    ],
     "stats": {
       "assists": 38.0,
       "blocks": 22.0,
@@ -14394,7 +16509,12 @@
     "division": "West Division",
     "team": "San Diego Sentinels",
     "team_name": "San Diego Sentinels",
+    "player_id": "deezy",
     "player_name": "DeeZy",
+    "player_display_name": "DeeZy",
+    "aliases": [
+      "DeeZy"
+    ],
     "stats": {
       "assists": 23.0,
       "blocks": 5.0,
@@ -14428,7 +16548,12 @@
     "division": "West Division",
     "team": "San Diego Sentinels",
     "team_name": "San Diego Sentinels",
+    "player_id": "dynasty",
     "player_name": "Dynasty",
+    "player_display_name": "Dynasty",
+    "aliases": [
+      "Dynasty"
+    ],
     "stats": {
       "assists": 31.0,
       "blocks": 5.0,
@@ -14462,7 +16587,12 @@
     "division": "West Division",
     "team": "Vancouver Island Marmots",
     "team_name": "Vancouver Island Marmots",
+    "player_id": "cole",
     "player_name": "Cole",
+    "player_display_name": "Cole",
+    "aliases": [
+      "Cole"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 3.0,
@@ -14496,7 +16626,12 @@
     "division": "West Division",
     "team": "Vancouver Island Marmots",
     "team_name": "Vancouver Island Marmots",
+    "player_id": "darthtaksil",
     "player_name": "DarthTaksil",
+    "player_display_name": "DarthTaksil",
+    "aliases": [
+      "DarthTaksil"
+    ],
     "stats": {
       "assists": 7.0,
       "blocks": 12.0,
@@ -14530,7 +16665,12 @@
     "division": "West Division",
     "team": "Vancouver Island Marmots",
     "team_name": "Vancouver Island Marmots",
+    "player_id": "jstronix",
     "player_name": "jsTronix",
+    "player_display_name": "jsTronix",
+    "aliases": [
+      "jsTronix"
+    ],
     "stats": {
       "assists": 21.0,
       "blocks": 14.0,
@@ -14564,7 +16704,12 @@
     "division": "West Division",
     "team": "Vancouver Island Marmots",
     "team_name": "Vancouver Island Marmots",
+    "player_id": "kingjonald",
     "player_name": "KingJonald",
+    "player_display_name": "KingJonald",
+    "aliases": [
+      "KingJonald"
+    ],
     "stats": {
       "assists": 13.0,
       "blocks": 17.0,
@@ -14598,7 +16743,12 @@
     "division": "West Division",
     "team": "Vancouver Island Marmots",
     "team_name": "Vancouver Island Marmots",
+    "player_id": "pediatric_patrick",
     "player_name": "Pediatric Patrick",
+    "player_display_name": "Pediatric Patrick",
+    "aliases": [
+      "Pediatric Patrick"
+    ],
     "stats": {
       "assists": 2.0,
       "blocks": 2.0,
@@ -14632,7 +16782,12 @@
     "division": "West Division",
     "team": "Vancouver Island Marmots",
     "team_name": "Vancouver Island Marmots",
+    "player_id": "snail",
     "player_name": "Snail",
+    "player_display_name": "Snail",
+    "aliases": [
+      "Snail"
+    ],
     "stats": {
       "assists": 5.0,
       "blocks": 2.0,
@@ -14666,7 +16821,12 @@
     "division": "West Division",
     "team": "Vancouver Island Marmots",
     "team_name": "Vancouver Island Marmots",
+    "player_id": "tylerexe",
     "player_name": "tyler.exe",
+    "player_display_name": "tyler.exe",
+    "aliases": [
+      "tyler.exe"
+    ],
     "stats": {
       "assists": 6.0,
       "blocks": 3.0,

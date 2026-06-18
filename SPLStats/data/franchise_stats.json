@@ -1161,13 +1161,13 @@
     ],
     "team_totals": {
       "teams": 40,
-      "games_played": 1467,
-      "wins": 712,
-      "losses": 754,
-      "goals_for": 9173,
-      "goals_against": 9412,
-      "goal_differential": -239,
-      "win_percent": 0.485,
+      "games_played": 1478,
+      "wins": 718,
+      "losses": 759,
+      "goals_for": 9235,
+      "goals_against": 9466,
+      "goal_differential": -231,
+      "win_percent": 0.486,
       "seasons": 18
     },
     "team_records": {
@@ -1180,8 +1180,8 @@
         "value": 128
       },
       "best_win_percent": {
-        "team": "Michigan Magic",
-        "value": 0.889
+        "team": "Portillo's Italian Beefs",
+        "value": 0.875
       },
       "most_goals_for": {
         "team": "Ottawa Valley Puck Slappers",
@@ -1189,7 +1189,7 @@
       },
       "fewest_goals_against": {
         "team": "Portillo's Italian Beefs",
-        "value": 43
+        "value": 54
       },
       "best_goal_differential": {
         "team": "Ottawa Valley Post Dingers",
@@ -1417,13 +1417,13 @@
       },
       {
         "team": "Michigan Magic",
-        "games_played": 18,
-        "wins": 16,
-        "losses": 2,
-        "goals_for": 184,
-        "goals_against": 91,
-        "goal_differential": 93,
-        "win_percent": 0.889,
+        "games_played": 23,
+        "wins": 19,
+        "losses": 4,
+        "goals_for": 220,
+        "goals_against": 119,
+        "goal_differential": 101,
+        "win_percent": 0.826,
         "seasons": [
           "spring_2026"
         ],
@@ -1581,13 +1581,13 @@
       },
       {
         "team": "Portillo's Italian Beefs",
-        "games_played": 13,
-        "wins": 11,
+        "games_played": 16,
+        "wins": 14,
         "losses": 2,
-        "goals_for": 119,
-        "goals_against": 43,
-        "goal_differential": 76,
-        "win_percent": 0.846,
+        "goals_for": 134,
+        "goals_against": 54,
+        "goal_differential": 80,
+        "win_percent": 0.875,
         "seasons": [
           "spring_2026"
         ],
@@ -1661,13 +1661,13 @@
       },
       {
         "team": "Michigan Malus",
-        "games_played": 18,
+        "games_played": 21,
         "wins": 15,
-        "losses": 3,
-        "goals_for": 144,
-        "goals_against": 88,
-        "goal_differential": 56,
-        "win_percent": 0.833,
+        "losses": 6,
+        "goals_for": 155,
+        "goals_against": 103,
+        "goal_differential": 52,
+        "win_percent": 0.714,
         "seasons": [
           "spring_2026"
         ],
@@ -2151,30 +2151,30 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 7571.0,
-          "blocks": 22911.0,
-          "faceoffs_lost": 10676.0,
-          "faceoffs_won": 11001.0,
-          "goals": 9173.0,
-          "passes": 82934.0,
-          "periods_played": 12361.0,
-          "points": 16744.0,
-          "possession_time_sec": 172113.0,
-          "post_hits": 3976.0,
-          "primary_assists": 6225.0,
-          "saves": 10963.0,
-          "secondary_assists": 1361.0,
-          "shots": 20047.0,
-          "takeaways": 16841.0,
-          "turnovers": 16802.0,
-          "goals_against": 32386.0,
-          "shots_against": 70034.0,
-          "games_played": 5057.0,
-          "faceoffs_total": 21677.0,
-          "shot_percent": 45.76,
-          "save_percent": 15.65,
-          "gaa": 6.4,
-          "faceoff_win_percent": 50.75
+          "assists": 7623.0,
+          "blocks": 23097.0,
+          "faceoffs_lost": 10754.0,
+          "faceoffs_won": 11059.0,
+          "goals": 9235.0,
+          "passes": 83665.0,
+          "periods_played": 12460.0,
+          "points": 16858.0,
+          "possession_time_sec": 173673.0,
+          "post_hits": 4005.0,
+          "primary_assists": 6265.0,
+          "saves": 11075.0,
+          "secondary_assists": 1373.0,
+          "shots": 20211.0,
+          "takeaways": 17004.0,
+          "turnovers": 16925.0,
+          "goals_against": 32554.0,
+          "shots_against": 70543.0,
+          "games_played": 5091.0,
+          "faceoffs_total": 21813.0,
+          "shot_percent": 45.69,
+          "save_percent": 15.7,
+          "gaa": 6.39,
+          "faceoff_win_percent": 50.7
         },
         "leaders": {
           "goals": [
@@ -2192,7 +2192,7 @@
             },
             {
               "player_name": "Tweek",
-              "value": 277.0
+              "value": 294.0
             },
             {
               "player_name": "Troy Bolton",
@@ -2218,7 +2218,7 @@
             },
             {
               "player_name": "Chaos",
-              "value": 172.0
+              "value": 188.0
             }
           ],
           "points": [
@@ -2240,7 +2240,7 @@
             },
             {
               "player_name": "Tweek",
-              "value": 409.0
+              "value": 432.0
             }
           ],
           "shots": [
@@ -2262,7 +2262,7 @@
             },
             {
               "player_name": "Tweek",
-              "value": 539.0
+              "value": 571.0
             }
           ],
           "takeaways": [
@@ -2284,7 +2284,7 @@
             },
             {
               "player_name": "Chaos",
-              "value": 406.0
+              "value": 478.0
             }
           ],
           "saves": [
@@ -2305,8 +2305,8 @@
               "value": 331.0
             },
             {
-              "player_name": "Hammertime9000",
-              "value": 260.0
+              "player_name": "Chaos",
+              "value": 283.0
             }
           ],
           "blocks": [
@@ -2333,12 +2333,12 @@
           ],
           "faceoff_percent": [
             {
-              "player_name": "Graves",
-              "value": 69.67
-            },
-            {
               "player_name": "Camp",
               "value": 68.42
+            },
+            {
+              "player_name": "Graves",
+              "value": 66.91
             },
             {
               "player_name": "trevwings",
@@ -3434,13 +3434,13 @@
     ],
     "team_totals": {
       "teams": 25,
-      "games_played": 718,
-      "wins": 363,
-      "losses": 352,
-      "goals_for": 4562,
-      "goals_against": 4554,
-      "goal_differential": 8,
-      "win_percent": 0.506,
+      "games_played": 723,
+      "wins": 365,
+      "losses": 355,
+      "goals_for": 4590,
+      "goals_against": 4590,
+      "goal_differential": 0,
+      "win_percent": 0.505,
       "seasons": 5
     },
     "team_records": {
@@ -3465,8 +3465,8 @@
         "value": 49
       },
       "best_goal_differential": {
-        "team": "Vader Bens",
-        "value": 124
+        "team": "Vader Voltage - Central",
+        "value": 123
       }
     },
     "team_rows": [
@@ -3695,13 +3695,13 @@
       },
       {
         "team": "Vader Bens",
-        "games_played": 36,
-        "wins": 26,
-        "losses": 10,
-        "goals_for": 311,
-        "goals_against": 187,
-        "goal_differential": 124,
-        "win_percent": 0.722,
+        "games_played": 41,
+        "wins": 28,
+        "losses": 13,
+        "goals_for": 339,
+        "goals_against": 223,
+        "goal_differential": 116,
+        "win_percent": 0.683,
         "seasons": [
           "winter_2026",
           "spring_2026"
@@ -4152,30 +4152,30 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3881.0,
-          "blocks": 14063.0,
-          "faceoffs_lost": 5461.0,
-          "faceoffs_won": 5119.0,
-          "goals": 4562.0,
-          "passes": 40844.0,
-          "periods_played": 6309.0,
-          "points": 8443.0,
-          "possession_time_sec": 79791.0,
-          "post_hits": 1892.0,
-          "primary_assists": 3115.0,
-          "saves": 5326.0,
-          "secondary_assists": 768.0,
-          "shots": 9767.0,
-          "takeaways": 7316.0,
-          "turnovers": 8154.0,
-          "goals_against": 15010.0,
-          "shots_against": 32804.0,
-          "games_played": 2373.0,
-          "faceoffs_total": 10580.0,
-          "shot_percent": 46.71,
-          "save_percent": 16.24,
+          "assists": 3911.0,
+          "blocks": 14155.0,
+          "faceoffs_lost": 5488.0,
+          "faceoffs_won": 5166.0,
+          "goals": 4590.0,
+          "passes": 41315.0,
+          "periods_played": 6354.0,
+          "points": 8501.0,
+          "possession_time_sec": 80587.0,
+          "post_hits": 1913.0,
+          "primary_assists": 3136.0,
+          "saves": 5377.0,
+          "secondary_assists": 777.0,
+          "shots": 9856.0,
+          "takeaways": 7360.0,
+          "turnovers": 8237.0,
+          "goals_against": 15118.0,
+          "shots_against": 33065.0,
+          "games_played": 2388.0,
+          "faceoffs_total": 10654.0,
+          "shot_percent": 46.57,
+          "save_percent": 16.26,
           "gaa": 6.33,
-          "faceoff_win_percent": 48.38
+          "faceoff_win_percent": 48.49
         },
         "leaders": {
           "goals": [
@@ -4193,7 +4193,7 @@
             },
             {
               "player_name": "Lucki",
-              "value": 237.0
+              "value": 241.0
             },
             {
               "player_name": "Galalendon",
@@ -4203,7 +4203,7 @@
           "assists": [
             {
               "player_name": "Lucki",
-              "value": 327.0
+              "value": 341.0
             },
             {
               "player_name": "Galalendon",
@@ -4229,7 +4229,7 @@
             },
             {
               "player_name": "Lucki",
-              "value": 564.0
+              "value": 582.0
             },
             {
               "player_name": "Filip Chytil Stan",
@@ -4251,7 +4251,7 @@
             },
             {
               "player_name": "Lucki",
-              "value": 595.0
+              "value": 613.0
             },
             {
               "player_name": "Filip Chytil Stan",
@@ -4273,7 +4273,7 @@
             },
             {
               "player_name": "Lucki",
-              "value": 430.0
+              "value": 445.0
             },
             {
               "player_name": "Galalendon",
@@ -4299,7 +4299,7 @@
             },
             {
               "player_name": "Lucki",
-              "value": 336.0
+              "value": 379.0
             },
             {
               "player_name": "pvW.",
@@ -4321,7 +4321,7 @@
             },
             {
               "player_name": "Lucki",
-              "value": 777.0
+              "value": 825.0
             },
             {
               "player_name": "lilcricket26",
@@ -4372,8 +4372,8 @@
               "value": 103.0
             },
             {
-              "player_name": "Flc",
-              "value": 96.0
+              "player_name": "Lucki",
+              "value": 97.0
             }
           ],
           "seasons_played": [
@@ -7607,7 +7607,7 @@
   {
     "franchise_id": "winnipeg",
     "franchise_name": "Winnipeg",
-    "status": "active",
+    "status": "retired",
     "description": "",
     "founders": [
       "Pino"

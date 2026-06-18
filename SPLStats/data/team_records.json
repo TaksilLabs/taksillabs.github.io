@@ -15755,13 +15755,13 @@
   },
   {
     "team": "Michigan Magic",
-    "games_played": 38,
-    "wins": 33,
-    "losses": 5,
-    "win_percent": 0.868,
-    "goals_for": 368,
-    "goals_against": 187,
-    "goal_differential": 181,
+    "games_played": 43,
+    "wins": 36,
+    "losses": 7,
+    "win_percent": 0.837,
+    "goals_for": 404,
+    "goals_against": 215,
+    "goal_differential": 189,
     "seasons": [
       "summer_2025",
       "spring_2026"
@@ -15779,15 +15779,15 @@
         "win_percent": 0.85
       },
       {
-        "games_played": 18,
-        "wins": 16,
-        "losses": 2,
-        "goals_for": 184,
-        "goals_against": 91,
+        "games_played": 23,
+        "wins": 19,
+        "losses": 4,
+        "goals_for": 220,
+        "goals_against": 119,
         "season": "Spring 2026",
         "season_id": "spring_2026",
-        "goal_differential": 93,
-        "win_percent": 0.889
+        "goal_differential": 101,
+        "win_percent": 0.826
       }
     ]
   },
@@ -15903,27 +15903,27 @@
   },
   {
     "team": "Michigan Malus",
-    "games_played": 18,
+    "games_played": 21,
     "wins": 15,
-    "losses": 3,
-    "win_percent": 0.833,
-    "goals_for": 144,
-    "goals_against": 88,
-    "goal_differential": 56,
+    "losses": 6,
+    "win_percent": 0.714,
+    "goals_for": 155,
+    "goals_against": 103,
+    "goal_differential": 52,
     "seasons": [
       "spring_2026"
     ],
     "by_season": [
       {
-        "games_played": 18,
+        "games_played": 21,
         "wins": 15,
-        "losses": 3,
-        "goals_for": 144,
-        "goals_against": 88,
+        "losses": 6,
+        "goals_for": 155,
+        "goals_against": 103,
         "season": "Spring 2026",
         "season_id": "spring_2026",
-        "goal_differential": 56,
-        "win_percent": 0.833
+        "goal_differential": 52,
+        "win_percent": 0.714
       }
     ]
   },
@@ -22585,27 +22585,27 @@
   },
   {
     "team": "Portillo's Italian Beefs",
-    "games_played": 13,
-    "wins": 11,
+    "games_played": 16,
+    "wins": 14,
     "losses": 2,
-    "win_percent": 0.846,
-    "goals_for": 119,
-    "goals_against": 43,
-    "goal_differential": 76,
+    "win_percent": 0.875,
+    "goals_for": 134,
+    "goals_against": 54,
+    "goal_differential": 80,
     "seasons": [
       "spring_2026"
     ],
     "by_season": [
       {
-        "games_played": 13,
-        "wins": 11,
+        "games_played": 16,
+        "wins": 14,
         "losses": 2,
-        "goals_for": 119,
-        "goals_against": 43,
+        "goals_for": 134,
+        "goals_against": 54,
         "season": "Spring 2026",
         "season_id": "spring_2026",
-        "goal_differential": 76,
-        "win_percent": 0.846
+        "goal_differential": 80,
+        "win_percent": 0.875
       }
     ]
   },
@@ -27541,13 +27541,13 @@
   },
   {
     "team": "Vader Bens",
-    "games_played": 36,
-    "wins": 26,
-    "losses": 10,
-    "win_percent": 0.722,
-    "goals_for": 311,
-    "goals_against": 187,
-    "goal_differential": 124,
+    "games_played": 41,
+    "wins": 28,
+    "losses": 13,
+    "win_percent": 0.683,
+    "goals_for": 339,
+    "goals_against": 223,
+    "goal_differential": 116,
     "seasons": [
       "winter_2026",
       "spring_2026"
@@ -27565,15 +27565,15 @@
         "win_percent": 0.529
       },
       {
-        "games_played": 19,
-        "wins": 17,
-        "losses": 2,
-        "goals_for": 189,
-        "goals_against": 67,
+        "games_played": 24,
+        "wins": 19,
+        "losses": 5,
+        "goals_for": 217,
+        "goals_against": 103,
         "season": "Spring 2026",
         "season_id": "spring_2026",
-        "goal_differential": 122,
-        "win_percent": 0.895
+        "goal_differential": 114,
+        "win_percent": 0.792
       }
     ]
   },

@@ -16,9 +16,6 @@ SCRIPTS = [
     "build_team_records.py",
     "build_teams.py",
 
-    # Career totals / player helpers, if still used by your site
-    "build_career_totals.py",
-
     # Franchise stats should run after players + team records
     "build_franchises.py",
 

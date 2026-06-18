@@ -1,7 +1,46 @@
+function getPlayerUrlId(player) {
+  return (
+    player.player_id
+    || player.player_name
+    || player.player_display_name
+    || player.player
+    || ""
+  );
+}
+
+function getPlayerDisplayName(player) {
+  return (
+    player.player_display_name
+    || player.player_name
+    || player.player
+    || player.player_id
+    || "Unknown Player"
+  );
+}
+
+function normalizePlayerLookupName(name) {
+  return String(name || "")
+    .trim()
+    .toLowerCase();
+}
+
+function findPlayerByName(name, allPlayers = []) {
+  const target = normalizePlayerLookupName(name);
+
+  return allPlayers.find(player => {
+    if (normalizePlayerLookupName(player.player_name) === target) return true;
+    if (normalizePlayerLookupName(player.player_display_name) === target) return true;
+
+    return (player.aliases || []).some(alias =>
+      normalizePlayerLookupName(alias) === target
+    );
+  }) || null;
+}
+
 let franchisePlayers = [];
 let teamRecordMap = {};
 
-let currentSort = "points";
+let currentSort = "games_played";
 let sortDescending = true;
 
 function getFranchiseIdFromUrl() {
@@ -54,12 +93,14 @@ async function loadFranchise() {
     const allPlayers =
         await playersRes.json();
 
+    allFranchisePlayers = allPlayers;
+
     if (!metaFranchise && !statsFranchise) {
         document.querySelector("#franchiseName").textContent = "Franchise Not Found";
         return;
   }
 
-  // 🔥 Merge them
+  // Merge them
     const franchise = {
         ...metaFranchise,
         ...statsFranchise
@@ -278,12 +319,21 @@ function buildFranchisePlayers(
                 return;
             }
 
-            const name =
-                player.player_name;
+            const playerId =
+                player.player_id
+                || player.player_name;
 
-            if (!players[name]) {
-                players[name] = {
-                    player_name: name,
+            const displayName =
+                player.player_display_name
+                || player.player_name
+                || playerId;
+
+            if (!players[playerId]) {
+                players[playerId] = {
+                    player_id: playerId,
+                    player_name: displayName,
+                    player_display_name: displayName,
+                    aliases: player.aliases || [],
 
                     games_played: 0,
                     periods_played: 0,
@@ -314,52 +364,52 @@ function buildFranchisePlayers(
             const stats =
                 row.stats || {};
 
-            players[name].games_played +=
+            players[playerId].games_played +=
                 stats.games_played || 0;
 
-            players[name].goals +=
+            players[playerId].goals +=
                 stats.goals || 0;
 
-            players[name].assists +=
+            players[playerId].assists +=
                 stats.assists || 0;
 
-            players[name].points +=
+            players[playerId].points +=
                 stats.points || 0;
 
-            players[name].shots +=
+            players[playerId].shots +=
                 stats.shots || 0;
 
-            players[name].saves +=
+            players[playerId].saves +=
                 stats.saves || 0;
 
-            players[name].takeaways +=
+            players[playerId].takeaways +=
                 stats.takeaways || 0;
 
-            players[name].blocks +=
+            players[playerId].blocks +=
                 stats.blocks || 0;
 
-            players[name].periods_played +=
+            players[playerId].periods_played +=
                 stats.periods_played || 0;
 
-            players[name].faceoffs_won +=
+            players[playerId].faceoffs_won +=
                 stats.faceoffs_won || 0;
 
-            players[name].faceoffs_lost +=
+            players[playerId].faceoffs_lost +=
                 stats.faceoffs_lost || 0;
 
-            players[name].turnovers +=
+            players[playerId].turnovers +=
                 stats.turnovers || 0;
 
-            players[name].post_hits +=
+            players[playerId].post_hits +=
                 stats.post_hits || 0;
 
-            players[name].passes +=
+            players[playerId].passes +=
                 stats.passes || 0;
 
-            players[name].possession_time_sec +=
+            players[playerId].possession_time_sec +=
                 stats.possession_time_sec || 0;
 
-            players[name].seasons.add(
+            players[playerId].seasons.add(
                 row.season_id
             );
         });
@@ -424,7 +474,7 @@ function renderFranchiseTable() {
                 <a href="player.html?id=${encodeURIComponent(
                     p.player_name.toLowerCase()
                 )}">
-                    ${p.player_name}
+                    ${getPlayerDisplayName(p)}
                 </a>
             </td>
 
@@ -547,7 +597,7 @@ function renderLeaderGroup(selector, leaders) {
             <span>
               ${i + 1}.
               <a href="player.html?id=${encodeURIComponent(p.player_name.toLowerCase())}">
-                ${p.player_name}
+                ${getPlayerDisplayName(p)}
               </a>
             </span>
             <strong>${formatLeaderValue(p.value, stat)}</strong>
@@ -649,13 +699,26 @@ function renderPeopleCards(title, people) {
     <div class="franchise-people-section">
       <h3>${title}</h3>
       <div class="franchise-people-grid">
-        ${people.map(name => `
-          <a class="franchise-person-card"
-          href="player.html?id=${encodeURIComponent(name.toLowerCase())}"
-          >
-            ${name}
-          </a>
-        `).join("")}
+        ${people.map(name => {
+          const matchedPlayer = findPlayerByName(name, allFranchisePlayers);
+
+          const urlId = matchedPlayer
+            ? getPlayerUrlId(matchedPlayer)
+            : name;
+
+          const displayName = matchedPlayer
+            ? getPlayerDisplayName(matchedPlayer)
+            : name;
+
+          return `
+            <a
+              class="franchise-person-card"
+              href="player.html?id=${encodeURIComponent(urlId)}"
+            >
+              ${displayName}
+            </a>
+          `;
+        }).join("")}
       </div>
     </div>
   `;
@@ -858,18 +921,30 @@ function renderHallOfFame(entries) {
     return;
   }
 
-  container.innerHTML = entries.map(entry => `
-    <div class="player-card">
-        <h3>
-            <a href="player.html?id=${encodeURIComponent(entry.player.toLowerCase())}">
-                ${entry.player}
-            </a>
-        </h3>
-        <p><strong>Retired Number:</strong> ${entry.retired_number || entry.jno || "N/A"}</p>
-        <p><strong>Retired Date:</strong> ${entry.retired_date || "Unknown"}</p>
-        <p>${entry.induction_speech || entry.induction_speach || ""}</p>
-    </div>
-  `).join("");
+  container.innerHTML = entries.map(entry => {
+    const matchedPlayer = findPlayerByName(entry.player, allFranchisePlayers);
+
+    const urlId = matchedPlayer
+      ? getPlayerUrlId(matchedPlayer)
+      : entry.player;
+
+    const displayName = matchedPlayer
+      ? getPlayerDisplayName(matchedPlayer)
+      : entry.player;
+
+    return `
+      <div class="player-card">
+          <h3>
+              <a href="player.html?id=${encodeURIComponent(urlId)}">
+                  ${displayName}
+              </a>
+          </h3>
+          <p><strong>Retired Number:</strong> ${entry.retired_number || entry.jno || "N/A"}</p>
+          <p><strong>Retired Date:</strong> ${entry.retired_date || "Unknown"}</p>
+          <p>${entry.induction_speech || entry.induction_speach || ""}</p>
+      </div>
+    `;
+  }).join("");
 }
 
 setupFranchiseSorting();
