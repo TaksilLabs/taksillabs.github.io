@@ -69,6 +69,7 @@ def main():
                     "seasons_played": [],
                     "divisions_played": [],
                     "teams_played_for": [],
+                    "team_ids_played_for": [],
                     "career": defaultdict(float),
                     "by_season": []
                 }
@@ -95,15 +96,35 @@ def main():
             if row["division"] not in player["divisions_played"]:
                 player["divisions_played"].append(row["division"])
 
-            team = (
-                row.get("team")
+            team_id = (
+                row.get("team_id")
+                or row.get("team")
+                or row.get("team_name")
+                or row.get("team_abbr")
+                or "unknown_team"
+            )
+
+            team_display_name = (
+                row.get("team_display_name")
+                or row.get("team")
                 or row.get("team_name")
                 or row.get("team_abbr")
                 or "Unknown"
             )
 
-            if team not in player["teams_played_for"]:
-                player["teams_played_for"].append(team)
+            # Keep compatibility fields normalized in the by_season row.
+            # This makes old frontend code still work while giving newer code stable IDs. Remove if gay.
+            row["team_id"] = team_id
+            row["team"] = team_display_name
+            row["team_display_name"] = team_display_name
+            row["team_aliases"] = row.get("team_aliases", [])
+            row["raw_team"] = row.get("raw_team") or team_display_name
+
+            if team_display_name not in player["teams_played_for"]:
+                player["teams_played_for"].append(team_display_name)
+
+            if team_id not in player["team_ids_played_for"]:
+                player["team_ids_played_for"].append(team_id)
 
             for stat, value in row["stats"].items():
                 # We'll recalculate percentage/rate stats later.
@@ -171,6 +192,7 @@ def main():
             "seasons_played": sorted(player["seasons_played"]),
             "divisions_played": sorted(player["divisions_played"]),
             "teams_played_for": sorted(player["teams_played_for"]),
+            "team_ids_played_for": sorted(player["team_ids_played_for"]),
             "career": {
                 k: round(v, 2)
                 for k, v in career.items()

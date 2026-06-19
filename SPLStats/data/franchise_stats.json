@@ -3433,14 +3433,14 @@
       }
     ],
     "team_totals": {
-      "teams": 25,
-      "games_played": 723,
-      "wins": 365,
-      "losses": 355,
-      "goals_for": 4590,
-      "goals_against": 4590,
-      "goal_differential": 0,
-      "win_percent": 0.505,
+      "teams": 23,
+      "games_played": 680,
+      "wins": 327,
+      "losses": 350,
+      "goals_for": 4181,
+      "goals_against": 4415,
+      "goal_differential": -234,
+      "win_percent": 0.481,
       "seasons": 5
     },
     "team_records": {
@@ -3453,8 +3453,8 @@
         "value": 53
       },
       "best_win_percent": {
-        "team": "Vader Voltage - Central",
-        "value": 0.95
+        "team": "Vader Guards",
+        "value": 0.714
       },
       "most_goals_for": {
         "team": "Vader Inquisitors",
@@ -3465,8 +3465,8 @@
         "value": 49
       },
       "best_goal_differential": {
-        "team": "Vader Voltage - Central",
-        "value": 123
+        "team": "Vader Bens",
+        "value": 116
       }
     },
     "team_rows": [
@@ -3854,38 +3854,6 @@
         "start_season": "spring_2026",
         "end_season": "",
         "order": 1
-      },
-      {
-        "team": "Vader Voltage - Central",
-        "games_played": 20,
-        "wins": 19,
-        "losses": 1,
-        "goals_for": 202,
-        "goals_against": 79,
-        "goal_differential": 123,
-        "win_percent": 0.95,
-        "seasons": [
-          "spring_2026"
-        ],
-        "start_season": "spring_2026",
-        "end_season": "",
-        "order": 1
-      },
-      {
-        "team": "Vader Voltage Eastern",
-        "games_played": 23,
-        "wins": 19,
-        "losses": 4,
-        "goals_for": 207,
-        "goals_against": 96,
-        "goal_differential": 111,
-        "win_percent": 0.826,
-        "seasons": [
-          "spring_2026"
-        ],
-        "start_season": "spring_2026",
-        "end_season": "",
-        "order": 1
       }
     ],
     "stats": {
@@ -4152,30 +4120,30 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3911.0,
-          "blocks": 14155.0,
-          "faceoffs_lost": 5488.0,
-          "faceoffs_won": 5166.0,
-          "goals": 4590.0,
-          "passes": 41315.0,
-          "periods_played": 6354.0,
-          "points": 8501.0,
-          "possession_time_sec": 80587.0,
-          "post_hits": 1913.0,
-          "primary_assists": 3136.0,
-          "saves": 5377.0,
-          "secondary_assists": 777.0,
-          "shots": 9856.0,
-          "takeaways": 7360.0,
-          "turnovers": 8237.0,
-          "goals_against": 15118.0,
-          "shots_against": 33065.0,
-          "games_played": 2388.0,
-          "faceoffs_total": 10654.0,
-          "shot_percent": 46.57,
-          "save_percent": 16.26,
-          "gaa": 6.33,
-          "faceoff_win_percent": 48.49
+          "assists": 3494.0,
+          "blocks": 13438.0,
+          "faceoffs_lost": 5246.0,
+          "faceoffs_won": 4751.0,
+          "goals": 4181.0,
+          "passes": 37816.0,
+          "periods_played": 5976.0,
+          "points": 7675.0,
+          "possession_time_sec": 75275.0,
+          "post_hits": 1760.0,
+          "primary_assists": 2818.0,
+          "saves": 5188.0,
+          "secondary_assists": 678.0,
+          "shots": 9005.0,
+          "takeaways": 6928.0,
+          "turnovers": 7797.0,
+          "goals_against": 14584.0,
+          "shots_against": 31949.0,
+          "games_played": 2256.0,
+          "faceoffs_total": 9997.0,
+          "shot_percent": 46.43,
+          "save_percent": 16.24,
+          "gaa": 6.46,
+          "faceoff_win_percent": 47.52
         },
         "leaders": {
           "goals": [
@@ -4334,14 +4302,6 @@
           ],
           "faceoff_percent": [
             {
-              "player_name": "SolaceThunders",
-              "value": 66.67
-            },
-            {
-              "player_name": "Magix",
-              "value": 64.91
-            },
-            {
               "player_name": "Quion Games",
               "value": 64.06
             },
@@ -4352,6 +4312,14 @@
             {
               "player_name": "goldrush_aej2",
               "value": 61.22
+            },
+            {
+              "player_name": "Blue",
+              "value": 60.18
+            },
+            {
+              "player_name": "Lucki",
+              "value": 57.17
             }
           ],
           "games_played": [
@@ -4421,8 +4389,6 @@
           "Vader Starkillers East",
           "Vader Troopers",
           "Vader Vapors",
-          "Vader Voltage - Central",
-          "Vader Voltage Eastern",
           "Vader Western Inquisitors",
           "Vader Wookies"
         ],

@@ -1,7 +1,8 @@
 function normalizeId(value) {
   return String(value || "")
     .trim()
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/[_\-\s]+/g, "_");
 }
 
 function playerMatchesUrlId(player, urlId) {
@@ -171,7 +172,12 @@ function divisionBelongsToRegion(division, region) {
 
 function getPlayerIdFromUrl() {
   const params = new URLSearchParams(window.location.search);
-  return params.get("id");
+
+  return (
+    params.get("id")
+    || params.get("player")
+    || ""
+  );
 }
 
 function normalizeName(name) {
@@ -425,7 +431,7 @@ async function loadPlayer() {
   DIVISION_DISPLAY_NAMES = divisionNames;
 
   const player = players.find(p =>
-    normalizeName(p.player_name) === normalizeName(playerId)
+    playerMatchesUrlId(p, playerId)
   );
 
   if (!player) {

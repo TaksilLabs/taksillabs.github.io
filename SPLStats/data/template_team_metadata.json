@@ -1,0 +1,23 @@
+{
+  "team_id": "permanent_stable_id",
+  "team_display_name": "Name SPLStats should show",
+  "aliases": [
+    "Every raw LeagueRepublic name that should merge into this team"
+  ],
+  "logo": "assets/images/teams/example.png",
+  "theme": {
+    "primary": "#main_team_color",
+    "secondary": "#secondary_team_color",
+    "accent": "#highlight_color",
+    "background": "#page_background",
+    "card": "#card_background",
+    "surface": "#secondary_surface"
+  },
+  "name_history": [
+    {
+      "name": "Old Name",
+      "start_season": "winter_2024",
+      "end_season": "spring_2025"
+    }
+  ]
+}

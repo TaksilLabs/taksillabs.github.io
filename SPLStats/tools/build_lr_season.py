@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 from collections import defaultdict
 
+from team_identity import load_team_identities, resolve_team_identity
 from player_identity import load_player_identities, resolve_player_identity
 
 
@@ -112,7 +113,7 @@ def safe_float(value):
         return 0.0
 
 
-def parse_csv(csv_file, alias_lookup):
+def parse_csv(csv_file, alias_lookup, team_alias_lookup):
     season_name, season_id = season_from_filename(csv_file)
 
     players = {}
@@ -134,15 +135,24 @@ def parse_csv(csv_file, alias_lookup):
             rows.append(row)
 
             fixture_id = get_fixture_id(row)
-            team = clean_team_name(row.get("Team", ""))
+
+            raw_team = row.get("Team", "").strip()
+
+            team_identity = resolve_team_identity(
+                raw_team,
+                team_alias_lookup
+            )
+
+            team_id = team_identity["team_id"]
+
             stat_desc = row.get("Stat Desc", "").strip()
             value = safe_float(row.get("Stat Value", 0))
 
             if stat_desc == "Goals":
-                fixture_team_totals[fixture_id][team]["goals"] += value
+                fixture_team_totals[fixture_id][team_id]["goals"] += value
 
             if stat_desc == "Shots":
-                fixture_team_totals[fixture_id][team]["shots"] += value
+                fixture_team_totals[fixture_id][team_id]["shots"] += value
 
     # -------------------------------------------------------------------------
     # Pass 2:
@@ -166,8 +176,16 @@ def parse_csv(csv_file, alias_lookup):
         player_display_name = identity["player_display_name"]
         player_aliases = identity.get("aliases", [])
 
-        team_name = clean_team_name(row.get("Team", ""))
-        team = team_name
+        raw_team = row.get("Team", "").strip()
+
+        team_identity = resolve_team_identity(
+            raw_team,
+            team_alias_lookup
+        )
+
+        team_id = team_identity["team_id"]
+        team_display_name = team_identity["team_display_name"]
+        team_aliases = team_identity.get("aliases", [])
 
         stat_desc = row.get("Stat Desc", "").strip()
         stat_key = STAT_MAP.get(stat_desc)
@@ -175,10 +193,10 @@ def parse_csv(csv_file, alias_lookup):
         if not player_id or not stat_key:
             continue
 
-        # Use player_id for grouping so aliases/name changes merge correctly.
+        # Use player_id + team_id for grouping so aliases/name changes merge.
         key = (
             fixture_group,
-            team,
+            team_id,
             player_id,
         )
 
@@ -187,8 +205,13 @@ def parse_csv(csv_file, alias_lookup):
                 "season": season_name,
                 "season_id": season_id,
                 "division": fixture_group,
-                "team": team,
-                "team_name": team_name,
+
+                "team_id": team_id,
+                "team": team_display_name,
+                "team_name": team_display_name,
+                "team_display_name": team_display_name,
+                "team_aliases": team_aliases,
+                "raw_team": raw_team,
 
                 # Stable identity
                 "player_id": player_id,
@@ -225,28 +248,29 @@ def parse_csv(csv_file, alias_lookup):
     # -------------------------------------------------------------------------
 
     for item in players.values():
-        team = item["team"]
+        team_id = item["team_id"]
 
         for fixture_id in item["fixtures"]:
             teams_in_fixture = fixture_team_totals[fixture_id]
 
             opponents = [
-                t for t in teams_in_fixture.keys()
-                if t != team
+                opponent_team_id
+                for opponent_team_id in teams_in_fixture.keys()
+                if opponent_team_id != team_id
             ]
 
             if not opponents:
                 continue
 
             # This assumes two-team fixtures, which matches LR match rows.
-            opponent = opponents[0]
+            opponent_id = opponents[0]
 
             item["stats"]["goals_against"] += (
-                teams_in_fixture[opponent]["goals"]
+                teams_in_fixture[opponent_id]["goals"]
             )
 
             item["stats"]["shots_against"] += (
-                teams_in_fixture[opponent]["shots"]
+                teams_in_fixture[opponent_id]["shots"]
             )
 
     # -------------------------------------------------------------------------
@@ -315,8 +339,13 @@ def parse_csv(csv_file, alias_lookup):
             "season_id": item["season_id"],
             "season_type": classify_season_type(item["division"]),
             "division": item["division"],
-            "team": item["team"],
-            "team_name": item["team_name"],
+
+            "team_id": item["team_id"],
+            "team": item["team_display_name"],
+            "team_name": item["team_display_name"],
+            "team_display_name": item["team_display_name"],
+            "team_aliases": item.get("team_aliases", []),
+            "raw_team": item.get("raw_team", item["team_display_name"]),
 
             # Stable identity
             "player_id": item["player_id"],
@@ -340,7 +369,7 @@ def parse_csv(csv_file, alias_lookup):
         key=lambda p: (
             p["season_id"],
             p["division"],
-            p["team"],
+            p["team_display_name"],
             p.get("player_id", "").lower(),
         )
     )
@@ -350,6 +379,7 @@ def parse_csv(csv_file, alias_lookup):
 
 def main():
     alias_lookup, _ = load_player_identities()
+    team_alias_lookup, _ = load_team_identities()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -364,7 +394,8 @@ def main():
     for csv_file in csv_files:
         season_id, output = parse_csv(
             csv_file,
-            alias_lookup
+            alias_lookup,
+            team_alias_lookup
         )
 
         out_file = OUT_DIR / f"{season_id}.json"

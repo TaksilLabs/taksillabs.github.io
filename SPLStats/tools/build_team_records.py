@@ -3,7 +3,9 @@ import json
 import re
 from pathlib import Path
 from collections import defaultdict
+from team_identity import load_team_identities, resolve_team_identity
 
+team_alias_lookup, _ = load_team_identities()
 
 RAW_CSV_DIR = Path("../raw_csv")
 OUTPUT_FILE = Path("../data/team_records.json")
@@ -93,25 +95,44 @@ def safe_int(value):
         return int(float(value))
     except Exception:
         return 0
+    
+def get_team_identity(raw_team_name):
+    identity = resolve_team_identity(
+        raw_team_name,
+        team_alias_lookup
+    )
+
+    team_id = identity["team_id"]
+    team_display_name = identity["team_display_name"]
+
+    team_info[team_id] = {
+        "team_id": team_id,
+        "team": team_display_name,
+        "team_display_name": team_display_name,
+        "team_aliases": identity.get("aliases", []),
+        "logo": identity.get("logo", ""),
+        "theme": identity.get("theme", {}),
+        "name_history": identity.get("name_history", [])
+    }
+
+    return identity
 
 
 def add_result(
     team_records,
     team_by_season,
     team_seasons,
-    team,
+    team_id,
     team_score,
     opponent_score,
     season_name,
     season_id
 ):
-    team = clean_team_name(team)
-
     did_win = team_score > opponent_score
     did_lose = team_score < opponent_score
 
     # All-time / career record
-    career = team_records[team]
+    career = team_records[team_id]
 
     career["games_played"] += 1
     career["goals_for"] += team_score
@@ -122,10 +143,10 @@ def add_result(
     elif did_lose:
         career["losses"] += 1
 
-    team_seasons[team].add(season_id)
+    team_seasons[team_id].add(season_id)
 
     # Season-specific record
-    season_record = team_by_season[team][season_id]
+    season_record = team_by_season[team_id][season_id]
 
     season_record["season"] = season_name
     season_record["season_id"] = season_id
@@ -147,6 +168,9 @@ def add_result(
 team_records = defaultdict(make_empty_record)
 team_by_season = defaultdict(lambda: defaultdict(make_empty_record))
 team_seasons = defaultdict(set)
+
+# team_id -> display/metadata
+team_info = {}
 
 matches = {}
 
@@ -175,24 +199,28 @@ for csv_file in csv_files:
             fixture_group = row.get("Fixture Group", "").strip()
             fixture_date = row.get("Fixture Date", "").strip()
 
-            home_team = clean_team_name(
-                row.get("Home Team", "")
-            )
+            raw_home_team = row.get("Home Team", "").strip()
+            raw_away_team = row.get("Away Team", "").strip()
+            raw_team = row.get("Team", "").strip()
 
-            away_team = clean_team_name(
-                row.get("Away Team", "")
-            )
+            home_identity = get_team_identity(raw_home_team)
+            away_identity = get_team_identity(raw_away_team)
+            team_identity = get_team_identity(raw_team)
 
-            team = clean_team_name(
-                row.get("Team", "")
-            )
+            home_team_id = home_identity["team_id"]
+            away_team_id = away_identity["team_id"]
+            team_id = team_identity["team_id"]
+
+            home_team = home_identity["team_display_name"]
+            away_team = away_identity["team_display_name"]
+            team = team_identity["team_display_name"]
 
             match_key = (
                 season_id,
                 fixture_group,
                 fixture_date,
-                home_team,
-                away_team
+                home_team_id,
+                away_team_id
             )
 
             if match_key not in matches:
@@ -201,8 +229,16 @@ for csv_file in csv_files:
                     "season_id": season_id,
                     "fixture_group": fixture_group,
                     "fixture_date": fixture_date,
+
+                    "home_team_id": home_team_id,
+                    "away_team_id": away_team_id,
+
                     "home_team": home_team,
                     "away_team": away_team,
+
+                    "raw_home_team": raw_home_team,
+                    "raw_away_team": raw_away_team,
+
                     "scores": defaultdict(int)
                 }
 
@@ -210,7 +246,7 @@ for csv_file in csv_files:
                 row.get("Stat Value", 0)
             )
 
-            matches[match_key]["scores"][team] += goals
+            matches[match_key]["scores"][team_id] += goals
 
 
 print(f"Matches reconstructed: {len(matches):,}")
@@ -221,11 +257,11 @@ print(f"Matches reconstructed: {len(matches):,}")
 # ----------------------------------------------------------------------------------------
 
 for match in matches.values():
-    home = match["home_team"]
-    away = match["away_team"]
+    home_id = match["home_team_id"]
+    away_id = match["away_team_id"]
 
-    home_score = match["scores"].get(home, 0)
-    away_score = match["scores"].get(away, 0)
+    home_score = match["scores"].get(home_id, 0)
+    away_score = match["scores"].get(away_id, 0)
 
     season_name = match["season"]
     season_id = match["season_id"]
@@ -234,7 +270,7 @@ for match in matches.values():
         team_records=team_records,
         team_by_season=team_by_season,
         team_seasons=team_seasons,
-        team=home,
+        team_id=home_id,
         team_score=home_score,
         opponent_score=away_score,
         season_name=season_name,
@@ -245,7 +281,7 @@ for match in matches.values():
         team_records=team_records,
         team_by_season=team_by_season,
         team_seasons=team_seasons,
-        team=away,
+        team_id=away_id,
         team_score=away_score,
         opponent_score=home_score,
         season_name=season_name,
@@ -259,14 +295,17 @@ for match in matches.values():
 
 output = []
 
-for team_name in sorted(team_records.keys()):
+for team_id in sorted(
+    team_records.keys(),
+    key=lambda team_id: team_info.get(team_id, {}).get("team_display_name", team_id).lower()
+):
     record = finalize_record(
-        dict(team_records[team_name])
+        dict(team_records[team_id])
     )
 
     by_season = []
 
-    for season_id, season_record in team_by_season[team_name].items():
+    for season_id, season_record in team_by_season[team_id].items():
         finalized_season = finalize_record(
             dict(season_record)
         )
@@ -283,12 +322,26 @@ for team_name in sorted(team_records.keys()):
     )
 
     seasons = sorted(
-        team_seasons[team_name],
+        team_seasons[team_id],
         key=season_sort_value
     )
 
+    info = team_info.get(team_id, {})
+
+    team_display_name = (
+        info.get("team_display_name")
+        or info.get("team")
+        or team_id
+    )
+
     output.append({
-        "team": team_name,
+        "team_id": team_id,
+        "team": team_display_name,
+        "team_display_name": team_display_name,
+        "team_aliases": info.get("team_aliases", []),
+        "logo": info.get("logo", ""),
+        "theme": info.get("theme", {}),
+        "name_history": info.get("name_history", []),
 
         "games_played": record["games_played"],
 
@@ -401,11 +454,14 @@ print("=" * 60)
 tie_matches = []
 
 for match in matches.values():
+    home_id = match["home_team_id"]
+    away_id = match["away_team_id"]
+
     home = match["home_team"]
     away = match["away_team"]
 
-    home_score = match["scores"].get(home, 0)
-    away_score = match["scores"].get(away, 0)
+    home_score = match["scores"].get(home_id, 0)
+    away_score = match["scores"].get(away_id, 0)
 
     if home_score == away_score:
         tie_matches.append({

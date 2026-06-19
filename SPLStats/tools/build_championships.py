@@ -5,6 +5,9 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
+from team_identity import load_team_identities, resolve_team_identity
+from player_identity import load_player_identities, resolve_player_identity
+
 
 RAW_CSV_DIR = Path("../raw_csv")
 DIVISION_NAMES_FILE = Path("../data/division_display_names.json")
@@ -17,6 +20,13 @@ SEASON_ORDER = {
     "spring": 2,
     "summer": 3,
     "fall": 4
+}
+
+
+REGION_ORDER = {
+    "East": 1,
+    "Central": 2,
+    "West": 3
 }
 
 
@@ -110,18 +120,6 @@ def season_in_range(
     return start <= value <= end
 
 
-def clean_team_name(team_name):
-    return re.sub(
-        r"\s*\([^)]*\)\s*$",
-        "",
-        str(team_name or "").strip()
-    ).strip()
-
-
-def team_key(team_name):
-    return clean_team_name(team_name).lower()
-
-
 def normalize_player_name(name):
     return str(name or "").strip()
 
@@ -176,84 +174,142 @@ def parse_date(value):
     return datetime.min
 
 
-def fixture_id(row, season_id):
+def make_fixture_id(
+    season_id,
+    fixture_group,
+    fixture_date,
+    home_team_id,
+    away_team_id
+):
     return "|".join([
         season_id,
-        row.get("Fixture Group", "").strip(),
-        row.get("Fixture Date", "").strip(),
-        clean_team_name(row.get("Home Team", "")),
-        clean_team_name(row.get("Away Team", ""))
+        fixture_group,
+        fixture_date,
+        home_team_id,
+        away_team_id
     ])
 
 
-def match_involves_team(match, team):
-    key = team_key(team)
-
+def match_involves_team_id(match, team_id):
     return (
-        team_key(match["home_team"]) == key
-        or team_key(match["away_team"]) == key
+        match["home_team_id"] == team_id
+        or match["away_team_id"] == team_id
     )
 
 
-def match_between_teams(match, team_a, team_b):
+def match_between_team_ids(match, team_a_id, team_b_id):
     teams = {
-        team_key(match["home_team"]),
-        team_key(match["away_team"])
+        match["home_team_id"],
+        match["away_team_id"]
     }
 
     return teams == {
-        team_key(team_a),
-        team_key(team_b)
+        team_a_id,
+        team_b_id
     }
 
 
 def get_match_score(match):
-    home = match["home_team"]
-    away = match["away_team"]
+    home_id = match["home_team_id"]
+    away_id = match["away_team_id"]
 
-    home_score = match["scores"].get(home, 0)
-    away_score = match["scores"].get(away, 0)
+    home_score = match["scores"].get(home_id, 0)
+    away_score = match["scores"].get(away_id, 0)
 
     return home_score, away_score
 
 
-def get_match_winner(match):
-    home = match["home_team"]
-    away = match["away_team"]
-
+def get_match_winner_id(match):
     home_score, away_score = get_match_score(match)
 
     if home_score > away_score:
-        return home
+        return match["home_team_id"]
 
     if away_score > home_score:
-        return away
+        return match["away_team_id"]
 
     return None
 
 
-def get_match_loser(match):
-    winner = get_match_winner(match)
+def get_match_loser_id(match):
+    winner_id = get_match_winner_id(match)
 
-    if not winner:
+    if not winner_id:
         return None
 
-    if team_key(winner) == team_key(match["home_team"]):
-        return match["away_team"]
+    if winner_id == match["home_team_id"]:
+        return match["away_team_id"]
 
-    return match["home_team"]
+    return match["home_team_id"]
 
 
-def find_franchise_for_team(
-    team,
-    season_id,
-    franchises
+def resolve_team(
+    raw_team_name,
+    team_alias_lookup,
+    team_info
 ):
-    key = team_key(team)
+    identity = resolve_team_identity(
+        raw_team_name,
+        team_alias_lookup
+    )
 
+    team_id = identity["team_id"]
+    display_name = identity["team_display_name"]
+
+    team_info[team_id] = {
+        "team_id": team_id,
+        "team": display_name,
+        "team_display_name": display_name,
+        "team_aliases": identity.get("aliases", []),
+        "logo": identity.get("logo", ""),
+        "theme": identity.get("theme", {}),
+        "name_history": identity.get("name_history", [])
+    }
+
+    return identity
+
+
+def resolve_player(
+    raw_player_name,
+    player_alias_lookup,
+    player_info
+):
+    identity = resolve_player_identity(
+        raw_player_name,
+        player_alias_lookup
+    )
+
+    player_id = identity["player_id"]
+    display_name = identity["player_display_name"]
+
+    player_info[player_id] = {
+        "player_id": player_id,
+        "player_name": display_name,
+        "player_display_name": display_name,
+        "aliases": identity.get("aliases", [])
+    }
+
+    return identity
+
+
+def find_franchise_for_team_id(
+    team_id,
+    season_id,
+    franchises,
+    team_alias_lookup,
+    team_info
+):
     for franchise in franchises:
         for membership in franchise.get("memberships", []):
-            if team_key(membership.get("team")) != key:
+            membership_identity = resolve_team(
+                membership.get("team", ""),
+                team_alias_lookup,
+                team_info
+            )
+
+            membership_team_id = membership_identity["team_id"]
+
+            if membership_team_id != team_id:
                 continue
 
             if season_in_range(
@@ -273,7 +329,15 @@ def find_franchise_for_team(
 def parse_raw_csvs():
     division_map = load_json(DIVISION_NAMES_FILE)
 
+    team_alias_lookup, _ = load_team_identities()
+    player_alias_lookup, _ = load_player_identities()
+
+    team_info = {}
+    player_info = {}
+
     matches = {}
+
+    # (fixture_id, team_id) -> set(player_id)
     appearances = defaultdict(set)
 
     csv_files = sorted(
@@ -306,33 +370,73 @@ def parse_raw_csvs():
                 raw_group = row.get("Fixture Group", "").strip()
 
                 division = normalize_division_name(
-                        raw_group,
-                        division_map
+                    raw_group,
+                    division_map
+                )
+
+                fixture_date = row.get(
+                    "Fixture Date",
+                    ""
+                ).strip()
+
+                raw_home_team = row.get("Home Team", "").strip()
+                raw_away_team = row.get("Away Team", "").strip()
+                raw_team = row.get("Team", "").strip()
+
+                home_identity = resolve_team(
+                    raw_home_team,
+                    team_alias_lookup,
+                    team_info
+                )
+
+                away_identity = resolve_team(
+                    raw_away_team,
+                    team_alias_lookup,
+                    team_info
+                )
+
+                team_identity = resolve_team(
+                    raw_team,
+                    team_alias_lookup,
+                    team_info
+                )
+
+                home_team_id = home_identity["team_id"]
+                away_team_id = away_identity["team_id"]
+                team_id = team_identity["team_id"]
+
+                home_team = home_identity["team_display_name"]
+                away_team = away_identity["team_display_name"]
+                team = team_identity["team_display_name"]
+
+                fid = make_fixture_id(
+                    season_id,
+                    raw_group,
+                    fixture_date,
+                    home_team_id,
+                    away_team_id
+                )
+
+                raw_player = normalize_player_name(
+                    row.get("Last Name", "")
+                )
+
+                player_id = ""
+
+                if raw_player:
+                    player_identity = resolve_player(
+                        raw_player,
+                        player_alias_lookup,
+                        player_info
                     )
 
-                fid = fixture_id(row, season_id)
-
-                home_team = clean_team_name(
-                        row.get("Home Team", "")
-                    )
-
-                away_team = clean_team_name(
-                        row.get("Away Team", "")
-                    )
-
-                team = clean_team_name(
-                        row.get("Team", "")
-                    )
-
-                player = normalize_player_name(
-                        row.get("Last Name", "")
-                    )
+                    player_id = player_identity["player_id"]
 
                 stat_desc = row.get("Stat Desc", "").strip().lower()
 
                 # Build player appearance sets from any stat row.
-                if team and player:
-                    appearances[(fid, team)].add(player)
+                if team_id and player_id:
+                    appearances[(fid, team_id)].add(player_id)
 
                 # Build match scores from Goals rows.
                 if stat_desc != "goals":
@@ -348,22 +452,33 @@ def parse_raw_csvs():
                         "raw_division": raw_group,
                         "division": division,
                         "championship_info": champ_info,
-                        "fixture_date": row.get(
-                            "Fixture Date",
-                            ""
-                        ).strip(),
+                        "fixture_date": fixture_date,
+
+                        "home_team_id": home_team_id,
+                        "away_team_id": away_team_id,
+
                         "home_team": home_team,
                         "away_team": away_team,
+
+                        "raw_home_team": raw_home_team,
+                        "raw_away_team": raw_away_team,
+
                         "scores": defaultdict(int)
                     }
 
                 goals = safe_int(
-                        row.get("Stat Value", 0)
-                    )
+                    row.get("Stat Value", 0)
+                )
 
-                matches[fid]["scores"][team] += goals
+                matches[fid]["scores"][team_id] += goals
 
-    return matches, appearances
+    return (
+        matches,
+        appearances,
+        team_info,
+        player_info,
+        team_alias_lookup
+    )
 
 
 # -----------------------------------------------------------------------------
@@ -391,12 +506,12 @@ def detect_final_matches(matches):
             continue
 
         current_date = parse_date(
-                current["fixture_date"]
-            )
+            current["fixture_date"]
+        )
 
         match_date = parse_date(
-                match["fixture_date"]
-            )
+            match["fixture_date"]
+        )
 
         if match_date > current_date:
             finals[key] = match
@@ -408,8 +523,8 @@ def get_series_matches(
     matches,
     season_id,
     division,
-    team_a,
-    team_b
+    team_a_id,
+    team_b_id
 ):
     series = []
 
@@ -420,10 +535,10 @@ def get_series_matches(
         if match["division"] != division:
             continue
 
-        if not match_between_teams(
+        if not match_between_team_ids(
             match,
-            team_a,
-            team_b
+            team_a_id,
+            team_b_id
         ):
             continue
 
@@ -443,34 +558,38 @@ def determine_series_winner(
     wins = defaultdict(int)
 
     for match in series_matches:
-        winner = get_match_winner(match)
+        winner_id = get_match_winner_id(match)
 
-        if winner:
-            wins[team_key(winner)] += 1
+        if winner_id:
+            wins[winner_id] += 1
 
-    home = fallback_final_match["home_team"]
-    away = fallback_final_match["away_team"]
+    home_id = fallback_final_match["home_team_id"]
+    away_id = fallback_final_match["away_team_id"]
 
-    home_wins = wins.get(team_key(home), 0)
-    away_wins = wins.get(team_key(away), 0)
+    home_wins = wins.get(home_id, 0)
+    away_wins = wins.get(away_id, 0)
 
     if home_wins > away_wins:
-        return home, away, home_wins, away_wins
+        return home_id, away_id, home_wins, away_wins
 
     if away_wins > home_wins:
-        return away, home, away_wins, home_wins
+        return away_id, home_id, away_wins, home_wins
 
     # Fallback if something weird happened.
-    fallback_winner = get_match_winner(fallback_final_match)
+    fallback_winner_id = get_match_winner_id(
+        fallback_final_match
+    )
 
-    fallback_loser = get_match_loser(fallback_final_match)
+    fallback_loser_id = get_match_loser_id(
+        fallback_final_match
+    )
 
-    if fallback_winner:
+    if fallback_winner_id:
         return (
-            fallback_winner,
-            fallback_loser,
-            wins.get(team_key(fallback_winner), 0),
-            wins.get(team_key(fallback_loser), 0)
+            fallback_winner_id,
+            fallback_loser_id,
+            wins.get(fallback_winner_id, 0),
+            wins.get(fallback_loser_id, 0)
         )
 
     return None, None, 0, 0
@@ -484,7 +603,7 @@ def get_team_matches(
     matches,
     season_id,
     divisions,
-    team
+    team_id
 ):
     output = []
 
@@ -495,9 +614,9 @@ def get_team_matches(
         if match["division"] not in divisions:
             continue
 
-        if not match_involves_team(
+        if not match_involves_team_id(
             match,
-            team
+            team_id
         ):
             continue
 
@@ -508,7 +627,7 @@ def get_team_matches(
 
 def count_player_games(
     match_list,
-    team,
+    team_id,
     appearances
 ):
     player_games = defaultdict(set)
@@ -517,40 +636,41 @@ def count_player_games(
         fid = match["fixture_id"]
 
         players = appearances.get(
-                (fid, clean_team_name(team)),
-                set()
-            )
+            (fid, team_id),
+            set()
+        )
 
-        for player in players:
-            player_games[player].add(fid)
+        for player_id in players:
+            player_games[player_id].add(fid)
 
     return player_games
 
 
 def build_championship_roster(
-    winner_team,
+    winner_team_id,
     regular_matches,
     playoff_matches,
     finals_matches,
-    appearances
+    appearances,
+    player_info
 ):
     regular_player_games = count_player_games(
-            regular_matches,
-            winner_team,
-            appearances
-        )
+        regular_matches,
+        winner_team_id,
+        appearances
+    )
 
     playoff_player_games = count_player_games(
-            playoff_matches,
-            winner_team,
-            appearances
-        )
+        playoff_matches,
+        winner_team_id,
+        appearances
+    )
 
     finals_player_games = count_player_games(
-            finals_matches,
-            winner_team,
-            appearances
-        )
+        finals_matches,
+        winner_team_id,
+        appearances
+    )
 
     team_regular_games = len(regular_matches)
 
@@ -565,12 +685,26 @@ def build_championship_roster(
 
     roster = []
 
-    for player in sorted(players, key=lambda p: p.lower()):
-        regular_games = len(regular_player_games.get(player, set()))
+    def player_sort_name(player_id):
+        info = player_info.get(player_id, {})
+        return (
+            info.get("player_display_name")
+            or info.get("player_name")
+            or player_id
+        ).lower()
 
-        playoff_games = len(playoff_player_games.get(player, set()))
+    for player_id in sorted(players, key=player_sort_name):
+        regular_games = len(
+            regular_player_games.get(player_id, set())
+        )
 
-        finals_games = len(finals_player_games.get(player, set()))
+        playoff_games = len(
+            playoff_player_games.get(player_id, set())
+        )
+
+        finals_games = len(
+            finals_player_games.get(player_id, set())
+        )
 
         regular_percent = (
             regular_games / team_regular_games
@@ -604,8 +738,19 @@ def build_championship_roster(
         if not qualified_by:
             continue
 
+        info = player_info.get(player_id, {})
+
+        player_display_name = (
+            info.get("player_display_name")
+            or info.get("player_name")
+            or player_id
+        )
+
         roster.append({
-            "player_name": player,
+            "player_id": player_id,
+            "player_name": player_display_name,
+            "player_display_name": player_display_name,
+            "aliases": info.get("aliases", []),
 
             "regular_season_games": regular_games,
             "team_regular_season_games": team_regular_games,
@@ -637,7 +782,13 @@ def build_championship_roster(
 def build_championships():
     franchises = load_json(FRANCHISES_FILE)
 
-    matches, appearances = parse_raw_csvs()
+    (
+        matches,
+        appearances,
+        team_info,
+        player_info,
+        team_alias_lookup
+    ) = parse_raw_csvs()
 
     final_matches = detect_final_matches(matches)
 
@@ -652,24 +803,28 @@ def build_championships():
     ):
         info = CHAMPIONSHIPS[division]
 
-        finalist_a = final_match["home_team"]
-
-        finalist_b = final_match["away_team"]
+        finalist_a_id = final_match["home_team_id"]
+        finalist_b_id = final_match["away_team_id"]
 
         series_matches = get_series_matches(
-                matches,
-                season_id,
-                division,
-                finalist_a,
-                finalist_b
-            )
+            matches,
+            season_id,
+            division,
+            finalist_a_id,
+            finalist_b_id
+        )
 
-        winner_team, runner_up_team, winner_series_wins, runner_up_series_wins = determine_series_winner(
-                series_matches,
-                final_match
-            )
+        (
+            winner_team_id,
+            runner_up_team_id,
+            winner_series_wins,
+            runner_up_series_wins
+        ) = determine_series_winner(
+            series_matches,
+            final_match
+        )
 
-        if not winner_team:
+        if not winner_team_id:
             print(
                 f"WARNING: Could not determine winner for "
                 f"{season_id} | {division}"
@@ -677,47 +832,93 @@ def build_championships():
 
             continue
 
+        winner_info = team_info.get(
+            winner_team_id,
+            {}
+        )
+
+        runner_up_info = team_info.get(
+            runner_up_team_id,
+            {}
+        )
+
+        winner_team = (
+            winner_info.get("team_display_name")
+            or winner_info.get("team")
+            or winner_team_id
+        )
+
+        runner_up_team = (
+            runner_up_info.get("team_display_name")
+            or runner_up_info.get("team")
+            or runner_up_team_id
+        )
+
         regular_matches = get_team_matches(
-                matches,
-                season_id,
-                info["regular_divisions"],
-                winner_team
-            )
+            matches,
+            season_id,
+            info["regular_divisions"],
+            winner_team_id
+        )
 
         playoff_matches = get_team_matches(
-                matches,
-                season_id,
-                [division],
-                winner_team
-            )
+            matches,
+            season_id,
+            [division],
+            winner_team_id
+        )
 
         roster = build_championship_roster(
-                winner_team,
-                regular_matches,
-                playoff_matches,
-                series_matches,
-                appearances
-            )
+            winner_team_id,
+            regular_matches,
+            playoff_matches,
+            series_matches,
+            appearances,
+            player_info
+        )
 
-        winner_franchise_id = find_franchise_for_team(
-                winner_team,
-                season_id,
-                franchises
-            )
+        winner_franchise_id = find_franchise_for_team_id(
+            winner_team_id,
+            season_id,
+            franchises,
+            team_alias_lookup,
+            team_info
+        )
 
         finals_games = []
 
         for match in series_matches:
             home_score, away_score = get_match_score(match)
 
+            winner_id = get_match_winner_id(match)
+
+            winner_display_name = ""
+
+            if winner_id:
+                winner_display_name = (
+                    team_info.get(winner_id, {}).get("team_display_name")
+                    or team_info.get(winner_id, {}).get("team")
+                    or winner_id
+                )
+
             finals_games.append({
                 "fixture_id": match["fixture_id"],
                 "fixture_date": match["fixture_date"],
+
+                "home_team_id": match["home_team_id"],
+                "away_team_id": match["away_team_id"],
+
                 "home_team": match["home_team"],
                 "away_team": match["away_team"],
+
+                "raw_home_team": match.get("raw_home_team"),
+                "raw_away_team": match.get("raw_away_team"),
+
                 "home_score": home_score,
                 "away_score": away_score,
-                "winner_team": get_match_winner(match)
+
+                "winner_team_id": winner_id,
+                "winner_team": winner_display_name
             })
 
         championships.append({
@@ -729,8 +930,19 @@ def build_championships():
             "playoff_division": division,
             "regular_divisions": info["regular_divisions"],
 
+            "winner_team_id": winner_team_id,
             "winner_team": winner_team,
+            "winner_team_display_name": winner_team,
+            "winner_team_aliases": winner_info.get("team_aliases", []),
+            "winner_logo": winner_info.get("logo", ""),
+            "winner_theme": winner_info.get("theme", {}),
+
+            "runner_up_team_id": runner_up_team_id,
             "runner_up_team": runner_up_team,
+            "runner_up_team_display_name": runner_up_team,
+            "runner_up_team_aliases": runner_up_info.get("team_aliases", []),
+            "runner_up_logo": runner_up_info.get("logo", ""),
+            "runner_up_theme": runner_up_info.get("theme", {}),
 
             "winner_franchise_id": winner_franchise_id,
 
@@ -755,7 +967,7 @@ def build_championships():
     championships.sort(
         key=lambda c: (
             season_value(c["season_id"]),
-            c["region"]
+            -REGION_ORDER.get(c["region"], 99)
         ),
         reverse=True
     )
