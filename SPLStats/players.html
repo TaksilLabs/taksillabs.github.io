@@ -67,19 +67,61 @@
           <tr>
             <th data-stat="rank">Rank</th>
             <th data-stat="player_name">Player</th>
+
+            <th data-stat="seasons_played">Szns</th>
             <th data-stat="games_played">GP</th>
+            <th data-stat="periods_played">Per</th>
+
             <th data-stat="goals">G</th>
             <th data-stat="assists">A</th>
-            <th data-stat="points">PTS</th>
-            <th data-stat="shots">Shots</th>
-            <th data-stat="saves">Saves</th>
-            <th data-stat="blocks">Blocks</th>
+            <th data-stat="points">P</th>
+            <th data-stat="shots">SG</th>
+
+            <th data-stat="save_percent">SV%</th>
+            <th data-stat="gaa">GAA</th>
+            <th data-stat="saves">SV</th>
+            <th data-stat="blocks">BLK</th>
+
+            <th data-stat="shots_against">SHA</th>
+            <th data-stat="goals_against">GA</th>
+
+            <th data-stat="takeaways">TA</th>
+            <th data-stat="turnovers">TO</th>
+
+            <th data-stat="faceoff_win_percent">FO%</th>
+            <th data-stat="faceoffs_won">FOW</th>
+            <th data-stat="faceoffs_lost">FOL</th>
+
+            <th data-stat="post_hits">PH</th>
+            <th data-stat="passes">PASS</th>
+            <th data-stat="possession_time_sec">POSS</th>
           </tr>
         </thead>
         <tbody></tbody>
       </table>
     </section>
   </main>
+
+  <script>
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener("scroll", () => {
+      const nav = document.querySelector(".site-nav");
+      if (!nav) return;
+
+      const currentScrollY = window.scrollY;
+      const scrollingDown = currentScrollY > lastScrollY;
+      const pastTop = currentScrollY > 120;
+
+      if (scrollingDown && pastTop) {
+        nav.classList.add("nav-hidden");
+      } else {
+        nav.classList.remove("nav-hidden");
+      }
+
+      lastScrollY = currentScrollY;
+    });
+  </script>
 
   <script src="assets/js/app.js"></script>
 </body>
