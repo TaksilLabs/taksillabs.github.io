@@ -2494,3 +2494,197 @@ a.champion-team:hover {
 .championship-history-table th:nth-child(4) {
   text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+/*
+============================================================================
+ROADMAP STYLERS
+============================================================================
+*/
+
+.roadmap-page {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 24px;
+
+  max-width: 1300px;
+  margin: 36px auto;
+  padding: 0 20px;
+}
+
+.roadmap-column {
+  background: rgba(255, 255, 255, 0.045);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+
+  padding: 22px;
+
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.30);
+}
+
+.roadmap-column h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+
+  font-family: Evogria, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.roadmap-finished h2 {
+  color: #2ecc71;
+}
+
+.roadmap-working h2 {
+  color: #ffd166;
+}
+
+.roadmap-planned h2 {
+  color: #00bcd4;
+}
+
+.roadmap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.roadmap-card {
+  border-radius: 12px;
+  padding: 16px;
+
+  background: #080f14;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.roadmap-card:hover {
+  transform: translateY(-2px);
+}
+
+.roadmap-card-finished {
+  border-left: 4px solid #2ecc71;
+}
+
+.roadmap-card-working {
+  border-left: 4px solid #ffd166;
+}
+
+.roadmap-card-planned {
+  border-left: 4px solid #00bcd4;
+}
+
+.roadmap-card-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.roadmap-date,
+.roadmap-order {
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  padding: 4px 8px;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.08);
+  color: #cccccc;
+}
+
+.roadmap-card h3 {
+  margin: 0 0 8px;
+  color: white;
+  font-size: 1.05rem;
+}
+
+.roadmap-card p {
+  margin: 0;
+  color: #aaaaaa;
+  line-height: 1.4;
+  font-size: 0.92rem;
+}
+
+.roadmap-empty {
+  color: #777;
+  font-style: italic;
+  padding: 12px;
+}
+
+.nav-card.nav-roadmap {
+  border-color: #7cf8ff;
+  color: #b8fffd;
+  background: rgba(124, 246, 255, 0.1);
+}
+
+.nav-card.nav-roadmap:hover,
+.nav-card.nav-roadmap.active {
+  background: rgba(124, 255, 255, 0.2);
+  box-shadow: 0 0 14px rgba(124, 248, 255, 0.32);
+}
+
+@media (max-width: 1000px) {
+  .roadmap-page {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*Roadmap Link on Homepage*/
+.homepage-roadmap-link {
+  position: fixed;
+  right: 18px;
+  bottom: 16px;
+  z-index: 50;
+
+  padding: 8px 12px;
+
+  border: 1px solid #1eaea9;
+  border-radius: 999px;
+
+  background: rgba(8, 19, 20, 0.82);
+  color: #2d868c;
+
+  font-family: Evogria, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  box-shadow: 0 0 12px rgba(124, 242, 255, 0.22);
+
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.homepage-roadmap-link:hover {
+  transform: translateY(-2px);
+  background: rgba(124, 246, 255, 0.18);
+  box-shadow: 0 0 16px rgba(124, 242, 255, 0.38);
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .homepage-roadmap-link {
+    right: 12px;
+    bottom: 12px;
+    font-size: 0.7rem;
+    padding: 7px 10px;
+  }
+}
+/**/

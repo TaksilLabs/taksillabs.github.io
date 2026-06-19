@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Start The Project",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-10",
+    "description": "Where the quest began"
+  },{
+    "title": "Start of the roadmap",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-19",
+    "description": "Where the quest's changelog was actually getting documentation."
+  },{
+    "title": "Slap ID Lookup",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-13",
+    "description": "Admin tool to look up a players' slap id."
+  },{
+    "title": "Franchise Hub",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-14",
+    "description": "A hub to show off each franchise."
+  },{
+    "title": "Franchises Groundwork",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-14",
+    "description": "Build the database to support Franchise representation"
+  },{
+    "title": "Franchise Hall of Fame",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-14",
+    "description": "Allow Franchises to show off their retired jersey numbers."
+  },{
+    "title": "Basic Embeding for home page",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-12",
+    "description": "Makes this thing look like less of a scam link when throwing it into discord."
+  },{
+    "title": "Make a Navbar",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-14",
+    "description": "Put a navbar for the major pages on the top left."
+  },{
+    "title": "Build the homepage",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-14",
+    "description": "Build a Splashpage so people dont auto-load to the player stat leaderboard"
+  },{
+    "title": "Fix Assists",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-16",
+    "description": "Some seasons have Assists, others have Prim and Sec assists, Some have both.  Make the site do math."
+  },{
+    "title": "Franchise Career Stats",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-16",
+    "description": "give the Franchises a Career Stat section like the Team Pages do."
+  },{
+    "title": "Franchise Logos",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-16",
+    "description": "Use Franchise Logos on the Franchsie cards."
+  },{
+    "title": "Team Cards show Franchises",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-16",
+    "description": "Style the Members of a Franchise's cards to show their role."
+  },{
+    "title": "System for Merging Player Names",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-18",
+    "description": "People change names.  We need to be ready for that."
+  },{
+    "title": "System for Merging Team Stats",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-18",
+    "description": "Teams rebrand. Teams have West/Central/East counterparts. Lets be ready for both."
+  },{
+    "title": "Overhaul Players Leaderboard to show all Slapshot Stats",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-18",
+    "description": "nuff said"
+  },{
+    "title": "Championship Clock",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-18",
+    "description": "build the math man to do math and calculate who won the championship. And who should recieve credit for it based on the SPL Handbook Thresholds."
+  },{
+    "title": "Player Stat Percentiles",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-17",
+    "description": "Requested by Tee. Show the top percentile for each Player Career Stat."
+  },{
+    "title": "Add system to support team logos / team colors",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-19",
+    "description": "nuff said"
+  },{
+    "title": "Player Alias System",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-18",
+    "description": "Merged player name changes under stable player IDs."
+  },
+  {
+    "title": "Iron Man Streaks",
+    "status": "planned",
+    "order": 20,
+    "date_completed": "2026-06-18",
+    "description": "Track consecutive regular-season games played for a player."
+  },
+  {
+    "title": "Chip Leaderboard",
+    "status": "planned",
+    "order": 1,
+    "date_completed": "",
+    "description": "Give the people a hub to chip check eachother. (Also make it support Teams / Franchises)"
+  },
+  {
+    "title": "Figure out Window Resizing",
+    "status": "planned",
+    "order": 20,
+    "date_completed": "",
+    "description": "No idea how this works. Will need to learn it at some point."
+  },
+  {
+    "title": "Player Comparison",
+    "status": "planned",
+    "order": 4,
+    "date_completed": "",
+    "description": "Compare two players' stats.  Also provide a Projected to show what the stats would be if both players had the same amount of Games Played"
+  },
+  {
+    "title": "Click + Drag for Player Leaderboard",
+    "status": "planned",
+    "order": 2,
+    "date_completed": "",
+    "description": "Not everyone knows Shift + Scroll goes side to side. The leaderboard needs to be intuitive."
+  },
+  {
+    "title": "Navbar Upgrayedd",
+    "status": "planned",
+    "order": 3,
+    "date_completed": "",
+    "description": "Spelled with 2 D's for a double dose of pimping.  Make a second menu that sorts vertically that shows up after the header has disappeared."
+  },
+  {
+    "title": "FRANCHISES TO ADD ",
+    "status": "planned",
+    "order": 5,
+    "date_completed": "",
+    "description": "Both Torontos (Narhwals / Seals | Spinach Toronto), Quebec Flare. Clappers / Clompers, Ghouls (Tokyo, Kyoto), Draft League Franchises."
+  }
+]
