@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Championships | SPLStats</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <meta property="og:title" content="SPLStats Championships" />
+  <meta property="og:description" content="Slapshot Premier League championship history by region." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://taksillabs.com/SPLStats/championships.html" />
+  <meta property="og:image" content="https://taksillabs.com/SPLStats/assets/images/splstats-card.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SPLStats Championships" />
+  <meta name="twitter:description" content="Slapshot Premier League championship history by region." />
+  <meta name="twitter:image" content="https://taksillabs.com/SPLStats/assets/images/splstats-card.png" />
+</head>
+
+<body>
+  <header>
+    <nav class="site-nav">
+      <a href="index.html" class="nav-card nav-home">
+        HOME
+      </a>
+      <a href="players.html" class="nav-card nav-players">
+        PLAYERS
+      </a>
+      <a href="teams.html" class="nav-card nav-teams">
+        TEAMS
+      </a>
+      <a href="franchises.html" class="nav-card nav-franchises">
+        FRANCHISES
+      </a>
+      <a href="championships.html" class="nav-card active">
+        CHAMPIONSHIPS
+      </a>
+    </nav>
+
+    <h1>Championships</h1>
+    <p>Regional Championship History</p>
+  </header>
+
+  <main>
+    <section class="player-card championship-history-page">
+      <h2>Championship History</h2>
+      <p class="section-subtitle">
+        Champions by season and region. Newest seasons are listed first.
+      </p>
+
+      <div class="championship-history-wrap">
+        <table id="championshipHistoryTable" class="championship-history-table">
+          <thead>
+            <tr>
+              <th>Season</th>
+              <th>East</th>
+              <th>Central</th>
+              <th>West</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td colspan="4">Loading championship history...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/championships.js"></script>
+</body>
+</html>

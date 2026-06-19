@@ -55,13 +55,18 @@ SITE NAV STYLERS
 }
 
 .nav-teams {
-  border-color: #F2C95D;
-  color: #F2C95D;
+  border-color: #2ECC71;
+  color: #2ECC71;
 }
 
 .nav-franchises {
   border-color: #FF4646;
   color: #FF4646;
+}
+
+.nav-championships {
+  border-color: #D6A935;
+  color: #FFD166;
 }
 
 .nav-card:hover {
@@ -83,11 +88,15 @@ SITE NAV STYLERS
 }
 
 .nav-teams:hover {
-  box-shadow: 0 0 12px rgba(242,201,93,0.5);
+  box-shadow: 0 0 12px rgba(93, 242, 93, 0.5);
 }
 
 .nav-franchises:hover {
   box-shadow: 0 0 12px rgba(255,70,70,0.5);
+}
+
+.nav-championships:hover {
+  box-shadow: 0 0 12px rgba(242,201,93,0.5);
 }
 
 
@@ -101,7 +110,7 @@ HOMEPAGE STYLERS
 */
 
 .hero {
-  min-height: 500px;
+  min-height: 380px;
 
   background-image:
     url("../images/rink-background.png");
@@ -113,8 +122,7 @@ HOMEPAGE STYLERS
 }
 
 .hero-overlay {
-
-  min-height: 500px;
+  min-height: 380px;
 
   display: flex;
   flex-direction: column;
@@ -124,7 +132,6 @@ HOMEPAGE STYLERS
 }
 
 .hero-brand {
-
   color: #12c7d8;
 
   font-family: Evogria;
@@ -132,11 +139,10 @@ HOMEPAGE STYLERS
   font-size: 5rem;
 
   text-shadow:
-    -5px 5px 0 #000;
+    -4px 4px 0 #000;
 }
 
 .hero-title {
-
   color: #f2c95d;
 
   font-family: Evogria;
@@ -144,11 +150,10 @@ HOMEPAGE STYLERS
   font-size: 6rem;
 
   text-shadow:
-    -5px 5px 0 #000;
+    -4px 4px 0 #000;
 }
 
 .hero-tagline {
-
   color: white;
 
   font-family: Evogria;
@@ -165,11 +170,13 @@ HOMEPAGE STYLERS
   display: grid;
 
   grid-template-columns:
-    repeat(3, 1fr);
+    repeat(2, 320px);
 
   gap: 24px;
 
-  max-width: 1400px;
+  justify-content: center;
+
+  max-width: 900px;
 
   margin: 50px auto;
 
@@ -178,8 +185,11 @@ HOMEPAGE STYLERS
 
 /* Card Base */
 .hub-card {
-
   min-height: 180px;
+
+  width: 320px;
+
+  box-sizing: border-box;
 
   padding: 32px;
 
@@ -250,10 +260,10 @@ HOMEPAGE STYLERS
 .teams {
 
   background:
-    rgba(242, 201, 93, 0.15);
+    rgba(46, 204, 113, 0.15);
 
   border:
-    2px solid #F2C95D;
+    2px solid #2ECC71;
 }
 
 .team-record {
@@ -291,7 +301,7 @@ HOMEPAGE STYLERS
 }
 
 .teams .hub-card-title {
-  color: #F2C95D;
+  color: #2ECC71;
 }
 
 /* Franchise Card Theme */
@@ -308,11 +318,39 @@ HOMEPAGE STYLERS
   color: #FF4646;
 }
 
+/* Championship Card Theme */
+.championships {
+
+  background:
+    rgba(214, 169, 53, 0.16);
+
+  border:
+    2px solid #D6A935;
+}
+
+.championships .hub-card-title {
+  color: #FFD166;
+}
+
 /**/
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
 
   .hub-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns:
+      repeat(2, 320px);
+  }
+
+}
+
+@media (max-width: 750px) {
+
+  .hub-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+  .hub-card {
+    width: 100%;
   }
 
 }
@@ -2318,4 +2356,141 @@ FRANCHISES BROWSER STYLERS
         var(--franchise-secondary);
 
     font-size: 0.9rem;
+}
+
+
+
+
+
+
+/*
+============================================================================
+MAIN CHAMPIONSHIPS.HTML HISTORY STYLERS
+============================================================================
+*/
+
+.championship-history-page {
+  max-width: 1200px;
+  margin: 32px auto;
+}
+
+.section-subtitle {
+  color: #aaa;
+  margin-top: -6px;
+  margin-bottom: 18px;
+}
+
+.championship-history-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.championship-history-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.championship-history-table th,
+.championship-history-table td {
+  padding: 15px 16px;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.championship-history-table th {
+  background: #080f14;
+  color: #00d1d1;
+  font-family: Evogria, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.championship-history-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.season-cell {
+  font-family: Evogria, sans-serif;
+  color: #ffd166;
+  white-space: nowrap;
+  min-width: 130px;
+}
+
+.champion-cell {
+  min-width: 210px;
+  padding-left: 12px;
+  border-left: 5px solid rgba(255, 255, 255, 0.12);
+}
+
+.champion-cell.champ-east {
+  border-left-color: #ff4d4d;
+}
+
+.champion-cell.champ-central {
+  border-left-color: #4db6ff;
+}
+
+.champion-cell.champ-west {
+  border-left-color: #ff8c42;
+}
+
+.champion-cup {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.champion-team {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+a.champion-team:hover {
+  color: #ffd166;
+}
+
+.champion-franchise-link {
+  margin-top: 3px;
+  font-size: 0.76rem;
+}
+
+.champion-franchise-link a {
+  color: #00d1d1;
+  text-decoration: none;
+}
+
+.champion-franchise-link a:hover {
+  color: #ffd166;
+}
+
+.champion-runner-up {
+  color: #aaa;
+  font-size: 0.82rem;
+  margin-top: 5px;
+}
+
+.champion-empty {
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.championship-history-table th,
+.championship-history-table td {
+  text-align: left;
+}
+
+.championship-history-table td:nth-child(2),
+.championship-history-table td:nth-child(3),
+.championship-history-table td:nth-child(4) {
+  text-align: left;
+}
+
+.championship-history-table th:nth-child(2),
+.championship-history-table th:nth-child(3),
+.championship-history-table th:nth-child(4) {
+  text-align: left;
 }
