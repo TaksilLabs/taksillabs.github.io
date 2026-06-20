@@ -168,5 +168,19 @@
     "order": 5,
     "date_completed": "",
     "description": "Both Torontos (Narhwals / Seals | Spinach Toronto), Quebec Flare. Clappers / Clompers, Ghouls (Tokyo, Kyoto), Draft League Franchises."
+  },
+  {
+    "title": "Player Nationality",
+    "status": "planned",
+    "order": 20,
+    "date_completed": "",
+    "description": "Allow players to rep their Country / State / Province."
+  },
+  {
+    "title": "Team Browser uses Team Metadata instead of Franchise Metadata",
+    "status": "working",
+    "order": 1,
+    "date_completed": "",
+    "description": "Let the Teams rep their colors and logos instead of their Franchise's"
   }
 ]

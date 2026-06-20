@@ -4,12 +4,60 @@ from collections import defaultdict
 
 ALL_TIME_FILE = Path("../data/all_time_players.json")
 OUT_FILE = Path("../data/teams.json")
+TEAM_METADATA_FILE = Path("../data/team_metadata.json")
 
 
 def load_json(path):
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
+def load_json_or_fallback(path, fallback):
+    if not path.exists():
+        return fallback
+
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_team_metadata():
+    entries = load_json_or_fallback(TEAM_METADATA_FILE, [])
+
+    by_id = {}
+
+    for entry in entries:
+        team_id = entry.get("team_id")
+
+        if not team_id:
+            continue
+
+        by_id[team_id] = entry
+
+    return by_id
+
+
+def apply_team_metadata(team_entry, metadata_by_id):
+    metadata = metadata_by_id.get(team_entry["team_id"], {})
+
+    if not metadata:
+        return team_entry
+
+    team_entry["team_name"] = (
+        metadata.get("team_display_name")
+        or team_entry.get("team_name")
+    )
+
+    team_entry["team_display_name"] = (
+        metadata.get("team_display_name")
+        or team_entry.get("team_display_name")
+        or team_entry.get("team_name")
+    )
+
+    team_entry["team_aliases"] = metadata.get("aliases", team_entry.get("team_aliases", []))
+    team_entry["logo"] = metadata.get("logo", team_entry.get("logo", ""))
+    team_entry["theme"] = metadata.get("theme", team_entry.get("theme", {}))
+    team_entry["name_history"] = metadata.get("name_history", team_entry.get("name_history", []))
+
+    return team_entry
 
 def get_team_id(row):
     return (
@@ -93,6 +141,7 @@ def recalculate_rates(career):
 
 def main():
     players = load_json(ALL_TIME_FILE)
+    metadata_by_id = load_team_metadata()
     teams = {}
 
     for player in players:
@@ -176,6 +225,7 @@ def main():
     output = []
 
     for team in teams.values():
+        team = apply_team_metadata(team, metadata_by_id)
         players_list = []
 
         for player_data in team["players"].values():

@@ -1644,140 +1644,190 @@ TEAM SEARCH STYLER
 
 .team-hub-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px;
+  grid-template-columns:
+    repeat(auto-fill, minmax(280px, 1fr));
+
+  gap: 24px;
+
+  max-width: 1400px;
+  margin: 32px auto;
+  padding: 0 20px;
 }
 
 .team-hub-card {
-  background: #17212b;
-  border: 1px solid #00b3b3;
-  border-radius: 8px;
-  padding: 16px;
-  color: inherit;
-  text-align: center;
-  text-decoration: none;
-
   position: relative;
   overflow: hidden;
+
   min-height: 210px;
+
+  border-radius: 16px;
+  border: 2px solid var(--team-primary, #2ecc71);
+
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(
+        in srgb,
+        var(--team-primary, #2ecc71) 28%,
+        transparent
+      ),
+      transparent 42%
+    ),
+    linear-gradient(
+      135deg,
+      var(--team-background, #050505),
+      var(--team-card, #0c141c)
+    );
+
+  color: white;
+  text-decoration: none;
+
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.35),
+    inset 0 0 22px rgba(255, 255, 255, 0.035);
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
 }
 
 .team-hub-card:hover {
-  background: #203040;
-  border-color: #ffd166;
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 16px 34px rgba(0, 0, 0, 0.45),
+    0 0 18px color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 35%,
+      transparent
+    );
+
   text-decoration: none;
 }
 
-.team-hub-card h2 {
-  margin-top: 0;
-  color: #ffd166;
-}
+.team-hub-logo-bg {
+  position: absolute;
+  right: -24px;
+  bottom: -30px;
 
-.team-hub-card {
-  position: relative;
-  overflow: hidden;
-  min-height: 200px;
+  width: 170px;
+  height: 170px;
+
+  object-fit: contain;
+  opacity: 0.16;
+
+  pointer-events: none;
 }
 
 .team-hub-card-content {
   position: relative;
   z-index: 2;
 
-  height: 100%;
-  min-height: 170px;
+  min-height: 210px;
+
+  box-sizing: border-box;
+  padding: 22px;
 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.team-hub-card-content h2 {
-  margin-top: 0;
-  margin-bottom: 16px;
+.team-hub-card h2 {
+  margin: 0;
+
+  max-width: 78%;
+
+  color: var(--team-accent, white);
+
+  font-family: Evogria, sans-serif;
+  font-size: 1.45rem;
+  line-height: 1.08;
+
+  text-shadow:
+    -2px 2px 0 #000;
 }
 
 .team-hub-bottom {
-  margin-top: auto;
-}
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 
-.franchise-linked-team {
-  background: var(--franchise-card);
-  border-color: var(--franchise-primary);
-  box-shadow:
-    0 0 14px color-mix(in srgb, var(--franchise-primary) 35%, transparent);
-}
-
-.franchise-linked-team::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background:
-    linear-gradient(
-      90deg,
-      color-mix(in srgb, var(--franchise-background) 96%, transparent) 0%,
-      color-mix(in srgb, var(--franchise-background) 78%, transparent) 45%,
-      color-mix(in srgb, var(--franchise-background) 30%, transparent) 100%
-    );
-
-  z-index: 1;
-  pointer-events: none;
-}
-
-.team-hub-logo-bg {
-  position: absolute;
-  right: -8%;
-  top: 50%;
-
-  height: 140%;
-  width: auto;
-
-  transform: translateY(-50%);
-
-  opacity: 0.28;
-  filter: blur(2px);
-
-  pointer-events: none;
-  user-select: none;
-
-  z-index: 0;
-}
-
-.franchise-linked-team h2 {
-  color: var(--franchise-primary);
-  text-shadow:
-    0 2px 4px rgba(0,0,0,0.95),
-    0 0 12px rgba(0,0,0,0.8);
+  margin-top: 22px;
 }
 
 .team-franchise-pill {
-  display: inline-block;
-  margin: 6px 0 12px;
-  padding: 4px 10px;
+  width: fit-content;
 
-  border: 1px solid var(--franchise-accent);
+  padding: 5px 9px;
+
   border-radius: 999px;
 
-  color: var(--franchise-accent);
-  background: color-mix(
+  background: rgba(0, 0, 0, 0.38);
+  border: 1px solid color-mix(
     in srgb,
-    var(--franchise-background) 70%,
-    transparent
+    var(--team-primary, #2ecc71) 55%,
+    rgba(255, 255, 255, 0.15)
   );
 
-  font-size: 0.75rem;
-  font-weight: bold;
+  color: var(--team-accent, #ffffff);
+
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .team-hub-record {
   color: white;
-  font-size: 1.35rem;
-  font-weight: bold;
+
+  font-size: 1.45rem;
+  font-weight: 1000;
 }
 
-.team-hub-substats {
-  color: var(--franchise-secondary);
-  font-size: 0.9rem;
-  margin-top: 6px;
+.team-hub-substats,
+.team-hub-bottom small {
+  color: #cfcfcf;
+  font-size: 0.86rem;
+}
+
+.team-franchise-pill {
+  width: fit-content;
+
+  padding: 5px 9px;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--pill-primary, #ff4646) 32%, #050505),
+      color-mix(in srgb, var(--pill-background, #050505) 88%, #000)
+    );
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--pill-primary, #ff4646) 70%,
+      rgba(255, 255, 255, 0.18)
+    );
+
+  color: var(--pill-accent, #ffffff);
+
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+  box-shadow:
+    0 0 10px
+    color-mix(
+      in srgb,
+      var(--pill-primary, #ff4646) 28%,
+      transparent
+    );
 }
 
 

@@ -23,26 +23,124 @@ async function loadTeams() {
   teamRecords = {};
 
   records.forEach(record => {
-    teamRecords[cleanTeamName(record.team)] = record;
+    const key = getTeamRecordKey(record);
+    teamRecords[key] = record;
   });
 
   renderTeams();
 }
 
 function cleanTeamName(teamName) {
-  return String(teamName)
+  return String(teamName || "")
     .replace(/\s*\([^)]*\)$/, "")
     .trim()
     .toLowerCase();
 }
 
-function findFranchiseForTeam(teamName, franchises) {
-  const teamKey = cleanTeamName(teamName);
+function getTeamRecordKey(team) {
+  return (
+    team.team_id
+    || cleanTeamName(team.team_display_name)
+    || cleanTeamName(team.team_name)
+    || cleanTeamName(team.team)
+    || "unknown_team"
+  );
+}
+
+function getTeamDisplayName(team) {
+  return (
+    team.team_display_name
+    || team.team_name
+    || team.team
+    || team.team_id
+    || "Unknown Team"
+  );
+}
+
+function getTeamUrlId(team) {
+  return (
+    team.team_id
+    || team.team_name
+    || team.team
+    || ""
+  );
+}
+
+function getTeamLogo(team) {
+  return team.logo || "";
+}
+
+function getTeamTheme(team) {
+  return team.theme || {};
+}
+
+function getFranchisePillStyle(franchise) {
+  const theme = franchise?.theme || {};
+
+  return `
+    --pill-primary: ${theme.primary || "#ff4646"};
+    --pill-secondary: ${theme.secondary || "#111111"};
+    --pill-accent: ${theme.accent || "#ffffff"};
+    --pill-background: ${theme.background || "#050505"};
+  `;
+}
+
+function getTeamCardStyle(team) {
+  const theme = getTeamTheme(team);
+
+  const primary = theme.primary || "#00b3b3";
+  const secondary = theme.secondary || "#ffffff";
+  const accent = theme.accent || "#ffd166";
+  const background = theme.background || "#050505";
+  const card = theme.card || "#0c141c";
+  const surface = theme.surface || "#111111";
+
+  return `
+    --team-primary: ${primary};
+    --team-secondary: ${secondary};
+    --team-accent: ${accent};
+    --team-background: ${background};
+    --team-card: ${card};
+    --team-surface: ${surface};
+
+    --franchise-primary: ${primary};
+    --franchise-secondary: ${secondary};
+    --franchise-accent: ${accent};
+    --franchise-background: ${background};
+    --franchise-card: ${card};
+    --franchise-surface: ${surface};
+  `;
+}
+
+function teamMatchesSearch(team, query) {
+  if (!query) return true;
+
+  const fields = [
+    team.team_id,
+    team.team_name,
+    team.team_display_name,
+    team.team,
+    ...(team.team_aliases || []),
+    ...(team.aliases || [])
+  ];
+
+  return fields.some(value =>
+    String(value || "").toLowerCase().includes(query)
+  );
+}
+
+function findFranchiseForTeam(team) {
+  const teamId = team.team_id;
+  const teamKey = cleanTeamName(getTeamDisplayName(team));
 
   for (const franchise of franchises) {
-    const membership = (franchise.memberships || []).find(m =>
-      cleanTeamName(m.team) === teamKey
-    );
+    const membership = (franchise.memberships || []).find(m => {
+      if (m.team_id && teamId && m.team_id === teamId) {
+        return true;
+      }
+
+      return cleanTeamName(m.team) === teamKey;
+    });
 
     if (membership) {
       return {
@@ -59,13 +157,10 @@ function renderTeams() {
   const query = searchInput.value.toLowerCase().trim();
 
   const filtered = teams
-    .filter(team =>
-      query === "" ||
-      team.team_name.toLowerCase().includes(query)
-    )
+    .filter(team => teamMatchesSearch(team, query))
     .sort((a, b) => {
-      const aRecord = teamRecords[cleanTeamName(a.team_name)] || {};
-      const bRecord = teamRecords[cleanTeamName(b.team_name)] || {};
+      const aRecord = teamRecords[getTeamRecordKey(a)] || {};
+      const bRecord = teamRecords[getTeamRecordKey(b)] || {};
 
       return (
         (bRecord.wins || 0)
@@ -74,27 +169,25 @@ function renderTeams() {
     });
 
   results.innerHTML = filtered.map(team => {
+    const displayName = getTeamDisplayName(team);
+    const urlId = getTeamUrlId(team);
+    const logo = getTeamLogo(team);
+
     const record =
-      teamRecords[cleanTeamName(team.team_name)] || {};
+      teamRecords[getTeamRecordKey(team)] || {};
 
     const franchiseResult =
-      findFranchiseForTeam(team.team_name, franchises);
+      findFranchiseForTeam(team);
 
     const franchise =
       franchiseResult?.franchise || null;
 
-    const theme =
-      franchise?.theme || {};
-
-    const isFranchiseTeam =
-      Boolean(franchise);
-
     const logoHTML =
-      franchise?.logo
+      logo
         ? `
           <img
             class="team-hub-logo-bg"
-            src="${franchise.logo}"
+            src="${logo}"
             alt=""
             aria-hidden="true"
           >
@@ -103,26 +196,26 @@ function renderTeams() {
 
     return `
       <a
-        class="team-hub-card ${isFranchiseTeam ? "franchise-linked-team" : ""}"
-        href="team.html?team=${encodeURIComponent(team.team_name)}"
-        style="
-          --franchise-primary: ${theme.primary || "#00b3b3"};
-          --franchise-secondary: ${theme.secondary || "#ffffff"};
-          --franchise-accent: ${theme.accent || "#ffd166"};
-          --franchise-background: ${theme.background || "#050505"};
-          --franchise-card: ${theme.card || "#0c141c"};
-          --franchise-surface: ${theme.surface || "#111"};
-        "
+        class="team-hub-card ${logo ? "metadata-team-card" : ""}"
+        href="team.html?id=${encodeURIComponent(urlId)}&team=${encodeURIComponent(displayName)}"
+        style="${getTeamCardStyle(team)}"
       >
         ${logoHTML}
 
         <div class="team-hub-card-content">
-          <h2>${team.team_name}</h2>
+          <h2>${displayName}</h2>
 
           <div class="team-hub-bottom">
             ${
               franchise
-                ? `<div class="team-franchise-pill">${franchise.franchise_name}</div>`
+                ? `
+                  <div
+                    class="team-franchise-pill"
+                    style="${getFranchisePillStyle(franchise)}"
+                  >
+                    ${franchise.franchise_name}
+                  </div>
+                `
                 : ""
             }
 
