@@ -130,7 +130,7 @@
   {
     "title": "Chip Leaderboard",
     "status": "planned",
-    "order": 1,
+    "order": 3,
     "date_completed": "",
     "description": "Give the people a hub to chip check eachother. (Also make it support Teams / Franchises)"
   },
@@ -144,28 +144,28 @@
   {
     "title": "Player Comparison",
     "status": "planned",
-    "order": 4,
+    "order": 7,
     "date_completed": "",
     "description": "Compare two players' stats.  Also provide a Projected to show what the stats would be if both players had the same amount of Games Played"
   },
   {
     "title": "Click + Drag for Player Leaderboard",
     "status": "planned",
-    "order": 2,
+    "order": 4,
     "date_completed": "",
     "description": "Not everyone knows Shift + Scroll goes side to side. The leaderboard needs to be intuitive."
   },
   {
     "title": "Navbar Upgrayedd",
     "status": "planned",
-    "order": 3,
+    "order": 5,
     "date_completed": "",
     "description": "Spelled with 2 D's for a double dose of pimping.  Make a second menu that sorts vertically that shows up after the header has disappeared."
   },
   {
     "title": "FRANCHISES TO ADD ",
     "status": "planned",
-    "order": 5,
+    "order": 6,
     "date_completed": "",
     "description": "Both Torontos (Narhwals / Seals | Spinach Toronto), Quebec Flare. Clappers / Clompers, Ghouls (Tokyo, Kyoto), Draft League Franchises."
   },
@@ -182,5 +182,19 @@
     "order": 1,
     "date_completed": "",
     "description": "Let the Teams rep their colors and logos instead of their Franchise's"
+  },
+  {
+    "title": "update team cards on player page to fit Team Browser New Theme",
+    "status": "planned",
+    "order": 1,
+    "date_completed": "",
+    "description": "Team Cards are the first version, they need to match the rest of the website's theme better."
+  },
+  {
+    "title": "Championships Team Cards",
+    "status": "planned",
+    "order": 2,
+    "date_completed": "",
+    "description": "Use Team Cards for Chips to make repeat winners stand out more."
   }
 ]
