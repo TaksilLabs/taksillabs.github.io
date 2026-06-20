@@ -1924,6 +1924,250 @@
                 "notes": ""
             }
         ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "orlando",
+        "franchise_name": "Orlando",
+        "logo": "assets/images/franchises/orlando_otters.png",
+        "status": "retired",
+        "founded": "2020-08-30",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#008080",
+            "secondary": "#403030",
+            "accent": "#8040a0",
+            "background": "#050505",
+            "card": "#111111",
+            "surface": "#1a1a1a",
+            "header": "#2c2c2c"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Chaser",
+            "Mace"
+        ],
+
+        "owners": [
+            "Chaser",
+            "Mace"
+        ],
+
+        "part_owners": [
+            "Dom"
+        ],
+
+        "coaches": [
+            ""
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "Chaser",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            },{
+                "player": "Mace",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Orlando Otters",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Orlando Riverpups",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "Vipers",
+        "franchise_name": "Vipers",
+        "logo": "assets/images/franchises/pittsburgh_vipers.png",
+        "status": "active",
+        "founded": "yyyy-mm-dd",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#60a0d0",
+            "secondary": "#203040",
+            "accent": "#d04040",
+            "background": "#050505",
+            "card": "#111111",
+            "surface": "#1a1a1a",
+            "header": "#2c2c2c"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Eli"
+        ],
+
+        "owners": [
+            "Eli"
+        ],
+
+        "part_owners": [
+            ""
+        ],
+
+        "coaches": [
+            ""
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "Enry",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Pittsburgh Vipers",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Pennsylvania Pythons",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "plymouth",
+        "franchise_name": "Plymouth",
+        "logo": "assets/images/franchises/plymouth_plague.png",
+        "status": "retired",
+        "founded": "2021-06-13",
+        "closed": "2023-07-23",
+
+        "theme": {
+            "primary": "#4010b0",
+            "secondary": "#405050",
+            "accent": "#00e020",
+            "background": "#050505",
+            "card": "#111111",
+            "surface": "#1a1a1a",
+            "header": "#2c2c2c"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Tee",
+            "FlaccidLettuce"
+        ],
+
+        "owners": [
+            "Tee",
+            "FlaccidLettuce",
+            "kyler"
+        ],
+
+        "part_owners": [
+            "Romminator"
+        ],
+
+        "coaches": [
+            "PacerFitnessTest"
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "player_name",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Plymouth Plague",
+                "order": 1,
+                "start_season": "summer_2021",
+                "end_season": "fall_2023",
+                "notes": "A Team"
+            },{
+                "team": "Plymouth Blymouth Blague",
+                "order": 2,
+                "start_season": "spring_2022",
+                "end_season": "spring_2022",
+                "notes": "B Team"
+            },{
+                "team": "Plymouth Plaggers",
+                "order": 3,
+                "start_season": "spring_2023",
+                "end_season": "spring_2023",
+                "notes": "6v6 Team"
+            }
+        ]
     }
 
 ]

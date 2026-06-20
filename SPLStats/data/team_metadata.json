@@ -7851,11 +7851,11 @@
     "aliases": [
       "Las Vegas Vandals"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/las_vegas_vandals.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a00000",
+      "secondary": "#200000",
+      "accent": "#ff0000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8127,11 +8127,11 @@
     "aliases": [
       "Los Angeles Comets"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/los_angeles_comets.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#9020f0",
+      "secondary": "#200020",
+      "accent": "#9020f0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8288,11 +8288,11 @@
     "aliases": [
       "Love Park Heart Attacks"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/lovepark_heartattacks.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#e09080",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#ff3000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8357,11 +8357,11 @@
     "aliases": [
       "Malibu Moguls"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/malibu_moguls.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#00a0c0",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#ffd060",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8495,11 +8495,11 @@
     "aliases": [
       "Maryland Ice Orcas"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/maryland_ice_orcas.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#80d0e0",
+      "secondary": "#102020",
+      "accent": "#80d0e0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8749,11 +8749,11 @@
     "aliases": [
       "Michigan Mafia"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/michigan_mafia.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#505040",
+      "secondary": "#303020",
+      "accent": "#904080",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8864,11 +8864,11 @@
     "aliases": [
       "Midwest Monarchs"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/midwest_monarchs.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a04020",
+      "secondary": "#201020",
+      "accent": "#f0a020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8933,11 +8933,11 @@
     "aliases": [
       "Minneapolis Marauders"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/minneapolis_marauders.jpg",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#6000b0",
+      "secondary": "#202000",
+      "accent": "#ffe000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9072,11 +9072,11 @@
     "aliases": [
       "Minnesota Moles"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/minnesota_moles.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#404050",
+      "secondary": "#000020",
+      "accent": "#ffd080",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9256,11 +9256,11 @@
     "aliases": [
       "Montreal Popes"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/montreal_popes.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e0b040",
+      "secondary": "#403010",
+      "accent": "#a08030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9348,11 +9348,11 @@
     "aliases": [
       "Napoli Neapolitans"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/napoli_neapolitans.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#008080",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#ffa0c0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9557,9 +9557,9 @@
     ],
     "logo": "assets/images/teams/new_england_stars.png",
     "theme": {
-      "primary": "#101030",
-      "secondary": "#111111",
-      "accent": "#ffe0e0",
+      "primary": "#ff0000",
+      "secondary": "#101030",
+      "accent": "#ff0000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9624,11 +9624,11 @@
     "aliases": [
       "New Jersey Dragons"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/new_jersey_dragons.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#001050",
+      "secondary": "#303040",
+      "accent": "#d02010",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9670,11 +9670,11 @@
     "aliases": [
       "New Jersey Minutemen"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/new_jersey_minutemen.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#b02030",
+      "secondary": "#302020",
+      "accent": "#c05060",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9693,11 +9693,11 @@
     "aliases": [
       "New Jersey Noobs"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/new_jersey_noobs.jpg",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#FE019A",
+      "secondary": "#302030",
+      "accent": "#00FEFC",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10199,11 +10199,11 @@
     "aliases": [
       "Ocean City Tsunamis"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/ocean_city_tsunamis.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#7070a0",
+      "secondary": "#201030",
+      "accent": "#00ffe0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10314,11 +10314,11 @@
     "aliases": [
       "Okinawa Generations"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/okinawa_generations.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c03030",
+      "secondary": "#401010",
+      "accent": "#a01030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10337,11 +10337,11 @@
     "aliases": [
       "Oklahoma Exotics"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/oklahoma_exotics.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#604000",
+      "secondary": "#002000",
+      "accent": "#ffa000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10429,11 +10429,11 @@
     "aliases": [
       "Ontario Outliers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/ontario_outliers.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#8060c0",
+      "secondary": "#302020",
+      "accent": "#00d0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10498,11 +10498,11 @@
     "aliases": [
       "Orange County low taper fades"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/orange_county_lower_taper_fades.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#906040",
+      "secondary": "#102020",
+      "accent": "#ffa000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10685,11 +10685,11 @@
     "aliases": [
       "Orlando Otters"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/orlando_otters.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#008080",
+      "secondary": "#403030",
+      "accent": "#8040a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10733,8 +10733,8 @@
     ],
     "logo": "assets/images/teams/ottawa_drinkers.png",
     "theme": {
-      "primary": "#ffa000",
-      "secondary": "#111111",
+      "primary": "#c08000",
+      "secondary": "#302010",
       "accent": "#ffb030",
       "background": "#050505",
       "card": "#111111",
@@ -11285,9 +11285,9 @@
     ],
     "logo": "assets/images/teams/ottawa_valley_wood_slappers.png",
     "theme": {
-      "primary": "#f05010",
+      "primary": "#705020",
       "secondary": "#111111",
-      "accent": "#e0e0ff",
+      "accent": "#4050f0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -11539,7 +11539,7 @@
     "logo": "assets/images/teams/philadelphia_phantasy.png",
     "theme": {
       "primary": "#a030e0",
-      "secondary": "#111111",
+      "secondary": "#403040",
       "accent": "#c050ff",
       "background": "#050505",
       "card": "#111111",
@@ -11858,11 +11858,11 @@
     "aliases": [
       "Pittsburgh Vipers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/pittsburgh_vipers.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#60a0d0",
+      "secondary": "#203040",
+      "accent": "#d04040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -11973,11 +11973,11 @@
     "aliases": [
       "Plymouth Plague"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/plymouth_plague.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#4010b0",
+      "secondary": "#405050",
+      "accent": "#00e020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -12343,7 +12343,7 @@
     ],
     "logo": "assets/images/teams/quebec_flare.png",
     "theme": {
-      "primary": "#c020c0",
+      "primary": "#e030e0",
       "secondary": "#111111",
       "accent": "#70a0f0",
       "background": "#050505",
@@ -12916,11 +12916,11 @@
     "aliases": [
       "Salt Lake City Stampede"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/salt_lake_city_stampede.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#101040",
+      "secondary": "#203030",
+      "accent": "#ff3030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -13215,11 +13215,11 @@
     "aliases": [
       "Savannah Bananas"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/savannah_bananas.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#00a0ff",
+      "secondary": "#101020",
+      "accent": "#00f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -13241,8 +13241,8 @@
     "logo": "assets/images/teams/schenectady_superstars.png",
     "theme": {
       "primary": "#104050",
-      "secondary": "#111111",
-      "accent": "#e0c060",
+      "secondary": "#302010",
+      "accent": "#d0a030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -13263,9 +13263,9 @@
     ],
     "logo": "assets/images/teams/seattle_cyclones.png",
     "theme": {
-      "primary": "#30b0e0",
+      "primary": "#90c040",
       "secondary": "#111111",
-      "accent": "#90c040",
+      "accent": "#30b0e0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -14115,8 +14115,8 @@
     "logo": "assets/images/teams/tega_cay_trid_reys.png",
     "theme": {
       "primary": "#b07030",
-      "secondary": "#111111",
-      "accent": "#fff0e0",
+      "secondary": "#201010",
+      "accent": "#b07030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -14342,11 +14342,11 @@
     "aliases": [
       "Three Way Freeway"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/three_way_freeway.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#405070",
+      "secondary": "#000020",
+      "accent": "#80b0c0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -14549,11 +14549,11 @@
     "aliases": [
       "Toronto Narwhals"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/toronto_narwhals.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#400040",
+      "secondary": "#502050",
+      "accent": "#60c0d0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -14618,11 +14618,11 @@
     "aliases": [
       "Toronto Seals"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/toronto_seals.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#60b0c0",
+      "secondary": "#401050",
+      "accent": "#60e0e0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -14940,11 +14940,11 @@
     "aliases": [
       "Twin City Toxin"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/twin_city_toxin.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#30c050",
+      "secondary": "#102000",
+      "accent": "#60d080",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -15288,7 +15288,7 @@
     "logo": "assets/images/teams/vader_inquisitors.png",
     "theme": {
       "primary": "#b02020",
-      "secondary": "#111111",
+      "secondary": "#200000",
       "accent": "#b02020",
       "background": "#050505",
       "card": "#111111",
@@ -15723,11 +15723,11 @@
     "aliases": [
       "Vancouver Titans"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/vancouver_titans.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#000040",
+      "secondary": "#202040",
+      "accent": "#f0c030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -16231,9 +16231,9 @@
     ],
     "logo": "assets/images/teams/windy_city_walruses.png",
     "theme": {
-      "primary": "#f00020",
-      "secondary": "#111111",
-      "accent": "#00b0e0",
+      "primary": "#00b0e0",
+      "secondary": "#302020",
+      "accent": "#f00020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -16324,9 +16324,9 @@
     ],
     "logo": "assets/images/teams/winnipeg_wrath.png",
     "theme": {
-      "primary": "#f00000",
-      "secondary": "#111111",
-      "accent": "#ff5050",
+      "primary": "#c00000",
+      "secondary": "#200000",
+      "accent": "#f00000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -16644,11 +16644,11 @@
     "aliases": [
       "Yosemite Grizzlies"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/yosemite_grizzlies.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#502010",
+      "secondary": "#201010",
+      "accent": "#ffc040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"

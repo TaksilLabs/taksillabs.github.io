@@ -10064,5 +10064,1955 @@
         ]
       }
     }
+  },
+  {
+    "franchise_id": "orlando",
+    "franchise_name": "Orlando",
+    "status": "retired",
+    "description": "",
+    "founders": [
+      "Chaser",
+      "Mace"
+    ],
+    "owners": [
+      "Chaser",
+      "Mace"
+    ],
+    "part_owners": [
+      "Dom"
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Chaser",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      },
+      {
+        "player": "Mace",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Orlando Otters",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Orlando Riverpups",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 2,
+      "games_played": 125,
+      "wins": 61,
+      "losses": 64,
+      "goals_for": 733,
+      "goals_against": 726,
+      "goal_differential": 7,
+      "win_percent": 0.488,
+      "seasons": 6
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Orlando Otters",
+        "value": 102
+      },
+      "most_wins": {
+        "team": "Orlando Otters",
+        "value": 54
+      },
+      "best_win_percent": {
+        "team": "Orlando Otters",
+        "value": 0.529
+      },
+      "most_goals_for": {
+        "team": "Orlando Otters",
+        "value": 644
+      },
+      "fewest_goals_against": {
+        "team": "Orlando Riverpups",
+        "value": 161
+      },
+      "best_goal_differential": {
+        "team": "Orlando Otters",
+        "value": 79
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Orlando Otters",
+        "games_played": 102,
+        "wins": 54,
+        "losses": 48,
+        "goals_for": 644,
+        "goals_against": 565,
+        "goal_differential": 79,
+        "win_percent": 0.529,
+        "seasons": [
+          "fall_2020",
+          "winter_2021",
+          "spring_2021",
+          "fall_2021",
+          "winter_2022",
+          "fall_2022"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Orlando Riverpups",
+        "games_played": 23,
+        "wins": 7,
+        "losses": 16,
+        "goals_for": 89,
+        "goals_against": 161,
+        "goal_differential": -72,
+        "win_percent": 0.304,
+        "seasons": [
+          "winter_2021",
+          "spring_2021"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 1
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 346.0,
+          "blocks": 146.0,
+          "faceoffs_lost": 446.0,
+          "faceoffs_won": 547.0,
+          "goals": 423.0,
+          "passes": 3896.0,
+          "points": 769.0,
+          "possession_time_sec": 9855.0,
+          "post_hits": 197.0,
+          "primary_assists": 283.0,
+          "saves": 478.0,
+          "secondary_assists": 64.0,
+          "shots": 1029.0,
+          "takeaways": 2001.0,
+          "turnovers": 1494.0,
+          "goals_against": 1279.0,
+          "shots_against": 2855.0,
+          "games_played": 204.0,
+          "faceoffs_total": 993.0,
+          "shot_percent": 41.11,
+          "save_percent": 16.74,
+          "gaa": 6.27,
+          "faceoff_win_percent": 55.09
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Mace",
+              "value": 125.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 59.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 55.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 48.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 40.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Mace",
+              "value": 127.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 52.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 38.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 32.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 29.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Mace",
+              "value": 252.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 107.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 86.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 78.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 72.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Mace",
+              "value": 349.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 144.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 119.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 96.0
+            },
+            {
+              "player_name": "TyrantK",
+              "value": 87.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Mace",
+              "value": 864.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 199.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 195.0
+            },
+            {
+              "player_name": "TyrantK",
+              "value": 187.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 181.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Mace",
+              "value": 318.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 44.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 28.0
+            },
+            {
+              "player_name": "TyrantK",
+              "value": 21.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 20.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Mace",
+              "value": 50.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 30.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 17.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 14.0
+            },
+            {
+              "player_name": "TyrantK",
+              "value": 13.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "TyrantK",
+              "value": 64.06
+            },
+            {
+              "player_name": "kyler",
+              "value": 63.08
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 60.67
+            },
+            {
+              "player_name": "Mace",
+              "value": 57.93
+            },
+            {
+              "player_name": "Ridge",
+              "value": 50.51
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Mace",
+              "value": 66.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 38.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 19.0
+            },
+            {
+              "player_name": "TyrantK",
+              "value": 16.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 16.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Mace",
+              "value": 4
+            },
+            {
+              "player_name": "Chaser",
+              "value": 3
+            },
+            {
+              "player_name": "Ridge",
+              "value": 2
+            },
+            {
+              "player_name": "Green",
+              "value": 2
+            },
+            {
+              "player_name": "kyler",
+              "value": 1
+            }
+          ]
+        },
+        "teams": [
+          "Orlando Otters"
+        ],
+        "seasons": [
+          "winter_2022",
+          "fall_2021",
+          "spring_2021",
+          "winter_2021"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 592.0,
+          "blocks": 295.0,
+          "faceoffs_lost": 754.0,
+          "faceoffs_won": 828.0,
+          "goals": 733.0,
+          "passes": 5954.0,
+          "points": 1325.0,
+          "possession_time_sec": 15004.0,
+          "post_hits": 313.0,
+          "primary_assists": 429.0,
+          "saves": 866.0,
+          "secondary_assists": 100.0,
+          "shots": 1733.0,
+          "takeaways": 3024.0,
+          "turnovers": 2444.0,
+          "goals_against": 2276.0,
+          "shots_against": 5152.0,
+          "games_played": 390.0,
+          "faceoffs_total": 1582.0,
+          "shot_percent": 42.3,
+          "save_percent": 16.81,
+          "gaa": 5.84,
+          "faceoff_win_percent": 52.34
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Mace",
+              "value": 158.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 86.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 67.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 57.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 45.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Mace",
+              "value": 167.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 77.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 41.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 39.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 36.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Mace",
+              "value": 325.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 163.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 98.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 90.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 81.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Mace",
+              "value": 431.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 180.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 166.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 115.0
+            },
+            {
+              "player_name": "TyrantK",
+              "value": 96.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Mace",
+              "value": 958.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 232.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 230.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 211.0
+            },
+            {
+              "player_name": "TyrantK",
+              "value": 202.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Mace",
+              "value": 391.0
+            },
+            {
+              "player_name": "Cojo",
+              "value": 69.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 53.0
+            },
+            {
+              "player_name": "Drew",
+              "value": 37.0
+            },
+            {
+              "player_name": "Pazaz",
+              "value": 35.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Mace",
+              "value": 82.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 36.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 25.0
+            },
+            {
+              "player_name": "Panther",
+              "value": 21.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 17.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "TyrantK",
+              "value": 62.32
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 61.76
+            },
+            {
+              "player_name": "Mace",
+              "value": 57.92
+            },
+            {
+              "player_name": "kyler",
+              "value": 57.83
+            },
+            {
+              "player_name": "Rokybo",
+              "value": 55.93
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Mace",
+              "value": 89.0
+            },
+            {
+              "player_name": "Chaser",
+              "value": 56.0
+            },
+            {
+              "player_name": "Ridge",
+              "value": 24.0
+            },
+            {
+              "player_name": "Mr. Move Look",
+              "value": 20.0
+            },
+            {
+              "player_name": "Cojo",
+              "value": 20.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Mace",
+              "value": 5
+            },
+            {
+              "player_name": "Chaser",
+              "value": 5
+            },
+            {
+              "player_name": "Green",
+              "value": 3
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 2
+            },
+            {
+              "player_name": "Ridge",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Orlando Otters",
+          "Orlando Riverpups"
+        ],
+        "seasons": [
+          "fall_2022",
+          "winter_2022",
+          "fall_2021",
+          "spring_2021",
+          "winter_2021",
+          "fall_2020"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "Vipers",
+    "franchise_name": "Vipers",
+    "status": "active",
+    "description": "",
+    "founders": [
+      "Eli"
+    ],
+    "owners": [
+      "Eli"
+    ],
+    "part_owners": [
+      ""
+    ],
+    "coaches": [
+      ""
+    ],
+    "hall_of_fame": [
+      {
+        "player": "Enry",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Pittsburgh Vipers",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Pennsylvania Pythons",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 1,
+      "games_played": 198,
+      "wins": 159,
+      "losses": 38,
+      "goals_for": 1894,
+      "goals_against": 1050,
+      "goal_differential": 844,
+      "win_percent": 0.803,
+      "seasons": 10
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Pittsburgh Vipers",
+        "value": 198
+      },
+      "most_wins": {
+        "team": "Pittsburgh Vipers",
+        "value": 159
+      },
+      "best_win_percent": {
+        "team": "Pittsburgh Vipers",
+        "value": 0.803
+      },
+      "most_goals_for": {
+        "team": "Pittsburgh Vipers",
+        "value": 1894
+      },
+      "fewest_goals_against": {
+        "team": "Pittsburgh Vipers",
+        "value": 1050
+      },
+      "best_goal_differential": {
+        "team": "Pittsburgh Vipers",
+        "value": 844
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Pittsburgh Vipers",
+        "games_played": 198,
+        "wins": 159,
+        "losses": 38,
+        "goals_for": 1894,
+        "goals_against": 1050,
+        "goal_differential": 844,
+        "win_percent": 0.803,
+        "seasons": [
+          "summer_2021",
+          "fall_2021",
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "summer_2024",
+          "fall_2024"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 1
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 971.0,
+          "blocks": 194.0,
+          "faceoffs_lost": 668.0,
+          "faceoffs_won": 1006.0,
+          "goals": 994.0,
+          "passes": 7272.0,
+          "periods_played": 279.0,
+          "points": 1965.0,
+          "possession_time_sec": 14633.0,
+          "post_hits": 409.0,
+          "primary_assists": 767.0,
+          "saves": 436.0,
+          "secondary_assists": 203.0,
+          "shots": 2181.0,
+          "takeaways": 1818.0,
+          "turnovers": 1367.0,
+          "goals_against": 1536.0,
+          "shots_against": 2878.0,
+          "games_played": 288.0,
+          "faceoffs_total": 1674.0,
+          "shot_percent": 45.58,
+          "save_percent": 15.15,
+          "gaa": 5.33,
+          "faceoff_win_percent": 60.1
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Enry",
+              "value": 192.0
+            },
+            {
+              "player_name": "milk",
+              "value": 169.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 158.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 133.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 114.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Kajun",
+              "value": 204.0
+            },
+            {
+              "player_name": "Enry",
+              "value": 197.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 161.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 121.0
+            },
+            {
+              "player_name": "milk",
+              "value": 111.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Enry",
+              "value": 389.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 318.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 294.0
+            },
+            {
+              "player_name": "milk",
+              "value": 280.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 279.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Enry",
+              "value": 424.0
+            },
+            {
+              "player_name": "milk",
+              "value": 344.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 338.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 287.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 264.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Enry",
+              "value": 475.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 363.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 282.0
+            },
+            {
+              "player_name": "milk",
+              "value": 234.0
+            },
+            {
+              "player_name": "hex",
+              "value": 145.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Kajun",
+              "value": 156.0
+            },
+            {
+              "player_name": "Enry",
+              "value": 139.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 44.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 41.0
+            },
+            {
+              "player_name": "milk",
+              "value": 30.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Kajun",
+              "value": 68.0
+            },
+            {
+              "player_name": "Enry",
+              "value": 50.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 31.0
+            },
+            {
+              "player_name": "milk",
+              "value": 14.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 11.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Jahziah",
+              "value": 73.48
+            },
+            {
+              "player_name": "Enry",
+              "value": 64.41
+            },
+            {
+              "player_name": "hex",
+              "value": 60.98
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 59.44
+            },
+            {
+              "player_name": "Kajun",
+              "value": 58.97
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Kajun",
+              "value": 48.0
+            },
+            {
+              "player_name": "Enry",
+              "value": 46.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 46.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 43.0
+            },
+            {
+              "player_name": "milk",
+              "value": 37.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Eli",
+              "value": 5
+            },
+            {
+              "player_name": "milk",
+              "value": 4
+            },
+            {
+              "player_name": "Jagr",
+              "value": 3
+            },
+            {
+              "player_name": "Kajun",
+              "value": 3
+            },
+            {
+              "player_name": "Enry",
+              "value": 3
+            }
+          ]
+        },
+        "teams": [
+          "Pittsburgh Vipers"
+        ],
+        "seasons": [
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 1815.0,
+          "blocks": 881.0,
+          "faceoffs_lost": 1346.0,
+          "faceoffs_won": 1985.0,
+          "goals": 1894.0,
+          "passes": 14574.0,
+          "periods_played": 639.0,
+          "points": 3709.0,
+          "possession_time_sec": 29595.0,
+          "post_hits": 799.0,
+          "primary_assists": 1427.0,
+          "saves": 1047.0,
+          "secondary_assists": 396.0,
+          "shots": 4104.0,
+          "takeaways": 3811.0,
+          "turnovers": 2875.0,
+          "goals_against": 3264.0,
+          "shots_against": 6475.0,
+          "games_played": 617.0,
+          "faceoffs_total": 3331.0,
+          "shot_percent": 46.15,
+          "save_percent": 16.17,
+          "gaa": 5.29,
+          "faceoff_win_percent": 59.59
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Enry",
+              "value": 403.0
+            },
+            {
+              "player_name": "milk",
+              "value": 266.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 253.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 222.0
+            },
+            {
+              "player_name": "Jahziah",
+              "value": 209.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Enry",
+              "value": 367.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 305.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 287.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 177.0
+            },
+            {
+              "player_name": "Jahziah",
+              "value": 168.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Enry",
+              "value": 770.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 558.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 434.0
+            },
+            {
+              "player_name": "milk",
+              "value": 429.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 399.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Enry",
+              "value": 857.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 535.0
+            },
+            {
+              "player_name": "milk",
+              "value": 520.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 518.0
+            },
+            {
+              "player_name": "Jahziah",
+              "value": 428.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Enry",
+              "value": 994.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 737.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 404.0
+            },
+            {
+              "player_name": "Jahziah",
+              "value": 366.0
+            },
+            {
+              "player_name": "milk",
+              "value": 343.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Kajun",
+              "value": 280.0
+            },
+            {
+              "player_name": "Enry",
+              "value": 242.0
+            },
+            {
+              "player_name": "TheTopElite",
+              "value": 115.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 87.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 72.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Rokybo",
+              "value": 136.0
+            },
+            {
+              "player_name": "TheTopElite",
+              "value": 116.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 104.0
+            },
+            {
+              "player_name": "Enry",
+              "value": 103.0
+            },
+            {
+              "player_name": "Bangaled",
+              "value": 80.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Jahziah",
+              "value": 69.31
+            },
+            {
+              "player_name": "Enry",
+              "value": 65.65
+            },
+            {
+              "player_name": "Bangaled",
+              "value": 65.43
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 62.4
+            },
+            {
+              "player_name": "Eli",
+              "value": 57.78
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Enry",
+              "value": 103.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 91.0
+            },
+            {
+              "player_name": "Kajun",
+              "value": 70.0
+            },
+            {
+              "player_name": "Jagr",
+              "value": 65.0
+            },
+            {
+              "player_name": "milk",
+              "value": 60.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Eli",
+              "value": 8
+            },
+            {
+              "player_name": "milk",
+              "value": 5
+            },
+            {
+              "player_name": "Enry",
+              "value": 5
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 5
+            },
+            {
+              "player_name": "Jahziah",
+              "value": 5
+            }
+          ]
+        },
+        "teams": [
+          "Pittsburgh Vipers"
+        ],
+        "seasons": [
+          "fall_2024",
+          "summer_2024",
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "plymouth",
+    "franchise_name": "Plymouth",
+    "status": "retired",
+    "description": "",
+    "founders": [
+      "Tee",
+      "FlaccidLettuce"
+    ],
+    "owners": [
+      "Tee",
+      "FlaccidLettuce",
+      "kyler"
+    ],
+    "part_owners": [
+      "Romminator"
+    ],
+    "coaches": [
+      "PacerFitnessTest"
+    ],
+    "hall_of_fame": [
+      {
+        "player": "player_name",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Plymouth Plague",
+        "order": 1,
+        "start_season": "summer_2021",
+        "end_season": "fall_2023",
+        "notes": "A Team"
+      },
+      {
+        "team": "Plymouth Blymouth Blague",
+        "order": 2,
+        "start_season": "spring_2022",
+        "end_season": "spring_2022",
+        "notes": "B Team"
+      },
+      {
+        "team": "Plymouth Plaggers",
+        "order": 3,
+        "start_season": "spring_2023",
+        "end_season": "spring_2023",
+        "notes": "6v6 Team"
+      }
+    ],
+    "team_totals": {
+      "teams": 2,
+      "games_played": 204,
+      "wins": 139,
+      "losses": 65,
+      "goals_for": 1507,
+      "goals_against": 1084,
+      "goal_differential": 423,
+      "win_percent": 0.681,
+      "seasons": 9
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Plymouth Plague",
+        "value": 190
+      },
+      "most_wins": {
+        "team": "Plymouth Plague",
+        "value": 131
+      },
+      "best_win_percent": {
+        "team": "Plymouth Plague",
+        "value": 0.689
+      },
+      "most_goals_for": {
+        "team": "Plymouth Plague",
+        "value": 1413
+      },
+      "fewest_goals_against": {
+        "team": "Plymouth Blymouth Blague",
+        "value": 77
+      },
+      "best_goal_differential": {
+        "team": "Plymouth Plague",
+        "value": 406
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Plymouth Plague",
+        "games_played": 190,
+        "wins": 131,
+        "losses": 59,
+        "goals_for": 1413,
+        "goals_against": 1007,
+        "goal_differential": 406,
+        "win_percent": 0.689,
+        "seasons": [
+          "summer_2021",
+          "fall_2021",
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023"
+        ],
+        "start_season": "summer_2021",
+        "end_season": "fall_2023",
+        "order": 1
+      },
+      {
+        "team": "Plymouth Blymouth Blague",
+        "games_played": 14,
+        "wins": 8,
+        "losses": 6,
+        "goals_for": 94,
+        "goals_against": 77,
+        "goal_differential": 17,
+        "win_percent": 0.571,
+        "seasons": [
+          "spring_2022"
+        ],
+        "start_season": "spring_2022",
+        "end_season": "spring_2022",
+        "order": 2
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 1011.0,
+          "blocks": 313.0,
+          "faceoffs_lost": 866.0,
+          "faceoffs_won": 1226.0,
+          "goals": 1051.0,
+          "passes": 10810.0,
+          "points": 2062.0,
+          "possession_time_sec": 23998.0,
+          "post_hits": 469.0,
+          "primary_assists": 784.0,
+          "saves": 910.0,
+          "secondary_assists": 231.0,
+          "shots": 2310.0,
+          "takeaways": 2960.0,
+          "turnovers": 2291.0,
+          "goals_against": 2183.0,
+          "shots_against": 4927.0,
+          "games_played": 417.0,
+          "faceoffs_total": 2092.0,
+          "periods_played": 285.0,
+          "shot_percent": 45.5,
+          "save_percent": 18.47,
+          "gaa": 5.24,
+          "faceoff_win_percent": 58.6
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "kyler",
+              "value": 253.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 103.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 99.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 81.0
+            },
+            {
+              "player_name": "hex",
+              "value": 70.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Kylar",
+              "value": 278.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 244.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 98.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 79.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 54.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "kyler",
+              "value": 497.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 381.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 179.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 178.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 104.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "kyler",
+              "value": 548.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 275.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 214.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 197.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 150.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "kyler",
+              "value": 658.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 585.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 570.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 263.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 183.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Kylar",
+              "value": 321.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 287.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 92.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 90.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 43.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Kylar",
+              "value": 86.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 70.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 53.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 51.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 14.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Mace",
+              "value": 68.06
+            },
+            {
+              "player_name": "Blue",
+              "value": 67.16
+            },
+            {
+              "player_name": "Kylar",
+              "value": 64.33
+            },
+            {
+              "player_name": "Ridge",
+              "value": 61.9
+            },
+            {
+              "player_name": "Romminator",
+              "value": 61.54
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "kyler",
+              "value": 87.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 74.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 49.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 41.0
+            },
+            {
+              "player_name": "Romminator",
+              "value": 26.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "kyler",
+              "value": 6
+            },
+            {
+              "player_name": "Kylar",
+              "value": 6
+            },
+            {
+              "player_name": "Romminator",
+              "value": 5
+            },
+            {
+              "player_name": "TEE",
+              "value": 3
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 3
+            }
+          ]
+        },
+        "teams": [
+          "Plymouth Plague"
+        ],
+        "seasons": [
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 1455.0,
+          "blocks": 507.0,
+          "faceoffs_lost": 1299.0,
+          "faceoffs_won": 1768.0,
+          "goals": 1507.0,
+          "passes": 15714.0,
+          "points": 2962.0,
+          "possession_time_sec": 35019.0,
+          "post_hits": 648.0,
+          "primary_assists": 1141.0,
+          "saves": 1402.0,
+          "secondary_assists": 326.0,
+          "shots": 3235.0,
+          "takeaways": 4449.0,
+          "turnovers": 3543.0,
+          "goals_against": 3292.0,
+          "shots_against": 7538.0,
+          "games_played": 621.0,
+          "faceoffs_total": 3067.0,
+          "periods_played": 321.0,
+          "shot_percent": 46.58,
+          "save_percent": 18.6,
+          "gaa": 5.3,
+          "faceoff_win_percent": 57.65
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "kyler",
+              "value": 367.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 141.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 138.0
+            },
+            {
+              "player_name": "hex",
+              "value": 94.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 93.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Kylar",
+              "value": 394.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 335.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 123.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 102.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 67.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "kyler",
+              "value": 702.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 535.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 240.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 216.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 145.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "kyler",
+              "value": 765.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 377.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 298.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 228.0
+            },
+            {
+              "player_name": "ChristianFF",
+              "value": 200.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "kyler",
+              "value": 877.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 862.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 823.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 390.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 266.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Kylar",
+              "value": 522.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 377.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 144.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 129.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 51.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Kylar",
+              "value": 142.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 124.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 72.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 69.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 17.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Mace",
+              "value": 68.35
+            },
+            {
+              "player_name": "Kylar",
+              "value": 63.4
+            },
+            {
+              "player_name": "Ridge",
+              "value": 62.5
+            },
+            {
+              "player_name": "Romminator",
+              "value": 61.54
+            },
+            {
+              "player_name": "Blue",
+              "value": 60.68
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "kyler",
+              "value": 122.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 109.0
+            },
+            {
+              "player_name": "TEE",
+              "value": 66.0
+            },
+            {
+              "player_name": "FlaccidLettuce",
+              "value": 58.0
+            },
+            {
+              "player_name": "spillz",
+              "value": 32.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "kyler",
+              "value": 6
+            },
+            {
+              "player_name": "Kylar",
+              "value": 6
+            },
+            {
+              "player_name": "Romminator",
+              "value": 5
+            },
+            {
+              "player_name": "spillz",
+              "value": 4
+            },
+            {
+              "player_name": "TEE",
+              "value": 3
+            }
+          ]
+        },
+        "teams": [
+          "Plymouth Blymouth Blague",
+          "Plymouth Plague"
+        ],
+        "seasons": [
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022",
+          "fall_2021",
+          "summer_2021"
+        ]
+      }
+    }
   }
 ]
