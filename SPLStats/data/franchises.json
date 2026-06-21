@@ -725,146 +725,182 @@
                 "notes": ""
             },{
                 "team": "Vader Central Attackers",
-                "order": 1,
+                "order": 2,
                 "start_season": "fall_2025",
-                "end_season": "",
+                "end_season": "spring_2026",
                 "notes": ""
             },{
                 "team": "Vader Eastern Attackers",
-                "order": 1,
+                "order": 3,
                 "start_season": "fall_2025",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Acolytes",
-                "order": 1,
+                "order": 4,
                 "start_season": "fall_2025",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Wookies",
-                "order": 1,
+                "order": 5,
                 "start_season": "winter_2026",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader 66ers",
-                "order": 1,
+                "order": 6,
                 "start_season": "winter_2026",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Gungans",
-                "order": 1,
+                "order": 7,
                 "start_season": "fall_2025",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Troopers",
-                "order": 1,
+                "order": 8,
                 "start_season": "summer_2025",
                 "end_season": "fall_2025",
                 "notes": ""
             },{
                 "team": "Vader Bens",
-                "order": 1,
+                "order": 9,
                 "start_season": "winter_2026",
-                "end_season": "",
+                "end_season": "spring_2026",
                 "notes": ""
             },{
                 "team": "Vader Enforcers",
-                "order": 1,
+                "order": 10,
                 "start_season": "summer_2025",
                 "end_season": "fall_2025",
                 "notes": ""
             },{
                 "team": "Vader Starkillers Central",
-                "order": 1,
+                "order": 11,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Voltage Eastern",
-                "order": 1,
+                "order": 12,
                 "start_season": "spring_2026",
-                "end_season": "",
+                "end_season": "spring_2026",
                 "notes": ""
             },{
                 "team": "Vader Guards",
-                "order": 1,
+                "order": 13,
                 "start_season": "fall_2025",
                 "end_season": "fall_2025",
                 "notes": ""
             },{
                 "team": "Vader Starkillers East",
-                "order": 1,
+                "order": 14,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Voltage - Central",
-                "order": 1,
+                "order": 15,
                 "start_season": "spring_2026",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Leias",
-                "order": 1,
+                "order": 16,
                 "start_season": "winter_2026",
                 "end_season": "winter_2026",
                 "notes": ""
             },{
                 "team": "Vader Raiders",
-                "order": 1,
+                "order": 17,
                 "start_season": "spring_2026",
-                "end_season": "",
+                "end_season": "spring_2026",
                 "notes": ""
             },{
                 "team": "Vader Disciples",
-                "order": 1,
+                "order": 18,
                 "start_season": "winter_2026",
                 "end_season": "",
                 "notes": ""
             },{
                 "team": "Vader Revanites",
-                "order": 1,
+                "order": 19,
                 "start_season": "spring_2026",
-                "end_season": "",
+                "end_season": "spring_2026",
                 "notes": ""
             },{
                 "team": "Vader Vapors",
-                "order": 1,
+                "order": 20,
                 "start_season": "fall_2025",
                 "end_season": "fall_2025",
                 "notes": ""
             },{
                 "team": "Vader Destroyers",
-                "order": 1,
+                "order": 21,
                 "start_season": "fall_2025",
                 "end_season": "fall_2025",
                 "notes": ""
             },{
                 "team": "Vader Jabbas",
-                "order": 1,
+                "order": 22,
                 "start_season": "winter_2026",
                 "end_season": "winter_2026",
                 "notes": ""
             },{
                 "team": "Vader Western Inquisitors",
-                "order": 1,
+                "order": 23,
                 "start_season": "summer_2025",
                 "end_season": "summer_2025",
                 "notes": ""
             },{
                 "team": "Vader Droids",
-                "order": 1,
+                "order": 24,
                 "start_season": "summer_2025",
                 "end_season": "summer_2025",
                 "notes": ""
             },{
                 "team": "Vader AT-AT's",
-                "order": 1,
+                "order": 25,
                 "start_season": "spring_2026",
+                "end_season": "spring_2026",
+                "notes": ""
+            },{
+                "team": "Vader Bounty Hunters",
+                "order": 26,
+                "start_season": "summer_2026",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Vader Saboteurs",
+                "order": 27,
+                "start_season": "summer_2026",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Vader Stars",
+                "order": 28,
+                "start_season": "summer_2026",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Vader Vanguard",
+                "order": 29,
+                "start_season": "summer_2026",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Vader Vanquishers",
+                "order": 30,
+                "start_season": "summer_2026",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Vader Whiteout",
+                "order": 31,
+                "start_season": "summer_2026",
                 "end_season": "",
                 "notes": ""
             }
@@ -2166,6 +2202,165 @@
                 "start_season": "spring_2023",
                 "end_season": "spring_2023",
                 "notes": "6v6 Team"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "Miami",
+        "franchise_name": "Miami",
+        "logo": "assets/images/franchises/miami_vice.png",
+        "status": "active",
+        "founded": "yyyy-mm-dd",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#F362B0",
+            "secondary": "#402030",
+            "accent": "#8FEFFF",
+            "background": "#050505",
+            "card": "#111111",
+            "surface": "#1a1a1a",
+            "header": "#2c2c2c"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Reno",
+            "Rodeo"
+        ],
+
+        "owners": [
+            "Reno",
+            "Rodeo"
+        ],
+
+        "part_owners": [
+            "meatsale",
+            "kyler"
+        ],
+
+        "coaches": [
+            "Rath"
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "player_name",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Miami Vice",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Miami Vice Academy",
+                "order": 2,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "Oregon",
+        "franchise_name": "Oregon",
+        "logo": "assets/images/franchises/oregon_capybaras.png",
+        "status": "active",
+        "founded": "yyyy-mm-dd",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#cc0021",
+            "secondary": "#1a1a1a",
+            "accent": "#ecad14",
+
+            "background": "#121212",
+            "card": "#1a1a1a",
+            "surface": "#121212",
+            "header": "#2c2c2c"
+        },
+
+        "description": "",
+
+        "founders": [
+            "Carried By Dad",
+            "Curt"
+        ],
+
+        "owners": [
+            "Carried By Dad",
+            "Curt"
+        ],
+
+        "part_owners": [
+            "Wiki",
+            "SoccerboyEJ"
+        ],
+
+        "coaches": [
+            "Wiki"
+        ],
+
+        "hall_of_fame": [
+            {
+                "player": "player_name",
+                "retired_number": "##",
+                "retired_date": "yyyy-mm-dd",
+                "induction_speech": ""
+            }
+        ],
+
+        "memberships": [
+            {
+                "team": "Oregon Capybaras",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Oregon Baby Capybaras",
+                "order": 2,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
             }
         ]
     }
