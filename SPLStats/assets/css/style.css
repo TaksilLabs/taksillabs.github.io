@@ -5,18 +5,30 @@ SITE NAV STYLERS
 */
 
 .site-nav {
-
-  position: fixed;
-
-  top: 20px;
-  left: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
   gap: 10px;
 
-  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.site-nav.nav-hidden {
+  transform: translateY(-120%);
+  opacity: 0;
+  pointer-events: none;
 }
 
 .nav-card {
@@ -464,21 +476,6 @@ main {
 #leaderboard tbody tr:nth-child(odd) td:nth-child(1),
 #leaderboard tbody tr:nth-child(odd) td:nth-child(2) {
   background: #080f14;
-}
-
-.site-nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  transition:
-    transform 0.25s ease,
-    opacity 0.25s ease;
-}
-
-.site-nav.nav-hidden {
-  transform: translateY(-120%);
-  opacity: 0;
-  pointer-events: none;
 }
 
 /*Fake Sticky Header for Players.html Leaderboard*/
@@ -1332,249 +1329,6 @@ Player Page, Team Card Stylers
 .championship-carousel.championship-carousel-centered {
   justify-content: center;
   overflow-x: hidden;
-}
-
-
-/* 
-========================================
-TEAM PAGE HELPERS 
-========================================
-*/
-
-
-#seasonList,
-#divisionList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-.info-tag {
-  background: #0c141c;
-  border: 1px solid #00b3b3;
-  color: #f4f4f4;
-  border-radius: 999px;
-  padding: 8px 14px;
-  font-weight: bold;
-
-  transition:
-    background-color 0.15s ease,
-    color 0.25s ease;
-}
-
-.season-tag {
-  border-color: #ffd166;
-}
-
-.season-tag:hover {
-  background: #ffd166;
-  color: #101820;
-  cursor: default;
-}
-
-.division-tag {
-  border-color: #7bdff2;
-}
-
-.division-tag:hover {
-  background: #7bdff2;
-  color: #101820;
-  cursor: default;
-}
-
-.leader-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(180px, 1fr));
-  gap: 12px;
-}
-
-.leader-card {
-  background: #0c141c;
-  border: 1px solid #00b3b3;
-  border-radius: 8px;
-  padding: 12px;
-}
-
-.leader-card h3 {
-  margin-top: 0;
-  color: #ffd166;
-  text-align: center;
-}
-
-.leader-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid #2c3e50;
-  font-size: 0.9rem;
-}
-
-.leader-row:last-child {
-  border-bottom: none;
-}
-
-.leader-row strong {
-  color: #00d1d1;
-}
-
-@media (max-width: 1100px) {
-  .leader-grid {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  }
-}
-
-.leader-row a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.leader-row a:hover {
-  color: #ffd166;
-}
-
-.team-franchise-section {
-    margin: 30px 0;
-}
-
-.team-franchise-card {
-  position: relative;
-  overflow: hidden;
-
-  display: block;
-  background: var(--franchise-card);
-  border: 2px solid var(--franchise-primary);
-  border-radius: 14px;
-  padding: 20px;
-  text-decoration: none;
-  color: white;
-  box-shadow: 0 0 18px rgba(0,0,0,0.35);
-
-  transition:
-    transform 0.15s ease,
-    box-shadow 0.15s ease;
-}
-
-.team-franchise-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background:
-    linear-gradient(
-      90deg,
-      color-mix(in srgb, var(--franchise-background) 96%, transparent) 0%,
-      color-mix(in srgb, var(--franchise-background) 78%, transparent) 45%,
-      color-mix(in srgb, var(--franchise-background) 30%, transparent) 100%
-    );
-
-  z-index: 1;
-  pointer-events: none;
-}
-
-.team-franchise-logo-bg {
-  position: absolute;
-  right: -2%;
-  top: 80%;
-
-  height: 250%;
-  width: auto;
-
-  transform: translateY(-50%);
-
-  opacity: 0.32;
-  filter: blur(2px);
-
-  pointer-events: none;
-  user-select: none;
-
-  z-index: 0;
-}
-
-.team-franchise-card-content {
-  position: relative;
-  z-index: 2;
-
-  text-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.95),
-    0 0 12px rgba(0, 0, 0, 0.8);
-}
-
-.team-franchise-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.45);
-  text-decoration: none;
-}
-
-.team-franchise-card:hover * {
-  text-decoration: none;
-}
-
-.team-franchise-name {
-  font-family: Evogria, sans-serif;
-  font-size: 1.5rem;
-  color: var(--franchise-primary);
-  margin-bottom: 8px;
-}
-
-.team-franchise-meta {
-  color: var(--franchise-accent);
-  font-weight: bold;
-}
-
-.team-franchise-order {
-  margin-top: 8px;
-  color: var(--franchise-secondary);
-}
-
-#teamStats {
-  display: block;
-}
-
-.team-stat-row {
-  display: grid;
-  gap: 14px;
-  width: 100%;
-}
-
-.team-record-row {
-  grid-template-columns: repeat(5, 1fr);
-  margin-bottom: 18px;
-}
-
-.player-total-row {
-  grid-template-columns: repeat(7, 1fr);
-}
-
-.team-stat-row .stat-box {
-  width: 80%;
-  min-width: 0;
-}
-
-@media (max-width: 1100px) {
-  .team-record-row,
-  .player-total-row {
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  }
-}
-
-
-/* Team Championship Stylers */
-#teamChampionshipsCard {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-
-  box-sizing: border-box;
-  overflow: visible;
-}
-
-#teamChampionships {
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
 }
 
 

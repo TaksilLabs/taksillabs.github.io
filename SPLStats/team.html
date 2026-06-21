@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <title>Team Page</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/team.css">
+  <link id="dynamicFavicon" rel="icon" type="image/png" href="assets/images/splstats-card.png">
 </head>
 <body>
 
-<header>
+<header class="team-profile-header">
   <nav class="site-nav">
     <a href="index.html" class="nav-card nav-home">
         HOME
@@ -26,7 +28,18 @@
     </a>
   </nav>
 
-  <h1 id="teamName">Loading...</h1>
+  <img
+    id="teamLogo"
+    class="team-header-logo"
+    src=""
+    alt=""
+    style="display: none;"
+  >
+
+  <div class="team-header-content">
+    <h1 id="teamName">Loading...</h1>
+    <p id="teamSubtitle">Team Profile</p>
+  </div>
 </header>
 
 <main>

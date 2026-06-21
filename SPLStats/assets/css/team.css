@@ -1,0 +1,569 @@
+/* ============================================================
+   Team Profile Page
+   Uses --team-primary / --team-accent / --team-background etc.
+   These are set dynamically in team.js from team_metadata.json.
+============================================================ */
+
+
+/* ------------------------------------------------------------
+   Team Page Header
+------------------------------------------------------------ */
+
+.team-profile-header {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 260px;
+  padding: 22px 24px 34px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom:
+    3px solid var(--team-primary, #2ecc71);
+
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--team-primary, #2ecc71) 32%, transparent),
+      transparent 40%
+    ),
+    linear-gradient(
+      135deg,
+      var(--team-background, #050505),
+      var(--team-card, #111111)
+    );
+
+  box-shadow:
+    0 14px 34px rgba(0, 0, 0, 0.45),
+    inset 0 0 28px rgba(255, 255, 255, 0.035);
+}
+
+.team-profile-header .site-nav {
+  position: relative;
+  top: auto;
+  left: auto;
+
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto 28px;
+
+  justify-content: center;
+}
+
+.team-profile-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.62),
+      rgba(0, 0, 0, 0.16),
+      rgba(0, 0, 0, 0.62)
+    );
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+.team-profile-header .site-nav {
+  position: relative;
+  z-index: 4;
+
+  margin-bottom: 28px;
+}
+
+.team-header-logo {
+  position: absolute;
+  right: 7%;
+  bottom: -44px;
+
+  width: 360px;
+  height: 360px;
+
+  object-fit: contain;
+
+  opacity: 0.20;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.75));
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 2;
+}
+
+.team-header-content {
+  position: relative;
+  z-index: 3;
+
+  text-align: center;
+}
+
+.team-profile-header h1 {
+  margin: 0;
+
+  color: var(--team-accent, #ffffff);
+
+  font-family: Evogria, sans-serif;
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1;
+
+  text-shadow:
+    -4px 4px 0 #000,
+    0 0 18px rgba(0, 0, 0, 0.8);
+}
+
+.team-profile-header p {
+  margin: 12px 0 0;
+
+  color: #dddddd;
+
+  font-family: Evogria, sans-serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  text-shadow:
+    -2px 2px 0 #000;
+}
+
+@media (max-width: 800px) {
+  .team-profile-header {
+    min-height: 230px;
+    padding-bottom: 28px;
+  }
+
+  .team-header-logo {
+    right: 50%;
+    bottom: -70px;
+
+    width: 230px;
+    height: 230px;
+
+    transform: translateX(50%);
+    opacity: 0.13;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   General Team Page Card Overrides
+------------------------------------------------------------ */
+
+body {
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--team-primary, #2ecc71) 10%, transparent),
+      transparent 32%
+    ),
+    #05080c;
+}
+
+main .player-card {
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 42%,
+      rgba(255, 255, 255, 0.13)
+    );
+
+  box-shadow:
+    0 10px 26px rgba(0, 0, 0, 0.32),
+    0 0 14px
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 12%,
+      transparent
+    );
+}
+
+main .player-card h2 {
+  color: var(--team-accent, #ffffff);
+}
+
+
+/* ------------------------------------------------------------
+   Season / Division Tags
+------------------------------------------------------------ */
+
+#seasonList,
+#divisionList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.info-tag {
+  background:
+    color-mix(
+      in srgb,
+      var(--team-card, #111111) 88%,
+      #000
+    );
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 62%,
+      rgba(255, 255, 255, 0.18)
+    );
+
+  color: #f4f4f4;
+
+  border-radius: 999px;
+  padding: 8px 14px;
+
+  font-weight: bold;
+
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.25s ease,
+    transform 0.15s ease;
+}
+
+.info-tag:hover {
+  transform: translateY(-1px);
+  cursor: default;
+}
+
+.season-tag {
+  border-color: var(--team-accent, #ffd166);
+}
+
+.season-tag:hover {
+  background: var(--team-accent, #ffd166);
+  color: #101820;
+}
+
+.division-tag {
+  border-color: var(--team-primary, #7bdff2);
+}
+
+.division-tag:hover {
+  background: var(--team-primary, #7bdff2);
+  color: #101820;
+}
+
+
+/* ------------------------------------------------------------
+   Team Leaders
+------------------------------------------------------------ */
+
+.leader-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.leader-card {
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--team-card, #111111) 92%, #000),
+      color-mix(in srgb, var(--team-surface, #1a1a1a) 84%, #000)
+    );
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 62%,
+      rgba(255, 255, 255, 0.13)
+    );
+
+  border-radius: 10px;
+  padding: 12px;
+
+  box-shadow:
+    inset 0 0 16px rgba(255, 255, 255, 0.025);
+}
+
+.leader-card h3 {
+  margin-top: 0;
+
+  color: var(--team-accent, #ffd166);
+
+  text-align: center;
+}
+
+.leader-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 6px 0;
+
+  border-bottom:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 24%,
+      #2c3e50
+    );
+
+  font-size: 0.9rem;
+}
+
+.leader-row:last-child {
+  border-bottom: none;
+}
+
+.leader-row strong {
+  color: var(--team-primary, #00d1d1);
+}
+
+.leader-row a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.leader-row a:hover {
+  color: var(--team-accent, #ffd166);
+}
+
+@media (max-width: 1100px) {
+  .leader-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+
+/* ------------------------------------------------------------
+   Franchise Card on Team Page
+   Still uses franchise variables, not team variables.
+------------------------------------------------------------ */
+
+.team-franchise-section {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.team-franchise-section h2 {
+  color: var(--team-accent, #ffffff);
+}
+
+.team-franchise-card {
+  position: relative;
+  overflow: hidden;
+
+  display: block;
+
+  background: var(--franchise-card, #111111);
+
+  border:
+    2px solid
+    var(--franchise-primary, #ffffff);
+
+  border-radius: 14px;
+  padding: 20px;
+
+  text-decoration: none;
+  color: white;
+
+  box-shadow:
+    0 0 18px rgba(0, 0, 0, 0.35);
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.team-franchise-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--franchise-background, #050505) 96%, transparent) 0%,
+      color-mix(in srgb, var(--franchise-background, #050505) 78%, transparent) 45%,
+      color-mix(in srgb, var(--franchise-background, #050505) 30%, transparent) 100%
+    );
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+.team-franchise-logo-bg {
+  position: absolute;
+  right: -2%;
+  top: 80%;
+
+  height: 250%;
+  width: auto;
+
+  transform: translateY(-50%);
+
+  opacity: 0.32;
+  filter: blur(2px);
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 0;
+}
+
+.team-franchise-card-content {
+  position: relative;
+  z-index: 2;
+
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.95),
+    0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.team-franchise-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.45);
+
+  text-decoration: none;
+}
+
+.team-franchise-card:hover * {
+  text-decoration: none;
+}
+
+.team-franchise-name {
+  margin-bottom: 8px;
+
+  color: var(--franchise-primary, #ffffff);
+
+  font-family: Evogria, sans-serif;
+  font-size: 1.5rem;
+}
+
+.team-franchise-meta {
+  color: var(--franchise-accent, #ffffff);
+  font-weight: bold;
+}
+
+.team-franchise-order {
+  margin-top: 8px;
+  color: var(--franchise-secondary, #cccccc);
+}
+
+
+/* ------------------------------------------------------------
+   Team Statistics
+------------------------------------------------------------ */
+
+#teamStats {
+  display: block;
+}
+
+.team-stat-row {
+  display: grid;
+  gap: 14px;
+  width: 100%;
+}
+
+.team-record-row {
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 18px;
+}
+
+.player-total-row {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.team-stat-row .stat-box {
+  width: 80%;
+  min-width: 0;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 55%,
+      rgba(255, 255, 255, 0.13)
+    );
+
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--team-card, #111111) 88%, #000),
+      color-mix(in srgb, var(--team-surface, #1a1a1a) 84%, #000)
+    );
+}
+
+.team-stat-row .stat-box span {
+  color: #cccccc;
+}
+
+.team-stat-row .stat-box strong {
+  color: var(--team-accent, #ffffff);
+}
+
+@media (max-width: 1100px) {
+  .team-record-row,
+  .player-total-row {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+
+  .team-stat-row .stat-box {
+    width: 100%;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   Team Championships
+------------------------------------------------------------ */
+
+#teamChampionshipsCard {
+  width: 100%;
+  max-width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+#teamChampionships {
+  width: 100%;
+  max-width: 100%;
+
+  box-sizing: border-box;
+}
+
+
+/* ------------------------------------------------------------
+   Roster Table
+------------------------------------------------------------ */
+
+#rosterTable a {
+  color: var(--team-accent, #ffffff);
+  text-decoration: none;
+}
+
+#rosterTable a:hover {
+  color: var(--team-primary, #2ecc71);
+}
+
+#rosterTable th {
+  color: var(--team-accent, #ffffff);
+}
+
+#rosterTable tbody tr:hover {
+  background:
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 10%,
+      transparent
+    );
+}

@@ -1,3 +1,21 @@
+function setTeamFavicon(team) {
+  const logo = getTeamLogo(team);
+
+  if (!logo) return;
+
+  let favicon = document.querySelector("#dynamicFavicon");
+
+  if (!favicon) {
+    favicon = document.createElement("link");
+    favicon.id = "dynamicFavicon";
+    favicon.rel = "icon";
+    favicon.type = "image/png";
+    document.head.appendChild(favicon);
+  }
+
+  favicon.href = logo;
+}
+
 function getPlayerUrlId(player) {
   return (
     player.player_id
@@ -70,6 +88,68 @@ function topPlayers(players, stat, limit = 5) {
     .slice(0, limit);
 }
 
+function normalizeTeamId(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[_\-\s]+/g, "_");
+}
+
+function getTeamIdFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+
+  return (
+    params.get("id")
+    || params.get("team")
+    || ""
+  );
+}
+
+function teamMatchesUrlId(team, urlId) {
+  const target = normalizeTeamId(urlId);
+
+  if (normalizeTeamId(team.team_id) === target) return true;
+  if (normalizeTeamId(team.team_name) === target) return true;
+  if (normalizeTeamId(team.team_display_name) === target) return true;
+  if (normalizeTeamId(team.team) === target) return true;
+
+  return [
+    ...(team.team_aliases || []),
+    ...(team.aliases || [])
+  ].some(alias =>
+    normalizeTeamId(alias) === target
+  );
+}
+
+function getTeamDisplayName(team) {
+  return (
+    team.team_display_name
+    || team.team_name
+    || team.team
+    || team.team_id
+    || "Unknown Team"
+  );
+}
+
+function getTeamTheme(team) {
+  return team.theme || {};
+}
+
+function getTeamLogo(team) {
+  return team.logo || "";
+}
+
+function applyTeamTheme(team) {
+  const theme = getTeamTheme(team);
+
+  document.documentElement.style.setProperty("--team-primary", theme.primary || "#2ecc71");
+  document.documentElement.style.setProperty("--team-secondary", theme.secondary || "#111111");
+  document.documentElement.style.setProperty("--team-accent", theme.accent || "#ffffff");
+  document.documentElement.style.setProperty("--team-background", theme.background || "#050505");
+  document.documentElement.style.setProperty("--team-card", theme.card || "#111111");
+  document.documentElement.style.setProperty("--team-surface", theme.surface || "#1a1a1a");
+}
+
 function renderTeamLeaders(players) {
   const container = document.querySelector("#teamLeaders");
   if (!container) return;
@@ -98,11 +178,6 @@ function renderTeamLeaders(players) {
 
 // ------------------------------------------------------------------------
 
-function getTeamFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  return params.get("team");
-}
-
 function formatSeason(value) {
   if (!value) return "Unknown";
 
@@ -121,22 +196,17 @@ function formatSeason(value) {
   return `${season} ${match[2]}`;
 }
 
-function findTeamFranchise(teamName, franchises) {
-  const cleanTeamName =
-    teamName
-      .replace(/\s*\([^)]*\)$/, "")
-      .trim()
-      .toLowerCase();
+function findTeamFranchise(team, franchises) {
+  const teamId = normalizeTeamId(team.team_id);
+  const teamName = normalizeTeamId(getTeamDisplayName(team));
 
   for (const franchise of franchises) {
     const membership = (franchise.memberships || []).find(m => {
-      const memberTeam =
-        m.team
-          .replace(/\s*\([^)]*\)$/, "")
-          .trim()
-          .toLowerCase();
+      if (normalizeTeamId(m.team_id) === teamId) {
+        return true;
+      }
 
-      return memberTeam === cleanTeamName;
+      return normalizeTeamId(m.team) === teamName;
     });
 
     if (membership) {
@@ -150,8 +220,8 @@ function findTeamFranchise(teamName, franchises) {
   return null;
 }
 
-function renderTeamFranchise(teamName, franchises) {
-  const result = findTeamFranchise(teamName, franchises);
+function renderTeamFranchise(team, franchises) {
+  const result = findTeamFranchise(team, franchises);
 
   const section = document.querySelector("#teamFranchiseSection");
   const card = document.querySelector("#teamFranchiseCard");
@@ -171,16 +241,16 @@ function renderTeamFranchise(teamName, franchises) {
   section.style.display = "";
 
   const logoHTML =
-  franchise.logo
-    ? `
-      <img
-        class="team-franchise-logo-bg"
-        src="${franchise.logo}"
-        alt=""
-        aria-hidden="true"
-      >
-    `
-    : "";
+    franchise.logo
+      ? `
+        <img
+          class="team-franchise-logo-bg"
+          src="${franchise.logo}"
+          alt=""
+          aria-hidden="true"
+        >
+      `
+      : "";
 
   card.innerHTML = `
     <a
@@ -229,36 +299,123 @@ function cleanTeamName(teamName) {
     .toLowerCase();
 }
 
-function findTeamRecord(teamName, teamRecords) {
-  const cleanName = cleanTeamName(teamName);
+function findTeamRecord(team, teamRecords) {
+  const teamId = normalizeTeamId(team.team_id);
+  const teamName = normalizeTeamId(getTeamDisplayName(team));
 
-  return teamRecords.find(record =>
-    cleanTeamName(record.team) === cleanName
-  ) || null;
+  return teamRecords.find(record => {
+    if (normalizeTeamId(record.team_id) === teamId) return true;
+    if (normalizeTeamId(record.team) === teamName) return true;
+    if (normalizeTeamId(record.team_display_name) === teamName) return true;
+
+    return false;
+  }) || null;
+}
+
+function mergeTeamMetadataForProfile(builtTeams, metadataTeams) {
+  const merged = new Map();
+
+  builtTeams.forEach(team => {
+    const teamId = normalizeTeamId(
+      team.team_id
+      || team.team_display_name
+      || team.team_name
+      || team.team
+    );
+
+    merged.set(teamId, {
+      ...team,
+      team_id: team.team_id || teamId,
+      team_display_name:
+        team.team_display_name
+        || team.team_name
+        || team.team
+        || teamId,
+      has_stats: true
+    });
+  });
+
+  metadataTeams.forEach(meta => {
+    const teamId = normalizeTeamId(meta.team_id);
+
+    if (!teamId) return;
+
+    const existing = merged.get(teamId) || {};
+
+    merged.set(teamId, {
+      ...existing,
+
+      team_id: meta.team_id,
+      team_name:
+        meta.team_display_name
+        || existing.team_name
+        || existing.team_display_name
+        || meta.team_id,
+
+      team_display_name:
+        meta.team_display_name
+        || existing.team_display_name
+        || existing.team_name
+        || meta.team_id,
+
+      team_aliases:
+        meta.aliases
+        || existing.team_aliases
+        || [],
+
+      logo:
+        meta.logo
+        || existing.logo
+        || "",
+
+      theme:
+        meta.theme
+        || existing.theme
+        || {},
+
+      name_history:
+        meta.name_history
+        || existing.name_history
+        || [],
+
+      career: existing.career || {},
+      seasons: existing.seasons || [],
+      divisions: existing.divisions || [],
+      players: existing.players || [],
+      has_stats: Boolean(existing.has_stats)
+    });
+  });
+
+  return [...merged.values()];
 }
 
 async function loadTeam() {
-  const teamName = getTeamFromUrl();
+  const teamUrlId = getTeamIdFromUrl();
 
   const [
     teamsResponse,
+    metadataResponse,
     franchisesResponse,
     teamRecordsResponse,
     championshipsResponse
   ] = await Promise.all([
     fetch("data/teams.json"),
+    fetch("data/team_metadata.json"),
     fetch("data/franchises.json"),
     fetch("data/team_records.json"),
     fetch("data/championships.json")
   ]);
 
-  const teams = await teamsResponse.json();
+  const builtTeams = await teamsResponse.json();
+  const metadataTeams = await metadataResponse.json();
   const franchises = await franchisesResponse.json();
   const teamRecords = await teamRecordsResponse.json();
   const championships = await championshipsResponse.json();
 
+  const teams = mergeTeamMetadataForProfile(builtTeams, metadataTeams);
+
   const team = teams.find(t =>
-    t.team_name.toLowerCase() === teamName.toLowerCase()
+    teamMatchesUrlId(t, teamUrlId)
   );
 
   if (!team) {
@@ -267,12 +424,12 @@ async function loadTeam() {
   }
 
   const teamRecord = findTeamRecord(
-    team.team_name,
+    team,
     teamRecords
   );
 
   renderTeam(team, teamRecord, championships);
-  renderTeamFranchise(team.team_name, franchises);
+  renderTeamFranchise(team, franchises);
 }
 
 function normalizeTeamNameForCompare(name) {
@@ -283,11 +440,16 @@ function normalizeTeamNameForCompare(name) {
 }
 
 function getTeamChampionships(team, championships = []) {
-  const teamName = normalizeTeamNameForCompare(team.team_name);
+  const teamId = normalizeTeamId(team.team_id);
+  const teamName = normalizeTeamId(getTeamDisplayName(team));
 
-  return championships.filter(champ =>
-    normalizeTeamNameForCompare(champ.winner_team) === teamName
-  );
+  return championships.filter(champ => {
+    if (normalizeTeamId(champ.winner_team_id) === teamId) {
+      return true;
+    }
+
+    return normalizeTeamId(champ.winner_team) === teamName;
+  });
 }
 
 function getChampionshipClass(championship) {
@@ -429,17 +591,35 @@ function renderHeaderStats(career) {
 }
 
 function renderTeam(team, teamRecord, championships = []) {
-  document.title = `${team.team_name} | SPLStats`;
+  const displayName = getTeamDisplayName(team);
+  const logo = getTeamLogo(team);
+
+  applyTeamTheme(team);
+  setTeamFavicon(team);
+
+  document.title = `${displayName} | SPLStats`;
 
   document.querySelector("#teamName").textContent =
-    team.team_name;
+    displayName;
+
+  const logoEl = document.querySelector("#teamLogo");
+
+  if (logoEl) {
+    if (logo) {
+      logoEl.src = logo;
+      logoEl.alt = `${displayName} logo`;
+      logoEl.style.display = "";
+    } else {
+      logoEl.style.display = "none";
+    }
+  }
 
   renderTeamLeaders(team.players || []);
   renderTeamChampionships(team, championships);
-  renderCareer(team.career, teamRecord);
-  renderSeasons(team.seasons);
-  renderDivisions(team.divisions);
-  renderRoster(team.players);
+  renderCareer(team.career || {}, teamRecord);
+  renderSeasons(team.seasons || []);
+  renderDivisions(team.divisions || []);
+  renderRoster(team.players || []);
 }
 
 function renderCareer(career, teamRecord) {
