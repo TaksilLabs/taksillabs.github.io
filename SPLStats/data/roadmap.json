@@ -210,5 +210,12 @@
     "order": 20,
     "date_completed": "",
     "description": "Give the people the power. Make a tool to allow the user to click on a map, set Shot on goal, Blocked, Goal, along with Team/Player. - shoutout Noah"
+  },
+  {
+    "title": "Team pages use Team Themes",
+    "status": "working",
+    "order": 1,
+    "date_completed": "",
+    "description": "the cards are cool, but the actual team pages could use some love."
   }
 ]
