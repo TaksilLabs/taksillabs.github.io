@@ -1,4 +1,5 @@
 let teams = [];
+let teamMetadata = [];
 let teamRecords = {};
 let franchises = [];
 
@@ -8,15 +9,19 @@ const results = document.querySelector("#teamResults");
 async function loadTeams() {
   const [
     teamsResponse,
+    metadataResponse,
     recordsResponse,
     franchisesResponse
   ] = await Promise.all([
     fetch("data/teams.json"),
+    fetch("data/team_metadata.json"),
     fetch("data/team_records.json"),
     fetch("data/franchises.json")
   ]);
 
-  teams = await teamsResponse.json();
+  const builtTeams = await teamsResponse.json();
+  teamMetadata = await metadataResponse.json();
+
   const records = await recordsResponse.json();
   franchises = await franchisesResponse.json();
 
@@ -26,6 +31,8 @@ async function loadTeams() {
     const key = getTeamRecordKey(record);
     teamRecords[key] = record;
   });
+
+  teams = mergeBuiltTeamsWithMetadata(builtTeams, teamMetadata);
 
   renderTeams();
 }
@@ -153,6 +160,94 @@ function findFranchiseForTeam(team) {
   return null;
 }
 
+function mergeBuiltTeamsWithMetadata(builtTeams, metadataTeams) {
+  const merged = new Map();
+
+  builtTeams.forEach(team => {
+    const teamId =
+      team.team_id
+      || cleanTeamName(team.team_display_name)
+      || cleanTeamName(team.team_name)
+      || cleanTeamName(team.team);
+
+    merged.set(teamId, {
+      ...team,
+      team_id: teamId,
+      team_display_name:
+        team.team_display_name
+        || team.team_name
+        || team.team
+        || teamId,
+      has_stats: true
+    });
+  });
+
+  metadataTeams.forEach(meta => {
+    const teamId = meta.team_id;
+
+    if (!teamId) return;
+
+    if (merged.has(teamId)) {
+      const existing = merged.get(teamId);
+
+      merged.set(teamId, {
+        ...existing,
+
+        // Metadata wins for visuals/display.
+        team_display_name:
+          meta.team_display_name
+          || existing.team_display_name
+          || existing.team_name,
+
+        team_name:
+          meta.team_display_name
+          || existing.team_name
+          || existing.team_display_name,
+
+        team_aliases:
+          meta.aliases
+          || existing.team_aliases
+          || [],
+
+        logo:
+          meta.logo
+          || existing.logo
+          || "",
+
+        theme:
+          meta.theme
+          || existing.theme
+          || {},
+
+        name_history:
+          meta.name_history
+          || existing.name_history
+          || []
+      });
+
+      return;
+    }
+
+    merged.set(teamId, {
+      team_id: teamId,
+      team_name: meta.team_display_name || teamId,
+      team_display_name: meta.team_display_name || teamId,
+      team_aliases: meta.aliases || [],
+      logo: meta.logo || "",
+      theme: meta.theme || {},
+      name_history: meta.name_history || [],
+      franchise_id: null,
+      career: {},
+      seasons: [],
+      divisions: [],
+      players: [],
+      has_stats: false
+    });
+  });
+
+  return [...merged.values()];
+}
+
 function renderTeams() {
   const query = searchInput.value.toLowerCase().trim();
 
@@ -219,18 +314,36 @@ function renderTeams() {
                 : ""
             }
 
-            <div class="team-hub-record">
-              ${record.wins ?? 0}-${record.losses ?? 0}
-            </div>
+            ${
+              team.has_stats
+                ? `
+                  <div class="team-hub-record">
+                    ${record.wins ?? 0}-${record.losses ?? 0}
+                  </div>
 
-            <div class="team-hub-substats">
-              ${record.games_played ?? 0} GP ·
-              ${record.goals_for ?? 0} GF ·
-              ${record.goals_against ?? 0} GA
-            </div>
+                  <div class="team-hub-substats">
+                    ${record.games_played ?? 0} GP ·
+                    ${record.goals_for ?? 0} GF ·
+                    ${record.goals_against ?? 0} GA
+                  </div>
+                `
+                : `
+                  <div class="team-hub-record registered-team-label">
+                    Registered
+                  </div>
+
+                  <div class="team-hub-substats">
+                    No matches played yet
+                  </div>
+                `
+            }
 
             <small>
-              ${(team.seasons || []).length} Seasons
+              ${
+                team.has_stats
+                  ? `${(team.seasons || []).length} Seasons`
+                  : `Upcoming Team`
+              }
             </small>
           </div>
         </div>

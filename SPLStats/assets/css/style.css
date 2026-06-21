@@ -1830,6 +1830,13 @@ TEAM SEARCH STYLER
     );
 }
 
+.registered-team-label {
+  color: var(--team-accent, #ffd166);
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 
 
 

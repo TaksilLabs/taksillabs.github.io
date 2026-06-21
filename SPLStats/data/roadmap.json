@@ -196,5 +196,19 @@
     "order": 2,
     "date_completed": "",
     "description": "Use Team Cards for Chips to make repeat winners stand out more."
+  },
+  {
+    "title": "Expected Stats",
+    "status": "planned",
+    "order": 20,
+    "date_completed": "",
+    "description": "Take set lineup verses histories to make an expected array of stats, then compare the real match results to get the outcome. - shoutout Noah"
+  },
+  {
+    "title": "User Generated Shot Maps on the match results pages",
+    "status": "planned",
+    "order": 20,
+    "date_completed": "",
+    "description": "Give the people the power. Make a tool to allow the user to click on a map, set Shot on goal, Blocked, Goal, along with Team/Player. - shoutout Noah"
   }
 ]

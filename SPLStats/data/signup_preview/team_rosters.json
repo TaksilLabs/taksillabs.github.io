@@ -1,0 +1,4545 @@
+[
+  {
+    "team_id": "arnold_ashtrays",
+    "team_display_name": "Arnold Ashtrays",
+    "team_abbreviation": "PPG",
+    "region": "Main Slapshot League (East)",
+    "venue": "cigarette stadium",
+    "signup_logo_url": "https://drive.google.com/open?id=1o3UQA37LRxzqv3UzQgNVpL6u6Q1SJlQz",
+    "logo": "assets/images/teams/arnold_ashtrays.png",
+    "players": [
+      {
+        "player_id": "lilcricket26",
+        "player_display_name": "lilcricket26",
+        "aliases": [
+          "lilcricket26",
+          "lilcricket"
+        ],
+        "slap_ids": [
+          "1287792"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "komizzy",
+        "player_display_name": "komizzy_",
+        "aliases": [
+          "komizzy_",
+          "andew8051"
+        ],
+        "slap_ids": [
+          "1891105"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "daguest210",
+        "player_display_name": "daguest210",
+        "aliases": [
+          "daguest210"
+        ],
+        "slap_ids": [
+          "1275507"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "mrbarnacle",
+        "player_display_name": "Mrbarnacle",
+        "aliases": [
+          "Mrbarnacle"
+        ],
+        "slap_ids": [
+          "1888210"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "atlanta_aces",
+    "team_display_name": "Atlanta Aces",
+    "team_abbreviation": "Atl",
+    "region": "Main Slapshot League (East)",
+    "venue": "Spade Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1kxEMBGsfzCONs3XXCgBn0n5PF5L1pAhs",
+    "logo": "assets/images/teams/atlanta_aces.png",
+    "players": [
+      {
+        "player_id": "atlalt",
+        "player_display_name": "[ATL]Alt",
+        "aliases": [
+          "[ATL]Alt",
+          "alt.07"
+        ],
+        "slap_ids": [
+          "24807"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "atljoe",
+        "player_display_name": "[ATL]Joe",
+        "aliases": [
+          "[ATL]Joe",
+          "joe07854"
+        ],
+        "slap_ids": [
+          "6799"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "poops",
+        "player_display_name": "poops",
+        "aliases": [
+          "poops",
+          "altaccound244"
+        ],
+        "slap_ids": [
+          "819088"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "atlantic_city_zootiez",
+    "team_display_name": "Atlantic City Zootiez$",
+    "team_abbreviation": "ACZ",
+    "region": "Central Slapshot League",
+    "venue": "The Poker Table",
+    "signup_logo_url": "https://drive.google.com/open?id=1c_fO78V2QgyvbRaNACgRRRLESLPT3kvq",
+    "logo": "assets/images/teams/atlantic_city_zootiez.png",
+    "players": [
+      {
+        "player_id": "addyp786",
+        "player_display_name": "AddyP786",
+        "aliases": [
+          "AddyP786",
+          "addyp786"
+        ],
+        "slap_ids": [
+          "950305"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "midget",
+        "player_display_name": "midget",
+        "aliases": [
+          "midget",
+          "m1dgetbros"
+        ],
+        "slap_ids": [
+          "948283"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hodie",
+        "player_display_name": "Hodie",
+        "aliases": [
+          "Hodie",
+          "hodieboo"
+        ],
+        "slap_ids": [
+          "972960"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "unknown_player",
+        "player_display_name": ">:)",
+        "aliases": [
+          ">:)",
+          "tetraboxygen"
+        ],
+        "slap_ids": [
+          "72269"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "nayrqc",
+        "player_display_name": "Nayr[QC]",
+        "aliases": [
+          "Nayr[QC]",
+          "legarsqc"
+        ],
+        "slap_ids": [
+          "286293"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "barcelona_bobos_prep_academy",
+    "team_display_name": "Barcelona Bobos Prep Academy",
+    "team_abbreviation": "BBPA",
+    "region": "Central Slapshot League",
+    "venue": "Bobos Headquarters",
+    "signup_logo_url": "https://drive.google.com/open?id=1_xglkwnpwPgZlTpYFe-ol0M9slXRLgWM",
+    "logo": "assets/images/teams/barcelona_bobos_prep_academy.png",
+    "players": [
+      {
+        "player_id": "jenediah",
+        "player_display_name": "Jenediah",
+        "aliases": [
+          "Jenediah",
+          "jenediahh"
+        ],
+        "slap_ids": [
+          "154305"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "charles",
+        "player_display_name": "Charles",
+        "aliases": [
+          "Charles",
+          "_charles."
+        ],
+        "slap_ids": [
+          "122257"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "carti",
+        "player_display_name": "Carti",
+        "aliases": [
+          "Carti",
+          "gi12122"
+        ],
+        "slap_ids": [
+          "1320348"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "booya",
+        "player_display_name": "booya",
+        "aliases": [
+          "booya",
+          "booyaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "slap_ids": [
+          "1419124"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "yackslack",
+        "player_display_name": "yackslack",
+        "aliases": [
+          "yackslack"
+        ],
+        "slap_ids": [
+          "640761"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "barrie_bag_chasers",
+    "team_display_name": "Barrie Bag Chasers",
+    "team_abbreviation": "BBC",
+    "region": "Central Slapshot League",
+    "venue": "Mardi Gras Stadium",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "hit",
+        "player_display_name": "hit",
+        "aliases": [
+          "hit",
+          "hitlock"
+        ],
+        "slap_ids": [
+          "913017"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "looees",
+        "player_display_name": "Looees",
+        "aliases": [
+          "Looees",
+          "looees7"
+        ],
+        "slap_ids": [
+          "281017"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "shloompa",
+        "player_display_name": "Shloompa",
+        "aliases": [
+          "Shloompa",
+          "bigboimanguy"
+        ],
+        "slap_ids": [
+          "979880"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "maia",
+        "player_display_name": "maia",
+        "aliases": [
+          "maia",
+          ".maia._27."
+        ],
+        "slap_ids": [
+          "1269140"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "barrie_bald_boys",
+    "team_display_name": "Barrie Bald Boys",
+    "team_abbreviation": "BBB",
+    "region": "Main Slapshot League (East)",
+    "venue": "Bald Boys’ Dome",
+    "signup_logo_url": "https://drive.google.com/open?id=10eu0Lb37_dHI5JBsRJrVLvx0gVgzf6hR",
+    "logo": "assets/images/teams/barrie_bald_boys.png",
+    "players": [
+      {
+        "player_id": "beefus",
+        "player_display_name": "Beefus",
+        "aliases": [
+          "Beefus"
+        ],
+        "slap_ids": [
+          "1354924"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "tridoxity",
+        "player_display_name": "Tridoxity",
+        "aliases": [
+          "Tridoxity"
+        ],
+        "slap_ids": [
+          "1127790"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "meatballer36",
+        "player_display_name": "Meatballer36",
+        "aliases": [
+          "Meatballer36",
+          "cokezeroenjoyer49"
+        ],
+        "slap_ids": [
+          "929814"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "darth_daevin",
+        "player_display_name": "Darth Daevin",
+        "aliases": [
+          "Darth Daevin",
+          "darthdaevin"
+        ],
+        "slap_ids": [
+          "836900"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "barrie_beaver_brigade",
+    "team_display_name": "Barrie Beaver Brigade",
+    "team_abbreviation": "BBB",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Dam",
+    "signup_logo_url": "https://drive.google.com/open?id=11LyxaHbu_crWI5G7U5IjES5Lo6gFZGbd",
+    "logo": "assets/images/teams/barrie_beaver_brigade.png",
+    "players": [
+      {
+        "player_id": "scitrus",
+        "player_display_name": "ScitruS",
+        "aliases": [
+          "ScitruS"
+        ],
+        "slap_ids": [
+          "2069819"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "shloompa",
+        "player_display_name": "Shloompa",
+        "aliases": [
+          "Shloompa"
+        ],
+        "slap_ids": [
+          "979880"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "semenslayer",
+        "player_display_name": "SemenSlayer",
+        "aliases": [
+          "SemenSlayer",
+          "Calebll"
+        ],
+        "slap_ids": [
+          "1427595"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lathyros",
+        "player_display_name": "Lathyros",
+        "aliases": [
+          "Lathyros",
+          "Lathyros4"
+        ],
+        "slap_ids": [
+          "604541"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "barrie_belgian_waffles",
+    "team_display_name": "Barrie Belgian Waffles",
+    "team_abbreviation": "BBW",
+    "region": "Central Slapshot League",
+    "venue": "Waffle Home",
+    "signup_logo_url": "https://drive.google.com/open?id=1L9YpXVsULlDLTFI9oGdc25XVwZFvaY0E",
+    "logo": "assets/images/teams/barrie_belgian_waffles.png",
+    "players": [
+      {
+        "player_id": "beefus",
+        "player_display_name": "Beefus",
+        "aliases": [
+          "Beefus"
+        ],
+        "slap_ids": [
+          "1354924"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "meatballer36",
+        "player_display_name": "Meatballer36",
+        "aliases": [
+          "Meatballer36",
+          "cokezeroenjoyer49"
+        ],
+        "slap_ids": [
+          "929814"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "tridoxity",
+        "player_display_name": "Tridoxity",
+        "aliases": [
+          "Tridoxity"
+        ],
+        "slap_ids": [
+          "1127790"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "barrie_ice_hounds",
+    "team_display_name": "Barrie Ice Hounds",
+    "team_abbreviation": "BIH",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Den",
+    "signup_logo_url": "https://drive.google.com/open?id=13fGr_gh-uTuuCyO8CYQpArM7JuBLxcPU",
+    "logo": "assets/images/teams/barrie_ice_hounds.png",
+    "players": [
+      {
+        "player_id": "beefus",
+        "player_display_name": "Beefus",
+        "aliases": [
+          "Beefus"
+        ],
+        "slap_ids": [
+          "134924"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "stim",
+        "player_display_name": "Stim",
+        "aliases": [
+          "Stim",
+          "stim._."
+        ],
+        "slap_ids": [
+          "1319952"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lmb",
+        "player_display_name": "lmb",
+        "aliases": [
+          "lmb",
+          "luka1524"
+        ],
+        "slap_ids": [
+          "1325186"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "special_son",
+        "player_display_name": "special son",
+        "aliases": [
+          "special son",
+          "mx.thew"
+        ],
+        "slap_ids": [
+          "2037465"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "camdenmp4",
+        "player_display_name": "Camden.mp4",
+        "aliases": [
+          "Camden.mp4",
+          ".cmdn."
+        ],
+        "slap_ids": [
+          "1853453"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "baton_rouge_bobos",
+    "team_display_name": "Baton Rouge Bobos",
+    "team_abbreviation": "BRBO",
+    "region": "Central Slapshot League",
+    "venue": "Raising Cane's River Center Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=18xv4b_umGNHLLGZuQDe3G34w3mLS72kT",
+    "logo": "assets/images/teams/baton_rouge_bobos.png",
+    "players": [
+      {
+        "player_id": "mcnulty",
+        "player_display_name": "McNulty",
+        "aliases": [
+          "McNulty"
+        ],
+        "slap_ids": [
+          "600238"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "x6c",
+        "player_display_name": "x6c",
+        "aliases": [
+          "x6c",
+          "robber34"
+        ],
+        "slap_ids": [
+          "871020"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "echo",
+        "player_display_name": "echo",
+        "aliases": [
+          "echo",
+          "echolevels"
+        ],
+        "slap_ids": [
+          "22412"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "battle_creek_kings",
+    "team_display_name": "Battle Creek Kings",
+    "team_abbreviation": "BACK",
+    "region": "Central Slapshot League",
+    "venue": "Havens Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1qpcERfj0g1JIY-7ANmnqeoh9GpcnpzKa",
+    "logo": "assets/images/teams/battle_creek_kings.png",
+    "players": [
+      {
+        "player_id": "napa0",
+        "player_display_name": "Napa0",
+        "aliases": [
+          "Napa0"
+        ],
+        "slap_ids": [
+          "296477"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "hammertime9000",
+        "player_display_name": "HammerTime9000",
+        "aliases": [
+          "HammerTime9000"
+        ],
+        "slap_ids": [
+          "1238207"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "joe",
+        "player_display_name": "Joe",
+        "aliases": [
+          "Joe",
+          "Joemer"
+        ],
+        "slap_ids": [
+          "67383"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "spmz",
+        "player_display_name": "SPMZ",
+        "aliases": [
+          "SPMZ",
+          ".spmz"
+        ],
+        "slap_ids": [
+          "941924"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "semenslayer",
+        "player_display_name": "SemenSlayer",
+        "aliases": [
+          "SemenSlayer",
+          "CalebL"
+        ],
+        "slap_ids": [
+          "1427595"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "beauport_lynx",
+    "team_display_name": "Beauport Lynx",
+    "team_abbreviation": "LYNX",
+    "region": "Main Slapshot League (East)",
+    "venue": "Kittycat Center",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "illumix22",
+        "player_display_name": "illumix22",
+        "aliases": [
+          "illumix22",
+          "illumix2215"
+        ],
+        "slap_ids": [
+          "1000671"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "assassinje123",
+        "player_display_name": "assassinje123",
+        "aliases": [
+          "assassinje123"
+        ],
+        "slap_ids": [
+          "1015166"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "oskishimoski",
+        "player_display_name": "oskishimoski",
+        "aliases": [
+          "oskishimoski",
+          "ilovemusic0020"
+        ],
+        "slap_ids": [
+          "2004442"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "bedford_bobos_preparatory_academy",
+    "team_display_name": "Bedford Bobos Preparatory Academy",
+    "team_abbreviation": "BBPA",
+    "region": "Main Slapshot League (East)",
+    "venue": "Bobos Outdoor Barn",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "clever",
+        "player_display_name": "Clever",
+        "aliases": [
+          "Clever",
+          "justclevername"
+        ],
+        "slap_ids": [
+          "1592510"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "jonny",
+        "player_display_name": "Jonny",
+        "aliases": [
+          "Jonny",
+          "aweror"
+        ],
+        "slap_ids": [
+          "178325"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "headass",
+        "player_display_name": "Headass",
+        "aliases": [
+          "Headass",
+          "hadesnuttz"
+        ],
+        "slap_ids": [
+          "173111"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "x6c",
+        "player_display_name": "x6c",
+        "aliases": [
+          "x6c",
+          "robber34"
+        ],
+        "slap_ids": [
+          "871020"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hammy",
+        "player_display_name": "Hammy",
+        "aliases": [
+          "Hammy",
+          "itshammahtime"
+        ],
+        "slap_ids": [
+          "1483800"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "beverly_hills_bobos",
+    "team_display_name": "Beverly Hills Bobos",
+    "team_abbreviation": "BHB",
+    "region": "Main Slapshot League (East)",
+    "venue": "Bobos Barn",
+    "signup_logo_url": "https://drive.google.com/open?id=1vi4xcT1Q4xVby4-TRAtSAG_Mi_Pqy3Bi",
+    "logo": "assets/images/teams/beverly_hills_bobos.png",
+    "players": [
+      {
+        "player_id": "jenediah",
+        "player_display_name": "Jenediah",
+        "aliases": [
+          "Jenediah",
+          "jenediahh"
+        ],
+        "slap_ids": [
+          "154305"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "eli",
+        "player_display_name": "Eli",
+        "aliases": [
+          "Eli",
+          "eliijjah"
+        ],
+        "slap_ids": [
+          "56239"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "enry",
+        "player_display_name": "Enry",
+        "aliases": [
+          "Enry",
+          "enry47"
+        ],
+        "slap_ids": [
+          "178836"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "charles",
+        "player_display_name": "Charles",
+        "aliases": [
+          "Charles",
+          "_charles."
+        ],
+        "slap_ids": [
+          "122257"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "birmingham_bobos",
+    "team_display_name": "Birmingham Bobos",
+    "team_abbreviation": "BHBB",
+    "region": "Main Slapshot League (East)",
+    "venue": "Birmingham Boboham Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=184jTNqZdn3MTSp0J-J4SZxwE1THZZ2ia",
+    "logo": "assets/images/teams/birmingham_bobos.png",
+    "players": [
+      {
+        "player_id": "jirias2",
+        "player_display_name": "JIRIAS2",
+        "aliases": [
+          "JIRIAS2"
+        ],
+        "slap_ids": [
+          "1491869"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "normalhumanboy",
+        "player_display_name": "Normalhumanboy",
+        "aliases": [
+          "Normalhumanboy",
+          "normalhumanboy"
+        ],
+        "slap_ids": [
+          "265889"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "bqvh",
+        "player_display_name": "bqvh",
+        "aliases": [
+          "bqvh",
+          "cleanedagain"
+        ],
+        "slap_ids": [
+          "1432097"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "cheesed",
+        "player_display_name": "cheesed",
+        "aliases": [
+          "cheesed",
+          "coggs1"
+        ],
+        "slap_ids": [
+          "2105273"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "snark",
+        "player_display_name": "Snark",
+        "aliases": [
+          "Snark",
+          "real_snark.algo"
+        ],
+        "slap_ids": [
+          "5400"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "boston_bahds",
+    "team_display_name": "Boston Bahds",
+    "team_abbreviation": "BAHD",
+    "region": "Main Slapshot League (East)",
+    "venue": "Nilbog Lane",
+    "signup_logo_url": "https://drive.google.com/open?id=124zq-n1q62UoNuNP9BT9fCv5rfpnHz9N",
+    "logo": "assets/images/teams/boston_bahds.png",
+    "players": [
+      {
+        "player_id": "dxmxnz",
+        "player_display_name": "dxmxnz",
+        "aliases": [
+          "dxmxnz"
+        ],
+        "slap_ids": [
+          "1310489"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "sylat00n",
+        "player_display_name": "Sylat00n",
+        "aliases": [
+          "Sylat00n"
+        ],
+        "slap_ids": [
+          "1313906"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "ademy24",
+        "player_display_name": "Ademy24",
+        "aliases": [
+          "Ademy24"
+        ],
+        "slap_ids": [
+          "710101"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "dvyr",
+        "player_display_name": "dvyr",
+        "aliases": [
+          "dvyr"
+        ],
+        "slap_ids": [
+          "352226"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "napqleon",
+        "player_display_name": "napqleon",
+        "aliases": [
+          "napqleon"
+        ],
+        "slap_ids": [
+          "1314476"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "boston_bobos",
+    "team_display_name": "Boston Bobos",
+    "team_abbreviation": "BOBO",
+    "region": "Main Slapshot League (East)",
+    "venue": "Boston Bobo Stadium",
+    "signup_logo_url": "https://drive.google.com/open?id=1aM2b5dqikRYmKPKiiUCaJey3UiZTnQ2r",
+    "logo": "assets/images/teams/boston_bobos.png",
+    "players": [
+      {
+        "player_id": "echo",
+        "player_display_name": "echo",
+        "aliases": [
+          "echo",
+          "echolevels"
+        ],
+        "slap_ids": [
+          "22412"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "yackslack",
+        "player_display_name": "YackSlack",
+        "aliases": [
+          "YackSlack",
+          "yackslack"
+        ],
+        "slap_ids": [
+          "640761"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "jakee",
+        "player_display_name": "jakee",
+        "aliases": [
+          "jakee",
+          "jakee72"
+        ],
+        "slap_ids": [
+          "4153"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "booya",
+        "player_display_name": "booya",
+        "aliases": [
+          "booya",
+          "booyaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "slap_ids": [
+          "1419124"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "pl4zma",
+        "player_display_name": "pl4zma",
+        "aliases": [
+          "pl4zma"
+        ],
+        "slap_ids": [
+          "636422"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "boston_shufflebottoms",
+    "team_display_name": "Boston Shufflebottoms",
+    "team_abbreviation": "BSB",
+    "region": "Central Slapshot League",
+    "venue": "Larpklr Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=17yRy8Aoi5isEAJ--Fu8CbYRMxmCi53Fn",
+    "logo": "assets/images/teams/boston_shufflebottoms.png",
+    "players": [
+      {
+        "player_id": "napqleon",
+        "player_display_name": "napqleon",
+        "aliases": [
+          "napqleon"
+        ],
+        "slap_ids": [
+          "1314476"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "flightlessegg",
+        "player_display_name": "FlightlessEgg",
+        "aliases": [
+          "FlightlessEgg",
+          "flightlessegg"
+        ],
+        "slap_ids": [
+          "1834115"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "tuna_key",
+        "player_display_name": "tuna_key",
+        "aliases": [
+          "tuna_key"
+        ],
+        "slap_ids": [
+          "1313861"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "brampton_cows",
+    "team_display_name": "Brampton Cows",
+    "team_abbreviation": "BRC",
+    "region": "Central Slapshot League",
+    "venue": "The Big Barn",
+    "signup_logo_url": "https://drive.google.com/open?id=1UetE0LyLyVtQ2fC8YSeCKahd_pd6OvAY",
+    "logo": "assets/images/teams/brampton_cows.png",
+    "players": [
+      {
+        "player_id": "tactical_miss",
+        "player_display_name": "Tactical Miss",
+        "aliases": [
+          "Tactical Miss",
+          "cvrsed_"
+        ],
+        "slap_ids": [
+          "1282529"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "lacaaas",
+        "player_display_name": "lacaaas",
+        "aliases": [
+          "lacaaas",
+          "lucacas4410"
+        ],
+        "slap_ids": [
+          "186627"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "saucy",
+        "player_display_name": "Saucy :(",
+        "aliases": [
+          "Saucy :(",
+          "guccimaneflick"
+        ],
+        "slap_ids": [
+          "758362"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lit",
+        "player_display_name": "LIT",
+        "aliases": [
+          "LIT",
+          "penguin_pro"
+        ],
+        "slap_ids": [
+          "633338"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "camden_crook",
+    "team_display_name": "Camden Crook$",
+    "team_abbreviation": "CRKS",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Morgue",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "addyp786",
+        "player_display_name": "AddyP786",
+        "aliases": [
+          "AddyP786",
+          "addyp786"
+        ],
+        "slap_ids": [
+          "286293"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "romey",
+        "player_display_name": "Romey",
+        "aliases": [
+          "Romey",
+          "Romeyyy"
+        ],
+        "slap_ids": [
+          "183790"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "chief",
+        "player_display_name": "chief",
+        "aliases": [
+          "chief",
+          "calxtriton"
+        ],
+        "slap_ids": [
+          "957603"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hill",
+        "player_display_name": "hill",
+        "aliases": [
+          "hill"
+        ],
+        "slap_ids": [
+          "1378966"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hodie",
+        "player_display_name": "hodie",
+        "aliases": [
+          "hodie"
+        ],
+        "slap_ids": [
+          "972960"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "camrose_cats",
+    "team_display_name": "Camrose Cats",
+    "team_abbreviation": "cat",
+    "region": "Central Slapshot League",
+    "venue": "cat water bowl",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "hill",
+        "player_display_name": "hill",
+        "aliases": [
+          "hill"
+        ],
+        "slap_ids": [
+          "1378966"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "tweek",
+        "player_display_name": "tweek",
+        "aliases": [
+          "tweek"
+        ],
+        "slap_ids": [
+          "985994"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "chausie",
+        "player_display_name": "chausie",
+        "aliases": [
+          "chausie"
+        ],
+        "slap_ids": [
+          "1234707"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "zelviz",
+        "player_display_name": "zelviz",
+        "aliases": [
+          "zelviz"
+        ],
+        "slap_ids": [
+          "865092"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "champaign_champagne",
+    "team_display_name": "Champaign Champagne",
+    "team_abbreviation": "CHA",
+    "region": "Main Slapshot League (East)",
+    "venue": "Sparkling Ice Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1eAN2GXkoLFoY47Gtht8CwnkPl72ogj-K",
+    "logo": "assets/images/teams/champaign_champagne.png",
+    "players": [
+      {
+        "player_id": "maia",
+        "player_display_name": "Maia",
+        "aliases": [
+          "Maia",
+          ".maia._27."
+        ],
+        "slap_ids": [
+          "1269140"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "kevin",
+        "player_display_name": "kevin",
+        "aliases": [
+          "kevin",
+          "dominantsquare"
+        ],
+        "slap_ids": [
+          "594707"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "axe",
+        "player_display_name": "axe",
+        "aliases": [
+          "axe",
+          "axe_f1"
+        ],
+        "slap_ids": [
+          "1202794"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "tweek",
+        "player_display_name": "Tweek",
+        "aliases": [
+          "Tweek",
+          "vtweek"
+        ],
+        "slap_ids": [
+          "985994"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "sweatshirt",
+        "player_display_name": "Sweatshirt",
+        "aliases": [
+          "Sweatshirt",
+          "notg"
+        ],
+        "slap_ids": [
+          "1856285"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "chaos",
+        "player_display_name": "chaos",
+        "aliases": [
+          "chaos",
+          "ldg_chaos"
+        ],
+        "slap_ids": [
+          "1026914"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "chicago_sky_scrapers",
+    "team_display_name": "Chicago Sky Scrapers",
+    "team_abbreviation": "CSS",
+    "region": "Main Slapshot League (East)",
+    "venue": "Rookery Arena",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "andrewdewar104",
+        "player_display_name": "andrewdewar104",
+        "aliases": [
+          "andrewdewar104"
+        ],
+        "slap_ids": [
+          "453698"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "danimal1059",
+        "player_display_name": "Danimal1059",
+        "aliases": [
+          "Danimal1059",
+          "ddewar"
+        ],
+        "slap_ids": [
+          "448394"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "rage_quitter",
+        "player_display_name": "Rage Quitter",
+        "aliases": [
+          "Rage Quitter",
+          "ragequitter08"
+        ],
+        "slap_ids": [
+          "509256"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "dead2soon",
+        "player_display_name": "Dead2Soon",
+        "aliases": [
+          "Dead2Soon",
+          "hhernandezjr"
+        ],
+        "slap_ids": [
+          "449498"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "cold_lake_hit_lits",
+    "team_display_name": "Cold Lake Hit Lits",
+    "team_abbreviation": "CLHL",
+    "region": "West Slapshot League",
+    "venue": "Ferrrda Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1DwWBxlrFUK1lXkJEIyU2IrDgmbbvtjSL",
+    "logo": "assets/images/teams/cold_lake_hit_lits.png",
+    "players": [
+      {
+        "player_id": "lacaaas",
+        "player_display_name": "lacaaas",
+        "aliases": [
+          "lacaaas",
+          "lucacas4410"
+        ],
+        "slap_ids": [
+          "186627"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "hit",
+        "player_display_name": "hit",
+        "aliases": [
+          "hit",
+          "hitlock"
+        ],
+        "slap_ids": [
+          "913017"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lit",
+        "player_display_name": "LIT",
+        "aliases": [
+          "LIT",
+          "penguin_pro"
+        ],
+        "slap_ids": [
+          "633338"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "tactical_miss",
+        "player_display_name": "Tactical Miss",
+        "aliases": [
+          "Tactical Miss",
+          "cvrsed_"
+        ],
+        "slap_ids": [
+          "1282529"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "cold_lake_upper_deckies",
+    "team_display_name": "Cold Lake Upper Deckies",
+    "team_abbreviation": "CLUD",
+    "region": "Main Slapshot League (East)",
+    "venue": "Ferda Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1hPYlm39p4PD8eNmKN29dAa0-XXdcy__e",
+    "logo": "assets/images/teams/cold_lake_upper_deckies.png",
+    "players": [
+      {
+        "player_id": "lacaaas",
+        "player_display_name": "lacaaas",
+        "aliases": [
+          "lacaaas",
+          "lucacas4410"
+        ],
+        "slap_ids": [
+          "186627"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "tactical_miss",
+        "player_display_name": "Tactical Miss",
+        "aliases": [
+          "Tactical Miss",
+          "cvrsed_"
+        ],
+        "slap_ids": [
+          "1282529"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hit",
+        "player_display_name": "hit",
+        "aliases": [
+          "hit",
+          "hitlock"
+        ],
+        "slap_ids": [
+          "913017"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "saucy",
+        "player_display_name": "Saucy :(",
+        "aliases": [
+          "Saucy :(",
+          "guccimaneflick"
+        ],
+        "slap_ids": [
+          "758362"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "delco_dog_dads",
+    "team_display_name": "Delco Dog Dads",
+    "team_abbreviation": "DDD",
+    "region": "Main Slapshot League (East)",
+    "venue": "Dawg Haus",
+    "signup_logo_url": "https://drive.google.com/open?id=1mFwdt15umup-tkxx9C1MJnh1GkfJyEeR",
+    "logo": "assets/images/teams/delco_dog_dads.png",
+    "players": [
+      {
+        "player_id": "kavorka",
+        "player_display_name": "Kavorka",
+        "aliases": [
+          "Kavorka",
+          "root_beard"
+        ],
+        "slap_ids": [
+          "816852"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "drewiou",
+        "player_display_name": "Drewiou",
+        "aliases": [
+          "Drewiou",
+          "awhall"
+        ],
+        "slap_ids": [
+          "200689"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lord_osprey",
+        "player_display_name": "Lord Osprey",
+        "aliases": [
+          "Lord Osprey",
+          "danglicious"
+        ],
+        "slap_ids": [
+          "19647"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "pissy_yonky",
+        "player_display_name": "Pissy Yonky",
+        "aliases": [
+          "Pissy Yonky",
+          "bigdoinks6ixty9ine_"
+        ],
+        "slap_ids": [
+          "702578"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "conro",
+        "player_display_name": "Conro",
+        "aliases": [
+          "Conro",
+          "conro."
+        ],
+        "slap_ids": [
+          "1850085"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "detroit_droids",
+    "team_display_name": "Detroit Droids",
+    "team_abbreviation": "DTD",
+    "region": "Central Slapshot League",
+    "venue": "Droid Arena",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "gold",
+        "player_display_name": "gold",
+        "aliases": [
+          "gold",
+          "picklenickle"
+        ],
+        "slap_ids": [
+          "914959"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "nutsack6",
+        "player_display_name": "nutsack6",
+        "aliases": [
+          "nutsack6",
+          "joeyyslaps"
+        ],
+        "slap_ids": [
+          "914448"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "kajun",
+        "player_display_name": "kajun",
+        "aliases": [
+          "kajun",
+          "7kajun"
+        ],
+        "slap_ids": [
+          "19508"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hydroid",
+        "player_display_name": "Hydroid.",
+        "aliases": [
+          "Hydroid.",
+          "hydroid."
+        ],
+        "slap_ids": [
+          "1836154"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "oblivion",
+        "player_display_name": "Oblivion",
+        "aliases": [
+          "Oblivion",
+          "percosetz"
+        ],
+        "slap_ids": [
+          "1071429"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "edmonton_bears",
+    "team_display_name": "Edmonton Bears",
+    "team_abbreviation": "EDM",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Bell Center",
+    "signup_logo_url": "https://drive.google.com/open?id=18gyJeCyfBgbTdr5OABO42z-SFeyLjmqN",
+    "logo": "assets/images/teams/edmonton_bears.png",
+    "players": [
+      {
+        "player_id": "zelviz",
+        "player_display_name": "Zelviz",
+        "aliases": [
+          "Zelviz",
+          "989Zel"
+        ],
+        "slap_ids": [
+          "865092"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "carti",
+        "player_display_name": "Carti",
+        "aliases": [
+          "Carti",
+          "gi12122"
+        ],
+        "slap_ids": [
+          "1320348"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "jeru",
+        "player_display_name": "jeru",
+        "aliases": [
+          "jeru",
+          "jeru_."
+        ],
+        "slap_ids": [
+          "359314"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "vorq",
+        "player_display_name": "vorq",
+        "aliases": [
+          "vorq",
+          "macg44"
+        ],
+        "slap_ids": [
+          "244"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "farmington_pilot_knobbers",
+    "team_display_name": "Farmington Pilot Knobbers",
+    "team_abbreviation": "FPK",
+    "region": "Central Slapshot League",
+    "venue": "Rambling River Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1XLB8tz4Y8eCDEAGCyxnhk4TpVr4-sBhi",
+    "logo": "assets/images/teams/farmington_pilot_knobbers.png",
+    "players": [
+      {
+        "player_id": "carried_by_dad",
+        "player_display_name": "Carried By Dad",
+        "aliases": [
+          "Carried By Dad"
+        ],
+        "slap_ids": [
+          "323270"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "olenikiboy",
+        "player_display_name": "Olenikiboy",
+        "aliases": [
+          "Olenikiboy"
+        ],
+        "slap_ids": [
+          "636982"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "smellfuzz",
+        "player_display_name": "Smellfuzz",
+        "aliases": [
+          "Smellfuzz"
+        ],
+        "slap_ids": [
+          "640618"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "kjayrage",
+        "player_display_name": "Kjayrage",
+        "aliases": [
+          "Kjayrage",
+          "GoldenOreo"
+        ],
+        "slap_ids": [
+          "637921"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "beefy_ts",
+        "player_display_name": "Beefy T's",
+        "aliases": [
+          "Beefy T's",
+          "klotzy38"
+        ],
+        "slap_ids": [
+          "I'll update it once he gets around to finding it"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "gary_glizzy_gobblers",
+    "team_display_name": "Gary Glizzy Gobblers",
+    "team_abbreviation": "GGG",
+    "region": "Main Slapshot League (East)",
+    "venue": "Mardi Gras Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1IZLLIIAMuY7wJvi6adt0BTQgHD_yZMxR",
+    "logo": "assets/images/teams/gary_glizzy_gobblers.png",
+    "players": [
+      {
+        "player_id": "looees",
+        "player_display_name": "Looees",
+        "aliases": [
+          "Looees",
+          "Looees7"
+        ],
+        "slap_ids": [
+          "281017"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "skeetshooter42",
+        "player_display_name": "Skeetshooter42",
+        "aliases": [
+          "Skeetshooter42",
+          "easyxice42"
+        ],
+        "slap_ids": [
+          "1329800"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "cheddx",
+        "player_display_name": "Cheddx",
+        "aliases": [
+          "Cheddx",
+          "cheddx"
+        ],
+        "slap_ids": [
+          "8081"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "plezo",
+        "player_display_name": "PleZo",
+        "aliases": [
+          "PleZo",
+          "plezo"
+        ],
+        "slap_ids": [
+          "174650"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "fee_dup_laybach",
+        "player_display_name": "Fee dup laybach",
+        "aliases": [
+          "Fee dup laybach",
+          ".yalk"
+        ],
+        "slap_ids": [
+          "1528532"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "greensboro_goosans",
+    "team_display_name": "Greensboro Goosans",
+    "team_abbreviation": "GOOS",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Goose Pen",
+    "signup_logo_url": "https://drive.google.com/open?id=1DK0RIpdaop0GdVLngbXHfb2tS5IlTkkn",
+    "logo": "assets/images/teams/greensboro_goosans.png",
+    "players": [
+      {
+        "player_id": "macademysammy88",
+        "player_display_name": "MAcademySammy88",
+        "aliases": [
+          "MAcademySammy88"
+        ],
+        "slap_ids": [
+          "978958"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "epix",
+        "player_display_name": "EpiX",
+        "aliases": [
+          "EpiX"
+        ],
+        "slap_ids": [
+          "865399"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hog_wild_stunna",
+        "player_display_name": "hog wild stunna",
+        "aliases": [
+          "hog wild stunna",
+          "slinky wee"
+        ],
+        "slap_ids": [
+          "1547281"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "overdrive",
+        "player_display_name": "Overdrive",
+        "aliases": [
+          "Overdrive",
+          "ove39"
+        ],
+        "slap_ids": [
+          "150797"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lincolng4",
+        "player_display_name": "lincolng4",
+        "aliases": [
+          "lincolng4"
+        ],
+        "slap_ids": [
+          "1506689"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "hagerstown_heroes",
+    "team_display_name": "Hagerstown Heroes",
+    "team_abbreviation": "HHRS",
+    "region": "Main Slapshot League (East)",
+    "venue": "Frost Frontier",
+    "signup_logo_url": "https://drive.google.com/open?id=1IlI157cCSgLWHLdk0Rrkh8BZihr56u33",
+    "logo": "assets/images/teams/hagerstown_heroes.png",
+    "players": [
+      {
+        "player_id": "awlden",
+        "player_display_name": "Awlden",
+        "aliases": [
+          "Awlden",
+          "cookiecakes"
+        ],
+        "slap_ids": [
+          "890370"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "the_real_teddy_blueger",
+        "player_display_name": "The Real Teddy Blueger",
+        "aliases": [
+          "The Real Teddy Blueger",
+          "flicktac"
+        ],
+        "slap_ids": [
+          "848840"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "yuvraj",
+        "player_display_name": "Yuvraj",
+        "aliases": [
+          "Yuvraj",
+          "yuvmid"
+        ],
+        "slap_ids": [
+          "849146"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "cavitee",
+        "player_display_name": "cavitee",
+        "aliases": [
+          "cavitee"
+        ],
+        "slap_ids": [
+          "883507"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "andriulous",
+        "player_display_name": "Andriulous",
+        "aliases": [
+          "Andriulous"
+        ],
+        "slap_ids": [
+          "2017598"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "jerusalem_golden_bobos",
+    "team_display_name": "Jerusalem Golden Bobos",
+    "team_abbreviation": "JGB",
+    "region": "West Slapshot League",
+    "venue": "Bobo Bowlss",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "jenediah",
+        "player_display_name": "Jenediah",
+        "aliases": [
+          "Jenediah",
+          "jenediahh"
+        ],
+        "slap_ids": [
+          "154305"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "yackslack",
+        "player_display_name": "yackslack",
+        "aliases": [
+          "yackslack"
+        ],
+        "slap_ids": [
+          "640761"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "x6c",
+        "player_display_name": "X6C",
+        "aliases": [
+          "X6C",
+          "robber34"
+        ],
+        "slap_ids": [
+          "871020"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "lakeshore_loons",
+    "team_display_name": "Lakeshore Loons",
+    "team_abbreviation": "LOON",
+    "region": "Central Slapshot League",
+    "venue": "The Loony Bin",
+    "signup_logo_url": "https://drive.google.com/open?id=1Stnx0dFMY7uAFzAk502ZPW3gwsaKnKEk",
+    "logo": "assets/images/teams/lakeshore_loons.png",
+    "players": [
+      {
+        "player_id": "west",
+        "player_display_name": "West",
+        "aliases": [
+          "West",
+          "[LOON] West"
+        ],
+        "slap_ids": [
+          "1450864"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "jot",
+        "player_display_name": "Jot",
+        "aliases": [
+          "Jot",
+          "[LOON] Jot"
+        ],
+        "slap_ids": [
+          "1452681"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "frosty",
+        "player_display_name": "frosty",
+        "aliases": [
+          "frosty",
+          "Frosty"
+        ],
+        "slap_ids": [
+          "1450531"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "rocker",
+        "player_display_name": "Rocker`",
+        "aliases": [
+          "Rocker`",
+          "Rocker"
+        ],
+        "slap_ids": [
+          "1450474"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "long_island_lightning",
+    "team_display_name": "Long Island Lightning",
+    "team_abbreviation": "LIL",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Thunderdome",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "jgr",
+        "player_display_name": "Jágr",
+        "aliases": [
+          "Jágr",
+          "rgaj"
+        ],
+        "slap_ids": [
+          "560316"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "milk",
+        "player_display_name": "Milk",
+        "aliases": [
+          "Milk",
+          "milk0720"
+        ],
+        "slap_ids": [
+          "429195"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "some1",
+        "player_display_name": "some1",
+        "aliases": [
+          "some1",
+          "sum.1"
+        ],
+        "slap_ids": [
+          "429397"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hex",
+        "player_display_name": "Hex",
+        "aliases": [
+          "Hex",
+          "taireng"
+        ],
+        "slap_ids": [
+          "327983"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "chrislol",
+        "player_display_name": "chrislol",
+        "aliases": [
+          "chrislol"
+        ],
+        "slap_ids": [
+          "107083"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "miami_muffins",
+    "team_display_name": "Miami Muffins",
+    "team_abbreviation": "MUFF",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Bakery",
+    "signup_logo_url": "https://drive.google.com/open?id=1bDrwUAC6fERMzzjEdaqoZ0dQykLkIDCL",
+    "logo": "assets/images/teams/miami_muffins.png",
+    "players": [
+      {
+        "player_id": "gold",
+        "player_display_name": "gold",
+        "aliases": [
+          "gold",
+          "picklenickle"
+        ],
+        "slap_ids": [
+          "914959"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "nutsack6",
+        "player_display_name": "nutsack6",
+        "aliases": [
+          "nutsack6",
+          "joeyyslaps"
+        ],
+        "slap_ids": [
+          "914448"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "hydroid",
+        "player_display_name": "Hydroid.",
+        "aliases": [
+          "Hydroid.",
+          "hydroid."
+        ],
+        "slap_ids": [
+          "1836154"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "fadster",
+        "player_display_name": "FadsterΨ",
+        "aliases": [
+          "FadsterΨ",
+          "fadster12"
+        ],
+        "slap_ids": [
+          "915093"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "915093",
+        "player_display_name": "915093",
+        "aliases": [],
+        "slap_ids": [
+          "915093"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "no_name_nighthawks",
+    "team_display_name": "No Name Nighthawks",
+    "team_abbreviation": "NNN",
+    "region": "Main Slapshot League (East)",
+    "venue": "No Name Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=120YGY2Nn-VP5Epupf8onLQrn9_7MgIud",
+    "logo": "assets/images/teams/no_name_nighthawks.png",
+    "players": [
+      {
+        "player_id": "napa0",
+        "player_display_name": "Napa0",
+        "aliases": [
+          "Napa0"
+        ],
+        "slap_ids": [
+          "296477"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "hammertime9000",
+        "player_display_name": "HammerTime9000",
+        "aliases": [
+          "HammerTime9000",
+          "hammertime9000"
+        ],
+        "slap_ids": [
+          "1238207"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "noob_weapons",
+        "player_display_name": "Noob_Weapons",
+        "aliases": [
+          "Noob_Weapons",
+          "noobweps"
+        ],
+        "slap_ids": [
+          "87"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "joemer",
+        "player_display_name": "JoeMer",
+        "aliases": [
+          "JoeMer",
+          "joemer"
+        ],
+        "slap_ids": [
+          "67383"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "victon22",
+        "player_display_name": "Victon22",
+        "aliases": [
+          "Victon22",
+          "victon21_63341"
+        ],
+        "slap_ids": [
+          "1502807"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "north_carolina_sap",
+    "team_display_name": "North Carolina S.A.P",
+    "team_abbreviation": "SAP",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Swamp",
+    "signup_logo_url": "https://drive.google.com/open?id=1PxDbpCCETjG550UQ-4_KVguQnYilXdLt",
+    "logo": "assets/images/teams/north_carolina_sap.png",
+    "players": [
+      {
+        "player_id": "chicken_brothers",
+        "player_display_name": "chicken_brothers",
+        "aliases": [
+          "chicken_brothers",
+          "chickenbrothers."
+        ],
+        "slap_ids": [
+          "1254826"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "jumpstudios",
+        "player_display_name": "JumpStudios",
+        "aliases": [
+          "JumpStudios",
+          "jumpstudios"
+        ],
+        "slap_ids": [
+          "1255009"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "imokimalive",
+        "player_display_name": "imokimalive",
+        "aliases": [
+          "imokimalive",
+          "zz_asseater69_zz"
+        ],
+        "slap_ids": [
+          "1252384"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "okinawa_generations",
+    "team_display_name": "Okinawa Generations",
+    "team_abbreviation": "OKG",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Habu Pit",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "okg_papa_shieldz",
+        "player_display_name": "[OKG] papa shieldz",
+        "aliases": [
+          "[OKG] papa shieldz",
+          "papashieldz"
+        ],
+        "slap_ids": [
+          "503"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "lessthandennis",
+        "player_display_name": "LessThanDennis",
+        "aliases": [
+          "LessThanDennis",
+          "lessthanden"
+        ],
+        "slap_ids": [
+          "513"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "okgpip_starlather",
+        "player_display_name": "[OKG]Pip Starlather",
+        "aliases": [
+          "[OKG]Pip Starlather",
+          "raspmalted7"
+        ],
+        "slap_ids": [
+          "197140"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "okggrey",
+        "player_display_name": "[OKG]Grey",
+        "aliases": [
+          "[OKG]Grey",
+          "grey1414"
+        ],
+        "slap_ids": [
+          "1420"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "renard",
+        "player_display_name": "Renard_",
+        "aliases": [
+          "Renard_",
+          "renard_"
+        ],
+        "slap_ids": [
+          "212"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_bass_slappers",
+    "team_display_name": "Ottawa Valley Bass Slappers",
+    "team_abbreviation": "OVBS",
+    "region": "Central Slapshot League",
+    "venue": "Guitar Center",
+    "signup_logo_url": "https://drive.google.com/open?id=1jBSwKQom44RtSKno4-VySNSSx19TOh4B",
+    "logo": "assets/images/teams/ottawa_valley_bass_slappers.png",
+    "players": [
+      {
+        "player_id": "eggsthink",
+        "player_display_name": "EggsThink",
+        "aliases": [
+          "EggsThink"
+        ],
+        "slap_ids": [
+          "417498"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "noob_weapons",
+        "player_display_name": "Noob_Weapons",
+        "aliases": [
+          "Noob_Weapons",
+          "Noobweps"
+        ],
+        "slap_ids": [
+          "87"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lessthandennis",
+        "player_display_name": "LessThanDennis",
+        "aliases": [
+          "LessThanDennis",
+          "lessthanden"
+        ],
+        "slap_ids": [
+          "513"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "giraffekiller",
+        "player_display_name": "GiraffeKiller",
+        "aliases": [
+          "GiraffeKiller"
+        ],
+        "slap_ids": [
+          "1314542"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "dionysus",
+        "player_display_name": "Dionysus",
+        "aliases": [
+          "Dionysus",
+          "dion_e_sus"
+        ],
+        "slap_ids": [
+          "87468"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "kavorka",
+        "player_display_name": "Kavorka",
+        "aliases": [
+          "Kavorka",
+          "root_beard"
+        ],
+        "slap_ids": [
+          "816852"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_cool_cats",
+    "team_display_name": "Ottawa Valley Cool Cats",
+    "team_abbreviation": "OVCC",
+    "region": "Central Slapshot League",
+    "venue": "The Cat Tree",
+    "signup_logo_url": "https://drive.google.com/open?id=1E3-GQ47sMskXkeEmZCoKmkTQbqpXgk5d",
+    "logo": "assets/images/teams/ottawa_valley_cool_cats.png",
+    "players": [
+      {
+        "player_id": "eggsthink",
+        "player_display_name": "EggsThink",
+        "aliases": [
+          "EggsThink"
+        ],
+        "slap_ids": [
+          "417498"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "sweatshirt",
+        "player_display_name": "Sweatshirt",
+        "aliases": [
+          "Sweatshirt",
+          "notg"
+        ],
+        "slap_ids": [
+          "1856285"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "milk",
+        "player_display_name": "Milk",
+        "aliases": [
+          "Milk",
+          "milk0720"
+        ],
+        "slap_ids": [
+          "429195"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "jagr",
+        "player_display_name": "Jagr",
+        "aliases": [
+          "Jagr",
+          "rgaj"
+        ],
+        "slap_ids": [
+          "560316"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "panarin",
+        "player_display_name": "Panarin",
+        "aliases": [
+          "Panarin",
+          "panarin"
+        ],
+        "slap_ids": [
+          "35"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_post_dingers",
+    "team_display_name": "Ottawa Valley Post Dingers",
+    "team_abbreviation": "OVPD",
+    "region": "Main Slapshot League (East)",
+    "venue": "Ottawa Pipework",
+    "signup_logo_url": "https://drive.google.com/open?id=1wW7BjFYm3ZCOGgIoK_J1rF6wQ1RsUASu",
+    "logo": "assets/images/teams/ottawa_valley_post_dingers.png",
+    "players": [
+      {
+        "player_id": "dave",
+        "player_display_name": "Dave",
+        "aliases": [
+          "Dave",
+          "dave."
+        ],
+        "slap_ids": [
+          "186"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "crusade",
+        "player_display_name": "Crusade",
+        "aliases": [
+          "Crusade",
+          "Crusade_sl"
+        ],
+        "slap_ids": [
+          "1374"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "oblivion",
+        "player_display_name": "Oblivion",
+        "aliases": [
+          "Oblivion",
+          "Percosetz"
+        ],
+        "slap_ids": [
+          "1071429"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_puck_masters",
+    "team_display_name": "Ottawa Valley Puck Masters",
+    "team_abbreviation": "OVPM",
+    "region": "Central Slapshot League",
+    "venue": "Hammy's Dojo",
+    "signup_logo_url": "https://drive.google.com/open?id=1HtuItc_Nai85QqsvKzQsID6RwPEAa8oU",
+    "logo": "assets/images/teams/ottawa_valley_puck_masters.png",
+    "players": [
+      {
+        "player_id": "therealamericam",
+        "player_display_name": "TheRealAmeriCam",
+        "aliases": [
+          "TheRealAmeriCam"
+        ],
+        "slap_ids": [
+          "1937517"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "inph1del",
+        "player_display_name": "Inph1del",
+        "aliases": [
+          "Inph1del"
+        ],
+        "slap_ids": [
+          "6803"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "jg_wentworth_877_cash_now",
+        "player_display_name": "JG Wentworth 877-Cash-Now",
+        "aliases": [
+          "JG Wentworth 877-Cash-Now"
+        ],
+        "slap_ids": [
+          "1591253"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "alt",
+        "player_display_name": "ALT",
+        "aliases": [
+          "ALT",
+          "alt.07"
+        ],
+        "slap_ids": [
+          "24807"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "poops",
+        "player_display_name": "poops",
+        "aliases": [
+          "poops",
+          "altaccound244"
+        ],
+        "slap_ids": [
+          "819088"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_puck_slappers",
+    "team_display_name": "Ottawa Valley Puck Slappers",
+    "team_abbreviation": "OVPS",
+    "region": "Main Slapshot League (East)",
+    "venue": "Lester's Egg Emporium",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "eggsthink",
+        "player_display_name": "EggsThink",
+        "aliases": [
+          "EggsThink"
+        ],
+        "slap_ids": [
+          "417498"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "taco",
+        "player_display_name": "Taco",
+        "aliases": [
+          "Taco",
+          "bigsav1"
+        ],
+        "slap_ids": [
+          "321499"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "syy",
+        "player_display_name": "Syy",
+        "aliases": [
+          "Syy",
+          "syy._.crazy"
+        ],
+        "slap_ids": [
+          "1506478"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "broburgota",
+        "player_display_name": "BroBurgota",
+        "aliases": [
+          "BroBurgota",
+          "Lester Green#5320"
+        ],
+        "slap_ids": [
+          "431751"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "troy_bolton",
+        "player_display_name": "Troy Bolton",
+        "aliases": [
+          "Troy Bolton",
+          "Troy Bolton#6083"
+        ],
+        "slap_ids": [
+          "9394"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_slappers_with_attitude",
+    "team_display_name": "Ottawa Valley Slappers With Attitude",
+    "team_abbreviation": "S.W.A",
+    "region": "Main Slapshot League (East)",
+    "venue": "Backside Slaps Stadium",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "eggsthink",
+        "player_display_name": "EggsThink",
+        "aliases": [
+          "EggsThink"
+        ],
+        "slap_ids": [
+          "417498"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "inph1del",
+        "player_display_name": "Inph1del",
+        "aliases": [
+          "Inph1del"
+        ],
+        "slap_ids": [
+          "6803"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "crayon",
+        "player_display_name": "Crayon",
+        "aliases": [
+          "Crayon"
+        ],
+        "slap_ids": [
+          "61597"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "jg_wentworth_877_cash_now",
+        "player_display_name": "JG Wentworth 877-Cash-Now",
+        "aliases": [
+          "JG Wentworth 877-Cash-Now",
+          "JGWentworth877-CashNow"
+        ],
+        "slap_ids": [
+          "1591253"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "800_588_2300_empire_today",
+        "player_display_name": "800-588-2300 Empire Today",
+        "aliases": [
+          "800-588-2300 Empire Today"
+        ],
+        "slap_ids": [
+          "1591250"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "glitch",
+        "player_display_name": "Glitch",
+        "aliases": [
+          "Glitch"
+        ],
+        "slap_ids": [
+          "18350"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_sweatshirt_and_friends",
+    "team_display_name": "Ottawa Valley Sweatshirt And Friends",
+    "team_abbreviation": "OVSF",
+    "region": "West Slapshot League",
+    "venue": "The Brick House",
+    "signup_logo_url": "https://drive.google.com/open?id=18LCzj4A-YXeB788VZIEeCqcOcef6BeoL",
+    "logo": "assets/images/teams/ottawa_valley_sweatshirt_and_friends.png",
+    "players": [
+      {
+        "player_id": "hammy",
+        "player_display_name": "Hammy",
+        "aliases": [
+          "Hammy",
+          "itshammahtime"
+        ],
+        "slap_ids": [
+          "1483800"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "eggsthink",
+        "player_display_name": "EggsThink",
+        "aliases": [
+          "EggsThink"
+        ],
+        "slap_ids": [
+          "417498"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "maia",
+        "player_display_name": "Maia",
+        "aliases": [
+          "Maia",
+          ".maiaa._."
+        ],
+        "slap_ids": [
+          "1269140"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "kevin",
+        "player_display_name": "kevin",
+        "aliases": [
+          "kevin",
+          "dominantsquare"
+        ],
+        "slap_ids": [
+          "594707"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "sweatshirt",
+        "player_display_name": "Sweatshirt",
+        "aliases": [
+          "Sweatshirt",
+          "notg"
+        ],
+        "slap_ids": [
+          "1856285"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "chaos",
+        "player_display_name": "Chaos",
+        "aliases": [
+          "Chaos",
+          "LDG_Chaos"
+        ],
+        "slap_ids": [
+          "1026914"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "pawnee_post_syrup_intake_authority",
+    "team_display_name": "Pawnee Post Syrup Intake Authority",
+    "team_abbreviation": "PPSA",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Waffle Iron",
+    "signup_logo_url": "https://drive.google.com/open?id=1McXZ42moiEHrzBiW2Mr--PaujMHJfU61",
+    "logo": "assets/images/teams/pawnee_post_syrup_intake_authority.png",
+    "players": [
+      {
+        "player_id": "dionysus",
+        "player_display_name": "Dionysus",
+        "aliases": [
+          "Dionysus",
+          "dion_e_sus"
+        ],
+        "slap_ids": [
+          "87468"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "topil",
+        "player_display_name": "Topil",
+        "aliases": [
+          "Topil",
+          "zork7802"
+        ],
+        "slap_ids": [
+          "1781804"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "securitron_mk_ii",
+        "player_display_name": "Securitron MK II",
+        "aliases": [
+          "Securitron MK II",
+          "jarjar7213"
+        ],
+        "slap_ids": [
+          "67088"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "giraffekiller",
+        "player_display_name": "GiraffeKiller",
+        "aliases": [
+          "GiraffeKiller",
+          "giraffekiller"
+        ],
+        "slap_ids": [
+          "1314542"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "rigsjr",
+        "player_display_name": "RIGSjr",
+        "aliases": [
+          "RIGSjr",
+          "rigs18"
+        ],
+        "slap_ids": [
+          "9265"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "pittsburgh_volts",
+    "team_display_name": "Pittsburgh Volts",
+    "team_abbreviation": "PIT",
+    "region": "Main Slapshot League (East)",
+    "venue": "Console Energy Center",
+    "signup_logo_url": "https://drive.google.com/open?id=1B681SSVS0HrKDnBcMhqXU83urz5eD4Fz",
+    "logo": "assets/images/teams/pittsburgh_volts.png",
+    "players": [
+      {
+        "player_id": "noah",
+        "player_display_name": "Noah",
+        "aliases": [
+          "Noah",
+          "noahk33"
+        ],
+        "slap_ids": [
+          "678"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "aboveaveragejoe",
+        "player_display_name": "AboveAverageJoe",
+        "aliases": [
+          "AboveAverageJoe",
+          ".joeo"
+        ],
+        "slap_ids": [
+          "57885"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "9th_coming_of_jesus",
+        "player_display_name": "9th Coming of Jesus",
+        "aliases": [
+          "9th Coming of Jesus",
+          "connor04963"
+        ],
+        "slap_ids": [
+          "47785"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "meow",
+        "player_display_name": "Meow",
+        "aliases": [
+          "Meow",
+          "meno_menoson"
+        ],
+        "slap_ids": [
+          "148141"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "buf",
+        "player_display_name": "Buf",
+        "aliases": [
+          "Buf",
+          "buf215"
+        ],
+        "slap_ids": [
+          "352018"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "quebec_flare",
+    "team_display_name": "Quebec Flare",
+    "team_abbreviation": "QUE",
+    "region": "Main Slapshot League (East)",
+    "venue": "Hope Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=11v5aq2YFnTpY_nzNjZ61Y4m860AMLSPX",
+    "logo": "assets/images/teams/quebec_flare.png",
+    "players": [
+      {
+        "player_id": "nayrqc",
+        "player_display_name": "Nayr[QC]",
+        "aliases": [
+          "Nayr[QC]",
+          "legarsqc"
+        ],
+        "slap_ids": [
+          "286293"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "kajun",
+        "player_display_name": "Kajun",
+        "aliases": [
+          "Kajun",
+          "7kajun"
+        ],
+        "slap_ids": [
+          "19508"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "felicioal068",
+        "player_display_name": "felicioal068",
+        "aliases": [
+          "felicioal068",
+          "alecathamer"
+        ],
+        "slap_ids": [
+          "795175"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "salem_cats",
+    "team_display_name": "Salem Cats",
+    "team_abbreviation": "SAL",
+    "region": "West Slapshot League",
+    "venue": "cat bowl",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "hill",
+        "player_display_name": "hill",
+        "aliases": [
+          "hill"
+        ],
+        "slap_ids": [
+          "1378966"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "mahalo",
+        "player_display_name": "mahalo",
+        "aliases": [
+          "mahalo",
+          "soccerboyej"
+        ],
+        "slap_ids": [
+          "550187"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "headass",
+        "player_display_name": "headass",
+        "aliases": [
+          "headass"
+        ],
+        "slap_ids": [
+          "173111"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "seattle_cyclones",
+    "team_display_name": "Seattle Cyclones",
+    "team_abbreviation": "SEA",
+    "region": "Main Slapshot League (East)",
+    "venue": "Climate Pledge Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1r5KjiDTYNgqQ2FQ5tjevkYwDgWrJOPop",
+    "logo": "assets/images/teams/seattle_cyclones.png",
+    "players": [
+      {
+        "player_id": "wads",
+        "player_display_name": "wads",
+        "aliases": [
+          "wads",
+          "wads___"
+        ],
+        "slap_ids": [
+          "962536"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "gronk",
+        "player_display_name": "Gronk",
+        "aliases": [
+          "Gronk",
+          "gronk1287"
+        ],
+        "slap_ids": [
+          "1232982"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "conpeylil",
+        "player_display_name": "Conpeylil",
+        "aliases": [
+          "Conpeylil",
+          "yoyoonmobile"
+        ],
+        "slap_ids": [
+          "1009691"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "ushl_prospects",
+    "team_display_name": "USHL Prospects",
+    "team_abbreviation": "USHL",
+    "region": "Central Slapshot League",
+    "venue": "the ice cream bowl",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "bh",
+        "player_display_name": "BH",
+        "aliases": [
+          "BH",
+          "chipisbetterthenyou"
+        ],
+        "slap_ids": [
+          "1247602"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "huungrysebik",
+        "player_display_name": "huungrysebik",
+        "aliases": [
+          "huungrysebik",
+          "hungrysebik"
+        ],
+        "slap_ids": [
+          "812156"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "behimeth",
+        "player_display_name": "Behimeth",
+        "aliases": [
+          "Behimeth",
+          "bigdaddyadam669"
+        ],
+        "slap_ids": [
+          "263074"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "camyg110",
+        "player_display_name": "camyg110",
+        "aliases": [
+          "camyg110",
+          "bigboybigboyolbbpp"
+        ],
+        "slap_ids": [
+          "2020493"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "een",
+        "player_display_name": "een",
+        "aliases": [
+          "een",
+          "Rixsnn"
+        ],
+        "slap_ids": [
+          "1213271"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_66ers",
+    "team_display_name": "Vader 66ers",
+    "team_abbreviation": "V66",
+    "region": "Central Slapshot League",
+    "venue": "The Ruined Temple",
+    "signup_logo_url": "https://drive.google.com/open?id=1KTIfuvlGQXp5PyP1y7Pc_AQH_OHG4Iw3",
+    "logo": "assets/images/teams/vader_66ers.png",
+    "players": [
+      {
+        "player_id": "lilcricket26",
+        "player_display_name": "Lilcricket26",
+        "aliases": [
+          "Lilcricket26",
+          "Lilcricket"
+        ],
+        "slap_ids": [
+          "1287792"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "liquidpoo22",
+        "player_display_name": "Liquidpoo22",
+        "aliases": [
+          "Liquidpoo22"
+        ],
+        "slap_ids": [
+          "1722341"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "xrevision",
+        "player_display_name": "XRevision",
+        "aliases": [
+          "XRevision"
+        ],
+        "slap_ids": [
+          "1723185"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_acolytes",
+    "team_display_name": "Vader Acolytes",
+    "team_abbreviation": "VADA",
+    "region": "Main Slapshot League (East)",
+    "venue": "Slap Star Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1sCljrisOLdPJdPQzv53bwpXPRaz0oce6",
+    "logo": "assets/images/teams/vader_acolytes.png",
+    "players": [
+      {
+        "player_id": "filip_chytil_stan",
+        "player_display_name": "Filip Chytil Stan",
+        "aliases": [
+          "Filip Chytil Stan"
+        ],
+        "slap_ids": [
+          "184180"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "boatsnhoes",
+        "player_display_name": "BoatsNHoes",
+        "aliases": [
+          "BoatsNHoes"
+        ],
+        "slap_ids": [
+          "1771333"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "drpecker",
+        "player_display_name": "Drpecker",
+        "aliases": [
+          "Drpecker"
+        ],
+        "slap_ids": [
+          "1562745"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "therealamericam",
+        "player_display_name": "TheRealAmeriCam",
+        "aliases": [
+          "TheRealAmeriCam"
+        ],
+        "slap_ids": [
+          "1937517"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_bounty_hunters",
+    "team_display_name": "Vader Bounty Hunters",
+    "team_abbreviation": "VABH",
+    "region": "Central Slapshot League",
+    "venue": "",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "boatsnhoes",
+        "player_display_name": "Boatsnhoes",
+        "aliases": [
+          "Boatsnhoes",
+          "boatsNhoes"
+        ],
+        "slap_ids": [
+          "1771333"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "sowwea",
+        "player_display_name": "Sowwea",
+        "aliases": [
+          "Sowwea"
+        ],
+        "slap_ids": [
+          "2129"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "crayon",
+        "player_display_name": "Crayon",
+        "aliases": [
+          "Crayon"
+        ],
+        "slap_ids": [
+          "61597"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "dxmxnz",
+        "player_display_name": "dxmxnz",
+        "aliases": [
+          "dxmxnz"
+        ],
+        "slap_ids": [
+          "1310489"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_eastern_attackers",
+    "team_display_name": "Vader Eastern Attackers",
+    "team_abbreviation": "VEA",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Battledome",
+    "signup_logo_url": "https://drive.google.com/open?id=1A61uPO--ZtMSkEoIwg9Nw_mTbua64Yti",
+    "logo": "assets/images/teams/vader_eastern_attackers.png",
+    "players": [
+      {
+        "player_id": "akakattack",
+        "player_display_name": "Akakattack",
+        "aliases": [
+          "Akakattack",
+          "B0T-AkakattackYT"
+        ],
+        "slap_ids": [
+          "1689859"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "skiz",
+        "player_display_name": "Skiz",
+        "aliases": [
+          "Skiz",
+          "Skiztastic"
+        ],
+        "slap_ids": [
+          "4633"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "cybergoose",
+        "player_display_name": "cybergoose",
+        "aliases": [
+          "cybergoose"
+        ],
+        "slap_ids": [
+          "1199765"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_gungans",
+    "team_display_name": "Vader Gungans",
+    "team_abbreviation": "VADG",
+    "region": "West Slapshot League",
+    "venue": "Bigger Fish Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1SRWS5j7gVm3suptp-JKdQm4fpWHx5FG1",
+    "logo": "assets/images/teams/vader_gungans.png",
+    "players": [
+      {
+        "player_id": "galalendon",
+        "player_display_name": "Galalendon",
+        "aliases": [
+          "Galalendon"
+        ],
+        "slap_ids": [
+          "249493"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "filip_chytil_stan",
+        "player_display_name": "Filip Chytil Stan",
+        "aliases": [
+          "Filip Chytil Stan"
+        ],
+        "slap_ids": [
+          "184180"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "meenimizer",
+        "player_display_name": "Meenimizer",
+        "aliases": [
+          "Meenimizer"
+        ],
+        "slap_ids": [
+          "439532"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "flc",
+        "player_display_name": "Flc",
+        "aliases": [
+          "Flc",
+          "oFlick"
+        ],
+        "slap_ids": [
+          "327512"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "kajun",
+        "player_display_name": "Kajun",
+        "aliases": [
+          "Kajun"
+        ],
+        "slap_ids": [
+          "19508"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_inquisitors",
+    "team_display_name": "Vader Inquisitors",
+    "team_abbreviation": "VADI",
+    "region": "Central Slapshot League",
+    "venue": "Mustafar Palace",
+    "signup_logo_url": "https://drive.google.com/open?id=1oLxIg2wpoVgq1Rb04mRBTex28OwPHsjQ",
+    "logo": "assets/images/teams/vader_inquisitors.png",
+    "players": [
+      {
+        "player_id": "galalendon",
+        "player_display_name": "Galalendon",
+        "aliases": [
+          "Galalendon"
+        ],
+        "slap_ids": [
+          "249493"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "filip_chytil_stan",
+        "player_display_name": "Filip Chytil Stan",
+        "aliases": [
+          "Filip Chytil Stan"
+        ],
+        "slap_ids": [
+          "184180"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "ghostwalker",
+        "player_display_name": "Ghostwalker",
+        "aliases": [
+          "Ghostwalker"
+        ],
+        "slap_ids": [
+          "1439105"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "akakattack",
+        "player_display_name": "Akakattack",
+        "aliases": [
+          "Akakattack"
+        ],
+        "slap_ids": [
+          "1689859"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "teddy_bluegar",
+        "player_display_name": "Teddy Bluegar",
+        "aliases": [
+          "Teddy Bluegar"
+        ],
+        "slap_ids": [
+          "848840"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_revanites",
+    "team_display_name": "Vader Revanites",
+    "team_abbreviation": "VADR",
+    "region": "Central Slapshot League",
+    "venue": "The House of Malek",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "withdrawals",
+        "player_display_name": "withdrawals",
+        "aliases": [
+          "withdrawals",
+          "_withdrawals"
+        ],
+        "slap_ids": [
+          "1326629"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "sylvatic",
+        "player_display_name": "Sylvatic",
+        "aliases": [
+          "Sylvatic",
+          "Sylvatic."
+        ],
+        "slap_ids": [
+          "406789"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "cheekybathtub69",
+        "player_display_name": "CheekyBathtub69",
+        "aliases": [
+          "CheekyBathtub69",
+          "dorachipeur"
+        ],
+        "slap_ids": [
+          "818797"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "901x_amac",
+        "player_display_name": "901x Amac",
+        "aliases": [
+          "901x Amac",
+          "ammcclain"
+        ],
+        "slap_ids": [
+          "1362725"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_saboteurs",
+    "team_display_name": "Vader Saboteurs",
+    "team_abbreviation": "VADS",
+    "region": "Central Slapshot League",
+    "venue": "The Sniper’s Nest",
+    "signup_logo_url": "https://drive.google.com/open?id=1ZLeOGUOtYT7sz052pHb8bycyzQGB4Eh5",
+    "logo": "assets/images/teams/vader_saboteurs.png",
+    "players": [
+      {
+        "player_id": "meenimizer",
+        "player_display_name": "meenimizer",
+        "aliases": [
+          "meenimizer"
+        ],
+        "slap_ids": [
+          "439532"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "pl4zma",
+        "player_display_name": "pl4zma",
+        "aliases": [
+          "pl4zma"
+        ],
+        "slap_ids": [
+          "636422"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "cybergoose",
+        "player_display_name": "cybergoose",
+        "aliases": [
+          "cybergoose"
+        ],
+        "slap_ids": [
+          "1199765"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "basho",
+        "player_display_name": "Basho",
+        "aliases": [
+          "Basho"
+        ],
+        "slap_ids": [
+          "153665"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_starkillers_central",
+    "team_display_name": "Vader Starkillers Central",
+    "team_abbreviation": "VSKC",
+    "region": "Central Slapshot League",
+    "venue": "",
+    "signup_logo_url": "https://drive.google.com/open?id=1Zj6mkUGS3EYfqug1q239jb8OoYYMsGyw",
+    "logo": "assets/images/teams/vader_starkillers_central.png",
+    "players": [
+      {
+        "player_id": "rigg",
+        "player_display_name": "Rigg",
+        "aliases": [
+          "Rigg",
+          "riggator"
+        ],
+        "slap_ids": [
+          "1530583"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "qptreyqp",
+        "player_display_name": "qptreyqp",
+        "aliases": [
+          "qptreyqp"
+        ],
+        "slap_ids": [
+          "893565"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "grimace",
+        "player_display_name": "grimace",
+        "aliases": [
+          "grimace",
+          "kirkanthony"
+        ],
+        "slap_ids": [
+          "524911"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "ochase",
+        "player_display_name": "oChase",
+        "aliases": [
+          "oChase",
+          "ochase"
+        ],
+        "slap_ids": [
+          "767270"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "kwispy_cold_hands",
+        "player_display_name": "Kwispy (Cold Hands)",
+        "aliases": [
+          "Kwispy (Cold Hands)",
+          "Lando8030"
+        ],
+        "slap_ids": [
+          "524929"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_starkillers_east",
+    "team_display_name": "Vader Starkillers East",
+    "team_abbreviation": "VDSE",
+    "region": "Main Slapshot League (East)",
+    "venue": "",
+    "signup_logo_url": "https://drive.google.com/open?id=1fMIbKXK1Jr07YbwZa2fB18K7i7x3kRvA",
+    "logo": "assets/images/teams/vader_starkillers_east.png",
+    "players": [
+      {
+        "player_id": "rigg",
+        "player_display_name": "Rigg",
+        "aliases": [
+          "Rigg",
+          "riggator"
+        ],
+        "slap_ids": [
+          "1530583"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "kwispy_cold_hands",
+        "player_display_name": "Kwispy (Cold Hands)",
+        "aliases": [
+          "Kwispy (Cold Hands)",
+          "Lando8030"
+        ],
+        "slap_ids": [
+          "524929"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "qptreyqp",
+        "player_display_name": "qptreyqp",
+        "aliases": [
+          "qptreyqp"
+        ],
+        "slap_ids": [
+          "893565"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "ochase",
+        "player_display_name": "oChase",
+        "aliases": [
+          "oChase",
+          "ochase"
+        ],
+        "slap_ids": [
+          "767270"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "grimace",
+        "player_display_name": "grimace",
+        "aliases": [
+          "grimace",
+          "kirkanthony"
+        ],
+        "slap_ids": [
+          "524911"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_stars",
+    "team_display_name": "Vader Stars",
+    "team_abbreviation": "VAS",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Death Star",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "withdrawals",
+        "player_display_name": "withdrawals",
+        "aliases": [
+          "withdrawals",
+          "_withdrawals"
+        ],
+        "slap_ids": [
+          "1326629"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "sylvatic",
+        "player_display_name": "Sylvatic",
+        "aliases": [
+          "Sylvatic",
+          "Sylvatic."
+        ],
+        "slap_ids": [
+          "406789"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "timmy",
+        "player_display_name": "Timmy",
+        "aliases": [
+          "Timmy",
+          "timmy69_"
+        ],
+        "slap_ids": [
+          "40"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "mcnulty",
+        "player_display_name": "Mcnulty",
+        "aliases": [
+          "Mcnulty",
+          "patriotichockey14"
+        ],
+        "slap_ids": [
+          "600238"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lit",
+        "player_display_name": "LIT",
+        "aliases": [
+          "LIT",
+          "penguin_pro"
+        ],
+        "slap_ids": [
+          "633338"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_vanguard",
+    "team_display_name": "Vader Vanguard",
+    "team_abbreviation": "VANG",
+    "region": "West Slapshot League",
+    "venue": "The Fortress",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "akakattack",
+        "player_display_name": "Akakattack",
+        "aliases": [
+          "Akakattack",
+          "B0T-AkakattackYT"
+        ],
+        "slap_ids": [
+          "1689859"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "equal",
+        "player_display_name": "Equal",
+        "aliases": [
+          "Equal",
+          "edb500"
+        ],
+        "slap_ids": [
+          "1033794"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "jqkson",
+        "player_display_name": "jqkson",
+        "aliases": [
+          "jqkson"
+        ],
+        "slap_ids": [
+          "837003"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "skaudoingle",
+        "player_display_name": "skaudoingle",
+        "aliases": [
+          "skaudoingle"
+        ],
+        "slap_ids": [
+          "767712"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "nayr",
+        "player_display_name": "Nayr",
+        "aliases": [
+          "Nayr",
+          "legarsqc"
+        ],
+        "slap_ids": [
+          "286293"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_vanquishers",
+    "team_display_name": "Vader Vanquishers",
+    "team_abbreviation": "VANQ",
+    "region": "Central Slapshot League",
+    "venue": "The Thunderdome",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "galalendon",
+        "player_display_name": "Galalendon",
+        "aliases": [
+          "Galalendon"
+        ],
+        "slap_ids": [
+          "249493"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "sharqq",
+        "player_display_name": "sharqq",
+        "aliases": [
+          "sharqq"
+        ],
+        "slap_ids": [
+          "787"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "makar",
+        "player_display_name": "Makar",
+        "aliases": [
+          "Makar",
+          "rovk"
+        ],
+        "slap_ids": [
+          "739963"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "v",
+        "player_display_name": "_V",
+        "aliases": [
+          "_V",
+          "Vendal"
+        ],
+        "slap_ids": [
+          "1853671"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "drpecker",
+        "player_display_name": "Drpecker",
+        "aliases": [
+          "Drpecker"
+        ],
+        "slap_ids": [
+          "1562745"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_voltage",
+    "team_display_name": "Vader Voltage",
+    "team_abbreviation": "VOLT",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Lightning Dome",
+    "signup_logo_url": "https://drive.google.com/open?id=1IQyAr7J_8X9M2Nh-uDqR5TjO6fzUjItf",
+    "logo": "assets/images/teams/vader_voltage.png",
+    "players": [
+      {
+        "player_id": "akakattack",
+        "player_display_name": "Akakattack",
+        "aliases": [
+          "Akakattack"
+        ],
+        "slap_ids": [
+          "1689859"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "wind",
+        "player_display_name": "Wind",
+        "aliases": [
+          "Wind"
+        ],
+        "slap_ids": [
+          "613713"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "solacethunders",
+        "player_display_name": "SolaceThunders",
+        "aliases": [
+          "SolaceThunders"
+        ],
+        "slap_ids": [
+          "31950"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "magix",
+        "player_display_name": "Magix",
+        "aliases": [
+          "Magix"
+        ],
+        "slap_ids": [
+          "1064297"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "bolty",
+        "player_display_name": "Bolty",
+        "aliases": [
+          "Bolty"
+        ],
+        "slap_ids": [
+          "19642"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "doug",
+        "player_display_name": "Doug",
+        "aliases": [
+          "Doug"
+        ],
+        "slap_ids": [
+          "211281"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_voltage_central",
+    "team_display_name": "Vader Voltage - Central",
+    "team_abbreviation": "VDVC",
+    "region": "Central Slapshot League",
+    "venue": "The Lightning Dome",
+    "signup_logo_url": "https://drive.google.com/open?id=1auU2G1oB0pb_ie1g3YYgmn6_z01uAh4Q",
+    "logo": "assets/images/teams/vader_voltage_central.png",
+    "players": [
+      {
+        "player_id": "akakattack",
+        "player_display_name": "Akakattack",
+        "aliases": [
+          "Akakattack"
+        ],
+        "slap_ids": [
+          "1689859"
+        ],
+        "role": "gm"
+      },
+      {
+        "player_id": "wind",
+        "player_display_name": "Wind",
+        "aliases": [
+          "Wind"
+        ],
+        "slap_ids": [
+          "613713"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "solacethunders",
+        "player_display_name": "SolaceThunders",
+        "aliases": [
+          "SolaceThunders"
+        ],
+        "slap_ids": [
+          "31950"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "magix",
+        "player_display_name": "Magix",
+        "aliases": [
+          "Magix"
+        ],
+        "slap_ids": [
+          "1064297"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "bolty",
+        "player_display_name": "Bolty",
+        "aliases": [
+          "Bolty"
+        ],
+        "slap_ids": [
+          "19642"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_whiteout",
+    "team_display_name": "Vader Whiteout",
+    "team_abbreviation": "VADW",
+    "region": "Main Slapshot League (East)",
+    "venue": "Hoth Training Rink",
+    "signup_logo_url": "https://drive.google.com/open?id=16J__Ap2T01_Z5kAkS3dpWh0jmaN9ieOr",
+    "logo": "assets/images/teams/vader_whiteout.png",
+    "players": [
+      {
+        "player_id": "biggiebag",
+        "player_display_name": "BiggieBag",
+        "aliases": [
+          "BiggieBag",
+          "biggiebag420"
+        ],
+        "slap_ids": [
+          "1288337"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "galalendon",
+        "player_display_name": "Galalendon",
+        "aliases": [
+          "Galalendon"
+        ],
+        "slap_ids": [
+          "249493"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lilcricket",
+        "player_display_name": "LilCricket",
+        "aliases": [
+          "LilCricket"
+        ],
+        "slap_ids": [
+          "1287792"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "maxzombiejaws",
+        "player_display_name": "MaxZombieJaws",
+        "aliases": [
+          "MaxZombieJaws"
+        ],
+        "slap_ids": [
+          "1124512"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "vader_wookies",
+    "team_display_name": "Vader Wookies",
+    "team_abbreviation": "WOOK",
+    "region": "Main Slapshot League (East)",
+    "venue": "The Millennium Falcon",
+    "signup_logo_url": "https://drive.google.com/open?id=1DLcpcBOMomBnGim4VGov--Sg9IaZCYCK",
+    "logo": "assets/images/teams/vader_wookies.png",
+    "players": [
+      {
+        "player_id": "unknown_player",
+        "player_display_name": ">:)",
+        "aliases": [
+          ">:)",
+          "Tetraboxygen"
+        ],
+        "slap_ids": [
+          "72269"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "max",
+        "player_display_name": "Max",
+        "aliases": [
+          "Max",
+          "dorachipeur"
+        ],
+        "slap_ids": [
+          "818797"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "ghostwalker",
+        "player_display_name": "Ghostwalker",
+        "aliases": [
+          "Ghostwalker"
+        ],
+        "slap_ids": [
+          "1439105"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "papi_tef",
+        "player_display_name": "Papi Tef",
+        "aliases": [
+          "Papi Tef"
+        ],
+        "slap_ids": [
+          "472364"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "whitby_wombats",
+    "team_display_name": "Whitby Wombats",
+    "team_abbreviation": "WWB",
+    "region": "Main Slapshot League (East)",
+    "venue": "Iroquois Park Sports Centre",
+    "signup_logo_url": "https://drive.google.com/open?id=1M4H_p9fpdAsKpxRojoDi4Uas7LJiK_PZ",
+    "logo": "assets/images/teams/whitby_wombats.png",
+    "players": [
+      {
+        "player_id": "trayvon",
+        "player_display_name": "Trayvon",
+        "aliases": [
+          "Trayvon",
+          "trxy"
+        ],
+        "slap_ids": [
+          "56496"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "nic",
+        "player_display_name": "Nic.",
+        "aliases": [
+          "Nic.",
+          "nic0990."
+        ],
+        "slap_ids": [
+          "381872"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "bick",
+        "player_display_name": "bick",
+        "aliases": [
+          "bick",
+          "bicknight."
+        ],
+        "slap_ids": [
+          "381871"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "diego",
+        "player_display_name": "diego",
+        "aliases": [
+          "diego",
+          "diego3000."
+        ],
+        "slap_ids": [
+          "381869"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "windy_city_walruses",
+    "team_display_name": "Windy City Walruses",
+    "team_abbreviation": "WCW",
+    "region": "Central Slapshot League",
+    "venue": "Ice Bear Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1ChFP0AWU54oRZmG9JyB3sFdBiwKIgTHq",
+    "logo": "assets/images/teams/windy_city_walruses.png",
+    "players": [
+      {
+        "player_id": "lilprecip",
+        "player_display_name": "LilPrecip",
+        "aliases": [
+          "LilPrecip"
+        ],
+        "slap_ids": [
+          "1005605"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "plsstankrate",
+        "player_display_name": "plsstankrate",
+        "aliases": [
+          "plsstankrate",
+          "Jakethegreat3"
+        ],
+        "slap_ids": [
+          "1005628"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "myrickfelloff",
+        "player_display_name": "MyRickFellOff",
+        "aliases": [
+          "MyRickFellOff",
+          "ponchdropper"
+        ],
+        "slap_ids": [
+          "1005594"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "ranchero",
+        "player_display_name": "Ranchero",
+        "aliases": [
+          "Ranchero",
+          "jkpumo5"
+        ],
+        "slap_ids": [
+          "1713654"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "potato",
+        "player_display_name": "Potato",
+        "aliases": [
+          "Potato",
+          "potatoesunited"
+        ],
+        "slap_ids": [
+          "1277002"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "yucatn_yetis",
+    "team_display_name": "Yucatán Yetis",
+    "team_abbreviation": "YETI",
+    "region": "Main Slapshot League (East)",
+    "venue": "",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "goldenknight",
+        "player_display_name": "GoldenKnight",
+        "aliases": [
+          "GoldenKnight"
+        ],
+        "slap_ids": [
+          "75184"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "bey",
+        "player_display_name": "Bey",
+        "aliases": [
+          "Bey"
+        ],
+        "slap_ids": [
+          "405738"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lucki",
+        "player_display_name": "Lucki",
+        "aliases": [
+          "Lucki"
+        ],
+        "slap_ids": [
+          "1367326"
+        ],
+        "role": "player"
+      }
+    ]
+  },
+  {
+    "team_id": "yukon_yetis",
+    "team_display_name": "Yukon Yetis",
+    "team_abbreviation": "YETI",
+    "region": "Central Slapshot League",
+    "venue": "",
+    "signup_logo_url": "",
+    "logo": "",
+    "players": [
+      {
+        "player_id": "goldenknight",
+        "player_display_name": "GoldenKnight",
+        "aliases": [
+          "GoldenKnight"
+        ],
+        "slap_ids": [
+          "75184"
+        ],
+        "role": "captain"
+      },
+      {
+        "player_id": "bey",
+        "player_display_name": "Bey",
+        "aliases": [
+          "Bey"
+        ],
+        "slap_ids": [
+          "405738"
+        ],
+        "role": "player"
+      },
+      {
+        "player_id": "lucki",
+        "player_display_name": "Lucki",
+        "aliases": [
+          "Lucki"
+        ],
+        "slap_ids": [
+          "1367326"
+        ],
+        "role": "player"
+      }
+    ]
+  }
+]

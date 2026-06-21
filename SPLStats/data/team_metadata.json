@@ -16729,5 +16729,763 @@
         "end_season": null
       }
     ]
+  },
+
+
+
+  
+    {
+    "team_id": "barcelona_bobos_prep_academy",
+    "team_display_name": "Barcelona Bobos Prep Academy",
+    "aliases": [
+      "Barcelona Bobos Prep Academy"
+    ],
+    "abbreviation": "BBPA",
+    "venue": "Bobos Headquarters",
+    "signup_logo_url": "https://drive.google.com/open?id=1_xglkwnpwPgZlTpYFe-ol0M9slXRLgWM",
+    "logo": "assets/images/teams/barcelona_bobos_prep_academy.png",
+    "theme": {
+      "primary": "#001040",
+      "secondary": "#000020",
+      "accent": "#ffb000",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Barcelona Bobos Prep Academy",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "baton_rouge_bobos",
+    "team_display_name": "Baton Rouge Bobos",
+    "aliases": [
+      "Baton Rouge Bobos"
+    ],
+    "abbreviation": "BRBO",
+    "venue": "Raising Cane's River Center Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=18xv4b_umGNHLLGZuQDe3G34w3mLS72kT",
+    "logo": "assets/images/teams/baton_rouge_bobos.png",
+    "theme": {
+      "primary": "#403020",
+      "secondary": "#202010",
+      "accent": "#403020",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Baton Rouge Bobos",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "bedford_bobos_preparatory_academy",
+    "team_display_name": "Bedford Bobos Preparatory Academy",
+    "aliases": [
+      "Bedford Bobos Preparatory Academy"
+    ],
+    "abbreviation": "BBPA",
+    "venue": "Bobos Outdoor Barn",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Bedford Bobos Preparatory Academy",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "beverly_hills_bobos",
+    "team_display_name": "Beverly Hills Bobos",
+    "aliases": [
+      "Beverly Hills Bobos"
+    ],
+    "abbreviation": "BHB",
+    "venue": "Bobos Barn",
+    "signup_logo_url": "https://drive.google.com/open?id=1vi4xcT1Q4xVby4-TRAtSAG_Mi_Pqy3Bi",
+    "logo": "assets/images/teams/beverly_hills_bobos.png",
+    "theme": {
+      "primary": "#10c0b0",
+      "secondary": "#200010",
+      "accent": "#f00060",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Beverly Hills Bobos",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "birmingham_bobos",
+    "team_display_name": "Birmingham Bobos",
+    "aliases": [
+      "Birmingham Bobos"
+    ],
+    "abbreviation": "BHBB",
+    "venue": "Birmingham Boboham Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=184jTNqZdn3MTSp0J-J4SZxwE1THZZ2ia",
+    "logo": "assets/images/teams/birmingham_bobos.png",
+    "theme": {
+      "primary": "#405060",
+      "secondary": "#202030",
+      "accent": "#405060",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Birmingham Bobos",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "boston_bobos",
+    "team_display_name": "Boston Bobos",
+    "aliases": [
+      "Boston Bobos"
+    ],
+    "abbreviation": "BOBO",
+    "venue": "Boston Bobo Stadium",
+    "signup_logo_url": "https://drive.google.com/open?id=1aM2b5dqikRYmKPKiiUCaJey3UiZTnQ2r",
+    "logo": "assets/images/teams/boston_bobos.png",
+    "theme": {
+      "primary": "#303040",
+      "secondary": "#101020",
+      "accent": "#006090",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Boston Bobos",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "boston_shufflebottoms",
+    "team_display_name": "Boston Shufflebottoms",
+    "aliases": [
+      "Boston Shufflebottoms"
+    ],
+    "abbreviation": "BSB",
+    "venue": "Larpklr Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=17yRy8Aoi5isEAJ--Fu8CbYRMxmCi53Fn",
+    "logo": "assets/images/teams/boston_shufflebottoms.png",
+    "theme": {
+      "primary": "#401020",
+      "secondary": "#200010",
+      "accent": "#401020",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Boston Shufflebottoms",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "camden_crook",
+    "team_display_name": "Camden Crook$",
+    "aliases": [
+      "Camden Crook$"
+    ],
+    "abbreviation": "CRKS",
+    "venue": "The Morgue",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Camden Crook$",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "cold_lake_hit_lits",
+    "team_display_name": "Cold Lake Hit Lits",
+    "aliases": [
+      "Cold Lake Hit Lits"
+    ],
+    "abbreviation": "CLHL",
+    "venue": "Ferrrda Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1DwWBxlrFUK1lXkJEIyU2IrDgmbbvtjSL",
+    "logo": "assets/images/teams/cold_lake_hit_lits.png",
+    "theme": {
+      "primary": "#e00000",
+      "secondary": "#200000",
+      "accent": "#f03010",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Cold Lake Hit Lits",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "edmonton_bears",
+    "team_display_name": "Edmonton Bears",
+    "aliases": [
+      "Edmonton Bears"
+    ],
+    "abbreviation": "EDM",
+    "venue": "The Bell Center",
+    "signup_logo_url": "https://drive.google.com/open?id=18gyJeCyfBgbTdr5OABO42z-SFeyLjmqN",
+    "logo": "assets/images/teams/edmonton_bears.png",
+    "theme": {
+      "primary": "#101040",
+      "secondary": "#111111",
+      "accent": "#a000ff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Edmonton Bears",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "farmington_pilot_knobbers",
+    "team_display_name": "Farmington Pilot Knobbers",
+    "aliases": [
+      "Farmington Pilot Knobbers"
+    ],
+    "abbreviation": "FPK",
+    "venue": "Rambling River Arena",
+    "signup_logo_url": "https://drive.google.com/open?id=1XLB8tz4Y8eCDEAGCyxnhk4TpVr4-sBhi",
+    "logo": "assets/images/teams/farmington_pilot_knobbers.png",
+    "theme": {
+      "primary": "#002040",
+      "secondary": "#202030",
+      "accent": "#906020",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Farmington Pilot Knobbers",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "jerusalem_golden_bobos",
+    "team_display_name": "Jerusalem Golden Bobos",
+    "aliases": [
+      "Jerusalem Golden Bobos"
+    ],
+    "abbreviation": "JGB",
+    "venue": "Bobo Bowlss",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Jerusalem Golden Bobos",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "miami_muffins",
+    "team_display_name": "Miami Muffins",
+    "aliases": [
+      "Miami Muffins"
+    ],
+    "abbreviation": "MUFF",
+    "venue": "The Bakery",
+    "signup_logo_url": "https://drive.google.com/open?id=1bDrwUAC6fERMzzjEdaqoZ0dQykLkIDCL",
+    "logo": "assets/images/teams/miami_muffins.png",
+    "theme": {
+      "primary": "#205060",
+      "secondary": "#304040",
+      "accent": "#c08050",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Miami Muffins",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "north_carolina_sap",
+    "team_display_name": "North Carolina S.A.P",
+    "aliases": [
+      "North Carolina S.A.P"
+    ],
+    "abbreviation": "SAP",
+    "venue": "The Swamp",
+    "signup_logo_url": "https://drive.google.com/open?id=1PxDbpCCETjG550UQ-4_KVguQnYilXdLt",
+    "logo": "assets/images/teams/north_carolina_sap.png",
+    "theme": {
+      "primary": "#705050",
+      "secondary": "#302020",
+      "accent": "#705050",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "North Carolina S.A.P",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_bass_slappers",
+    "team_display_name": "Ottawa Valley Bass Slappers",
+    "aliases": [
+      "Ottawa Valley Bass Slappers"
+    ],
+    "abbreviation": "OVBS",
+    "venue": "Guitar Center",
+    "signup_logo_url": "https://drive.google.com/open?id=1jBSwKQom44RtSKno4-VySNSSx19TOh4B",
+    "logo": "assets/images/teams/ottawa_valley_bass_slappers.png",
+    "theme": {
+      "primary": "#c0a080",
+      "secondary": "#201000",
+      "accent": "#ff7000",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Ottawa Valley Bass Slappers",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_cool_cats",
+    "team_display_name": "Ottawa Valley Cool Cats",
+    "aliases": [
+      "Ottawa Valley Cool Cats"
+    ],
+    "abbreviation": "OVCC",
+    "venue": "The Cat Tree",
+    "signup_logo_url": "https://drive.google.com/open?id=1E3-GQ47sMskXkeEmZCoKmkTQbqpXgk5d",
+    "logo": "assets/images/teams/ottawa_valley_cool_cats.png",
+    "theme": {
+      "primary": "#0080c0",
+      "secondary": "#111111",
+      "accent": "#ff7000",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Ottawa Valley Cool Cats",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_puck_masters",
+    "team_display_name": "Ottawa Valley Puck Masters",
+    "aliases": [
+      "Ottawa Valley Puck Masters"
+    ],
+    "abbreviation": "OVPM",
+    "venue": "Hammy's Dojo",
+    "signup_logo_url": "https://drive.google.com/open?id=1HtuItc_Nai85QqsvKzQsID6RwPEAa8oU",
+    "logo": "assets/images/teams/ottawa_valley_puck_masters.png",
+    "theme": {
+      "primary": "#c08000",
+      "secondary": "#302000",
+      "accent": "#ff9000",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Ottawa Valley Puck Masters",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "ottawa_valley_sweatshirt_and_friends",
+    "team_display_name": "Ottawa Valley Sweatshirt And Friends",
+    "aliases": [
+      "Ottawa Valley Sweatshirt And Friends"
+    ],
+    "abbreviation": "OVSF",
+    "venue": "The Brick House",
+    "signup_logo_url": "https://drive.google.com/open?id=18LCzj4A-YXeB788VZIEeCqcOcef6BeoL",
+    "logo": "assets/images/teams/ottawa_valley_sweatshirt_and_friends.png",
+    "theme": {
+      "primary": "#800010",
+      "secondary": "#400010",
+      "accent": "#f06000",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Ottawa Valley Sweatshirt And Friends",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "pittsburgh_volts",
+    "team_display_name": "Pittsburgh Volts",
+    "aliases": [
+      "Pittsburgh Volts"
+    ],
+    "abbreviation": "PIT",
+    "venue": "Console Energy Center",
+    "signup_logo_url": "https://drive.google.com/open?id=1B681SSVS0HrKDnBcMhqXU83urz5eD4Fz",
+    "logo": "assets/images/teams/pittsburgh_volts-clear.png",
+    "theme": {
+      "primary": "#e0a020",
+      "secondary": "#303010",
+      "accent": "#e0a020",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Pittsburgh Volts",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "salem_cats",
+    "team_display_name": "Salem Cats",
+    "aliases": [
+      "Salem Cats"
+    ],
+    "abbreviation": "SAL",
+    "venue": "cat bowl",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Salem Cats",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "ushl_prospects",
+    "team_display_name": "USHL Prospects",
+    "aliases": [
+      "USHL Prospects"
+    ],
+    "abbreviation": "USHL",
+    "venue": "the ice cream bowl",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "USHL Prospects",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "vader_bounty_hunters",
+    "team_display_name": "Vader Bounty Hunters",
+    "aliases": [
+      "Vader Bounty Hunters"
+    ],
+    "abbreviation": "VABH",
+    "venue": "",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Vader Bounty Hunters",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "vader_saboteurs",
+    "team_display_name": "Vader Saboteurs",
+    "aliases": [
+      "Vader Saboteurs"
+    ],
+    "abbreviation": "VADS",
+    "venue": "The Sniper’s Nest",
+    "signup_logo_url": "https://drive.google.com/open?id=1ZLeOGUOtYT7sz052pHb8bycyzQGB4Eh5",
+    "logo": "assets/images/teams/vader_saboteurs.png",
+    "theme": {
+      "primary": "#6030a0",
+      "secondary": "#201030",
+      "accent": "#ffd000",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Vader Saboteurs",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "vader_stars",
+    "team_display_name": "Vader Stars",
+    "aliases": [
+      "Vader Stars"
+    ],
+    "abbreviation": "VAS",
+    "venue": "The Death Star",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Vader Stars",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "vader_vanguard",
+    "team_display_name": "Vader Vanguard",
+    "aliases": [
+      "Vader Vanguard"
+    ],
+    "abbreviation": "VANG",
+    "venue": "The Fortress",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Vader Vanguard",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "vader_vanquishers",
+    "team_display_name": "Vader Vanquishers",
+    "aliases": [
+      "Vader Vanquishers"
+    ],
+    "abbreviation": "VANQ",
+    "venue": "The Thunderdome",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Vader Vanquishers",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "vader_whiteout",
+    "team_display_name": "Vader Whiteout",
+    "aliases": [
+      "Vader Whiteout"
+    ],
+    "abbreviation": "VADW",
+    "venue": "Hoth Training Rink",
+    "signup_logo_url": "https://drive.google.com/open?id=16J__Ap2T01_Z5kAkS3dpWh0jmaN9ieOr",
+    "logo": "assets/images/teams/vader_whiteout.png",
+    "theme": {
+      "primary": "#d00000",
+      "secondary": "#111111",
+      "accent": "#b02020",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Vader Whiteout",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "yucatn_yetis",
+    "team_display_name": "Yucatán Yetis",
+    "aliases": [
+      "Yucatán Yetis"
+    ],
+    "abbreviation": "YETI",
+    "venue": "",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Yucatán Yetis",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
+  },
+  {
+    "team_id": "yukon_yetis",
+    "team_display_name": "Yukon Yetis",
+    "aliases": [
+      "Yukon Yetis"
+    ],
+    "abbreviation": "YETI",
+    "venue": "",
+    "signup_logo_url": "",
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Yukon Yetis",
+        "start_season": null,
+        "end_season": null
+      }
+    ]
   }
 ]
