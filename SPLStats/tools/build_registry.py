@@ -86,32 +86,49 @@ def main():
     games_used = 0
 
     folders = [p for p in LOGS_DIR.iterdir() if p.is_dir()]
+    loose_json_files = sorted(LOGS_DIR.glob("*.json"))
 
-    for folder in folders:
-        reports = []
+    def load_report(file_path):
+        nonlocal total_json_files
 
-        for file_path in folder.glob("*.json"):
-            total_json_files += 1
+        total_json_files += 1
 
-            try:
-                with file_path.open("r", encoding="utf-8") as f:
-                    data = json.load(f)
-            except Exception as e:
-                bad_json_files.append({
-                    "file": str(file_path),
-                    "error": str(e)
-                })
-                continue
-
-            created_dt, date = parse_created_timestamp(file_path)
-
-            reports.append({
-                "file_path": file_path,
-                "data": data,
-                "period": safe_period(data),
-                "created_dt": created_dt,
-                "date": date
+        try:
+            with file_path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            bad_json_files.append({
+                "file": str(file_path),
+                "error": str(e)
             })
+            return None
+
+        created_dt, date = parse_created_timestamp(file_path)
+
+        return {
+            "file_path": file_path,
+            "data": data,
+            "period": safe_period(data),
+            "created_dt": created_dt,
+            "date": date
+        }
+
+    def use_chosen_report(chosen):
+        nonlocal games_used
+
+        for player in chosen["data"].get("players", []):
+            update_player(
+                registry,
+                player.get("game_user_id"),
+                player.get("username"),
+                chosen["date"]
+            )
+
+        games_used += 1
+
+    def process_reports_group(reports):
+        if not reports:
+            return
 
         reports.sort(key=lambda r: (r["created_dt"] or datetime.min, r["period"]))
 
@@ -122,30 +139,35 @@ def main():
 
             if report["period"] >= 3:
                 chosen = choose_best_report(current_game_reports)
+                use_chosen_report(chosen)
 
-                for player in chosen["data"].get("players", []):
-                    update_player(
-                        registry,
-                        player.get("game_user_id"),
-                        player.get("username"),
-                        chosen["date"]
-                    )
-
-                games_used += 1
                 current_game_reports = []
 
         if current_game_reports:
             chosen = choose_best_report(current_game_reports)
+            use_chosen_report(chosen)
 
-            for player in chosen["data"].get("players", []):
-                update_player(
-                    registry,
-                    player.get("game_user_id"),
-                    player.get("username"),
-                    chosen["date"]
-                )
+    # Existing behavior:
+    # each folder is treated as a grouped batch of reports.
+    for folder in folders:
+        reports = []
 
-            games_used += 1
+        for file_path in folder.glob("*.json"):
+            report = load_report(file_path)
+
+            if report:
+                reports.append(report)
+
+        process_reports_group(reports)
+
+    # New behavior:
+    # loose JSON files directly inside logs/ are also scanned.
+    # Each loose file is treated as its own game/report.
+    for file_path in loose_json_files:
+        report = load_report(file_path)
+
+        if report:
+            process_reports_group([report])
 
     PREFERRED_NAMES_FILE = Path("../data/preferred_names.json")
 
@@ -166,6 +188,7 @@ def main():
         json.dump(registry, f, indent=2, ensure_ascii=False)
 
     print(f"Folders scanned: {len(folders)}")
+    print(f"Loose JSON files scanned: {len(loose_json_files)}")
     print(f"JSON files found: {total_json_files}")
     print(f"Games used for registry: {games_used}")
     print(f"Players in registry: {len(registry)}")
