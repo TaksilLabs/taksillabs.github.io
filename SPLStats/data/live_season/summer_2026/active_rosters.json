@@ -1,0 +1,2741 @@
+{
+  "season_id": "summer_2026",
+  "season_name": "Summer 2026",
+  "source_file": "raw_signups/SPL-Summer2026-Signups.csv",
+  "teams": [
+    {
+      "team_id": "arnold_ashtrays",
+      "team_display_name": "Arnold Ashtrays",
+      "team": "Arnold Ashtrays",
+      "team_abbreviation": "PPG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "lilcricket26",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "komizzy_",
+          "slap_id": "1891105"
+        },
+        {
+          "role": "player",
+          "steam_name": "daguest210",
+          "slap_id": "1275507"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mrbarnacle",
+          "slap_id": "1888210"
+        }
+      ],
+      "slap_ids": [
+        "1287792",
+        "1891105",
+        "1275507",
+        "1888210"
+      ]
+    },
+    {
+      "team_id": "atlanta_aces",
+      "team_display_name": "Atlanta Aces",
+      "team": "Atlanta Aces",
+      "team_abbreviation": "Atl",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "[ATL]Alt",
+          "slap_id": "24807"
+        },
+        {
+          "role": "player",
+          "steam_name": "[ATL]Joe",
+          "slap_id": "6799"
+        },
+        {
+          "role": "player",
+          "steam_name": "poops",
+          "slap_id": "819088"
+        }
+      ],
+      "slap_ids": [
+        "24807",
+        "6799",
+        "819088"
+      ]
+    },
+    {
+      "team_id": "atlantic_city_zootiez",
+      "team_display_name": "Atlantic City Zootiez$",
+      "team": "Atlantic City Zootiez$",
+      "team_abbreviation": "ACZ",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "950305"
+        },
+        {
+          "role": "player",
+          "steam_name": "midget",
+          "slap_id": "948283"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hodie",
+          "slap_id": "972960"
+        },
+        {
+          "role": "player",
+          "steam_name": ">:)",
+          "slap_id": "72269"
+        },
+        {
+          "role": "player",
+          "steam_name": "Nayr[QC]",
+          "slap_id": "286293"
+        }
+      ],
+      "slap_ids": [
+        "950305",
+        "948283",
+        "972960",
+        "72269",
+        "286293"
+      ]
+    },
+    {
+      "team_id": "barcelona_bobos_prep_academy",
+      "team_display_name": "Barcelona Bobos Prep Academy",
+      "team": "Barcelona Bobos Prep Academy",
+      "team_abbreviation": "BBPA",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jenediah",
+          "slap_id": "154305"
+        },
+        {
+          "role": "player",
+          "steam_name": "Charles",
+          "slap_id": "122257"
+        },
+        {
+          "role": "player",
+          "steam_name": "Carti",
+          "slap_id": "1320348"
+        },
+        {
+          "role": "player",
+          "steam_name": "booya",
+          "slap_id": "1419124"
+        },
+        {
+          "role": "player",
+          "steam_name": "yackslack",
+          "slap_id": "640761"
+        }
+      ],
+      "slap_ids": [
+        "154305",
+        "122257",
+        "1320348",
+        "1419124",
+        "640761"
+      ]
+    },
+    {
+      "team_id": "barrie_bag_chasers",
+      "team_display_name": "Barrie Bag Chasers",
+      "team": "Barrie Bag Chasers",
+      "team_abbreviation": "BBC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Looees",
+          "slap_id": "281017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Shloompa",
+          "slap_id": "979880"
+        },
+        {
+          "role": "player",
+          "steam_name": "maia",
+          "slap_id": "1269140"
+        }
+      ],
+      "slap_ids": [
+        "913017",
+        "281017",
+        "979880",
+        "1269140"
+      ]
+    },
+    {
+      "team_id": "barrie_bald_boys",
+      "team_display_name": "Barrie Bald Boys",
+      "team": "Barrie Bald Boys",
+      "team_abbreviation": "BBB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Beefus",
+          "slap_id": "1354924"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tridoxity",
+          "slap_id": "1127790"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meatballer36",
+          "slap_id": "929814"
+        },
+        {
+          "role": "player",
+          "steam_name": "Darth Daevin",
+          "slap_id": "836900"
+        }
+      ],
+      "slap_ids": [
+        "1354924",
+        "1127790",
+        "929814",
+        "836900"
+      ]
+    },
+    {
+      "team_id": "barrie_beaver_brigade",
+      "team_display_name": "Barrie Beaver Brigade",
+      "team": "Barrie Beaver Brigade",
+      "team_abbreviation": "BBB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "ScitruS",
+          "slap_id": "2069819"
+        },
+        {
+          "role": "player",
+          "steam_name": "Shloompa",
+          "slap_id": "979880"
+        },
+        {
+          "role": "player",
+          "steam_name": "SemenSlayer",
+          "slap_id": "1427595"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lathyros",
+          "slap_id": "604541"
+        }
+      ],
+      "slap_ids": [
+        "2069819",
+        "979880",
+        "1427595",
+        "604541"
+      ]
+    },
+    {
+      "team_id": "barrie_belgian_waffles",
+      "team_display_name": "Barrie Belgian Waffles",
+      "team": "Barrie Belgian Waffles",
+      "team_abbreviation": "BBW",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Beefus",
+          "slap_id": "1354924"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meatballer36",
+          "slap_id": "929814"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tridoxity",
+          "slap_id": "1127790"
+        }
+      ],
+      "slap_ids": [
+        "1354924",
+        "929814",
+        "1127790"
+      ]
+    },
+    {
+      "team_id": "barrie_ice_hounds",
+      "team_display_name": "Barrie Ice Hounds",
+      "team": "Barrie Ice Hounds",
+      "team_abbreviation": "BIH",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Beefus",
+          "slap_id": "134924"
+        },
+        {
+          "role": "player",
+          "steam_name": "Stim",
+          "slap_id": "1319952"
+        },
+        {
+          "role": "player",
+          "steam_name": "lmb",
+          "slap_id": "1325186"
+        },
+        {
+          "role": "player",
+          "steam_name": "special son",
+          "slap_id": "2037465"
+        },
+        {
+          "role": "player",
+          "steam_name": "Camden.mp4",
+          "slap_id": "1853453"
+        }
+      ],
+      "slap_ids": [
+        "134924",
+        "1319952",
+        "1325186",
+        "2037465",
+        "1853453"
+      ]
+    },
+    {
+      "team_id": "baton_rouge_bobos",
+      "team_display_name": "Baton Rouge Bobos",
+      "team": "Baton Rouge Bobos",
+      "team_abbreviation": "BRBO",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "McNulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "x6c",
+          "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "echo",
+          "slap_id": "22412"
+        }
+      ],
+      "slap_ids": [
+        "600238",
+        "871020",
+        "22412"
+      ]
+    },
+    {
+      "team_id": "battle_creek_kings",
+      "team_display_name": "Battle Creek Kings",
+      "team": "Battle Creek Kings",
+      "team_abbreviation": "BACK",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Joe",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "SPMZ",
+          "slap_id": "941924"
+        },
+        {
+          "role": "player",
+          "steam_name": "SemenSlayer",
+          "slap_id": "1427595"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "67383",
+        "941924",
+        "1427595"
+      ]
+    },
+    {
+      "team_id": "beauport_lynx",
+      "team_display_name": "Beauport Lynx",
+      "team": "Beauport Lynx",
+      "team_abbreviation": "LYNX",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "illumix22",
+          "slap_id": "1000671"
+        },
+        {
+          "role": "player",
+          "steam_name": "assassinje123",
+          "slap_id": "1015166"
+        },
+        {
+          "role": "player",
+          "steam_name": "oskishimoski",
+          "slap_id": "2004442"
+        }
+      ],
+      "slap_ids": [
+        "1000671",
+        "1015166",
+        "2004442"
+      ]
+    },
+    {
+      "team_id": "bedford_bobos_preparatory_academy",
+      "team_display_name": "Bedford Bobos Preparatory Academy",
+      "team": "Bedford Bobos Preparatory Academy",
+      "team_abbreviation": "BBPA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Clever",
+          "slap_id": "1592510"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jonny",
+          "slap_id": "178325"
+        },
+        {
+          "role": "player",
+          "steam_name": "Headass",
+          "slap_id": "173111"
+        },
+        {
+          "role": "player",
+          "steam_name": "x6c",
+          "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hammy",
+          "slap_id": "1483800"
+        }
+      ],
+      "slap_ids": [
+        "1592510",
+        "178325",
+        "173111",
+        "871020",
+        "1483800"
+      ]
+    },
+    {
+      "team_id": "beverly_hills_bobos",
+      "team_display_name": "Beverly Hills Bobos",
+      "team": "Beverly Hills Bobos",
+      "team_abbreviation": "BHB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jenediah",
+          "slap_id": "154305"
+        },
+        {
+          "role": "player",
+          "steam_name": "Eli",
+          "slap_id": "56239"
+        },
+        {
+          "role": "player",
+          "steam_name": "Enry",
+          "slap_id": "178836"
+        },
+        {
+          "role": "player",
+          "steam_name": "Charles",
+          "slap_id": "122257"
+        }
+      ],
+      "slap_ids": [
+        "154305",
+        "56239",
+        "178836",
+        "122257"
+      ]
+    },
+    {
+      "team_id": "birmingham_bobos",
+      "team_display_name": "Birmingham Bobos",
+      "team": "Birmingham Bobos",
+      "team_abbreviation": "BHBB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "JIRIAS2",
+          "slap_id": "1491869"
+        },
+        {
+          "role": "player",
+          "steam_name": "Normalhumanboy",
+          "slap_id": "265889"
+        },
+        {
+          "role": "player",
+          "steam_name": "bqvh",
+          "slap_id": "1432097"
+        },
+        {
+          "role": "player",
+          "steam_name": "cheesed",
+          "slap_id": "2105273"
+        },
+        {
+          "role": "player",
+          "steam_name": "Snark",
+          "slap_id": "5400"
+        }
+      ],
+      "slap_ids": [
+        "1491869",
+        "265889",
+        "1432097",
+        "2105273",
+        "5400"
+      ]
+    },
+    {
+      "team_id": "boston_bahds",
+      "team_display_name": "Boston Bahds",
+      "team": "Boston Bahds",
+      "team_abbreviation": "BAHD",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "dxmxnz",
+          "slap_id": "1310489"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylat00n",
+          "slap_id": "1313906"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ademy24",
+          "slap_id": "710101"
+        },
+        {
+          "role": "player",
+          "steam_name": "dvyr",
+          "slap_id": "352226"
+        },
+        {
+          "role": "player",
+          "steam_name": "napqleon",
+          "slap_id": "1314476"
+        }
+      ],
+      "slap_ids": [
+        "1310489",
+        "1313906",
+        "710101",
+        "352226",
+        "1314476"
+      ]
+    },
+    {
+      "team_id": "boston_bobos",
+      "team_display_name": "Boston Bobos",
+      "team": "Boston Bobos",
+      "team_abbreviation": "BOBO",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "echo",
+          "slap_id": "22412"
+        },
+        {
+          "role": "player",
+          "steam_name": "YackSlack",
+          "slap_id": "640761"
+        },
+        {
+          "role": "player",
+          "steam_name": "jakee",
+          "slap_id": "4153"
+        },
+        {
+          "role": "player",
+          "steam_name": "booya",
+          "slap_id": "1419124"
+        },
+        {
+          "role": "player",
+          "steam_name": "pl4zma",
+          "slap_id": "636422"
+        }
+      ],
+      "slap_ids": [
+        "22412",
+        "640761",
+        "4153",
+        "1419124",
+        "636422"
+      ]
+    },
+    {
+      "team_id": "boston_shufflebottoms",
+      "team_display_name": "Boston Shufflebottoms",
+      "team": "Boston Shufflebottoms",
+      "team_abbreviation": "BSB",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "napqleon",
+          "slap_id": "1314476"
+        },
+        {
+          "role": "player",
+          "steam_name": "FlightlessEgg",
+          "slap_id": "1834115"
+        },
+        {
+          "role": "player",
+          "steam_name": "tuna_key",
+          "slap_id": "1313861"
+        }
+      ],
+      "slap_ids": [
+        "1314476",
+        "1834115",
+        "1313861"
+      ]
+    },
+    {
+      "team_id": "brampton_cows",
+      "team_display_name": "Brampton Cows",
+      "team": "Brampton Cows",
+      "team_abbreviation": "BRC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1282529",
+        "186627",
+        "758362",
+        "633338"
+      ]
+    },
+    {
+      "team_id": "camden_crook",
+      "team_display_name": "Camden Crook$",
+      "team": "Camden Crook$",
+      "team_abbreviation": "CRKS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "286293"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "chief",
+          "slap_id": "957603"
+        },
+        {
+          "role": "player",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "hodie",
+          "slap_id": "972960"
+        }
+      ],
+      "slap_ids": [
+        "286293",
+        "183790",
+        "957603",
+        "1378966",
+        "972960"
+      ]
+    },
+    {
+      "team_id": "camrose_cats",
+      "team_display_name": "Camrose Cats",
+      "team": "Camrose Cats",
+      "team_abbreviation": "cat",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "chausie",
+          "slap_id": "1234707"
+        },
+        {
+          "role": "player",
+          "steam_name": "zelviz",
+          "slap_id": "865092"
+        }
+      ],
+      "slap_ids": [
+        "1378966",
+        "985994",
+        "1234707",
+        "865092"
+      ]
+    },
+    {
+      "team_id": "champaign_champagne",
+      "team_display_name": "Champaign Champagne",
+      "team": "Champaign Champagne",
+      "team_abbreviation": "CHA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Maia",
+          "slap_id": "1269140"
+        },
+        {
+          "role": "player",
+          "steam_name": "kevin",
+          "slap_id": "594707"
+        },
+        {
+          "role": "player",
+          "steam_name": "axe",
+          "slap_id": "1202794"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sweatshirt",
+          "slap_id": "1856285"
+        },
+        {
+          "role": "player",
+          "steam_name": "chaos",
+          "slap_id": "1026914"
+        }
+      ],
+      "slap_ids": [
+        "1269140",
+        "594707",
+        "1202794",
+        "985994",
+        "1856285",
+        "1026914"
+      ]
+    },
+    {
+      "team_id": "chicago_sky_scrapers",
+      "team_display_name": "Chicago Sky Scrapers",
+      "team": "Chicago Sky Scrapers",
+      "team_abbreviation": "CSS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "andrewdewar104",
+          "slap_id": "453698"
+        },
+        {
+          "role": "player",
+          "steam_name": "Danimal1059",
+          "slap_id": "448394"
+        },
+        {
+          "role": "player",
+          "steam_name": "Rage Quitter",
+          "slap_id": "509256"
+        },
+        {
+          "role": "player",
+          "steam_name": "Dead2Soon",
+          "slap_id": "449498"
+        }
+      ],
+      "slap_ids": [
+        "453698",
+        "448394",
+        "509256",
+        "449498"
+      ]
+    },
+    {
+      "team_id": "cold_lake_hit_lits",
+      "team_display_name": "Cold Lake Hit Lits",
+      "team": "Cold Lake Hit Lits",
+      "team_abbreviation": "CLHL",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        }
+      ],
+      "slap_ids": [
+        "186627",
+        "913017",
+        "633338",
+        "1282529"
+      ]
+    },
+    {
+      "team_id": "cold_lake_upper_deckies",
+      "team_display_name": "Cold Lake Upper Deckies",
+      "team": "Cold Lake Upper Deckies",
+      "team_abbreviation": "CLUD",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        }
+      ],
+      "slap_ids": [
+        "186627",
+        "1282529",
+        "913017",
+        "758362"
+      ]
+    },
+    {
+      "team_id": "delco_dog_dads",
+      "team_display_name": "Delco Dog Dads",
+      "team": "Delco Dog Dads",
+      "team_abbreviation": "DDD",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Kavorka",
+          "slap_id": "816852"
+        },
+        {
+          "role": "player",
+          "steam_name": "Drewiou",
+          "slap_id": "200689"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lord Osprey",
+          "slap_id": "19647"
+        },
+        {
+          "role": "player",
+          "steam_name": "Pissy Yonky",
+          "slap_id": "702578"
+        },
+        {
+          "role": "player",
+          "steam_name": "Conro",
+          "slap_id": "1850085"
+        }
+      ],
+      "slap_ids": [
+        "816852",
+        "200689",
+        "19647",
+        "702578",
+        "1850085"
+      ]
+    },
+    {
+      "team_id": "detroit_droids",
+      "team_display_name": "Detroit Droids",
+      "team": "Detroit Droids",
+      "team_abbreviation": "DTD",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "gold",
+          "slap_id": "914959"
+        },
+        {
+          "role": "player",
+          "steam_name": "nutsack6",
+          "slap_id": "914448"
+        },
+        {
+          "role": "player",
+          "steam_name": "kajun",
+          "slap_id": "19508"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hydroid.",
+          "slap_id": "1836154"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
+        }
+      ],
+      "slap_ids": [
+        "914959",
+        "914448",
+        "19508",
+        "1836154",
+        "1071429"
+      ]
+    },
+    {
+      "team_id": "edmonton_bears",
+      "team_display_name": "Edmonton Bears",
+      "team": "Edmonton Bears",
+      "team_abbreviation": "EDM",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "player",
+          "steam_name": "Zelviz",
+          "slap_id": "865092"
+        },
+        {
+          "role": "player",
+          "steam_name": "Carti",
+          "slap_id": "1320348"
+        },
+        {
+          "role": "player",
+          "steam_name": "jeru",
+          "slap_id": "359314"
+        },
+        {
+          "role": "player",
+          "steam_name": "vorq",
+          "slap_id": "244"
+        }
+      ],
+      "slap_ids": [
+        "865092",
+        "1320348",
+        "359314",
+        "244"
+      ]
+    },
+    {
+      "team_id": "farmington_pilot_knobbers",
+      "team_display_name": "Farmington Pilot Knobbers",
+      "team": "Farmington Pilot Knobbers",
+      "team_abbreviation": "FPK",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Carried By Dad",
+          "slap_id": "323270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Olenikiboy",
+          "slap_id": "636982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Smellfuzz",
+          "slap_id": "640618"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kjayrage",
+          "slap_id": "637921"
+        },
+        {
+          "role": "player",
+          "steam_name": "Beefy T's",
+          "slap_id": "1757156"
+        }
+      ],
+      "slap_ids": [
+        "323270",
+        "636982",
+        "640618",
+        "637921",
+        "1757156"
+      ]
+    },
+    {
+      "team_id": "gary_glizzy_gobblers",
+      "team_display_name": "Gary Glizzy Gobblers",
+      "team": "Gary Glizzy Gobblers",
+      "team_abbreviation": "GGG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Looees",
+          "slap_id": "281017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skeetshooter42",
+          "slap_id": "1329800"
+        },
+        {
+          "role": "player",
+          "steam_name": "Cheddx",
+          "slap_id": "8081"
+        },
+        {
+          "role": "player",
+          "steam_name": "PleZo",
+          "slap_id": "174650"
+        },
+        {
+          "role": "player",
+          "steam_name": "Fee dup laybach",
+          "slap_id": "1528532"
+        }
+      ],
+      "slap_ids": [
+        "281017",
+        "1329800",
+        "8081",
+        "174650",
+        "1528532"
+      ]
+    },
+    {
+      "team_id": "greensboro_goosans",
+      "team_display_name": "Greensboro Goosans",
+      "team": "Greensboro Goosans",
+      "team_abbreviation": "GOOS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "MAcademySammy88",
+          "slap_id": "978958"
+        },
+        {
+          "role": "player",
+          "steam_name": "EpiX",
+          "slap_id": "865399"
+        },
+        {
+          "role": "player",
+          "steam_name": "hog wild stunna",
+          "slap_id": "1547281"
+        },
+        {
+          "role": "player",
+          "steam_name": "Overdrive",
+          "slap_id": "150797"
+        },
+        {
+          "role": "player",
+          "steam_name": "lincolng4",
+          "slap_id": "1506689"
+        }
+      ],
+      "slap_ids": [
+        "978958",
+        "865399",
+        "1547281",
+        "150797",
+        "1506689"
+      ]
+    },
+    {
+      "team_id": "hagerstown_heroes",
+      "team_display_name": "Hagerstown Heroes",
+      "team": "Hagerstown Heroes",
+      "team_abbreviation": "HHRS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Awlden",
+          "slap_id": "890370"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        },
+        {
+          "role": "player",
+          "steam_name": "Yuvraj",
+          "slap_id": "849146"
+        },
+        {
+          "role": "player",
+          "steam_name": "cavitee",
+          "slap_id": "883507"
+        },
+        {
+          "role": "player",
+          "steam_name": "Andriulous",
+          "slap_id": "2017598"
+        }
+      ],
+      "slap_ids": [
+        "890370",
+        "848840",
+        "849146",
+        "883507",
+        "2017598"
+      ]
+    },
+    {
+      "team_id": "jerusalem_golden_bobos",
+      "team_display_name": "Jerusalem Golden Bobos",
+      "team": "Jerusalem Golden Bobos",
+      "team_abbreviation": "JGB",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jenediah",
+          "slap_id": "154305"
+        },
+        {
+          "role": "player",
+          "steam_name": "yackslack",
+          "slap_id": "640761"
+        },
+        {
+          "role": "player",
+          "steam_name": "X6C",
+          "slap_id": "871020"
+        }
+      ],
+      "slap_ids": [
+        "154305",
+        "640761",
+        "871020"
+      ]
+    },
+    {
+      "team_id": "lakeshore_loons",
+      "team_display_name": "Lakeshore Loons",
+      "team": "Lakeshore Loons",
+      "team_abbreviation": "LOON",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "West",
+          "slap_id": "1450864"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jot",
+          "slap_id": "1452681"
+        },
+        {
+          "role": "player",
+          "steam_name": "frosty",
+          "slap_id": "1450531"
+        },
+        {
+          "role": "player",
+          "steam_name": "Rocker`",
+          "slap_id": "1450474"
+        }
+      ],
+      "slap_ids": [
+        "1450864",
+        "1452681",
+        "1450531",
+        "1450474"
+      ]
+    },
+    {
+      "team_id": "long_island_lightning",
+      "team_display_name": "Long Island Lightning",
+      "team": "Long Island Lightning",
+      "team_abbreviation": "LIL",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jágr",
+          "slap_id": "560316"
+        },
+        {
+          "role": "player",
+          "steam_name": "Milk",
+          "slap_id": "429195"
+        },
+        {
+          "role": "player",
+          "steam_name": "some1",
+          "slap_id": "429397"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hex",
+          "slap_id": "327983"
+        },
+        {
+          "role": "player",
+          "steam_name": "chrislol",
+          "slap_id": "107083"
+        }
+      ],
+      "slap_ids": [
+        "560316",
+        "429195",
+        "429397",
+        "327983",
+        "107083"
+      ]
+    },
+    {
+      "team_id": "miami_muffins",
+      "team_display_name": "Miami Muffins",
+      "team": "Miami Muffins",
+      "team_abbreviation": "MUFF",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "gold",
+          "slap_id": "914959"
+        },
+        {
+          "role": "player",
+          "steam_name": "nutsack6",
+          "slap_id": "914448"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hydroid.",
+          "slap_id": "1836154"
+        },
+        {
+          "role": "player",
+          "steam_name": "FadsterΨ",
+          "slap_id": "915093"
+        },
+        {
+          "role": "player",
+          "steam_name": "",
+          "slap_id": "915093"
+        }
+      ],
+      "slap_ids": [
+        "914959",
+        "914448",
+        "1836154",
+        "915093"
+      ]
+    },
+    {
+      "team_id": "no_name_nighthawks",
+      "team_display_name": "No Name Nighthawks",
+      "team": "No Name Nighthawks",
+      "team_abbreviation": "NNN",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Noob_Weapons",
+          "slap_id": "87"
+        },
+        {
+          "role": "player",
+          "steam_name": "JoeMer",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "Victon22",
+          "slap_id": "1502807"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "87",
+        "67383",
+        "1502807"
+      ]
+    },
+    {
+      "team_id": "north_carolina_sap",
+      "team_display_name": "North Carolina S.A.P",
+      "team": "North Carolina S.A.P",
+      "team_abbreviation": "SAP",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "chicken_brothers",
+          "slap_id": "1254826"
+        },
+        {
+          "role": "player",
+          "steam_name": "JumpStudios",
+          "slap_id": "1255009"
+        },
+        {
+          "role": "player",
+          "steam_name": "imokimalive",
+          "slap_id": "1252384"
+        }
+      ],
+      "slap_ids": [
+        "1254826",
+        "1255009",
+        "1252384"
+      ]
+    },
+    {
+      "team_id": "okinawa_generations",
+      "team_display_name": "Okinawa Generations",
+      "team": "Okinawa Generations",
+      "team_abbreviation": "OKG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "[OKG] papa shieldz",
+          "slap_id": "503"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513"
+        },
+        {
+          "role": "player",
+          "steam_name": "[OKG]Pip Starlather",
+          "slap_id": "197140"
+        },
+        {
+          "role": "player",
+          "steam_name": "[OKG]Grey",
+          "slap_id": "1420"
+        },
+        {
+          "role": "player",
+          "steam_name": "Renard_",
+          "slap_id": "212"
+        }
+      ],
+      "slap_ids": [
+        "503",
+        "513",
+        "197140",
+        "1420",
+        "212"
+      ]
+    },
+    {
+      "team_id": "ottawa_valley_bass_slappers",
+      "team_display_name": "Ottawa Valley Bass Slappers",
+      "team": "Ottawa Valley Bass Slappers",
+      "team_abbreviation": "OVBS",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Noob_Weapons",
+          "slap_id": "87"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513"
+        },
+        {
+          "role": "player",
+          "steam_name": "GiraffeKiller",
+          "slap_id": "1314542"
+        },
+        {
+          "role": "player",
+          "steam_name": "Dionysus",
+          "slap_id": "87468"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kavorka",
+          "slap_id": "816852"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "87",
+        "513",
+        "1314542",
+        "87468",
+        "816852"
+      ]
+    },
+    {
+      "team_id": "ottawa_valley_cool_cats",
+      "team_display_name": "Ottawa Valley Cool Cats",
+      "team": "Ottawa Valley Cool Cats",
+      "team_abbreviation": "OVCC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sweatshirt",
+          "slap_id": "1856285"
+        },
+        {
+          "role": "player",
+          "steam_name": "Milk",
+          "slap_id": "429195"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jagr",
+          "slap_id": "560316"
+        },
+        {
+          "role": "player",
+          "steam_name": "Panarin",
+          "slap_id": "35"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "1856285",
+        "429195",
+        "560316",
+        "35"
+      ]
+    },
+    {
+      "team_id": "ottawa_valley_post_dingers",
+      "team_display_name": "Ottawa Valley Post Dingers",
+      "team": "Ottawa Valley Post Dingers",
+      "team_abbreviation": "OVPD",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Dave",
+          "slap_id": "186"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crusade",
+          "slap_id": "1374"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
+        }
+      ],
+      "slap_ids": [
+        "186",
+        "1374",
+        "1071429"
+      ]
+    },
+    {
+      "team_id": "ottawa_valley_puck_masters",
+      "team_display_name": "Ottawa Valley Puck Masters",
+      "team": "Ottawa Valley Puck Masters",
+      "team_abbreviation": "OVPM",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "TheRealAmeriCam",
+          "slap_id": "1937517"
+        },
+        {
+          "role": "player",
+          "steam_name": "Inph1del",
+          "slap_id": "6803"
+        },
+        {
+          "role": "player",
+          "steam_name": "JG Wentworth 877-Cash-Now",
+          "slap_id": "1591253"
+        },
+        {
+          "role": "player",
+          "steam_name": "ALT",
+          "slap_id": "24807"
+        },
+        {
+          "role": "player",
+          "steam_name": "poops",
+          "slap_id": "819088"
+        }
+      ],
+      "slap_ids": [
+        "1937517",
+        "6803",
+        "1591253",
+        "24807",
+        "819088"
+      ]
+    },
+    {
+      "team_id": "ottawa_valley_puck_slappers",
+      "team_display_name": "Ottawa Valley Puck Slappers",
+      "team": "Ottawa Valley Puck Slappers",
+      "team_abbreviation": "OVPS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Taco",
+          "slap_id": "321499"
+        },
+        {
+          "role": "player",
+          "steam_name": "Syy",
+          "slap_id": "1506478"
+        },
+        {
+          "role": "player",
+          "steam_name": "BroBurgota",
+          "slap_id": "431751"
+        },
+        {
+          "role": "player",
+          "steam_name": "Troy Bolton",
+          "slap_id": "9394"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "321499",
+        "1506478",
+        "431751",
+        "9394"
+      ]
+    },
+    {
+      "team_id": "ottawa_valley_slappers_with_attitude",
+      "team_display_name": "Ottawa Valley Slappers With Attitude",
+      "team": "Ottawa Valley Slappers With Attitude",
+      "team_abbreviation": "S.W.A",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Inph1del",
+          "slap_id": "6803"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crayon",
+          "slap_id": "61597"
+        },
+        {
+          "role": "player",
+          "steam_name": "JG Wentworth 877-Cash-Now",
+          "slap_id": "1591253"
+        },
+        {
+          "role": "player",
+          "steam_name": "800-588-2300 Empire Today",
+          "slap_id": "1591250"
+        },
+        {
+          "role": "player",
+          "steam_name": "Glitch",
+          "slap_id": "18350"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "6803",
+        "61597",
+        "1591253",
+        "1591250",
+        "18350"
+      ]
+    },
+    {
+      "team_id": "ottawa_valley_sweatshirt_and_friends",
+      "team_display_name": "Ottawa Valley Sweatshirt And Friends",
+      "team": "Ottawa Valley Sweatshirt And Friends",
+      "team_abbreviation": "OVSF",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Hammy",
+          "slap_id": "1483800"
+        },
+        {
+          "role": "player",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Maia",
+          "slap_id": "1269140"
+        },
+        {
+          "role": "player",
+          "steam_name": "kevin",
+          "slap_id": "594707"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sweatshirt",
+          "slap_id": "1856285"
+        },
+        {
+          "role": "player",
+          "steam_name": "Chaos",
+          "slap_id": "1026914"
+        }
+      ],
+      "slap_ids": [
+        "1483800",
+        "417498",
+        "1269140",
+        "594707",
+        "1856285",
+        "1026914"
+      ]
+    },
+    {
+      "team_id": "pawnee_post_syrup_intake_authority",
+      "team_display_name": "Pawnee Post Syrup Intake Authority",
+      "team": "Pawnee Post Syrup Intake Authority",
+      "team_abbreviation": "PPSA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Dionysus",
+          "slap_id": "87468"
+        },
+        {
+          "role": "player",
+          "steam_name": "Topil",
+          "slap_id": "1781804"
+        },
+        {
+          "role": "player",
+          "steam_name": "Securitron MK II",
+          "slap_id": "67088"
+        },
+        {
+          "role": "player",
+          "steam_name": "GiraffeKiller",
+          "slap_id": "1314542"
+        },
+        {
+          "role": "player",
+          "steam_name": "RIGSjr",
+          "slap_id": "9265"
+        }
+      ],
+      "slap_ids": [
+        "87468",
+        "1781804",
+        "67088",
+        "1314542",
+        "9265"
+      ]
+    },
+    {
+      "team_id": "pittsburgh_volts",
+      "team_display_name": "Pittsburgh Volts",
+      "team": "Pittsburgh Volts",
+      "team_abbreviation": "PIT",
+      "region": "east",
+      "players": [
+        {
+          "role": "player",
+          "steam_name": "AboveAverageJoe",
+          "slap_id": "57885"
+        },
+        {
+          "role": "player",
+          "steam_name": "9th Coming of Jesus",
+          "slap_id": "47785"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meow",
+          "slap_id": "148141"
+        },
+        {
+          "role": "player",
+          "steam_name": "Buf",
+          "slap_id": "352018"
+        },
+        {
+          "role": "captain",
+          "steam_name": "Noah",
+          "slap_id": "678"
+        }
+      ],
+      "slap_ids": [
+        "57885",
+        "47785",
+        "148141",
+        "352018",
+        "678"
+      ]
+    },
+    {
+      "team_id": "quebec_flare",
+      "team_display_name": "Quebec Flare",
+      "team": "Quebec Flare",
+      "team_abbreviation": "QUE",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Nayr[QC]",
+          "slap_id": "286293"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "slap_id": "19508"
+        },
+        {
+          "role": "player",
+          "steam_name": "felicioal068",
+          "slap_id": "795175"
+        }
+      ],
+      "slap_ids": [
+        "286293",
+        "19508",
+        "795175"
+      ]
+    },
+    {
+      "team_id": "salem_cats",
+      "team_display_name": "Salem Cats",
+      "team": "Salem Cats",
+      "team_abbreviation": "SAL",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "mahalo",
+          "slap_id": "550187"
+        },
+        {
+          "role": "player",
+          "steam_name": "headass",
+          "slap_id": "173111"
+        }
+      ],
+      "slap_ids": [
+        "1378966",
+        "550187",
+        "173111"
+      ]
+    },
+    {
+      "team_id": "seattle_cyclones",
+      "team_display_name": "Seattle Cyclones",
+      "team": "Seattle Cyclones",
+      "team_abbreviation": "SEA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "wads",
+          "slap_id": "962536"
+        },
+        {
+          "role": "player",
+          "steam_name": "Gronk",
+          "slap_id": "1232982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Conpeylil",
+          "slap_id": "1009691"
+        }
+      ],
+      "slap_ids": [
+        "962536",
+        "1232982",
+        "1009691"
+      ]
+    },
+    {
+      "team_id": "ushl_prospects",
+      "team_display_name": "USHL Prospects",
+      "team": "USHL Prospects",
+      "team_abbreviation": "USHL",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "BH",
+          "slap_id": "1247602"
+        },
+        {
+          "role": "player",
+          "steam_name": "huungrysebik",
+          "slap_id": "812156"
+        },
+        {
+          "role": "player",
+          "steam_name": "Behimeth",
+          "slap_id": "263074"
+        },
+        {
+          "role": "player",
+          "steam_name": "camyg110",
+          "slap_id": "2020493"
+        },
+        {
+          "role": "player",
+          "steam_name": "een",
+          "slap_id": "1213271"
+        }
+      ],
+      "slap_ids": [
+        "1247602",
+        "812156",
+        "263074",
+        "2020493",
+        "1213271"
+      ]
+    },
+    {
+      "team_id": "vader_66ers",
+      "team_display_name": "Vader 66ers",
+      "team": "Vader 66ers",
+      "team_abbreviation": "V66",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Lilcricket26",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "Liquidpoo22",
+          "slap_id": "1722341"
+        },
+        {
+          "role": "player",
+          "steam_name": "XRevision",
+          "slap_id": "1723185"
+        }
+      ],
+      "slap_ids": [
+        "1287792",
+        "1722341",
+        "1723185"
+      ]
+    },
+    {
+      "team_id": "vader_acolytes",
+      "team_display_name": "Vader Acolytes",
+      "team": "Vader Acolytes",
+      "team_abbreviation": "VADA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "BoatsNHoes",
+          "slap_id": "1771333"
+        },
+        {
+          "role": "player",
+          "steam_name": "Drpecker",
+          "slap_id": "1562745"
+        },
+        {
+          "role": "player",
+          "steam_name": "TheRealAmeriCam",
+          "slap_id": "1937517"
+        }
+      ],
+      "slap_ids": [
+        "184180",
+        "1771333",
+        "1562745",
+        "1937517"
+      ]
+    },
+    {
+      "team_id": "vader_bounty_hunters",
+      "team_display_name": "Vader Bounty Hunters",
+      "team": "Vader Bounty Hunters",
+      "team_abbreviation": "VABH",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Boatsnhoes",
+          "slap_id": "1771333"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sowwea",
+          "slap_id": "2129"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crayon",
+          "slap_id": "61597"
+        },
+        {
+          "role": "player",
+          "steam_name": "dxmxnz",
+          "slap_id": "1310489"
+        }
+      ],
+      "slap_ids": [
+        "1771333",
+        "2129",
+        "61597",
+        "1310489"
+      ]
+    },
+    {
+      "team_id": "vader_eastern_attackers",
+      "team_display_name": "Vader Eastern Attackers",
+      "team": "Vader Eastern Attackers",
+      "team_abbreviation": "VEA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skiz",
+          "slap_id": "4633"
+        },
+        {
+          "role": "player",
+          "steam_name": "cybergoose",
+          "slap_id": "1199765"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "4633",
+        "1199765"
+      ]
+    },
+    {
+      "team_id": "vader_gungans",
+      "team_display_name": "Vader Gungans",
+      "team": "Vader Gungans",
+      "team_abbreviation": "VADG",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meenimizer",
+          "slap_id": "439532"
+        },
+        {
+          "role": "player",
+          "steam_name": "Flc",
+          "slap_id": "327512"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "slap_id": "19508"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "439532",
+        "327512",
+        "19508"
+      ]
+    },
+    {
+      "team_id": "vader_inquisitors",
+      "team_display_name": "Vader Inquisitors",
+      "team": "Vader Inquisitors",
+      "team_abbreviation": "VADI",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Teddy Bluegar",
+          "slap_id": "848840"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "1439105",
+        "1689859",
+        "848840"
+      ]
+    },
+    {
+      "team_id": "vader_revanites",
+      "team_display_name": "Vader Revanites",
+      "team": "Vader Revanites",
+      "team_abbreviation": "VADR",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "CheekyBathtub69",
+          "slap_id": "818797"
+        },
+        {
+          "role": "player",
+          "steam_name": "901x Amac",
+          "slap_id": "1362725"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "818797",
+        "1362725"
+      ]
+    },
+    {
+      "team_id": "vader_saboteurs",
+      "team_display_name": "Vader Saboteurs",
+      "team": "Vader Saboteurs",
+      "team_abbreviation": "VADS",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "meenimizer",
+          "slap_id": "439532"
+        },
+        {
+          "role": "player",
+          "steam_name": "pl4zma",
+          "slap_id": "636422"
+        },
+        {
+          "role": "player",
+          "steam_name": "cybergoose",
+          "slap_id": "1199765"
+        },
+        {
+          "role": "player",
+          "steam_name": "Basho",
+          "slap_id": "153665"
+        }
+      ],
+      "slap_ids": [
+        "439532",
+        "636422",
+        "1199765",
+        "153665"
+      ]
+    },
+    {
+      "team_id": "vader_starkillers_central",
+      "team_display_name": "Vader Starkillers Central",
+      "team": "Vader Starkillers Central",
+      "team_abbreviation": "VSKC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Rigg",
+          "slap_id": "1530583"
+        },
+        {
+          "role": "player",
+          "steam_name": "qptreyqp",
+          "slap_id": "893565"
+        },
+        {
+          "role": "player",
+          "steam_name": "grimace",
+          "slap_id": "524911"
+        },
+        {
+          "role": "player",
+          "steam_name": "oChase",
+          "slap_id": "767270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kwispy (Cold Hands)",
+          "slap_id": "524929"
+        }
+      ],
+      "slap_ids": [
+        "1530583",
+        "893565",
+        "524911",
+        "767270",
+        "524929"
+      ]
+    },
+    {
+      "team_id": "vader_starkillers_east",
+      "team_display_name": "Vader Starkillers East",
+      "team": "Vader Starkillers East",
+      "team_abbreviation": "VDSE",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Rigg",
+          "slap_id": "1530583"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kwispy (Cold Hands)",
+          "slap_id": "524929"
+        },
+        {
+          "role": "player",
+          "steam_name": "qptreyqp",
+          "slap_id": "893565"
+        },
+        {
+          "role": "player",
+          "steam_name": "oChase",
+          "slap_id": "767270"
+        },
+        {
+          "role": "player",
+          "steam_name": "grimace",
+          "slap_id": "524911"
+        }
+      ],
+      "slap_ids": [
+        "1530583",
+        "524929",
+        "893565",
+        "767270",
+        "524911"
+      ]
+    },
+    {
+      "team_id": "vader_stars",
+      "team_display_name": "Vader Stars",
+      "team": "Vader Stars",
+      "team_abbreviation": "VAS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mcnulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "40",
+        "600238",
+        "633338"
+      ]
+    },
+    {
+      "team_id": "vader_vanguard",
+      "team_display_name": "Vader Vanguard",
+      "team": "Vader Vanguard",
+      "team_abbreviation": "VANG",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Equal",
+          "slap_id": "1033794"
+        },
+        {
+          "role": "player",
+          "steam_name": "jqkson",
+          "slap_id": "837003"
+        },
+        {
+          "role": "player",
+          "steam_name": "skaudoingle",
+          "slap_id": "767712"
+        },
+        {
+          "role": "player",
+          "steam_name": "Nayr",
+          "slap_id": "286293"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "1033794",
+        "837003",
+        "767712",
+        "286293"
+      ]
+    },
+    {
+      "team_id": "vader_vanquishers",
+      "team_display_name": "Vader Vanquishers",
+      "team": "Vader Vanquishers",
+      "team_abbreviation": "VANQ",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "sharqq",
+          "slap_id": "787"
+        },
+        {
+          "role": "player",
+          "steam_name": "Makar",
+          "slap_id": "739963"
+        },
+        {
+          "role": "player",
+          "steam_name": "_V",
+          "slap_id": "1853671"
+        },
+        {
+          "role": "player",
+          "steam_name": "Drpecker",
+          "slap_id": "1562745"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "787",
+        "739963",
+        "1853671",
+        "1562745"
+      ]
+    },
+    {
+      "team_id": "vader_voltage",
+      "team_display_name": "Vader Voltage",
+      "team": "Vader Voltage",
+      "team_abbreviation": "VOLT",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Wind",
+          "slap_id": "613713"
+        },
+        {
+          "role": "player",
+          "steam_name": "SolaceThunders",
+          "slap_id": "31950"
+        },
+        {
+          "role": "player",
+          "steam_name": "Magix",
+          "slap_id": "1064297"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bolty",
+          "slap_id": "19642"
+        },
+        {
+          "role": "player",
+          "steam_name": "Doug",
+          "slap_id": "211281"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "613713",
+        "31950",
+        "1064297",
+        "19642",
+        "211281"
+      ]
+    },
+    {
+      "team_id": "vader_voltage_central",
+      "team_display_name": "Vader Voltage - Central",
+      "team": "Vader Voltage - Central",
+      "team_abbreviation": "VDVC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Wind",
+          "slap_id": "613713"
+        },
+        {
+          "role": "player",
+          "steam_name": "SolaceThunders",
+          "slap_id": "31950"
+        },
+        {
+          "role": "player",
+          "steam_name": "Magix",
+          "slap_id": "1064297"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bolty",
+          "slap_id": "19642"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "613713",
+        "31950",
+        "1064297",
+        "19642"
+      ]
+    },
+    {
+      "team_id": "vader_whiteout",
+      "team_display_name": "Vader Whiteout",
+      "team": "Vader Whiteout",
+      "team_abbreviation": "VADW",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "BiggieBag",
+          "slap_id": "1288337"
+        },
+        {
+          "role": "player",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "LilCricket",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "MaxZombieJaws",
+          "slap_id": "1124512"
+        }
+      ],
+      "slap_ids": [
+        "1288337",
+        "249493",
+        "1287792",
+        "1124512"
+      ]
+    },
+    {
+      "team_id": "vader_wookies",
+      "team_display_name": "Vader Wookies",
+      "team": "Vader Wookies",
+      "team_abbreviation": "WOOK",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": ">:)",
+          "slap_id": "72269"
+        },
+        {
+          "role": "player",
+          "steam_name": "Max",
+          "slap_id": "818797"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Papi Tef",
+          "slap_id": "472364"
+        }
+      ],
+      "slap_ids": [
+        "72269",
+        "818797",
+        "1439105",
+        "472364"
+      ]
+    },
+    {
+      "team_id": "whitby_wombats",
+      "team_display_name": "Whitby Wombats",
+      "team": "Whitby Wombats",
+      "team_abbreviation": "WWB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Trayvon",
+          "slap_id": "56496"
+        },
+        {
+          "role": "player",
+          "steam_name": "Nic.",
+          "slap_id": "381872"
+        },
+        {
+          "role": "player",
+          "steam_name": "bick",
+          "slap_id": "381871"
+        },
+        {
+          "role": "player",
+          "steam_name": "diego",
+          "slap_id": "381869"
+        }
+      ],
+      "slap_ids": [
+        "56496",
+        "381872",
+        "381871",
+        "381869"
+      ]
+    },
+    {
+      "team_id": "windy_city_walruses",
+      "team_display_name": "Windy City Walruses",
+      "team": "Windy City Walruses",
+      "team_abbreviation": "WCW",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "LilPrecip",
+          "slap_id": "1005605"
+        },
+        {
+          "role": "player",
+          "steam_name": "plsstankrate",
+          "slap_id": "1005628"
+        },
+        {
+          "role": "player",
+          "steam_name": "MyRickFellOff",
+          "slap_id": "1005594"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ranchero",
+          "slap_id": "1713654"
+        },
+        {
+          "role": "player",
+          "steam_name": "Potato",
+          "slap_id": "1277002"
+        }
+      ],
+      "slap_ids": [
+        "1005605",
+        "1005628",
+        "1005594",
+        "1713654",
+        "1277002"
+      ]
+    },
+    {
+      "team_id": "yucatn_yetis",
+      "team_display_name": "Yucatán Yetis",
+      "team": "Yucatán Yetis",
+      "team_abbreviation": "YETI",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "GoldenKnight",
+          "slap_id": "75184"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bey",
+          "slap_id": "405738"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lucki",
+          "slap_id": "1367326"
+        },
+        {
+          "role": "player",
+          "steam_name": "temp-Blue",
+          "slap_id": "100703"
+        }
+      ],
+      "slap_ids": [
+        "75184",
+        "405738",
+        "1367326",
+        "100703"
+      ]
+    },
+    {
+      "team_id": "yukon_yetis",
+      "team_display_name": "Yukon Yetis",
+      "team": "Yukon Yetis",
+      "team_abbreviation": "YETI",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "GoldenKnight",
+          "slap_id": "75184"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bey",
+          "slap_id": "405738"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lucki",
+          "slap_id": "1367326"
+        }
+      ],
+      "slap_ids": [
+        "75184",
+        "405738",
+        "1367326"
+      ]
+    }
+  ]
+}
