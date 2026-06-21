@@ -1,0 +1,677 @@
+/* ============================================================
+   Live Preseason Page
+============================================================ */
+
+:root {
+  --preseason-grid-line: rgba(123, 223, 242, 0.22);
+}
+
+.preseason-header {
+  position: relative;
+  overflow: hidden;
+
+  padding: 24px 24px 46px;
+
+  background:
+    radial-gradient(circle at top right, rgba(0, 209, 209, 0.18), transparent 36%),
+    linear-gradient(135deg, #05080c, #0c141c);
+
+  border-bottom: 3px solid #00d1d1;
+
+  box-shadow:
+    0 14px 34px rgba(0, 0, 0, 0.42),
+    inset 0 0 28px rgba(255, 255, 255, 0.035);
+
+  text-align: center;
+}
+
+.preseason-header .site-nav {
+  position: relative;
+  top: auto;
+  left: auto;
+
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto 34px;
+
+  justify-content: center;
+}
+
+.preseason-title-block h1 {
+  margin: 0;
+
+  color: #7bdff2;
+
+  font-family: Evogria, sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  line-height: 1;
+
+  text-shadow:
+    -4px 4px 0 #000,
+    0 0 18px rgba(0, 0, 0, 0.82);
+}
+
+.preseason-title-block p {
+  margin: 12px 0 0;
+
+  color: #d7f7ff;
+
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.preseason-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px 18px 48px;
+}
+
+.preseason-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.preseason-controls h2 {
+  margin-bottom: 6px;
+}
+
+#preseasonStatusText {
+  color: #cccccc;
+  margin: 0;
+}
+
+.filter-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 180px;
+}
+
+.filter-group label {
+  color: #9fb3c8;
+
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.filter-group select {
+  padding: 9px 11px;
+
+  border: 1px solid #244255;
+  border-radius: 8px;
+
+  background: #071018;
+  color: #f4f4f4;
+
+  font-weight: 800;
+}
+
+/* Table grid */
+
+/* Sticky standings header */
+
+.table-wrap {
+  max-height: 75vh;
+  overflow: auto;
+  position: relative;
+}
+
+.preseason-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+  background: #05080c;
+  box-shadow:
+    0 2px 0 var(--preseason-grid-line),
+    0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
+.preseason-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.preseason-table th,
+.preseason-table td {
+  border-right: 1px solid var(--preseason-grid-line);
+  border-bottom: 1px solid var(--preseason-grid-line);
+
+  vertical-align: middle;
+}
+
+.preseason-table th:first-child,
+.preseason-table td:first-child {
+  border-left: 1px solid var(--preseason-grid-line);
+}
+
+.preseason-table thead th {
+  border-top: 1px solid var(--preseason-grid-line);
+  background: rgba(5, 8, 12, 0.95);
+}
+
+/* Center every stat column */
+.preseason-table th,
+.preseason-table td {
+  text-align: center;
+}
+
+/* Keep Team column custom/right-aligned */
+.preseason-table th:nth-child(2),
+.preseason-table td:nth-child(2) {
+  text-align: right;
+}
+
+.preseason-table tbody td {
+  font-size: 1.08rem;
+  font-weight: 900;
+}
+
+.preseason-table tbody td:not(:nth-child(2)) {
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.preseason-table tbody td:nth-child(7) {
+  font-size: 1.18rem;
+}
+
+.preseason-table tbody td:nth-child(7) strong {
+  color: var(--row-team-accent, #ffffff);
+  font-size: 1.22rem;
+  text-shadow:
+    -1px 1px 0 #000,
+    0 0 8px rgba(0, 0, 0, 0.65);
+}
+
+
+/* Pills */
+
+.region-pill,
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+
+  width: fit-content;
+
+  margin-left: 6px;
+  padding: 3px 7px;
+
+  border-radius: 999px;
+
+  font-size: 0.7rem;
+  font-weight: 1000;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.themed-team-cell .region-pill {
+  margin-left: 0;
+  justify-self: start;
+}
+
+.region-pill {
+  border: 1px solid #244255;
+  color: #dcecff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.region-east {
+  border-color: #f27b7b;
+  color: #f27b7b;
+}
+
+.region-central {
+  border-color: #66ebff;
+  color: #66e0ff;
+}
+
+.region-west {
+  border-color: #ffde7d;
+  color: #ffcf7d;
+}
+
+.status-pill {
+  border: 1px solid #244255;
+  color: #dddddd;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.status-final {
+  border-color: #5cff9d;
+  color: #5cff9d;
+}
+
+.status-scheduled {
+  border-color: #7bdff2;
+  color: #7bdff2;
+}
+
+.status-uploaded_score_unknown,
+.status-uploaded_missing_valid_report {
+  border-color: #ff5c5c;
+  color: #ff8a8a;
+}
+
+/* Review Queue */
+
+.review-card {
+  border-color: #ff5c5c;
+}
+
+.review-card h2 {
+  color: #ff8a8a;
+}
+
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+}
+
+.review-item {
+  padding: 14px;
+
+  border: 1px solid rgba(255, 92, 92, 0.45);
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 92, 92, 0.08),
+      rgba(12, 20, 28, 0.92)
+    );
+}
+
+.review-item-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+
+  margin-bottom: 10px;
+}
+
+.review-match-line {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.review-match-line span {
+  color: #9fb3c8;
+}
+
+.review-meta {
+  margin-top: 8px;
+  color: #ffd166;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.review-item ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+
+  color: #ffb0b0;
+}
+
+/* Match Cards */
+
+.match-list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.match-region-group h3 {
+  margin: 0 0 12px;
+
+  color: #7bdff2;
+
+  font-family: Evogria, sans-serif;
+  font-size: 1.6rem;
+  text-shadow: -2px 2px 0 #000;
+}
+
+.match-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 14px;
+}
+
+.match-card {
+  padding: 14px;
+
+  border: 1px solid rgba(123, 223, 242, 0.30);
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(12, 20, 28, 0.96),
+      rgba(17, 28, 38, 0.88)
+    );
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.28);
+}
+
+.match-card.needs-review {
+  border-color: rgba(255, 92, 92, 0.58);
+}
+
+.match-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 12px;
+}
+
+.match-id {
+  color: #ffd166;
+
+  font-family: Evogria, sans-serif;
+  font-size: 1.05rem;
+}
+
+.match-teams {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.match-team {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  padding: 9px 10px;
+
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.045);
+
+  font-weight: 900;
+}
+
+.match-team.winner {
+  outline: 1px solid #5cff9d;
+  color: #5cff9d;
+}
+
+.match-score {
+  color: #9fb3c8;
+  font-weight: 1000;
+}
+
+.match-meta {
+  margin-top: 10px;
+
+  color: #cccccc;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.match-warning {
+  margin-top: 10px;
+  padding: 7px 9px;
+
+  border-radius: 8px;
+
+  background: rgba(255, 92, 92, 0.14);
+  color: #ffb0b0;
+
+  font-size: 0.8rem;
+  font-weight: 1000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.empty-panel {
+  padding: 26px;
+
+  border: 1px dashed #244255;
+  border-radius: 12px;
+
+  color: #cccccc;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .preseason-controls {
+    align-items: stretch;
+  }
+
+  .filter-row,
+  .filter-group {
+    width: 100%;
+  }
+
+  .match-teams {
+    grid-template-columns: 1fr;
+  }
+
+  .match-score {
+    text-align: center;
+  }
+}
+
+/* Themed standings rows */
+
+.themed-standings-row {
+  position: relative;
+
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(
+        in srgb,
+        var(--row-team-primary, #7bdff2) 20%,
+        rgba(12, 20, 28, 0.96)
+      ) 0%,
+
+      rgba(12, 20, 28, 0.94) 28%,
+
+      rgba(12, 20, 28, 0.88) 50%,
+
+      rgba(12, 20, 28, 0.94) 72%,
+
+      color-mix(
+        in srgb,
+        var(--row-team-primary, #7bdff2) 20%,
+        rgba(12, 20, 28, 0.96)
+      ) 100%
+    );
+}
+
+.themed-standings-row:hover {
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(
+        in srgb,
+        var(--row-team-primary, #7bdff2) 74%,
+        rgba(12, 20, 28, 0.96)
+      ) 0%,
+
+      rgba(12, 20, 28, 0.94) 30%,
+
+      rgba(12, 20, 28, 0.88) 50%,
+
+      rgba(12, 20, 28, 0.94) 70%,
+
+      color-mix(
+        in srgb,
+        var(--row-team-primary, #7bdff2) 74%,
+        rgba(12, 20, 28, 0.96)
+      ) 100%
+    );
+}
+
+.themed-team-cell {
+  display: grid;
+  grid-template-columns: auto minmax(180px, 1fr) 38px;
+  align-items: center;
+  gap: 10px;
+
+  min-width: 360px;
+}
+
+.standings-team-name-wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  min-width: 0;
+  text-align: right;
+}
+
+.standings-team-name-wrap a {
+  color: var(--row-team-accent, #ffffff);
+  text-decoration: none;
+
+  font-family: Evogria, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  text-shadow:
+    -2px 2px 0 #000,
+    0 0 8px rgba(0, 0, 0, 0.65);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.standings-team-name-wrap a:hover {
+  color: var(--row-team-primary, #7bdff2);
+}
+
+.standings-team-logo,
+.standings-team-logo-placeholder {
+  width: 34px;
+  height: 34px;
+  justify-self: end;
+  flex: 0 0 auto;
+}
+
+.standings-team-logo {
+  object-fit: contain;
+
+  filter:
+    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.75));
+}
+
+.standings-team-logo-placeholder {
+  display: block;
+}
+
+.themed-standings-row td:nth-child(7) strong {
+  color: var(--row-team-accent, #ffffff);
+}
+
+
+/* Final table grid override */
+
+.preseason-table th,
+.preseason-table td,
+.preseason-table td:first-child,
+.preseason-table th:first-child,
+.preseason-table thead th {
+  border-color: var(--preseason-grid-line);
+}
+
+.preseason-table th,
+.preseason-table td {
+  border-right: 1px solid var(--preseason-grid-line);
+  border-bottom: 1px solid var(--preseason-grid-line);
+}
+
+.preseason-table th:first-child,
+.preseason-table td:first-child {
+  border-left: 1px solid var(--preseason-grid-line);
+}
+
+.preseason-table thead th {
+  border-top: 1px solid var(--preseason-grid-line);
+}
+
+
+/* Themed standings scrollbar */
+
+.table-wrap {
+  scrollbar-width: thin;
+  scrollbar-color: #00d1d1 #05080c;
+}
+
+/* Chrome / Edge / Safari */
+.table-wrap::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.table-wrap::-webkit-scrollbar-track {
+  background:
+    linear-gradient(
+      180deg,
+      #05080c,
+      #0c141c
+    );
+
+  border-left: 1px solid var(--preseason-grid-line);
+  border-radius: 999px;
+}
+
+.table-wrap::-webkit-scrollbar-thumb {
+  background:
+    linear-gradient(
+      180deg,
+      #7bdff2,
+      #00d1d1
+    );
+
+  border: 3px solid #05080c;
+  border-radius: 999px;
+
+  box-shadow:
+    0 0 8px rgba(123, 223, 242, 0.45);
+}
+
+.table-wrap::-webkit-scrollbar-thumb:hover {
+  background:
+    linear-gradient(
+      180deg,
+      #d7f7ff,
+      #7bdff2
+    );
+
+  box-shadow:
+    0 0 12px rgba(123, 223, 242, 0.75);
+}
+
+.table-wrap::-webkit-scrollbar-corner {
+  background: #05080c;
+}

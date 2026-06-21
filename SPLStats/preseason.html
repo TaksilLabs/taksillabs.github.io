@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SPL Preseason | SPLStats</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/preseason.css">
+</head>
+
+<body>
+
+<header class="preseason-header">
+  <nav class="site-nav">
+    <a href="index.html" class="nav-card nav-home">
+      HOME
+    </a>
+
+    <a href="players.html" class="nav-card nav-players">
+      PLAYERS
+    </a>
+
+    <a href="teams.html" class="nav-card nav-teams">
+      TEAMS
+    </a>
+
+    <a href="franchises.html" class="nav-card nav-franchises">
+      FRANCHISES
+    </a>
+
+    <a href="championships.html" class="nav-card nav-championships">
+      CHAMPIONSHIPS
+    </a>
+  </nav>
+
+  <div class="preseason-title-block">
+    <h1>Summer 2026 Preseason</h1>
+    <p>Live standings, schedule, results, and review queue.</p>
+  </div>
+</header>
+
+<main class="preseason-main">
+
+  <section class="preseason-controls player-card">
+    <div>
+      <h2>Filters</h2>
+      <p id="preseasonStatusText">Loading preseason data...</p>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-group">
+        <label for="regionFilter">Region</label>
+        <select id="regionFilter">
+          <option value="all">All Regions</option>
+          <option value="east">East</option>
+          <option value="central">Central</option>
+          <option value="west">West</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="statusFilter">Status</label>
+        <select id="statusFilter">
+          <option value="all">All Matches</option>
+          <option value="scheduled">Scheduled</option>
+          <option value="final">Final</option>
+          <option value="needs_review">Needs Review</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <section class="player-card">
+    <h2>Preseason Standings</h2>
+
+    <div class="table-wrap">
+      <table id="preseasonStandingsTable" class="preseason-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Team</th>
+            <th>GP</th>
+            <th>W</th>
+            <th>L</th>
+            <th>OTL</th>
+            <th>PTS</th>
+            <th>GF</th>
+            <th>GA</th>
+            <th>GD</th>
+            <th>Last 5</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="reviewSection" class="player-card review-card" style="display: none;">
+    <h2>Needs Review</h2>
+    <p>These matches uploaded logs but produced warnings or could not be finalized.</p>
+
+    <div id="reviewList" class="review-list"></div>
+  </section>
+
+  <section class="player-card">
+    <h2>Schedule / Results</h2>
+
+    <div id="matchList" class="match-list"></div>
+  </section>
+
+</main>
+
+<script src="assets/js/preseason.js"></script>
+
+</body>
+</html>
