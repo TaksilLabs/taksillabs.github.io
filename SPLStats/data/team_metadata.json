@@ -672,11 +672,11 @@
     "aliases": [
       "Atlanta Vampires"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/atlanta_vampires.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#d00000",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#e04040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -2857,11 +2857,11 @@
     "aliases": [
       "Charlestown Refried Beanz"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/charlestown_refried_beanz.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#d02030",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#00c060",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -2995,11 +2995,11 @@
     "aliases": [
       "Chicago Hoodlums"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/chicago_hoodlums.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c02020",
+      "secondary": "#200000",
+      "accent": "#902030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3110,11 +3110,11 @@
     "aliases": [
       "Chicago SlapDaddys"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/chicago_slapdaddys.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#500080",
+      "secondary": "#402010",
+      "accent": "#60ffff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3133,11 +3133,11 @@
     "aliases": [
       "Chicago Syndicate"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/chicago_syndicate.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e01020",
+      "secondary": "#201000",
+      "accent": "#f0d040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3593,11 +3593,11 @@
     "aliases": [
       "Colorado Blucifers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/colorado_blucifers.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#00a0e0",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#4040d0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3940,9 +3940,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3963,9 +3963,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3986,9 +3986,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4009,9 +4009,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4032,9 +4032,9 @@
     ],
     "logo": "assets/images/teams/cowtown_dandyskaters.png",
     "theme": {
-      "primary": "#501050",
-      "secondary": "#102010",
-      "accent": "#d000e0",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4055,9 +4055,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4078,9 +4078,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4101,9 +4101,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4123,14 +4123,14 @@
       "Cowtown Guppies"
     ],
     "logo": "assets/images/teams/cowtown_guppies.png",
-  "theme": {
-    "primary": "#c000c0",
-    "secondary": "#201020",
-    "accent": "#ff00ff",
-    "background": "#050505",
-    "card": "#111111",
-    "surface": "#1a1a1a"
-  },
+    "theme": {
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
     "name_history": [
       {
         "name": "Cowtown Guppies",
@@ -4145,11 +4145,11 @@
     "aliases": [
       "Cowtown Humuhumunukunukuapuaa"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/cowtown_humuhumunukunukuaupuaa.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4170,9 +4170,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4193,9 +4193,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4239,9 +4239,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4262,9 +4262,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4285,9 +4285,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#c000c0",
+      "secondary": "#201020",
+      "accent": "#ff00ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4329,11 +4329,11 @@
     "aliases": [
       "Crystal Lake Slashers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/crystal_lake_slashers.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a01040",
+      "secondary": "#302020",
+      "accent": "#ff0050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4537,11 +4537,11 @@
     "aliases": [
       "Dallas Donners"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/dallas_donners.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#103040",
+      "secondary": "#504040",
+      "accent": "#a06030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4721,11 +4721,11 @@
     "aliases": [
       "Delco Dog Dads"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/delco_dogdads.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#e02020",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#e02020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5804,11 +5804,11 @@
     "aliases": [
       "Gallatin Goblins"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/gallatin_goblins.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#205020",
+      "secondary": "#002000",
+      "accent": "#fff000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5827,11 +5827,11 @@
     "aliases": [
       "Garden Grove Geek Bars"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/garden_grove_geek_bars.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a050a0",
+      "secondary": "#201020",
+      "accent": "#20b050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -6747,11 +6747,11 @@
     "aliases": [
       "Hoboken Humidifiers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/hoboken_humidifiers.jpg",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#403030",
+      "secondary": "#201010",
+      "accent": "#f01030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -6908,11 +6908,11 @@
     "aliases": [
       "Hot Springs Hot Doritos"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/hot_springs_hotdoritos.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#d00020",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#f08020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -7368,11 +7368,11 @@
     "aliases": [
       "Kelowna Wolves"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/kelowna_wolves.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#304050",
+      "secondary": "#102020",
+      "accent": "#ffc080",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -7483,11 +7483,11 @@
     "aliases": [
       "Kevin Kevins"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/kevin_kevins.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#209020",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#ff2020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9233,11 +9233,11 @@
     "aliases": [
       "Montreal Okapi"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/montreal_okapi.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#108010",
+      "secondary": "#103000",
+      "accent": "#108010",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9647,11 +9647,11 @@
     "aliases": [
       "New Jersey Loggers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/new_jersey_loggers.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#90c080",
+      "secondary": "#302010",
+      "accent": "#a0a060",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9831,11 +9831,11 @@
     "aliases": [
       "New York Night Wings"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/new_york_nightwings.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#202050",
+      "secondary": "#000040",
+      "accent": "#202050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9856,9 +9856,9 @@
     ],
     "logo": "",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#202050",
+      "secondary": "#000040",
+      "accent": "#202050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10015,11 +10015,11 @@
     "aliases": [
       "North York Renegades"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/north_york_renegades.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a02030",
+      "secondary": "#201020",
+      "accent": "#f0a030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10130,11 +10130,11 @@
     "aliases": [
       "Oakland Sausages"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/oakland_sausages.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#a07050",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#b09070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10544,11 +10544,11 @@
     "aliases": [
       "Orange County Pucks"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/orange_county_pucks.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#405050",
+      "secondary": "#202030",
+      "accent": "#ffa000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10823,11 +10823,11 @@
     "aliases": [
       "Ottawa Valley Bowling Alleys"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/ottawa_valley_bowling_alleys.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e06030",
+      "secondary": "#003020",
+      "accent": "#f0d090",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -10869,11 +10869,11 @@
     "aliases": [
       "Ottawa Valley Fighting Admirals"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/ottawa_valley_fighting_admirals.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#0080e0",
+      "secondary": "#301000",
+      "accent": "#ff7000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -11076,11 +11076,11 @@
     "aliases": [
       "Ottawa Valley Post Dingers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/ottawa_valley_post_dingers.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a01010",
+      "secondary": "#200000",
+      "accent": "#ff7000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -12663,11 +12663,11 @@
     "aliases": [
       "Ronkonkoma Hot Dr Peppers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/ronkonkoma_hot_dr_peppers.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#d0a020",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#ff3030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -12847,11 +12847,11 @@
     "aliases": [
       "Saint-Louis-du-Ha! Ha! Maniacs"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/saint_louis_du_ha_ha_maniacs.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a0e0d0",
+      "secondary": "#202010",
+      "accent": "#00d0b0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -13077,11 +13077,11 @@
     "aliases": [
       "San Mateo Milkers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/san_mateo_milkers.PNG",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#4040d0",
+      "secondary": "#000020",
+      "accent": "#8080d0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -13468,11 +13468,11 @@
     "aliases": [
       "Shediac Lobsters"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/shediac_lobsters.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e02030",
+      "secondary": "#401010",
+      "accent": "#e06040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -13652,11 +13652,11 @@
     "aliases": [
       "Southern Saucers"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/southern_saucers.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a080e0",
+      "secondary": "#001020",
+      "accent": "#605090",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -13905,11 +13905,11 @@
     "aliases": [
       "Syracuse Ice Kings"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/syracuse_icekings.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#202040",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#90d0f0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -14296,11 +14296,11 @@
     "aliases": [
       "The Scranton Skip-Ads"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/scranton_skip_ads.png",
     "theme": {
-      "primary": "#ffffff",
+      "primary": "#20a0c0",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#b09060",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -14917,11 +14917,11 @@
     "aliases": [
       "Tuxedo Monkeys"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/tuxedo_monkeys.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#604040",
+      "secondary": "#101020",
+      "accent": "#d0ff80",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -15288,7 +15288,7 @@
     "logo": "assets/images/teams/vader_inquisitors.png",
     "theme": {
       "primary": "#b02020",
-      "secondary": "#200000",
+      "secondary": "#501010",
       "accent": "#b02020",
       "background": "#050505",
       "card": "#111111",
@@ -15700,11 +15700,11 @@
     "aliases": [
       "Vancouver Pandas"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/vancouver_pandas.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#906070",
+      "secondary": "#203030",
+      "accent": "#ffb0d0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -15792,11 +15792,11 @@
     "aliases": [
       "Vice City Vitabois"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/vice_city_vitabois.png",
     "theme": {
       "primary": "#ffffff",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#ffffff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -16114,11 +16114,11 @@
     "aliases": [
       "West Virginia Orangutans"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/west_virginia_orangutans.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e02020",
+      "secondary": "#300000",
+      "accent": "#b01020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -16552,11 +16552,11 @@
     "aliases": [
       "Wyoming Cuddle Bears"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/wyoming_cuddle_bears.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#d0a070",
+      "secondary": "#503040",
+      "accent": "#905030",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -16713,11 +16713,11 @@
     "aliases": [
       "Zurich Zynners"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/zurich_zynners.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#003080",
+      "secondary": "#303020",
+      "accent": "#4060a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
