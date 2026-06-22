@@ -138,6 +138,29 @@ function getTeamLogo(teamId) {
   return meta?.logo || "";
 }
 
+function getMatchCardStyle(match) {
+  const homeMeta = getTeamMetadata(match.home_team_id);
+  const awayMeta = getTeamMetadata(match.away_team_id);
+
+  const homeTheme = homeMeta?.theme || {};
+  const awayTheme = awayMeta?.theme || {};
+
+  return `
+    --home-primary: ${homeTheme.primary || "#7bdff2"};
+    --home-accent: ${homeTheme.accent || "#ffffff"};
+    --home-card: ${homeTheme.card || "#111111"};
+
+    --away-primary: ${awayTheme.primary || "#ffd166"};
+    --away-accent: ${awayTheme.accent || "#ffffff"};
+    --away-card: ${awayTheme.card || "#111111"};
+  `;
+}
+
+function getMatchTeamLogo(teamId) {
+  const meta = getTeamMetadata(teamId);
+  return meta?.logo || "";
+}
+
 function renderStandings() {
   const tbody = document.querySelector("#preseasonStandingsTable tbody");
 
@@ -332,15 +355,30 @@ function renderMatches() {
         </div>
       </section>
     `).join("");
+
+    attachMatchCardHandlers();
 }
 
 function renderMatchCard(match) {
   const needsReview = matchNeedsReview(match);
+  const matchUrl = `match.html?id=${encodeURIComponent(match.match_id)}`;
+
+  const homeLogo = getMatchTeamLogo(match.home_team_id);
+  const awayLogo = getMatchTeamLogo(match.away_team_id);
 
   return `
-    <article class="match-card ${needsReview ? "needs-review" : ""}">
+    <article
+      class="match-card ${needsReview ? "needs-review" : ""}"
+      data-href="${matchUrl}"
+      tabindex="0"
+      role="link"
+      aria-label="Open match ${match.schedule_id}: ${match.home_team} vs ${match.away_team}"
+      style="${getMatchCardStyle(match)}"
+    >
       <div class="match-card-top">
-        <span class="match-id">${match.schedule_id}</span>
+        <span class="match-id">
+          ${match.schedule_id}
+        </span>
 
         <span class="status-pill status-${match.status}">
           ${formatStatus(match.status)}
@@ -348,24 +386,58 @@ function renderMatchCard(match) {
       </div>
 
       <div class="match-teams">
-        <div class="match-team ${getWinnerClass(match, "home")}">
+        <div class="match-team home ${getWinnerClass(match, "home")}">
+          ${
+            homeLogo
+              ? `
+                <img
+                  class="match-card-team-logo"
+                  src="${homeLogo}"
+                  alt=""
+                  aria-hidden="true"
+                >
+              `
+              : ""
+          }
+
           <span>${match.home_team}</span>
+        </div>
+
+        <div class="match-score-block">
           ${
             match.status === "final"
-              ? `<strong>${match.home_score}</strong>`
-              : ""
+              ? `
+                <div class="match-final-score">
+                  <span>${match.home_score}</span>
+                  <strong>-</strong>
+                  <span>${match.away_score}</span>
+                </div>
+
+                <div class="match-score-label">
+                  Final
+                </div>
+              `
+              : `
+                <div class="match-vs">
+                  VS
+                </div>
+              `
           }
         </div>
 
-        <div class="match-score">
-          ${getMatchScoreText(match)}
-        </div>
-
-        <div class="match-team ${getWinnerClass(match, "away")}">
+        <div class="match-team away ${getWinnerClass(match, "away")}">
           <span>${match.away_team}</span>
+
           ${
-            match.status === "final"
-              ? `<strong>${match.away_score}</strong>`
+            awayLogo
+              ? `
+                <img
+                  class="match-card-team-logo"
+                  src="${awayLogo}"
+                  alt=""
+                  aria-hidden="true"
+                >
+              `
               : ""
           }
         </div>
@@ -397,6 +469,21 @@ function renderMatchCard(match) {
       }
     </article>
   `;
+}
+
+function attachMatchCardHandlers() {
+  document.querySelectorAll(".match-card[data-href]").forEach(card => {
+    card.addEventListener("click", () => {
+      window.location.href = card.dataset.href;
+    });
+
+    card.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        window.location.href = card.dataset.href;
+      }
+    });
+  });
 }
 
 function renderPage() {

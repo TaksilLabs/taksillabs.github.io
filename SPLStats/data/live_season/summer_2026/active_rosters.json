@@ -1790,8 +1790,13 @@
       "team_display_name": "Pittsburgh Volts",
       "team": "Pittsburgh Volts",
       "team_abbreviation": "PIT",
-      "region": "east",
+      "region": "main slapshot league (east)",
       "players": [
+        {
+          "role": "captain",
+          "steam_name": "Noah",
+          "slap_id": "678"
+        },
         {
           "role": "player",
           "steam_name": "AboveAverageJoe",
@@ -1811,19 +1816,14 @@
           "role": "player",
           "steam_name": "Buf",
           "slap_id": "352018"
-        },
-        {
-          "role": "captain",
-          "steam_name": "Noah",
-          "slap_id": "678"
         }
       ],
       "slap_ids": [
+        "678",
         "57885",
         "47785",
         "148141",
-        "352018",
-        "678"
+        "352018"
       ]
     },
     {
@@ -2694,18 +2694,12 @@
           "role": "player",
           "steam_name": "Lucki",
           "slap_id": "1367326"
-        },
-        {
-          "role": "player",
-          "steam_name": "temp-Blue",
-          "slap_id": "100703"
         }
       ],
       "slap_ids": [
         "75184",
         "405738",
-        "1367326",
-        "100703"
+        "1367326"
       ]
     },
     {

@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from live_helpers import (
@@ -59,6 +60,10 @@ REGION_DISPLAY = {
     "west": "West",
     "unknown": "Unknown",
 }
+
+ROSTER_SNAPSHOTS_FILE = OUT_DIR / "roster_snapshots.json"
+
+MATCH_DETAILS_DIR = OUT_DIR / "match_details"
 
 
 def build_schedule():
@@ -185,8 +190,190 @@ def scan_log_folders():
 
     return uploaded
 
+def get_stat(stats, key):
+    try:
+        return float(stats.get(key, 0) or 0)
+    except Exception:
+        return 0.0
+
+
+def format_number(value):
+    if value == int(value):
+        return int(value)
+    return round(value, 2)
+
+
+def get_scheduled_side_from_log_side(log_side, side_mapping):
+    if side_mapping == "normal":
+        return log_side
+
+    if side_mapping == "swapped":
+        if log_side == "home":
+            return "away"
+        if log_side == "away":
+            return "home"
+
+    return None
+
+
+def empty_team_stats():
+    return {
+        "shots": 0,
+        "saves": 0,
+        "blocks": 0,
+        "faceoffs_won": 0,
+        "takeaways": 0,
+        "possession_time_sec": 0,
+        "possession_percent": 0,
+        "goals": 0,
+        "assists": 0,
+        "passes": 0,
+        "turnovers": 0,
+    }
+
+
+def build_match_detail(match, report_data, side_mapping):
+    team_stats = {
+        "home": empty_team_stats(),
+        "away": empty_team_stats(),
+    }
+
+    players = []
+
+    for player in report_data.get("players", []):
+        log_side = clean_text(player.get("team")).lower()
+        scheduled_side = get_scheduled_side_from_log_side(log_side, side_mapping)
+
+        if scheduled_side not in ("home", "away"):
+            continue
+
+        stats = player.get("stats", {})
+
+        if scheduled_side == "home":
+            team_id = match["home_team_id"]
+            team_name = match["home_team"]
+        else:
+            team_id = match["away_team_id"]
+            team_name = match["away_team"]
+
+        goals = get_stat(stats, "goals")
+        assists = get_stat(stats, "assists")
+        points = goals + assists
+
+        shots = get_stat(stats, "shots")
+        saves = get_stat(stats, "saves")
+
+        # Filled in after team totals are known.
+        conceded_goals = 0
+        shots_faced = 0
+        save_percent = "0.000"
+
+        player_row = {
+            "team_side": scheduled_side,
+            "team_id": team_id,
+            "team": team_name,
+
+            "slap_id": clean_text(player.get("game_user_id")),
+            "username": clean_text(player.get("username")),
+
+            "goals": format_number(goals),
+            "assists": format_number(assists),
+            "points": format_number(points),
+
+            "shots": format_number(shots),
+            "saves": format_number(saves),
+            "blocks": format_number(get_stat(stats, "blocks")),
+
+            "faceoffs_won": format_number(get_stat(stats, "faceoffs_won")),
+            "faceoffs_lost": format_number(get_stat(stats, "faceoffs_lost")),
+
+            "takeaways": format_number(get_stat(stats, "takeaways")),
+            "turnovers": format_number(get_stat(stats, "turnovers")),
+            "post_hits": format_number(get_stat(stats, "post_hits")),
+            "passes": format_number(get_stat(stats, "passes")),
+            "possession_time_sec": format_number(get_stat(stats, "possession_time_sec")),
+
+            "conceded_goals": 0,
+            "shots_faced": 0,
+            "save_percent": "0.000",
+            "gaa": 0,
+
+            "score": format_number(get_stat(stats, "score")),
+        }
+
+        players.append(player_row)
+
+        team_stats[scheduled_side]["shots"] += get_stat(stats, "shots")
+        team_stats[scheduled_side]["saves"] += get_stat(stats, "saves")
+        team_stats[scheduled_side]["blocks"] += get_stat(stats, "blocks")
+        team_stats[scheduled_side]["faceoffs_won"] += get_stat(stats, "faceoffs_won")
+        team_stats[scheduled_side]["takeaways"] += get_stat(stats, "takeaways")
+        team_stats[scheduled_side]["possession_time_sec"] += get_stat(stats, "possession_time_sec")
+        team_stats[scheduled_side]["goals"] += goals
+        team_stats[scheduled_side]["assists"] += assists
+        team_stats[scheduled_side]["passes"] += get_stat(stats, "passes")
+        team_stats[scheduled_side]["turnovers"] += get_stat(stats, "turnovers")
+        team_stats[scheduled_side]["faceoffs_lost"] = team_stats[scheduled_side].get("faceoffs_lost", 0) + get_stat(stats, "faceoffs_lost")
+        team_stats[scheduled_side]["post_hits"] = team_stats[scheduled_side].get("post_hits", 0) + get_stat(stats, "post_hits")
+
+    for player in players:
+        if player["team_side"] == "home":
+            opposing_shots = team_stats["away"]["shots"]
+            goals_allowed = match["away_score"] or 0
+        else:
+            opposing_shots = team_stats["home"]["shots"]
+            goals_allowed = match["home_score"] or 0
+
+        saves = float(player.get("saves", 0) or 0)
+
+        player["shots_faced"] = format_number(opposing_shots)
+        player["conceded_goals"] = format_number(goals_allowed)
+        player["gaa"] = format_number(goals_allowed)
+
+        if opposing_shots > 0:
+            player["save_percent"] = f"{saves / opposing_shots:.3f}"
+        else:
+            player["save_percent"] = "0.000"
+
+    total_possession = (
+        team_stats["home"]["possession_time_sec"]
+        + team_stats["away"]["possession_time_sec"]
+    )
+
+    if total_possession > 0:
+        team_stats["home"]["possession_percent"] = round(
+            team_stats["home"]["possession_time_sec"] / total_possession * 100,
+            1
+        )
+        team_stats["away"]["possession_percent"] = round(
+            team_stats["away"]["possession_time_sec"] / total_possession * 100,
+            1
+        )
+
+    for side in ("home", "away"):
+        for key, value in team_stats[side].items():
+            team_stats[side][key] = format_number(value)
+
+    players.sort(
+        key=lambda player: (
+            0 if player["team_id"] == match.get("winner_team_id") else 1,
+            -float(player["points"]),
+            -float(player["goals"]),
+            -float(player["score"]),
+            player["username"].lower()
+        )
+    )
+
+    return {
+        "match": match,
+        "team_stats": team_stats,
+        "players": players,
+        "warnings": match.get("warnings", []),
+    }
 
 def apply_results(matches, uploaded, roster_lookup):
+    match_details = {}
+
     for match in matches:
         schedule_id = match["schedule_id"]
 
@@ -272,6 +459,14 @@ def apply_results(matches, uploaded, roster_lookup):
             match["winner_team_id"] = None
             match["loser_team_id"] = None
             match["warnings"].append("Tie score detected")
+
+        match_details[match["match_id"]] = build_match_detail(
+            match,
+            data,
+            side_mapping.get("mapping")
+        )
+
+    return match_details
 
 
 def build_standings(matches):
@@ -417,14 +612,119 @@ def build_standings(matches):
     return sorted_standings
 
 
+def load_active_rosters_full():
+    if not ACTIVE_ROSTERS_FILE.exists():
+        return {}
+
+    with ACTIVE_ROSTERS_FILE.open("r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    rosters = {}
+
+    for team in data.get("teams", []):
+        team_id = team.get("team_id")
+
+        if not team_id:
+            continue
+
+        rosters[team_id] = team
+
+    return rosters
+
+
+def load_existing_roster_snapshots():
+    if not ROSTER_SNAPSHOTS_FILE.exists():
+        return {}
+
+    with ROSTER_SNAPSHOTS_FILE.open("r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def snapshot_team_roster(team_id, active_rosters):
+    roster = active_rosters.get(team_id)
+
+    if not roster:
+        return {
+            "team_id": team_id,
+            "team_display_name": "",
+            "team": "",
+            "team_abbreviation": "",
+            "region": "",
+            "players": [],
+            "slap_ids": [],
+        }
+
+    return {
+        "team_id": roster.get("team_id", team_id),
+        "team_display_name": roster.get("team_display_name", roster.get("team", "")),
+        "team": roster.get("team", roster.get("team_display_name", "")),
+        "team_abbreviation": roster.get("team_abbreviation", ""),
+        "region": roster.get("region", ""),
+        "players": roster.get("players", []),
+        "slap_ids": roster.get("slap_ids", []),
+    }
+
+
+def build_roster_snapshots(matches, active_rosters):
+    snapshots = load_existing_roster_snapshots()
+
+    created = 0
+
+    for match in matches:
+        if match["status"] != "final":
+            continue
+
+        match_id = match["match_id"]
+
+        # Do not overwrite old snapshots.
+        if match_id in snapshots:
+            continue
+
+        snapshots[match_id] = {
+            "match_id": match_id,
+            "schedule_id": match["schedule_id"],
+            "season_id": match["season_id"],
+            "season_name": match["season_name"],
+            "phase": match["phase"],
+            "region": match["region"],
+            "region_display": match["region_display"],
+
+            "home_team_id": match["home_team_id"],
+            "home_team": match["home_team"],
+            "away_team_id": match["away_team_id"],
+            "away_team": match["away_team"],
+
+            "home_roster": snapshot_team_roster(
+                match["home_team_id"],
+                active_rosters
+            ),
+            "away_roster": snapshot_team_roster(
+                match["away_team_id"],
+                active_rosters
+            ),
+        }
+
+        created += 1
+
+    write_json(ROSTER_SNAPSHOTS_FILE, snapshots)
+
+    return created, len(snapshots)
+
 def main():
     matches = build_schedule()
     uploaded = scan_log_folders()
-    roster_lookup = load_active_roster_lookup(ACTIVE_ROSTERS_FILE)
 
-    apply_results(matches, uploaded, roster_lookup)
+    roster_lookup = load_active_roster_lookup(ACTIVE_ROSTERS_FILE)
+    active_rosters = load_active_rosters_full()
+
+    match_details = apply_results(matches, uploaded, roster_lookup)
 
     standings = build_standings(matches)
+
+    snapshots_created, snapshots_total = build_roster_snapshots(
+        matches,
+        active_rosters
+    )
 
     write_json(OUT_DIR / "schedule.json", matches)
     write_json(
@@ -433,11 +733,23 @@ def main():
     )
     write_json(OUT_DIR / "standings.json", standings)
 
+    MATCH_DETAILS_DIR.mkdir(parents=True, exist_ok=True)
+
+    for old_detail_file in MATCH_DETAILS_DIR.glob("*.json"):
+        old_detail_file.unlink()
+
+    for match_id, detail in match_details.items():
+        write_json(MATCH_DETAILS_DIR / f"{match_id}.json", detail)
+
+    print(f"Match detail files written: {len(match_details)}")
+
     print(f"Preseason schedule matches: {len(matches)}")
     print(f"Uploaded match folders found: {len(uploaded)}")
     print(f"Completed matches: {sum(1 for m in matches if m['status'] == 'final')}")
     print(f"Teams in standings: {len(standings)}")
     print(f"Roster teams loaded: {len(roster_lookup)}")
+    print(f"Roster snapshots created: {snapshots_created}")
+    print(f"Roster snapshots total: {snapshots_total}")
     print(f"Wrote: {OUT_DIR}")
 
 

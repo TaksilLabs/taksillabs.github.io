@@ -495,34 +495,6 @@
   },
   {
     "rank": 1,
-    "team_id": "champaign_champagne",
-    "team": "Champaign Champagne",
-    "team_display_name": "Champaign Champagne",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 1,
-    "wins": 1,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 2,
-    "goals_for": 8,
-    "goals_against": 4,
-    "goal_diff": 4,
-    "last_5": "1-0-0",
-    "last_5_games": [
-      {
-        "match_id": "summer_2026_preseason_east_e1",
-        "schedule_id": "E1",
-        "result": "W",
-        "overtime": false,
-        "goals_for": 8,
-        "goals_against": 4
-      }
-    ]
-  },
-  {
-    "rank": 2,
     "team_id": "arnold_ashtrays",
     "team": "Arnold Ashtrays",
     "team_display_name": "Arnold Ashtrays",
@@ -541,7 +513,7 @@
     "last_5_games": []
   },
   {
-    "rank": 3,
+    "rank": 2,
     "team_id": "atlanta_aces",
     "team": "Atlanta Aces",
     "team_display_name": "Atlanta Aces",
@@ -560,7 +532,7 @@
     "last_5_games": []
   },
   {
-    "rank": 4,
+    "rank": 3,
     "team_id": "barrie_bald_boys",
     "team": "Barrie Bald Boys",
     "team_display_name": "Barrie Bald Boys",
@@ -579,7 +551,7 @@
     "last_5_games": []
   },
   {
-    "rank": 5,
+    "rank": 4,
     "team_id": "barrie_beaver_brigade",
     "team": "Barrie Beaver Brigade",
     "team_display_name": "Barrie Beaver Brigade",
@@ -598,7 +570,7 @@
     "last_5_games": []
   },
   {
-    "rank": 6,
+    "rank": 5,
     "team_id": "barrie_ice_hounds",
     "team": "Barrie Ice Hounds",
     "team_display_name": "Barrie Ice Hounds",
@@ -617,7 +589,7 @@
     "last_5_games": []
   },
   {
-    "rank": 7,
+    "rank": 6,
     "team_id": "beauport_lynx",
     "team": "Beauport Lynx",
     "team_display_name": "Beauport Lynx",
@@ -636,7 +608,7 @@
     "last_5_games": []
   },
   {
-    "rank": 8,
+    "rank": 7,
     "team_id": "bedford_bobos_preparatory_academy",
     "team": "Bedford Bobos Preparatory Academy",
     "team_display_name": "Bedford Bobos Preparatory Academy",
@@ -655,7 +627,7 @@
     "last_5_games": []
   },
   {
-    "rank": 9,
+    "rank": 8,
     "team_id": "beverly_hills_bobos",
     "team": "Beverly Hills Bobos",
     "team_display_name": "Beverly Hills Bobos",
@@ -674,7 +646,7 @@
     "last_5_games": []
   },
   {
-    "rank": 10,
+    "rank": 9,
     "team_id": "birmingham_bobos",
     "team": "Birmingham Bobos",
     "team_display_name": "Birmingham Bobos",
@@ -693,7 +665,7 @@
     "last_5_games": []
   },
   {
-    "rank": 11,
+    "rank": 10,
     "team_id": "boston_bahds",
     "team": "Boston Bahds",
     "team_display_name": "Boston Bahds",
@@ -712,7 +684,7 @@
     "last_5_games": []
   },
   {
-    "rank": 12,
+    "rank": 11,
     "team_id": "boston_bobos",
     "team": "Boston Bobos",
     "team_display_name": "Boston Bobos",
@@ -731,10 +703,29 @@
     "last_5_games": []
   },
   {
-    "rank": 13,
+    "rank": 12,
     "team_id": "camden_crook",
     "team": "Camden Crook$",
     "team_display_name": "Camden Crook$",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 0,
+    "wins": 0,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 0,
+    "goals_against": 0,
+    "goal_diff": 0,
+    "last_5": "0-0-0",
+    "last_5_games": []
+  },
+  {
+    "rank": 13,
+    "team_id": "champaign_champagne",
+    "team": "Champaign Champagne",
+    "team_display_name": "Champaign Champagne",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
@@ -1270,25 +1261,16 @@
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
-    "games_played": 1,
+    "games_played": 0,
     "wins": 0,
-    "regulation_losses": 1,
+    "regulation_losses": 0,
     "overtime_losses": 0,
     "points": 0,
-    "goals_for": 4,
-    "goals_against": 8,
-    "goal_diff": -4,
-    "last_5": "0-1-0",
-    "last_5_games": [
-      {
-        "match_id": "summer_2026_preseason_east_e1",
-        "schedule_id": "E1",
-        "result": "L",
-        "overtime": false,
-        "goals_for": 4,
-        "goals_against": 8
-      }
-    ]
+    "goals_for": 0,
+    "goals_against": 0,
+    "goal_diff": 0,
+    "last_5": "0-0-0",
+    "last_5_games": []
   },
   {
     "rank": 1,
