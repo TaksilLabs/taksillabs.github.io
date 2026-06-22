@@ -217,5 +217,47 @@
     "order": 1,
     "date_completed": "2026-06-21",
     "description": "the cards are cool, but the actual team pages could use some love."
+  },
+  {
+    "title": "Structure for Live Seasons",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-21",
+    "description": "set up the backend to run a real season on this site."
+  },
+  {
+    "title": "Season Schedule Importer",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-21",
+    "description": "Dump Scheduleboards into the system and have it generate a schedule that can convert into result pages"
+  },
+  {
+    "title": "Result Pages",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-21",
+    "description": "Converts a 'Scheduled' match into a 'Results' page after a game log is reported to M1NNbot."
+  },
+  {
+    "title": "League Standings",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-21",
+    "description": "Set up Standings Pages with Schedule below. Standings Columns need to follow Rank, Team, GP, W, L, OTL, PTS, GF, GA, GD, Last 5."
+  },
+  {
+    "title": "Overhaul Site Nav for Live Seasons",
+    "status": "planned",
+    "order": 1,
+    "date_completed": "",
+    "description": "Make it more intuitive when seasons are live to browse the website."
+  },
+  {
+    "title": "Find Real website hosting",
+    "status": "planned",
+    "order": 6,
+    "date_completed": "",
+    "description": "The site is starting to get bogged down hosting this with its current formula. I'll need to look into real website hosting soon, or learn to optimize what I already have."
   }
 ]
