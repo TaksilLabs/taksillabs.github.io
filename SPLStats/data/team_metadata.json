@@ -16662,29 +16662,6 @@
     ]
   },
   {
-    "team_id": "yucatan_yetis",
-    "team_display_name": "Yucatan Yetis",
-    "aliases": [
-      "Yucatan Yetis"
-    ],
-    "logo": "assets/images/teams/yucatan_yetis.png",
-    "theme": {
-      "primary": "#401080",
-      "secondary": "#000020",
-      "accent": "#7080a0",
-      "background": "#050505",
-      "card": "#111111",
-      "surface": "#1a1a1a"
-    },
-    "name_history": [
-      {
-        "name": "Yucatan Yetis",
-        "start_season": null,
-        "end_season": null
-      }
-    ]
-  },
-  {
     "team_id": "yuma_dust_bunnies",
     "team_display_name": "Yuma Dust Bunnies",
     "aliases": [
@@ -17436,16 +17413,17 @@
     "team_id": "yucatn_yetis",
     "team_display_name": "Yucatán Yetis",
     "aliases": [
-      "Yucatán Yetis"
+      "Yucatán Yetis",
+      "Yucatan Yetis"
     ],
     "abbreviation": "YETI",
     "venue": "",
     "signup_logo_url": "",
-    "logo": "",
+    "logo": "assets/images/teams/yucatan_yetis.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffffff",
+      "primary": "#401080",
+      "secondary": "#000020",
+      "accent": "#7080a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
