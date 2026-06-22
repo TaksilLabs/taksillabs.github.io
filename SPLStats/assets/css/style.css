@@ -178,6 +178,190 @@ HOMEPAGE STYLERS
 
 
 /* Grid */
+
+.home-hub {
+  width: min(1180px, calc(100% - 32px));
+  margin: 34px auto 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.home-feature-card,
+.home-nav-card {
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  border-radius: 18px;
+  border: 1px solid rgba(123, 223, 242, 0.28);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(12, 20, 28, 0.96),
+      rgba(5, 8, 12, 0.94)
+    );
+
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.35),
+    inset 0 0 22px rgba(255, 255, 255, 0.025);
+
+  transition:
+    transform 0.16s ease,
+    border-color 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.home-feature-card:hover,
+.home-nav-card:hover {
+  transform: translateY(-3px);
+
+  border-color: rgba(123, 223, 242, 0.75);
+
+  box-shadow:
+    0 16px 34px rgba(0, 0, 0, 0.44),
+    0 0 18px rgba(123, 223, 242, 0.16);
+}
+
+.home-feature-card {
+  min-height: 170px;
+  padding: 28px 34px;
+
+  align-items: center;
+  text-align: center;
+
+  border-color: rgba(0, 209, 209, 0.55);
+
+  background:
+    radial-gradient(circle at top left, rgba(123, 223, 242, 0.22), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(255, 209, 102, 0.18), transparent 34%),
+    linear-gradient(135deg, #071018, #05080c);
+}
+
+.home-feature-card::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(123, 223, 242, 0.08),
+      transparent
+    );
+
+  pointer-events: none;
+}
+
+.home-card-kicker {
+  color: #ffd166;
+
+  font-size: 0.82rem;
+  font-weight: 1000;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-feature-card strong {
+  color: #7bdff2;
+
+  font-family: Evogria, sans-serif;
+  font-size: clamp(2rem, 5vw, 4.2rem);
+  line-height: 1;
+
+  text-shadow:
+    -4px 4px 0 #000,
+    0 0 18px rgba(0, 0, 0, 0.75);
+}
+
+.home-feature-card span:last-child {
+  color: #d7f7ff;
+
+  font-size: 1rem;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.home-card-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.home-nav-card {
+  min-height: 135px;
+  padding: 20px;
+
+  align-items: flex-start;
+}
+
+.home-nav-card strong {
+  font-family: Evogria, sans-serif;
+  font-size: 1.45rem;
+  line-height: 1;
+
+  text-shadow:
+    -2px 2px 0 #000;
+}
+
+.home-nav-card span {
+  color: #c8d5df;
+
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.players-card strong {
+  color: #7bdff2;
+}
+
+.teams-card strong {
+  color: #5cff9d;
+}
+
+.franchises-card strong {
+  color: #ffd166;
+}
+
+.championships-card strong {
+  color: #ff8a8a;
+}
+
+@media (max-width: 900px) {
+  .home-card-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .home-feature-card {
+    min-height: 150px;
+    padding: 24px 18px;
+  }
+
+  .home-card-row {
+    grid-template-columns: 1fr;
+  }
+
+  .home-nav-card {
+    min-height: 110px;
+  }
+}
+
+
 .hub-grid {
   display: grid;
 

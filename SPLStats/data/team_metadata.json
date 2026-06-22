@@ -16667,11 +16667,11 @@
     "aliases": [
       "Yucatan Yetis"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/yucatan_yetis.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#401080",
+      "secondary": "#000020",
+      "accent": "#7080a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
