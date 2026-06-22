@@ -3265,169 +3265,211 @@
       },
       {
         "team": "Vader Central Attackers",
-        "order": 1,
+        "order": 2,
         "start_season": "fall_2025",
-        "end_season": "",
+        "end_season": "spring_2026",
         "notes": ""
       },
       {
         "team": "Vader Eastern Attackers",
-        "order": 1,
+        "order": 3,
         "start_season": "fall_2025",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Acolytes",
-        "order": 1,
+        "order": 4,
         "start_season": "fall_2025",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Wookies",
-        "order": 1,
+        "order": 5,
         "start_season": "winter_2026",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader 66ers",
-        "order": 1,
+        "order": 6,
         "start_season": "winter_2026",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Gungans",
-        "order": 1,
+        "order": 7,
         "start_season": "fall_2025",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Troopers",
-        "order": 1,
+        "order": 8,
         "start_season": "summer_2025",
         "end_season": "fall_2025",
         "notes": ""
       },
       {
         "team": "Vader Bens",
-        "order": 1,
+        "order": 9,
         "start_season": "winter_2026",
-        "end_season": "",
+        "end_season": "spring_2026",
         "notes": ""
       },
       {
         "team": "Vader Enforcers",
-        "order": 1,
+        "order": 10,
         "start_season": "summer_2025",
         "end_season": "fall_2025",
         "notes": ""
       },
       {
         "team": "Vader Starkillers Central",
-        "order": 1,
+        "order": 11,
         "start_season": "spring_2026",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Voltage Eastern",
-        "order": 1,
+        "order": 12,
         "start_season": "spring_2026",
-        "end_season": "",
+        "end_season": "spring_2026",
         "notes": ""
       },
       {
         "team": "Vader Guards",
-        "order": 1,
+        "order": 13,
         "start_season": "fall_2025",
         "end_season": "fall_2025",
         "notes": ""
       },
       {
         "team": "Vader Starkillers East",
-        "order": 1,
+        "order": 14,
         "start_season": "spring_2026",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Voltage - Central",
-        "order": 1,
+        "order": 15,
         "start_season": "spring_2026",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Leias",
-        "order": 1,
+        "order": 16,
         "start_season": "winter_2026",
         "end_season": "winter_2026",
         "notes": ""
       },
       {
         "team": "Vader Raiders",
-        "order": 1,
+        "order": 17,
         "start_season": "spring_2026",
-        "end_season": "",
+        "end_season": "spring_2026",
         "notes": ""
       },
       {
         "team": "Vader Disciples",
-        "order": 1,
+        "order": 18,
         "start_season": "winter_2026",
         "end_season": "",
         "notes": ""
       },
       {
         "team": "Vader Revanites",
-        "order": 1,
+        "order": 19,
         "start_season": "spring_2026",
-        "end_season": "",
+        "end_season": "spring_2026",
         "notes": ""
       },
       {
         "team": "Vader Vapors",
-        "order": 1,
+        "order": 20,
         "start_season": "fall_2025",
         "end_season": "fall_2025",
         "notes": ""
       },
       {
         "team": "Vader Destroyers",
-        "order": 1,
+        "order": 21,
         "start_season": "fall_2025",
         "end_season": "fall_2025",
         "notes": ""
       },
       {
         "team": "Vader Jabbas",
-        "order": 1,
+        "order": 22,
         "start_season": "winter_2026",
         "end_season": "winter_2026",
         "notes": ""
       },
       {
         "team": "Vader Western Inquisitors",
-        "order": 1,
+        "order": 23,
         "start_season": "summer_2025",
         "end_season": "summer_2025",
         "notes": ""
       },
       {
         "team": "Vader Droids",
-        "order": 1,
+        "order": 24,
         "start_season": "summer_2025",
         "end_season": "summer_2025",
         "notes": ""
       },
       {
         "team": "Vader AT-AT's",
-        "order": 1,
+        "order": 25,
         "start_season": "spring_2026",
+        "end_season": "spring_2026",
+        "notes": ""
+      },
+      {
+        "team": "Vader Bounty Hunters",
+        "order": 26,
+        "start_season": "summer_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Saboteurs",
+        "order": 27,
+        "start_season": "summer_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Stars",
+        "order": 28,
+        "start_season": "summer_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Vanguard",
+        "order": 29,
+        "start_season": "summer_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Vanquishers",
+        "order": 30,
+        "start_season": "summer_2026",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Vader Whiteout",
+        "order": 31,
+        "start_season": "summer_2026",
         "end_season": "",
         "notes": ""
       }
@@ -3491,90 +3533,6 @@
         "order": 1
       },
       {
-        "team": "Vader Droids",
-        "games_played": 9,
-        "wins": 5,
-        "losses": 4,
-        "goals_for": 49,
-        "goals_against": 49,
-        "goal_differential": 0,
-        "win_percent": 0.556,
-        "seasons": [
-          "summer_2025"
-        ],
-        "start_season": "summer_2025",
-        "end_season": "summer_2025",
-        "order": 1
-      },
-      {
-        "team": "Vader Enforcers",
-        "games_played": 31,
-        "wins": 16,
-        "losses": 15,
-        "goals_for": 213,
-        "goals_against": 200,
-        "goal_differential": 13,
-        "win_percent": 0.516,
-        "seasons": [
-          "summer_2025",
-          "fall_2025"
-        ],
-        "start_season": "summer_2025",
-        "end_season": "fall_2025",
-        "order": 1
-      },
-      {
-        "team": "Vader Troopers",
-        "games_played": 37,
-        "wins": 21,
-        "losses": 16,
-        "goals_for": 229,
-        "goals_against": 232,
-        "goal_differential": -3,
-        "win_percent": 0.568,
-        "seasons": [
-          "summer_2025",
-          "fall_2025"
-        ],
-        "start_season": "summer_2025",
-        "end_season": "fall_2025",
-        "order": 1
-      },
-      {
-        "team": "Vader Western Inquisitors",
-        "games_played": 9,
-        "wins": 1,
-        "losses": 8,
-        "goals_for": 35,
-        "goals_against": 85,
-        "goal_differential": -50,
-        "win_percent": 0.111,
-        "seasons": [
-          "summer_2025"
-        ],
-        "start_season": "summer_2025",
-        "end_season": "summer_2025",
-        "order": 1
-      },
-      {
-        "team": "Vader Acolytes",
-        "games_played": 52,
-        "wins": 21,
-        "losses": 30,
-        "goals_for": 257,
-        "goals_against": 291,
-        "goal_differential": -34,
-        "win_percent": 0.404,
-        "seasons": [
-          "fall_2025",
-          "winter_2026",
-          "spring_2026"
-        ],
-        "start_season": "fall_2025",
-        "end_season": "",
-        "order": 1
-      },
-      {
         "team": "Vader Central Attackers",
         "games_played": 58,
         "wins": 28,
@@ -3589,24 +3547,8 @@
           "spring_2026"
         ],
         "start_season": "fall_2025",
-        "end_season": "",
-        "order": 1
-      },
-      {
-        "team": "Vader Destroyers",
-        "games_played": 11,
-        "wins": 1,
-        "losses": 10,
-        "goals_for": 38,
-        "goals_against": 84,
-        "goal_differential": -46,
-        "win_percent": 0.091,
-        "seasons": [
-          "fall_2025"
-        ],
-        "start_season": "fall_2025",
-        "end_season": "fall_2025",
-        "order": 1
+        "end_season": "spring_2026",
+        "order": 2
       },
       {
         "team": "Vader Eastern Attackers",
@@ -3624,23 +3566,59 @@
         ],
         "start_season": "fall_2025",
         "end_season": "",
-        "order": 1
+        "order": 3
       },
       {
-        "team": "Vader Guards",
-        "games_played": 21,
-        "wins": 15,
-        "losses": 6,
-        "goals_for": 170,
-        "goals_against": 128,
-        "goal_differential": 42,
-        "win_percent": 0.714,
+        "team": "Vader Acolytes",
+        "games_played": 52,
+        "wins": 21,
+        "losses": 30,
+        "goals_for": 257,
+        "goals_against": 291,
+        "goal_differential": -34,
+        "win_percent": 0.404,
         "seasons": [
-          "fall_2025"
+          "fall_2025",
+          "winter_2026",
+          "spring_2026"
         ],
         "start_season": "fall_2025",
-        "end_season": "fall_2025",
-        "order": 1
+        "end_season": "",
+        "order": 4
+      },
+      {
+        "team": "Vader Wookies",
+        "games_played": 41,
+        "wins": 19,
+        "losses": 22,
+        "goals_for": 231,
+        "goals_against": 244,
+        "goal_differential": -13,
+        "win_percent": 0.463,
+        "seasons": [
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 5
+      },
+      {
+        "team": "Vader 66ers",
+        "games_played": 43,
+        "wins": 28,
+        "losses": 14,
+        "goals_for": 278,
+        "goals_against": 210,
+        "goal_differential": 68,
+        "win_percent": 0.651,
+        "seasons": [
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 6
       },
       {
         "team": "Vader Gungans",
@@ -3658,40 +3636,24 @@
         ],
         "start_season": "fall_2025",
         "end_season": "",
-        "order": 1
+        "order": 7
       },
       {
-        "team": "Vader Vapors",
-        "games_played": 12,
-        "wins": 3,
-        "losses": 9,
-        "goals_for": 71,
-        "goals_against": 108,
-        "goal_differential": -37,
-        "win_percent": 0.25,
+        "team": "Vader Troopers",
+        "games_played": 37,
+        "wins": 21,
+        "losses": 16,
+        "goals_for": 229,
+        "goals_against": 232,
+        "goal_differential": -3,
+        "win_percent": 0.568,
         "seasons": [
+          "summer_2025",
           "fall_2025"
         ],
-        "start_season": "fall_2025",
+        "start_season": "summer_2025",
         "end_season": "fall_2025",
-        "order": 1
-      },
-      {
-        "team": "Vader 66ers",
-        "games_played": 43,
-        "wins": 28,
-        "losses": 14,
-        "goals_for": 278,
-        "goals_against": 210,
-        "goal_differential": 68,
-        "win_percent": 0.651,
-        "seasons": [
-          "winter_2026",
-          "spring_2026"
-        ],
-        "start_season": "winter_2026",
-        "end_season": "",
-        "order": 1
+        "order": 8
       },
       {
         "team": "Vader Bens",
@@ -3707,121 +3669,25 @@
           "spring_2026"
         ],
         "start_season": "winter_2026",
-        "end_season": "",
-        "order": 1
+        "end_season": "spring_2026",
+        "order": 9
       },
       {
-        "team": "Vader Disciples",
-        "games_played": 17,
-        "wins": 1,
-        "losses": 16,
-        "goals_for": 48,
-        "goals_against": 162,
-        "goal_differential": -114,
-        "win_percent": 0.059,
+        "team": "Vader Enforcers",
+        "games_played": 31,
+        "wins": 16,
+        "losses": 15,
+        "goals_for": 213,
+        "goals_against": 200,
+        "goal_differential": 13,
+        "win_percent": 0.516,
         "seasons": [
-          "winter_2026"
+          "summer_2025",
+          "fall_2025"
         ],
-        "start_season": "winter_2026",
-        "end_season": "",
-        "order": 1
-      },
-      {
-        "team": "Vader Jabbas",
-        "games_played": 10,
-        "wins": 1,
-        "losses": 9,
-        "goals_for": 37,
-        "goals_against": 80,
-        "goal_differential": -43,
-        "win_percent": 0.1,
-        "seasons": [
-          "winter_2026"
-        ],
-        "start_season": "winter_2026",
-        "end_season": "winter_2026",
-        "order": 1
-      },
-      {
-        "team": "Vader Leias",
-        "games_played": 17,
-        "wins": 8,
-        "losses": 9,
-        "goals_for": 105,
-        "goals_against": 138,
-        "goal_differential": -33,
-        "win_percent": 0.471,
-        "seasons": [
-          "winter_2026"
-        ],
-        "start_season": "winter_2026",
-        "end_season": "winter_2026",
-        "order": 1
-      },
-      {
-        "team": "Vader Wookies",
-        "games_played": 41,
-        "wins": 19,
-        "losses": 22,
-        "goals_for": 231,
-        "goals_against": 244,
-        "goal_differential": -13,
-        "win_percent": 0.463,
-        "seasons": [
-          "winter_2026",
-          "spring_2026"
-        ],
-        "start_season": "winter_2026",
-        "end_season": "",
-        "order": 1
-      },
-      {
-        "team": "Vader AT-AT's",
-        "games_played": 8,
-        "wins": 0,
-        "losses": 8,
-        "goals_for": 12,
-        "goals_against": 81,
-        "goal_differential": -69,
-        "win_percent": 0.0,
-        "seasons": [
-          "spring_2026"
-        ],
-        "start_season": "spring_2026",
-        "end_season": "",
-        "order": 1
-      },
-      {
-        "team": "Vader Raiders",
-        "games_played": 16,
-        "wins": 2,
-        "losses": 14,
-        "goals_for": 58,
-        "goals_against": 129,
-        "goal_differential": -71,
-        "win_percent": 0.125,
-        "seasons": [
-          "spring_2026"
-        ],
-        "start_season": "spring_2026",
-        "end_season": "",
-        "order": 1
-      },
-      {
-        "team": "Vader Revanites",
-        "games_played": 14,
-        "wins": 5,
-        "losses": 9,
-        "goals_for": 81,
-        "goals_against": 104,
-        "goal_differential": -23,
-        "win_percent": 0.357,
-        "seasons": [
-          "spring_2026"
-        ],
-        "start_season": "spring_2026",
-        "end_season": "",
-        "order": 1
+        "start_season": "summer_2025",
+        "end_season": "fall_2025",
+        "order": 10
       },
       {
         "team": "Vader Starkillers Central",
@@ -3837,7 +3703,23 @@
         ],
         "start_season": "spring_2026",
         "end_season": "",
-        "order": 1
+        "order": 11
+      },
+      {
+        "team": "Vader Guards",
+        "games_played": 21,
+        "wins": 15,
+        "losses": 6,
+        "goals_for": 170,
+        "goals_against": 128,
+        "goal_differential": 42,
+        "win_percent": 0.714,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 13
       },
       {
         "team": "Vader Starkillers East",
@@ -3853,7 +3735,167 @@
         ],
         "start_season": "spring_2026",
         "end_season": "",
-        "order": 1
+        "order": 14
+      },
+      {
+        "team": "Vader Leias",
+        "games_played": 17,
+        "wins": 8,
+        "losses": 9,
+        "goals_for": 105,
+        "goals_against": 138,
+        "goal_differential": -33,
+        "win_percent": 0.471,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 16
+      },
+      {
+        "team": "Vader Raiders",
+        "games_played": 16,
+        "wins": 2,
+        "losses": 14,
+        "goals_for": 58,
+        "goals_against": 129,
+        "goal_differential": -71,
+        "win_percent": 0.125,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "spring_2026",
+        "order": 17
+      },
+      {
+        "team": "Vader Disciples",
+        "games_played": 17,
+        "wins": 1,
+        "losses": 16,
+        "goals_for": 48,
+        "goals_against": 162,
+        "goal_differential": -114,
+        "win_percent": 0.059,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "",
+        "order": 18
+      },
+      {
+        "team": "Vader Revanites",
+        "games_played": 14,
+        "wins": 5,
+        "losses": 9,
+        "goals_for": 81,
+        "goals_against": 104,
+        "goal_differential": -23,
+        "win_percent": 0.357,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "spring_2026",
+        "order": 19
+      },
+      {
+        "team": "Vader Vapors",
+        "games_played": 12,
+        "wins": 3,
+        "losses": 9,
+        "goals_for": 71,
+        "goals_against": 108,
+        "goal_differential": -37,
+        "win_percent": 0.25,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 20
+      },
+      {
+        "team": "Vader Destroyers",
+        "games_played": 11,
+        "wins": 1,
+        "losses": 10,
+        "goals_for": 38,
+        "goals_against": 84,
+        "goal_differential": -46,
+        "win_percent": 0.091,
+        "seasons": [
+          "fall_2025"
+        ],
+        "start_season": "fall_2025",
+        "end_season": "fall_2025",
+        "order": 21
+      },
+      {
+        "team": "Vader Jabbas",
+        "games_played": 10,
+        "wins": 1,
+        "losses": 9,
+        "goals_for": 37,
+        "goals_against": 80,
+        "goal_differential": -43,
+        "win_percent": 0.1,
+        "seasons": [
+          "winter_2026"
+        ],
+        "start_season": "winter_2026",
+        "end_season": "winter_2026",
+        "order": 22
+      },
+      {
+        "team": "Vader Western Inquisitors",
+        "games_played": 9,
+        "wins": 1,
+        "losses": 8,
+        "goals_for": 35,
+        "goals_against": 85,
+        "goal_differential": -50,
+        "win_percent": 0.111,
+        "seasons": [
+          "summer_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "order": 23
+      },
+      {
+        "team": "Vader Droids",
+        "games_played": 9,
+        "wins": 5,
+        "losses": 4,
+        "goals_for": 49,
+        "goals_against": 49,
+        "goal_differential": 0,
+        "win_percent": 0.556,
+        "seasons": [
+          "summer_2025"
+        ],
+        "start_season": "summer_2025",
+        "end_season": "summer_2025",
+        "order": 24
+      },
+      {
+        "team": "Vader AT-AT's",
+        "games_played": 8,
+        "wins": 0,
+        "losses": 8,
+        "goals_for": 12,
+        "goals_against": 81,
+        "goal_differential": -69,
+        "win_percent": 0.0,
+        "seasons": [
+          "spring_2026"
+        ],
+        "start_season": "spring_2026",
+        "end_season": "spring_2026",
+        "order": 25
       }
     ],
     "stats": {
@@ -12011,6 +12053,1083 @@
           "winter_2022",
           "fall_2021",
           "summer_2021"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "Miami",
+    "franchise_name": "Miami",
+    "status": "active",
+    "description": "",
+    "founders": [
+      "Reno",
+      "Rodeo"
+    ],
+    "owners": [
+      "Reno",
+      "Rodeo"
+    ],
+    "part_owners": [
+      "meatsale",
+      "kyler"
+    ],
+    "coaches": [
+      "Rath"
+    ],
+    "hall_of_fame": [
+      {
+        "player": "player_name",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Miami Vice",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Miami Vice Academy",
+        "order": 2,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 2,
+      "games_played": 207,
+      "wins": 144,
+      "losses": 63,
+      "goals_for": 1506,
+      "goals_against": 991,
+      "goal_differential": 515,
+      "win_percent": 0.696,
+      "seasons": 9
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Miami Vice",
+        "value": 186
+      },
+      "most_wins": {
+        "team": "Miami Vice",
+        "value": 128
+      },
+      "best_win_percent": {
+        "team": "Miami Vice Academy",
+        "value": 0.762
+      },
+      "most_goals_for": {
+        "team": "Miami Vice",
+        "value": 1362
+      },
+      "fewest_goals_against": {
+        "team": "Miami Vice Academy",
+        "value": 100
+      },
+      "best_goal_differential": {
+        "team": "Miami Vice",
+        "value": 471
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Miami Vice",
+        "games_played": 186,
+        "wins": 128,
+        "losses": 58,
+        "goals_for": 1362,
+        "goals_against": 891,
+        "goal_differential": 471,
+        "win_percent": 0.688,
+        "seasons": [
+          "fall_2019",
+          "winter_2020",
+          "spring_2020",
+          "summer_2020",
+          "fall_2020",
+          "spring_2021",
+          "summer_2021",
+          "winter_2024",
+          "spring_2024"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Miami Vice Academy",
+        "games_played": 21,
+        "wins": 16,
+        "losses": 5,
+        "goals_for": 144,
+        "goals_against": 100,
+        "goal_differential": 44,
+        "win_percent": 0.762,
+        "seasons": [
+          "spring_2024"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 2
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": true,
+        "career": {
+          "assists": 840.0,
+          "blocks": 112.0,
+          "faceoffs_lost": 388.0,
+          "faceoffs_won": 580.0,
+          "goals": 964.0,
+          "passes": 4694.0,
+          "periods_played": 243.0,
+          "points": 1804.0,
+          "possession_time_sec": 10249.0,
+          "post_hits": 259.0,
+          "primary_assists": 422.0,
+          "saves": 631.0,
+          "secondary_assists": 120.0,
+          "shots": 1957.0,
+          "takeaways": 1484.0,
+          "turnovers": 1093.0,
+          "goals_against": 1662.0,
+          "shots_against": 3561.0,
+          "games_played": 356.0,
+          "faceoffs_total": 968.0,
+          "shot_percent": 49.26,
+          "save_percent": 17.72,
+          "gaa": 4.67,
+          "faceoff_win_percent": 59.92
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "meatsale",
+              "value": 243.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 225.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 197.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 77.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 53.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "kyler",
+              "value": 206.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 174.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 153.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 71.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 69.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "kyler",
+              "value": 403.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 399.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 396.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 127.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 122.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "meatsale",
+              "value": 475.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 442.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 412.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 144.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 110.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "kyler",
+              "value": 693.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 280.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 267.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 87.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 71.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Reno",
+              "value": 173.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 98.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 93.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 70.0
+            },
+            {
+              "player_name": "Timmy",
+              "value": 51.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "kyler",
+              "value": 40.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 19.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 16.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 14.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 14.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "Zesh",
+              "value": 70.19
+            },
+            {
+              "player_name": "kyler",
+              "value": 60.33
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 58.79
+            },
+            {
+              "player_name": "Kylar",
+              "value": 58.47
+            },
+            {
+              "player_name": "spillz",
+              "value": 57.89
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Rodeo",
+              "value": 77.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 76.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 61.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 42.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 20.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Rodeo",
+              "value": 6
+            },
+            {
+              "player_name": "meatsale",
+              "value": 5
+            },
+            {
+              "player_name": "kyler",
+              "value": 4
+            },
+            {
+              "player_name": "Reno",
+              "value": 3
+            },
+            {
+              "player_name": "Zesh",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Miami Vice"
+        ],
+        "seasons": [
+          "spring_2024",
+          "winter_2024",
+          "summer_2021",
+          "spring_2021",
+          "fall_2020",
+          "summer_2020",
+          "spring_2020",
+          "winter_2020"
+        ]
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 1276.0,
+          "blocks": 416.0,
+          "faceoffs_lost": 705.0,
+          "faceoffs_won": 941.0,
+          "goals": 1506.0,
+          "passes": 7878.0,
+          "periods_played": 528.0,
+          "points": 2782.0,
+          "possession_time_sec": 17689.0,
+          "post_hits": 419.0,
+          "primary_assists": 654.0,
+          "saves": 1116.0,
+          "secondary_assists": 173.0,
+          "shots": 3122.0,
+          "takeaways": 2394.0,
+          "turnovers": 1835.0,
+          "goals_against": 3003.0,
+          "shots_against": 6378.0,
+          "games_played": 627.0,
+          "faceoffs_total": 1646.0,
+          "shot_percent": 48.24,
+          "save_percent": 17.5,
+          "gaa": 4.79,
+          "faceoff_win_percent": 57.17
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "meatsale",
+              "value": 313.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 303.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 259.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 99.0
+            },
+            {
+              "player_name": "Seppy",
+              "value": 89.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "kyler",
+              "value": 285.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 209.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 204.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 89.0
+            },
+            {
+              "player_name": "Kylar",
+              "value": 72.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "kyler",
+              "value": 544.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 517.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 512.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 169.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 147.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "meatsale",
+              "value": 637.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 635.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 556.0
+            },
+            {
+              "player_name": "Seppy",
+              "value": 183.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 182.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "kyler",
+              "value": 1033.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 424.0
+            },
+            {
+              "player_name": "Rodeo",
+              "value": 362.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 140.0
+            },
+            {
+              "player_name": "zqch",
+              "value": 97.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Reno",
+              "value": 262.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 148.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 137.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 116.0
+            },
+            {
+              "player_name": "Hellhaunt",
+              "value": 72.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "kyler",
+              "value": 105.0
+            },
+            {
+              "player_name": "zqch",
+              "value": 73.0
+            },
+            {
+              "player_name": "Zesh",
+              "value": 64.0
+            },
+            {
+              "player_name": "Test",
+              "value": 39.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 33.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "aphrenzic",
+              "value": 65.96
+            },
+            {
+              "player_name": "Zesh",
+              "value": 65.03
+            },
+            {
+              "player_name": "Blue",
+              "value": 64.56
+            },
+            {
+              "player_name": "zqch",
+              "value": 57.95
+            },
+            {
+              "player_name": "kyler",
+              "value": 57.28
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Rodeo",
+              "value": 111.0
+            },
+            {
+              "player_name": "meatsale",
+              "value": 108.0
+            },
+            {
+              "player_name": "kyler",
+              "value": 89.0
+            },
+            {
+              "player_name": "Reno",
+              "value": 64.0
+            },
+            {
+              "player_name": "Rath",
+              "value": 39.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Rodeo",
+              "value": 6
+            },
+            {
+              "player_name": "meatsale",
+              "value": 5
+            },
+            {
+              "player_name": "kyler",
+              "value": 4
+            },
+            {
+              "player_name": "Reno",
+              "value": 3
+            },
+            {
+              "player_name": "Zesh",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Miami Vice",
+          "Miami Vice Academy"
+        ],
+        "seasons": [
+          "spring_2024",
+          "winter_2024",
+          "summer_2021",
+          "spring_2021",
+          "fall_2020",
+          "summer_2020",
+          "spring_2020",
+          "winter_2020",
+          "fall_2019"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "Oregon",
+    "franchise_name": "Oregon",
+    "status": "active",
+    "description": "",
+    "founders": [
+      "Carried By Dad",
+      "Curt"
+    ],
+    "owners": [
+      "Carried By Dad",
+      "Curt"
+    ],
+    "part_owners": [
+      "Wiki",
+      "SoccerboyEJ"
+    ],
+    "coaches": [
+      "Wiki"
+    ],
+    "hall_of_fame": [
+      {
+        "player": "player_name",
+        "retired_number": "##",
+        "retired_date": "yyyy-mm-dd",
+        "induction_speech": ""
+      }
+    ],
+    "memberships": [
+      {
+        "team": "Oregon Capybaras",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Oregon Baby Capybaras",
+        "order": 2,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 2,
+      "games_played": 218,
+      "wins": 133,
+      "losses": 85,
+      "goals_for": 1542,
+      "goals_against": 1197,
+      "goal_differential": 345,
+      "win_percent": 0.61,
+      "seasons": 11
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Oregon Capybaras",
+        "value": 204
+      },
+      "most_wins": {
+        "team": "Oregon Capybaras",
+        "value": 125
+      },
+      "best_win_percent": {
+        "team": "Oregon Capybaras",
+        "value": 0.613
+      },
+      "most_goals_for": {
+        "team": "Oregon Capybaras",
+        "value": 1462
+      },
+      "fewest_goals_against": {
+        "team": "Oregon Baby Capybaras",
+        "value": 72
+      },
+      "best_goal_differential": {
+        "team": "Oregon Capybaras",
+        "value": 337
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Oregon Capybaras",
+        "games_played": 204,
+        "wins": 125,
+        "losses": 79,
+        "goals_for": 1462,
+        "goals_against": 1125,
+        "goal_differential": 337,
+        "win_percent": 0.613,
+        "seasons": [
+          "winter_2022",
+          "spring_2022",
+          "fall_2022",
+          "winter_2023",
+          "spring_2023",
+          "summer_2023",
+          "fall_2023",
+          "winter_2024",
+          "fall_2024",
+          "winter_2025",
+          "spring_2026"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 1
+      },
+      {
+        "team": "Oregon Baby Capybaras",
+        "games_played": 14,
+        "wins": 8,
+        "losses": 6,
+        "goals_for": 80,
+        "goals_against": 72,
+        "goal_differential": 8,
+        "win_percent": 0.571,
+        "seasons": [
+          "fall_2024"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 2
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": false,
+        "career": {
+          "points": 0,
+          "shot_percent": 0,
+          "save_percent": 0,
+          "gaa": 0,
+          "faceoffs_total": 0,
+          "faceoff_win_percent": 0
+        },
+        "leaders": {
+          "goals": [],
+          "assists": [],
+          "points": [],
+          "shots": [],
+          "takeaways": [],
+          "saves": [],
+          "blocks": [],
+          "faceoff_percent": [],
+          "games_played": [],
+          "seasons_played": []
+        },
+        "teams": [],
+        "seasons": []
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 1285.0,
+          "blocks": 1479.0,
+          "faceoffs_lost": 1567.0,
+          "faceoffs_won": 1673.0,
+          "goals": 1542.0,
+          "passes": 11884.0,
+          "periods_played": 1004.0,
+          "points": 2827.0,
+          "possession_time_sec": 28725.0,
+          "post_hits": 566.0,
+          "primary_assists": 1046.0,
+          "saves": 1328.0,
+          "secondary_assists": 251.0,
+          "shots": 3040.0,
+          "takeaways": 3414.0,
+          "turnovers": 3171.0,
+          "goals_against": 3867.0,
+          "shots_against": 8105.0,
+          "games_played": 700.0,
+          "faceoffs_total": 3240.0,
+          "shot_percent": 50.72,
+          "save_percent": 16.38,
+          "gaa": 5.52,
+          "faceoff_win_percent": 51.64
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "Carried by Dad",
+              "value": 519.0
+            },
+            {
+              "player_name": "Curt",
+              "value": 420.0
+            },
+            {
+              "player_name": "SoccerboyEJ",
+              "value": 90.0
+            },
+            {
+              "player_name": "Wiki",
+              "value": 55.0
+            },
+            {
+              "player_name": "Cole",
+              "value": 40.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "Curt",
+              "value": 330.0
+            },
+            {
+              "player_name": "Carried by Dad",
+              "value": 257.0
+            },
+            {
+              "player_name": "SoccerboyEJ",
+              "value": 95.0
+            },
+            {
+              "player_name": "Laggz",
+              "value": 79.0
+            },
+            {
+              "player_name": "Wiki",
+              "value": 53.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "Carried by Dad",
+              "value": 776.0
+            },
+            {
+              "player_name": "Curt",
+              "value": 750.0
+            },
+            {
+              "player_name": "SoccerboyEJ",
+              "value": 185.0
+            },
+            {
+              "player_name": "Wiki",
+              "value": 108.0
+            },
+            {
+              "player_name": "Laggz",
+              "value": 101.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "Carried by Dad",
+              "value": 939.0
+            },
+            {
+              "player_name": "Curt",
+              "value": 833.0
+            },
+            {
+              "player_name": "SoccerboyEJ",
+              "value": 186.0
+            },
+            {
+              "player_name": "Wiki",
+              "value": 114.0
+            },
+            {
+              "player_name": "Cole",
+              "value": 77.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "Carried by Dad",
+              "value": 694.0
+            },
+            {
+              "player_name": "Curt",
+              "value": 637.0
+            },
+            {
+              "player_name": "Laggz",
+              "value": 367.0
+            },
+            {
+              "player_name": "tonycookison",
+              "value": 192.0
+            },
+            {
+              "player_name": "Cole",
+              "value": 166.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Curt",
+              "value": 369.0
+            },
+            {
+              "player_name": "Carried by Dad",
+              "value": 142.0
+            },
+            {
+              "player_name": "Laggz",
+              "value": 132.0
+            },
+            {
+              "player_name": "noodlefingers2",
+              "value": 82.0
+            },
+            {
+              "player_name": "Oblivion",
+              "value": 65.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "Curt",
+              "value": 378.0
+            },
+            {
+              "player_name": "noodlefingers2",
+              "value": 154.0
+            },
+            {
+              "player_name": "tonycookison",
+              "value": 146.0
+            },
+            {
+              "player_name": "Carried by Dad",
+              "value": 142.0
+            },
+            {
+              "player_name": "SoccerboyEJ",
+              "value": 97.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "tonycookison",
+              "value": 68.0
+            },
+            {
+              "player_name": "Pl4zma",
+              "value": 61.54
+            },
+            {
+              "player_name": "Kylar",
+              "value": 59.18
+            },
+            {
+              "player_name": "hex",
+              "value": 58.62
+            },
+            {
+              "player_name": "Cole",
+              "value": 57.35
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "Curt",
+              "value": 186.0
+            },
+            {
+              "player_name": "Carried by Dad",
+              "value": 143.0
+            },
+            {
+              "player_name": "SoccerboyEJ",
+              "value": 38.0
+            },
+            {
+              "player_name": "Laggz",
+              "value": 36.0
+            },
+            {
+              "player_name": "Wiki",
+              "value": 25.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "Curt",
+              "value": 10
+            },
+            {
+              "player_name": "Carried by Dad",
+              "value": 9
+            },
+            {
+              "player_name": "SoccerboyEJ",
+              "value": 3
+            },
+            {
+              "player_name": "Wiki",
+              "value": 3
+            },
+            {
+              "player_name": "ORO",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Oregon Baby Capybaras",
+          "Oregon Capybaras"
+        ],
+        "seasons": [
+          "spring_2026",
+          "winter_2025",
+          "fall_2024",
+          "winter_2024",
+          "fall_2023",
+          "summer_2023",
+          "spring_2023",
+          "winter_2023",
+          "fall_2022",
+          "spring_2022",
+          "winter_2022"
         ]
       }
     }
