@@ -20,13 +20,17 @@ python build_franchises.py
 python build_team_records.py
 python build_teams.py
 
+## Updating rosters
+
+run this from .\SPLStats
+py tools/live/active_roster_editor.py
+
 
 
 ## Shot Maps
 
-Run
+run this from .\SPLStats
 py tools\live\shot_map_editor.py
-from .\SPLStats
 
 
 
@@ -46,3 +50,10 @@ py tools\live\active_roster_editor.py
 
 When adding a new log run:
 py tools\live\build_preseason.py
+
+
+
+## Making Articles
+
+run this from .\SPLStats
+py tools\news_article_builder.py

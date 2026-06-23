@@ -1,0 +1,33 @@
+{
+  "id": "a-new-beginning",
+  "status": "published",
+  "title": "A new beginning",
+  "subtitle": "Today begins the next chapter in SPL history.",
+  "author": "SPL Media Team",
+  "published_at": "2026-06-23",
+  "hero_image": "",
+  "tags": [],
+  "region_tags": [],
+  "related_players": [
+    "panarin",
+    "mdub"
+  ],
+  "related_teams": [],
+  "related_franchises": [],
+  "related_matches": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "I go to funny man. I ask funny man, \"how are you so funny?\"\nHe replied"
+    },
+    {
+      "type": "quote",
+      "text": "I TURNED MYSELF INTO A PICKLLLEEEE. I'M FUNNY PICKLE MAN",
+      "credit": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Funniest shit I've ever seen."
+    }
+  ]
+}

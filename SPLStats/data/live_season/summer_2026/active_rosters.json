@@ -868,15 +868,21 @@
         },
         {
           "role": "player",
-          "steam_name": "Tactical Miss",
-          "slap_id": "1282529"
+          "steam_name": "Tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "culsicul",
+          "slap_id": "1797454"
         }
       ],
       "slap_ids": [
         "186627",
         "913017",
         "633338",
-        "1282529"
+        "985994",
+        "1797454"
       ]
     },
     {
@@ -1216,12 +1222,18 @@
           "role": "player",
           "steam_name": "X6C",
           "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
         }
       ],
       "slap_ids": [
         "154305",
         "640761",
-        "871020"
+        "871020",
+        "1071429"
       ]
     },
     {
@@ -2074,12 +2086,18 @@
           "role": "player",
           "steam_name": "cybergoose",
           "slap_id": "1199765"
+        },
+        {
+          "role": "player",
+          "steam_name": "Cman",
+          "slap_id": "18011"
         }
       ],
       "slap_ids": [
         "1689859",
         "4633",
-        "1199765"
+        "1199765",
+        "18011"
       ]
     },
     {

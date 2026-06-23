@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SPL News | SPLStats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/news.css">
+</head>
+
+<body>
+  <main class="news-page">
+    <header class="news-hero">
+      <div>
+        <span class="news-kicker">SPL Media</span>
+        <h1>League News</h1>
+        <p>
+          Articles, recaps, previews, power rankings, and stories from around the Slapshot Premier League.
+        </p>
+      </div>
+    </header>
+
+    <section class="news-controls">
+      <div class="news-search-wrap">
+        <label for="newsSearch">Search</label>
+        <input id="newsSearch" type="search" placeholder="Search articles...">
+      </div>
+
+      <div class="news-filter-wrap">
+        <label for="regionFilter">Region</label>
+        <select id="regionFilter">
+          <option value="all">All Regions</option>
+          <option value="East">East</option>
+          <option value="Central">Central</option>
+          <option value="West">West</option>
+        </select>
+      </div>
+
+      <div class="news-filter-wrap">
+        <label for="statusFilter">Status</label>
+        <select id="statusFilter">
+          <option value="published">Published</option>
+          <option value="all">All</option>
+          <option value="draft">Draft</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="featuredArticle"></section>
+
+    <section class="news-section-title">
+      <h2>Latest Articles</h2>
+      <p>Browse the latest stories from the SPL Media team.</p>
+    </section>
+
+    <section id="articleGrid" class="article-grid"></section>
+  </main>
+
+  <script src="assets/js/news.js"></script>
+</body>
+</html>
