@@ -5,11 +5,11 @@
     "aliases": [
       "Adirondack Acclimate"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/old_acclimate.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#20e0f0",
+      "secondary": "#102020",
+      "accent": "#10b0f0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -20,7 +20,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "adirondack_acclimate"
   },
   {
     "team_id": "alabama_alligators",
@@ -927,7 +928,7 @@
     ],
     "logo": "assets/images/teams/barrie_bald_boys.png",
     "theme": {
-      "primary": "#103060",
+      "primary": "#164387",
       "secondary": "#204040",
       "accent": "#e0b030",
       "background": "#050505",
@@ -1711,7 +1712,7 @@
     "theme": {
       "primary": "#702020",
       "secondary": "#201010",
-      "accent": "#a07070",
+      "accent": "#c44040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -1893,9 +1894,9 @@
     ],
     "logo": "assets/images/teams/brampton_cows.png",
     "theme": {
-      "primary": "#909070",
+      "primary": "#6f6f6f",
       "secondary": "#111111",
-      "accent": "#fff000",
+      "accent": "#979797",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5336,7 +5337,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "edmonton_electric_elk"
   },
   {
     "team_id": "el_paso_coyotes",
@@ -6381,9 +6383,9 @@
     ],
     "logo": "assets/images/teams/hagerstown_heroes.png",
     "theme": {
-      "primary": "#a00000",
+      "primary": "#c40000",
       "secondary": "#403030",
-      "accent": "#f0a0a0",
+      "accent": "#e24747",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9603,7 +9605,7 @@
     ],
     "logo": "assets/images/teams/new_jersey_dragons.png",
     "theme": {
-      "primary": "#001050",
+      "primary": "#303fa9",
       "secondary": "#303040",
       "accent": "#d02010",
       "background": "#050505",
@@ -9651,7 +9653,7 @@
     "theme": {
       "primary": "#b02030",
       "secondary": "#302020",
-      "accent": "#c05060",
+      "accent": "#a73d4d",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9672,9 +9674,9 @@
     ],
     "logo": "assets/images/teams/new_jersey_noobs.jpg",
     "theme": {
-      "primary": "#502040",
-      "secondary": "#302030",
-      "accent": "#ffa0f0",
+      "primary": "#ff00ff",
+      "secondary": "#2d002d",
+      "accent": "#00e5ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -15001,7 +15003,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "vader_66ers"
   },
   {
     "team_id": "vader_acolytes",
@@ -15024,7 +15027,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "vader_acolytes"
   },
   {
     "team_id": "vader_at_ats",
@@ -15047,7 +15051,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "vader_at_ats"
   },
   {
     "team_id": "vader_bens",
@@ -15070,7 +15075,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "vader_bens"
   },
   {
     "team_id": "vader_central_attackers",
@@ -15093,7 +15099,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "vader_central_attackers"
   },
   {
     "team_id": "vader_destroyers",
@@ -15116,7 +15123,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "vader_destroyers"
   },
   {
     "team_id": "vader_disciples",
@@ -15162,7 +15170,8 @@
         "start_season": null,
         "end_season": null
       }
-    ]
+    ],
+    "team_name": "vader_droids"
   },
   {
     "team_id": "vader_eastern_attackers",
@@ -16930,12 +16939,12 @@
     "signup_logo_url": "https://drive.google.com/open?id=18gyJeCyfBgbTdr5OABO42z-SFeyLjmqN",
     "logo": "assets/images/teams/edmonton_bears.png",
     "theme": {
-      "primary": "#30308A",
-      "secondary": "#20202B",
+      "primary": "#5e17b3",
+      "secondary": "#111111",
       "accent": "#a000ff",
-      "background": "#101018",
-      "card": "#1B1B28",
-      "surface": "#29293A"
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
     },
     "name_history": [
       {
@@ -17138,8 +17147,8 @@
     "signup_logo_url": "https://drive.google.com/open?id=18LCzj4A-YXeB788VZIEeCqcOcef6BeoL",
     "logo": "assets/images/teams/ottawa_valley_sweatshirt_and_friends.png",
     "theme": {
-      "primary": "#800010",
-      "secondary": "#400010",
+      "primary": "#ae0016",
+      "secondary": "#3f2001",
       "accent": "#f06000",
       "background": "#050505",
       "card": "#111111",

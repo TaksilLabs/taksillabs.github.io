@@ -22,15 +22,20 @@ python build_teams.py
 
 
 
-## Changing team themes
+## Shot Maps
 
-To get basic colors of logos:
-py team_theme_builder
+Run
+py tools\live\shot_map_editor.py
+from .\SPLStats
 
-make adjustments in team_metadata.json
 
-then to solidify the changes:
-py build_teams.py
+
+## Changing Team Themes
+
+run this from .\SPLStats
+py tools\team_theme_builder.py
+
+
 
 ## Live Tools
 
