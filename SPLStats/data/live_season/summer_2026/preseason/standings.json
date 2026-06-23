@@ -1292,6 +1292,34 @@
   },
   {
     "rank": 1,
+    "team_id": "vader_gungans",
+    "team": "Vader Gungans",
+    "team_display_name": "Vader Gungans",
+    "region": "west",
+    "region_display": "West",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 5,
+    "goals_against": 1,
+    "goal_diff": 4,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_west_w1",
+        "schedule_id": "W1",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 5,
+        "goals_against": 1
+      }
+    ]
+  },
+  {
+    "rank": 2,
     "team_id": "cold_lake_hit_lits",
     "team": "Cold Lake Hit Lits",
     "team_display_name": "Cold Lake Hit Lits",
@@ -1310,29 +1338,10 @@
     "last_5_games": []
   },
   {
-    "rank": 2,
+    "rank": 3,
     "team_id": "jerusalem_golden_bobos",
     "team": "Jerusalem Golden Bobos",
     "team_display_name": "Jerusalem Golden Bobos",
-    "region": "west",
-    "region_display": "West",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 3,
-    "team_id": "ottawa_valley_sweatshirt_and_friends",
-    "team": "Ottawa Valley Sweatshirt And Friends",
-    "team_display_name": "Ottawa Valley Sweatshirt And Friends",
     "region": "west",
     "region_display": "West",
     "phase": "preseason",
@@ -1368,25 +1377,6 @@
   },
   {
     "rank": 5,
-    "team_id": "vader_gungans",
-    "team": "Vader Gungans",
-    "team_display_name": "Vader Gungans",
-    "region": "west",
-    "region_display": "West",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 6,
     "team_id": "vader_vanguard",
     "team": "Vader Vanguard",
     "team_display_name": "Vader Vanguard",
@@ -1403,5 +1393,33 @@
     "goal_diff": 0,
     "last_5": "0-0-0",
     "last_5_games": []
+  },
+  {
+    "rank": 6,
+    "team_id": "ottawa_valley_sweatshirt_and_friends",
+    "team": "Ottawa Valley Sweatshirt And Friends",
+    "team_display_name": "Ottawa Valley Sweatshirt And Friends",
+    "region": "west",
+    "region_display": "West",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 1,
+    "goals_against": 5,
+    "goal_diff": -4,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_west_w1",
+        "schedule_id": "W1",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 1,
+        "goals_against": 5
+      }
+    ]
   }
 ]

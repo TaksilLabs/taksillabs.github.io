@@ -93,5 +93,106 @@
         "634779"
       ]
     }
+  },
+  "summer_2026_preseason_west_w1": {
+    "match_id": "summer_2026_preseason_west_w1",
+    "schedule_id": "W1",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "west",
+    "region_display": "West",
+    "home_team_id": "vader_gungans",
+    "home_team": "Vader Gungans",
+    "away_team_id": "ottawa_valley_sweatshirt_and_friends",
+    "away_team": "Ottawa Valley Sweatshirt And Friends",
+    "home_roster": {
+      "team_id": "vader_gungans",
+      "team_display_name": "Vader Gungans",
+      "team": "Vader Gungans",
+      "team_abbreviation": "VADG",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meenimizer",
+          "slap_id": "439532"
+        },
+        {
+          "role": "player",
+          "steam_name": "Flc",
+          "slap_id": "327512"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "slap_id": "19508"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "439532",
+        "327512",
+        "19508"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_sweatshirt_and_friends",
+      "team_display_name": "Ottawa Valley Sweatshirt And Friends",
+      "team": "Ottawa Valley Sweatshirt And Friends",
+      "team_abbreviation": "OVSF",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Hammy",
+          "slap_id": "1483800"
+        },
+        {
+          "role": "player",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Maia",
+          "slap_id": "1269140"
+        },
+        {
+          "role": "player",
+          "steam_name": "kevin",
+          "slap_id": "594707"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sweatshirt",
+          "slap_id": "1856285"
+        },
+        {
+          "role": "player",
+          "steam_name": "Chaos",
+          "slap_id": "1026914"
+        }
+      ],
+      "slap_ids": [
+        "1483800",
+        "417498",
+        "1269140",
+        "594707",
+        "1856285",
+        "1026914"
+      ]
+    }
   }
 }
