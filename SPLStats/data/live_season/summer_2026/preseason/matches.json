@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "match_id": "summer_2026_preseason_east_e21",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "division_id": null,
+    "division": "Preseason",
+    "schedule_id": "E21",
+    "home_team_id": "hagerstown_heroes",
+    "home_team": "Hagerstown Heroes",
+    "away_team_id": "edmonton_bears",
+    "away_team": "Edmonton Bears",
+    "status": "final",
+    "home_score": 3,
+    "away_score": 8,
+    "winner_team_id": "edmonton_bears",
+    "loser_team_id": "hagerstown_heroes",
+    "end_reason": "EndOfRegulation",
+    "overtime": false,
+    "period": 3,
+    "thread_id": "1518362548490080387",
+    "log_folder": "raw_live_logs/summer_2026/preseason/east/E21_ Hagerstown Heroes vs Edmonton Bears__1518362548490080387",
+    "report_file": "raw_live_logs/summer_2026/preseason/east/E21_ Hagerstown Heroes vs Edmonton Bears__1518362548490080387/20260623_023947_268195319261429761_2026-06-22-22-29-46.json",
+    "side_mapping": "normal",
+    "side_mapping_confidence": 6,
+    "side_mapping_normal_score": 6,
+    "side_mapping_swapped_score": 0,
+    "warnings": []
+  }
+]

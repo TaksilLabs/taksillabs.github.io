@@ -1,1 +1,97 @@
-{}
+{
+  "summer_2026_preseason_east_e21": {
+    "match_id": "summer_2026_preseason_east_e21",
+    "schedule_id": "E21",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "hagerstown_heroes",
+    "home_team": "Hagerstown Heroes",
+    "away_team_id": "edmonton_bears",
+    "away_team": "Edmonton Bears",
+    "home_roster": {
+      "team_id": "hagerstown_heroes",
+      "team_display_name": "Hagerstown Heroes",
+      "team": "Hagerstown Heroes",
+      "team_abbreviation": "HHRS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Awlden",
+          "slap_id": "890370"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        },
+        {
+          "role": "player",
+          "steam_name": "Yuvraj",
+          "slap_id": "849146"
+        },
+        {
+          "role": "player",
+          "steam_name": "cavitee",
+          "slap_id": "883507"
+        },
+        {
+          "role": "player",
+          "steam_name": "Andriulous",
+          "slap_id": "2017598"
+        }
+      ],
+      "slap_ids": [
+        "890370",
+        "848840",
+        "849146",
+        "883507",
+        "2017598"
+      ]
+    },
+    "away_roster": {
+      "team_id": "edmonton_bears",
+      "team_display_name": "Edmonton Bears",
+      "team": "Edmonton Bears",
+      "team_abbreviation": "EDM",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Zelviz",
+          "slap_id": "865092"
+        },
+        {
+          "role": "player",
+          "steam_name": "Carti",
+          "slap_id": "1320348"
+        },
+        {
+          "role": "player",
+          "steam_name": "jeru",
+          "slap_id": "359314"
+        },
+        {
+          "role": "player",
+          "steam_name": "vorq",
+          "slap_id": "244"
+        },
+        {
+          "role": "player",
+          "steam_name": "King",
+          "slap_id": "634779"
+        }
+      ],
+      "slap_ids": [
+        "865092",
+        "1320348",
+        "359314",
+        "244",
+        "634779"
+      ]
+    }
+  }
+}

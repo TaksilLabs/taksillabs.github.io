@@ -1004,7 +1004,7 @@
       "region": "main slapshot league (east)",
       "players": [
         {
-          "role": "player",
+          "role": "captain",
           "steam_name": "Zelviz",
           "slap_id": "865092"
         },
@@ -1022,13 +1022,19 @@
           "role": "player",
           "steam_name": "vorq",
           "slap_id": "244"
+        },
+        {
+          "role": "player",
+          "steam_name": "King",
+          "slap_id": "634779"
         }
       ],
       "slap_ids": [
         "865092",
         "1320348",
         "359314",
-        "244"
+        "244",
+        "634779"
       ]
     },
     {
