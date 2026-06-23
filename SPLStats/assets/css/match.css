@@ -858,4 +858,426 @@
   .goalie-stat-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .shot-map-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .shot-map-list {
+    grid-template-columns: 1fr;
+  }
 }
+
+
+
+/* Shot map */
+
+.shot-map-rink {
+  position: relative;
+  overflow: visible;
+
+  border: 2px solid rgba(123, 223, 242, 0.34);
+  border-radius: 18px;
+
+  background: #000;
+
+  box-shadow:
+    inset 0 0 28px rgba(255, 255, 255, 0.035),
+    0 12px 28px rgba(0, 0, 0, 0.38);
+}
+
+.shot-map-card {
+  padding: 18px;
+
+  border: 1px solid rgba(123, 223, 242, 0.24);
+  border-radius: 20px;
+
+  background:
+    radial-gradient(circle at top left, color-mix(in srgb, var(--home-primary, #7bdff2) 14%, transparent), transparent 36%),
+    radial-gradient(circle at top right, color-mix(in srgb, var(--away-primary, #ffd166) 14%, transparent), transparent 36%),
+    linear-gradient(135deg, rgba(12, 20, 28, 0.96), rgba(5, 8, 12, 0.96));
+
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.shot-map-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+
+  margin-bottom: 14px;
+}
+
+.shot-map-controls label {
+  display: block;
+  margin-bottom: 5px;
+
+  color: #9fb3c8;
+
+  font-size: 0.72rem;
+  font-weight: 1000;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.shot-map-controls select {
+  width: 100%;
+  padding: 9px 10px;
+
+  border: 1px solid rgba(123, 223, 242, 0.22);
+  border-radius: 10px;
+
+  background: #071018;
+  color: #f4f4f4;
+
+  font-weight: 850;
+}
+
+.shot-map-rink-wrap {
+  margin-top: 10px;
+}
+
+.shot-map-rink-layout {
+  width: min(1080px, 94%);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr) 54px;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.shot-map-defender-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100%;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--defender-primary, #7bdff2) 26%, rgba(5, 8, 12, 0.95)),
+      rgba(5, 8, 12, 0.9)
+    );
+
+  border: 1px solid color-mix(in srgb, var(--defender-primary, #7bdff2) 45%, rgba(255, 255, 255, 0.10));
+
+  box-shadow:
+    inset 0 0 16px rgba(255, 255, 255, 0.035),
+    0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.shot-map-defender-bar span {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+  color: var(--defender-accent, #ffffff);
+
+  font-family: Evogria, sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+
+  text-shadow:
+    -1px 1px 0 #000,
+    0 0 8px rgba(0, 0, 0, 0.75);
+
+  white-space: nowrap;
+}
+
+.shot-map-defender-bar.left span {
+  transform: rotate(180deg);
+}
+
+.shot-map-rink-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.shot-map-pellet-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: visible;
+}
+
+.shot-map-pellet {
+  position: absolute;
+
+  width: 18px;
+  height: 18px;
+
+  transform: translate(-50%, -50%);
+
+  border: 0;
+  background: transparent;
+
+  cursor: default;
+  z-index: 5;
+}
+
+/* Goal = filled circle */
+.shot-map-pellet.goal {
+  border-radius: 999px;
+
+  background: var(--shot-team-color, #ffffff);
+
+  border: 2px solid #000;
+
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.72),
+    0 0 12px color-mix(in srgb, var(--shot-team-color, #ffffff) 55%, transparent),
+    0 2px 8px rgba(0, 0, 0, 0.85);
+}
+
+/* Shot on goal = hollow circle */
+.shot-map-pellet.shot_on_goal {
+  border-radius: 999px;
+
+  background: rgba(0, 0, 0, 0.55);
+
+  border: 3px solid var(--shot-team-color, #ffffff);
+
+  box-shadow:
+    0 0 0 2px rgba(0, 0, 0, 0.8),
+    0 0 10px color-mix(in srgb, var(--shot-team-color, #ffffff) 45%, transparent),
+    0 2px 8px rgba(0, 0, 0, 0.85);
+}
+
+/* Blocked shot = X */
+.shot-map-pellet.shot_blocked {
+  width: 22px;
+  height: 22px;
+
+  background: transparent;
+
+  filter:
+    drop-shadow(0 2px 5px rgba(0, 0, 0, 0.9))
+    drop-shadow(0 0 5px color-mix(in srgb, var(--shot-team-color, #ffffff) 60%, transparent));
+}
+
+.shot-map-pellet.shot_blocked::before,
+.shot-map-pellet.shot_blocked::after {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  width: 22px;
+  height: 4px;
+
+  border-radius: 999px;
+
+  background: var(--shot-team-color, #ffffff);
+
+  transform-origin: center;
+}
+
+.shot-map-pellet.shot_blocked::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.shot-map-pellet.shot_blocked::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.shot-map-legend {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+
+  margin-top: 24px;
+
+  color: #d7f7ff;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.legend-dot {
+  display: inline-block;
+
+  width: 13px;
+  height: 13px;
+
+  margin-right: 6px;
+
+  vertical-align: -2px;
+}
+
+/* Goal legend = filled circle */
+.legend-dot.goal {
+  border-radius: 999px;
+  background: #ffffff;
+  border: 2px solid #000;
+}
+
+/* SOG legend = hollow circle */
+.legend-dot.shot_on_goal {
+  border-radius: 999px;
+  background: transparent;
+  border: 3px solid #ffffff;
+}
+
+/* Blocked legend = X */
+.legend-dot.shot_blocked {
+  position: relative;
+
+  width: 15px;
+  height: 15px;
+}
+
+.legend-dot.shot_blocked::before,
+.legend-dot.shot_blocked::after {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  width: 16px;
+  height: 3px;
+
+  border-radius: 999px;
+  background: #ffffff;
+
+  transform-origin: center;
+}
+
+.legend-dot.shot_blocked::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.legend-dot.shot_blocked::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.shot-map-summary {
+  margin-top: 10px;
+
+  color: #9fb3c8;
+  font-size: 0.82rem;
+  font-weight: 850;
+}
+
+.shot-map-pellet:hover,
+.shot-map-pellet:focus-visible {
+  z-index: 1000;
+}
+
+.shot-map-pellet:hover .shot-map-tooltip,
+.shot-map-pellet:focus-visible .shot-map-tooltip {
+  z-index: 1001;
+}
+
+.shot-map-tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 12px);
+
+  min-width: 190px;
+  max-width: 230px;
+
+  padding: 10px 11px;
+
+  border: 1px solid color-mix(in srgb, var(--shot-team-color, #ffffff) 55%, rgba(255, 255, 255, 0.14));
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--shot-team-color, #ffffff) 16%, rgba(5, 8, 12, 0.98)),
+      rgba(5, 8, 12, 0.98)
+    );
+
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.48),
+    0 0 16px color-mix(in srgb, var(--shot-team-color, #ffffff) 24%, transparent);
+
+  color: #ffffff;
+
+  text-align: left;
+  pointer-events: none;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translate(-50%, 6px);
+  transition:
+    opacity 0.14s ease,
+    transform 0.14s ease,
+    visibility 0.14s ease;
+
+  z-index: 50;
+}
+
+.shot-map-tooltip::after {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  top: 100%;
+
+  width: 10px;
+  height: 10px;
+
+  background: rgba(5, 8, 12, 0.98);
+  border-right: 1px solid color-mix(in srgb, var(--shot-team-color, #ffffff) 45%, rgba(255, 255, 255, 0.14));
+  border-bottom: 1px solid color-mix(in srgb, var(--shot-team-color, #ffffff) 45%, rgba(255, 255, 255, 0.14));
+
+  transform: translate(-50%, -5px) rotate(45deg);
+}
+
+.shot-map-tooltip strong {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #ffffff;
+
+  font-size: 0.84rem;
+  font-weight: 1000;
+}
+
+.shot-map-tooltip em {
+  display: inline-block;
+
+  margin-bottom: 6px;
+  padding: 3px 7px;
+
+  border: 1px solid var(--shot-team-color, #ffffff);
+  border-radius: 999px;
+
+  color: var(--shot-team-color, #ffffff);
+
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 1000;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.shot-map-tooltip span {
+  display: block;
+
+  color: #b8c7d8;
+
+  font-size: 0.75rem;
+  font-weight: 850;
+  line-height: 1.35;
+}
+
+.shot-map-pellet:hover .shot-map-tooltip,
+.shot-map-pellet:focus-visible .shot-map-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+}
+
+/**/

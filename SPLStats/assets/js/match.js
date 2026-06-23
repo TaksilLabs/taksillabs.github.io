@@ -5,6 +5,7 @@ const DATA_PATHS = {
   rosters: `data/live_season/${SEASON_ID}/active_rosters.json`,
   rosterSnapshots: `data/live_season/${SEASON_ID}/preseason/roster_snapshots.json`,
   matchDetailsBase: `data/live_season/${SEASON_ID}/preseason/match_details`,
+  shotMapsBase: `data/live_season/${SEASON_ID}/preseason/shot_maps`,
   teamMetadata: "data/team_metadata.json"
 };
 
@@ -12,7 +13,13 @@ let matches = [];
 let rostersByTeamId = {};
 let metadataByTeamId = {};
 let rosterSnapshots = {};
+let currentMatch = null;
 let currentMatchDetail = null;
+let currentShotMap = null;
+
+let activeShotTeam = "all";
+let activeShotResult = "all";
+let activeShotPeriod = "all";
 
 function cleanText(value) {
   return String(value || "").trim();
@@ -444,6 +451,326 @@ function renderPreviewMode(match) {
   `;
 }
 
+const SHOT_RESULT_LABELS = {
+  goal: "Goal",
+  shot_on_goal: "Shot on Goal",
+  shot_blocked: "Shot Blocked"
+};
+
+function getShotResultLabel(result) {
+  return SHOT_RESULT_LABELS[result] || result || "Unknown";
+}
+
+function getShotTeamColor(match, shot) {
+  const teamId = shot.team_side === "home"
+    ? match.home_team_id
+    : match.away_team_id;
+
+  return getThemeValue(teamId, "accent", "#ffffff");
+}
+
+function shotPassesFilters(shot) {
+  if (activeShotTeam !== "all" && shot.team_side !== activeShotTeam) {
+    return false;
+  }
+
+  if (activeShotResult !== "all" && shot.result !== activeShotResult) {
+    return false;
+  }
+
+  if (activeShotPeriod !== "all" && shot.period !== activeShotPeriod) {
+    return false;
+  }
+
+  return true;
+}
+
+function getFilteredShots() {
+  return (currentShotMap?.shots || []).filter(shotPassesFilters);
+}
+
+function renderShotMapSection(match) {
+  if (!currentShotMap || !(currentShotMap.shots || []).length) {
+    return `
+      <section class="match-section-title">
+        <h2>Shot Map</h2>
+        <p>No shot map has been added for this match yet.</p>
+      </section>
+    `;
+  }
+
+  const shots = getFilteredShots();
+
+  return `
+    <section class="match-section-title">
+      <h2>Shot Map</h2>
+      <p>Manually tracked shot locations from the match.</p>
+    </section>
+
+    <section
+      class="shot-map-card"
+      style="
+        --home-primary: ${getThemeValue(match.home_team_id, "primary", "#7bdff2")};
+        --home-accent: ${getThemeValue(match.home_team_id, "accent", "#ffffff")};
+        --away-primary: ${getThemeValue(match.away_team_id, "primary", "#ffd166")};
+        --away-accent: ${getThemeValue(match.away_team_id, "accent", "#ffffff")};
+      "
+      >
+      <div class="shot-map-controls">
+        <div>
+          <label>Team</label>
+          <select id="shotTeamFilter">
+            <option value="all">Both Teams</option>
+            <option value="home">${escapeHtml(match.home_team)}</option>
+            <option value="away">${escapeHtml(match.away_team)}</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Result</label>
+          <select id="shotResultFilter">
+            <option value="all">All Results</option>
+            <option value="goal">Goals</option>
+            <option value="shot_on_goal">Shots on Goal</option>
+            <option value="shot_blocked">Blocked Shots</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Period</label>
+          <select id="shotPeriodFilter">
+            <option value="all">All Periods</option>
+            <option value="1">1st</option>
+            <option value="2">2nd</option>
+            <option value="3">3rd</option>
+            <option value="OT">OT</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="shot-map-rink-wrap">
+      <div class="shot-map-rink-layout">
+
+        ${renderDefendingTeamBar(match, "left")}
+
+        <div class="shot-map-rink">
+            <img
+              class="shot-map-rink-image"
+              src="assets/images/rink/slapshot-rink.png"
+              alt=""
+              aria-hidden="true"
+            >
+
+            <div class="shot-map-pellet-layer">
+              ${shots.map(shot => renderShotPellet(match, shot)).join("")}
+            </div>
+          </div>
+
+          ${renderDefendingTeamBar(match, "right")}
+        </div>
+      </div>
+
+      <div class="shot-map-legend">
+        <span><i class="legend-dot goal"></i> Goal</span>
+        <span><i class="legend-dot shot_on_goal"></i> Shot on Goal</span>
+        <span><i class="legend-dot shot_blocked"></i> Shot Blocked</span>
+      </div>
+
+      <div class="shot-map-summary">
+        Showing ${shots.length} of ${(currentShotMap.shots || []).length} tracked shots.
+      </div>
+    </section>
+  `;
+}
+
+function getDefendingTeamForSide(match, rinkSide) {
+  const orientation = currentShotMap?.rink_orientation || {
+    home: "left_to_right",
+    away: "right_to_left"
+  };
+
+  if (rinkSide === "left") {
+    return orientation.home === "left_to_right"
+      ? {
+          team_id: match.home_team_id,
+          team: match.home_team,
+          side: "home"
+        }
+      : {
+          team_id: match.away_team_id,
+          team: match.away_team,
+          side: "away"
+        };
+  }
+
+  return orientation.home === "left_to_right"
+    ? {
+        team_id: match.away_team_id,
+        team: match.away_team,
+        side: "away"
+      }
+    : {
+        team_id: match.home_team_id,
+        team: match.home_team,
+        side: "home"
+      };
+}
+
+function renderDefendingTeamBar(match, rinkSide) {
+  const defending = getDefendingTeamForSide(match, rinkSide);
+
+  return `
+    <div
+      class="shot-map-defender-bar ${rinkSide}"
+      style="
+        --defender-primary: ${getThemeValue(defending.team_id, "primary", "#7bdff2")};
+        --defender-accent: ${getThemeValue(defending.team_id, "accent", "#ffffff")};
+      "
+    >
+      <span>${escapeHtml(defending.team)} Defend</span>
+    </div>
+  `;
+}
+
+function renderAttackLabels(match) {
+  const orientation = currentShotMap?.rink_orientation || {
+    home: "left_to_right",
+    away: "right_to_left"
+  };
+
+  if (orientation.home === "left_to_right") {
+    return `
+      <span style="color: var(--home-primary)">
+        ${escapeHtml(match.home_team)} attacks →
+      </span>
+
+      <span style="color: var(--away-primary)">
+        ← ${escapeHtml(match.away_team)} attacks
+      </span>
+    `;
+  }
+
+  return `
+    <span style="color: var(--away-primary)">
+      ${escapeHtml(match.away_team)} attacks →
+    </span>
+
+    <span style="color: var(--home-primary)">
+      ← ${escapeHtml(match.home_team)} attacks
+    </span>
+  `;
+}
+
+function renderShotPellet(match, shot) {
+  const resultLabel = getShotResultLabel(shot.result);
+  const periodLabel = shot.period
+    ? formatShotPeriod(shot.period)
+    : "Unknown period";
+
+  const timeLabel = shot.time_remaining
+    ? shot.time_remaining
+    : "Time unknown";
+
+  return `
+    <button
+      class="shot-map-pellet ${shot.result}"
+      style="
+        left: ${Number(shot.x || 0)}%;
+        top: ${Number(shot.y || 0)}%;
+        --shot-team-color: ${getShotTeamColor(match, shot)};
+      "
+      title="${escapeHtml(shot.player || "Unknown")} — ${resultLabel}"
+      type="button"
+      aria-label="${escapeHtml(shot.player || "Unknown")} — ${resultLabel}"
+    >
+      <span class="shot-map-tooltip">
+        <strong>${escapeHtml(shot.player || "Unknown Player")}</strong>
+        <em>${escapeHtml(resultLabel)}</em>
+        <span>${escapeHtml(shot.team || "Unknown Team")}</span>
+        <span>${escapeHtml(periodLabel)} · ${escapeHtml(timeLabel)}</span>
+      </span>
+    </button>
+  `;
+}
+
+function renderShotListItem(match, shot) {
+  const teamColor = getShotTeamColor(match, shot);
+
+  return `
+    <div
+      class="shot-map-list-item"
+      style="--shot-team-color: ${teamColor};"
+    >
+      <div>
+        <strong>${escapeHtml(shot.player || "Unknown Player")}</strong>
+        <span>
+          ${escapeHtml(shot.team || "")}
+          ${
+            shot.period
+              ? ` · ${escapeHtml(formatShotPeriod(shot.period))}`
+              : ""
+          }
+          ${
+            shot.time_remaining
+              ? ` · ${escapeHtml(shot.time_remaining)}`
+              : ""
+          }
+        </span>
+      </div>
+
+      <em class="${shot.result}">
+        ${getShotResultLabel(shot.result)}
+      </em>
+    </div>
+  `;
+}
+
+function formatShotPeriod(period) {
+  if (period === "1") return "1st";
+  if (period === "2") return "2nd";
+  if (period === "3") return "3rd";
+  if (period === "OT") return "OT";
+  return period;
+}
+
+function attachShotMapFilters() {
+  const teamFilter = document.querySelector("#shotTeamFilter");
+  const resultFilter = document.querySelector("#shotResultFilter");
+  const periodFilter = document.querySelector("#shotPeriodFilter");
+
+  if (!teamFilter || !resultFilter || !periodFilter) {
+    return;
+  }
+
+  teamFilter.value = activeShotTeam;
+  resultFilter.value = activeShotResult;
+  periodFilter.value = activeShotPeriod;
+
+  teamFilter.addEventListener("change", event => {
+    activeShotTeam = event.target.value;
+
+    if (currentMatch) {
+      renderMatchPage(currentMatch);
+    }
+  });
+
+  resultFilter.addEventListener("change", event => {
+    activeShotResult = event.target.value;
+
+    if (currentMatch) {
+      renderMatchPage(currentMatch);
+    }
+  });
+
+  periodFilter.addEventListener("change", event => {
+    activeShotPeriod = event.target.value;
+
+    if (currentMatch) {
+      renderMatchPage(currentMatch);
+    }
+  });
+}
+
 function renderResultMode(match) {
   return `
     <section class="match-section-title">
@@ -456,6 +783,8 @@ function renderResultMode(match) {
       ${renderRosterCard(match, "away")}
     </section>
 
+    ${renderShotMapSection(match)}
+    
     ${renderGoalieCards(match)}
 
     ${renderPlayerStatsSection(match)}
@@ -749,6 +1078,8 @@ function renderMatchPage(match) {
         : renderPreviewMode(match)
     }
   `;
+
+  attachShotMapFilters();
 }
 
 async function loadMatchData() {
@@ -810,20 +1141,37 @@ async function loadMatchData() {
     return;
     }
 
+    currentMatch = match;
     currentMatchDetail = null;
+    currentShotMap = null;
+
+    activeShotTeam = "all";
+    activeShotResult = "all";
+    activeShotPeriod = "all";
 
     if (match.status === "final") {
-    const detailPath = `${DATA_PATHS.matchDetailsBase}/${encodeURIComponent(match.match_id)}.json`;
+      const detailPath = `${DATA_PATHS.matchDetailsBase}/${encodeURIComponent(match.match_id)}.json`;
+      const shotMapPath = `${DATA_PATHS.shotMapsBase}/${encodeURIComponent(match.match_id)}.json`;
 
-    try {
+      try {
         const detailResponse = await fetch(detailPath);
 
         if (detailResponse.ok) {
-        currentMatchDetail = await detailResponse.json();
+          currentMatchDetail = await detailResponse.json();
         }
-    } catch (error) {
+      } catch (error) {
         console.warn("Could not load match detail file", error);
-    }
+      }
+
+      try {
+        const shotMapResponse = await fetch(shotMapPath);
+
+        if (shotMapResponse.ok) {
+          currentShotMap = await shotMapResponse.json();
+        }
+      } catch (error) {
+        console.warn("Could not load shot map file", error);
+      }
     }
 
     renderMatchPage(match);

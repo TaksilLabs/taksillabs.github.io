@@ -1472,29 +1472,6 @@
     ]
   },
   {
-    "team_id": "beverly_hill_bobos",
-    "team_display_name": "Beverly Hill Bobos",
-    "aliases": [
-      "Beverly Hill Bobos"
-    ],
-    "logo": "",
-    "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
-      "background": "#050505",
-      "card": "#111111",
-      "surface": "#1a1a1a"
-    },
-    "name_history": [
-      {
-        "name": "Beverly Hill Bobos",
-        "start_season": null,
-        "end_season": null
-      }
-    ]
-  },
-  {
     "team_id": "big_island_bonobos",
     "team_display_name": "Big Island Bonobos",
     "aliases": [
@@ -16789,7 +16766,8 @@
     "team_id": "beverly_hills_bobos",
     "team_display_name": "Beverly Hills Bobos",
     "aliases": [
-      "Beverly Hills Bobos"
+      "Beverly Hills Bobos",
+      "Beverly Hill Bobos"
     ],
     "abbreviation": "BHB",
     "venue": "Bobos Barn",
