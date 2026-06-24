@@ -501,15 +501,15 @@
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
-    "games_played": 2,
-    "wins": 2,
+    "games_played": 3,
+    "wins": 3,
     "regulation_losses": 0,
     "overtime_losses": 0,
-    "points": 4,
-    "goals_for": 17,
-    "goals_against": 13,
-    "goal_diff": 4,
-    "last_5": "2-0-0",
+    "points": 6,
+    "goals_for": 26,
+    "goals_against": 21,
+    "goal_diff": 5,
+    "last_5": "3-0-0",
     "last_5_games": [
       {
         "match_id": "summer_2026_preseason_east_e6",
@@ -526,42 +526,58 @@
         "overtime": false,
         "goals_for": 7,
         "goals_against": 6
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e9",
+        "schedule_id": "E9",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 9,
+        "goals_against": 8
       }
     ]
   },
   {
     "rank": 2,
-    "team_id": "beverly_hills_bobos",
-    "team": "Beverly Hills Bobos",
-    "team_display_name": "Beverly Hills Bobos",
+    "team_id": "pittsburgh_volts",
+    "team": "Pittsburgh Volts",
+    "team_display_name": "Pittsburgh Volts",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
-    "games_played": 2,
-    "wins": 1,
+    "games_played": 3,
+    "wins": 2,
     "regulation_losses": 1,
     "overtime_losses": 0,
-    "points": 2,
-    "goals_for": 17,
-    "goals_against": 12,
-    "goal_diff": 5,
-    "last_5": "1-1-0",
+    "points": 4,
+    "goals_for": 26,
+    "goals_against": 17,
+    "goal_diff": 9,
+    "last_5": "2-1-0",
     "last_5_games": [
       {
-        "match_id": "summer_2026_preseason_east_e7",
-        "schedule_id": "E7",
+        "match_id": "summer_2026_preseason_east_e4",
+        "schedule_id": "E4",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 3
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e5",
+        "schedule_id": "E5",
         "result": "W",
         "overtime": false,
         "goals_for": 11,
-        "goals_against": 5
+        "goals_against": 4
       },
       {
-        "match_id": "summer_2026_preseason_east_e8",
-        "schedule_id": "E8",
+        "match_id": "summer_2026_preseason_east_e6",
+        "schedule_id": "E6",
         "result": "L",
         "overtime": false,
-        "goals_for": 6,
-        "goals_against": 7
+        "goals_for": 7,
+        "goals_against": 10
       }
     ]
   },
@@ -595,37 +611,45 @@
   },
   {
     "rank": 4,
-    "team_id": "pittsburgh_volts",
-    "team": "Pittsburgh Volts",
-    "team_display_name": "Pittsburgh Volts",
+    "team_id": "beverly_hills_bobos",
+    "team": "Beverly Hills Bobos",
+    "team_display_name": "Beverly Hills Bobos",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
-    "games_played": 2,
+    "games_played": 3,
     "wins": 1,
-    "regulation_losses": 1,
+    "regulation_losses": 2,
     "overtime_losses": 0,
     "points": 2,
-    "goals_for": 18,
-    "goals_against": 14,
-    "goal_diff": 4,
-    "last_5": "1-1-0",
+    "goals_for": 20,
+    "goals_against": 20,
+    "goal_diff": 0,
+    "last_5": "1-2-0",
     "last_5_games": [
       {
-        "match_id": "summer_2026_preseason_east_e5",
-        "schedule_id": "E5",
+        "match_id": "summer_2026_preseason_east_e4",
+        "schedule_id": "E4",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 3,
+        "goals_against": 8
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e7",
+        "schedule_id": "E7",
         "result": "W",
         "overtime": false,
         "goals_for": 11,
-        "goals_against": 4
+        "goals_against": 5
       },
       {
-        "match_id": "summer_2026_preseason_east_e6",
-        "schedule_id": "E6",
+        "match_id": "summer_2026_preseason_east_e8",
+        "schedule_id": "E8",
         "result": "L",
         "overtime": false,
-        "goals_for": 7,
-        "goals_against": 10
+        "goals_for": 6,
+        "goals_against": 7
       }
     ]
   },
@@ -1330,15 +1354,15 @@
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
-    "games_played": 2,
+    "games_played": 3,
     "wins": 0,
-    "regulation_losses": 2,
+    "regulation_losses": 3,
     "overtime_losses": 0,
     "points": 0,
-    "goals_for": 9,
-    "goals_against": 22,
-    "goal_diff": -13,
-    "last_5": "0-2-0",
+    "goals_for": 17,
+    "goals_against": 31,
+    "goal_diff": -14,
+    "last_5": "0-3-0",
     "last_5_games": [
       {
         "match_id": "summer_2026_preseason_east_e5",
@@ -1355,6 +1379,14 @@
         "overtime": false,
         "goals_for": 5,
         "goals_against": 11
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e9",
+        "schedule_id": "E9",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 9
       }
     ]
   },
