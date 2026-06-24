@@ -728,5 +728,100 @@
         "836900"
       ]
     }
+  },
+  "summer_2026_preseason_east_e22": {
+    "match_id": "summer_2026_preseason_east_e22",
+    "schedule_id": "E22",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "delco_dog_dads",
+    "home_team": "Delco Dog Dads",
+    "away_team_id": "vader_stars",
+    "away_team": "Vader Stars",
+    "home_roster": {
+      "team_id": "delco_dog_dads",
+      "team_display_name": "Delco Dog Dads",
+      "team": "Delco Dog Dads",
+      "team_abbreviation": "DDD",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Kavorka",
+          "slap_id": "816852"
+        },
+        {
+          "role": "player",
+          "steam_name": "Drewiou",
+          "slap_id": "200689"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lord Osprey",
+          "slap_id": "19647"
+        },
+        {
+          "role": "player",
+          "steam_name": "Pissy Yonky",
+          "slap_id": "702578"
+        },
+        {
+          "role": "player",
+          "steam_name": "Conro",
+          "slap_id": "1850085"
+        }
+      ],
+      "slap_ids": [
+        "816852",
+        "200689",
+        "19647",
+        "702578",
+        "1850085"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_stars",
+      "team_display_name": "Vader Stars",
+      "team": "Vader Stars",
+      "team_abbreviation": "VAS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mcnulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "40",
+        "600238",
+        "633338"
+      ]
+    }
   }
 }
