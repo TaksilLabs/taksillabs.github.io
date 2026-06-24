@@ -283,5 +283,94 @@
         "9394"
       ]
     }
+  },
+  "summer_2026_preseason_east_e6": {
+    "match_id": "summer_2026_preseason_east_e6",
+    "schedule_id": "E6",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "pittsburgh_volts",
+    "home_team": "Pittsburgh Volts",
+    "away_team_id": "barrie_bald_boys",
+    "away_team": "Barrie Bald Boys",
+    "home_roster": {
+      "team_id": "pittsburgh_volts",
+      "team_display_name": "Pittsburgh Volts",
+      "team": "Pittsburgh Volts",
+      "team_abbreviation": "PIT",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Noah",
+          "slap_id": "678"
+        },
+        {
+          "role": "player",
+          "steam_name": "AboveAverageJoe",
+          "slap_id": "57885"
+        },
+        {
+          "role": "player",
+          "steam_name": "9th Coming of Jesus",
+          "slap_id": "47785"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meow",
+          "slap_id": "148141"
+        },
+        {
+          "role": "player",
+          "steam_name": "Buf",
+          "slap_id": "352018"
+        }
+      ],
+      "slap_ids": [
+        "678",
+        "57885",
+        "47785",
+        "148141",
+        "352018"
+      ]
+    },
+    "away_roster": {
+      "team_id": "barrie_bald_boys",
+      "team_display_name": "Barrie Bald Boys",
+      "team": "Barrie Bald Boys",
+      "team_abbreviation": "BBB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Beefus",
+          "slap_id": "1354924"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tridoxity",
+          "slap_id": "1127790"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meatballer36",
+          "slap_id": "929814"
+        },
+        {
+          "role": "player",
+          "steam_name": "Darth Daevin",
+          "slap_id": "836900"
+        }
+      ],
+      "slap_ids": [
+        "1354924",
+        "1127790",
+        "929814",
+        "836900"
+      ]
+    }
   }
 }

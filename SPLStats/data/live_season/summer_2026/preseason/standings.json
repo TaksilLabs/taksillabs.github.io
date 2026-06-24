@@ -551,6 +551,34 @@
   },
   {
     "rank": 3,
+    "team_id": "barrie_bald_boys",
+    "team": "Barrie Bald Boys",
+    "team_display_name": "Barrie Bald Boys",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 10,
+    "goals_against": 7,
+    "goal_diff": 3,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e6",
+        "schedule_id": "E6",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 10,
+        "goals_against": 7
+      }
+    ]
+  },
+  {
+    "rank": 4,
     "team_id": "arnold_ashtrays",
     "team": "Arnold Ashtrays",
     "team_display_name": "Arnold Ashtrays",
@@ -569,29 +597,10 @@
     "last_5_games": []
   },
   {
-    "rank": 4,
+    "rank": 5,
     "team_id": "atlanta_aces",
     "team": "Atlanta Aces",
     "team_display_name": "Atlanta Aces",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 5,
-    "team_id": "barrie_bald_boys",
-    "team": "Barrie Bald Boys",
-    "team_display_name": "Barrie Bald Boys",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
@@ -1026,25 +1035,6 @@
   },
   {
     "rank": 28,
-    "team_id": "pittsburgh_volts",
-    "team": "Pittsburgh Volts",
-    "team_display_name": "Pittsburgh Volts",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 29,
     "team_id": "quebec_flare",
     "team": "Quebec Flare",
     "team_display_name": "Quebec Flare",
@@ -1063,7 +1053,7 @@
     "last_5_games": []
   },
   {
-    "rank": 30,
+    "rank": 29,
     "team_id": "seattle_cyclones",
     "team": "Seattle Cyclones",
     "team_display_name": "Seattle Cyclones",
@@ -1082,7 +1072,7 @@
     "last_5_games": []
   },
   {
-    "rank": 31,
+    "rank": 30,
     "team_id": "vader_acolytes",
     "team": "Vader Acolytes",
     "team_display_name": "Vader Acolytes",
@@ -1101,7 +1091,7 @@
     "last_5_games": []
   },
   {
-    "rank": 32,
+    "rank": 31,
     "team_id": "vader_eastern_attackers",
     "team": "Vader Eastern Attackers",
     "team_display_name": "Vader Eastern Attackers",
@@ -1120,7 +1110,7 @@
     "last_5_games": []
   },
   {
-    "rank": 33,
+    "rank": 32,
     "team_id": "vader_starkillers_east",
     "team": "Vader Starkillers East",
     "team_display_name": "Vader Starkillers East",
@@ -1139,7 +1129,7 @@
     "last_5_games": []
   },
   {
-    "rank": 34,
+    "rank": 33,
     "team_id": "vader_stars",
     "team": "Vader Stars",
     "team_display_name": "Vader Stars",
@@ -1158,7 +1148,7 @@
     "last_5_games": []
   },
   {
-    "rank": 35,
+    "rank": 34,
     "team_id": "vader_voltage",
     "team": "Vader Voltage",
     "team_display_name": "Vader Voltage",
@@ -1177,7 +1167,7 @@
     "last_5_games": []
   },
   {
-    "rank": 36,
+    "rank": 35,
     "team_id": "vader_whiteout",
     "team": "Vader Whiteout",
     "team_display_name": "Vader Whiteout",
@@ -1196,7 +1186,7 @@
     "last_5_games": []
   },
   {
-    "rank": 37,
+    "rank": 36,
     "team_id": "vader_wookies",
     "team": "Vader Wookies",
     "team_display_name": "Vader Wookies",
@@ -1215,7 +1205,7 @@
     "last_5_games": []
   },
   {
-    "rank": 38,
+    "rank": 37,
     "team_id": "whitby_wombats",
     "team": "Whitby Wombats",
     "team_display_name": "Whitby Wombats",
@@ -1234,7 +1224,7 @@
     "last_5_games": []
   },
   {
-    "rank": 39,
+    "rank": 38,
     "team_id": "yucatn_yetis",
     "team": "Yucatán Yetis",
     "team_display_name": "Yucatán Yetis",
@@ -1251,6 +1241,34 @@
     "goal_diff": 0,
     "last_5": "0-0-0",
     "last_5_games": []
+  },
+  {
+    "rank": 39,
+    "team_id": "pittsburgh_volts",
+    "team": "Pittsburgh Volts",
+    "team_display_name": "Pittsburgh Volts",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 7,
+    "goals_against": 10,
+    "goal_diff": -3,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e6",
+        "schedule_id": "E6",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 7,
+        "goals_against": 10
+      }
+    ]
   },
   {
     "rank": 40,
