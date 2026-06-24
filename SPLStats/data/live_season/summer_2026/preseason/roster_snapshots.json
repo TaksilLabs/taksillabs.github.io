@@ -194,5 +194,94 @@
         "1026914"
       ]
     }
+  },
+  "summer_2026_preseason_east_e7": {
+    "match_id": "summer_2026_preseason_east_e7",
+    "schedule_id": "E7",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "beverly_hills_bobos",
+    "home_team": "Beverly Hills Bobos",
+    "away_team_id": "ottawa_valley_puck_slappers",
+    "away_team": "Ottawa Valley Puck Slappers",
+    "home_roster": {
+      "team_id": "beverly_hills_bobos",
+      "team_display_name": "Beverly Hills Bobos",
+      "team": "Beverly Hills Bobos",
+      "team_abbreviation": "BHB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jenediah",
+          "slap_id": "154305"
+        },
+        {
+          "role": "player",
+          "steam_name": "Eli",
+          "slap_id": "56239"
+        },
+        {
+          "role": "player",
+          "steam_name": "Enry",
+          "slap_id": "178836"
+        },
+        {
+          "role": "player",
+          "steam_name": "Charles",
+          "slap_id": "122257"
+        }
+      ],
+      "slap_ids": [
+        "154305",
+        "56239",
+        "178836",
+        "122257"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_puck_slappers",
+      "team_display_name": "Ottawa Valley Puck Slappers",
+      "team": "Ottawa Valley Puck Slappers",
+      "team_abbreviation": "OVPS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Taco",
+          "slap_id": "321499"
+        },
+        {
+          "role": "player",
+          "steam_name": "Syy",
+          "slap_id": "1506478"
+        },
+        {
+          "role": "player",
+          "steam_name": "BroBurgota",
+          "slap_id": "431751"
+        },
+        {
+          "role": "player",
+          "steam_name": "Troy Bolton",
+          "slap_id": "9394"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "321499",
+        "1506478",
+        "431751",
+        "9394"
+      ]
+    }
   }
 }
