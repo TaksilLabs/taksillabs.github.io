@@ -823,5 +823,94 @@
         "633338"
       ]
     }
+  },
+  "summer_2026_preseason_west_w5": {
+    "match_id": "summer_2026_preseason_west_w5",
+    "schedule_id": "W5",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "west",
+    "region_display": "West",
+    "home_team_id": "cold_lake_hit_lits",
+    "home_team": "Cold Lake Hit Lits",
+    "away_team_id": "jerusalem_golden_bobos",
+    "away_team": "Jerusalem Golden Bobos",
+    "home_roster": {
+      "team_id": "cold_lake_hit_lits",
+      "team_display_name": "Cold Lake Hit Lits",
+      "team": "Cold Lake Hit Lits",
+      "team_abbreviation": "CLHL",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "culsicul",
+          "slap_id": "1797454"
+        }
+      ],
+      "slap_ids": [
+        "186627",
+        "913017",
+        "633338",
+        "985994",
+        "1797454"
+      ]
+    },
+    "away_roster": {
+      "team_id": "jerusalem_golden_bobos",
+      "team_display_name": "Jerusalem Golden Bobos",
+      "team": "Jerusalem Golden Bobos",
+      "team_abbreviation": "JGB",
+      "region": "west slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jenediah",
+          "slap_id": "154305"
+        },
+        {
+          "role": "player",
+          "steam_name": "yackslack",
+          "slap_id": "640761"
+        },
+        {
+          "role": "player",
+          "steam_name": "X6C",
+          "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
+        }
+      ],
+      "slap_ids": [
+        "154305",
+        "640761",
+        "871020",
+        "1071429"
+      ]
+    }
   }
 }

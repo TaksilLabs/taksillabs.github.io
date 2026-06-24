@@ -66,5 +66,31 @@
     "related_teams": [],
     "related_franchises": [],
     "related_matches": []
+  },
+  {
+    "id": "pucks-in-depth-blue-a-career-in-retrospect",
+    "status": "published",
+    "title": "Pucks In Depth: bLue - A Career In Retrospect",
+    "subtitle": "Whether this is the end of the story, or simply the beginning of a new chapter, bLue's career will be one to remember forever.",
+    "author": "EggsThink",
+    "published_at": "2026-06-23",
+    "hero_image": "assets/images/news/pucks_in_deep_blue.jpg",
+    "tags": [
+      "East",
+      "Central",
+      "West",
+      "Pucks in Depth"
+    ],
+    "region_tags": [
+      "East",
+      "Central",
+      "West"
+    ],
+    "related_players": [
+      "bLue"
+    ],
+    "related_teams": [],
+    "related_franchises": [],
+    "related_matches": []
   }
 ]

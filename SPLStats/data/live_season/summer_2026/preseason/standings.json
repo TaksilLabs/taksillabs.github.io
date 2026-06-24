@@ -1444,16 +1444,25 @@
     "region": "west",
     "region_display": "West",
     "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
+    "games_played": 1,
+    "wins": 1,
     "regulation_losses": 0,
     "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
+    "points": 2,
+    "goals_for": 6,
+    "goals_against": 5,
+    "goal_diff": 1,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_west_w5",
+        "schedule_id": "W5",
+        "result": "W",
+        "overtime": true,
+        "goals_for": 6,
+        "goals_against": 5
+      }
+    ]
   },
   {
     "rank": 3,
@@ -1463,16 +1472,25 @@
     "region": "west",
     "region_display": "West",
     "phase": "preseason",
-    "games_played": 0,
+    "games_played": 1,
     "wins": 0,
     "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
+    "overtime_losses": 1,
+    "points": 1,
+    "goals_for": 5,
+    "goals_against": 6,
+    "goal_diff": -1,
+    "last_5": "0-0-1",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_west_w5",
+        "schedule_id": "W5",
+        "result": "OTL",
+        "overtime": true,
+        "goals_for": 5,
+        "goals_against": 6
+      }
+    ]
   },
   {
     "rank": 4,

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SPL News Article Builder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/builder/style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>SPL News Article Builder</h1>
+      <p>Create draft/published article JSON for the SPLStats news section.</p>
+    </div>
+
+    <div class="top-actions">
+      <button class="new" id="newButton">New Article</button>
+      <button class="save" id="saveButton">Save Article</button>
+      <button id="reloadButton">Reload</button>
+    </div>
+  </header>
+
+  <main>
+    <aside class="panel">
+      <div class="panel-head">
+        <h2>Articles</h2>
+      </div>
+
+      <div class="panel-body">
+        <input id="articleSearch" placeholder="Search articles...">
+        <div style="height: 10px;"></div>
+        <div class="article-list" id="articleList"></div>
+      </div>
+    </aside>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Editor</h2>
+      </div>
+
+      <div class="panel-body">
+        <div class="form-grid-2">
+          <div>
+            <label>Status</label>
+            <select id="statusInput">
+              <option value="draft">Draft</option>
+              <option value="published">Published</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Publish Date</label>
+            <input id="publishedAtInput" type="date">
+          </div>
+        </div>
+
+        <label>Title</label>
+        <input id="titleInput">
+
+        <label>Subtitle</label>
+        <input id="subtitleInput">
+
+        <div class="form-grid-2">
+          <div>
+            <label>Author</label>
+            <input id="authorInput" value="SPL Media Team">
+          </div>
+
+          <div>
+            <label>Hero Image Path</label>
+            <input id="heroImageInput" placeholder="assets/images/news/example.png">
+          </div>
+        </div>
+
+        <label>Region Tags</label>
+        <div class="check-grid" id="regionTags"></div>
+
+        <label>Custom Tags</label>
+        <input id="customTagsInput" placeholder="Preseason, Match Recap, Power Rankings">
+
+        <div class="form-grid-2">
+          <div>
+            <label>Related Teams</label>
+            <select id="relatedTeamsInput" class="multi-select" multiple></select>
+          </div>
+
+          <div>
+            <label>Related Matches</label>
+            <select id="relatedMatchesInput" class="multi-select" multiple></select>
+          </div>
+        </div>
+
+        <div class="form-grid-2">
+          <div>
+            <label>Related Players</label>
+            <input id="relatedPlayersInput" placeholder="player_id, player_id">
+          </div>
+
+          <div>
+            <label>Related Franchises</label>
+            <input id="relatedFranchisesInput" placeholder="franchise_id, franchise_id">
+          </div>
+        </div>
+
+        <label>Article Body</label>
+        <textarea id="bodyInput" placeholder="Write article body here.
+
+Use blank lines between paragraphs.
+
+Use ## Heading for headings.
+
+Use > Quote text for quotes."></textarea>
+
+        <p class="note">
+          Body formatting: blank lines create paragraphs, <code>##</code> creates headings.
+          Quotes can use smart quotes or <code>&gt;</code>.
+          Inline links use <code>[[team:team_id]]</code>,
+          <code>[[player:player_id]]</code>,
+          <code>[[franchise:franchise_id]]</code>,
+          or <code>[[match:match_id]]</code>.
+          Add custom text with <code>|</code>, like
+          <code>[[team:edmonton_bears|the Bears]]</code>.
+        </p>
+
+        <div class="status" id="statusText"></div>
+      </div>
+    </section>
+
+    <section class="preview-shell panel">
+      <div class="panel-head">
+        <h2>Live Preview</h2>
+      </div>
+
+      <article class="article-preview">
+        <section class="preview-hero">
+          <div class="preview-tags" id="previewTags"></div>
+          <h3 id="previewTitle">Untitled Article</h3>
+          <p class="preview-subtitle" id="previewSubtitle"></p>
+          <div class="preview-byline" id="previewByline"></div>
+        </section>
+
+        <section class="preview-body">
+          <div id="previewBody"></div>
+
+          <div class="related-grid" id="previewRelated"></div>
+        </section>
+      </article>
+    </section>
+
+    <div class="link-modal-backdrop" id="linkModalBackdrop" hidden>
+      <div class="link-modal" role="dialog" aria-modal="true" aria-labelledby="linkModalTitle">
+        <div class="link-modal-head">
+          <h2 id="linkModalTitle">Insert SPL Link</h2>
+          <button type="button" id="linkModalClose">×</button>
+        </div>
+
+        <div class="link-modal-body">
+          <label>Link Type</label>
+          <div class="link-type-grid">
+            <button type="button" data-link-type="player">Player</button>
+            <button type="button" data-link-type="team">Team</button>
+            <button type="button" data-link-type="match">Match</button>
+            <button type="button" data-link-type="franchise">Franchise</button>
+          </div>
+
+          <label for="linkIdInput">ID</label>
+          <input id="linkIdInput" placeholder="player_id, team_id, match_id, franchise_id">
+
+          <label for="linkLabelInput">Display Text</label>
+          <input id="linkLabelInput" placeholder="Text shown in article">
+
+          <p class="note">
+            Result:
+            <code id="linkPreviewToken">[[player:id|text]]</code>
+          </p>
+        </div>
+
+        <div class="link-modal-actions">
+          <button type="button" id="linkModalCancel">Cancel</button>
+          <button type="button" class="save" id="linkModalInsert">Insert Link</button>
+        </div>
+        
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="/builder/app.js"></script>
+
+</body>
+</html>
