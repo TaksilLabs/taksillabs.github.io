@@ -47,8 +47,8 @@ python tools/live/active_roster_editor.py
 
 ## Shot Maps
 
-run this from .\SPLStats
-python tools\live\shot_map_editor.py
+run this from ./SPLStats
+python tools/live/shot_map_editor.py
 
 
 
@@ -61,7 +61,10 @@ python tools/team_theme_builder.py
 
 ## Live Tools
 
-Both these start with New Terminal -> cd SPLStats
+Both these start with 
+(on the top left action bar) `Terminal` -> `New Terminal`
+->
+cd SPLStats
 
 To change active rosters:
 python tools/live/active_roster_editor.py

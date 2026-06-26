@@ -259,5 +259,26 @@
     "order": 6,
     "date_completed": "",
     "description": "Staff functionality is going to be hindered with the current hosting. But it might work out, who knows."
+  },
+  {
+    "title": "M1NNBot incorporation",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-26",
+    "description": "Get M1nnbot to upload match results straight to project."
+  },
+  {
+    "title": "Fix JSON encoding",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-26",
+    "description": "Some JSON files dont like to read, figure out why, and fix it."
+  },
+  {
+    "title": "Fix Side Mapping",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-26",
+    "description": "Side mapping is being based off active rosters, not the snapshots. That needs to be fixed."
   }
 ]
