@@ -912,5 +912,1441 @@
         "1071429"
       ]
     }
+  },
+  "summer_2026_preseason_east_e10": {
+    "match_id": "summer_2026_preseason_east_e10",
+    "schedule_id": "E10",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "vader_voltage",
+    "home_team": "Vader Voltage",
+    "away_team_id": "cold_lake_upper_deckies",
+    "away_team": "Cold Lake Upper Deckies",
+    "home_roster": {
+      "team_id": "vader_voltage",
+      "team_display_name": "Vader Voltage",
+      "team": "Vader Voltage",
+      "team_abbreviation": "VOLT",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Wind",
+          "slap_id": "613713"
+        },
+        {
+          "role": "player",
+          "steam_name": "SolaceThunders",
+          "slap_id": "31950"
+        },
+        {
+          "role": "player",
+          "steam_name": "Magix",
+          "slap_id": "1064297"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bolty",
+          "slap_id": "19642"
+        },
+        {
+          "role": "player",
+          "steam_name": "Doug",
+          "slap_id": "211281"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "613713",
+        "31950",
+        "1064297",
+        "19642",
+        "211281"
+      ]
+    },
+    "away_roster": {
+      "team_id": "cold_lake_upper_deckies",
+      "team_display_name": "Cold Lake Upper Deckies",
+      "team": "Cold Lake Upper Deckies",
+      "team_abbreviation": "CLUD",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        }
+      ],
+      "slap_ids": [
+        "186627",
+        "1282529",
+        "913017",
+        "758362"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e19": {
+    "match_id": "summer_2026_preseason_east_e19",
+    "schedule_id": "E19",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "okinawa_generations",
+    "home_team": "Okinawa Generations",
+    "away_team_id": "hagerstown_heroes",
+    "away_team": "Hagerstown Heroes",
+    "home_roster": {
+      "team_id": "okinawa_generations",
+      "team_display_name": "Okinawa Generations",
+      "team": "Okinawa Generations",
+      "team_abbreviation": "OKG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "[OKG] papa shieldz",
+          "slap_id": "503"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513"
+        },
+        {
+          "role": "player",
+          "steam_name": "[OKG]Pip Starlather",
+          "slap_id": "197140"
+        },
+        {
+          "role": "player",
+          "steam_name": "[OKG]Grey",
+          "slap_id": "1420"
+        },
+        {
+          "role": "player",
+          "steam_name": "Renard_",
+          "slap_id": "212"
+        }
+      ],
+      "slap_ids": [
+        "503",
+        "513",
+        "197140",
+        "1420",
+        "212"
+      ]
+    },
+    "away_roster": {
+      "team_id": "hagerstown_heroes",
+      "team_display_name": "Hagerstown Heroes",
+      "team": "Hagerstown Heroes",
+      "team_abbreviation": "HHRS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Awlden",
+          "slap_id": "890370"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        },
+        {
+          "role": "player",
+          "steam_name": "Yuvraj",
+          "slap_id": "849146"
+        },
+        {
+          "role": "player",
+          "steam_name": "cavitee",
+          "slap_id": "883507"
+        },
+        {
+          "role": "player",
+          "steam_name": "Andriulous",
+          "slap_id": "2017598"
+        }
+      ],
+      "slap_ids": [
+        "890370",
+        "848840",
+        "849146",
+        "883507",
+        "2017598"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e20": {
+    "match_id": "summer_2026_preseason_east_e20",
+    "schedule_id": "E20",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "okinawa_generations",
+    "home_team": "Okinawa Generations",
+    "away_team_id": "edmonton_bears",
+    "away_team": "Edmonton Bears",
+    "home_roster": {
+      "team_id": "okinawa_generations",
+      "team_display_name": "Okinawa Generations",
+      "team": "Okinawa Generations",
+      "team_abbreviation": "OKG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "[OKG] papa shieldz",
+          "slap_id": "503"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513"
+        },
+        {
+          "role": "player",
+          "steam_name": "[OKG]Pip Starlather",
+          "slap_id": "197140"
+        },
+        {
+          "role": "player",
+          "steam_name": "[OKG]Grey",
+          "slap_id": "1420"
+        },
+        {
+          "role": "player",
+          "steam_name": "Renard_",
+          "slap_id": "212"
+        }
+      ],
+      "slap_ids": [
+        "503",
+        "513",
+        "197140",
+        "1420",
+        "212"
+      ]
+    },
+    "away_roster": {
+      "team_id": "edmonton_bears",
+      "team_display_name": "Edmonton Bears",
+      "team": "Edmonton Bears",
+      "team_abbreviation": "EDM",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Zelviz",
+          "slap_id": "865092"
+        },
+        {
+          "role": "player",
+          "steam_name": "Carti",
+          "slap_id": "1320348"
+        },
+        {
+          "role": "player",
+          "steam_name": "King",
+          "slap_id": "634779"
+        },
+        {
+          "role": "player",
+          "steam_name": "x6c",
+          "slap_id": "871020"
+        }
+      ],
+      "slap_ids": [
+        "865092",
+        "1320348",
+        "634779",
+        "871020"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e24": {
+    "match_id": "summer_2026_preseason_east_e24",
+    "schedule_id": "E24",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "vader_stars",
+    "home_team": "Vader Stars",
+    "away_team_id": "camden_crook",
+    "away_team": "Camden Crook$",
+    "home_roster": {
+      "team_id": "vader_stars",
+      "team_display_name": "Vader Stars",
+      "team": "Vader Stars",
+      "team_abbreviation": "VAS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mcnulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "40",
+        "600238",
+        "633338"
+      ]
+    },
+    "away_roster": {
+      "team_id": "camden_crook",
+      "team_display_name": "Camden Crook$",
+      "team": "Camden Crook$",
+      "team_abbreviation": "CRKS",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "286293"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "chief",
+          "slap_id": "957603"
+        },
+        {
+          "role": "player",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mr Pigeon",
+          "slap_id": "508645"
+        }
+      ],
+      "slap_ids": [
+        "286293",
+        "183790",
+        "957603",
+        "1378966",
+        "508645"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e26": {
+    "match_id": "summer_2026_preseason_east_e26",
+    "schedule_id": "E26",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "seattle_cyclones",
+    "home_team": "Seattle Cyclones",
+    "away_team_id": "vader_wookies",
+    "away_team": "Vader Wookies",
+    "home_roster": {
+      "team_id": "seattle_cyclones",
+      "team_display_name": "Seattle Cyclones",
+      "team": "Seattle Cyclones",
+      "team_abbreviation": "SEA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "wads",
+          "slap_id": "962536"
+        },
+        {
+          "role": "player",
+          "steam_name": "Gronk",
+          "slap_id": "1232982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Conpeylil",
+          "slap_id": "1009691"
+        }
+      ],
+      "slap_ids": [
+        "962536",
+        "1232982",
+        "1009691"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_wookies",
+      "team_display_name": "Vader Wookies",
+      "team": "Vader Wookies",
+      "team_abbreviation": "WOOK",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": ">:)",
+          "slap_id": "72269"
+        },
+        {
+          "role": "player",
+          "steam_name": "Max",
+          "slap_id": "818797"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Papi Tef",
+          "slap_id": "472364"
+        }
+      ],
+      "slap_ids": [
+        "72269",
+        "818797",
+        "1439105",
+        "472364"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e27": {
+    "match_id": "summer_2026_preseason_east_e27",
+    "schedule_id": "E27",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "seattle_cyclones",
+    "home_team": "Seattle Cyclones",
+    "away_team_id": "gary_glizzy_gobblers",
+    "away_team": "Gary Glizzy Gobblers",
+    "home_roster": {
+      "team_id": "seattle_cyclones",
+      "team_display_name": "Seattle Cyclones",
+      "team": "Seattle Cyclones",
+      "team_abbreviation": "SEA",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "wads",
+          "slap_id": "962536"
+        },
+        {
+          "role": "player",
+          "steam_name": "Gronk",
+          "slap_id": "1232982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Conpeylil",
+          "slap_id": "1009691"
+        }
+      ],
+      "slap_ids": [
+        "962536",
+        "1232982",
+        "1009691"
+      ]
+    },
+    "away_roster": {
+      "team_id": "gary_glizzy_gobblers",
+      "team_display_name": "Gary Glizzy Gobblers",
+      "team": "Gary Glizzy Gobblers",
+      "team_abbreviation": "GGG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Looees",
+          "slap_id": "281017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skeetshooter42",
+          "slap_id": "1329800"
+        },
+        {
+          "role": "player",
+          "steam_name": "Cheddx",
+          "slap_id": "8081"
+        },
+        {
+          "role": "player",
+          "steam_name": "PleZo",
+          "slap_id": "174650"
+        },
+        {
+          "role": "player",
+          "steam_name": "Fee dup laybach",
+          "slap_id": "1528532"
+        }
+      ],
+      "slap_ids": [
+        "281017",
+        "1329800",
+        "8081",
+        "174650",
+        "1528532"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e30": {
+    "match_id": "summer_2026_preseason_east_e30",
+    "schedule_id": "E30",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "vader_wookies",
+    "home_team": "Vader Wookies",
+    "away_team_id": "gary_glizzy_gobblers",
+    "away_team": "Gary Glizzy Gobblers",
+    "home_roster": {
+      "team_id": "vader_wookies",
+      "team_display_name": "Vader Wookies",
+      "team": "Vader Wookies",
+      "team_abbreviation": "WOOK",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": ">:)",
+          "slap_id": "72269"
+        },
+        {
+          "role": "player",
+          "steam_name": "Max",
+          "slap_id": "818797"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Papi Tef",
+          "slap_id": "472364"
+        }
+      ],
+      "slap_ids": [
+        "72269",
+        "818797",
+        "1439105",
+        "472364"
+      ]
+    },
+    "away_roster": {
+      "team_id": "gary_glizzy_gobblers",
+      "team_display_name": "Gary Glizzy Gobblers",
+      "team": "Gary Glizzy Gobblers",
+      "team_abbreviation": "GGG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Looees",
+          "slap_id": "281017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skeetshooter42",
+          "slap_id": "1329800"
+        },
+        {
+          "role": "player",
+          "steam_name": "Cheddx",
+          "slap_id": "8081"
+        },
+        {
+          "role": "player",
+          "steam_name": "PleZo",
+          "slap_id": "174650"
+        },
+        {
+          "role": "player",
+          "steam_name": "Fee dup laybach",
+          "slap_id": "1528532"
+        }
+      ],
+      "slap_ids": [
+        "281017",
+        "1329800",
+        "8081",
+        "174650",
+        "1528532"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e31": {
+    "match_id": "summer_2026_preseason_east_e31",
+    "schedule_id": "E31",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "vader_whiteout",
+    "home_team": "Vader Whiteout",
+    "away_team_id": "no_name_nighthawks",
+    "away_team": "No Name Nighthawks",
+    "home_roster": {
+      "team_id": "vader_whiteout",
+      "team_display_name": "Vader Whiteout",
+      "team": "Vader Whiteout",
+      "team_abbreviation": "VADW",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "BiggieBag",
+          "slap_id": "1288337"
+        },
+        {
+          "role": "player",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "LilCricket",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "MaxZombieJaws",
+          "slap_id": "1124512"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bobby McMann",
+          "slap_id": "769650"
+        }
+      ],
+      "slap_ids": [
+        "1288337",
+        "249493",
+        "1287792",
+        "1124512",
+        "769650"
+      ]
+    },
+    "away_roster": {
+      "team_id": "no_name_nighthawks",
+      "team_display_name": "No Name Nighthawks",
+      "team": "No Name Nighthawks",
+      "team_abbreviation": "NNN",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Noob_Weapons",
+          "slap_id": "87"
+        },
+        {
+          "role": "player",
+          "steam_name": "JoeMer",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "Victon22",
+          "slap_id": "1502807"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "87",
+        "67383",
+        "1502807"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e35": {
+    "match_id": "summer_2026_preseason_east_e35",
+    "schedule_id": "E35",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "whitby_wombats",
+    "home_team": "Whitby Wombats",
+    "away_team_id": "barrie_beaver_brigade",
+    "away_team": "Barrie Beaver Brigade",
+    "home_roster": {
+      "team_id": "whitby_wombats",
+      "team_display_name": "Whitby Wombats",
+      "team": "Whitby Wombats",
+      "team_abbreviation": "WWB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Trayvon",
+          "slap_id": "56496"
+        },
+        {
+          "role": "player",
+          "steam_name": "Nic.",
+          "slap_id": "381872"
+        },
+        {
+          "role": "player",
+          "steam_name": "bick",
+          "slap_id": "381871"
+        },
+        {
+          "role": "player",
+          "steam_name": "diego",
+          "slap_id": "381869"
+        }
+      ],
+      "slap_ids": [
+        "56496",
+        "381872",
+        "381871",
+        "381869"
+      ]
+    },
+    "away_roster": {
+      "team_id": "barrie_beaver_brigade",
+      "team_display_name": "Barrie Beaver Brigade",
+      "team": "Barrie Beaver Brigade",
+      "team_abbreviation": "BBB",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "ScitruS",
+          "slap_id": "2069819"
+        },
+        {
+          "role": "player",
+          "steam_name": "Shloompa",
+          "slap_id": "979880"
+        },
+        {
+          "role": "player",
+          "steam_name": "SemenSlayer",
+          "slap_id": "1427595"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lathyros",
+          "slap_id": "604541"
+        }
+      ],
+      "slap_ids": [
+        "2069819",
+        "979880",
+        "1427595",
+        "604541"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e44": {
+    "match_id": "summer_2026_preseason_east_e44",
+    "schedule_id": "E44",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "ottawa_valley_slappers_with_attitude",
+    "home_team": "Ottawa Valley Slappers With Attitude",
+    "away_team_id": "north_carolina_sap",
+    "away_team": "North Carolina S.A.P",
+    "home_roster": {
+      "team_id": "ottawa_valley_slappers_with_attitude",
+      "team_display_name": "Ottawa Valley Slappers With Attitude",
+      "team": "Ottawa Valley Slappers With Attitude",
+      "team_abbreviation": "S.W.A",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Inph1del",
+          "slap_id": "6803"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crayon",
+          "slap_id": "61597"
+        },
+        {
+          "role": "player",
+          "steam_name": "JG Wentworth 877-Cash-Now",
+          "slap_id": "1591253"
+        },
+        {
+          "role": "player",
+          "steam_name": "800-588-2300 Empire Today",
+          "slap_id": "1591250"
+        },
+        {
+          "role": "player",
+          "steam_name": "Glitch",
+          "slap_id": "18350"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "6803",
+        "61597",
+        "1591253",
+        "1591250",
+        "18350"
+      ]
+    },
+    "away_roster": {
+      "team_id": "north_carolina_sap",
+      "team_display_name": "North Carolina S.A.P",
+      "team": "North Carolina S.A.P",
+      "team_abbreviation": "SAP",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "chicken_brothers",
+          "slap_id": "1254826"
+        },
+        {
+          "role": "player",
+          "steam_name": "JumpStudios",
+          "slap_id": "1255009"
+        },
+        {
+          "role": "player",
+          "steam_name": "imokimalive",
+          "slap_id": "1252384"
+        }
+      ],
+      "slap_ids": [
+        "1254826",
+        "1255009",
+        "1252384"
+      ]
+    }
+  },
+  "summer_2026_preseason_east_e46": {
+    "match_id": "summer_2026_preseason_east_e46",
+    "schedule_id": "E46",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "east",
+    "region_display": "East",
+    "home_team_id": "barrie_ice_hounds",
+    "home_team": "Barrie Ice Hounds",
+    "away_team_id": "arnold_ashtrays",
+    "away_team": "Arnold Ashtrays",
+    "home_roster": {
+      "team_id": "barrie_ice_hounds",
+      "team_display_name": "Barrie Ice Hounds",
+      "team": "Barrie Ice Hounds",
+      "team_abbreviation": "BIH",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Beefus",
+          "slap_id": "134924"
+        },
+        {
+          "role": "player",
+          "steam_name": "Stim",
+          "slap_id": "1319952"
+        },
+        {
+          "role": "player",
+          "steam_name": "lmb",
+          "slap_id": "1325186"
+        },
+        {
+          "role": "player",
+          "steam_name": "special son",
+          "slap_id": "2037465"
+        },
+        {
+          "role": "player",
+          "steam_name": "Camden.mp4",
+          "slap_id": "1853453"
+        }
+      ],
+      "slap_ids": [
+        "134924",
+        "1319952",
+        "1325186",
+        "2037465",
+        "1853453"
+      ]
+    },
+    "away_roster": {
+      "team_id": "arnold_ashtrays",
+      "team_display_name": "Arnold Ashtrays",
+      "team": "Arnold Ashtrays",
+      "team_abbreviation": "PPG",
+      "region": "main slapshot league (east)",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "lilcricket26",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "komizzy_",
+          "slap_id": "1891105"
+        },
+        {
+          "role": "player",
+          "steam_name": "daguest210",
+          "slap_id": "1275507"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mrbarnacle",
+          "slap_id": "1888210"
+        }
+      ],
+      "slap_ids": [
+        "1287792",
+        "1891105",
+        "1275507",
+        "1888210"
+      ]
+    }
+  },
+  "summer_2026_preseason_central_c10": {
+    "match_id": "summer_2026_preseason_central_c10",
+    "schedule_id": "C10",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "home_team_id": "brampton_cows",
+    "home_team": "Brampton Cows",
+    "away_team_id": "battle_creek_kings",
+    "away_team": "Battle Creek Kings",
+    "home_roster": {
+      "team_id": "brampton_cows",
+      "team_display_name": "Brampton Cows",
+      "team": "Brampton Cows",
+      "team_abbreviation": "BRC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1282529",
+        "186627",
+        "758362",
+        "633338"
+      ]
+    },
+    "away_roster": {
+      "team_id": "battle_creek_kings",
+      "team_display_name": "Battle Creek Kings",
+      "team": "Battle Creek Kings",
+      "team_abbreviation": "BACK",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Joe",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "SPMZ",
+          "slap_id": "941924"
+        },
+        {
+          "role": "player",
+          "steam_name": "SemenSlayer",
+          "slap_id": "1427595"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "67383",
+        "941924",
+        "1427595"
+      ]
+    }
+  },
+  "summer_2026_preseason_central_c11": {
+    "match_id": "summer_2026_preseason_central_c11",
+    "schedule_id": "C11",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "home_team_id": "brampton_cows",
+    "home_team": "Brampton Cows",
+    "away_team_id": "farmington_pilot_knobbers",
+    "away_team": "Farmington Pilot Knobbers",
+    "home_roster": {
+      "team_id": "brampton_cows",
+      "team_display_name": "Brampton Cows",
+      "team": "Brampton Cows",
+      "team_abbreviation": "BRC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1282529",
+        "186627",
+        "758362",
+        "633338"
+      ]
+    },
+    "away_roster": {
+      "team_id": "farmington_pilot_knobbers",
+      "team_display_name": "Farmington Pilot Knobbers",
+      "team": "Farmington Pilot Knobbers",
+      "team_abbreviation": "FPK",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Carried By Dad",
+          "slap_id": "323270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Olenikiboy",
+          "slap_id": "636982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Smellfuzz",
+          "slap_id": "640618"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kjayrage",
+          "slap_id": "637921"
+        },
+        {
+          "role": "player",
+          "steam_name": "Beefy T's",
+          "slap_id": "1757156"
+        }
+      ],
+      "slap_ids": [
+        "323270",
+        "636982",
+        "640618",
+        "637921",
+        "1757156"
+      ]
+    }
+  },
+  "summer_2026_preseason_central_c12": {
+    "match_id": "summer_2026_preseason_central_c12",
+    "schedule_id": "C12",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "home_team_id": "battle_creek_kings",
+    "home_team": "Battle Creek Kings",
+    "away_team_id": "farmington_pilot_knobbers",
+    "away_team": "Farmington Pilot Knobbers",
+    "home_roster": {
+      "team_id": "battle_creek_kings",
+      "team_display_name": "Battle Creek Kings",
+      "team": "Battle Creek Kings",
+      "team_abbreviation": "BACK",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Joe",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "SPMZ",
+          "slap_id": "941924"
+        },
+        {
+          "role": "player",
+          "steam_name": "SemenSlayer",
+          "slap_id": "1427595"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "67383",
+        "941924",
+        "1427595"
+      ]
+    },
+    "away_roster": {
+      "team_id": "farmington_pilot_knobbers",
+      "team_display_name": "Farmington Pilot Knobbers",
+      "team": "Farmington Pilot Knobbers",
+      "team_abbreviation": "FPK",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Carried By Dad",
+          "slap_id": "323270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Olenikiboy",
+          "slap_id": "636982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Smellfuzz",
+          "slap_id": "640618"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kjayrage",
+          "slap_id": "637921"
+        },
+        {
+          "role": "player",
+          "steam_name": "Beefy T's",
+          "slap_id": "1757156"
+        }
+      ],
+      "slap_ids": [
+        "323270",
+        "636982",
+        "640618",
+        "637921",
+        "1757156"
+      ]
+    }
+  },
+  "summer_2026_preseason_central_c13": {
+    "match_id": "summer_2026_preseason_central_c13",
+    "schedule_id": "C13",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "home_team_id": "atlantic_city_zootiez",
+    "home_team": "Atlantic City Zootiez$",
+    "away_team_id": "vader_inquisitors",
+    "away_team": "Vader Inquisitors",
+    "home_roster": {
+      "team_id": "atlantic_city_zootiez",
+      "team_display_name": "Atlantic City Zootiez$",
+      "team": "Atlantic City Zootiez$",
+      "team_abbreviation": "ACZ",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "950305"
+        },
+        {
+          "role": "player",
+          "steam_name": "midget",
+          "slap_id": "948283"
+        },
+        {
+          "role": "player",
+          "steam_name": ">:)",
+          "slap_id": "72269"
+        },
+        {
+          "role": "player",
+          "steam_name": "Nayr[QC]",
+          "slap_id": "286293"
+        }
+      ],
+      "slap_ids": [
+        "950305",
+        "948283",
+        "72269",
+        "286293"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_inquisitors",
+      "team_display_name": "Vader Inquisitors",
+      "team": "Vader Inquisitors",
+      "team_abbreviation": "VADI",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Teddy Bluegar",
+          "slap_id": "848840"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "1439105",
+        "1689859",
+        "848840"
+      ]
+    }
+  },
+  "summer_2026_preseason_central_c20": {
+    "match_id": "summer_2026_preseason_central_c20",
+    "schedule_id": "C20",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "home_team_id": "lakeshore_loons",
+    "home_team": "Lakeshore Loons",
+    "away_team_id": "ottawa_valley_bass_slappers",
+    "away_team": "Ottawa Valley Bass Slappers",
+    "home_roster": {
+      "team_id": "lakeshore_loons",
+      "team_display_name": "Lakeshore Loons",
+      "team": "Lakeshore Loons",
+      "team_abbreviation": "LOON",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "West",
+          "slap_id": "1450864"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jot",
+          "slap_id": "1452681"
+        },
+        {
+          "role": "player",
+          "steam_name": "frosty",
+          "slap_id": "1450531"
+        },
+        {
+          "role": "player",
+          "steam_name": "Rocker`",
+          "slap_id": "1450474"
+        }
+      ],
+      "slap_ids": [
+        "1450864",
+        "1452681",
+        "1450531",
+        "1450474"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_bass_slappers",
+      "team_display_name": "Ottawa Valley Bass Slappers",
+      "team": "Ottawa Valley Bass Slappers",
+      "team_abbreviation": "OVBS",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Noob_Weapons",
+          "slap_id": "87"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513"
+        },
+        {
+          "role": "player",
+          "steam_name": "GiraffeKiller",
+          "slap_id": "1314542"
+        },
+        {
+          "role": "player",
+          "steam_name": "Dionysus",
+          "slap_id": "87468"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kavorka",
+          "slap_id": "816852"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "87",
+        "513",
+        "1314542",
+        "87468",
+        "816852"
+      ]
+    }
   }
 }

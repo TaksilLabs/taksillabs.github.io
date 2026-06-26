@@ -1,25 +1,134 @@
 [
   {
     "rank": 1,
-    "team_id": "atlantic_city_zootiez",
-    "team": "Atlantic City Zootiez$",
-    "team_display_name": "Atlantic City Zootiez$",
+    "team_id": "battle_creek_kings",
+    "team": "Battle Creek Kings",
+    "team_display_name": "Battle Creek Kings",
     "region": "central",
     "region_display": "Central",
     "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
+    "games_played": 2,
+    "wins": 2,
     "regulation_losses": 0,
     "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
+    "points": 4,
+    "goals_for": 22,
+    "goals_against": 10,
+    "goal_diff": 12,
+    "last_5": "2-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c10",
+        "schedule_id": "C10",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 10,
+        "goals_against": 8
+      },
+      {
+        "match_id": "summer_2026_preseason_central_c12",
+        "schedule_id": "C12",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 12,
+        "goals_against": 2
+      }
+    ]
   },
   {
     "rank": 2,
+    "team_id": "brampton_cows",
+    "team": "Brampton Cows",
+    "team_display_name": "Brampton Cows",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 1,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 19,
+    "goals_against": 11,
+    "goal_diff": 8,
+    "last_5": "1-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c10",
+        "schedule_id": "C10",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 10
+      },
+      {
+        "match_id": "summer_2026_preseason_central_c11",
+        "schedule_id": "C11",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 11,
+        "goals_against": 1
+      }
+    ]
+  },
+  {
+    "rank": 3,
+    "team_id": "ottawa_valley_bass_slappers",
+    "team": "Ottawa Valley Bass Slappers",
+    "team_display_name": "Ottawa Valley Bass Slappers",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 8,
+    "goals_against": 5,
+    "goal_diff": 3,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c20",
+        "schedule_id": "C20",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 5
+      }
+    ]
+  },
+  {
+    "rank": 4,
+    "team_id": "vader_inquisitors",
+    "team": "Vader Inquisitors",
+    "team_display_name": "Vader Inquisitors",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 6,
+    "goals_against": 3,
+    "goal_diff": 3,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c13",
+        "schedule_id": "C13",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 6,
+        "goals_against": 3
+      }
+    ]
+  },
+  {
+    "rank": 5,
     "team_id": "barcelona_bobos_prep_academy",
     "team": "Barcelona Bobos Prep Academy",
     "team_display_name": "Barcelona Bobos Prep Academy",
@@ -38,7 +147,7 @@
     "last_5_games": []
   },
   {
-    "rank": 3,
+    "rank": 6,
     "team_id": "barrie_bag_chasers",
     "team": "Barrie Bag Chasers",
     "team_display_name": "Barrie Bag Chasers",
@@ -57,7 +166,7 @@
     "last_5_games": []
   },
   {
-    "rank": 4,
+    "rank": 7,
     "team_id": "barrie_belgian_waffles",
     "team": "Barrie Belgian Waffles",
     "team_display_name": "Barrie Belgian Waffles",
@@ -76,7 +185,7 @@
     "last_5_games": []
   },
   {
-    "rank": 5,
+    "rank": 8,
     "team_id": "baton_rouge_bobos",
     "team": "Baton Rouge Bobos",
     "team_display_name": "Baton Rouge Bobos",
@@ -95,26 +204,7 @@
     "last_5_games": []
   },
   {
-    "rank": 6,
-    "team_id": "battle_creek_kings",
-    "team": "Battle Creek Kings",
-    "team_display_name": "Battle Creek Kings",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 7,
+    "rank": 9,
     "team_id": "boston_shufflebottoms",
     "team": "Boston Shufflebottoms",
     "team_display_name": "Boston Shufflebottoms",
@@ -133,26 +223,7 @@
     "last_5_games": []
   },
   {
-    "rank": 8,
-    "team_id": "brampton_cows",
-    "team": "Brampton Cows",
-    "team_display_name": "Brampton Cows",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 9,
+    "rank": 10,
     "team_id": "camrose_cats",
     "team": "Camrose Cats",
     "team_display_name": "Camrose Cats",
@@ -171,7 +242,7 @@
     "last_5_games": []
   },
   {
-    "rank": 10,
+    "rank": 11,
     "team_id": "detroit_droids",
     "team": "Detroit Droids",
     "team_display_name": "Detroit Droids",
@@ -190,64 +261,7 @@
     "last_5_games": []
   },
   {
-    "rank": 11,
-    "team_id": "farmington_pilot_knobbers",
-    "team": "Farmington Pilot Knobbers",
-    "team_display_name": "Farmington Pilot Knobbers",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
     "rank": 12,
-    "team_id": "lakeshore_loons",
-    "team": "Lakeshore Loons",
-    "team_display_name": "Lakeshore Loons",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 13,
-    "team_id": "ottawa_valley_bass_slappers",
-    "team": "Ottawa Valley Bass Slappers",
-    "team_display_name": "Ottawa Valley Bass Slappers",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 14,
     "team_id": "ottawa_valley_cool_cats",
     "team": "Ottawa Valley Cool Cats",
     "team_display_name": "Ottawa Valley Cool Cats",
@@ -266,7 +280,7 @@
     "last_5_games": []
   },
   {
-    "rank": 15,
+    "rank": 13,
     "team_id": "ottawa_valley_puck_masters",
     "team": "Ottawa Valley Puck Masters",
     "team_display_name": "Ottawa Valley Puck Masters",
@@ -285,7 +299,7 @@
     "last_5_games": []
   },
   {
-    "rank": 16,
+    "rank": 14,
     "team_id": "ushl_prospects",
     "team": "USHL Prospects",
     "team_display_name": "USHL Prospects",
@@ -304,7 +318,7 @@
     "last_5_games": []
   },
   {
-    "rank": 17,
+    "rank": 15,
     "team_id": "vader_66ers",
     "team": "Vader 66ers",
     "team_display_name": "Vader 66ers",
@@ -323,7 +337,7 @@
     "last_5_games": []
   },
   {
-    "rank": 18,
+    "rank": 16,
     "team_id": "vader_bounty_hunters",
     "team": "Vader Bounty Hunters",
     "team_display_name": "Vader Bounty Hunters",
@@ -342,26 +356,7 @@
     "last_5_games": []
   },
   {
-    "rank": 19,
-    "team_id": "vader_inquisitors",
-    "team": "Vader Inquisitors",
-    "team_display_name": "Vader Inquisitors",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 20,
+    "rank": 17,
     "team_id": "vader_revanites",
     "team": "Vader Revanites",
     "team_display_name": "Vader Revanites",
@@ -380,7 +375,7 @@
     "last_5_games": []
   },
   {
-    "rank": 21,
+    "rank": 18,
     "team_id": "vader_saboteurs",
     "team": "Vader Saboteurs",
     "team_display_name": "Vader Saboteurs",
@@ -399,7 +394,7 @@
     "last_5_games": []
   },
   {
-    "rank": 22,
+    "rank": 19,
     "team_id": "vader_starkillers_central",
     "team": "Vader Starkillers Central",
     "team_display_name": "Vader Starkillers Central",
@@ -418,7 +413,7 @@
     "last_5_games": []
   },
   {
-    "rank": 23,
+    "rank": 20,
     "team_id": "vader_vanquishers",
     "team": "Vader Vanquishers",
     "team_display_name": "Vader Vanquishers",
@@ -437,7 +432,7 @@
     "last_5_games": []
   },
   {
-    "rank": 24,
+    "rank": 21,
     "team_id": "vader_voltage_central",
     "team": "Vader Voltage - Central",
     "team_display_name": "Vader Voltage - Central",
@@ -456,7 +451,7 @@
     "last_5_games": []
   },
   {
-    "rank": 25,
+    "rank": 22,
     "team_id": "windy_city_walruses",
     "team": "Windy City Walruses",
     "team_display_name": "Windy City Walruses",
@@ -475,7 +470,7 @@
     "last_5_games": []
   },
   {
-    "rank": 26,
+    "rank": 23,
     "team_id": "yukon_yetis",
     "team": "Yukon Yetis",
     "team_display_name": "Yukon Yetis",
@@ -492,6 +487,98 @@
     "goal_diff": 0,
     "last_5": "0-0-0",
     "last_5_games": []
+  },
+  {
+    "rank": 24,
+    "team_id": "lakeshore_loons",
+    "team": "Lakeshore Loons",
+    "team_display_name": "Lakeshore Loons",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 5,
+    "goals_against": 8,
+    "goal_diff": -3,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c20",
+        "schedule_id": "C20",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 5,
+        "goals_against": 8
+      }
+    ]
+  },
+  {
+    "rank": 25,
+    "team_id": "atlantic_city_zootiez",
+    "team": "Atlantic City Zootiez$",
+    "team_display_name": "Atlantic City Zootiez$",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 3,
+    "goals_against": 6,
+    "goal_diff": -3,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c13",
+        "schedule_id": "C13",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 3,
+        "goals_against": 6
+      }
+    ]
+  },
+  {
+    "rank": 26,
+    "team_id": "farmington_pilot_knobbers",
+    "team": "Farmington Pilot Knobbers",
+    "team_display_name": "Farmington Pilot Knobbers",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 0,
+    "regulation_losses": 2,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 3,
+    "goals_against": 23,
+    "goal_diff": -20,
+    "last_5": "0-2-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c11",
+        "schedule_id": "C11",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 1,
+        "goals_against": 11
+      },
+      {
+        "match_id": "summer_2026_preseason_central_c12",
+        "schedule_id": "C12",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 2,
+        "goals_against": 12
+      }
+    ]
   },
   {
     "rank": 1,
@@ -539,6 +626,78 @@
   },
   {
     "rank": 2,
+    "team_id": "okinawa_generations",
+    "team": "Okinawa Generations",
+    "team_display_name": "Okinawa Generations",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 2,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 4,
+    "goals_for": 18,
+    "goals_against": 4,
+    "goal_diff": 14,
+    "last_5": "2-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e19",
+        "schedule_id": "E19",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 11,
+        "goals_against": 1
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e20",
+        "schedule_id": "E20",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 7,
+        "goals_against": 3
+      }
+    ]
+  },
+  {
+    "rank": 3,
+    "team_id": "vader_wookies",
+    "team": "Vader Wookies",
+    "team_display_name": "Vader Wookies",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 2,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 4,
+    "goals_for": 16,
+    "goals_against": 6,
+    "goal_diff": 10,
+    "last_5": "2-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e26",
+        "schedule_id": "E26",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 4
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e30",
+        "schedule_id": "E30",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 2
+      }
+    ]
+  },
+  {
+    "rank": 4,
     "team_id": "pittsburgh_volts",
     "team": "Pittsburgh Volts",
     "team_display_name": "Pittsburgh Volts",
@@ -582,10 +741,102 @@
     ]
   },
   {
-    "rank": 3,
-    "team_id": "edmonton_bears",
-    "team": "Edmonton Bears",
-    "team_display_name": "Edmonton Bears",
+    "rank": 5,
+    "team_id": "vader_stars",
+    "team": "Vader Stars",
+    "team_display_name": "Vader Stars",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 2,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 4,
+    "goals_for": 12,
+    "goals_against": 9,
+    "goal_diff": 3,
+    "last_5": "2-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e22",
+        "schedule_id": "E22",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 6
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e24",
+        "schedule_id": "E24",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 4,
+        "goals_against": 3
+      }
+    ]
+  },
+  {
+    "rank": 6,
+    "team_id": "ottawa_valley_slappers_with_attitude",
+    "team": "Ottawa Valley Slappers With Attitude",
+    "team_display_name": "Ottawa Valley Slappers With Attitude",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 10,
+    "goals_against": 0,
+    "goal_diff": 10,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e44",
+        "schedule_id": "E44",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 10,
+        "goals_against": 0
+      }
+    ]
+  },
+  {
+    "rank": 7,
+    "team_id": "barrie_ice_hounds",
+    "team": "Barrie Ice Hounds",
+    "team_display_name": "Barrie Ice Hounds",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 10,
+    "goals_against": 5,
+    "goal_diff": 5,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e46",
+        "schedule_id": "E46",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 10,
+        "goals_against": 5
+      }
+    ]
+  },
+  {
+    "rank": 8,
+    "team_id": "vader_voltage",
+    "team": "Vader Voltage",
+    "team_display_name": "Vader Voltage",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
@@ -595,10 +846,82 @@
     "overtime_losses": 0,
     "points": 2,
     "goals_for": 8,
-    "goals_against": 3,
-    "goal_diff": 5,
+    "goals_against": 5,
+    "goal_diff": 3,
     "last_5": "1-0-0",
     "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e10",
+        "schedule_id": "E10",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 5
+      }
+    ]
+  },
+  {
+    "rank": 9,
+    "team_id": "seattle_cyclones",
+    "team": "Seattle Cyclones",
+    "team_display_name": "Seattle Cyclones",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 1,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 12,
+    "goals_against": 11,
+    "goal_diff": 1,
+    "last_5": "1-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e26",
+        "schedule_id": "E26",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 4,
+        "goals_against": 8
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e27",
+        "schedule_id": "E27",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 3
+      }
+    ]
+  },
+  {
+    "rank": 10,
+    "team_id": "edmonton_bears",
+    "team": "Edmonton Bears",
+    "team_display_name": "Edmonton Bears",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 1,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 11,
+    "goals_against": 10,
+    "goal_diff": 1,
+    "last_5": "1-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e20",
+        "schedule_id": "E20",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 3,
+        "goals_against": 7
+      },
       {
         "match_id": "summer_2026_preseason_east_e21",
         "schedule_id": "E21",
@@ -610,10 +933,10 @@
     ]
   },
   {
-    "rank": 4,
-    "team_id": "vader_stars",
-    "team": "Vader Stars",
-    "team_display_name": "Vader Stars",
+    "rank": 11,
+    "team_id": "barrie_beaver_brigade",
+    "team": "Barrie Beaver Brigade",
+    "team_display_name": "Barrie Beaver Brigade",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
@@ -623,22 +946,50 @@
     "overtime_losses": 0,
     "points": 2,
     "goals_for": 8,
-    "goals_against": 6,
-    "goal_diff": 2,
+    "goals_against": 7,
+    "goal_diff": 1,
     "last_5": "1-0-0",
     "last_5_games": [
       {
-        "match_id": "summer_2026_preseason_east_e22",
-        "schedule_id": "E22",
+        "match_id": "summer_2026_preseason_east_e35",
+        "schedule_id": "E35",
         "result": "W",
-        "overtime": false,
+        "overtime": true,
         "goals_for": 8,
-        "goals_against": 6
+        "goals_against": 7
       }
     ]
   },
   {
-    "rank": 5,
+    "rank": 12,
+    "team_id": "no_name_nighthawks",
+    "team": "No Name Nighthawks",
+    "team_display_name": "No Name Nighthawks",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 6,
+    "goals_against": 5,
+    "goal_diff": 1,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e31",
+        "schedule_id": "E31",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 6,
+        "goals_against": 5
+      }
+    ]
+  },
+  {
+    "rank": 13,
     "team_id": "beverly_hills_bobos",
     "team": "Beverly Hills Bobos",
     "team_display_name": "Beverly Hills Bobos",
@@ -682,26 +1033,35 @@
     ]
   },
   {
-    "rank": 6,
-    "team_id": "arnold_ashtrays",
-    "team": "Arnold Ashtrays",
-    "team_display_name": "Arnold Ashtrays",
+    "rank": 14,
+    "team_id": "whitby_wombats",
+    "team": "Whitby Wombats",
+    "team_display_name": "Whitby Wombats",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
-    "games_played": 0,
+    "games_played": 1,
     "wins": 0,
     "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
+    "overtime_losses": 1,
+    "points": 1,
+    "goals_for": 7,
+    "goals_against": 8,
+    "goal_diff": -1,
+    "last_5": "0-0-1",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e35",
+        "schedule_id": "E35",
+        "result": "OTL",
+        "overtime": true,
+        "goals_for": 7,
+        "goals_against": 8
+      }
+    ]
   },
   {
-    "rank": 7,
+    "rank": 15,
     "team_id": "atlanta_aces",
     "team": "Atlanta Aces",
     "team_display_name": "Atlanta Aces",
@@ -720,45 +1080,7 @@
     "last_5_games": []
   },
   {
-    "rank": 8,
-    "team_id": "barrie_beaver_brigade",
-    "team": "Barrie Beaver Brigade",
-    "team_display_name": "Barrie Beaver Brigade",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 9,
-    "team_id": "barrie_ice_hounds",
-    "team": "Barrie Ice Hounds",
-    "team_display_name": "Barrie Ice Hounds",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 10,
+    "rank": 16,
     "team_id": "beauport_lynx",
     "team": "Beauport Lynx",
     "team_display_name": "Beauport Lynx",
@@ -777,7 +1099,7 @@
     "last_5_games": []
   },
   {
-    "rank": 11,
+    "rank": 17,
     "team_id": "bedford_bobos_preparatory_academy",
     "team": "Bedford Bobos Preparatory Academy",
     "team_display_name": "Bedford Bobos Preparatory Academy",
@@ -796,7 +1118,7 @@
     "last_5_games": []
   },
   {
-    "rank": 12,
+    "rank": 18,
     "team_id": "birmingham_bobos",
     "team": "Birmingham Bobos",
     "team_display_name": "Birmingham Bobos",
@@ -815,7 +1137,7 @@
     "last_5_games": []
   },
   {
-    "rank": 13,
+    "rank": 19,
     "team_id": "boston_bahds",
     "team": "Boston Bahds",
     "team_display_name": "Boston Bahds",
@@ -834,7 +1156,7 @@
     "last_5_games": []
   },
   {
-    "rank": 14,
+    "rank": 20,
     "team_id": "boston_bobos",
     "team": "Boston Bobos",
     "team_display_name": "Boston Bobos",
@@ -853,26 +1175,7 @@
     "last_5_games": []
   },
   {
-    "rank": 15,
-    "team_id": "camden_crook",
-    "team": "Camden Crook$",
-    "team_display_name": "Camden Crook$",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 16,
+    "rank": 21,
     "team_id": "champaign_champagne",
     "team": "Champaign Champagne",
     "team_display_name": "Champaign Champagne",
@@ -891,7 +1194,7 @@
     "last_5_games": []
   },
   {
-    "rank": 17,
+    "rank": 22,
     "team_id": "chicago_sky_scrapers",
     "team": "Chicago Sky Scrapers",
     "team_display_name": "Chicago Sky Scrapers",
@@ -910,45 +1213,7 @@
     "last_5_games": []
   },
   {
-    "rank": 18,
-    "team_id": "cold_lake_upper_deckies",
-    "team": "Cold Lake Upper Deckies",
-    "team_display_name": "Cold Lake Upper Deckies",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 19,
-    "team_id": "gary_glizzy_gobblers",
-    "team": "Gary Glizzy Gobblers",
-    "team_display_name": "Gary Glizzy Gobblers",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 20,
+    "rank": 23,
     "team_id": "greensboro_goosans",
     "team": "Greensboro Goosans",
     "team_display_name": "Greensboro Goosans",
@@ -967,7 +1232,7 @@
     "last_5_games": []
   },
   {
-    "rank": 21,
+    "rank": 24,
     "team_id": "long_island_lightning",
     "team": "Long Island Lightning",
     "team_display_name": "Long Island Lightning",
@@ -986,67 +1251,10 @@
     "last_5_games": []
   },
   {
-    "rank": 22,
+    "rank": 25,
     "team_id": "miami_muffins",
     "team": "Miami Muffins",
     "team_display_name": "Miami Muffins",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 23,
-    "team_id": "no_name_nighthawks",
-    "team": "No Name Nighthawks",
-    "team_display_name": "No Name Nighthawks",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 24,
-    "team_id": "north_carolina_sap",
-    "team": "North Carolina S.A.P",
-    "team_display_name": "North Carolina S.A.P",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 25,
-    "team_id": "okinawa_generations",
-    "team": "Okinawa Generations",
-    "team_display_name": "Okinawa Generations",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
@@ -1082,25 +1290,6 @@
   },
   {
     "rank": 27,
-    "team_id": "ottawa_valley_slappers_with_attitude",
-    "team": "Ottawa Valley Slappers With Attitude",
-    "team_display_name": "Ottawa Valley Slappers With Attitude",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 28,
     "team_id": "pawnee_post_syrup_intake_authority",
     "team": "Pawnee Post Syrup Intake Authority",
     "team_display_name": "Pawnee Post Syrup Intake Authority",
@@ -1119,7 +1308,7 @@
     "last_5_games": []
   },
   {
-    "rank": 29,
+    "rank": 28,
     "team_id": "quebec_flare",
     "team": "Quebec Flare",
     "team_display_name": "Quebec Flare",
@@ -1138,26 +1327,7 @@
     "last_5_games": []
   },
   {
-    "rank": 30,
-    "team_id": "seattle_cyclones",
-    "team": "Seattle Cyclones",
-    "team_display_name": "Seattle Cyclones",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 31,
+    "rank": 29,
     "team_id": "vader_acolytes",
     "team": "Vader Acolytes",
     "team_display_name": "Vader Acolytes",
@@ -1176,7 +1346,7 @@
     "last_5_games": []
   },
   {
-    "rank": 32,
+    "rank": 30,
     "team_id": "vader_eastern_attackers",
     "team": "Vader Eastern Attackers",
     "team_display_name": "Vader Eastern Attackers",
@@ -1195,7 +1365,7 @@
     "last_5_games": []
   },
   {
-    "rank": 33,
+    "rank": 31,
     "team_id": "vader_starkillers_east",
     "team": "Vader Starkillers East",
     "team_display_name": "Vader Starkillers East",
@@ -1214,83 +1384,7 @@
     "last_5_games": []
   },
   {
-    "rank": 34,
-    "team_id": "vader_voltage",
-    "team": "Vader Voltage",
-    "team_display_name": "Vader Voltage",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 35,
-    "team_id": "vader_whiteout",
-    "team": "Vader Whiteout",
-    "team_display_name": "Vader Whiteout",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 36,
-    "team_id": "vader_wookies",
-    "team": "Vader Wookies",
-    "team_display_name": "Vader Wookies",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 37,
-    "team_id": "whitby_wombats",
-    "team": "Whitby Wombats",
-    "team_display_name": "Whitby Wombats",
-    "region": "east",
-    "region_display": "East",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 38,
+    "rank": 32,
     "team_id": "yucatn_yetis",
     "team": "Yucatán Yetis",
     "team_display_name": "Yucatán Yetis",
@@ -1309,7 +1403,63 @@
     "last_5_games": []
   },
   {
-    "rank": 39,
+    "rank": 33,
+    "team_id": "vader_whiteout",
+    "team": "Vader Whiteout",
+    "team_display_name": "Vader Whiteout",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 5,
+    "goals_against": 6,
+    "goal_diff": -1,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e31",
+        "schedule_id": "E31",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 5,
+        "goals_against": 6
+      }
+    ]
+  },
+  {
+    "rank": 34,
+    "team_id": "camden_crook",
+    "team": "Camden Crook$",
+    "team_display_name": "Camden Crook$",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 3,
+    "goals_against": 4,
+    "goal_diff": -1,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e24",
+        "schedule_id": "E24",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 3,
+        "goals_against": 4
+      }
+    ]
+  },
+  {
+    "rank": 35,
     "team_id": "delco_dog_dads",
     "team": "Delco Dog Dads",
     "team_display_name": "Delco Dog Dads",
@@ -1337,10 +1487,10 @@
     ]
   },
   {
-    "rank": 40,
-    "team_id": "hagerstown_heroes",
-    "team": "Hagerstown Heroes",
-    "team_display_name": "Hagerstown Heroes",
+    "rank": 36,
+    "team_id": "cold_lake_upper_deckies",
+    "team": "Cold Lake Upper Deckies",
+    "team_display_name": "Cold Lake Upper Deckies",
     "region": "east",
     "region_display": "East",
     "phase": "preseason",
@@ -1349,23 +1499,115 @@
     "regulation_losses": 1,
     "overtime_losses": 0,
     "points": 0,
-    "goals_for": 3,
+    "goals_for": 5,
     "goals_against": 8,
-    "goal_diff": -5,
+    "goal_diff": -3,
     "last_5": "0-1-0",
     "last_5_games": [
       {
-        "match_id": "summer_2026_preseason_east_e21",
-        "schedule_id": "E21",
+        "match_id": "summer_2026_preseason_east_e10",
+        "schedule_id": "E10",
         "result": "L",
         "overtime": false,
-        "goals_for": 3,
+        "goals_for": 5,
         "goals_against": 8
       }
     ]
   },
   {
-    "rank": 41,
+    "rank": 37,
+    "team_id": "arnold_ashtrays",
+    "team": "Arnold Ashtrays",
+    "team_display_name": "Arnold Ashtrays",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 5,
+    "goals_against": 10,
+    "goal_diff": -5,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e46",
+        "schedule_id": "E46",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 5,
+        "goals_against": 10
+      }
+    ]
+  },
+  {
+    "rank": 38,
+    "team_id": "north_carolina_sap",
+    "team": "North Carolina S.A.P",
+    "team_display_name": "North Carolina S.A.P",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 0,
+    "goals_against": 10,
+    "goal_diff": -10,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e44",
+        "schedule_id": "E44",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 0,
+        "goals_against": 10
+      }
+    ]
+  },
+  {
+    "rank": 39,
+    "team_id": "gary_glizzy_gobblers",
+    "team": "Gary Glizzy Gobblers",
+    "team_display_name": "Gary Glizzy Gobblers",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 0,
+    "regulation_losses": 2,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 5,
+    "goals_against": 16,
+    "goal_diff": -11,
+    "last_5": "0-2-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e27",
+        "schedule_id": "E27",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 3,
+        "goals_against": 8
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e30",
+        "schedule_id": "E30",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 2,
+        "goals_against": 8
+      }
+    ]
+  },
+  {
+    "rank": 40,
     "team_id": "ottawa_valley_puck_slappers",
     "team": "Ottawa Valley Puck Slappers",
     "team_display_name": "Ottawa Valley Puck Slappers",
@@ -1405,6 +1647,42 @@
         "overtime": false,
         "goals_for": 8,
         "goals_against": 9
+      }
+    ]
+  },
+  {
+    "rank": 41,
+    "team_id": "hagerstown_heroes",
+    "team": "Hagerstown Heroes",
+    "team_display_name": "Hagerstown Heroes",
+    "region": "east",
+    "region_display": "East",
+    "phase": "preseason",
+    "games_played": 2,
+    "wins": 0,
+    "regulation_losses": 2,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 4,
+    "goals_against": 19,
+    "goal_diff": -15,
+    "last_5": "0-2-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_east_e19",
+        "schedule_id": "E19",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 1,
+        "goals_against": 11
+      },
+      {
+        "match_id": "summer_2026_preseason_east_e21",
+        "schedule_id": "E21",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 3,
+        "goals_against": 8
       }
     ]
   },
