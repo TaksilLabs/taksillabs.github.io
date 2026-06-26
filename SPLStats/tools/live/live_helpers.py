@@ -92,21 +92,49 @@ def parse_created_timestamp(file_path):
 
 
 def load_json_report(file_path):
-    try:
-        with file_path.open("r", encoding="utf-8") as file:
-            data = json.load(file)
-    except Exception as error:
-        return None, str(error)
+    encodings_to_try = [
+        "utf-8-sig",
+        "utf-8",
+        "cp1252",
+        "latin-1",
+    ]
 
-    created_dt, date = parse_created_timestamp(file_path)
+    raw = file_path.read_bytes()
 
-    return {
-        "file_path": file_path,
-        "data": data,
-        "period": safe_period(data),
-        "created_dt": created_dt,
-        "date": date,
-    }, None
+    if not raw.strip():
+        return None, "Empty JSON file"
+
+    last_decode_error = None
+    last_json_error = None
+
+    for encoding in encodings_to_try:
+        try:
+            text = raw.decode(encoding).lstrip("\ufeff")
+            data = json.loads(text)
+
+            created_dt, date = parse_created_timestamp(file_path)
+
+            return {
+                "file_path": file_path,
+                "data": data,
+                "period": safe_period(data),
+                "created_dt": created_dt,
+                "date": date,
+                "encoding": encoding,
+            }, None
+
+        except UnicodeDecodeError as error:
+            last_decode_error = error
+            continue
+
+        except json.JSONDecodeError as error:
+            last_json_error = error
+            continue
+
+    if last_json_error:
+        return None, f"JSON parse error: {last_json_error}"
+
+    return None, f"Could not decode JSON file with supported encodings: {last_decode_error}"
 
 
 def choose_best_report(reports):

@@ -2348,5 +2348,100 @@
         "816852"
       ]
     }
+  },
+  "summer_2026_preseason_central_c4": {
+    "match_id": "summer_2026_preseason_central_c4",
+    "schedule_id": "C4",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "home_team_id": "detroit_droids",
+    "home_team": "Detroit Droids",
+    "away_team_id": "ottawa_valley_cool_cats",
+    "away_team": "Ottawa Valley Cool Cats",
+    "home_roster": {
+      "team_id": "detroit_droids",
+      "team_display_name": "Detroit Droids",
+      "team": "Detroit Droids",
+      "team_abbreviation": "DTD",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "gold",
+          "slap_id": "914959"
+        },
+        {
+          "role": "player",
+          "steam_name": "nutsack6",
+          "slap_id": "914448"
+        },
+        {
+          "role": "player",
+          "steam_name": "kajun",
+          "slap_id": "19508"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hydroid.",
+          "slap_id": "1836154"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
+        }
+      ],
+      "slap_ids": [
+        "914959",
+        "914448",
+        "19508",
+        "1836154",
+        "1071429"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_cool_cats",
+      "team_display_name": "Ottawa Valley Cool Cats",
+      "team": "Ottawa Valley Cool Cats",
+      "team_abbreviation": "OVCC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sweatshirt",
+          "slap_id": "1856285"
+        },
+        {
+          "role": "player",
+          "steam_name": "Milk",
+          "slap_id": "429195"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jagr",
+          "slap_id": "560316"
+        },
+        {
+          "role": "player",
+          "steam_name": "Panarin",
+          "slap_id": "35"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "1856285",
+        "429195",
+        "560316",
+        "35"
+      ]
+    }
   }
 }
