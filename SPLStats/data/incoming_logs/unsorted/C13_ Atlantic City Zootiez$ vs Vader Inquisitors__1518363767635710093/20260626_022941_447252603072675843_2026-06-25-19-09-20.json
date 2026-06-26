@@ -1,0 +1,135 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 1
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 110,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 4,
+                "score": 170,
+                "blocks": 3,
+                "passes": 4,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 21
+            },
+            "username": "Galalendon",
+            "game_user_id": "249493"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 125,
+                "shots": 1,
+                "passes": 6,
+                "shutouts": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 140,
+                "shots": 2,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 45
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 45,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 6,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1
+            },
+            "username": "Midget",
+            "game_user_id": "948283"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 60,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 10,
+                "post_hits": 2,
+                "takeaways": 2,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 23
+            },
+            "username": "romey",
+            "game_user_id": "183790"
+        }
+    ],
+    "match_id": "e204823a-b591-4782-a5d2-7f0f0d2a43a2",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

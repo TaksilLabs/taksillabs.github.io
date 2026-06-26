@@ -1,0 +1,139 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 2
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 335,
+                "shots": 4,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 3,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 23
+            },
+            "username": ">:)",
+            "game_user_id": "72269"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 50,
+                "shots": 2,
+                "passes": 10,
+                "takeaways": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 11
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 260,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 11,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 47
+            },
+            "username": "CheekyBathtub69",
+            "game_user_id": "818797"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 60,
+                "blocks": 6,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 7,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 23
+            },
+            "username": "Skeetshooter42",
+            "game_user_id": "1329800"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 215,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 3
+            },
+            "username": "fee dup laybach",
+            "game_user_id": "1528532"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 6,
+                "score": 365,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 4,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "Cheddx",
+            "game_user_id": "8081"
+        }
+    ],
+    "match_id": "4d5ebe57-2e2b-471d-b1b4-208037734e04",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

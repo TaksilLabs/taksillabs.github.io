@@ -1,0 +1,140 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 6
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 520,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 10,
+                "assists": 4,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 4,
+                "contributed_goals": 6,
+                "possession_time_sec": 27
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "saves": 1,
+                "score": 625,
+                "shots": 4,
+                "passes": 14,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 2
+            },
+            "username": "Tactical Miss",
+            "game_user_id": "1282529"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 330,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 11,
+                "assists": 2,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 6,
+                "secondary_assists": 2,
+                "possession_time_sec": 29
+            },
+            "username": "Saucy :(",
+            "game_user_id": "758362"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 35,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 4,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 1,
+                "shutouts_against": 1
+            },
+            "username": "Olenikiboy",
+            "game_user_id": "636982"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 30,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 1,
+                "shutouts_against": 1
+            },
+            "username": "Smellfuzz",
+            "game_user_id": "640618"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 50,
+                "shots": 2,
+                "losses": 1,
+                "passes": 2,
+                "post_hits": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 1,
+                "shutouts_against": 1
+            },
+            "username": "Carried By Dad",
+            "game_user_id": "323270"
+        }
+    ],
+    "match_id": "3b9a9b12-59a9-4390-a385-99ef788c78ba",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
