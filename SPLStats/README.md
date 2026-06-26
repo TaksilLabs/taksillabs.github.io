@@ -75,6 +75,3 @@ python tools/live/build_preseason.py
 
 run this from .\SPLStats
 python tools/news_article_builder.py
-
-
-test
