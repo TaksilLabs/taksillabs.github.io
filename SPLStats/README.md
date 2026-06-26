@@ -20,24 +20,42 @@ python build_franchises.py
 python build_team_records.py
 python build_teams.py
 
+
+# ------------------------------------------
+# IGNORE THE ABOVE IF NOT NAMED DARTHTAKSIL
+# ------------------------------------------
+
+This begins the REAL documentation, the above are ancient texts that are only meant to serve as reminders that they exist to their creators.
+
+
+## LOCAL HOSTING THE SITE
+
+Go to /SPLStats/
+cd ~/Documents/DarthLabs/taksillabs.github.io/SPLStats
+
+Run this command
+python3 -m http.server 8000
+
+
+
 ## Updating rosters
 
 run this from .\SPLStats
-py tools/live/active_roster_editor.py
+python tools/live/active_roster_editor.py
 
 
 
 ## Shot Maps
 
 run this from .\SPLStats
-py tools\live\shot_map_editor.py
+python tools\live\shot_map_editor.py
 
 
 
 ## Changing Team Themes
 
 run this from .\SPLStats
-py tools\team_theme_builder.py
+python tools/team_theme_builder.py
 
 
 
@@ -46,14 +64,14 @@ py tools\team_theme_builder.py
 Both these start with New Terminal -> cd SPLStats
 
 To change active rosters:
-py tools\live\active_roster_editor.py
+python tools/live/active_roster_editor.py
 
 When adding a new log run:
-py tools\live\build_preseason.py
+python tools/live/build_preseason.py
 
 
 
 ## Making Articles
 
 run this from .\SPLStats
-py tools\news_article_builder.py
+python tools/news_article_builder.py

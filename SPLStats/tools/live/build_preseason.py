@@ -371,7 +371,52 @@ def build_match_detail(match, report_data, side_mapping):
         "warnings": match.get("warnings", []),
     }
 
-def apply_results(matches, uploaded, roster_lookup):
+def get_snapshot_slap_id_set(roster):
+    slap_ids = set()
+
+    for slap_id in roster.get("slap_ids", []):
+        clean_id = clean_text(slap_id)
+
+        if clean_id:
+            slap_ids.add(clean_id)
+
+    for player in roster.get("players", []):
+        if isinstance(player, dict):
+            clean_id = clean_text(
+                player.get("slap_id")
+                or player.get("game_user_id")
+                or player.get("id")
+            )
+
+            if clean_id:
+                slap_ids.add(clean_id)
+
+    return slap_ids
+
+
+def make_roster_lookup_from_snapshot(match, snapshot):
+    home_team_id = match["home_team_id"]
+    away_team_id = match["away_team_id"]
+
+    home_roster = snapshot.get("home_roster", {})
+    away_roster = snapshot.get("away_roster", {})
+
+    return {
+        home_team_id: get_snapshot_slap_id_set(home_roster),
+        away_team_id: get_snapshot_slap_id_set(away_roster),
+    }
+
+
+def get_side_mapping_roster_lookup(match, active_roster_lookup, roster_snapshots):
+    match_id = match["match_id"]
+    snapshot = roster_snapshots.get(match_id)
+
+    if snapshot:
+        return make_roster_lookup_from_snapshot(match, snapshot), "snapshot"
+
+    return active_roster_lookup, "active_rosters_fallback"
+
+def apply_results(matches, uploaded, active_roster_lookup, roster_snapshots):
     match_details = {}
 
     for match in matches:
@@ -413,11 +458,19 @@ def apply_results(matches, uploaded, roster_lookup):
             chosen["file_path"].relative_to(BASE_DIR)
         ).replace("\\", "/")
 
+        side_mapping_roster_lookup, side_mapping_roster_source = get_side_mapping_roster_lookup(
+            match,
+            active_roster_lookup,
+            roster_snapshots,
+        )
+
         home_score, away_score, side_mapping = get_scores_from_report_with_rosters(
             data,
             match,
-            roster_lookup
+            side_mapping_roster_lookup
         )
+
+        match["side_mapping_roster_source"] = side_mapping_roster_source
 
         match["side_mapping"] = side_mapping.get("mapping")
         match["side_mapping_confidence"] = side_mapping.get("confidence", 0)
@@ -427,7 +480,7 @@ def apply_results(matches, uploaded, roster_lookup):
         if side_mapping.get("mapping") == "unknown":
             match["status"] = "uploaded_score_unknown"
             match["warnings"].append(
-                "Could not confidently map log home/away sides using active rosters"
+                f"Could not confidently map log home/away sides using {side_mapping_roster_source}"
             )
             continue
 
@@ -714,10 +767,16 @@ def main():
     matches = build_schedule()
     uploaded = scan_log_folders()
 
-    roster_lookup = load_active_roster_lookup(ACTIVE_ROSTERS_FILE)
+    active_roster_lookup = load_active_roster_lookup(ACTIVE_ROSTERS_FILE)
     active_rosters = load_active_rosters_full()
+    roster_snapshots = load_existing_roster_snapshots()
 
-    match_details = apply_results(matches, uploaded, roster_lookup)
+    match_details = apply_results(
+        matches,
+        uploaded,
+        active_roster_lookup,
+        roster_snapshots,
+    )
 
     standings = build_standings(matches)
 
@@ -747,7 +806,7 @@ def main():
     print(f"Uploaded match folders found: {len(uploaded)}")
     print(f"Completed matches: {sum(1 for m in matches if m['status'] == 'final')}")
     print(f"Teams in standings: {len(standings)}")
-    print(f"Roster teams loaded: {len(roster_lookup)}")
+    print(f"Roster teams loaded: {len(active_roster_lookup)}")
     print(f"Roster snapshots created: {snapshots_created}")
     print(f"Roster snapshots total: {snapshots_total}")
     print(f"Wrote: {OUT_DIR}")

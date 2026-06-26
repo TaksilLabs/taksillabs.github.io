@@ -28,7 +28,8 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 6,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_east_e5",
@@ -59,7 +60,8 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 6,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_east_e6",
@@ -90,7 +92,8 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 6,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_east_e7",
@@ -121,7 +124,8 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 0,
     "side_mapping_swapped_score": 6,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_east_e8",
@@ -152,7 +156,8 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 0,
     "side_mapping_swapped_score": 6,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_east_e9",
@@ -183,7 +188,8 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 0,
     "side_mapping_swapped_score": 6,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_east_e21",
@@ -214,7 +220,8 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 6,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_east_e22",
@@ -245,7 +252,8 @@
     "side_mapping_confidence": 7,
     "side_mapping_normal_score": 7,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_central_c4",
@@ -312,7 +320,8 @@
     "side_mapping_confidence": 7,
     "side_mapping_normal_score": 7,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_west_w5",
@@ -343,6 +352,7 @@
     "side_mapping_confidence": 6,
     "side_mapping_normal_score": 6,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   }
 ]

@@ -2,3 +2,5 @@ logs/
 *.bak
 __pycache__/
 *.pyc
+.venv/*
+.vscode/

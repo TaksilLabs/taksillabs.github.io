@@ -86,11 +86,6 @@
         },
         {
           "role": "player",
-          "steam_name": "Hodie",
-          "slap_id": "972960"
-        },
-        {
-          "role": "player",
           "steam_name": ">:)",
           "slap_id": "72269"
         },
@@ -103,7 +98,6 @@
       "slap_ids": [
         "950305",
         "948283",
-        "972960",
         "72269",
         "286293"
       ]
@@ -478,25 +472,25 @@
         },
         {
           "role": "player",
-          "steam_name": "Eli",
-          "slap_id": "56239"
-        },
-        {
-          "role": "player",
-          "steam_name": "Enry",
-          "slap_id": "178836"
-        },
-        {
-          "role": "player",
           "steam_name": "Charles",
           "slap_id": "122257"
+        },
+        {
+          "role": "player",
+          "steam_name": "Booya",
+          "slap_id": "1419124"
+        },
+        {
+          "role": "player",
+          "steam_name": "N1xoh",
+          "slap_id": "1766"
         }
       ],
       "slap_ids": [
         "154305",
-        "56239",
-        "178836",
-        "122257"
+        "122257",
+        "1419124",
+        "1766"
       ]
     },
     {
@@ -715,8 +709,8 @@
         },
         {
           "role": "player",
-          "steam_name": "hodie",
-          "slap_id": "972960"
+          "steam_name": "Mr Pigeon",
+          "slap_id": "508645"
         }
       ],
       "slap_ids": [
@@ -724,7 +718,7 @@
         "183790",
         "957603",
         "1378966",
-        "972960"
+        "508645"
       ]
     },
     {
@@ -1021,26 +1015,20 @@
         },
         {
           "role": "player",
-          "steam_name": "jeru",
-          "slap_id": "359314"
-        },
-        {
-          "role": "player",
-          "steam_name": "vorq",
-          "slap_id": "244"
-        },
-        {
-          "role": "player",
           "steam_name": "King",
           "slap_id": "634779"
+        },
+        {
+          "role": "player",
+          "steam_name": "x6c",
+          "slap_id": "871020"
         }
       ],
       "slap_ids": [
         "865092",
         "1320348",
-        "359314",
-        "244",
-        "634779"
+        "634779",
+        "871020"
       ]
     },
     {
@@ -1227,13 +1215,19 @@
           "role": "player",
           "steam_name": "Oblivion",
           "slap_id": "1071429"
+        },
+        {
+          "role": "player",
+          "steam_name": "Scruffy",
+          "slap_id": "267559"
         }
       ],
       "slap_ids": [
         "154305",
         "640761",
         "871020",
-        "1071429"
+        "1071429",
+        "267559"
       ]
     },
     {
@@ -2091,13 +2085,19 @@
           "role": "player",
           "steam_name": "Cman",
           "slap_id": "18011"
+        },
+        {
+          "role": "player",
+          "steam_name": "Midget",
+          "slap_id": "948283"
         }
       ],
       "slap_ids": [
         "1689859",
         "4633",
         "1199765",
-        "18011"
+        "18011",
+        "948283"
       ]
     },
     {
@@ -2383,11 +2383,6 @@
       "region": "west slapshot league",
       "players": [
         {
-          "role": "gm",
-          "steam_name": "Akakattack",
-          "slap_id": "1689859"
-        },
-        {
           "role": "player",
           "steam_name": "Equal",
           "slap_id": "1033794"
@@ -2409,7 +2404,6 @@
         }
       ],
       "slap_ids": [
-        "1689859",
         "1033794",
         "837003",
         "767712",

@@ -28,7 +28,8 @@
     "side_mapping_confidence": 7,
     "side_mapping_normal_score": 7,
     "side_mapping_swapped_score": 0,
-    "warnings": []
+    "warnings": [],
+    "side_mapping_roster_source": "snapshot"
   },
   "team_stats": {
     "home": {
