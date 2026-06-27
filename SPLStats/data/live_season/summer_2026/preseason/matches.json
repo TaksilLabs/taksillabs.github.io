@@ -637,7 +637,7 @@
     "side_mapping_normal_score": 7,
     "side_mapping_swapped_score": 0,
     "warnings": [],
-    "side_mapping_roster_source": "active_rosters_fallback"
+    "side_mapping_roster_source": "snapshot"
   },
   {
     "match_id": "summer_2026_preseason_central_c10",
@@ -766,6 +766,38 @@
     "side_mapping_swapped_score": 7,
     "warnings": [],
     "side_mapping_roster_source": "snapshot"
+  },
+  {
+    "match_id": "summer_2026_preseason_central_c17",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "division_id": null,
+    "division": "Preseason",
+    "schedule_id": "C17",
+    "home_team_id": "vader_starkillers_central",
+    "home_team": "Vader Starkillers Central",
+    "away_team_id": "vader_revanites",
+    "away_team": "Vader Revanites",
+    "status": "final",
+    "home_score": 8,
+    "away_score": 6,
+    "winner_team_id": "vader_starkillers_central",
+    "loser_team_id": "vader_revanites",
+    "end_reason": "EndOfRegulation",
+    "overtime": false,
+    "period": 3,
+    "thread_id": "1518363784098484305",
+    "log_folder": "raw_live_logs/summer_2026/preseason/central/C17_ Vader Starkillers Central vs Vader Revanites__1518363784098484305",
+    "report_file": "raw_live_logs/summer_2026/preseason/central/C17_ Vader Starkillers Central vs Vader Revanites__1518363784098484305/20260627_013725_425088453550800906_2026-06-26-21-23-56.json",
+    "side_mapping": "normal",
+    "side_mapping_confidence": 6,
+    "side_mapping_normal_score": 6,
+    "side_mapping_swapped_score": 0,
+    "warnings": [],
+    "side_mapping_roster_source": "active_rosters_fallback"
   },
   {
     "match_id": "summer_2026_preseason_central_c20",

@@ -157,6 +157,34 @@
   },
   {
     "rank": 6,
+    "team_id": "vader_starkillers_central",
+    "team": "Vader Starkillers Central",
+    "team_display_name": "Vader Starkillers Central",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 1,
+    "regulation_losses": 0,
+    "overtime_losses": 0,
+    "points": 2,
+    "goals_for": 8,
+    "goals_against": 6,
+    "goal_diff": 2,
+    "last_5": "1-0-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c17",
+        "schedule_id": "C17",
+        "result": "W",
+        "overtime": false,
+        "goals_for": 8,
+        "goals_against": 6
+      }
+    ]
+  },
+  {
+    "rank": 7,
     "team_id": "barcelona_bobos_prep_academy",
     "team": "Barcelona Bobos Prep Academy",
     "team_display_name": "Barcelona Bobos Prep Academy",
@@ -175,7 +203,7 @@
     "last_5_games": []
   },
   {
-    "rank": 7,
+    "rank": 8,
     "team_id": "barrie_bag_chasers",
     "team": "Barrie Bag Chasers",
     "team_display_name": "Barrie Bag Chasers",
@@ -194,7 +222,7 @@
     "last_5_games": []
   },
   {
-    "rank": 8,
+    "rank": 9,
     "team_id": "barrie_belgian_waffles",
     "team": "Barrie Belgian Waffles",
     "team_display_name": "Barrie Belgian Waffles",
@@ -213,7 +241,7 @@
     "last_5_games": []
   },
   {
-    "rank": 9,
+    "rank": 10,
     "team_id": "baton_rouge_bobos",
     "team": "Baton Rouge Bobos",
     "team_display_name": "Baton Rouge Bobos",
@@ -232,7 +260,7 @@
     "last_5_games": []
   },
   {
-    "rank": 10,
+    "rank": 11,
     "team_id": "boston_shufflebottoms",
     "team": "Boston Shufflebottoms",
     "team_display_name": "Boston Shufflebottoms",
@@ -251,7 +279,7 @@
     "last_5_games": []
   },
   {
-    "rank": 11,
+    "rank": 12,
     "team_id": "camrose_cats",
     "team": "Camrose Cats",
     "team_display_name": "Camrose Cats",
@@ -270,7 +298,7 @@
     "last_5_games": []
   },
   {
-    "rank": 12,
+    "rank": 13,
     "team_id": "ottawa_valley_puck_masters",
     "team": "Ottawa Valley Puck Masters",
     "team_display_name": "Ottawa Valley Puck Masters",
@@ -289,7 +317,7 @@
     "last_5_games": []
   },
   {
-    "rank": 13,
+    "rank": 14,
     "team_id": "ushl_prospects",
     "team": "USHL Prospects",
     "team_display_name": "USHL Prospects",
@@ -308,7 +336,7 @@
     "last_5_games": []
   },
   {
-    "rank": 14,
+    "rank": 15,
     "team_id": "vader_66ers",
     "team": "Vader 66ers",
     "team_display_name": "Vader 66ers",
@@ -327,29 +355,10 @@
     "last_5_games": []
   },
   {
-    "rank": 15,
+    "rank": 16,
     "team_id": "vader_bounty_hunters",
     "team": "Vader Bounty Hunters",
     "team_display_name": "Vader Bounty Hunters",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 16,
-    "team_id": "vader_revanites",
-    "team": "Vader Revanites",
-    "team_display_name": "Vader Revanites",
     "region": "central",
     "region_display": "Central",
     "phase": "preseason",
@@ -385,25 +394,6 @@
   },
   {
     "rank": 18,
-    "team_id": "vader_starkillers_central",
-    "team": "Vader Starkillers Central",
-    "team_display_name": "Vader Starkillers Central",
-    "region": "central",
-    "region_display": "Central",
-    "phase": "preseason",
-    "games_played": 0,
-    "wins": 0,
-    "regulation_losses": 0,
-    "overtime_losses": 0,
-    "points": 0,
-    "goals_for": 0,
-    "goals_against": 0,
-    "goal_diff": 0,
-    "last_5": "0-0-0",
-    "last_5_games": []
-  },
-  {
-    "rank": 19,
     "team_id": "vader_vanquishers",
     "team": "Vader Vanquishers",
     "team_display_name": "Vader Vanquishers",
@@ -422,7 +412,7 @@
     "last_5_games": []
   },
   {
-    "rank": 20,
+    "rank": 19,
     "team_id": "vader_voltage_central",
     "team": "Vader Voltage - Central",
     "team_display_name": "Vader Voltage - Central",
@@ -441,7 +431,7 @@
     "last_5_games": []
   },
   {
-    "rank": 21,
+    "rank": 20,
     "team_id": "windy_city_walruses",
     "team": "Windy City Walruses",
     "team_display_name": "Windy City Walruses",
@@ -460,7 +450,7 @@
     "last_5_games": []
   },
   {
-    "rank": 22,
+    "rank": 21,
     "team_id": "yukon_yetis",
     "team": "Yukon Yetis",
     "team_display_name": "Yukon Yetis",
@@ -477,6 +467,34 @@
     "goal_diff": 0,
     "last_5": "0-0-0",
     "last_5_games": []
+  },
+  {
+    "rank": 22,
+    "team_id": "vader_revanites",
+    "team": "Vader Revanites",
+    "team_display_name": "Vader Revanites",
+    "region": "central",
+    "region_display": "Central",
+    "phase": "preseason",
+    "games_played": 1,
+    "wins": 0,
+    "regulation_losses": 1,
+    "overtime_losses": 0,
+    "points": 0,
+    "goals_for": 6,
+    "goals_against": 8,
+    "goal_diff": -2,
+    "last_5": "0-1-0",
+    "last_5_games": [
+      {
+        "match_id": "summer_2026_preseason_central_c17",
+        "schedule_id": "C17",
+        "result": "L",
+        "overtime": false,
+        "goals_for": 6,
+        "goals_against": 8
+      }
+    ]
   },
   {
     "rank": 23,

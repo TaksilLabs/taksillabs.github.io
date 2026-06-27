@@ -2443,5 +2443,94 @@
         "35"
       ]
     }
+  },
+  "summer_2026_preseason_central_c17": {
+    "match_id": "summer_2026_preseason_central_c17",
+    "schedule_id": "C17",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "phase": "preseason",
+    "region": "central",
+    "region_display": "Central",
+    "home_team_id": "vader_starkillers_central",
+    "home_team": "Vader Starkillers Central",
+    "away_team_id": "vader_revanites",
+    "away_team": "Vader Revanites",
+    "home_roster": {
+      "team_id": "vader_starkillers_central",
+      "team_display_name": "Vader Starkillers Central",
+      "team": "Vader Starkillers Central",
+      "team_abbreviation": "VSKC",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Rigg",
+          "slap_id": "1530583"
+        },
+        {
+          "role": "player",
+          "steam_name": "qptreyqp",
+          "slap_id": "893565"
+        },
+        {
+          "role": "player",
+          "steam_name": "grimace",
+          "slap_id": "524911"
+        },
+        {
+          "role": "player",
+          "steam_name": "oChase",
+          "slap_id": "767270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kwispy (Cold Hands)",
+          "slap_id": "524929"
+        }
+      ],
+      "slap_ids": [
+        "1530583",
+        "893565",
+        "524911",
+        "767270",
+        "524929"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_revanites",
+      "team_display_name": "Vader Revanites",
+      "team": "Vader Revanites",
+      "team_abbreviation": "VADR",
+      "region": "central slapshot league",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "CheekyBathtub69",
+          "slap_id": "818797"
+        },
+        {
+          "role": "player",
+          "steam_name": "901x Amac",
+          "slap_id": "1362725"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "818797",
+        "1362725"
+      ]
+    }
   }
 }
