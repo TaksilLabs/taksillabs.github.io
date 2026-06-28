@@ -286,5 +286,11 @@
     "order": 1,
     "date_completed": "2026-06-27",
     "description": "Displaying current active rosters, overhauling the design to fit the rest of the site's design, styling the team cards with player's career stats on said team."
+  },{
+    "title": "Live Season support for Team.html",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-28",
+    "description": "Show things like Active Roster and Schedule at the top of the Team Pages, IF they're active."
   }
 ]
