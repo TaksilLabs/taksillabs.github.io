@@ -523,10 +523,140 @@ main .player-card h2 {
    Team Championships
 ------------------------------------------------------------ */
 
-#teamChampionshipsCard {
+.championship-carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+
+  padding: 18px 8px 18px;
+  scroll-snap-type: x proximity;
+}
+
+.championship-carousel::-webkit-scrollbar {
+  height: 10px;
+}
+
+.championship-carousel::-webkit-scrollbar-track {
+  background: #111;
+  border-radius: 999px;
+}
+
+.championship-carousel::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 999px;
+}
+
+.championship-card {
+  position: relative;
+  flex: 0 0 225px;
+  min-height: 190px;
+
+  display: flex;
+  flex-direction: column;
+
+  scroll-snap-align: start;
+
+  border: 2px solid #d6a935;
+  border-radius: 14px;
+  padding: 15px 16px;
+
+  background:
+    radial-gradient(circle at top right, rgba(255, 215, 80, 0.22), transparent 35%),
+    linear-gradient(135deg, #1d1605, #090909);
+
+  box-shadow:
+    0 0 18px rgba(214, 169, 53, 0.25),
+    inset 0 0 18px rgba(255, 255, 255, 0.04);
+
+  color: white;
+}
+
+.championship-card-main {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 8px 0 12px;
+}
+
+.championship-ring {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 1.8rem;
+  opacity: 0.9;
+}
+
+.championship-season {
+  color: #d6a935;
+  font-weight: bold;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.championship-title {
+  font-family: Evogria, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.championship-team {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.championship-series {
+  color: #cccccc;
+  font-size: 0.9rem;
+}
+
+.championship-qualifier {
+  margin-top: auto;
+
+  min-height: 32px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #aaaaaa;
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.championship-card.champ-east {
+  border-color: #ff4d4d;
+  background:
+    radial-gradient(circle at top right, rgba(255, 77, 77, 0.22), transparent 35%),
+    linear-gradient(135deg, #220808, #090909);
+}
+
+.championship-card.champ-central {
+  border-color: #4db6ff;
+  background:
+    radial-gradient(circle at top right, rgba(77, 182, 255, 0.22), transparent 35%),
+    linear-gradient(135deg, #061522, #090909);
+}
+
+.championship-card.champ-west {
+  border-color: #ff8c42;
+  background:
+    radial-gradient(circle at top right, rgba(255, 140, 66, 0.22), transparent 35%),
+    linear-gradient(135deg, #2a1408, #090909);
+}
+
+@media (max-width: 700px) {
+  .championship-card {
+    flex-basis: 210px;
+  }
+}
+
+#championshipsCard {
   width: 100%;
   max-width: 1200px;
-
   margin-left: auto;
   margin-right: auto;
 
@@ -534,36 +664,152 @@ main .player-card h2 {
   overflow: visible;
 }
 
-#teamChampionships {
+#playerChampionships {
   width: 100%;
   max-width: 100%;
-
   box-sizing: border-box;
 }
 
+.championship-counts {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
 
-/* ------------------------------------------------------------
-   Roster Table
------------------------------------------------------------- */
+  margin-top: 16px;
+  padding-top: 18px;
 
-#rosterTable a {
-  color: var(--team-accent, #ffffff);
-  text-decoration: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-#rosterTable a:hover {
-  color: var(--team-primary, #2ecc71);
-}
+.championship-count {
+  position: relative;
+  overflow: hidden;
 
-#rosterTable th {
-  color: var(--team-accent, #ffffff);
-}
+  min-width: 130px;
+  padding: 12px 16px;
 
-#rosterTable tbody tr:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid #555;
+  border-radius: 14px;
+
   background:
-    color-mix(
-      in srgb,
-      var(--team-primary, #2ecc71) 10%,
-      transparent
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.10), transparent 38%),
+    linear-gradient(135deg, #171717, #080808);
+
+  box-shadow:
+    0 0 14px rgba(255, 255, 255, 0.08),
+    inset 0 0 16px rgba(255, 255, 255, 0.04);
+
+  color: white;
+}
+
+.championship-count::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.08),
+      transparent 38%,
+      rgba(0,0,0,0.25)
     );
+
+  pointer-events: none;
+}
+
+.championship-count span,
+.championship-count strong {
+  position: relative;
+  z-index: 1;
+}
+
+.championship-count span {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #aaa;
+  margin-bottom: 4px;
+}
+
+.championship-count strong {
+  font-family: Evogria, sans-serif;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: white;
+
+  text-shadow:
+    0 2px 4px rgba(0,0,0,0.95),
+    0 0 10px rgba(255,255,255,0.18);
+}
+
+.championship-count-total {
+  border-color: #d6a935;
+  background:
+    radial-gradient(circle at top right, rgba(255, 215, 80, 0.24), transparent 38%),
+    linear-gradient(135deg, #1d1605, #080808);
+
+  box-shadow:
+    0 0 16px rgba(214, 169, 53, 0.28),
+    inset 0 0 16px rgba(255, 255, 255, 0.04);
+}
+
+.championship-count-total span {
+  color: #d6a935;
+}
+
+.championship-count.champ-east {
+  border-color: #ff4d4d;
+  background:
+    radial-gradient(circle at top right, rgba(255, 77, 77, 0.24), transparent 38%),
+    linear-gradient(135deg, #220808, #080808);
+
+  box-shadow:
+    0 0 16px rgba(255, 77, 77, 0.25),
+    inset 0 0 16px rgba(255, 255, 255, 0.04);
+}
+
+.championship-count.champ-east span {
+  color: #ff6b6b;
+}
+
+.championship-count.champ-central {
+  border-color: #4db6ff;
+  background:
+    radial-gradient(circle at top right, rgba(77, 182, 255, 0.24), transparent 38%),
+    linear-gradient(135deg, #061522, #080808);
+
+  box-shadow:
+    0 0 16px rgba(77, 182, 255, 0.25),
+    inset 0 0 16px rgba(255, 255, 255, 0.04);
+}
+
+.championship-count.champ-central span {
+  color: #6ec6ff;
+}
+
+.championship-count.champ-west {
+  border-color: #ff8c42;
+  background:
+    radial-gradient(circle at top right, rgba(255, 140, 66, 0.24), transparent 38%),
+    linear-gradient(135deg, #2a1408, #080808);
+
+  box-shadow:
+    0 0 16px rgba(255, 140, 66, 0.25),
+    inset 0 0 16px rgba(255, 255, 255, 0.04);
+}
+
+.championship-count.champ-west span {
+  color: #ffae6b;
+}
+
+.championship-carousel.championship-carousel-centered {
+  justify-content: center;
+  overflow-x: hidden;
 }

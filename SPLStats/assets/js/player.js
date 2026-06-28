@@ -246,7 +246,13 @@ function renderCareerPercentile(player, allPlayers) {
   `;
 }
 
-function renderPlayer(player, championships = [], allPlayers = []) {
+function renderPlayer(
+  player,
+  championships = [],
+  allPlayers = [],
+  activeRosters = { teams: [] },
+  teamMetadata = {}
+) {
   const displayName =
     player.player_display_name
     || player.player_name
@@ -256,11 +262,252 @@ function renderPlayer(player, championships = [], allPlayers = []) {
   document.title = `${displayName} | SPLStats`;
   document.querySelector("#playerName").textContent = displayName;
 
+  renderPlayerHero(player, activeRosters, teamMetadata);
+  renderCurrentTeam(player, activeRosters, teamMetadata);
+
   renderPlayerChampionships(player, championships);
 
   renderCareerStats(player, allPlayers);
-  renderTeams(player.by_season || []);
+  renderTeams(player.by_season || [], teamMetadata);
   renderSeasons(player.by_season || []);
+}
+
+function normalizeCurrentRosterValue(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/_+/g, "_")
+    .replace(/^_|_$/g, "");
+}
+
+function getActiveRosterTeams(activeRosters) {
+  if (Array.isArray(activeRosters)) {
+    return activeRosters;
+  }
+
+  if (Array.isArray(activeRosters?.teams)) {
+    return activeRosters.teams;
+  }
+
+  if (activeRosters && typeof activeRosters === "object") {
+    return Object.values(activeRosters);
+  }
+
+  return [];
+}
+
+function getCurrentPlayerLookupValues(player) {
+  return [
+    player?.player_id,
+    player?.player_name,
+    player?.player_display_name,
+    ...(player?.aliases || [])
+  ]
+    .map(normalizeCurrentRosterValue)
+    .filter(Boolean);
+}
+
+function getRosterPlayerLookupValues(rosterPlayer) {
+  return [
+    rosterPlayer?.slap_id,
+    rosterPlayer?.steam_name,
+    rosterPlayer?.username,
+    rosterPlayer?.name,
+    rosterPlayer?.player_name,
+    rosterPlayer?.player_display_name,
+    rosterPlayer?.game_user_id
+  ]
+    .map(normalizeCurrentRosterValue)
+    .filter(Boolean);
+}
+
+function findCurrentTeamForPlayer(player, activeRosters) {
+  const targets = new Set(getCurrentPlayerLookupValues(player));
+  const teams = getActiveRosterTeams(activeRosters);
+
+  if (!targets.size || !teams.length) {
+    return null;
+  }
+
+  for (const team of teams) {
+    for (const rosterPlayer of team.players || []) {
+      const rosterValues = getRosterPlayerLookupValues(rosterPlayer);
+
+      if (rosterValues.some(value => targets.has(value))) {
+        return {
+          team,
+          rosterPlayer
+        };
+      }
+    }
+
+    for (const slapId of team.slap_ids || []) {
+      const normalizedSlapId = normalizeCurrentRosterValue(slapId);
+
+      if (targets.has(normalizedSlapId)) {
+        return {
+          team,
+          rosterPlayer: {
+            slap_id: slapId,
+            role: "player"
+          }
+        };
+      }
+    }
+  }
+
+  return null;
+}
+
+function getCurrentTeamMetadata(team, teamMetadata) {
+  const metadataMap = getTeamMetadataMap(teamMetadata);
+
+  return (
+    metadataMap.get(normalizeTeamLookupValue(team?.team_id))
+    || metadataMap.get(normalizeTeamLookupValue(team?.team_display_name))
+    || metadataMap.get(normalizeTeamLookupValue(team?.team_name))
+    || metadataMap.get(normalizeTeamLookupValue(team?.team))
+    || {}
+  );
+}
+
+function getCurrentTeamName(team, metadata = {}) {
+  return (
+    metadata.team_display_name
+    || metadata.team_name
+    || metadata.team
+    || team?.team_display_name
+    || team?.team_name
+    || team?.team
+    || team?.team_id
+    || "Unknown Team"
+  );
+}
+
+function getCurrentTeamLogo(team, metadata = {}) {
+  return (
+    metadata.logo
+    || metadata.team_logo
+    || metadata.logo_path
+    || team?.logo
+    || team?.team_logo
+    || team?.logo_path
+    || ""
+  );
+}
+
+function getCurrentTeamId(team, metadata = {}) {
+  return (
+    metadata.team_id
+    || team?.team_id
+    || ""
+  );
+}
+
+function getCurrentRoleLabel(role) {
+  const cleanRole = String(role || "").trim().toLowerCase();
+
+  if (cleanRole === "gm") return "General Manager";
+  if (cleanRole === "captain") return "Captain";
+
+  return "Player";
+}
+
+function renderPlayerHero(player, activeRosters, teamMetadata) {
+  const career = player.career || {};
+  const current = findCurrentTeamForPlayer(player, activeRosters);
+
+  const subtitle = document.querySelector("#playerSubtitle");
+  const quickStats = document.querySelector("#heroQuickStats");
+
+  const playerName =
+    player.player_display_name
+    || player.player_name
+    || player.player_id
+    || "Unknown Player";
+
+  if (quickStats) {
+    quickStats.innerHTML = [
+      ["GP", career.games_played || 0],
+      ["G", career.goals || 0],
+      ["A", career.assists || 0],
+      ["PTS", career.points || 0],
+      ["SV", career.saves || 0]
+    ].map(([label, value]) => `
+      <div class="hero-stat">
+        <span>${label}</span>
+        <strong>${value}</strong>
+      </div>
+    `).join("");
+  }
+
+  if (!current) {
+    if (subtitle) {
+      subtitle.textContent =
+        "Career statistics, team history, championships, and current roster status.";
+    }
+
+    return;
+  }
+
+  const metadata = getCurrentTeamMetadata(current.team, teamMetadata);
+  const teamName = getCurrentTeamName(current.team, metadata);
+
+  if (subtitle) {
+    subtitle.textContent = `${playerName} is currently listed on ${teamName}.`;
+  }
+}
+
+function renderCurrentTeam(player, activeRosters, teamMetadata) {
+  const container = document.querySelector("#currentTeamCard");
+
+  if (!container) {
+    return;
+  }
+
+  const current = findCurrentTeamForPlayer(player, activeRosters);
+
+  if (!current) {
+    container.innerHTML = `
+      <div class="player-empty-state">
+        Not currently listed on an active roster.
+      </div>
+    `;
+    return;
+  }
+
+  const metadata = getCurrentTeamMetadata(current.team, teamMetadata);
+
+  const teamName = getCurrentTeamName(current.team, metadata);
+  const teamId = getCurrentTeamId(current.team, metadata);
+  const logo = getCurrentTeamLogo(current.team, metadata);
+  const region = current.team.region || metadata.region || "";
+
+  container.innerHTML = `
+    <a class="current-team-card" href="team.html?team=${encodeURIComponent(teamName)}">
+      ${
+        logo
+          ? `<img class="current-team-logo" src="${logo}" alt="">`
+          : `<div class="current-team-logo placeholder">${teamName.slice(0, 1)}</div>`
+      }
+
+      <div class="current-team-main">
+        <strong>${teamName}</strong>
+        <span>${getCurrentRoleLabel(current.rosterPlayer?.role)}</span>
+        ${
+          region
+            ? `<em>${region}</em>`
+            : ""
+        }
+      </div>
+
+      <div class="current-team-action">
+        View Team
+      </div>
+    </a>
+  `;
 }
 
 function normalizePlayerNameForCompare(name) {
@@ -421,11 +668,15 @@ async function loadPlayer() {
   const [
     players,
     divisionNames,
-    championships
+    championships,
+    activeRosters,
+    teamMetadata
   ] = await Promise.all([
     fetchJsonOrFallback("data/all_time_players.json", []),
     fetchJsonOrFallback("data/division_display_names.json", {}),
-    fetchJsonOrFallback("data/championships.json", [])
+    fetchJsonOrFallback("data/championships.json", []),
+    fetchJsonOrFallback("data/live_season/summer_2026/active_rosters.json", { teams: [] }),
+    fetchJsonOrFallback("data/team_metadata.json", {})
   ]);
 
   DIVISION_DISPLAY_NAMES = divisionNames;
@@ -439,7 +690,7 @@ async function loadPlayer() {
     return;
   }
 
-  renderPlayer(player, championships, players);
+  renderPlayer(player, championships, players, activeRosters, teamMetadata);
 }
 
 function formatTime(seconds) {
@@ -524,11 +775,28 @@ function renderCareerStats(player, allPlayers = []) {
   `).join("");
 }
 
+function getCareerLabelRailWidth(label) {
+  const text = String(label || "");
+
+  if (text.length <= 5) return 44;
+  if (text.length <= 8) return 52;
+  if (text.length <= 12) return 62;
+  if (text.length <= 16) return 72;
+
+  return 82;
+}
+
 function renderCareerStat(label, value, statKey, player, allPlayers) {
+  const railWidth = getCareerLabelRailWidth(label);
+
   return `
-    <div class="career-stat">
+    <div class="career-stat" style="--label-rail-width: ${railWidth}px;">
       ${renderPercentileBadge(player, allPlayers, statKey)}
-      <div class="career-stat-label">${label}</div>
+
+      <div class="career-stat-label">
+        <span>${label}</span>
+      </div>
+
       <div class="career-stat-value">${value ?? 0}</div>
     </div>
   `;
@@ -616,25 +884,104 @@ function getPercentileClass(percentile) {
   return "percentile-normal";
 }
 
-function renderTeams(rows) {
+function normalizeTeamLookupValue(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[_\-\s]+/g, "_");
+}
+
+function getTeamMetadataMap(teamMetadata) {
+  const map = new Map();
+
+  const teams = Array.isArray(teamMetadata)
+    ? teamMetadata
+    : Object.values(teamMetadata?.teams || teamMetadata || {});
+
+  teams.forEach(team => {
+    const keys = [
+      team.team_id,
+      team.team,
+      team.team_name,
+      team.team_display_name
+    ]
+      .map(normalizeTeamLookupValue)
+      .filter(Boolean);
+
+    keys.forEach(key => map.set(key, team));
+  });
+
+  return map;
+}
+
+function getTeamThemeValue(team, key, fallback) {
+  return (
+    team?.theme?.[key]
+    || team?.colors?.[key]
+    || team?.[key]
+    || fallback
+  );
+}
+
+function getTeamPrimaryColor(team) {
+  return getTeamThemeValue(team, "primary", "#00d1d1");
+}
+
+function getTeamAccentColor(team) {
+  return getTeamThemeValue(team, "accent", "#ffd166");
+}
+
+function getHistoryTeamLogo(team) {
+  return (
+    team?.logo
+    || team?.team_logo
+    || team?.logo_path
+    || ""
+  );
+}
+
+function getHistoryTeamName(teamName, metadata) {
+  return (
+    metadata?.team_display_name
+    || metadata?.team_name
+    || metadata?.team
+    || teamName
+    || "Unknown Team"
+  );
+}
+
+function renderTeams(rows, teamMetadata = {}) {
   const container = document.querySelector("#teamsPlayed");
+  const metadataMap = getTeamMetadataMap(teamMetadata);
 
   const teamTotals = {};
 
   rows.forEach(row => {
     const team = row.team || "Unknown";
-    const gp = Number(row.stats?.games_played || 0);
+    const stats = row.stats || {};
+    const gp = Number(stats.games_played || 0);
 
     if (!teamTotals[team]) {
       teamTotals[team] = {
         games: 0,
         seasons: new Set(),
+        goals: 0,
+        points: 0,
+        shots: 0,
+        saves: 0,
+        blocks: 0,
         regions: {}
       };
     }
 
     teamTotals[team].games += gp;
     teamTotals[team].seasons.add(row.season);
+
+    teamTotals[team].goals += Number(stats.goals || 0);
+    teamTotals[team].points += Number(stats.points || 0);
+    teamTotals[team].shots += Number(stats.shots || 0);
+    teamTotals[team].saves += Number(stats.saves || 0);
+    teamTotals[team].blocks += Number(stats.blocks || 0);
 
     if (divisionBelongsToRegion(row.division, "east")) {
       teamTotals[team].regions.east = true;
@@ -650,42 +997,91 @@ function renderTeams(rows) {
   });
 
   const teams = Object.entries(teamTotals)
-    .map(([team, info]) => ({
-      team,
-      games: info.games,
-      seasons: info.seasons.size,
-      regions: info.regions
-    }))
+    .map(([team, info]) => {
+      const metadata =
+        metadataMap.get(normalizeTeamLookupValue(team))
+        || {};
+
+      return {
+        team,
+        metadata,
+        displayName: getHistoryTeamName(team, metadata),
+        logo: getHistoryTeamLogo(metadata),
+        primary: getTeamPrimaryColor(metadata),
+        accent: getTeamAccentColor(metadata),
+        games: info.games,
+        seasons: info.seasons.size,
+        goals: info.goals,
+        points: info.points,
+        shots: info.shots,
+        saves: info.saves,
+        blocks: info.blocks,
+        regions: info.regions
+      };
+    })
     .sort((a, b) => b.games - a.games);
 
   container.innerHTML = teams.length
-    ? teams.map(t => {
-        const region =
-          t.regions.east ? "east" :
-          t.regions.central ? "central" :
-          t.regions.west ? "west" :
-          "unknown";
+    ? teams.map(team => {
+        const teamId = team.metadata.team_id || team.team;
 
         return `
-          <div class="team-box ${region}">
-            <div class="team-card-stats">
+          <a
+            class="team-history-row"
+            href="team.html?team=${encodeURIComponent(team.team)}"
+            style="
+              --team-primary: ${team.primary};
+              --team-accent: ${team.accent};
+            "
+          >
+            <div class="team-history-logo-wrap">
+              ${
+                team.logo
+                  ? `<img class="team-history-logo" src="${team.logo}" alt="">`
+                  : `<div class="team-history-logo-placeholder">${team.displayName.slice(0, 1)}</div>`
+              }
+            </div>
+
+            <div class="team-history-main">
+              <div class="team-history-name">${team.displayName}</div>
+            </div>
+
+            <div class="team-history-meta">
               <div>
-                <span class="team-stat-label">Seasons</span>
-                <strong>${t.seasons}</strong>
+                <span>Seasons</span>
+                <strong>${team.seasons}</strong>
               </div>
+
               <div>
-                <span class="team-stat-label">Games</span>
-                <strong>${t.games}</strong>
+                <span>Games</span>
+                <strong>${team.games}</strong>
               </div>
             </div>
 
-            <a class="team-name ${region}" href="team.html?team=${encodeURIComponent(t.team)}">
-              ${t.team}
-            </a>
-          </div>
+            <div class="team-history-stats">
+              ${renderTeamHistoryStat("Goals", team.goals)}
+              ${renderTeamHistoryStat("Points", team.points)}
+              ${renderTeamHistoryStat("Shots", team.shots)}
+              ${renderTeamHistoryStat("Saves", team.saves)}
+              ${renderTeamHistoryStat("Blocks", team.blocks)}
+            </div>
+          </a>
         `;
       }).join("")
-    : "No teams listed.";
+    : `
+      <div class="player-empty-state">
+        No teams listed.
+      </div>
+    `;
+}
+
+function renderTeamHistoryStat(label, value) {
+  return `
+    <div class="team-history-stat">
+      <span>${label}</span>
+      <strong>${value ?? 0}</strong>
+    </div>
+  `;
 }
 
 function renderSeasons(rows) {

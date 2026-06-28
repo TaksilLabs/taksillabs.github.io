@@ -3,55 +3,95 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SPLStats Player</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <header>
-    <nav class="site-nav">
-      <a href="index.html" class="nav-card nav-home">
-          HOME
-      </a>
-      <a href="players.html" class="nav-card nav-players">
-          PLAYERS
-      </a>
-      <a href="teams.html" class="nav-card nav-teams">
-          TEAMS
-      </a>
-      <a href="franchises.html" class="nav-card nav-franchises">
-          FRANCHISES
-      </a>
-      <a href="championships.html" class="nav-card nav-championships">
-        CHAMPIONSHIPS
-      </a>
-    </nav>
 
-    <h1 id="playerName">Player</h1>
+  <title>SPLStats Player</title>
+
+  <link rel="stylesheet" href="assets/css/fonts.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/player.css" />
+</head>
+
+<body class="player-page-body">
+  <header class="player-site-header">
+    <nav class="site-nav">
+      <a href="index.html" class="nav-card nav-home">HOME</a>
+      <a href="players.html" class="nav-card nav-players">PLAYERS</a>
+      <a href="teams.html" class="nav-card nav-teams">TEAMS</a>
+      <a href="franchises.html" class="nav-card nav-franchises">FRANCHISES</a>
+      <a href="championships.html" class="nav-card nav-championships">CHAMPIONSHIPS</a>
+    </nav>
   </header>
 
-  <main>
+  <main class="player-page">
+    <section class="player-hero">
+      <div class="player-hero-main">
+        <span class="player-kicker">SPL Player Profile</span>
 
-    <div class="player-card" id="championshipsCard" style="display: none;">
-      <h2>Championships</h2>
-      <div id="playerChampionships" class="championship-carousel"></div>
-      <div id="playerChampionshipCounts" class="championship-counts"></div>
-    </div>
+        <h1 id="playerName">Player</h1>
 
-    <div class="player-card">
-      <div class="player-card career-totals-card" id="careerTotalsCard">
-      <h2>Career Totals</h2>
-      <div id="careerStats"></div>
-    </div>
+        <p id="playerSubtitle" class="player-subtitle">
+          Career statistics, team history, championships, and current roster status.
+        </p>
 
-    <section class="player-card">
-      <h2 class="section-title">Team History</h2>
-      <p id="teamsPlayed"></p>
+        <div id="heroQuickStats" class="hero-quick-stats"></div>
+      </div>
     </section>
 
-    <section class="player-card">
-      <h2>Season History</h2>
-      <div class="table-wrap">
-        <table id="seasonTable">
+    <section id="currentTeamSection" class="player-panel current-team-panel">
+      <div class="panel-title-row">
+        <div>
+          <span class="section-kicker">Roster Status</span>
+          <h2>Current Teams</h2>
+        </div>
+      </div>
+
+      <div id="currentTeamCard"></div>
+    </section>
+
+    <section class="player-panel" id="championshipsCard" style="display: none;">
+      <div class="panel-title-row">
+        <div>
+          <span class="section-kicker">Trophy Case</span>
+          <h2>Championships</h2>
+        </div>
+      </div>
+
+      <div id="playerChampionships" class="championship-carousel"></div>
+      <div id="playerChampionshipCounts" class="championship-counts"></div>
+    </section>
+
+    <section class="player-panel career-totals-card" id="careerTotalsCard">
+      <div class="panel-title-row">
+        <div>
+          <span class="section-kicker">All-Time, All-Division, Production</span>
+          <h2>Career Totals</h2>
+        </div>
+      </div>
+
+      <div id="careerStats"></div>
+    </section>
+
+    <section class="player-panel">
+      <div class="panel-title-row">
+        <div>
+          <span class="section-kicker">Clubs</span>
+          <h2>Team History</h2>
+        </div>
+      </div>
+
+      <div id="teamsPlayed" class="player-team-history"></div>
+    </section>
+
+    <section class="player-panel">
+      <div class="panel-title-row">
+        <div>
+          <span class="section-kicker">Archive</span>
+          <h2>Season History</h2>
+        </div>
+      </div>
+
+      <div class="table-wrap player-table-wrap">
+        <table id="seasonTable" class="player-season-table">
           <thead>
             <tr>
               <th>Season</th>
@@ -66,6 +106,7 @@
               <th>Blocks</th>
             </tr>
           </thead>
+
           <tbody></tbody>
         </table>
       </div>

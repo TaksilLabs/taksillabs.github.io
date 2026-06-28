@@ -185,9 +185,9 @@
   },
   {
     "title": "update team cards on player page to fit Team Browser New Theme",
-    "status": "planned",
+    "status": "finished",
     "order": 1,
-    "date_completed": "",
+    "date_completed": "2026-06-27",
     "description": "Team Cards are the first version, they need to match the rest of the website's theme better."
   },
   {
@@ -280,5 +280,11 @@
     "order": 1,
     "date_completed": "2026-06-26",
     "description": "Side mapping is being based off active rosters, not the snapshots. That needs to be fixed."
+  },{
+    "title": "Overhaul the player pages.",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-27",
+    "description": "Displaying current active rosters, overhauling the design to fit the rest of the site's design, styling the team cards with player's career stats on said team."
   }
 ]
