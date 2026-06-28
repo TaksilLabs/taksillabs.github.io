@@ -49,6 +49,47 @@ function formatStatus(status) {
   return cleanText(status) || "Unknown";
 }
 
+function getSnapshotPlayerDisplayName(player) {
+  return (
+    player.player_display_name
+    || player.player_name
+    || player.steam_name
+    || player.name
+    || player.slap_id
+    || "Unknown Player"
+  );
+}
+
+function getSnapshotPlayerUrlId(player) {
+  return (
+    player.player_id
+    || player.player_name
+    || player.player_display_name
+    || player.steam_name
+    || player.name
+    || player.slap_id
+    || ""
+  );
+}
+
+function renderSnapshotPlayerLink(player) {
+  const name = getSnapshotPlayerDisplayName(player);
+  const urlId = getSnapshotPlayerUrlId(player);
+
+  if (!urlId) {
+    return `<span class="snapshot-player-name">${escapeHtml(name)}</span>`;
+  }
+
+  return `
+    <a
+      class="snapshot-player-link"
+      href="player.html?id=${encodeURIComponent(urlId)}"
+    >
+      ${escapeHtml(name)}
+    </a>
+  `;
+}
+
 function getTeamMetadata(teamId) {
   return metadataByTeamId[teamId] || null;
 }
@@ -394,7 +435,9 @@ function renderRosterPlayer(player) {
   return `
     <div class="roster-player-row">
       <span class="roster-role">${getRoleLabel(player.role)}</span>
-      <span class="roster-name">${escapeHtml(player.steam_name || "Unknown Player")}</span>
+      <span class="roster-name">
+        ${renderSnapshotPlayerLink(player)}
+      </span>
     </div>
   `;
 }

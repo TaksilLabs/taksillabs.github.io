@@ -1281,3 +1281,28 @@
 }
 
 /**/
+
+
+
+
+/*
+player linking
+*/
+
+.snapshot-player-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 850;
+}
+
+.snapshot-player-link:hover {
+  color: var(--team-accent, #ffd166);
+  text-decoration: underline;
+}
+
+.snapshot-player-name {
+  color: #ffffff;
+  font-weight: 850;
+}
+
+/**/
