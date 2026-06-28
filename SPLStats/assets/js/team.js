@@ -34,6 +34,32 @@ function getPlayerDisplayName(player) {
   );
 }
 
+const LIVE_SEASON_ID = "summer_2026";
+
+const LIVE_DATA_PATHS = {
+  activeRosters: `data/live_season/${LIVE_SEASON_ID}/active_rosters.json`,
+  preseasonSchedule: `data/live_season/${LIVE_SEASON_ID}/preseason/schedule.json`,
+  preseasonMatches: `data/live_season/${LIVE_SEASON_ID}/preseason/matches.json`
+};
+
+let teamScheduleExpanded = false;
+
+async function fetchJsonOrFallback(url, fallback) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      console.warn(`Could not load ${url}: ${response.status}`);
+      return fallback;
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.warn(`Could not load ${url}:`, error);
+    return fallback;
+  }
+}
+
 const LEADER_CATEGORIES = [
   ["Goals", "goals"],
   ["Assists", "assists"],
@@ -393,24 +419,24 @@ async function loadTeam() {
   const teamUrlId = getTeamIdFromUrl();
 
   const [
-    teamsResponse,
-    metadataResponse,
-    franchisesResponse,
-    teamRecordsResponse,
-    championshipsResponse
+    builtTeams,
+    metadataTeams,
+    franchises,
+    teamRecords,
+    championships,
+    activeRosters,
+    preseasonSchedule,
+    preseasonMatches
   ] = await Promise.all([
-    fetch("data/teams.json"),
-    fetch("data/team_metadata.json"),
-    fetch("data/franchises.json"),
-    fetch("data/team_records.json"),
-    fetch("data/championships.json")
+    fetchJsonOrFallback("data/teams.json", []),
+    fetchJsonOrFallback("data/team_metadata.json", []),
+    fetchJsonOrFallback("data/franchises.json", []),
+    fetchJsonOrFallback("data/team_records.json", []),
+    fetchJsonOrFallback("data/championships.json", []),
+    fetchJsonOrFallback(LIVE_DATA_PATHS.activeRosters, { teams: [] }),
+    fetchJsonOrFallback(LIVE_DATA_PATHS.preseasonSchedule, []),
+    fetchJsonOrFallback(LIVE_DATA_PATHS.preseasonMatches, [])
   ]);
-
-  const builtTeams = await teamsResponse.json();
-  const metadataTeams = await metadataResponse.json();
-  const franchises = await franchisesResponse.json();
-  const teamRecords = await teamRecordsResponse.json();
-  const championships = await championshipsResponse.json();
 
   const teams = mergeTeamMetadataForProfile(builtTeams, metadataTeams);
 
@@ -430,6 +456,9 @@ async function loadTeam() {
 
   renderTeam(team, teamRecord, championships);
   renderTeamFranchise(team, franchises);
+
+  renderActiveRoster(team, activeRosters);
+  renderLiveTeamSchedule(team, preseasonSchedule, preseasonMatches, metadataTeams);
 }
 
 function normalizeTeamNameForCompare(name) {
@@ -588,6 +617,595 @@ function renderHeaderStats(career) {
       <strong>${value ?? 0}</strong>
     </div>
   `).join("");
+}
+
+function normalizeLiveTeamValue(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/_+/g, "_")
+    .replace(/^_|_$/g, "");
+}
+
+function getActiveRosterTeams(activeRosters) {
+  if (Array.isArray(activeRosters)) {
+    return activeRosters;
+  }
+
+  if (Array.isArray(activeRosters?.teams)) {
+    return activeRosters.teams;
+  }
+
+  if (activeRosters && typeof activeRosters === "object") {
+    return Object.values(activeRosters);
+  }
+
+  return [];
+}
+
+function activeRosterMatchesTeam(rosterTeam, team) {
+  const targets = [
+    team.team_id,
+    team.team_name,
+    team.team_display_name,
+    team.team,
+    ...(team.team_aliases || []),
+    ...(team.aliases || [])
+  ]
+    .map(normalizeLiveTeamValue)
+    .filter(Boolean);
+
+  const rosterValues = [
+    rosterTeam.team_id,
+    rosterTeam.team_name,
+    rosterTeam.team_display_name,
+    rosterTeam.team
+  ]
+    .map(normalizeLiveTeamValue)
+    .filter(Boolean);
+
+  return rosterValues.some(value => targets.includes(value));
+}
+
+function findActiveRosterForTeam(team, activeRosters) {
+  return getActiveRosterTeams(activeRosters).find(rosterTeam =>
+    activeRosterMatchesTeam(rosterTeam, team)
+  ) || null;
+}
+
+function roleSortValue(role) {
+  const cleanRole = String(role || "").toLowerCase();
+
+  if (cleanRole === "gm") return 1;
+  if (cleanRole === "captain") return 2;
+
+  return 3;
+}
+
+function roleLabel(role) {
+  const cleanRole = String(role || "").toLowerCase();
+
+  if (cleanRole === "gm") return "GM";
+  if (cleanRole === "captain") return "Captain";
+
+  return "Player";
+}
+
+function getRosterPlayerName(player) {
+  return (
+    player.steam_name
+    || player.player_name
+    || player.name
+    || player.slap_id
+    || "Unknown Player"
+  );
+}
+
+function getRosterPlayerUrlId(player) {
+  return (
+    player.slap_id
+    || player.player_id
+    || player.steam_name
+    || player.player_name
+    || player.name
+    || ""
+  );
+}
+
+function renderActiveRoster(team, activeRosters) {
+  const section = document.querySelector("#teamActiveRosterSection");
+  const container = document.querySelector("#teamActiveRoster");
+
+  if (!section || !container) {
+    return;
+  }
+
+  const activeRoster = findActiveRosterForTeam(team, activeRosters);
+
+  if (!activeRoster || !(activeRoster.players || []).length) {
+    section.style.display = "none";
+    container.innerHTML = "";
+    return;
+  }
+
+  section.style.display = "";
+
+  const players = [...(activeRoster.players || [])]
+    .sort((a, b) =>
+      roleSortValue(a.role) - roleSortValue(b.role)
+      || getRosterPlayerName(a).localeCompare(getRosterPlayerName(b))
+    );
+
+  container.innerHTML = players.map(player => {
+    const name = getRosterPlayerName(player);
+    const urlId = getRosterPlayerUrlId(player);
+
+    return `
+      <a class="active-roster-chip" href="player.html?id=${encodeURIComponent(urlId)}">
+        <span>${roleLabel(player.role)}</span>
+        <strong>${name}</strong>
+      </a>
+    `;
+  }).join("");
+}
+
+function getMatchArray(data) {
+  if (Array.isArray(data)) {
+    return data;
+  }
+
+  if (Array.isArray(data?.matches)) {
+    return data.matches;
+  }
+
+  if (Array.isArray(data?.schedule)) {
+    return data.schedule;
+  }
+
+  if (data && typeof data === "object") {
+    return Object.values(data);
+  }
+
+  return [];
+}
+
+function getMatchTeamNames(match) {
+  return {
+    home:
+      match.home_team
+      || match.home
+      || match.home_team_name
+      || "",
+    away:
+      match.away_team
+      || match.away
+      || match.away_team_name
+      || ""
+  };
+}
+
+function matchIncludesTeam(match, team) {
+  const teamValues = [
+    team.team_id,
+    team.team_name,
+    team.team_display_name,
+    team.team,
+    ...(team.team_aliases || []),
+    ...(team.aliases || [])
+  ]
+    .map(normalizeLiveTeamValue)
+    .filter(Boolean);
+
+  const { home, away } = getMatchTeamNames(match);
+
+  const matchValues = [
+    match.home_team_id,
+    match.away_team_id,
+    home,
+    away
+  ]
+    .map(normalizeLiveTeamValue)
+    .filter(Boolean);
+
+  return matchValues.some(value => teamValues.includes(value));
+}
+
+function getMatchStatus(match) {
+  return String(match.status || match.match_status || "").toLowerCase();
+}
+
+function isFinalMatch(match) {
+  const status = getMatchStatus(match);
+
+  return (
+    status === "final"
+    || status === "completed"
+    || status === "complete"
+  );
+}
+
+function isScheduledMatch(match) {
+  const status = getMatchStatus(match);
+
+  return (
+    status === "scheduled"
+    || status === "pending"
+    || status === "upcoming"
+    || !status
+  );
+}
+
+function getRegularSeasonSortParts(match) {
+  const text = String(
+    match.schedule_id
+    || match.match_code
+    || match.match_id
+    || ""
+  );
+
+  const prefixMatch = text.match(/^(\d+)\.(\d+)/);
+
+  if (!prefixMatch) {
+    return {
+      week: Number(match.week || 0),
+      matchNumber: Number(match.match_number || 0)
+    };
+  }
+
+  return {
+    week: Number(prefixMatch[1]),
+    matchNumber: Number(prefixMatch[2])
+  };
+}
+
+function getMatchSortValue(match) {
+  const parts = getRegularSeasonSortParts(match);
+
+  return (
+    (parts.week || 0) * 1000
+    + (parts.matchNumber || 0)
+  );
+}
+
+function combineLiveMatches(scheduleData, matchesData) {
+  const combined = new Map();
+
+  [...getMatchArray(scheduleData), ...getMatchArray(matchesData)].forEach(match => {
+    const key =
+      match.match_id
+      || match.schedule_id
+      || match.match_code
+      || `${match.home_team || match.home || ""}_${match.away_team || match.away || ""}_${match.datetime_utc || match.date || ""}`;
+
+    if (!key) {
+      return;
+    }
+
+    combined.set(key, {
+      ...(combined.get(key) || {}),
+      ...match
+    });
+  });
+
+  return [...combined.values()];
+}
+
+function getTeamScore(match, team) {
+  const teamValues = [
+    team.team_id,
+    team.team_name,
+    team.team_display_name,
+    team.team,
+    ...(team.team_aliases || []),
+    ...(team.aliases || [])
+  ]
+    .map(normalizeLiveTeamValue)
+    .filter(Boolean);
+
+  const homeName =
+    match.home_team
+    || match.home
+    || match.home_team_name
+    || "";
+
+  const awayName =
+    match.away_team
+    || match.away
+    || match.away_team_name
+    || "";
+
+  const homeValues = [
+    match.home_team_id,
+    homeName
+  ]
+    .map(normalizeLiveTeamValue)
+    .filter(Boolean);
+
+  const awayValues = [
+    match.away_team_id,
+    awayName
+  ]
+    .map(normalizeLiveTeamValue)
+    .filter(Boolean);
+
+  if (homeValues.some(value => teamValues.includes(value))) {
+    return {
+      teamScore:
+        match.home_score
+        ?? match.home_goals
+        ?? match.home_team_score
+        ?? null,
+      opponentScore:
+        match.away_score
+        ?? match.away_goals
+        ?? match.away_team_score
+        ?? null,
+      opponent: awayName,
+      side: "home"
+    };
+  }
+
+  if (awayValues.some(value => teamValues.includes(value))) {
+    return {
+      teamScore:
+        match.away_score
+        ?? match.away_goals
+        ?? match.away_team_score
+        ?? null,
+      opponentScore:
+        match.home_score
+        ?? match.home_goals
+        ?? match.home_team_score
+        ?? null,
+      opponent: homeName,
+      side: "away"
+    };
+  }
+
+  return {
+    teamScore: null,
+    opponentScore: null,
+    opponent: "",
+    side: ""
+  };
+}
+
+function getMatchDisplayCode(match) {
+  return (
+    match.schedule_id
+    || match.match_code
+    || match.match_id
+    || "—"
+  );
+}
+
+function getMatchDisplayDate(match) {
+  const raw =
+    match.datetime_utc
+    || match.scheduled_utc
+    || match.match_time
+    || match.date
+    || "";
+
+  if (!raw) {
+    return "";
+  }
+
+  const date = new Date(raw);
+
+  if (Number.isNaN(date.getTime())) {
+    return raw;
+  }
+
+  return date.toLocaleString([], {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit"
+  });
+}
+
+function getResultClass(score) {
+  const teamScore = Number(score.teamScore);
+  const opponentScore = Number(score.opponentScore);
+
+  if (!Number.isFinite(teamScore) || !Number.isFinite(opponentScore)) {
+    return "";
+  }
+
+  if (teamScore > opponentScore) return "team-match-win";
+  if (teamScore < opponentScore) return "team-match-loss";
+
+  return "team-match-tie";
+}
+
+function getTeamMetadataList(teamMetadata) {
+  if (Array.isArray(teamMetadata)) {
+    return teamMetadata;
+  }
+
+  if (Array.isArray(teamMetadata?.teams)) {
+    return teamMetadata.teams;
+  }
+
+  if (teamMetadata && typeof teamMetadata === "object") {
+    return Object.values(teamMetadata);
+  }
+
+  return [];
+}
+
+function findTeamMetadataByName(teamName, teamMetadata = []) {
+  const target = normalizeLiveTeamValue(teamName);
+
+  return getTeamMetadataList(teamMetadata).find(team => {
+    const values = [
+      team.team_id,
+      team.team_display_name,
+      team.team_name,
+      team.team,
+      ...(team.aliases || []),
+      ...(team.team_aliases || [])
+    ]
+      .map(normalizeLiveTeamValue)
+      .filter(Boolean);
+
+    return values.includes(target);
+  }) || null;
+}
+
+function getOpponentLogo(metadata) {
+  return (
+    metadata?.logo
+    || metadata?.team_logo
+    || metadata?.logo_path
+    || ""
+  );
+}
+
+function getOpponentThemeValue(metadata, key, fallback) {
+  return (
+    metadata?.theme?.[key]
+    || metadata?.colors?.[key]
+    || metadata?.[key]
+    || fallback
+  );
+}
+
+function getMatchHomeAwayLabel(match, team) {
+  const score = getTeamScore(match, team);
+
+  if (score.side === "home") return "VS";
+  if (score.side === "away") return "@";
+
+  return "VS";
+}
+
+function renderTeamMatchRow(match, team, type, teamMetadata = []) {
+  const score = getTeamScore(match, team);
+  const opponent = score.opponent || "TBD";
+  const dateText = getMatchDisplayDate(match);
+
+  const opponentMetadata = findTeamMetadataByName(opponent, teamMetadata);
+  const opponentLogo = getOpponentLogo(opponentMetadata);
+
+  const opponentPrimary = getOpponentThemeValue(
+    opponentMetadata,
+    "primary",
+    "rgba(255, 255, 255, 0.16)"
+  );
+
+  const opponentAccent = getOpponentThemeValue(
+    opponentMetadata,
+    "accent",
+    "rgba(255, 255, 255, 0.44)"
+  );
+
+  const locationLabel = getMatchHomeAwayLabel(match, team);
+
+  const resultLabel =
+    type === "result"
+      ? `${score.teamScore ?? 0} - ${score.opponentScore ?? 0}`
+      : "Scheduled";
+
+  const matchId =
+    match.match_id
+    || match.id
+    || "";
+
+  const href = matchId
+    ? `match.html?id=${encodeURIComponent(matchId)}`
+    : "#";
+
+  return `
+    <a
+      class="team-match-row ${type} ${getResultClass(score)}"
+      href="${href}"
+      style="
+        --opponent-primary: ${opponentPrimary};
+        --opponent-accent: ${opponentAccent};
+      "
+    >
+      <div class="team-match-location">${locationLabel}</div>
+
+      <div class="team-match-opponent-logo-wrap">
+        ${
+          opponentLogo
+            ? `<img class="team-match-opponent-logo" src="${opponentLogo}" alt="">`
+            : `<div class="team-match-opponent-placeholder">${opponent.slice(0, 1)}</div>`
+        }
+      </div>
+
+      <div class="team-match-main">
+        <strong>${opponent}</strong>
+        <span>${type === "result" ? "Final" : dateText || "Upcoming"}</span>
+      </div>
+
+      <div class="team-match-score">
+        ${resultLabel}
+      </div>
+    </a>
+  `;
+}
+
+function renderLiveTeamSchedule(team, scheduleData, matchesData, teamMetadata = []) {
+  const section = document.querySelector("#teamLiveScheduleSection");
+  const recentContainer = document.querySelector("#teamRecentResults");
+  const upcomingContainer = document.querySelector("#teamUpcomingMatches");
+  const toggleButton = document.querySelector("#teamScheduleToggle");
+
+  if (!section || !recentContainer || !upcomingContainer) {
+    return;
+  }
+
+  const teamMatches = combineLiveMatches(scheduleData, matchesData)
+    .filter(match => matchIncludesTeam(match, team))
+    .sort((a, b) => getMatchSortValue(a) - getMatchSortValue(b));
+
+  const recent = teamMatches
+    .filter(isFinalMatch)
+    .sort((a, b) => getMatchSortValue(b) - getMatchSortValue(a));
+
+  const upcoming = teamMatches
+    .filter(isScheduledMatch)
+    .sort((a, b) => getMatchSortValue(a) - getMatchSortValue(b));
+
+  if (!recent.length && !upcoming.length) {
+    section.style.display = "none";
+    return;
+  }
+
+  section.style.display = "";
+
+  const recentLimit = teamScheduleExpanded ? recent.length : 6;
+  const upcomingLimit = teamScheduleExpanded ? upcoming.length : 6;
+
+  recentContainer.innerHTML = recent.length
+    ? recent.slice(0, recentLimit).map(match =>
+        renderTeamMatchRow(match, team, "result", teamMetadata)
+      ).join("")
+    : `<div class="team-empty-live">No recent results.</div>`;
+
+  upcomingContainer.innerHTML = upcoming.length
+    ? upcoming.slice(0, upcomingLimit).map(match =>
+        renderTeamMatchRow(match, team, "scheduled", teamMetadata)
+      ).join("")
+    : `<div class="team-empty-live">No upcoming matches.</div>`;
+
+  const canExpand = recent.length > 6 || upcoming.length > 6;
+
+  if (toggleButton) {
+    toggleButton.style.display = canExpand ? "" : "none";
+    toggleButton.textContent = teamScheduleExpanded ? "Show Less" : "Show More";
+
+    toggleButton.onclick = () => {
+      teamScheduleExpanded = !teamScheduleExpanded;
+      renderLiveTeamSchedule(team, scheduleData, matchesData, teamMetadata);
+    };
+  }
 }
 
 function renderTeam(team, teamRecord, championships = []) {

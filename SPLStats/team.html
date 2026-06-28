@@ -47,6 +47,43 @@
 
 <main>
 
+  <section id="teamActiveRosterSection" class="team-live-panel" style="display: none;">
+    <div class="team-panel-title-row">
+      <div>
+        <span class="team-section-kicker">Live Season</span>
+        <h2>Active Roster</h2>
+      </div>
+    </div>
+
+    <div id="teamActiveRoster" class="team-active-roster"></div>
+  </section>
+
+  <section id="teamLiveScheduleSection" class="team-live-panel" style="display: none;">
+    <div class="team-panel-title-row">
+      <div>
+        <span class="team-section-kicker">Live Season</span>
+        <h2>Recent & Upcoming</h2>
+      </div>
+
+      <button id="teamScheduleToggle" class="team-schedule-toggle" type="button">
+        Show More
+      </button>
+    </div>
+
+    <div class="team-schedule-grid">
+      <div>
+        <h3>Recent Results</h3>
+        <div id="teamRecentResults" class="team-match-list"></div>
+      </div>
+
+      <div>
+        <h3>Upcoming Matches</h3>
+        <div id="teamUpcomingMatches" class="team-match-list"></div>
+      </div>
+    </div>
+  </section>
+  
+
   <div class="player-card" id="teamChampionshipsCard" style="display: none;">
     <h2>Championships</h2>
     <div id="teamChampionships" class="championship-carousel"></div>

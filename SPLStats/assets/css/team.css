@@ -813,3 +813,548 @@ main .player-card h2 {
   justify-content: center;
   overflow-x: hidden;
 }
+
+/* ============================================================
+   Live Season Sections
+============================================================ */
+
+.team-live-panel {
+  position: relative;
+  overflow: hidden;
+
+  width: min(1200px, calc(100% - 36px));
+  margin: 30px auto;
+  padding: 24px;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 44%,
+      rgba(255, 255, 255, 0.14)
+    );
+
+  border-radius: 22px;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--team-primary, #2ecc71) 18%, transparent),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      color-mix(in srgb, var(--team-accent, #ffffff) 10%, transparent),
+      transparent 34%
+    ),
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--team-card, #111111) 92%, #000),
+      color-mix(in srgb, var(--team-background, #050505) 96%, #000)
+    );
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 14px 34px rgba(0, 0, 0, 0.34),
+    inset 0 0 22px rgba(255, 255, 255, 0.035);
+}
+
+.team-live-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--team-primary, #2ecc71) 18%, transparent),
+      transparent 24%,
+      transparent 76%,
+      color-mix(in srgb, var(--team-accent, #ffffff) 10%, transparent)
+    );
+
+  pointer-events: none;
+}
+
+.team-live-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+.team-panel-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+
+  margin-bottom: 18px;
+}
+
+.team-panel-title-row h2 {
+  margin: 4px 0 0;
+
+  color: #ffffff;
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: clamp(1.6rem, 3vw, 2.35rem);
+  line-height: 1;
+
+  text-shadow:
+    -2px 2px 0 rgba(0, 0, 0, 0.9),
+    0 0 12px rgba(0, 0, 0, 0.72);
+}
+
+.team-section-kicker {
+  display: inline-block;
+
+  color: var(--team-accent, #ffffff);
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.74rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+
+  opacity: 0.9;
+}
+
+
+/* ------------------------------------------------------------
+   Active Roster
+------------------------------------------------------------ */
+
+.team-active-roster {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.active-roster-chip {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 72px;
+  padding: 13px 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 55%,
+      rgba(255, 255, 255, 0.14)
+    );
+
+  border-radius: 16px;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--team-primary, #2ecc71) 20%, transparent),
+      transparent 48%
+    ),
+    rgba(255, 255, 255, 0.045);
+
+  color: #ffffff;
+  text-decoration: none;
+
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, 0.24),
+    inset 0 0 14px rgba(255, 255, 255, 0.025);
+
+  transition:
+    transform 0.14s ease,
+    border-color 0.14s ease,
+    box-shadow 0.14s ease;
+}
+
+.active-roster-chip:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--team-accent, #ffffff);
+
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, 0.34),
+    0 0 14px color-mix(in srgb, var(--team-primary, #2ecc71) 20%, transparent);
+}
+
+.active-roster-chip span {
+  color: var(--team-accent, #ffffff);
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.active-roster-chip strong {
+  color: #ffffff;
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 1.18rem;
+  line-height: 1.05;
+
+  text-shadow:
+    -1px 1px 0 rgba(0, 0, 0, 0.9);
+}
+
+
+/* ------------------------------------------------------------
+   Recent / Upcoming Schedule
+------------------------------------------------------------ */
+
+.team-schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.team-schedule-grid h3 {
+  margin: 0 0 12px;
+
+  color: var(--team-accent, #ffffff);
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  text-shadow:
+    -1px 1px 0 rgba(0, 0, 0, 0.9);
+}
+
+.team-match-list {
+  display: grid;
+  gap: 10px;
+}
+
+.team-match-row {
+  position: relative;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 54px 58px minmax(0, 1fr) 96px;
+  gap: 12px;
+  align-items: center;
+
+  min-height: 78px;
+  padding: 12px 14px;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--opponent-accent, var(--team-primary, #2ecc71)) 38%,
+      rgba(255, 255, 255, 0.13)
+    );
+
+  border-radius: 15px;
+
+  background:
+    radial-gradient(
+      circle at left,
+      color-mix(in srgb, var(--opponent-primary, var(--team-primary, #2ecc71)) 22%, transparent),
+      transparent 42%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.055),
+      rgba(255, 255, 255, 0.025)
+    );
+
+  color: #ffffff;
+  text-decoration: none;
+
+  box-shadow:
+    inset 0 0 12px rgba(255, 255, 255, 0.025);
+
+  transition:
+    transform 0.14s ease,
+    border-color 0.14s ease,
+    background 0.14s ease;
+}
+
+.team-match-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 42px;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--opponent-accent, var(--team-accent, #ffffff)) 48%,
+      rgba(255, 255, 255, 0.1)
+    );
+
+  border-radius: 11px;
+
+  background:
+    color-mix(in srgb, var(--team-background, #050505) 72%, transparent);
+
+  color: var(--opponent-accent, var(--team-accent, #ffffff));
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.team-match-opponent-logo-wrap {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background:
+    radial-gradient(
+      circle at center,
+      color-mix(in srgb, var(--opponent-primary, #ffffff) 18%, transparent),
+      rgba(255, 255, 255, 0.035)
+    );
+}
+
+.team-match-opponent-logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+
+  filter:
+    drop-shadow(0 4px 7px rgba(0, 0, 0, 0.72));
+}
+
+.team-match-opponent-placeholder {
+  color: var(--opponent-accent, #ffffff);
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 1.35rem;
+
+  text-shadow:
+    -1px 1px 0 rgba(0, 0, 0, 0.88);
+}
+
+.team-match-row:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--team-accent, #ffffff);
+
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--team-primary, #2ecc71) 18%, transparent),
+      transparent 44%
+    ),
+    rgba(255, 255, 255, 0.06);
+}
+
+.team-match-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 42px;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-accent, #ffffff) 42%,
+      rgba(255, 255, 255, 0.1)
+    );
+
+  border-radius: 11px;
+
+  background:
+    color-mix(in srgb, var(--team-background, #050505) 72%, transparent);
+
+  color: var(--team-accent, #ffffff);
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.team-match-main {
+  min-width: 0;
+}
+
+.team-match-main strong {
+  display: block;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: #ffffff;
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 1.05rem;
+  line-height: 1.05;
+
+  text-shadow:
+    -1px 1px 0 rgba(0, 0, 0, 0.88);
+}
+
+.team-match-main span {
+  display: block;
+  margin-top: 5px;
+
+  color: #aeb9c8;
+
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.team-match-score {
+  justify-self: end;
+
+  min-width: 78px;
+  padding: 8px 10px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.07);
+
+  color: #ffffff;
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.92rem;
+  text-align: center;
+
+  text-shadow:
+    -1px 1px 0 rgba(0, 0, 0, 0.85);
+}
+
+.team-match-win .team-match-score {
+  color: #7cffb2;
+}
+
+.team-match-loss .team-match-score {
+  color: #ff8b8b;
+}
+
+.team-match-tie .team-match-score {
+  color: #ffd166;
+}
+
+.team-schedule-toggle {
+  align-self: center;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--team-accent, #ffffff) 48%,
+      rgba(255, 255, 255, 0.12)
+    );
+
+  border-radius: 999px;
+  padding: 10px 16px;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--team-accent, #ffffff) 18%, transparent),
+      transparent 46%
+    ),
+    rgba(255, 255, 255, 0.055);
+
+  color: #ffffff;
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.14s ease,
+    border-color 0.14s ease,
+    background 0.14s ease;
+}
+
+.team-schedule-toggle:hover {
+  transform: translateY(-1px);
+
+  border-color: var(--team-accent, #ffffff);
+
+  background:
+    color-mix(in srgb, var(--team-accent, #ffffff) 18%, rgba(255, 255, 255, 0.07));
+}
+
+.team-empty-live {
+  padding: 16px;
+
+  border:
+    1px dashed
+    color-mix(
+      in srgb,
+      var(--team-primary, #2ecc71) 35%,
+      rgba(255, 255, 255, 0.16)
+    );
+
+  border-radius: 14px;
+
+  color: #aeb9c8;
+  text-align: center;
+  font-weight: 750;
+
+  background: rgba(255, 255, 255, 0.035);
+}
+
+
+/* ------------------------------------------------------------
+   Live Season Responsive
+------------------------------------------------------------ */
+
+@media (max-width: 900px) {
+  .team-panel-title-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .team-schedule-toggle {
+    align-self: flex-start;
+  }
+
+  .team-schedule-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .team-live-panel {
+    width: min(100% - 22px, 1200px);
+    padding: 18px;
+  }
+
+  .team-match-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .team-match-location {
+    justify-content: flex-start;
+    width: max-content;
+    min-width: 54px;
+    padding: 8px 10px;
+  }
+
+  .team-match-score {
+    justify-self: start;
+  }
+}
