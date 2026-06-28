@@ -705,11 +705,12 @@ function getRosterPlayerName(player) {
 
 function getRosterPlayerUrlId(player) {
   return (
-    player.slap_id
-    || player.player_id
-    || player.steam_name
+    player.player_id
     || player.player_name
+    || player.player_display_name
     || player.name
+    || player.steam_name
+    || player.slap_id
     || ""
   );
 }

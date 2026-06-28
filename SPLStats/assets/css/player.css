@@ -146,26 +146,38 @@
   text-transform: uppercase;
 }
 
+#currentTeamCard {
+  display: grid;
+  gap: 14px;
+}
+
 .current-team-card {
   display: grid;
   grid-template-columns: 76px minmax(0, 1fr) auto;
   gap: 16px;
   align-items: center;
+
   padding: 16px;
+
   border: 1px solid rgba(123, 223, 242, 0.22);
   border-radius: 18px;
+
   background:
     radial-gradient(circle at left, rgba(123, 223, 242, 0.10), transparent 38%),
     rgba(255, 255, 255, 0.045);
+
   color: #ffffff;
   text-decoration: none;
 }
 
 .current-team-card:hover {
   border-color: rgba(255, 209, 102, 0.62);
+
   background:
     radial-gradient(circle at left, rgba(255, 209, 102, 0.11), transparent 38%),
     rgba(255, 255, 255, 0.06);
+
+  text-decoration: none;
 }
 
 .current-team-logo {
@@ -178,7 +190,9 @@
 .current-team-logo.placeholder {
   display: grid;
   place-items: center;
+
   background: rgba(123, 223, 242, 0.12);
+
   color: var(--player-teal);
   font-size: 1.4rem;
   font-weight: 1000;
@@ -186,23 +200,47 @@
 
 .current-team-main strong {
   display: block;
+
   color: #ffffff;
+
+  font-family: var(--font-display, Evogria, sans-serif);
   font-size: 1.3rem;
   font-weight: 1000;
+  line-height: 1.05;
 }
 
-.current-team-main span {
-  display: block;
-  margin-top: 5px;
-  color: var(--player-muted);
-  font-size: 0.9rem;
-  font-weight: 850;
+.current-team-role-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  margin-top: 7px;
+}
+
+.current-team-role-badge {
+  width: max-content;
+  padding: 4px 8px;
+
+  border-radius: 999px;
+
+  background:
+    color-mix(in srgb, var(--team-primary, #7bdff2) 18%, rgba(255, 255, 255, 0.08));
+
+  color: var(--team-accent, #ffffff);
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.62rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .current-team-main em {
   display: block;
-  margin-top: 3px;
+  margin-top: 7px;
+
   color: var(--player-teal);
+
   font-size: 0.76rem;
   font-style: normal;
   font-weight: 1000;
@@ -212,6 +250,7 @@
 
 .current-team-action {
   color: var(--player-gold);
+
   font-size: 0.78rem;
   font-weight: 1000;
   letter-spacing: 0.08em;
@@ -220,10 +259,13 @@
 
 .player-empty-state {
   padding: 16px;
+
   border: 1px dashed rgba(123, 223, 242, 0.28);
   border-radius: 16px;
+
   color: var(--player-muted);
   background: rgba(255, 255, 255, 0.035);
+
   font-weight: 850;
 }
 
@@ -374,6 +416,20 @@ TEAM HISTORY
 .team-history-name-block {
   min-width: 0;
 }
+
+.team-history-main{
+  color: #FFFFFF;
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 1.12rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  text-shadow:
+    0 0 10px color-mix(in srgb, var(--team-accent, #7bdff2) 22%, transparent);
+}
+
 
 .team-history-label,
 .team-history-stat span,
@@ -1006,7 +1062,7 @@ CAREER TOTALS STATS PANEL
   position: relative;
 
   min-width: 0;
-  min-height: 104px;
+  min-height: 60px;
 
   padding:
     16px
@@ -1107,7 +1163,7 @@ CAREER TOTALS STATS PANEL
   transform-origin: center;
 
   font-family: var(--font-display, Evogria, sans-serif);
-  font-size: 1.12rem;
+  font-size: 0.91rem;
   font-weight: 900;
   text-transform: uppercase;
   font-style: italic;
@@ -1130,7 +1186,7 @@ CAREER TOTALS STATS PANEL
   margin-top: 20px;
 
   font-family: var(--font-display, Evogria, sans-serif);
-  font-size: clamp(2.35rem, 3.65vw, 3.65rem);
+  font-size: clamp(1.68rem, 2.75vw, 2.75rem);
   font-weight: 700;
   line-height: 1;
 

@@ -323,12 +323,13 @@ function getRosterPlayerLookupValues(rosterPlayer) {
     .filter(Boolean);
 }
 
-function findCurrentTeamForPlayer(player, activeRosters) {
+function findCurrentTeamsForPlayer(player, activeRosters) {
   const targets = new Set(getCurrentPlayerLookupValues(player));
   const teams = getActiveRosterTeams(activeRosters);
+  const matches = [];
 
   if (!targets.size || !teams.length) {
-    return null;
+    return matches;
   }
 
   for (const team of teams) {
@@ -336,10 +337,10 @@ function findCurrentTeamForPlayer(player, activeRosters) {
       const rosterValues = getRosterPlayerLookupValues(rosterPlayer);
 
       if (rosterValues.some(value => targets.has(value))) {
-        return {
+        matches.push({
           team,
           rosterPlayer
-        };
+        });
       }
     }
 
@@ -347,18 +348,73 @@ function findCurrentTeamForPlayer(player, activeRosters) {
       const normalizedSlapId = normalizeCurrentRosterValue(slapId);
 
       if (targets.has(normalizedSlapId)) {
-        return {
+        matches.push({
           team,
           rosterPlayer: {
             slap_id: slapId,
             role: "player"
           }
-        };
+        });
       }
     }
   }
 
-  return null;
+  return mergeCurrentTeamRoles(matches);
+}
+
+function mergeCurrentTeamRoles(matches) {
+  const grouped = new Map();
+
+  matches.forEach(match => {
+    const teamKey = normalizeCurrentRosterValue(
+      match.team?.team_id
+      || match.team?.team_display_name
+      || match.team?.team_name
+      || match.team?.team
+      || ""
+    );
+
+    if (!teamKey) {
+      return;
+    }
+
+    if (!grouped.has(teamKey)) {
+      grouped.set(teamKey, {
+        team: match.team,
+        rosterPlayers: []
+      });
+    }
+
+    grouped.get(teamKey).rosterPlayers.push(match.rosterPlayer);
+  });
+
+  return [...grouped.values()];
+}
+
+function getCurrentRosterRoles(currentTeamEntry) {
+  const roles = currentTeamEntry.rosterPlayers
+    .map(player => String(player.role || "player").toLowerCase())
+    .filter(Boolean);
+
+  return [...new Set(roles)]
+    .sort((a, b) => currentRoleSortValue(a) - currentRoleSortValue(b));
+}
+
+function currentRoleSortValue(role) {
+  const cleanRole = String(role || "").toLowerCase();
+
+  if (cleanRole === "gm") return 1;
+  if (cleanRole === "captain") return 2;
+
+  return 3;
+}
+
+function renderCurrentRoleBadges(roles) {
+  return roles.map(role => `
+    <span class="current-team-role-badge">
+      ${getCurrentRoleLabel(role)}
+    </span>
+  `).join("");
 }
 
 function getCurrentTeamMetadata(team, teamMetadata) {
@@ -417,16 +473,13 @@ function getCurrentRoleLabel(role) {
 
 function renderPlayerHero(player, activeRosters, teamMetadata) {
   const career = player.career || {};
-  const current = findCurrentTeamForPlayer(player, activeRosters);
-
   const subtitle = document.querySelector("#playerSubtitle");
   const quickStats = document.querySelector("#heroQuickStats");
 
-  const playerName =
-    player.player_display_name
-    || player.player_name
-    || player.player_id
-    || "Unknown Player";
+  if (subtitle) {
+    subtitle.textContent =
+      "Career statistics, team history, championships, and season-by-season production.";
+  }
 
   if (quickStats) {
     quickStats.innerHTML = [
@@ -442,72 +495,72 @@ function renderPlayerHero(player, activeRosters, teamMetadata) {
       </div>
     `).join("");
   }
-
-  if (!current) {
-    if (subtitle) {
-      subtitle.textContent =
-        "Career statistics, team history, championships, and current roster status.";
-    }
-
-    return;
-  }
-
-  const metadata = getCurrentTeamMetadata(current.team, teamMetadata);
-  const teamName = getCurrentTeamName(current.team, metadata);
-
-  if (subtitle) {
-    subtitle.textContent = `${playerName} is currently listed on ${teamName}.`;
-  }
 }
 
 function renderCurrentTeam(player, activeRosters, teamMetadata) {
   const container = document.querySelector("#currentTeamCard");
+  const section = document.querySelector("#currentTeamSection");
 
   if (!container) {
     return;
   }
 
-  const current = findCurrentTeamForPlayer(player, activeRosters);
+  const currentTeams = findCurrentTeamsForPlayer(player, activeRosters);
 
-  if (!current) {
-    container.innerHTML = `
-      <div class="player-empty-state">
-        Not currently listed on an active roster.
-      </div>
-    `;
+  if (!currentTeams.length) {
+    if (section) {
+      section.style.display = "none";
+    }
+
+    container.innerHTML = "";
     return;
   }
 
-  const metadata = getCurrentTeamMetadata(current.team, teamMetadata);
+  if (section) {
+    section.style.display = "";
+  }
 
-  const teamName = getCurrentTeamName(current.team, metadata);
-  const teamId = getCurrentTeamId(current.team, metadata);
-  const logo = getCurrentTeamLogo(current.team, metadata);
-  const region = current.team.region || metadata.region || "";
+  container.innerHTML = currentTeams.map(current => {
+    const metadata = getCurrentTeamMetadata(current.team, teamMetadata);
 
-  container.innerHTML = `
-    <a class="current-team-card" href="team.html?team=${encodeURIComponent(teamName)}">
-      ${
-        logo
-          ? `<img class="current-team-logo" src="${logo}" alt="">`
-          : `<div class="current-team-logo placeholder">${teamName.slice(0, 1)}</div>`
-      }
+    const teamName = getCurrentTeamName(current.team, metadata);
+    const teamId = getCurrentTeamId(current.team, metadata);
+    const logo = getCurrentTeamLogo(current.team, metadata);
+    const region = current.team.region || metadata.region || "";
+    const roles = getCurrentRosterRoles(current);
 
-      <div class="current-team-main">
-        <strong>${teamName}</strong>
-        <span>${getCurrentRoleLabel(current.rosterPlayer?.role)}</span>
+    const href = teamId
+      ? `team.html?id=${encodeURIComponent(teamId)}`
+      : `team.html?team=${encodeURIComponent(teamName)}`;
+
+    return `
+      <a class="current-team-card" href="${href}">
         ${
-          region
-            ? `<em>${region}</em>`
-            : ""
+          logo
+            ? `<img class="current-team-logo" src="${logo}" alt="">`
+            : `<div class="current-team-logo placeholder">${teamName.slice(0, 1)}</div>`
         }
-      </div>
 
-      <div class="current-team-action">
-        View Team
-      </div>
-    </a>
-  `;
+        <div class="current-team-main">
+          <strong>${teamName}</strong>
+
+          <div class="current-team-role-list">
+            ${renderCurrentRoleBadges(roles)}
+          </div>
+
+          ${
+            region
+              ? `<em>${region}</em>`
+              : ""
+          }
+        </div>
+
+        <div class="current-team-action">
+          View Team
+        </div>
+      </a>
+    `;
+  }).join("");
 }
 
 function normalizePlayerNameForCompare(name) {
