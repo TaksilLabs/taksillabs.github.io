@@ -472,11 +472,6 @@
         },
         {
           "role": "player",
-          "steam_name": "Charles",
-          "slap_id": "122257"
-        },
-        {
-          "role": "player",
           "steam_name": "Booya",
           "slap_id": "1419124"
         },
@@ -488,7 +483,6 @@
       ],
       "slap_ids": [
         "154305",
-        "122257",
         "1419124",
         "1766"
       ]
@@ -2401,13 +2395,24 @@
           "role": "player",
           "steam_name": "Nayr",
           "slap_id": "286293"
+        },
+        {
+          "role": "gm",
+          "steam_name": "BoatsnHoes",
+          "slap_id": ""
+        },
+        {
+          "role": "player",
+          "steam_name": "Most Gutter",
+          "slap_id": "2429"
         }
       ],
       "slap_ids": [
         "1033794",
         "837003",
         "767712",
-        "286293"
+        "286293",
+        "2429"
       ]
     },
     {
