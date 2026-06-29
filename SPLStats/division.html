@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SPLStats Division Hub</title>
+
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/division.css">
+
+  <link rel="icon" type="image/png" href="assets/images/splstats-card.png">
+</head>
+
+<body>
+  <header class="division-page-header">
+    <nav class="site-nav">
+      <a href="index.html" class="nav-card nav-home">HOME</a>
+      <a href="players.html" class="nav-card nav-players">PLAYERS</a>
+      <a href="teams.html" class="nav-card nav-teams">TEAMS</a>
+      <a href="franchises.html" class="nav-card nav-franchises">FRANCHISES</a>
+      <a href="championships.html" class="nav-card nav-championships">CHAMPIONSHIPS</a>
+    </nav>
+
+    <div class="division-hero">
+      <span id="divisionRegionLabel">East Region</span>
+      <div class="division-title-row">
+        <img id="divisionShieldLeft" class="division-shield" src="" alt="" aria-hidden="true">
+        <h1 id="divisionTitle">Pro Division</h1>
+        <img id="divisionShieldRight" class="division-shield" src="" alt="" aria-hidden="true">
+      </div>
+    </div>
+
+    <section class="division-switcher" aria-label="Division selector">
+      <div>
+        <span>East</span>
+        <button data-division="pro">Pro</button>
+        <button data-division="challenger">Challenger</button>
+        <button data-division="intermediate">Intermediate</button>
+        <button data-division="prospect">Prospect</button>
+        <button data-division="open">Open</button>
+      </div>
+
+      <div>
+        <span>Central</span>
+        <button data-division="central_a">Central A</button>
+        <button data-division="central_b">Central B</button>
+        <button data-division="central_c">Central C</button>
+        <button data-division="central_d">Central D</button>
+      </div>
+
+      <div>
+        <span>West</span>
+        <button data-division="masters">Masters</button>
+        <button data-division="contenders">Contenders</button>
+      </div>
+    </section>
+  </header>
+
+  <main class="division-layout">
+    <aside class="division-left-rail">
+      <section class="division-panel">
+        <div class="division-panel-head">
+          <span>Recent</span>
+          <h2>Most Recent Results</h2>
+        </div>
+
+        <div id="recentResults" class="division-match-list"></div>
+      </section>
+
+      <section class="division-panel">
+        <div class="division-panel-head">
+          <span>Schedule</span>
+          <h2>Next Matches</h2>
+        </div>
+
+        <div id="upcomingMatches" class="division-match-list"></div>
+      </section>
+    </aside>
+
+    <section class="division-main-column">
+      <section class="division-panel standings-panel">
+        <div class="division-panel-head">
+          <span>Table</span>
+          <h2>Standings</h2>
+        </div>
+
+        <div id="standingsContent"></div>
+      </section>
+
+      <section id="divisionNewsPanel" class="division-panel" style="display: none;">
+        <div class="division-panel-head">
+          <span>Articles</span>
+          <h2>Division News</h2>
+        </div>
+
+        <div id="divisionNewsContent"></div>
+      </section>
+    </section>
+
+    <aside class="division-right-rail">
+      <section class="division-panel">
+        <div class="division-panel-head">
+          <span>Leaders</span>
+          <h2>Top Goals</h2>
+        </div>
+        <div id="goalsLeaders" class="leader-list"></div>
+      </section>
+
+      <section class="division-panel">
+        <div class="division-panel-head">
+          <span>Leaders</span>
+          <h2>Top Points</h2>
+        </div>
+        <div id="pointsLeaders" class="leader-list"></div>
+      </section>
+
+      <section class="division-panel">
+        <div class="division-panel-head">
+          <span>Leaders</span>
+          <h2>Top Saves</h2>
+        </div>
+        <div id="savesLeaders" class="leader-list"></div>
+      </section>
+
+      <section class="division-panel">
+        <div class="division-panel-head">
+          <span>Leaders</span>
+          <h2>Top Save %</h2>
+        </div>
+        <div id="savePercentLeaders" class="leader-list"></div>
+      </section>
+    </aside>
+  </main>
+
+  <script src="assets/js/division.js"></script>
+</body>
+</html>
