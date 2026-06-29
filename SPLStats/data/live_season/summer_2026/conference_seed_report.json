@@ -1,0 +1,1585 @@
+{
+  "season_id": "summer_2026",
+  "division": "central_b",
+  "target_region": "central",
+  "conference_count": 2,
+  "team_count": 12,
+  "conferences": [
+    {
+      "slot": "1",
+      "teams": [
+        {
+          "team_id": "brampton_cows",
+          "team_display_name": "Brampton Cows",
+          "division": "central_b",
+          "conference": "",
+          "rating": 48.395,
+          "rating_lineup": [
+            {
+              "name": "Tactical Miss",
+              "roles": [
+                "captain"
+              ],
+              "rating": 25.301,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 195.0
+            },
+            {
+              "name": "Saucy :(",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.094,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 124.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Tactical Miss",
+              "roles": [
+                "captain"
+              ],
+              "rating": 25.301,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 195.0
+            },
+            {
+              "name": "Saucy :(",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.094,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 124.0
+            },
+            {
+              "name": "lacaaas",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.766,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 274.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Tactical Miss",
+              "roles": [
+                "captain"
+              ],
+              "rating": 25.301,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 195.0
+            },
+            {
+              "name": "Saucy :(",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.094,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 124.0
+            },
+            {
+              "name": "lacaaas",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.766,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 274.0
+            },
+            {
+              "name": "LIT",
+              "roles": [
+                "player"
+              ],
+              "rating": 16.844,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 180.0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": []
+        },
+        {
+          "team_id": "windy_city_walruses",
+          "team_display_name": "Windy City Walruses",
+          "division": "central_b",
+          "conference": "",
+          "rating": 46.696,
+          "rating_lineup": [
+            {
+              "name": "MyRickFellOff",
+              "roles": [
+                "player"
+              ],
+              "rating": 24.831,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 146.0
+            },
+            {
+              "name": "plsstankrate",
+              "roles": [
+                "player"
+              ],
+              "rating": 21.865,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 139.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "MyRickFellOff",
+              "roles": [
+                "player"
+              ],
+              "rating": 24.831,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 146.0
+            },
+            {
+              "name": "plsstankrate",
+              "roles": [
+                "player"
+              ],
+              "rating": 21.865,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 139.0
+            },
+            {
+              "name": "LilPrecip",
+              "roles": [
+                "captain"
+              ],
+              "rating": 20.637,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 147.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "MyRickFellOff",
+              "roles": [
+                "player"
+              ],
+              "rating": 24.831,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 146.0
+            },
+            {
+              "name": "plsstankrate",
+              "roles": [
+                "player"
+              ],
+              "rating": 21.865,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 139.0
+            },
+            {
+              "name": "LilPrecip",
+              "roles": [
+                "captain"
+              ],
+              "rating": 20.637,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 147.0
+            },
+            {
+              "name": "Potato",
+              "roles": [
+                "player"
+              ],
+              "rating": 3.975,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 14.0
+            },
+            {
+              "name": "Ranchero",
+              "roles": [
+                "player"
+              ],
+              "rating": 3.557,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 29.0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": []
+        },
+        {
+          "team_id": "barrie_bag_chasers",
+          "team_display_name": "Barrie Bag Chasers",
+          "division": "central_b",
+          "conference": "",
+          "rating": 45.087,
+          "rating_lineup": [
+            {
+              "name": "Looees",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.736,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 298.0
+            },
+            {
+              "name": "hit",
+              "roles": [
+                "captain"
+              ],
+              "rating": 21.351,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 162.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Looees",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.736,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 298.0
+            },
+            {
+              "name": "hit",
+              "roles": [
+                "captain"
+              ],
+              "rating": 21.351,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 162.0
+            },
+            {
+              "name": "Shloompa",
+              "roles": [
+                "player"
+              ],
+              "rating": 17.839,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 149.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Looees",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.736,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 298.0
+            },
+            {
+              "name": "hit",
+              "roles": [
+                "captain"
+              ],
+              "rating": 21.351,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 162.0
+            },
+            {
+              "name": "Shloompa",
+              "roles": [
+                "player"
+              ],
+              "rating": 17.839,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 149.0
+            },
+            {
+              "name": "maia",
+              "roles": [
+                "player"
+              ],
+              "rating": 16.419,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 142.0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": []
+        },
+        {
+          "team_id": "lakeshore_loons",
+          "team_display_name": "Lakeshore Loons",
+          "division": "central_b",
+          "conference": "",
+          "rating": 38.028,
+          "rating_lineup": [
+            {
+              "name": "Jot",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.651,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 21.0
+            },
+            {
+              "name": "frosty",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.377,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 21.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Jot",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.651,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 21.0
+            },
+            {
+              "name": "frosty",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.377,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 21.0
+            },
+            {
+              "name": "Rocker`",
+              "roles": [
+                "player"
+              ],
+              "rating": 14.573,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 20.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Jot",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.651,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 21.0
+            },
+            {
+              "name": "frosty",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.377,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 21.0
+            },
+            {
+              "name": "Rocker`",
+              "roles": [
+                "player"
+              ],
+              "rating": 14.573,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 20.0
+            },
+            {
+              "name": "West",
+              "roles": [
+                "captain"
+              ],
+              "rating": 13.296,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 21.0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": []
+        },
+        {
+          "team_id": "vader_starkillers_central",
+          "team_display_name": "Vader Starkillers Central",
+          "division": "central_b",
+          "conference": "",
+          "rating": 37.391,
+          "rating_lineup": [
+            {
+              "name": "grimace",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.176,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 69.0
+            },
+            {
+              "name": "qptreyqp",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.215,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 27.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "grimace",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.176,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 69.0
+            },
+            {
+              "name": "qptreyqp",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.215,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 27.0
+            },
+            {
+              "name": "oChase",
+              "roles": [
+                "player"
+              ],
+              "rating": 16.126,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 28.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "grimace",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.176,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 69.0
+            },
+            {
+              "name": "qptreyqp",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.215,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 27.0
+            },
+            {
+              "name": "oChase",
+              "roles": [
+                "player"
+              ],
+              "rating": 16.126,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 28.0
+            },
+            {
+              "name": "Rigg",
+              "roles": [
+                "captain"
+              ],
+              "rating": 15.387,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 44.0
+            },
+            {
+              "name": "Kwispy (Cold Hands)",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": [
+            "Unmatched players: Kwispy (Cold Hands)"
+          ]
+        },
+        {
+          "team_id": "ushl_prospects",
+          "team_display_name": "USHL Prospects",
+          "division": "central_b",
+          "conference": "",
+          "rating": 20.589,
+          "rating_lineup": [
+            {
+              "name": "een",
+              "roles": [
+                "player"
+              ],
+              "rating": 20.589,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 1.0
+            },
+            {
+              "name": "BH",
+              "roles": [
+                "captain"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "een",
+              "roles": [
+                "player"
+              ],
+              "rating": 20.589,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 1.0
+            },
+            {
+              "name": "BH",
+              "roles": [
+                "captain"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            },
+            {
+              "name": "huungrysebik",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "een",
+              "roles": [
+                "player"
+              ],
+              "rating": 20.589,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 1.0
+            },
+            {
+              "name": "BH",
+              "roles": [
+                "captain"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            },
+            {
+              "name": "huungrysebik",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            },
+            {
+              "name": "Behimeth",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            },
+            {
+              "name": "camyg110",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": [
+            "Unmatched players: BH, huungrysebik, Behimeth, camyg110"
+          ]
+        }
+      ],
+      "rating_total": 236.186
+    },
+    {
+      "slot": "2",
+      "teams": [
+        {
+          "team_id": "vader_saboteurs",
+          "team_display_name": "Vader Saboteurs",
+          "division": "central_b",
+          "conference": "",
+          "rating": 45.851,
+          "rating_lineup": [
+            {
+              "name": "cybergoose",
+              "roles": [
+                "player"
+              ],
+              "rating": 28.802,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 13.0
+            },
+            {
+              "name": "meenimizer",
+              "roles": [
+                "captain"
+              ],
+              "rating": 17.049,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 90.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "cybergoose",
+              "roles": [
+                "player"
+              ],
+              "rating": 28.802,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 13.0
+            },
+            {
+              "name": "meenimizer",
+              "roles": [
+                "captain"
+              ],
+              "rating": 17.049,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 90.0
+            },
+            {
+              "name": "Basho",
+              "roles": [
+                "player"
+              ],
+              "rating": 14.311,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 13.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "cybergoose",
+              "roles": [
+                "player"
+              ],
+              "rating": 28.802,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 13.0
+            },
+            {
+              "name": "meenimizer",
+              "roles": [
+                "captain"
+              ],
+              "rating": 17.049,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 90.0
+            },
+            {
+              "name": "Basho",
+              "roles": [
+                "player"
+              ],
+              "rating": 14.311,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 13.0
+            },
+            {
+              "name": "pl4zma",
+              "roles": [
+                "player"
+              ],
+              "rating": 12.851,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 33.0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": []
+        },
+        {
+          "team_id": "vader_inquisitors",
+          "team_display_name": "Vader Inquisitors",
+          "division": "central_b",
+          "conference": "",
+          "rating": 45.253,
+          "rating_lineup": [
+            {
+              "name": "Teddy Bluegar",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.931,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 146.0
+            },
+            {
+              "name": "Ghostwalker",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.322,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 151.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Teddy Bluegar",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.931,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 146.0
+            },
+            {
+              "name": "Ghostwalker",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.322,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 151.0
+            },
+            {
+              "name": "Filip Chytil Stan",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.68,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 147.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Teddy Bluegar",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.931,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 146.0
+            },
+            {
+              "name": "Ghostwalker",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.322,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 151.0
+            },
+            {
+              "name": "Filip Chytil Stan",
+              "roles": [
+                "player"
+              ],
+              "rating": 19.68,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 147.0
+            },
+            {
+              "name": "Galalendon",
+              "roles": [
+                "captain"
+              ],
+              "rating": 17.483,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 157.0
+            },
+            {
+              "name": "Akakattack",
+              "roles": [
+                "player"
+              ],
+              "rating": 15.703,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 103.0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": []
+        },
+        {
+          "team_id": "ottawa_valley_bass_slappers",
+          "team_display_name": "Ottawa Valley Bass Slappers",
+          "division": "central_b",
+          "conference": "",
+          "rating": 42.392,
+          "rating_lineup": [
+            {
+              "name": "Noob_Weapons",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.447,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 274.0
+            },
+            {
+              "name": "LessThanDennis",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.945,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 524.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Noob_Weapons",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.447,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 274.0
+            },
+            {
+              "name": "LessThanDennis",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.945,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 524.0
+            },
+            {
+              "name": "GiraffeKiller",
+              "roles": [
+                "player"
+              ],
+              "rating": 17.445,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 106.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Noob_Weapons",
+              "roles": [
+                "player"
+              ],
+              "rating": 23.447,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 274.0
+            },
+            {
+              "name": "LessThanDennis",
+              "roles": [
+                "player"
+              ],
+              "rating": 18.945,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 524.0
+            },
+            {
+              "name": "GiraffeKiller",
+              "roles": [
+                "player"
+              ],
+              "rating": 17.445,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 106.0
+            },
+            {
+              "name": "Kavorka",
+              "roles": [
+                "player"
+              ],
+              "rating": 16.329,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 248.0
+            },
+            {
+              "name": "Dionysus",
+              "roles": [
+                "player"
+              ],
+              "rating": 15.63,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 252.0
+            }
+          ],
+          "excluded_players": [
+            {
+              "name": "EggsThink",
+              "roles": [
+                "gm"
+              ],
+              "reason": "GM only"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "team_id": "atlantic_city_zootiez",
+          "team_display_name": "Atlantic City Zootiez$",
+          "division": "central_b",
+          "conference": "",
+          "rating": 39.966,
+          "rating_lineup": [
+            {
+              "name": "Nayr[QC]",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.445,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 375.0
+            },
+            {
+              "name": ">:)",
+              "roles": [
+                "player"
+              ],
+              "rating": 17.521,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 120.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Nayr[QC]",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.445,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 375.0
+            },
+            {
+              "name": ">:)",
+              "roles": [
+                "player"
+              ],
+              "rating": 17.521,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 120.0
+            },
+            {
+              "name": "AddyP786",
+              "roles": [
+                "captain"
+              ],
+              "rating": 14.573,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 199.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Nayr[QC]",
+              "roles": [
+                "player"
+              ],
+              "rating": 22.445,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 375.0
+            },
+            {
+              "name": ">:)",
+              "roles": [
+                "player"
+              ],
+              "rating": 17.521,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 120.0
+            },
+            {
+              "name": "AddyP786",
+              "roles": [
+                "captain"
+              ],
+              "rating": 14.573,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 199.0
+            },
+            {
+              "name": "midget",
+              "roles": [
+                "player"
+              ],
+              "rating": 13.541,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 112.0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": []
+        },
+        {
+          "team_id": "vader_revanites",
+          "team_display_name": "Vader Revanites",
+          "division": "central_b",
+          "conference": "",
+          "rating": 37.586,
+          "rating_lineup": [
+            {
+              "name": "Sylvatic",
+              "roles": [
+                "player"
+              ],
+              "rating": 20.677,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 263.0
+            },
+            {
+              "name": "withdrawals",
+              "roles": [
+                "captain"
+              ],
+              "rating": 16.909,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 72.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Sylvatic",
+              "roles": [
+                "player"
+              ],
+              "rating": 20.677,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 263.0
+            },
+            {
+              "name": "withdrawals",
+              "roles": [
+                "captain"
+              ],
+              "rating": 16.909,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 72.0
+            },
+            {
+              "name": "901x Amac",
+              "roles": [
+                "player"
+              ],
+              "rating": 9.664,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 9.0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Sylvatic",
+              "roles": [
+                "player"
+              ],
+              "rating": 20.677,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 263.0
+            },
+            {
+              "name": "withdrawals",
+              "roles": [
+                "captain"
+              ],
+              "rating": 16.909,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 72.0
+            },
+            {
+              "name": "901x Amac",
+              "roles": [
+                "player"
+              ],
+              "rating": 9.664,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 9.0
+            },
+            {
+              "name": "CheekyBathtub69",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": [
+            "Unmatched players: CheekyBathtub69"
+          ]
+        },
+        {
+          "team_id": "battle_creek_kings",
+          "team_display_name": "Battle Creek Kings",
+          "division": "central_b",
+          "conference": "",
+          "rating": 24.972,
+          "rating_lineup": [
+            {
+              "name": "Napa0",
+              "roles": [
+                "captain"
+              ],
+              "rating": 14.095,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 166.0
+            },
+            {
+              "name": "HammerTime9000",
+              "roles": [
+                "player"
+              ],
+              "rating": 10.877,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 179.0
+            }
+          ],
+          "best_lineup": [
+            {
+              "name": "Napa0",
+              "roles": [
+                "captain"
+              ],
+              "rating": 14.095,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 166.0
+            },
+            {
+              "name": "HammerTime9000",
+              "roles": [
+                "player"
+              ],
+              "rating": 10.877,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 179.0
+            },
+            {
+              "name": "Joe",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            }
+          ],
+          "eligible_players": [
+            {
+              "name": "Napa0",
+              "roles": [
+                "captain"
+              ],
+              "rating": 14.095,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 166.0
+            },
+            {
+              "name": "HammerTime9000",
+              "roles": [
+                "player"
+              ],
+              "rating": 10.877,
+              "matched": true,
+              "rating_region": "central",
+              "used_region_fallback": true,
+              "region_games": 0,
+              "total_games": 179.0
+            },
+            {
+              "name": "Joe",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            },
+            {
+              "name": "SPMZ",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            },
+            {
+              "name": "SemenSlayer",
+              "roles": [
+                "player"
+              ],
+              "rating": 0,
+              "matched": false,
+              "rating_region": "central",
+              "used_region_fallback": false,
+              "region_games": 0,
+              "total_games": 0
+            }
+          ],
+          "excluded_players": [],
+          "warnings": [
+            "Unmatched players: Joe, SPMZ, SemenSlayer"
+          ]
+        }
+      ],
+      "rating_total": 236.02
+    }
+  ]
+}

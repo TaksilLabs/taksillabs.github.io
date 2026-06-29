@@ -169,7 +169,7 @@ HTML = r"""
 
     .editor-head {
       display: grid;
-      grid-template-columns: 1fr 180px 160px;
+      grid-template-columns: 1fr 150px 150px 190px 190px;
       gap: 10px;
       margin-bottom: 18px;
     }
@@ -308,6 +308,31 @@ function markDirty() {
   setStatus("Unsaved changes");
 }
 
+function normalizeRegionValue(value) {
+  const text = cleanText(value).toLowerCase();
+
+  if (text.includes("east") || text.includes("main slapshot league")) {
+    return "east";
+  }
+
+  if (text.includes("central")) {
+    return "central";
+  }
+
+  if (text.includes("west")) {
+    return "west";
+  }
+
+  return text;
+}
+
+function ensureTeamSeasonFields(team) {
+  team.season_id = team.season_id || rosterData?.season_id || "summer_2026";
+  team.region = normalizeRegionValue(team.region);
+  team.division = team.division || "";
+  team.conference = team.conference ?? "";
+}
+
 async function loadRosters() {
   const response = await fetch("/api/rosters");
 
@@ -318,6 +343,8 @@ async function loadRosters() {
 
   rosterData = await response.json();
   teams = rosterData.teams || [];
+
+  teams.forEach(ensureTeamSeasonFields);
 
   teams.sort((a, b) =>
     cleanText(a.team_display_name).localeCompare(cleanText(b.team_display_name))
@@ -336,6 +363,8 @@ function teamMatchesSearch(team, query) {
     team.team,
     team.team_abbreviation,
     team.region,
+    team.division,
+    team.conference,
     ...(team.players || []).map(p => `${p.steam_name} ${p.slap_id} ${p.role}`)
   ].join(" ").toLowerCase();
 
@@ -359,13 +388,29 @@ function renderTeamList() {
       >
         <strong>${team.team_display_name || team.team || team.team_id}</strong>
         <small>
-          ${team.region || "unknown"}
+          ${formatTeamMetaLine(team)}
           <span class="count-pill">${playerCount} players</span>
           <span class="count-pill">${slapCount} IDs</span>
         </small>
       </div>
     `;
   }).join("");
+}
+
+function titleCaseValue(value) {
+  return cleanText(value)
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, letter => letter.toUpperCase());
+}
+
+function formatTeamMetaLine(team) {
+  const pieces = [
+    team.region ? titleCaseValue(team.region) : "Unknown Region",
+    team.division ? titleCaseValue(team.division) : "No Division",
+    team.conference ? titleCaseValue(team.conference) : ""
+  ].filter(Boolean);
+
+  return pieces.join(" · ");
 }
 
 function selectTeam(teamId) {
@@ -475,7 +520,10 @@ function addTeam() {
     team_display_name: name,
     team: name,
     team_abbreviation: "",
+    season_id: rosterData?.season_id || "summer_2026",
     region: "",
+    division: "",
+    conference: "",
     players: [],
     slap_ids: []
   };
@@ -523,10 +571,39 @@ function renderEditor() {
       <label>
         Region
         <select onchange="updateTeamField('region', this.value)">
-          ${regionOption("", team.region, "Unknown")}
-          ${regionOption("east", team.region, "East")}
-          ${regionOption("central", team.region, "Central")}
-          ${regionOption("west", team.region, "West")}
+          ${selectOption("", team.region, "Unknown")}
+          ${selectOption("east", team.region, "East")}
+          ${selectOption("central", team.region, "Central")}
+          ${selectOption("west", team.region, "West")}
+        </select>
+      </label>
+
+      <label>
+        Division
+        <select onchange="updateTeamField('division', this.value)">
+          ${selectOption("", team.division, "None")}
+          ${selectOption("pro", team.division, "Pro")}
+          ${selectOption("challenger", team.division, "Challenger")}
+          ${selectOption("intermediate", team.division, "Intermediate")}
+          ${selectOption("prospect", team.division, "Prospect")}
+          ${selectOption("open", team.division, "Open")}
+          ${selectOption("central_a", team.division, "Central A")}
+          ${selectOption("central_b", team.division, "Central B")}
+          ${selectOption("central_c", team.division, "Central C")}
+          ${selectOption("central_d", team.division, "Central D")}
+          ${selectOption("masters", team.division, "Masters")}
+          ${selectOption("contenders", team.division, "Contenders")}
+        </select>
+      </label>
+
+      <label>
+        Conference
+        <select onchange="updateTeamField('conference', this.value)">
+          ${selectOption("", team.conference, "None")}
+          ${selectOption("1", team.conference, "1")}
+          ${selectOption("2", team.conference, "2")}
+          ${selectOption("3", team.conference, "3")}
+          ${selectOption("4", team.conference, "4")}
         </select>
       </label>
     </div>
@@ -544,7 +621,7 @@ function renderEditor() {
   `;
 }
 
-function regionOption(value, selected, label) {
+function selectOption(value, selected, label) {
   return `
     <option
       value="${value}"
@@ -610,7 +687,10 @@ function escapeAttr(value) {
 }
 
 async function saveRosters() {
-  teams.forEach(rebuildSlapIds);
+  teams.forEach(team => {
+    ensureTeamSeasonFields(team);
+    rebuildSlapIds(team);
+  });
 
   rosterData.teams = teams;
 

@@ -8,7 +8,7 @@
       "team_display_name": "Arnold Ashtrays",
       "team": "Arnold Ashtrays",
       "team_abbreviation": "PPG",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "gm",
@@ -36,14 +36,17 @@
         "1891105",
         "1275507",
         "1888210"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "atlanta_aces",
       "team_display_name": "Atlanta Aces",
       "team": "Atlanta Aces",
       "team_abbreviation": "Atl",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -65,14 +68,17 @@
         "24807",
         "6799",
         "819088"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "atlantic_city_zootiez",
       "team_display_name": "Atlantic City Zootiez$",
       "team": "Atlantic City Zootiez$",
       "team_abbreviation": "ACZ",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -100,24 +106,22 @@
         "948283",
         "72269",
         "286293"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "barcelona_bobos_prep_academy",
       "team_display_name": "Barcelona Bobos Prep Academy",
       "team": "Barcelona Bobos Prep Academy",
       "team_abbreviation": "BBPA",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
           "steam_name": "Jenediah",
           "slap_id": "154305"
-        },
-        {
-          "role": "player",
-          "steam_name": "Charles",
-          "slap_id": "122257"
         },
         {
           "role": "player",
@@ -137,18 +141,20 @@
       ],
       "slap_ids": [
         "154305",
-        "122257",
         "1320348",
         "1419124",
         "640761"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     },
     {
       "team_id": "barrie_bag_chasers",
       "team_display_name": "Barrie Bag Chasers",
       "team": "Barrie Bag Chasers",
       "team_abbreviation": "BBC",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -176,14 +182,17 @@
         "281017",
         "979880",
         "1269140"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "barrie_bald_boys",
       "team_display_name": "Barrie Bald Boys",
       "team": "Barrie Bald Boys",
       "team_abbreviation": "BBB",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -204,21 +213,30 @@
           "role": "player",
           "steam_name": "Darth Daevin",
           "slap_id": "836900"
+        },
+        {
+          "role": "player",
+          "steam_name": "Charles",
+          "slap_id": "122257"
         }
       ],
       "slap_ids": [
         "1354924",
         "1127790",
         "929814",
-        "836900"
-      ]
+        "836900",
+        "122257"
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "barrie_beaver_brigade",
       "team_display_name": "Barrie Beaver Brigade",
       "team": "Barrie Beaver Brigade",
       "team_abbreviation": "BBB",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -246,14 +264,17 @@
         "979880",
         "1427595",
         "604541"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "barrie_belgian_waffles",
       "team_display_name": "Barrie Belgian Waffles",
       "team": "Barrie Belgian Waffles",
       "team_abbreviation": "BBW",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -275,14 +296,17 @@
         "1354924",
         "929814",
         "1127790"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     },
     {
       "team_id": "barrie_ice_hounds",
       "team_display_name": "Barrie Ice Hounds",
       "team": "Barrie Ice Hounds",
       "team_abbreviation": "BIH",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "gm",
@@ -316,14 +340,17 @@
         "1325186",
         "2037465",
         "1853453"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "baton_rouge_bobos",
       "team_display_name": "Baton Rouge Bobos",
       "team": "Baton Rouge Bobos",
       "team_abbreviation": "BRBO",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -345,14 +372,17 @@
         "600238",
         "871020",
         "22412"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     },
     {
       "team_id": "battle_creek_kings",
       "team_display_name": "Battle Creek Kings",
       "team": "Battle Creek Kings",
       "team_abbreviation": "BACK",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -366,7 +396,7 @@
         },
         {
           "role": "player",
-          "steam_name": "Joe",
+          "steam_name": "Joemer",
           "slap_id": "67383"
         },
         {
@@ -376,7 +406,7 @@
         },
         {
           "role": "player",
-          "steam_name": "SemenSlayer",
+          "steam_name": "Semen Slayer",
           "slap_id": "1427595"
         }
       ],
@@ -386,14 +416,17 @@
         "67383",
         "941924",
         "1427595"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "beauport_lynx",
       "team_display_name": "Beauport Lynx",
       "team": "Beauport Lynx",
       "team_abbreviation": "LYNX",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -415,14 +448,17 @@
         "1000671",
         "1015166",
         "2004442"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "bedford_bobos_preparatory_academy",
       "team_display_name": "Bedford Bobos Preparatory Academy",
       "team": "Bedford Bobos Preparatory Academy",
       "team_abbreviation": "BBPA",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -456,14 +492,17 @@
         "173111",
         "871020",
         "1483800"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "beverly_hills_bobos",
       "team_display_name": "Beverly Hills Bobos",
       "team": "Beverly Hills Bobos",
       "team_abbreviation": "BHB",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -485,14 +524,17 @@
         "154305",
         "1419124",
         "1766"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "birmingham_bobos",
       "team_display_name": "Birmingham Bobos",
       "team": "Birmingham Bobos",
       "team_abbreviation": "BHBB",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -526,14 +568,17 @@
         "1432097",
         "2105273",
         "5400"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "boston_bahds",
       "team_display_name": "Boston Bahds",
       "team": "Boston Bahds",
       "team_abbreviation": "BAHD",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -567,14 +612,17 @@
         "710101",
         "352226",
         "1314476"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "boston_bobos",
       "team_display_name": "Boston Bobos",
       "team": "Boston Bobos",
       "team_abbreviation": "BOBO",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -608,14 +656,17 @@
         "4153",
         "1419124",
         "636422"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "boston_shufflebottoms",
       "team_display_name": "Boston Shufflebottoms",
       "team": "Boston Shufflebottoms",
       "team_abbreviation": "BSB",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -637,14 +688,17 @@
         "1314476",
         "1834115",
         "1313861"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_c",
+      "conference": ""
     },
     {
       "team_id": "brampton_cows",
       "team_display_name": "Brampton Cows",
       "team": "Brampton Cows",
       "team_abbreviation": "BRC",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -672,14 +726,17 @@
         "186627",
         "758362",
         "633338"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "camden_crook",
       "team_display_name": "Camden Crook$",
       "team": "Camden Crook$",
       "team_abbreviation": "CRKS",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -713,14 +770,17 @@
         "957603",
         "1378966",
         "508645"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "2"
     },
     {
       "team_id": "camrose_cats",
       "team_display_name": "Camrose Cats",
       "team": "Camrose Cats",
       "team_abbreviation": "cat",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -748,14 +808,17 @@
         "985994",
         "1234707",
         "865092"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     },
     {
       "team_id": "champaign_champagne",
       "team_display_name": "Champaign Champagne",
       "team": "Champaign Champagne",
       "team_abbreviation": "CHA",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "gm",
@@ -795,14 +858,17 @@
         "985994",
         "1856285",
         "1026914"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "chicago_sky_scrapers",
       "team_display_name": "Chicago Sky Scrapers",
       "team": "Chicago Sky Scrapers",
       "team_abbreviation": "CSS",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -830,14 +896,17 @@
         "448394",
         "509256",
         "449498"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "cold_lake_hit_lits",
       "team_display_name": "Cold Lake Hit Lits",
       "team": "Cold Lake Hit Lits",
       "team_abbreviation": "CLHL",
-      "region": "west slapshot league",
+      "region": "west",
       "players": [
         {
           "role": "captain",
@@ -871,14 +940,17 @@
         "633338",
         "985994",
         "1797454"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "masters",
+      "conference": ""
     },
     {
       "team_id": "cold_lake_upper_deckies",
       "team_display_name": "Cold Lake Upper Deckies",
       "team": "Cold Lake Upper Deckies",
       "team_abbreviation": "CLUD",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -906,14 +978,17 @@
         "1282529",
         "913017",
         "758362"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "2"
     },
     {
       "team_id": "delco_dog_dads",
       "team_display_name": "Delco Dog Dads",
       "team": "Delco Dog Dads",
       "team_abbreviation": "DDD",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -947,14 +1022,17 @@
         "19647",
         "702578",
         "1850085"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "2"
     },
     {
       "team_id": "detroit_droids",
       "team_display_name": "Detroit Droids",
       "team": "Detroit Droids",
       "team_abbreviation": "DTD",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -988,14 +1066,17 @@
         "19508",
         "1836154",
         "1071429"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     },
     {
       "team_id": "edmonton_bears",
       "team_display_name": "Edmonton Bears",
       "team": "Edmonton Bears",
       "team_abbreviation": "EDM",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1023,14 +1104,17 @@
         "1320348",
         "634779",
         "871020"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "1"
     },
     {
       "team_id": "farmington_pilot_knobbers",
       "team_display_name": "Farmington Pilot Knobbers",
       "team": "Farmington Pilot Knobbers",
       "team_abbreviation": "FPK",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -1064,14 +1148,17 @@
         "640618",
         "637921",
         "1757156"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_c",
+      "conference": ""
     },
     {
       "team_id": "gary_glizzy_gobblers",
       "team_display_name": "Gary Glizzy Gobblers",
       "team": "Gary Glizzy Gobblers",
       "team_abbreviation": "GGG",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1105,14 +1192,17 @@
         "8081",
         "174650",
         "1528532"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "greensboro_goosans",
       "team_display_name": "Greensboro Goosans",
       "team": "Greensboro Goosans",
       "team_abbreviation": "GOOS",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1140,14 +1230,17 @@
         "865399",
         "1547281",
         "150797"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "hagerstown_heroes",
       "team_display_name": "Hagerstown Heroes",
       "team": "Hagerstown Heroes",
       "team_abbreviation": "HHRS",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1181,14 +1274,17 @@
         "849146",
         "883507",
         "2017598"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "jerusalem_golden_bobos",
       "team_display_name": "Jerusalem Golden Bobos",
       "team": "Jerusalem Golden Bobos",
       "team_abbreviation": "JGB",
-      "region": "west slapshot league",
+      "region": "west",
       "players": [
         {
           "role": "captain",
@@ -1222,14 +1318,17 @@
         "871020",
         "1071429",
         "267559"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "masters",
+      "conference": ""
     },
     {
       "team_id": "lakeshore_loons",
       "team_display_name": "Lakeshore Loons",
       "team": "Lakeshore Loons",
       "team_abbreviation": "LOON",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -1257,14 +1356,17 @@
         "1452681",
         "1450531",
         "1450474"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "long_island_lightning",
       "team_display_name": "Long Island Lightning",
       "team": "Long Island Lightning",
       "team_abbreviation": "LIL",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1298,14 +1400,17 @@
         "429397",
         "327983",
         "107083"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "miami_muffins",
       "team_display_name": "Miami Muffins",
       "team": "Miami Muffins",
       "team_abbreviation": "MUFF",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1338,14 +1443,17 @@
         "914448",
         "1836154",
         "915093"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "no_name_nighthawks",
       "team_display_name": "No Name Nighthawks",
       "team": "No Name Nighthawks",
       "team_abbreviation": "NNN",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1379,14 +1487,17 @@
         "87",
         "67383",
         "1502807"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "north_carolina_sap",
       "team_display_name": "North Carolina S.A.P",
       "team": "North Carolina S.A.P",
       "team_abbreviation": "SAP",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1408,14 +1519,17 @@
         "1254826",
         "1255009",
         "1252384"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "okinawa_generations",
       "team_display_name": "Okinawa Generations",
       "team": "Okinawa Generations",
       "team_abbreviation": "OKG",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1449,14 +1563,17 @@
         "197140",
         "1420",
         "212"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "2"
     },
     {
       "team_id": "ottawa_valley_bass_slappers",
       "team_display_name": "Ottawa Valley Bass Slappers",
       "team": "Ottawa Valley Bass Slappers",
       "team_abbreviation": "OVBS",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "gm",
@@ -1496,14 +1613,17 @@
         "1314542",
         "87468",
         "816852"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "ottawa_valley_cool_cats",
       "team_display_name": "Ottawa Valley Cool Cats",
       "team": "Ottawa Valley Cool Cats",
       "team_abbreviation": "OVCC",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -1537,14 +1657,17 @@
         "429195",
         "560316",
         "35"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     },
     {
       "team_id": "ottawa_valley_post_dingers",
       "team_display_name": "Ottawa Valley Post Dingers",
       "team": "Ottawa Valley Post Dingers",
       "team_abbreviation": "OVPD",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1566,14 +1689,17 @@
         "186",
         "1374",
         "1071429"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "1"
     },
     {
       "team_id": "ottawa_valley_puck_masters",
       "team_display_name": "Ottawa Valley Puck Masters",
       "team": "Ottawa Valley Puck Masters",
       "team_abbreviation": "OVPM",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -1607,14 +1733,17 @@
         "1591253",
         "24807",
         "819088"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_c",
+      "conference": ""
     },
     {
       "team_id": "ottawa_valley_puck_slappers",
       "team_display_name": "Ottawa Valley Puck Slappers",
       "team": "Ottawa Valley Puck Slappers",
       "team_abbreviation": "OVPS",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1648,14 +1777,17 @@
         "1506478",
         "431751",
         "9394"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "ottawa_valley_slappers_with_attitude",
       "team_display_name": "Ottawa Valley Slappers With Attitude",
       "team": "Ottawa Valley Slappers With Attitude",
       "team_abbreviation": "S.W.A",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "gm",
@@ -1695,14 +1827,17 @@
         "1591253",
         "1591250",
         "18350"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "ottawa_valley_sweatshirt_and_friends",
       "team_display_name": "Ottawa Valley Sweatshirt And Friends",
       "team": "Ottawa Valley Sweatshirt And Friends",
       "team_abbreviation": "OVSF",
-      "region": "west slapshot league",
+      "region": "west",
       "players": [
         {
           "role": "gm",
@@ -1742,14 +1877,17 @@
         "594707",
         "1856285",
         "1026914"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "masters",
+      "conference": ""
     },
     {
       "team_id": "pawnee_post_syrup_intake_authority",
       "team_display_name": "Pawnee Post Syrup Intake Authority",
       "team": "Pawnee Post Syrup Intake Authority",
       "team_abbreviation": "PPSA",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1783,14 +1921,17 @@
         "67088",
         "1314542",
         "9265"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "2"
     },
     {
       "team_id": "pittsburgh_volts",
       "team_display_name": "Pittsburgh Volts",
       "team": "Pittsburgh Volts",
       "team_abbreviation": "PIT",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1824,14 +1965,17 @@
         "47785",
         "148141",
         "352018"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "quebec_flare",
       "team_display_name": "Quebec Flare",
       "team": "Quebec Flare",
       "team_abbreviation": "QUE",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1853,14 +1997,17 @@
         "286293",
         "19508",
         "795175"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "2"
     },
     {
       "team_id": "salem_cats",
       "team_display_name": "Salem Cats",
       "team": "Salem Cats",
       "team_abbreviation": "SAL",
-      "region": "west slapshot league",
+      "region": "west",
       "players": [
         {
           "role": "captain",
@@ -1882,14 +2029,17 @@
         "1378966",
         "550187",
         "173111"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "masters",
+      "conference": ""
     },
     {
       "team_id": "seattle_cyclones",
       "team_display_name": "Seattle Cyclones",
       "team": "Seattle Cyclones",
       "team_abbreviation": "SEA",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -1911,14 +2061,17 @@
         "962536",
         "1232982",
         "1009691"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "2"
     },
     {
       "team_id": "ushl_prospects",
       "team_display_name": "USHL Prospects",
       "team": "USHL Prospects",
       "team_abbreviation": "USHL",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -1952,14 +2105,17 @@
         "263074",
         "2020493",
         "1213271"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "vader_66ers",
       "team_display_name": "Vader 66ers",
       "team": "Vader 66ers",
       "team_abbreviation": "V66",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -1981,14 +2137,17 @@
         "1287792",
         "1722341",
         "1723185"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_c",
+      "conference": ""
     },
     {
       "team_id": "vader_acolytes",
       "team_display_name": "Vader Acolytes",
       "team": "Vader Acolytes",
       "team_abbreviation": "VADA",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2016,14 +2175,17 @@
         "1771333",
         "1562745",
         "1937517"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "open",
+      "conference": ""
     },
     {
       "team_id": "vader_bounty_hunters",
       "team_display_name": "Vader Bounty Hunters",
       "team": "Vader Bounty Hunters",
       "team_abbreviation": "VABH",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -2051,14 +2213,17 @@
         "2129",
         "61597",
         "1310489"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_c",
+      "conference": ""
     },
     {
       "team_id": "vader_eastern_attackers",
       "team_display_name": "Vader Eastern Attackers",
       "team": "Vader Eastern Attackers",
       "team_abbreviation": "VEA",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2092,14 +2257,17 @@
         "1199765",
         "18011",
         "948283"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "1"
     },
     {
       "team_id": "vader_gungans",
       "team_display_name": "Vader Gungans",
       "team": "Vader Gungans",
       "team_abbreviation": "VADG",
-      "region": "west slapshot league",
+      "region": "west",
       "players": [
         {
           "role": "captain",
@@ -2133,14 +2301,17 @@
         "439532",
         "327512",
         "19508"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "masters",
+      "conference": ""
     },
     {
       "team_id": "vader_inquisitors",
       "team_display_name": "Vader Inquisitors",
       "team": "Vader Inquisitors",
       "team_abbreviation": "VADI",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -2174,14 +2345,17 @@
         "1439105",
         "1689859",
         "848840"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "vader_revanites",
       "team_display_name": "Vader Revanites",
       "team": "Vader Revanites",
       "team_abbreviation": "VADR",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -2209,14 +2383,17 @@
         "406789",
         "818797",
         "1362725"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "vader_saboteurs",
       "team_display_name": "Vader Saboteurs",
       "team": "Vader Saboteurs",
       "team_abbreviation": "VADS",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -2237,21 +2414,30 @@
           "role": "player",
           "steam_name": "Basho",
           "slap_id": "153665"
+        },
+        {
+          "role": "player",
+          "steam_name": "bread",
+          "slap_id": "825118"
         }
       ],
       "slap_ids": [
         "439532",
         "636422",
         "1199765",
-        "153665"
-      ]
+        "153665",
+        "825118"
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "vader_starkillers_central",
       "team_display_name": "Vader Starkillers Central",
       "team": "Vader Starkillers Central",
       "team_abbreviation": "VSKC",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -2285,14 +2471,17 @@
         "524911",
         "767270",
         "524929"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "vader_starkillers_east",
       "team_display_name": "Vader Starkillers East",
       "team": "Vader Starkillers East",
       "team_abbreviation": "VDSE",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2326,14 +2515,17 @@
         "893565",
         "767270",
         "524911"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "vader_stars",
       "team_display_name": "Vader Stars",
       "team": "Vader Stars",
       "team_abbreviation": "VAS",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2367,14 +2559,17 @@
         "40",
         "600238",
         "633338"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "1"
     },
     {
       "team_id": "vader_vanguard",
       "team_display_name": "Vader Vanguard",
       "team": "Vader Vanguard",
       "team_abbreviation": "VANG",
-      "region": "west slapshot league",
+      "region": "west",
       "players": [
         {
           "role": "player",
@@ -2413,14 +2608,17 @@
         "767712",
         "286293",
         "2429"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "masters",
+      "conference": ""
     },
     {
       "team_id": "vader_vanquishers",
       "team_display_name": "Vader Vanquishers",
       "team": "Vader Vanquishers",
       "team_abbreviation": "VANQ",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "gm",
@@ -2454,14 +2652,17 @@
         "739963",
         "1853671",
         "1562745"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_c",
+      "conference": ""
     },
     {
       "team_id": "vader_voltage",
       "team_display_name": "Vader Voltage",
       "team": "Vader Voltage",
       "team_abbreviation": "VOLT",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "gm",
@@ -2501,14 +2702,17 @@
         "1064297",
         "19642",
         "211281"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "vader_voltage_central",
       "team_display_name": "Vader Voltage - Central",
       "team": "Vader Voltage - Central",
       "team_abbreviation": "VDVC",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "gm",
@@ -2542,14 +2746,17 @@
         "31950",
         "1064297",
         "19642"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     },
     {
       "team_id": "vader_whiteout",
       "team_display_name": "Vader Whiteout",
       "team": "Vader Whiteout",
       "team_abbreviation": "VADW",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2583,14 +2790,17 @@
         "1287792",
         "1124512",
         "769650"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "vader_wookies",
       "team_display_name": "Vader Wookies",
       "team": "Vader Wookies",
       "team_abbreviation": "WOOK",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2618,14 +2828,17 @@
         "818797",
         "1439105",
         "472364"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "challenger",
+      "conference": "1"
     },
     {
       "team_id": "whitby_wombats",
       "team_display_name": "Whitby Wombats",
       "team": "Whitby Wombats",
       "team_abbreviation": "WWB",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2653,14 +2866,17 @@
         "381872",
         "381871",
         "381869"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "intermediate",
+      "conference": ""
     },
     {
       "team_id": "windy_city_walruses",
       "team_display_name": "Windy City Walruses",
       "team": "Windy City Walruses",
       "team_abbreviation": "WCW",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -2694,14 +2910,17 @@
         "1005594",
         "1713654",
         "1277002"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_b",
+      "conference": ""
     },
     {
       "team_id": "yucatn_yetis",
       "team_display_name": "Yucatán Yetis",
       "team": "Yucatán Yetis",
       "team_abbreviation": "YETI",
-      "region": "main slapshot league (east)",
+      "region": "east",
       "players": [
         {
           "role": "captain",
@@ -2723,14 +2942,17 @@
         "75184",
         "405738",
         "1367326"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "pro",
+      "conference": ""
     },
     {
       "team_id": "yukon_yetis",
       "team_display_name": "Yukon Yetis",
       "team": "Yukon Yetis",
       "team_abbreviation": "YETI",
-      "region": "central slapshot league",
+      "region": "central",
       "players": [
         {
           "role": "captain",
@@ -2752,7 +2974,10 @@
         "75184",
         "405738",
         "1367326"
-      ]
+      ],
+      "season_id": "summer_2026",
+      "division": "central_a",
+      "conference": ""
     }
   ]
 }
