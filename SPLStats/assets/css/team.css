@@ -1316,6 +1316,51 @@ main .player-card h2 {
   background: rgba(255, 255, 255, 0.035);
 }
 
+/*
+Active Roster Number Watermark
+KEEP THIS AT THE BOTTOM OF THE CSS FILE
+*/
+
+.team-active-roster .active-roster-chip {
+  position: relative;
+  overflow: hidden;
+  min-height: 88px;
+}
+
+.team-active-roster .active-roster-chip .active-roster-number-bg {
+  position: absolute;
+
+  right: 3px;
+  bottom: -10px;
+
+  display: block;
+
+  color: rgba(255, 255, 255, 0.13);
+
+  font-family: "Jersey M54", sans-serif;
+  font-size: 9rem !important;
+  line-height: 0.8;
+  font-weight: 400;
+
+  letter-spacing: 0.01em;
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 0;
+}
+
+.team-active-roster .active-roster-chip strong,
+.team-active-roster .active-roster-chip span:not(.active-roster-number-bg) {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/**/
+
+
 
 /* ------------------------------------------------------------
    Live Season Responsive

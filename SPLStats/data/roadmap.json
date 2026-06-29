@@ -124,7 +124,7 @@
     "title": "Iron Man Streaks",
     "status": "planned",
     "order": 20,
-    "date_completed": "2026-06-18",
+    "date_completed": "",
     "description": "Track consecutive regular-season games played for a player."
   },
   {
@@ -292,5 +292,17 @@
     "order": 1,
     "date_completed": "2026-06-28",
     "description": "Show things like Active Roster and Schedule at the top of the Team Pages, IF they're active."
+  },{
+    "title": "Live Division hub",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-29",
+    "description": "Make a 3 column hub for each division, showing the teams, their standings, and their schedule."
+  },{
+    "title": "player jersey numbers",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-29",
+    "description": "add some flair to the player pages by showing their jersey numbers on their team cards."
   }
 ]

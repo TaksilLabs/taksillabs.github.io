@@ -199,7 +199,7 @@ HTML = r"""
 
     .player-row {
       display: grid;
-      grid-template-columns: 150px 1fr 220px 95px;
+      grid-template-columns: 130px 1fr 110px 220px 95px;
       gap: 10px;
       align-items: end;
 
@@ -475,6 +475,7 @@ function addPlayer() {
   team.players.push({
     role: "player",
     steam_name: "",
+    jersey_number: "",
     slap_id: ""
   });
 
@@ -649,6 +650,15 @@ function renderPlayerRow(player, index) {
         <input
           value="${escapeAttr(player.steam_name || "")}"
           oninput="updatePlayer(${index}, 'steam_name', this.value)"
+        >
+      </label>
+
+      <label>
+        Number
+        <input
+          value="${escapeAttr(player.jersey_number || "")}"
+          oninput="updatePlayer(${index}, 'jersey_number', this.value)"
+          placeholder="00"
         >
       </label>
 

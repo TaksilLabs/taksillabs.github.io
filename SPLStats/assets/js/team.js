@@ -44,6 +44,17 @@ const LIVE_DATA_PATHS = {
 
 let teamScheduleExpanded = false;
 
+
+function getRosterPlayerNumber(playerGroup) {
+  return (
+    playerGroup.entries?.find(entry => entry.jersey_number)?.jersey_number
+    || playerGroup.jersey_number
+    || playerGroup.player?.jersey_number
+    || ""
+  );
+}
+
+
 async function fetchJsonOrFallback(url, fallback) {
   try {
     const response = await fetch(url);
@@ -742,9 +753,16 @@ function renderActiveRoster(team, activeRosters) {
   container.innerHTML = players.map(player => {
     const name = getRosterPlayerName(player);
     const urlId = getRosterPlayerUrlId(player);
+    const jerseyNumber = getRosterPlayerNumber(player);
 
     return `
       <a class="active-roster-chip" href="player.html?id=${encodeURIComponent(urlId)}">
+        ${
+          jerseyNumber
+            ? `<span class="active-roster-number-bg">${jerseyNumber}</span>`
+            : ""
+        }
+
         <span>${roleLabel(player.role)}</span>
         <strong>${name}</strong>
       </a>

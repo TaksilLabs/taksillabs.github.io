@@ -241,22 +241,26 @@
         {
           "role": "captain",
           "steam_name": "ScitruS",
-          "slap_id": "2069819"
+          "slap_id": "2069819",
+          "jersey_number": "15"
         },
         {
           "role": "player",
           "steam_name": "Shloompa",
-          "slap_id": "979880"
+          "slap_id": "979880",
+          "jersey_number": "77"
         },
         {
           "role": "player",
-          "steam_name": "SemenSlayer",
-          "slap_id": "1427595"
+          "steam_name": "Semen Slayer",
+          "slap_id": "1427595",
+          "jersey_number": "07"
         },
         {
           "role": "player",
           "steam_name": "Lathyros",
-          "slap_id": "604541"
+          "slap_id": "604541",
+          "jersey_number": "44"
         }
       ],
       "slap_ids": [
@@ -1539,7 +1543,8 @@
         {
           "role": "player",
           "steam_name": "LessThanDennis",
-          "slap_id": "513"
+          "slap_id": "513",
+          "jersey_number": "21"
         },
         {
           "role": "player",
