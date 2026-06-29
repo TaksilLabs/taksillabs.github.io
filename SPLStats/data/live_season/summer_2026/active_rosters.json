@@ -62,12 +62,19 @@
           "role": "player",
           "steam_name": "poops",
           "slap_id": "819088"
+        },
+        {
+          "role": "player",
+          "steam_name": "PatK9123",
+          "jersey_number": "",
+          "slap_id": "1392514"
         }
       ],
       "slap_ids": [
         "24807",
         "6799",
-        "819088"
+        "819088",
+        "1392514"
       ],
       "season_id": "summer_2026",
       "division": "open",
@@ -1723,7 +1730,7 @@
         },
         {
           "role": "player",
-          "steam_name": "ALT",
+          "steam_name": "Alt",
           "slap_id": "24807"
         },
         {
