@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 80,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 15
+            },
+            "username": "Hydroid.",
+            "game_user_id": "1836154"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 1,
+                "score": 400,
+                "shots": 6,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 13
+            },
+            "username": "gold",
+            "game_user_id": "914959"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 205,
+                "shots": 3,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 12,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 16
+            },
+            "username": "nutsack6",
+            "game_user_id": "914448"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 5,
+                "saves": 5,
+                "score": 845,
+                "shots": 5,
+                "blocks": 3,
+                "passes": 10,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 9
+            },
+            "username": "SolaceThunders",
+            "game_user_id": "31950"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 385,
+                "shots": 1,
+                "blocks": 5,
+                "passes": 11,
+                "assists": 3,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 5,
+                "possession_time_sec": 9
+            },
+            "username": "bolty",
+            "game_user_id": "19642"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 80,
+                "blocks": 3,
+                "passes": 3,
+                "takeaways": 4,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 12
+            },
+            "username": "Wind",
+            "game_user_id": "613713"
+        }
+    ],
+    "match_id": "ec462c14-a08f-4ed2-aecb-de74ba1c0c52",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
