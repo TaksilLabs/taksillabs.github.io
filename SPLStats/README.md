@@ -44,9 +44,25 @@ python3 -m http.server 8000
 
 ## Updating rosters
 
-run this from .\SPLStats
+
+### Roster Tool
+
+run this from ./SPLStats
 python tools/live/active_roster_editor.py
 
+
+### Transaction Press Releases
+
+After you edit a roster a template will be made for each transaction for you to build off of.
+To open the text editor, run: 
+python tools/live/press_release_editor.py
+
+And select the transaction you wish to write for.
+
+
+#### Darth Tool
+Backfill transaction builder is
+python tools/live/backfill_press_release_drafts.py
 
 
 

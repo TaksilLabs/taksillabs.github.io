@@ -1,0 +1,248 @@
+{
+  "season_id": "summer_2026",
+  "drafts": [
+    {
+      "draft_id": "2026-06-30_edmonton_bears_roster_moves",
+      "transaction_ids": [
+        "20260630T220204Z_edmonton_bears_add_jace"
+      ],
+      "transaction_id": "20260630T220204Z_edmonton_bears_add_jace",
+      "status": "draft",
+      "created_at_utc": "2026-06-30T22:02:04Z",
+      "updated_at_utc": "2026-06-30T22:25:40.432Z",
+      "headline": "Edmonton Bears Add Jace",
+      "subheadline": "The Edmonton Bears have added #12 Jace to their active roster.",
+      "slug": "edmonton-bears-add-jace",
+      "team_id": "edmonton_bears",
+      "team_abbreviation": "EDM",
+      "team_display_name": "Edmonton Bears",
+      "division": "challenger",
+      "region": "east",
+      "conference": "1",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "jace",
+          "player_display_name": "Jace",
+          "slap_id": "377710",
+          "jersey_number": "12"
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "edmonton_bears",
+        "challenger"
+      ],
+      "body_markdown": "The Edmonton Bears have added #12 Jace to their active roster ahead of upcoming Summer 2026 regular-season play.\n\nThe move gives the Edmonton Bears another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "This was the first test of the transac tool.",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-06-30_baton_rouge_bobos_roster_moves",
+      "transaction_ids": [
+        "20260630T210548Z_baton_rouge_bobos_add_skiztastic"
+      ],
+      "transaction_id": "20260630T210548Z_baton_rouge_bobos_add_skiztastic",
+      "status": "draft",
+      "created_at_utc": "2026-06-30T21:05:48Z",
+      "updated_at_utc": "2026-06-30T22:25:38.584Z",
+      "headline": "Baton Rouge Bobos Add Skiztastic",
+      "subheadline": "The Baton Rouge Bobos have added Skiztastic to their active roster.",
+      "slug": "baton-rouge-bobos-add-skiztastic",
+      "team_id": "baton_rouge_bobos",
+      "team_abbreviation": "BRBO",
+      "team_display_name": "Baton Rouge Bobos",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "skiztastic",
+          "player_display_name": "Skiztastic",
+          "slap_id": "4633",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "baton_rouge_bobos",
+        "central_a"
+      ],
+      "body_markdown": "The Baton Rouge Bobos have added Skiztastic to their active roster. The move gives the Baton Rouge Bobos another gear in their rotation as they continue to shape their name for the Summer 2026 season.\n\nThe move gives the Baton Rouge Bobos another option as they continue to shape their roster for the road ahead.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "press_release_backfill",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-06-30_barcelona_bobos_prep_academy_roster_moves",
+      "transaction_ids": [
+        "20260630T210348Z_barcelona_bobos_prep_academy_add_baumz"
+      ],
+      "transaction_id": "20260630T210348Z_barcelona_bobos_prep_academy_add_baumz",
+      "status": "draft",
+      "created_at_utc": "2026-06-30T21:03:48Z",
+      "updated_at_utc": "2026-06-30T22:25:33.827Z",
+      "headline": "Barcelona Bobos Prep Academy Add Baumz",
+      "subheadline": "The Barcelona Bobos Prep Academy have added #69 Baumz to their active roster.",
+      "slug": "barcelona-bobos-prep-academy-add-baumz",
+      "team_id": "barcelona_bobos_prep_academy",
+      "team_abbreviation": "BBPA",
+      "team_display_name": "Barcelona Bobos Prep Academy",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "baumz",
+          "player_display_name": "Baumz",
+          "slap_id": "55",
+          "jersey_number": "69"
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "barcelona_bobos_prep_academy",
+        "central_a"
+      ],
+      "body_markdown": "The Barcelona Bobos Prep Academy have added #69 Baumz to their active roster. The move gives the Barcelona Bobos Prep Academy another gear in their rotation as they continue to shape their name for the Summer 2026 season.\n\nThe move gives the Barcelona Bobos Prep Academy another option as they continue to shape their roster for the road ahead.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "press_release_backfill",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-06-30_beverly_hills_bobos_roster_moves",
+      "transaction_ids": [
+        "20260630T210348Z_beverly_hills_bobos_add_baumz"
+      ],
+      "transaction_id": "20260630T210348Z_beverly_hills_bobos_add_baumz",
+      "status": "draft",
+      "created_at_utc": "2026-06-30T21:03:48Z",
+      "updated_at_utc": "2026-06-30T22:25:35.326Z",
+      "headline": "Beverly Hills Bobos Add Baumz",
+      "subheadline": "The Beverly Hills Bobos have added #69 Baumz to their active roster.",
+      "slug": "beverly-hills-bobos-add-baumz",
+      "team_id": "beverly_hills_bobos",
+      "team_abbreviation": "BHB",
+      "team_display_name": "Beverly Hills Bobos",
+      "division": "pro",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "baumz",
+          "player_display_name": "Baumz",
+          "slap_id": "55",
+          "jersey_number": "69"
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "beverly_hills_bobos",
+        "pro"
+      ],
+      "body_markdown": "The Beverly Hills Bobos have added #69 Baumz to their active roster. The move gives the Beverly Hills Bobos another gear in their rotation as they continue to shape their name for the Summer 2026 season.\n\nThe move gives the Beverly Hills Bobos another option as they continue to shape their roster for the road ahead.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "press_release_backfill",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-06-30_quebec_flare_roster_moves",
+      "transaction_ids": [
+        "20260630T210348Z_quebec_flare_remove_kajun"
+      ],
+      "transaction_id": "20260630T210348Z_quebec_flare_remove_kajun",
+      "status": "draft",
+      "created_at_utc": "2026-06-30T21:03:48Z",
+      "updated_at_utc": "2026-06-30T22:25:37.034Z",
+      "headline": "Quebec Flare Remove Kajun",
+      "subheadline": "The Quebec Flare have removed Kajun from their active roster.",
+      "slug": "quebec-flare-remove-kajun",
+      "team_id": "quebec_flare",
+      "team_abbreviation": "QUE",
+      "team_display_name": "Quebec Flare",
+      "division": "challenger",
+      "region": "east",
+      "conference": "2",
+      "players": [
+        {
+          "type": "remove",
+          "player_id": "kajun",
+          "player_display_name": "Kajun",
+          "slap_id": "19508",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "quebec_flare",
+        "challenger"
+      ],
+      "body_markdown": "The Quebec Flare have removed Kajun from their active roster.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "press_release_backfill",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-06-30_long_island_lightning_roster_moves",
+      "transaction_ids": [
+        "20260630T202407Z_long_island_lightning_add_kajun",
+        "20260630T202407Z_long_island_lightning_remove_darthtaksil"
+      ],
+      "transaction_id": "",
+      "status": "published",
+      "created_at_utc": "2026-06-30T20:24:07Z",
+      "updated_at_utc": "2026-06-30T22:25:42.651Z",
+      "headline": "Long Island Lightning Make Roster Moves",
+      "subheadline": "Long Island Signs Kajun, Places Sum1 on LTIR",
+      "slug": "long-island-lightning-make-roster-moves",
+      "team_id": "long_island_lightning",
+      "team_abbreviation": "LIL",
+      "team_display_name": "Long Island Lightning",
+      "division": "pro",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "kajun",
+          "player_display_name": "Kajun",
+          "slap_id": "19508",
+          "jersey_number": ""
+        },
+        {
+          "type": "remove",
+          "player_id": "someone",
+          "player_display_name": "Someone",
+          "slap_id": "429397",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "long_island_lightning",
+        "pro"
+      ],
+      "body_markdown": "Following last season’s semifinal exit and continued injury concerns surrounding star player Sum1, the Long Island Lightning have placed Sum1 on LTIR and signed veteran Kajun to the active roster.\n\nThe move reunites Kajun with longtime teammates Jagr and Milk, a trio that has captured five Erveon Cup championships together. Throughout the off-season, Kajun has been spotted practicing and scrimmaging with the team, making his return less of a surprise than the timing of the transaction. His familiarity with the organization and established chemistry with the roster make him a natural fit as Long Island looks to reinforce its lineup. \n\nKajun has proven he can still produce at the top level, recording 75 points in just nine Pro games last season. His addition gives the Lightning another experienced option at the 3 position as the club begins its pursuit of another Erveon Cup championship.\n",
+      "writer_notes": "",
+      "created_by": "press_release_backfill",
+      "last_edited_by": ""
+    }
+  ],
+  "updated_at_utc": "2026-06-30T22:25:43Z"
+}

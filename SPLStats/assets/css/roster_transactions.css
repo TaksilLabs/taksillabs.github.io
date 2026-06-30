@@ -1,0 +1,169 @@
+.transaction-wire {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: #071018;
+  overflow: hidden;
+}
+
+.transaction-wire-head {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  padding: 8px 18px 4px;
+}
+
+.transaction-wire-head span {
+  color: var(--accent, #00d1d1);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.transaction-wire-head strong {
+  color: var(--text, #f4f4f4);
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+}
+
+.transaction-wire-track-wrap {
+  width: 100%;
+  overflow: hidden;
+  padding: 4px 0 10px;
+}
+
+.transaction-wire-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  will-change: transform;
+}
+
+.transaction-wire-track.is-scrolling {
+  animation: transactionWireScroll var(--transaction-scroll-duration, 45s) linear infinite;
+}
+
+.transaction-wire-track-wrap:hover .transaction-wire-track.is-scrolling {
+  animation-play-state: paused;
+}
+
+@keyframes transactionWireScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-1 * var(--transaction-scroll-distance, 50%)));
+  }
+}
+
+a.transaction-wire-card {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.transaction-wire-card:hover {
+  border-color: var(--accent, #00d1d1);
+  transform: translateY(-1px);
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.transaction-wire-card {
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 290px;
+  max-width: 360px;
+  min-height: 76px;
+  padding: 9px 14px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: #0c141c;
+  overflow: hidden;
+}
+
+.transaction-wire-number {
+  position: absolute;
+  right: 8px;
+  bottom: -16px;
+  color: rgba(255, 255, 255, 0.045);
+  font-size: 4.2rem;
+  font-weight: 900;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.transaction-wire-date {
+  position: relative;
+  z-index: 1;
+  color: var(--muted, #9fb3c8);
+  font-size: 0.68rem;
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+
+.transaction-wire-team {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+  min-width: 0;
+  margin-bottom: 6px;
+  font-size: 0.78rem;
+  color: var(--muted, #9fb3c8);
+}
+
+.transaction-wire-team strong {
+  color: var(--text, #f4f4f4);
+  letter-spacing: 0.08em;
+}
+
+.transaction-wire-team span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.transaction-wire-lines {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 4px;
+}
+
+.transaction-wire-player {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--text, #f4f4f4);
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.transaction-wire-symbol {
+  width: 14px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+}
+
+.transaction-wire-player.transaction-line-add .transaction-wire-symbol {
+  color: #5cff9d;
+}
+
+.transaction-wire-player.transaction-line-remove .transaction-wire-symbol {
+  color: #ff5c5c;
+}
+
+.transaction-wire-empty {
+  padding: 8px 18px;
+  color: var(--muted, #9fb3c8);
+  font-size: 0.85rem;
+}

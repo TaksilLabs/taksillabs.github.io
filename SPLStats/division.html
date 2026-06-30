@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="assets/css/fonts.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/division.css">
+  <link rel="stylesheet" href="assets/css/roster_transactions.css">
 
   <link rel="icon" type="image/png" href="assets/images/splstats-card.png">
 </head>
@@ -55,6 +56,18 @@
       </div>
     </section>
   </header>
+
+  <section class="transaction-wire" aria-label="Recent roster transactions">
+    <div class="transaction-wire-head">
+      <span>Roster Wire</span>
+    </div>
+
+    <div class="transaction-wire-track-wrap">
+      <div id="rosterTransactionWire" class="transaction-wire-track">
+        <div class="transaction-wire-empty">Loading roster transactions...</div>
+      </div>
+    </div>
+  </section>
 
   <main class="division-layout">
     <aside class="division-left-rail">
@@ -145,6 +158,7 @@
   </main>
 
   <script src="assets/js/divisions.js"></script>
+  <script src="assets/js/roster_transactions.js"></script>
   <script src="assets/js/division.js"></script>
 </body>
 </html>

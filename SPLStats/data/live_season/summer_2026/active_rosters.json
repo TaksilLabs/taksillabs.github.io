@@ -148,13 +148,20 @@
           "role": "player",
           "steam_name": "yackslack",
           "slap_id": "640761"
+        },
+        {
+          "role": "player",
+          "steam_name": "Baumz",
+          "jersey_number": "69",
+          "slap_id": "55"
         }
       ],
       "slap_ids": [
         "154305",
         "1320348",
         "1419124",
-        "640761"
+        "640761",
+        "55"
       ],
       "season_id": "summer_2026",
       "division": "central_a",
@@ -388,12 +395,19 @@
           "steam_name": "echo",
           "slap_id": "22412",
           "jersey_number": "86"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skiztastic",
+          "jersey_number": "",
+          "slap_id": "4633"
         }
       ],
       "slap_ids": [
         "600238",
         "871020",
-        "22412"
+        "22412",
+        "4633"
       ],
       "season_id": "summer_2026",
       "division": "central_a",
@@ -541,12 +555,19 @@
           "role": "player",
           "steam_name": "N1xoh",
           "slap_id": "1766"
+        },
+        {
+          "role": "player",
+          "steam_name": "Baumz",
+          "jersey_number": "69",
+          "slap_id": "55"
         }
       ],
       "slap_ids": [
         "154305",
         "1419124",
-        "1766"
+        "1766",
+        "55"
       ],
       "season_id": "summer_2026",
       "division": "pro",
@@ -832,7 +853,8 @@
         {
           "role": "player",
           "steam_name": "zelviz",
-          "slap_id": "865092"
+          "slap_id": "865092",
+          "jersey_number": "77"
         }
       ],
       "slap_ids": [
@@ -1116,29 +1138,40 @@
         {
           "role": "captain",
           "steam_name": "Zelviz",
-          "slap_id": "865092"
+          "slap_id": "865092",
+          "jersey_number": "77"
         },
         {
           "role": "player",
           "steam_name": "Carti",
-          "slap_id": "1320348"
+          "slap_id": "1320348",
+          "jersey_number": "1"
         },
         {
           "role": "player",
           "steam_name": "King",
-          "slap_id": "634779"
+          "slap_id": "634779",
+          "jersey_number": "98"
         },
         {
           "role": "player",
           "steam_name": "x6c",
-          "slap_id": "871020"
+          "slap_id": "871020",
+          "jersey_number": "69"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jace",
+          "jersey_number": "12",
+          "slap_id": "377710"
         }
       ],
       "slap_ids": [
         "865092",
         "1320348",
         "634779",
-        "871020"
+        "871020",
+        "377710"
       ],
       "season_id": "summer_2026",
       "division": "challenger",
@@ -1416,11 +1449,6 @@
         },
         {
           "role": "player",
-          "steam_name": "someone",
-          "slap_id": "429397"
-        },
-        {
-          "role": "player",
           "steam_name": "Hex",
           "slap_id": "327983"
         },
@@ -1428,14 +1456,20 @@
           "role": "player",
           "steam_name": "chrislol",
           "slap_id": "107083"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "jersey_number": "41",
+          "slap_id": "19508"
         }
       ],
       "slap_ids": [
         "560316",
         "429195",
-        "429397",
         "327983",
-        "107083"
+        "107083",
+        "19508"
       ],
       "season_id": "summer_2026",
       "division": "pro",
@@ -2039,18 +2073,12 @@
         },
         {
           "role": "player",
-          "steam_name": "Kajun",
-          "slap_id": "19508"
-        },
-        {
-          "role": "player",
           "steam_name": "felicioal068",
           "slap_id": "795175"
         }
       ],
       "slap_ids": [
         "286293",
-        "19508",
         "795175"
       ],
       "season_id": "summer_2026",

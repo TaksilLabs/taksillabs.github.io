@@ -322,5 +322,29 @@
     "order": 1,
     "date_completed": "",
     "description": "Add the current franchises to the list."
+  },{
+    "title": "Roster Wire",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-30",
+    "description": "Add a news ticker to the division hub to show the latest roster transactions. Click on a card to get a press release."
+  },{
+    "title": "Press Releases for every roster transaction",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-30",
+    "description": "Make the Roster Wire cards clickable with a summary of the move."
+  },{
+    "title": "Stars of the Week right on the website!",
+    "status": "planned",
+    "order": 4,
+    "date_completed": "",
+    "description": "shoutout Galalendon"
+  },{
+    "title": "Roster View Table",
+    "status": "planned",
+    "order": 4,
+    "date_completed": "",
+    "description": "shoutout Kavorka. A table view with buttons to change the division displayed showing the full roster of each team in the division."
   }
 ]

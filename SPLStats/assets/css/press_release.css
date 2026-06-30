@@ -1,0 +1,109 @@
+.press-release-header {
+  padding: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(8, 14, 22, 0.94);
+}
+
+.press-release-layout {
+  width: min(980px, calc(100% - 36px));
+  margin: 34px auto 70px;
+}
+
+.press-release-article {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top right, rgba(0, 209, 209, 0.12), transparent 34%),
+    rgba(12, 20, 28, 0.88);
+  padding: 32px;
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.36);
+}
+
+.press-release-kicker {
+  color: var(--accent, #00d1d1);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.press-release-title {
+  margin: 0;
+  color: var(--text, #f4f4f4);
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+}
+
+.press-release-subheadline {
+  margin: 16px 0 0;
+  color: var(--muted, #9fb3c8);
+  font-size: 1.18rem;
+  line-height: 1.45;
+  max-width: 760px;
+}
+
+.press-release-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 22px 0 26px;
+}
+
+.press-release-pill {
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 999px;
+  padding: 5px 10px;
+  background: rgba(7, 16, 24, 0.72);
+  color: var(--muted, #9fb3c8);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.press-release-body {
+  color: var(--text, #f4f4f4);
+  font-size: 1.04rem;
+  line-height: 1.68;
+}
+
+.press-release-body p {
+  margin: 0 0 18px;
+}
+
+.press-release-players {
+  display: grid;
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.press-release-player-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 999px;
+  background: rgba(7, 16, 24, 0.72);
+  padding: 7px 12px;
+  font-weight: 900;
+}
+
+.press-release-player-row.add .press-release-symbol {
+  color: #5cff9d;
+}
+
+.press-release-player-row.remove .press-release-symbol {
+  color: #ff5c5c;
+}
+
+.press-release-symbol {
+  font-size: 1.1rem;
+}
+
+.press-release-empty {
+  color: var(--muted, #9fb3c8);
+  padding: 24px;
+}
