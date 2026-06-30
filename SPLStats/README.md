@@ -85,24 +85,50 @@ python tools/team_theme_builder.py
 
 
 
-## Live Tools
+## LIVE SEASON EDITORS
 
 Both these start with 
 (on the top left action bar) `Terminal` -> `New Terminal`
 ->
 cd SPLStats
 
+
+### Active Roster
 To change active rosters:
 python tools/live/active_roster_editor.py
 
-When adding a new log run:
-python tools/live/build_preseason.py
+
+### 
+To set casters for games run
+python tools/live/broadcast_editor.py
+
+
+
+### Importing Game Logs
+
+M1NN will upload the logs for us.  To update everything run this single command;
+python tools/live/update_regular_season.py
+
+
+
+What this command does:
+
+1. Sort/copy incoming M1NNBot game-log folders into raw_live_logs/.../by_match/
+python tools/live/import_incoming_regular_logs.py
+
+2. Parse imported logs into matches.json + match_details/*.json
+python tools/live/build_regular_matches.py
+
+3. Build standings.json from schedule + completed matches
+python tools/live/build_regular_standings.py
+
+4. Build compact leaders.json / player stat rows
+python tools/live/build_regular_leaders.py
 
 
 
 
-
-## Making Articles
+### Making Articles
 
 run this from .\SPLStats
 python tools/news_article_builder.py
@@ -111,17 +137,13 @@ python tools/news_article_builder.py
 
 
 
-# SEASON PREP 
+## SEASON PREP 
 
 
+### Regular Season
 
 
-## Regular Season
-
-
-
-
-### Importing the Schedules
+#### Importing the Schedules
 
 Import each division's .csv table from the scheduleboard.
 
@@ -141,27 +163,3 @@ After that runs without error, we can run:
 python tools/live/update_regular_season.py
 
 To set our division information.
-
-
-
-
-### importing game logs
-
-Run this single command
-python tools/live/update_regular_season.py
-
-
-
-What this command does:
-
-1. Sort/copy incoming M1NNBot game-log folders into raw_live_logs/.../by_match/
-python tools/live/import_incoming_regular_logs.py
-
-2. Parse imported logs into matches.json + match_details/*.json
-python tools/live/build_regular_matches.py
-
-3. Build standings.json from schedule + completed matches
-python tools/live/build_regular_standings.py
-
-4. Build compact leaders.json / player stat rows
-python tools/live/build_regular_leaders.py

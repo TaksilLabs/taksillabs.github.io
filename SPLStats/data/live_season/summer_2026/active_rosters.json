@@ -1103,8 +1103,9 @@
         },
         {
           "role": "player",
-          "steam_name": "kajun",
-          "slap_id": "19508"
+          "steam_name": "Kajun",
+          "slap_id": "19508",
+          "jersey_number": "7"
         },
         {
           "role": "player",
@@ -1440,7 +1441,8 @@
         {
           "role": "captain",
           "steam_name": "Jagr",
-          "slap_id": "560316"
+          "slap_id": "560316",
+          "jersey_number": "68"
         },
         {
           "role": "player",
@@ -1450,17 +1452,19 @@
         {
           "role": "player",
           "steam_name": "Hex",
-          "slap_id": "327983"
+          "slap_id": "327983",
+          "jersey_number": "13"
         },
         {
           "role": "player",
           "steam_name": "chrislol",
-          "slap_id": "107083"
+          "slap_id": "107083",
+          "jersey_number": "17"
         },
         {
           "role": "player",
           "steam_name": "Kajun",
-          "jersey_number": "41",
+          "jersey_number": "7",
           "slap_id": "19508"
         }
       ],
@@ -1714,12 +1718,14 @@
         {
           "role": "player",
           "steam_name": "Jagr",
-          "slap_id": "560316"
+          "slap_id": "560316",
+          "jersey_number": "68"
         },
         {
           "role": "player",
           "steam_name": "Panarin",
-          "slap_id": "35"
+          "slap_id": "35",
+          "jersey_number": "9"
         }
       ],
       "slap_ids": [
@@ -2375,7 +2381,8 @@
         {
           "role": "player",
           "steam_name": "Kajun",
-          "slap_id": "19508"
+          "slap_id": "19508",
+          "jersey_number": "7"
         }
       ],
       "slap_ids": [
