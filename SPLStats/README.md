@@ -28,6 +28,8 @@ python build_teams.py
 This begins the REAL documentation, the above are ancient texts that are only meant to serve as reminders that they exist to their creators.
 
 
+
+
 ## LOCAL HOSTING THE SITE
 
 Go to /SPLStats/
@@ -38,10 +40,14 @@ python3 -m http.server 8000
 
 
 
+
+
 ## Updating rosters
 
 run this from .\SPLStats
 python tools/live/active_roster_editor.py
+
+
 
 
 
@@ -52,10 +58,14 @@ python tools/live/shot_map_editor.py
 
 
 
+
+
 ## Changing Team Themes
 
 run this from .\SPLStats
 python tools/team_theme_builder.py
+
+
 
 
 
@@ -74,6 +84,8 @@ python tools/live/build_preseason.py
 
 
 
+
+
 ## Making Articles
 
 run this from .\SPLStats
@@ -81,9 +93,17 @@ python tools/news_article_builder.py
 
 
 
+
+
 # SEASON PREP 
 
+
+
+
 ## Regular Season
+
+
+
 
 ### Importing the Schedules
 
@@ -105,6 +125,9 @@ After that runs without error, we can run:
 python tools/live/update_regular_season.py
 
 To set our division information.
+
+
+
 
 ### importing game logs
 

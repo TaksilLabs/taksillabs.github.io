@@ -304,5 +304,23 @@
     "order": 1,
     "date_completed": "2026-06-29",
     "description": "add some flair to the player pages by showing their jersey numbers on their team cards."
+  },{
+    "title": "Division Hub",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-30",
+    "description": "Create a tri column hub for each division.  On the left show matches. Results on top, upcoming on bottom.  In the middle show the standings. Add Playoff race view for multi-conference divisions.  On the right show the stat leaders for the major stats."
+  },{
+    "title": "Overhaul stat entry to support live seasons",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-06-30",
+    "description": "Log parsing requires too much manual work. I need to streamline it more."
+  },{
+    "title": "Summer 2026 Franchises",
+    "status": "working",
+    "order": 1,
+    "date_completed": "",
+    "description": "Add the current franchises to the list."
   }
 ]
