@@ -78,3 +78,27 @@ python tools/live/build_preseason.py
 
 run this from .\SPLStats
 python tools/news_article_builder.py
+
+
+
+# SEASON PREP 
+
+## Regular Season
+Import each division's .csv table from the scheduleboard.
+
+    Make sure to set all the Team's Division and Conference.
+        If there are no conferences leave blank.
+    
+    run `active_roster_editor.py` from the SPLStats root to do this.
+
+Then (again) from /SPLStats/ run:
+python tools/live/import_regular_schedule.py
+
+This will generate the schedule.json for the whole league.
+
+If team names have errors in the console, edit `SPLStats/data/live_season/summer_2026/team_aliases.json` then rerun the command.
+
+After that runs without error, we can run:
+python tools/live/update_regular_season.py
+
+To set our division information.

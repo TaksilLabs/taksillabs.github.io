@@ -1,0 +1,180 @@
+{
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "generated_at_utc": "2026-06-30T13:22:50.610918+00:00",
+  "division_count": 8,
+  "divisions": [
+    {
+      "division": "central_a",
+      "display_name": "Central A",
+      "region": "central",
+      "team_count": 8,
+      "conference_count": 0,
+      "conferences": [],
+      "scheduled_matches": 56,
+      "completed_matches": 0,
+      "upcoming_matches": 56,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "first_week": 1,
+      "last_week": 5
+    },
+    {
+      "division": "central_b",
+      "display_name": "Central B",
+      "region": "central",
+      "team_count": 12,
+      "conference_count": 2,
+      "conferences": [
+        "1",
+        "2"
+      ],
+      "scheduled_matches": 96,
+      "completed_matches": 0,
+      "upcoming_matches": 96,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "first_week": 1,
+      "last_week": 6
+    },
+    {
+      "division": "central_c",
+      "display_name": "Central C",
+      "region": "central",
+      "team_count": 6,
+      "conference_count": 0,
+      "conferences": [],
+      "scheduled_matches": 45,
+      "completed_matches": 0,
+      "upcoming_matches": 45,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "first_week": 1,
+      "last_week": 6
+    },
+    {
+      "division": "challenger",
+      "display_name": "Challenger",
+      "region": "east",
+      "team_count": 12,
+      "conference_count": 2,
+      "conferences": [
+        "1",
+        "2"
+      ],
+      "scheduled_matches": 96,
+      "completed_matches": 0,
+      "upcoming_matches": 96,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "first_week": 1,
+      "last_week": 6
+    },
+    {
+      "division": "intermediate",
+      "display_name": "Intermediate",
+      "region": "east",
+      "team_count": 10,
+      "conference_count": 0,
+      "conferences": [],
+      "scheduled_matches": 90,
+      "completed_matches": 0,
+      "upcoming_matches": 90,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "first_week": 1,
+      "last_week": 6
+    },
+    {
+      "division": "masters",
+      "display_name": "Masters",
+      "region": "west",
+      "team_count": 6,
+      "conference_count": 0,
+      "conferences": [],
+      "scheduled_matches": 45,
+      "completed_matches": 0,
+      "upcoming_matches": 45,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "first_week": 1,
+      "last_week": 5
+    },
+    {
+      "division": "open",
+      "display_name": "Open",
+      "region": "east",
+      "team_count": 9,
+      "conference_count": 0,
+      "conferences": [],
+      "scheduled_matches": 72,
+      "completed_matches": 0,
+      "upcoming_matches": 72,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "first_week": 1,
+      "last_week": 6
+    },
+    {
+      "division": "pro",
+      "display_name": "Pro",
+      "region": "east",
+      "team_count": 10,
+      "conference_count": 0,
+      "conferences": [],
+      "scheduled_matches": 90,
+      "completed_matches": 0,
+      "upcoming_matches": 90,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "first_week": 1,
+      "last_week": 6
+    }
+  ]
+}

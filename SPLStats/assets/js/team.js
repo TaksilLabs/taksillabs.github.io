@@ -38,8 +38,8 @@ const LIVE_SEASON_ID = "summer_2026";
 
 const LIVE_DATA_PATHS = {
   activeRosters: `data/live_season/${LIVE_SEASON_ID}/active_rosters.json`,
-  preseasonSchedule: `data/live_season/${LIVE_SEASON_ID}/preseason/schedule.json`,
-  preseasonMatches: `data/live_season/${LIVE_SEASON_ID}/preseason/matches.json`
+  regularSchedule: `data/live_season/${LIVE_SEASON_ID}/regular_season/schedule.json`,
+  regularMatches: `data/live_season/${LIVE_SEASON_ID}/regular_season/matches.json`
 };
 
 let teamScheduleExpanded = false;
@@ -436,8 +436,8 @@ async function loadTeam() {
     teamRecords,
     championships,
     activeRosters,
-    preseasonSchedule,
-    preseasonMatches
+    regularSchedule,
+    regularMatches
   ] = await Promise.all([
     fetchJsonOrFallback("data/teams.json", []),
     fetchJsonOrFallback("data/team_metadata.json", []),
@@ -445,8 +445,8 @@ async function loadTeam() {
     fetchJsonOrFallback("data/team_records.json", []),
     fetchJsonOrFallback("data/championships.json", []),
     fetchJsonOrFallback(LIVE_DATA_PATHS.activeRosters, { teams: [] }),
-    fetchJsonOrFallback(LIVE_DATA_PATHS.preseasonSchedule, []),
-    fetchJsonOrFallback(LIVE_DATA_PATHS.preseasonMatches, [])
+    fetchJsonOrFallback(LIVE_DATA_PATHS.regularSchedule, { matches: [] }),
+    fetchJsonOrFallback(LIVE_DATA_PATHS.regularMatches, { matches: [] })
   ]);
 
   const teams = mergeTeamMetadataForProfile(builtTeams, metadataTeams);
@@ -469,7 +469,7 @@ async function loadTeam() {
   renderTeamFranchise(team, franchises);
 
   renderActiveRoster(team, activeRosters);
-  renderLiveTeamSchedule(team, preseasonSchedule, preseasonMatches, metadataTeams);
+  renderLiveTeamSchedule(team, regularSchedule, regularMatches, metadataTeams);
 }
 
 function normalizeTeamNameForCompare(name) {
@@ -1000,6 +1000,34 @@ function getMatchDisplayCode(match) {
   );
 }
 
+function getMatchWeekLabel(match) {
+  if (match.week) {
+    return `Week ${match.week}`;
+  }
+
+  const sourceId = String(
+    match.source_id
+    || match.schedule_id
+    || match.match_code
+    || ""
+  );
+
+  const sourceMatch = sourceId.match(/^(\d+)\./);
+
+  if (sourceMatch) {
+    return `Week ${sourceMatch[1]}`;
+  }
+
+  const matchId = String(match.match_id || "");
+  const idMatch = matchId.match(/_regular_season_[a-z0-9_]+_(\d+)_(\d+)$/i);
+
+  if (idMatch) {
+    return `Week ${idMatch[1]}`;
+  }
+
+  return "Week ?";
+}
+
 function getMatchDisplayDate(match) {
   const raw =
     match.datetime_utc
@@ -1103,6 +1131,23 @@ function getMatchHomeAwayLabel(match, team) {
   return "VS";
 }
 
+
+// Schedule Import Helper Functions
+function getLiveMatchUrl(match) {
+  const matchId =
+    match.match_id
+    || match.id
+    || match.schedule_id
+    || match.source_id
+    || "";
+
+  if (!matchId) return "#";
+
+  return `match.html?id=${encodeURIComponent(matchId)}`;
+}
+
+
+
 function renderTeamMatchRow(match, team, type, teamMetadata = []) {
   const score = getTeamScore(match, team);
   const opponent = score.opponent || "TBD";
@@ -1124,20 +1169,19 @@ function renderTeamMatchRow(match, team, type, teamMetadata = []) {
   );
 
   const locationLabel = getMatchHomeAwayLabel(match, team);
+  const weekLabel = getMatchWeekLabel(match);
 
   const resultLabel =
     type === "result"
       ? `${score.teamScore ?? 0} - ${score.opponentScore ?? 0}`
-      : "Scheduled";
+      : "";
 
   const matchId =
     match.match_id
     || match.id
     || "";
 
-  const href = matchId
-    ? `match.html?id=${encodeURIComponent(matchId)}`
-    : "#";
+  const href = getLiveMatchUrl(match);
 
   return `
     <a
@@ -1148,6 +1192,16 @@ function renderTeamMatchRow(match, team, type, teamMetadata = []) {
         --opponent-accent: ${opponentAccent};
       "
     >
+      ${
+        opponentLogo
+          ? `<img class="team-match-bg-logo" src="${opponentLogo}" alt="" aria-hidden="true">`
+          : ""
+      }
+
+      <div class="team-match-week-bar">
+        <span>${weekLabel}</span>
+      </div>
+    
       <div class="team-match-location">${locationLabel}</div>
 
       <div class="team-match-opponent-logo-wrap">
@@ -1160,12 +1214,22 @@ function renderTeamMatchRow(match, team, type, teamMetadata = []) {
 
       <div class="team-match-main">
         <strong>${opponent}</strong>
-        <span>${type === "result" ? "Final" : dateText || "Upcoming"}</span>
+        ${
+          type === "result"
+            ? `<span>Final</span>`
+            : ""
+        }
       </div>
 
-      <div class="team-match-score">
-        ${resultLabel}
-      </div>
+      ${
+        resultLabel
+          ? `
+            <div class="team-match-score">
+              ${resultLabel}
+            </div>
+          `
+          : ""
+      }
     </a>
   `;
 }

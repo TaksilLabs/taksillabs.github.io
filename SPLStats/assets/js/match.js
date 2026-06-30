@@ -1,11 +1,50 @@
-const SEASON_ID = "summer_2026";
+const DEFAULT_SEASON_ID = "summer_2026";
+
+function cleanText(value) {
+  return String(value || "").trim();
+}
+
+function getMatchIdFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  return cleanText(params.get("id") || params.get("match") || "");
+}
+
+function getMatchContextFromId(matchId) {
+  const id = cleanText(matchId);
+
+  if (id.includes("_regular_season_")) {
+    return {
+      seasonId: id.split("_regular_season_")[0],
+      seasonType: "regular_season"
+    };
+  }
+
+  if (id.includes("_preseason_")) {
+    return {
+      seasonId: id.split("_preseason_")[0],
+      seasonType: "preseason"
+    };
+  }
+
+  return {
+    seasonId: DEFAULT_SEASON_ID,
+    seasonType: "preseason"
+  };
+}
+
+const MATCH_ID = getMatchIdFromUrl();
+const MATCH_CONTEXT = getMatchContextFromId(MATCH_ID);
+
+const SEASON_ID = MATCH_CONTEXT.seasonId;
+const SEASON_TYPE = MATCH_CONTEXT.seasonType;
 
 const DATA_PATHS = {
-  schedule: `data/live_season/${SEASON_ID}/preseason/schedule.json`,
+  schedule: `data/live_season/${SEASON_ID}/${SEASON_TYPE}/schedule.json`,
+  matches: `data/live_season/${SEASON_ID}/${SEASON_TYPE}/matches.json`,
   rosters: `data/live_season/${SEASON_ID}/active_rosters.json`,
-  rosterSnapshots: `data/live_season/${SEASON_ID}/preseason/roster_snapshots.json`,
-  matchDetailsBase: `data/live_season/${SEASON_ID}/preseason/match_details`,
-  shotMapsBase: `data/live_season/${SEASON_ID}/preseason/shot_maps`,
+  rosterSnapshots: `data/live_season/${SEASON_ID}/${SEASON_TYPE}/roster_snapshots.json`,
+  matchDetailsBase: `data/live_season/${SEASON_ID}/${SEASON_TYPE}/match_details`,
+  shotMapsBase: `data/live_season/${SEASON_ID}/${SEASON_TYPE}/shot_maps`,
   teamMetadata: "data/team_metadata.json"
 };
 
@@ -21,13 +60,70 @@ let activeShotTeam = "all";
 let activeShotResult = "all";
 let activeShotPeriod = "all";
 
-function cleanText(value) {
-  return String(value || "").trim();
+function getMatchArray(data) {
+  if (Array.isArray(data)) {
+    return data;
+  }
+
+  if (Array.isArray(data?.matches)) {
+    return data.matches;
+  }
+
+  if (Array.isArray(data?.schedule)) {
+    return data.schedule;
+  }
+
+  return [];
 }
 
-function getMatchIdFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  return cleanText(params.get("id") || params.get("match") || "");
+function mergeScheduledAndCompletedMatches(scheduleData, matchesData) {
+  const byId = new Map();
+
+  getMatchArray(scheduleData).forEach(match => {
+    const id = match.match_id || match.id || match.schedule_id || match.source_id;
+
+    if (!id) return;
+
+    byId.set(id, match);
+  });
+
+  getMatchArray(matchesData).forEach(match => {
+    const id = match.match_id || match.id || match.schedule_id || match.source_id;
+
+    if (!id) return;
+
+    byId.set(id, {
+      ...(byId.get(id) || {}),
+      ...match
+    });
+  });
+
+  return [...byId.values()];
+}
+
+async function fetchJsonOrFallback(url, fallback) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      return fallback;
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.warn(`Could not load ${url}`, error);
+    return fallback;
+  }
+}
+
+function formatSeasonType(value) {
+  const text = cleanText(value).toLowerCase();
+
+  if (text === "regular_season") return "Regular Season";
+  if (text === "preseason") return "Preseason";
+  if (text === "postseason") return "Postseason";
+
+  return cleanText(value) || "Season";
 }
 
 function formatRegion(region) {
@@ -354,8 +450,8 @@ function renderHero(match) {
             ${formatStatus(match.status)}
           </span>
 
-          <span>${formatRegion(match.region)} Preseason</span>
-          <span>Match ${escapeHtml(match.schedule_id)}</span>
+          <span>${formatRegion(match.region || match.home_region || match.away_region)} ${formatSeasonType(match.season_type || SEASON_TYPE)}</span>
+          <span>Match ${escapeHtml(match.source_id || match.schedule_id || match.match_id)}</span>
 
           ${
             isFinal(match)
@@ -405,10 +501,16 @@ function renderSummaryCard(label, value) {
 function renderSummary(match) {
   const summary = [];
 
-  summary.push(renderSummaryCard("Region", formatRegion(match.region)));
-  summary.push(renderSummaryCard("Phase", "Preseason"));
-  summary.push(renderSummaryCard("Match ID", match.schedule_id));
+  summary.push(renderSummaryCard("Region", formatRegion(match.region || match.home_region || match.away_region)));
+  summary.push(renderSummaryCard("Phase", formatSeasonType(match.season_type || SEASON_TYPE)));
+  summary.push(renderSummaryCard("Division", match.division || "Unknown"));
+  summary.push(renderSummaryCard("Week", match.week || "—"));
+  summary.push(renderSummaryCard("Match ID", match.source_id || match.schedule_id || match.match_id));
   summary.push(renderSummaryCard("Status", formatStatus(match.status)));
+
+  if (match.match_scope) {
+    summary.push(renderSummaryCard("Scope", match.match_scope));
+  }
 
   if (isFinal(match)) {
     const winner =
@@ -1126,98 +1228,97 @@ function renderMatchPage(match) {
 }
 
 async function loadMatchData() {
-    const matchId = getMatchIdFromUrl();
+  const matchId = MATCH_ID;
 
-    if (!matchId) {
-        document.querySelector("#matchPage").innerHTML = `
-        <section class="player-card">
-            No match ID was provided.
-        </section>
-        `;
-        return;
-    }
-
-    const [
-        scheduleResponse,
-        rostersResponse,
-        snapshotsResponse,
-        metadataResponse
-    ] = await Promise.all([
-        fetch(DATA_PATHS.schedule),
-        fetch(DATA_PATHS.rosters),
-        fetch(DATA_PATHS.rosterSnapshots).catch(() => null),
-        fetch(DATA_PATHS.teamMetadata)
-    ]);
-
-    matches = await scheduleResponse.json();
-
-    const rostersData = await rostersResponse.json();
-    const metadataList = await metadataResponse.json();
-
-    if (snapshotsResponse && snapshotsResponse.ok) {
-        rosterSnapshots = await snapshotsResponse.json();
-    } else {
-        rosterSnapshots = {};
-    }
-
-    rostersByTeamId = {};
-    metadataByTeamId = {};
-
-    (rostersData.teams || []).forEach(team => {
-        if (!team.team_id) return;
-        rostersByTeamId[team.team_id] = team;
-    });
-
-    metadataList.forEach(team => {
-        if (!team.team_id) return;
-        metadataByTeamId[team.team_id] = team;
-    });
-
-    const match = matches.find(item => item.match_id === matchId);
-
-    if (!match) {
+  if (!matchId) {
     document.querySelector("#matchPage").innerHTML = `
-        <section class="player-card">
-        Match not found: ${escapeHtml(matchId)}
-        </section>
+      <section class="player-card">
+        No match ID was provided.
+      </section>
     `;
     return;
+  }
+
+  const [
+    scheduleData,
+    matchesData,
+    rostersData,
+    snapshotsData,
+    metadataList
+  ] = await Promise.all([
+    fetchJsonOrFallback(DATA_PATHS.schedule, { matches: [] }),
+    fetchJsonOrFallback(DATA_PATHS.matches, { matches: [] }),
+    fetchJsonOrFallback(DATA_PATHS.rosters, { teams: [] }),
+    fetchJsonOrFallback(DATA_PATHS.rosterSnapshots, {}),
+    fetchJsonOrFallback(DATA_PATHS.teamMetadata, [])
+  ]);
+
+  matches = mergeScheduledAndCompletedMatches(scheduleData, matchesData);
+
+  rosterSnapshots = snapshotsData || {};
+  rostersByTeamId = {};
+  metadataByTeamId = {};
+
+  (rostersData.teams || []).forEach(team => {
+    if (!team.team_id) return;
+    rostersByTeamId[team.team_id] = team;
+  });
+
+  metadataList.forEach(team => {
+    if (!team.team_id) return;
+    metadataByTeamId[team.team_id] = team;
+  });
+
+  const match = matches.find(item => {
+    return item.match_id === matchId
+      || item.schedule_id === matchId
+      || item.source_id === matchId
+      || item.id === matchId;
+  });
+
+  if (!match) {
+    document.querySelector("#matchPage").innerHTML = `
+      <section class="player-card">
+        Match not found: ${escapeHtml(matchId)}
+      </section>
+    `;
+    return;
+  }
+
+  currentMatch = match;
+  currentMatchDetail = null;
+  currentShotMap = null;
+
+  activeShotTeam = "all";
+  activeShotResult = "all";
+  activeShotPeriod = "all";
+
+  if (match.status === "final") {
+    const detailPath = `${DATA_PATHS.matchDetailsBase}/${encodeURIComponent(match.match_id)}.json`;
+    const shotMapPath = `${DATA_PATHS.shotMapsBase}/${encodeURIComponent(match.match_id)}.json`;
+
+    try {
+      const detailResponse = await fetch(detailPath);
+
+      if (detailResponse.ok) {
+        currentMatchDetail = await detailResponse.json();
+      }
+    } catch (error) {
+      console.warn("Could not load match detail file", error);
     }
 
-    currentMatch = match;
-    currentMatchDetail = null;
-    currentShotMap = null;
+    try {
+      const shotMapResponse = await fetch(shotMapPath);
 
-    activeShotTeam = "all";
-    activeShotResult = "all";
-    activeShotPeriod = "all";
-
-    if (match.status === "final") {
-      const detailPath = `${DATA_PATHS.matchDetailsBase}/${encodeURIComponent(match.match_id)}.json`;
-      const shotMapPath = `${DATA_PATHS.shotMapsBase}/${encodeURIComponent(match.match_id)}.json`;
-
-      try {
-        const detailResponse = await fetch(detailPath);
-
-        if (detailResponse.ok) {
-          currentMatchDetail = await detailResponse.json();
-        }
-      } catch (error) {
-        console.warn("Could not load match detail file", error);
+      if (shotMapResponse.ok) {
+        currentShotMap = await shotMapResponse.json();
       }
-
-      try {
-        const shotMapResponse = await fetch(shotMapPath);
-
-        if (shotMapResponse.ok) {
-          currentShotMap = await shotMapResponse.json();
-        }
-      } catch (error) {
-        console.warn("Could not load shot map file", error);
-      }
+    } catch (error) {
+      console.warn("Could not load shot map file", error);
     }
+  }
 
-    renderMatchPage(match);
+  renderMatchPage(match);
 }
 
 loadMatchData().catch(error => {

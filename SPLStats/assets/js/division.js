@@ -178,6 +178,21 @@ function compareStandingsRows(a, b) {
   );
 }
 
+
+function getMatchUrl(match) {
+  const matchId =
+    match.match_id
+    || match.id
+    || match.schedule_id
+    || match.source_id
+    || "";
+
+  if (!matchId) return "#";
+
+  return `match.html?id=${encodeURIComponent(matchId)}`;
+}
+
+
 function renderDivisionShield(division) {
   const shieldPath = DIVISION_SHIELDS[division] || "";
 
@@ -307,19 +322,39 @@ function getThemeValue(teamIdOrName, key, fallback) {
   );
 }
 
+function getMatchArray(data) {
+  if (Array.isArray(data)) {
+    return data;
+  }
+
+  if (Array.isArray(data?.matches)) {
+    return data.matches;
+  }
+
+  if (Array.isArray(data?.schedule)) {
+    return data.schedule;
+  }
+
+  return [];
+}
+
 function getAllRegularMatches() {
-  const schedule = Array.isArray(appData.schedule) ? appData.schedule : [];
-  const matches = Array.isArray(appData.matches) ? appData.matches : [];
+  const schedule = getMatchArray(appData.schedule);
+  const matches = getMatchArray(appData.matches);
 
   const byId = new Map();
 
   schedule.forEach(match => {
-    const id = match.match_id || match.id || match.schedule_id;
-    if (id) byId.set(id, match);
+    const id = match.match_id || match.id || match.schedule_id || match.source_id;
+
+    if (id) {
+      byId.set(id, match);
+    }
   });
 
   matches.forEach(match => {
-    const id = match.match_id || match.id || match.schedule_id;
+    const id = match.match_id || match.id || match.schedule_id || match.source_id;
+
     if (!id) return;
 
     byId.set(id, {
@@ -337,15 +372,26 @@ function matchHasDivision(match, division) {
   const values = [
     match.division,
     match.division_id,
+    match.home_division,
+    match.away_division,
     match.fixture_group,
     match.group
   ].map(normalizeKey).filter(Boolean);
 
-  if (values.includes(current)) return true;
+  if (values.includes(current)) {
+    return true;
+  }
 
   const divisionTeams = new Set(
     getTeamsForDivision(division)
-      .map(team => normalizeKey(team.team_id))
+      .flatMap(team => [
+        team.team_id,
+        team.team_display_name,
+        team.team_name,
+        team.team
+      ])
+      .map(normalizeKey)
+      .filter(Boolean)
   );
 
   const homeId = normalizeKey(match.home_team_id || match.home_team);
@@ -360,12 +406,17 @@ function getDivisionMatches(division) {
 }
 
 function isFinal(match) {
-  const status = cleanText(match.status).toLowerCase();
+  const status = cleanText(match.status || match.match_status).toLowerCase();
 
   return status === "final"
     || status === "completed"
-    || match.home_score !== undefined
-    || match.away_score !== undefined;
+    || status === "complete"
+    || (
+      match.home_score !== undefined
+      && match.away_score !== undefined
+      && match.home_score !== null
+      && match.away_score !== null
+    );
 }
 
 function getMatchSortValue(match) {
@@ -396,17 +447,19 @@ function getUpcomingMatches(division) {
 }
 
 function getMatchTeam(match, side) {
-  return side === "home"
-    ? {
-        id: match.home_team_id || match.home_team,
-        name: match.home_team || getTeamDisplayName(match.home_team_id),
-        score: match.home_score
-      }
-    : {
-        id: match.away_team_id || match.away_team,
-        name: match.away_team || getTeamDisplayName(match.away_team_id),
-        score: match.away_score
-      };
+  if (side === "home") {
+    return {
+      id: match.home_team_id || match.home_team,
+      name: match.home_team || getTeamDisplayName(match.home_team_id),
+      score: match.home_score
+    };
+  }
+
+  return {
+    id: match.away_team_id || match.away_team,
+    name: match.away_team || getTeamDisplayName(match.away_team_id),
+    score: match.away_score
+  };
 }
 
 function getBroadcast(match) {
@@ -439,7 +492,13 @@ function formatDateLabel(match) {
 function formatWeekLabel(match) {
   if (match.week) return `Week ${match.week}`;
 
-  const scheduleId = cleanText(match.schedule_id || match.match_code || "");
+  const scheduleId = cleanText(
+    match.source_id
+    || match.schedule_id
+    || match.match_code
+    || ""
+  );
+
   const weekMatch = scheduleId.match(/^(\d+)\./);
 
   if (weekMatch) {
@@ -478,10 +537,7 @@ function renderMatchCard(match, type) {
     ? formatDateLabel(match)
     : formatWeekLabel(match);
 
-  const matchId = match.match_id || match.id || match.schedule_id || "";
-  const href = matchId
-    ? `match.html?id=${encodeURIComponent(matchId)}`
-    : "#";
+  const href = getMatchUrl(match);
 
   const broadcast = getBroadcast(match);
   const isCasted = Boolean(broadcast?.channel_name || broadcast?.is_casted);

@@ -1037,15 +1037,15 @@ main .player-card h2 {
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: 54px 58px minmax(0, 1fr) 96px;
+  grid-template-columns: 44px 54px 58px minmax(0, 1fr) auto;
   gap: 12px;
   align-items: center;
 
   min-height: 78px;
-  padding: 12px 14px;
+  padding: 0 14px 0 0;
 
   border:
-    1px solid
+    2px solid
     color-mix(
       in srgb,
       var(--opponent-accent, var(--team-primary, #2ecc71)) 38%,
@@ -1076,6 +1076,60 @@ main .player-card h2 {
     transform 0.14s ease,
     border-color 0.14s ease,
     background 0.14s ease;
+}
+
+.team-match-week-bar {
+  align-self: stretch;
+
+  width: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--opponent-accent);
+  color: #121212;
+
+  font-size: 0.82rem;
+  font-weight: 1000;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  border-right: 1px solid rgba(255, 255, 255, 0.22);
+
+  z-index: 2;
+}
+
+.team-match-week-bar span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+}
+
+.team-match-row > *:not(.team-match-bg-logo) {
+  position: relative;
+  z-index: 1;
+}
+
+.team-match-bg-logo {
+  position: absolute;
+  right: -18px;
+  top: 50%;
+
+  width: 112px;
+  height: 112px;
+
+  object-fit: contain;
+
+  opacity: 0.08;
+  transform: translateY(-50%) rotate(-8deg);
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 0;
+
+  filter: grayscale(1) contrast(1.15);
 }
 
 .team-match-location {
@@ -1198,7 +1252,8 @@ main .player-card h2 {
 
   font-family: var(--font-display, Evogria, sans-serif);
   font-size: 1.05rem;
-  line-height: 1.05;
+  line-height: 1.25;
+  padding-bottom: 2px;
 
   text-shadow:
     -1px 1px 0 rgba(0, 0, 0, 0.88);
