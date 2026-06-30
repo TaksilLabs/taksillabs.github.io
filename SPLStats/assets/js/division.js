@@ -8,7 +8,8 @@ const DATA_PATHS = {
   standings: `data/live_season/${SEASON_ID}/regular_season/standings.json`,
   leaders: `data/live_season/${SEASON_ID}/regular_season/leaders.json`,
   articles: `data/live_season/${SEASON_ID}/news/articles.json`,
-  broadcasts: `data/live_season/${SEASON_ID}/regular_season/broadcasts.json`
+  broadcasts: `data/live_season/${SEASON_ID}/regular_season/broadcasts.json`,
+  divisionSummary: `data/live_season/${SEASON_ID}/regular_season/division_summary.json`
 };
 
 const DIVISION_LABELS = {
@@ -730,16 +731,47 @@ function renderStandings(division) {
   container.innerHTML = renderStandingsTable(rows);
 }
 
-function getLeaderData(statKey) {
+function getLeaderData(statKey, division = getDivisionFromUrl()) {
   const leaders = appData.leaders;
 
   if (!leaders) return [];
 
-  if (Array.isArray(leaders?.[statKey])) {
-    return leaders[statKey];
-  }
+  const divisionKey = normalizeKey(division);
 
-  return [];
+  const players = Array.isArray(leaders.players)
+    ? leaders.players
+    : [];
+
+  return players
+    .filter(player => normalizeKey(player.division) === divisionKey)
+    .filter(player => {
+      if (statKey === "save_percent") {
+        return Number(player.shots_faced || 0) > 0;
+      }
+
+      if (statKey === "shooting_percent") {
+        return Number(player.shots || 0) > 0;
+      }
+
+      if (statKey === "faceoff_percent") {
+        return (
+          Number(player.faceoffs_won || 0)
+          + Number(player.faceoffs_lost || 0)
+        ) > 0;
+      }
+
+      return Number(player[statKey] || 0) > 0;
+    })
+    .sort((a, b) => {
+      return (
+        Number(b[statKey] || 0) - Number(a[statKey] || 0)
+        || Number(b.points || 0) - Number(a.points || 0)
+        || Number(b.goals || 0) - Number(a.goals || 0)
+        || cleanText(a.player_display_name || a.player_name).localeCompare(
+          cleanText(b.player_display_name || b.player_name)
+        )
+      );
+    });
 }
 
 function renderLeaderRow(player, statKey) {
@@ -749,16 +781,30 @@ function renderLeaderRow(player, statKey) {
 
   const teamPrimary = getThemeValue(teamId, "primary", "#00d1d1");
 
+  // URL identity should ONLY use player_id.
+  const playerUrlId = cleanText(player.player_id || "");
+
+  // Frontend display should prefer corrected display name.
+  const playerDisplayName =
+    player.player_display_name
+    || player.player_name
+    || player.name
+    || "Unknown Player";
+
+  const href = playerUrlId
+    ? `player.html?id=${encodeURIComponent(playerUrlId)}`
+    : "#";
+
   return `
     <a
-      class="leader-row"
-      href="player.html?id=${encodeURIComponent(player.player_id || player.player_name || player.name || "")}"
+      class="leader-row ${playerUrlId ? "" : "is-disabled"}"
+      href="${href}"
       style="--team-primary: ${teamPrimary};"
     >
       ${renderTeamLogo(teamId, "leader-logo")}
 
       <div class="leader-main">
-        <strong>${player.player_display_name || player.player_name || player.name || "Unknown Player"}</strong>
+        <strong>${playerDisplayName}</strong>
         <span>${getTeamAbbreviation(teamId)} · ${gp} GP</span>
       </div>
 
@@ -767,12 +813,12 @@ function renderLeaderRow(player, statKey) {
   `;
 }
 
-function renderLeaderList(containerId, statKey) {
+function renderLeaderList(containerId, statKey, division) {
   const container = document.querySelector(`#${containerId}`);
 
   if (!container) return;
 
-  const rows = getLeaderData(statKey).slice(0, 7);
+  const rows = getLeaderData(statKey, division).slice(0, 7);
 
   if (!rows.length) {
     container.innerHTML = `
@@ -839,10 +885,10 @@ function renderPage(division) {
   renderStandings(division);
   renderArticles(division);
 
-  renderLeaderList("goalsLeaders", "goals");
-  renderLeaderList("pointsLeaders", "points");
-  renderLeaderList("savesLeaders", "saves");
-  renderLeaderList("savePercentLeaders", "save_percent");
+  renderLeaderList("goalsLeaders", "goals", division);
+  renderLeaderList("pointsLeaders", "points", division);
+  renderLeaderList("savesLeaders", "saves", division);
+  renderLeaderList("savePercentLeaders", "save_percent", division);
 }
 
 function attachDivisionButtons() {

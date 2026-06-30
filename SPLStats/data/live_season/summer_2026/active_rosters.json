@@ -707,12 +707,19 @@
           "role": "player",
           "steam_name": "tuna_key",
           "slap_id": "1313861"
+        },
+        {
+          "role": "player",
+          "steam_name": "S1K",
+          "jersey_number": "",
+          "slap_id": "1412382"
         }
       ],
       "slap_ids": [
         "1314476",
         "1834115",
-        "1313861"
+        "1313861",
+        "1412382"
       ],
       "season_id": "summer_2026",
       "division": "central_c",
@@ -957,8 +964,9 @@
         },
         {
           "role": "player",
-          "steam_name": "culsicul",
-          "slap_id": "1797454"
+          "steam_name": "Tridoxity",
+          "jersey_number": "",
+          "slap_id": "1127790"
         }
       ],
       "slap_ids": [
@@ -966,7 +974,7 @@
         "913017",
         "633338",
         "985994",
-        "1797454"
+        "1127790"
       ],
       "season_id": "summer_2026",
       "division": "masters",
@@ -2279,7 +2287,7 @@
         },
         {
           "role": "player",
-          "steam_name": "Skiz",
+          "steam_name": "Skiztastic",
           "slap_id": "4633"
         },
         {

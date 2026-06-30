@@ -122,7 +122,7 @@ HOMEPAGE STYLERS
 */
 
 .hero {
-  min-height: 380px;
+  min-height: 350px;
 
   background-image:
     url("../images/rink-background.png");
@@ -134,7 +134,7 @@ HOMEPAGE STYLERS
 }
 
 .hero-overlay {
-  min-height: 380px;
+  min-height: 350px;
 
   display: flex;
   flex-direction: column;
@@ -219,6 +219,8 @@ HOMEPAGE STYLERS
     transform 0.16s ease,
     border-color 0.16s ease,
     box-shadow 0.16s ease;
+
+  text-decoration: none;
 }
 
 .home-feature-card:hover,
@@ -230,6 +232,8 @@ HOMEPAGE STYLERS
   box-shadow:
     0 16px 34px rgba(0, 0, 0, 0.44),
     0 0 18px rgba(123, 223, 242, 0.16);
+
+  text-decoration: none;
 }
 
 .home-feature-card {
@@ -305,6 +309,7 @@ HOMEPAGE STYLERS
   padding: 20px;
 
   align-items: flex-start;
+  text-decoration: none;
 }
 
 .home-nav-card strong {
