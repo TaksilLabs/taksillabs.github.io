@@ -1709,12 +1709,19 @@
           "role": "player",
           "steam_name": "Oblivion",
           "slap_id": "1071429"
+        },
+        {
+          "role": "player",
+          "steam_name": "Walster",
+          "jersey_number": "",
+          "slap_id": "111"
         }
       ],
       "slap_ids": [
         "186",
         "1374",
-        "1071429"
+        "1071429",
+        "111"
       ],
       "season_id": "summer_2026",
       "division": "challenger",
