@@ -51,22 +51,25 @@
         {
           "role": "captain",
           "steam_name": "Alt",
-          "slap_id": "24807"
+          "slap_id": "24807",
+          "jersey_number": "17"
         },
         {
           "role": "player",
           "steam_name": "Joe",
-          "slap_id": "6799"
+          "slap_id": "6799",
+          "jersey_number": "12"
         },
         {
           "role": "player",
           "steam_name": "poops",
-          "slap_id": "819088"
+          "slap_id": "819088",
+          "jersey_number": "67"
         },
         {
           "role": "player",
           "steam_name": "PatK9123",
-          "jersey_number": "",
+          "jersey_number": "68",
           "slap_id": "1392514"
         }
       ],
@@ -1752,12 +1755,14 @@
         {
           "role": "player",
           "steam_name": "Alt",
-          "slap_id": "24807"
+          "slap_id": "24807",
+          "jersey_number": "17"
         },
         {
           "role": "player",
           "steam_name": "poops",
-          "slap_id": "819088"
+          "slap_id": "819088",
+          "jersey_number": "67"
         }
       ],
       "slap_ids": [
@@ -1779,7 +1784,7 @@
       "region": "east",
       "players": [
         {
-          "role": "captain",
+          "role": "player",
           "steam_name": "EggsThink",
           "slap_id": "417498"
         },
@@ -1799,9 +1804,15 @@
           "slap_id": "431751"
         },
         {
-          "role": "player",
+          "role": "gm",
           "steam_name": "Troy Bolton",
           "slap_id": "9394"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sasha McGavinsky",
+          "jersey_number": "",
+          "slap_id": "5745"
         }
       ],
       "slap_ids": [
@@ -1809,7 +1820,8 @@
         "321499",
         "1506478",
         "431751",
-        "9394"
+        "9394",
+        "5745"
       ],
       "season_id": "summer_2026",
       "division": "pro",

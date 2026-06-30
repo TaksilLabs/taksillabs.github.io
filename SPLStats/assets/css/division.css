@@ -309,6 +309,111 @@ body {
   text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.8);
 }
 
+/*
+STANDINGS SECTION
+*/
+
+.standings-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.standings-view-toggle {
+  display: flex;
+  gap: 6px;
+
+  padding: 4px;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.standings-view-toggle button {
+  padding: 7px 11px;
+
+  border: 0;
+  border-radius: 999px;
+
+  background: transparent;
+  color: rgba(255, 255, 255, 0.68);
+
+  font-size: 0.72rem;
+  font-weight: 950;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.standings-view-toggle button.active {
+  background: rgba(0, 209, 209, 0.18);
+  color: #ffffff;
+}
+
+.wildcard-section {
+  display: grid;
+  gap: 14px;
+}
+
+.wildcard-group-title {
+  margin: 10px 0 8px;
+
+  color: var(--division-accent);
+
+  font-family: var(--font-display, Evogria, sans-serif);
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.standings-row-auto {
+  box-shadow: inset 4px 0 0 #00d1d1;
+}
+
+.standings-row-wildcard {
+  box-shadow: inset 4px 0 0 #b86bff;
+}
+
+.standings-row-bubble {
+  box-shadow: inset 4px 0 0 #ffd166;
+}
+
+.playoff-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 34px;
+  padding: 4px 7px;
+
+  border-radius: 999px;
+
+  color: #ffffff;
+
+  font-size: 0.65rem;
+  font-weight: 1000;
+  letter-spacing: 0.06em;
+}
+
+.playoff-badge.auto {
+  background: rgba(0, 209, 209, 0.28);
+  border: 1px solid rgba(0, 209, 209, 0.7);
+}
+
+.playoff-badge.wildcard {
+  background: rgba(184, 107, 255, 0.28);
+  border: 1px solid rgba(184, 107, 255, 0.75);
+}
+
+.playoff-badge.bubble {
+  background: rgba(255, 209, 102, 0.2);
+  border: 1px solid rgba(255, 209, 102, 0.7);
+}
+
 .standings-panel {
   min-height: 420px;
 }
@@ -364,6 +469,16 @@ body {
   background: rgba(255, 255, 255, 0.09);
   color: #ffffff;
 }
+
+/**/
+
+
+
+
+
+/*
+LEADER SECTION
+*/
 
 .leader-row {
   display: grid;
@@ -435,6 +550,11 @@ body {
   font-size: 1rem;
   text-align: right;
 }
+
+
+/**/
+
+
 
 /*
 Hero Division Badges

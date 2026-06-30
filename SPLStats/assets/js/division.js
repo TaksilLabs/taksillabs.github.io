@@ -66,6 +66,118 @@ let appData = {
   broadcasts: {}
 };
 
+let standingsView = "conference";
+
+function attachStandingsToggle() {
+  document.querySelectorAll("[data-standings-view]").forEach(button => {
+    button.addEventListener("click", () => {
+      standingsView = button.dataset.standingsView || "conference";
+
+      document.querySelectorAll("[data-standings-view]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.standingsView === standingsView);
+      });
+
+      renderStandings(getDivisionFromUrl());
+    });
+  });
+}
+
+function divisionUsesConferences(rows) {
+  const conferences = new Set(
+    rows
+      .map(row => cleanText(row.conference))
+      .filter(Boolean)
+  );
+
+  return conferences.size > 1;
+}
+
+function getConferencePlayoffConfig(teamCount) {
+  if (teamCount === 14) {
+    return {
+      autoPerConference: 3,
+      wildcardCount: 2,
+      bubbleCount: 4
+    };
+  }
+
+  if (teamCount === 12) {
+    return {
+      autoPerConference: 2,
+      wildcardCount: 2,
+      bubbleCount: 4
+    };
+  }
+
+  return {
+    autoPerConference: 0,
+    wildcardCount: 0,
+    bubbleCount: 0
+  };
+}
+
+function applyConferencePlayoffStatuses(rows) {
+  const config = getConferencePlayoffConfig(rows.length);
+
+  const resetRows = rows.map(row => ({
+    ...row,
+    playoff_status: "",
+    playoff_badge: "",
+    wildcard_rank: null
+  }));
+
+  if (!config.autoPerConference || !divisionUsesConferences(resetRows)) {
+    return resetRows;
+  }
+
+  const byConference = resetRows.reduce((groups, row) => {
+    const key = row.conference || "all";
+    groups[key] ||= [];
+    groups[key].push(row);
+    return groups;
+  }, {});
+
+  const automaticIds = new Set();
+
+  Object.values(byConference).forEach(group => {
+    group
+      .slice(0, config.autoPerConference)
+      .forEach(row => {
+        row.playoff_status = "auto";
+        row.playoff_badge = "AQ";
+        automaticIds.add(row.team_id);
+      });
+  });
+
+  const wildcardPool = resetRows
+    .filter(row => !automaticIds.has(row.team_id))
+    .sort(compareStandingsRows);
+
+  wildcardPool.forEach((row, index) => {
+    row.wildcard_rank = index + 1;
+
+    if (index < config.wildcardCount) {
+      row.playoff_status = "wildcard";
+      row.playoff_badge = "WC";
+    } else if (index < config.wildcardCount + config.bubbleCount) {
+      row.playoff_status = "bubble";
+      row.playoff_badge = "BUB";
+    }
+  });
+
+  return resetRows;
+}
+
+function compareStandingsRows(a, b) {
+  return (
+    b.points - a.points
+    || b.wins - a.wins
+    || b.diff - a.diff
+    || b.gf - a.gf
+    || a.team_display_name.localeCompare(b.team_display_name)
+  );
+}
+
 function renderDivisionShield(division) {
   const shieldPath = DIVISION_SHIELDS[division] || "";
 
@@ -480,15 +592,45 @@ function buildBasicStandings(division) {
     });
 
   return [...table.values()]
-    .sort((a, b) => {
-      return (
-        b.points - a.points
-        || b.wins - a.wins
-        || b.diff - a.diff
-        || b.gf - a.gf
-        || a.team_display_name.localeCompare(b.team_display_name)
-      );
-    });
+    .sort(compareStandingsRows);
+}
+
+
+    // Multi Conference Wildcard Renderer
+function renderWildcardRace(rows) {
+  const config = getConferencePlayoffConfig(rows.length);
+  const rowsWithStatus = applyConferencePlayoffStatuses(rows);
+
+  const automatic = rowsWithStatus.filter(row => row.playoff_status === "auto");
+  const wildcards = rowsWithStatus.filter(row => row.playoff_status === "wildcard");
+  const bubble = rowsWithStatus.filter(row => row.playoff_status === "bubble");
+
+  if (!config.autoPerConference) {
+    return renderStandingsTable(rowsWithStatus);
+  }
+
+  return `
+    <section class="wildcard-section">
+      <div>
+        <h3 class="wildcard-group-title">Automatic Qualifiers</h3>
+        ${renderStandingsTable(automatic)}
+      </div>
+
+      <div>
+        <h3 class="wildcard-group-title">Wildcard Race</h3>
+        ${renderStandingsTable(wildcards)}
+      </div>
+
+      <div>
+        <h3 class="wildcard-group-title">Bubble / Chase</h3>
+        ${
+          bubble.length
+            ? renderStandingsTable(bubble)
+            : `<div class="division-empty">No bubble teams yet.</div>`
+        }
+      </div>
+    </section>
+  `;
 }
 
 function renderStandingsTable(rows) {
@@ -508,12 +650,13 @@ function renderStandingsTable(rows) {
           <th>GF</th>
           <th>GA</th>
           <th>DIFF</th>
+          <th>Status</th>
         </tr>
       </thead>
 
       <tbody>
         ${rows.map(row => `
-          <tr>
+          <tr class="${row.playoff_status ? `standings-row-${row.playoff_status}` : ""}">
             <td>
               <a class="standings-team" href="team.html?id=${encodeURIComponent(row.team_id)}">
                 ${renderTeamLogo(row.team_id, "standings-logo-placeholder")}
@@ -527,6 +670,13 @@ function renderStandingsTable(rows) {
             <td>${row.gf}</td>
             <td>${row.ga}</td>
             <td>${row.diff}</td>
+            <td>
+              ${
+                row.playoff_badge
+                ? `<span class="playoff-badge ${row.playoff_status}">${row.playoff_badge}</span>`
+                : ""
+              }
+            </td>
           </tr>
         `).join("")}
       </tbody>
@@ -536,9 +686,23 @@ function renderStandingsTable(rows) {
 
 function renderStandings(division) {
   const container = document.querySelector("#standingsContent");
+  const toggle = document.querySelector("#standingsViewToggle");
+
   if (!container) return;
 
-  const rows = buildBasicStandings(division);
+  let rows = buildBasicStandings(division);
+  rows = applyConferencePlayoffStatuses(rows);
+
+  const usesConferences = divisionUsesConferences(rows);
+
+  if (toggle) {
+    toggle.style.display = usesConferences ? "" : "none";
+  }
+
+  if (usesConferences && standingsView === "wildcard") {
+    container.innerHTML = renderWildcardRace(rows);
+    return;
+  }
 
   const conferenceGroups = rows.reduce((groups, row) => {
     const key = row.conference || "all";
@@ -662,7 +826,7 @@ function renderPage(division) {
 
   document.querySelector("#divisionTitle").textContent = `${label} Division`;
   document.querySelector("#divisionRegionLabel").textContent = `${region} Region`;
-  
+
   renderDivisionShield(division);
 
   document.querySelectorAll("[data-division]").forEach(button => {
@@ -734,6 +898,7 @@ async function loadDivisionPage() {
   };
 
   attachDivisionButtons();
+  attachStandingsToggle();
   renderPage(getDivisionFromUrl());
 }
 

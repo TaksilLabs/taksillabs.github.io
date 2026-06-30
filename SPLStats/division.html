@@ -80,8 +80,20 @@
     <section class="division-main-column">
       <section class="division-panel standings-panel">
         <div class="division-panel-head">
-          <span>Table</span>
-          <h2>Standings</h2>
+            <div>
+                <span>Table</span>
+                <h2>Standings</h2>
+            </div>
+
+            <div id="standingsViewToggle" class="standings-view-toggle" style="display: none;">
+                <button type="button" data-standings-view="conference" class="active">
+                Conferences
+                </button>
+
+                <button type="button" data-standings-view="wildcard">
+                Wildcard Race
+                </button>
+            </div>
         </div>
 
         <div id="standingsContent"></div>
