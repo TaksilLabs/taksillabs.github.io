@@ -116,68 +116,6 @@ function getConferencePlayoffConfig(teamCount) {
   };
 }
 
-function applyConferencePlayoffStatuses(rows) {
-  const config = getConferencePlayoffConfig(rows.length);
-
-  const resetRows = rows.map(row => ({
-    ...row,
-    playoff_status: "",
-    playoff_badge: "",
-    wildcard_rank: null
-  }));
-
-  if (!config.autoPerConference || !divisionUsesConferences(resetRows)) {
-    return resetRows;
-  }
-
-  const byConference = resetRows.reduce((groups, row) => {
-    const key = row.conference || "all";
-    groups[key] ||= [];
-    groups[key].push(row);
-    return groups;
-  }, {});
-
-  const automaticIds = new Set();
-
-  Object.values(byConference).forEach(group => {
-    group
-      .slice(0, config.autoPerConference)
-      .forEach(row => {
-        row.playoff_status = "auto";
-        row.playoff_badge = "AQ";
-        automaticIds.add(row.team_id);
-      });
-  });
-
-  const wildcardPool = resetRows
-    .filter(row => !automaticIds.has(row.team_id))
-    .sort(compareStandingsRows);
-
-  wildcardPool.forEach((row, index) => {
-    row.wildcard_rank = index + 1;
-
-    if (index < config.wildcardCount) {
-      row.playoff_status = "wildcard";
-      row.playoff_badge = "WC";
-    } else if (index < config.wildcardCount + config.bubbleCount) {
-      row.playoff_status = "bubble";
-      row.playoff_badge = "BUB";
-    }
-  });
-
-  return resetRows;
-}
-
-function compareStandingsRows(a, b) {
-  return (
-    b.points - a.points
-    || b.wins - a.wins
-    || b.diff - a.diff
-    || b.gf - a.gf
-    || a.team_display_name.localeCompare(b.team_display_name)
-  );
-}
-
 
 function getMatchUrl(match) {
   const matchId =
@@ -320,6 +258,71 @@ function getThemeValue(teamIdOrName, key, fallback) {
     || metadata?.[key]
     || fallback
   );
+}
+
+function getStandingsArray() {
+  if (Array.isArray(appData.standings)) {
+    return appData.standings;
+  }
+
+  if (Array.isArray(appData.standings?.standings)) {
+    return appData.standings.standings;
+  }
+
+  return [];
+}
+
+function getStandingsRowsForDivision(division) {
+  const currentDivision = normalizeKey(division);
+
+  return getStandingsArray()
+    .filter(row => normalizeKey(row.division) === currentDivision)
+    .sort((a, b) => {
+      return (
+        Number(a.conference || 0) - Number(b.conference || 0)
+        || Number(a.conference_rank || 999) - Number(b.conference_rank || 999)
+        || Number(a.division_rank || 999) - Number(b.division_rank || 999)
+        || cleanText(a.team_display_name || a.team).localeCompare(
+          cleanText(b.team_display_name || b.team)
+        )
+      );
+    });
+}
+
+function normalizeStandingsRow(row) {
+  return {
+    ...row,
+
+    gp: row.gp ?? row.games_played ?? 0,
+    losses: row.losses ?? ((row.regulation_losses ?? 0) + (row.overtime_losses ?? 0)),
+    gf: row.gf ?? row.goals_for ?? 0,
+    ga: row.ga ?? row.goals_against ?? 0,
+    diff: row.diff ?? row.goal_diff ?? 0,
+
+    playoff_status:
+      row.playoff_status
+      || playoffBucketToStatus(row.playoff_bucket),
+
+    playoff_badge:
+      row.playoff_badge
+      || playoffBucketToBadge(row.playoff_bucket)
+  };
+}
+
+function playoffBucketToStatus(bucket) {
+  if (bucket === "automatic_qualifier") return "auto";
+  if (bucket === "wildcard") return "wildcard";
+  if (bucket === "bubble") return "bubble";
+  if (bucket === "chase") return "";
+  return "";
+}
+
+function playoffBucketToBadge(bucket) {
+  if (bucket === "automatic_qualifier") return "AQ";
+  if (bucket === "wildcard") return "WC";
+  if (bucket === "bubble") return "BUB";
+  if (bucket === "chase") return "";
+  return "";
 }
 
 function getMatchArray(data) {
@@ -590,72 +593,11 @@ function renderMatchList(containerId, matches, type) {
   container.innerHTML = matches.map(match => renderMatchCard(match, type)).join("");
 }
 
-function buildBasicStandings(division) {
-  const teams = getTeamsForDivision(division);
-
-  const table = new Map();
-
-  teams.forEach(team => {
-    table.set(normalizeKey(team.team_id), {
-      team_id: team.team_id,
-      team_display_name: team.team_display_name || team.team || team.team_id,
-      conference: cleanText(team.conference),
-      gp: 0,
-      wins: 0,
-      losses: 0,
-      points: 0,
-      gf: 0,
-      ga: 0,
-      diff: 0
-    });
-  });
-
-  getDivisionMatches(division)
-    .filter(isFinal)
-    .forEach(match => {
-      const homeKey = normalizeKey(match.home_team_id || match.home_team);
-      const awayKey = normalizeKey(match.away_team_id || match.away_team);
-
-      if (!table.has(homeKey) || !table.has(awayKey)) return;
-
-      const home = table.get(homeKey);
-      const away = table.get(awayKey);
-
-      const homeScore = Number(match.home_score || 0);
-      const awayScore = Number(match.away_score || 0);
-
-      home.gp += 1;
-      away.gp += 1;
-
-      home.gf += homeScore;
-      home.ga += awayScore;
-
-      away.gf += awayScore;
-      away.ga += homeScore;
-
-      if (homeScore > awayScore) {
-        home.wins += 1;
-        home.points += 2;
-        away.losses += 1;
-      } else if (awayScore > homeScore) {
-        away.wins += 1;
-        away.points += 2;
-        home.losses += 1;
-      }
-
-      home.diff = home.gf - home.ga;
-      away.diff = away.gf - away.ga;
-    });
-
-  return [...table.values()]
-    .sort(compareStandingsRows);
-}
-
 
     // Multi Conference Wildcard Renderer
 function renderWildcardRace(rows) {
   const config = getConferencePlayoffConfig(rows.length);
-  const rowsWithStatus = applyConferencePlayoffStatuses(rows);
+  const rowsWithStatus = rows;
 
   const automatic = rowsWithStatus.filter(row => row.playoff_status === "auto");
   const wildcards = rowsWithStatus.filter(row => row.playoff_status === "wildcard");
@@ -746,8 +688,8 @@ function renderStandings(division) {
 
   if (!container) return;
 
-  let rows = buildBasicStandings(division);
-  rows = applyConferencePlayoffStatuses(rows);
+  let rows = getStandingsRowsForDivision(division)
+    .map(normalizeStandingsRow);
 
   const usesConferences = divisionUsesConferences(rows);
 

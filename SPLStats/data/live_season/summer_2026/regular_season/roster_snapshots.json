@@ -1,0 +1,696 @@
+{
+  "summer_2026_regular_season_central_b_1_4": {
+    "match_id": "summer_2026_regular_season_central_b_1_4",
+    "source_id": "1.4",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "atlantic_city_zootiez",
+    "home_team": "Atlantic City Zootiez$",
+    "away_team_id": "battle_creek_kings",
+    "away_team": "Battle Creek Kings",
+    "home_roster": {
+      "team_id": "atlantic_city_zootiez",
+      "team_display_name": "Atlantic City Zootiez$",
+      "team": "Atlantic City Zootiez$",
+      "team_abbreviation": "ACZ",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "950305"
+        },
+        {
+          "role": "player",
+          "steam_name": "midget",
+          "slap_id": "948283"
+        },
+        {
+          "role": "player",
+          "steam_name": ">:)",
+          "slap_id": "72269"
+        },
+        {
+          "role": "player",
+          "steam_name": "Nayr[QC]",
+          "slap_id": "286293"
+        }
+      ],
+      "slap_ids": [
+        "950305",
+        "948283",
+        "72269",
+        "286293"
+      ]
+    },
+    "away_roster": {
+      "team_id": "battle_creek_kings",
+      "team_display_name": "Battle Creek Kings",
+      "team": "Battle Creek Kings",
+      "team_abbreviation": "BACK",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Joemer",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "SPMZ",
+          "slap_id": "941924"
+        },
+        {
+          "role": "player",
+          "steam_name": "Semen Slayer",
+          "slap_id": "1427595"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "67383",
+        "941924",
+        "1427595"
+      ]
+    }
+  },
+  "summer_2026_regular_season_challenger_1_17": {
+    "match_id": "summer_2026_regular_season_challenger_1_17",
+    "source_id": "1.17",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "pawnee_post_syrup_intake_authority",
+    "home_team": "Pawnee Post Syrup Intake Authority",
+    "away_team_id": "vader_eastern_attackers",
+    "away_team": "Vader Eastern Attackers",
+    "home_roster": {
+      "team_id": "pawnee_post_syrup_intake_authority",
+      "team_display_name": "Pawnee Post Syrup Intake Authority",
+      "team": "Pawnee Post Syrup Intake Authority",
+      "team_abbreviation": "PPSA",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Dionysus",
+          "slap_id": "87468"
+        },
+        {
+          "role": "player",
+          "steam_name": "Topil",
+          "slap_id": "1781804"
+        },
+        {
+          "role": "player",
+          "steam_name": "Securitron MK II",
+          "slap_id": "67088"
+        },
+        {
+          "role": "player",
+          "steam_name": "GiraffeKiller",
+          "slap_id": "1314542"
+        },
+        {
+          "role": "player",
+          "steam_name": "RIGSjr",
+          "slap_id": "9265"
+        }
+      ],
+      "slap_ids": [
+        "87468",
+        "1781804",
+        "67088",
+        "1314542",
+        "9265"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_eastern_attackers",
+      "team_display_name": "Vader Eastern Attackers",
+      "team": "Vader Eastern Attackers",
+      "team_abbreviation": "VEA",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skiz",
+          "slap_id": "4633"
+        },
+        {
+          "role": "player",
+          "steam_name": "cybergoose",
+          "slap_id": "1199765"
+        },
+        {
+          "role": "player",
+          "steam_name": "Cman",
+          "slap_id": "18011"
+        },
+        {
+          "role": "player",
+          "steam_name": "Midget",
+          "slap_id": "948283"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "4633",
+        "1199765",
+        "18011",
+        "948283"
+      ]
+    }
+  },
+  "summer_2026_regular_season_challenger_1_6": {
+    "match_id": "summer_2026_regular_season_challenger_1_6",
+    "source_id": "1.6",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "vader_stars",
+    "home_team": "Vader Stars",
+    "away_team_id": "pawnee_post_syrup_intake_authority",
+    "away_team": "Pawnee Post Syrup Intake Authority",
+    "home_roster": {
+      "team_id": "vader_stars",
+      "team_display_name": "Vader Stars",
+      "team": "Vader Stars",
+      "team_abbreviation": "VAS",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mcnulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "40",
+        "600238",
+        "633338"
+      ]
+    },
+    "away_roster": {
+      "team_id": "pawnee_post_syrup_intake_authority",
+      "team_display_name": "Pawnee Post Syrup Intake Authority",
+      "team": "Pawnee Post Syrup Intake Authority",
+      "team_abbreviation": "PPSA",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Dionysus",
+          "slap_id": "87468"
+        },
+        {
+          "role": "player",
+          "steam_name": "Topil",
+          "slap_id": "1781804"
+        },
+        {
+          "role": "player",
+          "steam_name": "Securitron MK II",
+          "slap_id": "67088"
+        },
+        {
+          "role": "player",
+          "steam_name": "GiraffeKiller",
+          "slap_id": "1314542"
+        },
+        {
+          "role": "player",
+          "steam_name": "RIGSjr",
+          "slap_id": "9265"
+        }
+      ],
+      "slap_ids": [
+        "87468",
+        "1781804",
+        "67088",
+        "1314542",
+        "9265"
+      ]
+    }
+  },
+  "summer_2026_regular_season_challenger_1_7": {
+    "match_id": "summer_2026_regular_season_challenger_1_7",
+    "source_id": "1.7",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "camden_crook",
+    "home_team": "Camden Crook$",
+    "away_team_id": "vader_stars",
+    "away_team": "Vader Stars",
+    "home_roster": {
+      "team_id": "camden_crook",
+      "team_display_name": "Camden Crook$",
+      "team": "Camden Crook$",
+      "team_abbreviation": "CRKS",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "286293"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "chief",
+          "slap_id": "957603"
+        },
+        {
+          "role": "player",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mr Pigeon",
+          "slap_id": "508645"
+        }
+      ],
+      "slap_ids": [
+        "286293",
+        "183790",
+        "957603",
+        "1378966",
+        "508645"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_stars",
+      "team_display_name": "Vader Stars",
+      "team": "Vader Stars",
+      "team_abbreviation": "VAS",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mcnulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "40",
+        "600238",
+        "633338"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_12": {
+    "match_id": "summer_2026_regular_season_intermediate_1_12",
+    "source_id": "1.12",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "gary_glizzy_gobblers",
+    "home_team": "Gary Glizzy Gobblers",
+    "away_team_id": "vader_starkillers_east",
+    "away_team": "Vader Starkillers East",
+    "home_roster": {
+      "team_id": "gary_glizzy_gobblers",
+      "team_display_name": "Gary Glizzy Gobblers",
+      "team": "Gary Glizzy Gobblers",
+      "team_abbreviation": "GGG",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Looees",
+          "slap_id": "281017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skeetshooter42",
+          "slap_id": "1329800"
+        },
+        {
+          "role": "player",
+          "steam_name": "Cheddx",
+          "slap_id": "8081"
+        },
+        {
+          "role": "player",
+          "steam_name": "PleZo",
+          "slap_id": "174650"
+        },
+        {
+          "role": "player",
+          "steam_name": "Fee dup laybach",
+          "slap_id": "1528532"
+        }
+      ],
+      "slap_ids": [
+        "281017",
+        "1329800",
+        "8081",
+        "174650",
+        "1528532"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_starkillers_east",
+      "team_display_name": "Vader Starkillers East",
+      "team": "Vader Starkillers East",
+      "team_abbreviation": "VDSE",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Rigg",
+          "slap_id": "1530583"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kwispy (Cold Hands)",
+          "slap_id": "524929"
+        },
+        {
+          "role": "player",
+          "steam_name": "qptreyqp",
+          "slap_id": "893565"
+        },
+        {
+          "role": "player",
+          "steam_name": "oChase",
+          "slap_id": "767270"
+        },
+        {
+          "role": "player",
+          "steam_name": "grimace",
+          "slap_id": "524911"
+        }
+      ],
+      "slap_ids": [
+        "1530583",
+        "524929",
+        "893565",
+        "767270",
+        "524911"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_15": {
+    "match_id": "summer_2026_regular_season_intermediate_1_15",
+    "source_id": "1.15",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "vader_whiteout",
+    "home_team": "Vader Whiteout",
+    "away_team_id": "boston_bahds",
+    "away_team": "Boston Bahds",
+    "home_roster": {
+      "team_id": "vader_whiteout",
+      "team_display_name": "Vader Whiteout",
+      "team": "Vader Whiteout",
+      "team_abbreviation": "VADW",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "BiggieBag",
+          "slap_id": "1288337"
+        },
+        {
+          "role": "player",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "LilCricket",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "MaxZombieJaws",
+          "slap_id": "1124512"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bobby McMann",
+          "slap_id": "769650"
+        }
+      ],
+      "slap_ids": [
+        "1288337",
+        "249493",
+        "1287792",
+        "1124512",
+        "769650"
+      ]
+    },
+    "away_roster": {
+      "team_id": "boston_bahds",
+      "team_display_name": "Boston Bahds",
+      "team": "Boston Bahds",
+      "team_abbreviation": "BAHD",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "dxmxnz",
+          "slap_id": "1310489"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylat00n",
+          "slap_id": "1313906"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ademy24",
+          "slap_id": "710101"
+        },
+        {
+          "role": "player",
+          "steam_name": "dvyr",
+          "slap_id": "352226"
+        },
+        {
+          "role": "player",
+          "steam_name": "napqleon",
+          "slap_id": "1314476"
+        }
+      ],
+      "slap_ids": [
+        "1310489",
+        "1313906",
+        "710101",
+        "352226",
+        "1314476"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_9": {
+    "match_id": "summer_2026_regular_season_intermediate_1_9",
+    "source_id": "1.9",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "vader_starkillers_east",
+    "home_team": "Vader Starkillers East",
+    "away_team_id": "no_name_nighthawks",
+    "away_team": "No Name Nighthawks",
+    "home_roster": {
+      "team_id": "vader_starkillers_east",
+      "team_display_name": "Vader Starkillers East",
+      "team": "Vader Starkillers East",
+      "team_abbreviation": "VDSE",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Rigg",
+          "slap_id": "1530583"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kwispy (Cold Hands)",
+          "slap_id": "524929"
+        },
+        {
+          "role": "player",
+          "steam_name": "qptreyqp",
+          "slap_id": "893565"
+        },
+        {
+          "role": "player",
+          "steam_name": "oChase",
+          "slap_id": "767270"
+        },
+        {
+          "role": "player",
+          "steam_name": "grimace",
+          "slap_id": "524911"
+        }
+      ],
+      "slap_ids": [
+        "1530583",
+        "524929",
+        "893565",
+        "767270",
+        "524911"
+      ]
+    },
+    "away_roster": {
+      "team_id": "no_name_nighthawks",
+      "team_display_name": "No Name Nighthawks",
+      "team": "No Name Nighthawks",
+      "team_abbreviation": "NNN",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Noob_Weapons",
+          "slap_id": "87"
+        },
+        {
+          "role": "player",
+          "steam_name": "JoeMer",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "Victon22",
+          "slap_id": "1502807"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "87",
+        "67383",
+        "1502807"
+      ]
+    }
+  }
+}
