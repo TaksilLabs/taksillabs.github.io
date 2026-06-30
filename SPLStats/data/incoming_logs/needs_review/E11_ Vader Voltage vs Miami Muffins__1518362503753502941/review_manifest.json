@@ -1,0 +1,22 @@
+{
+  "source_folder_name": "E11_ Vader Voltage vs Miami Muffins__1518362503753502941",
+  "source_folder_path": "data/incoming_logs/unsorted/E11_ Vader Voltage vs Miami Muffins__1518362503753502941",
+  "parsed": {
+    "source_id": "",
+    "home_team": "",
+    "away_team": "",
+    "thread_id": "",
+    "warnings": [
+      "Could not parse folder name: E11_ Vader Voltage vs Miami Muffins__1518362503753502941"
+    ]
+  },
+  "match_info": {
+    "matched_by": "none",
+    "confidence": 0,
+    "warnings": [
+      "No schedule match found for :  vs "
+    ],
+    "candidates": []
+  },
+  "created_at_utc": "2026-06-30T14:26:51.705135+00:00"
+}

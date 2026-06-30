@@ -1,0 +1,22 @@
+{
+  "source_folder_name": "E38_ Vader Starkillers East vs Greensboro Goosans__1518362624109187132",
+  "source_folder_path": "data/incoming_logs/unsorted/E38_ Vader Starkillers East vs Greensboro Goosans__1518362624109187132",
+  "parsed": {
+    "source_id": "",
+    "home_team": "",
+    "away_team": "",
+    "thread_id": "",
+    "warnings": [
+      "Could not parse folder name: E38_ Vader Starkillers East vs Greensboro Goosans__1518362624109187132"
+    ]
+  },
+  "match_info": {
+    "matched_by": "none",
+    "confidence": 0,
+    "warnings": [
+      "No schedule match found for :  vs "
+    ],
+    "candidates": []
+  },
+  "created_at_utc": "2026-06-30T14:26:51.730852+00:00"
+}

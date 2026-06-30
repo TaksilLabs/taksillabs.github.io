@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_intermediate_1_9",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "intermediate",
+  "imported_at_utc": "2026-06-30T14:38:48.284621+00:00",
+  "source_folder_name": "1.9_ Vader Starkillers East vs No Name Nighthawks__1520931911856558241",
+  "source_folder_path": "data/incoming_logs/unsorted/1.9_ Vader Starkillers East vs No Name Nighthawks__1520931911856558241",
+  "source_id": "1.9",
+  "thread_id": "1520931911856558241",
+  "detected_home_team": "Vader Starkillers East",
+  "detected_away_team": "No Name Nighthawks",
+  "matched_schedule_home_team_id": "vader_starkillers_east",
+  "matched_schedule_away_team_id": "no_name_nighthawks",
+  "matched_schedule_home_team": "Vader Starkillers East",
+  "matched_schedule_away_team": "No Name Nighthawks",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-29T21:48:31",
+  "last_log_timestamp": "2026-06-29T22:01:48",
+  "probable_start_time": "2026-06-29T21:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260630_020932_231615312896720908_2026-06-29-21-48-31.json",
+      "relative_path": "1.9_ Vader Starkillers East vs No Name Nighthawks__1520931911856558241/20260630_020932_231615312896720908_2026-06-29-21-48-31.json",
+      "timestamp_from_filename": "2026-06-29T21:48:31"
+    },
+    {
+      "original_name": "20260630_020932_231615312896720908_2026-06-29-21-55-28.json",
+      "relative_path": "1.9_ Vader Starkillers East vs No Name Nighthawks__1520931911856558241/20260630_020932_231615312896720908_2026-06-29-21-55-28.json",
+      "timestamp_from_filename": "2026-06-29T21:55:28"
+    },
+    {
+      "original_name": "20260630_020932_231615312896720908_2026-06-29-22-01-48.json",
+      "relative_path": "1.9_ Vader Starkillers East vs No Name Nighthawks__1520931911856558241/20260630_020932_231615312896720908_2026-06-29-22-01-48.json",
+      "timestamp_from_filename": "2026-06-29T22:01:48"
+    }
+  ],
+  "warnings": []
+}

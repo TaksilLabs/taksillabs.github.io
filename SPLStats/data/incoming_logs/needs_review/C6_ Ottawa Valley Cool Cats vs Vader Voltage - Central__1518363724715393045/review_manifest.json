@@ -1,0 +1,22 @@
+{
+  "source_folder_name": "C6_ Ottawa Valley Cool Cats vs Vader Voltage - Central__1518363724715393045",
+  "source_folder_path": "data/incoming_logs/unsorted/C6_ Ottawa Valley Cool Cats vs Vader Voltage - Central__1518363724715393045",
+  "parsed": {
+    "source_id": "",
+    "home_team": "",
+    "away_team": "",
+    "thread_id": "",
+    "warnings": [
+      "Could not parse folder name: C6_ Ottawa Valley Cool Cats vs Vader Voltage - Central__1518363724715393045"
+    ]
+  },
+  "match_info": {
+    "matched_by": "none",
+    "confidence": 0,
+    "warnings": [
+      "No schedule match found for :  vs "
+    ],
+    "candidates": []
+  },
+  "created_at_utc": "2026-06-30T14:26:51.692816+00:00"
+}

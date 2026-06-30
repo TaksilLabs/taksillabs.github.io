@@ -1,0 +1,22 @@
+{
+  "source_folder_name": "C5_ Detroit Droids vs Vader Voltage - Central__1518363719799799819",
+  "source_folder_path": "data/incoming_logs/unsorted/C5_ Detroit Droids vs Vader Voltage - Central__1518363719799799819",
+  "parsed": {
+    "source_id": "",
+    "home_team": "",
+    "away_team": "",
+    "thread_id": "",
+    "warnings": [
+      "Could not parse folder name: C5_ Detroit Droids vs Vader Voltage - Central__1518363719799799819"
+    ]
+  },
+  "match_info": {
+    "matched_by": "none",
+    "confidence": 0,
+    "warnings": [
+      "No schedule match found for :  vs "
+    ],
+    "candidates": []
+  },
+  "created_at_utc": "2026-06-30T14:26:51.686783+00:00"
+}

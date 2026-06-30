@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_challenger_1_17",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "challenger",
+  "imported_at_utc": "2026-06-30T14:38:48.239784+00:00",
+  "source_folder_name": "1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322",
+  "source_folder_path": "data/incoming_logs/unsorted/1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322",
+  "source_id": "1.17",
+  "thread_id": "1520927543383949322",
+  "detected_home_team": "Pawnee Post Syrup Intake Authority",
+  "detected_away_team": "Vader Eastern Attackers",
+  "matched_schedule_home_team_id": "pawnee_post_syrup_intake_authority",
+  "matched_schedule_away_team_id": "vader_eastern_attackers",
+  "matched_schedule_home_team": "Pawnee Post Syrup Intake Authority",
+  "matched_schedule_away_team": "Vader Eastern Attackers",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-29T21:51:28",
+  "last_log_timestamp": "2026-06-29T22:05:12",
+  "probable_start_time": "2026-06-29T21:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260630_021326_775066600062844948_2026-06-29-21-51-28.json",
+      "relative_path": "1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322/20260630_021326_775066600062844948_2026-06-29-21-51-28.json",
+      "timestamp_from_filename": "2026-06-29T21:51:28"
+    },
+    {
+      "original_name": "20260630_021326_775066600062844948_2026-06-29-21-58-40.json",
+      "relative_path": "1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322/20260630_021326_775066600062844948_2026-06-29-21-58-40.json",
+      "timestamp_from_filename": "2026-06-29T21:58:40"
+    },
+    {
+      "original_name": "20260630_021327_775066600062844948_2026-06-29-22-05-12.json",
+      "relative_path": "1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322/20260630_021327_775066600062844948_2026-06-29-22-05-12.json",
+      "timestamp_from_filename": "2026-06-29T22:05:12"
+    }
+  ],
+  "warnings": []
+}

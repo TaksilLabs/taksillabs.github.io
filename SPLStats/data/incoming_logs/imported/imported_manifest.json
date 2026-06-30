@@ -1,0 +1,86 @@
+{
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "imported_folders": {
+    "1.12_ Gary Glizzy Gobblers vs Vader Starkillers East__1520931926792212650": {
+      "match_id": "summer_2026_regular_season_intermediate_1_12",
+      "source_id": "1.12",
+      "thread_id": "1520931926792212650",
+      "imported_at_utc": "2026-06-30T14:38:48.216832+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_12"
+    },
+    "1.15_ Vader Whiteout vs Boston Bahds__1520931938393919630": {
+      "match_id": "summer_2026_regular_season_intermediate_1_15",
+      "source_id": "1.15",
+      "thread_id": "1520931938393919630",
+      "imported_at_utc": "2026-06-30T14:38:48.227486+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_15"
+    },
+    "1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322": {
+      "match_id": "summer_2026_regular_season_challenger_1_17",
+      "source_id": "1.17",
+      "thread_id": "1520927543383949322",
+      "imported_at_utc": "2026-06-30T14:38:48.239784+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_17"
+    },
+    "1.4_ Atlantic City Zootiez$ vs Battle Creek Kings__1520930545478009042": {
+      "match_id": "summer_2026_regular_season_central_b_1_4",
+      "source_id": "1.4",
+      "thread_id": "1520930545478009042",
+      "imported_at_utc": "2026-06-30T14:38:48.251227+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_b_1_4"
+    },
+    "1.6_ Vader Stars vs Pawnee Post Syrup Intake Authority__1520927496453886053": {
+      "match_id": "summer_2026_regular_season_challenger_1_6",
+      "source_id": "1.6",
+      "thread_id": "1520927496453886053",
+      "imported_at_utc": "2026-06-30T14:38:48.262946+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_6"
+    },
+    "1.7_ Camden Crooks vs Vader Stars__1520927500203589693": {
+      "match_id": "summer_2026_regular_season_challenger_1_7",
+      "source_id": "1.7",
+      "thread_id": "1520927500203589693",
+      "imported_at_utc": "2026-06-30T14:38:48.273400+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_7"
+    },
+    "1.9_ Vader Starkillers East vs No Name Nighthawks__1520931911856558241": {
+      "match_id": "summer_2026_regular_season_intermediate_1_9",
+      "source_id": "1.9",
+      "thread_id": "1520931911856558241",
+      "imported_at_utc": "2026-06-30T14:38:48.284621+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_9"
+    }
+  },
+  "imported_match_ids": {
+    "summer_2026_regular_season_intermediate_1_12": {
+      "source_folder_name": "1.12_ Gary Glizzy Gobblers vs Vader Starkillers East__1520931926792212650",
+      "imported_at_utc": "2026-06-30T14:38:48.216832+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_15": {
+      "source_folder_name": "1.15_ Vader Whiteout vs Boston Bahds__1520931938393919630",
+      "imported_at_utc": "2026-06-30T14:38:48.227486+00:00"
+    },
+    "summer_2026_regular_season_challenger_1_17": {
+      "source_folder_name": "1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322",
+      "imported_at_utc": "2026-06-30T14:38:48.239784+00:00"
+    },
+    "summer_2026_regular_season_central_b_1_4": {
+      "source_folder_name": "1.4_ Atlantic City Zootiez$ vs Battle Creek Kings__1520930545478009042",
+      "imported_at_utc": "2026-06-30T14:38:48.251227+00:00"
+    },
+    "summer_2026_regular_season_challenger_1_6": {
+      "source_folder_name": "1.6_ Vader Stars vs Pawnee Post Syrup Intake Authority__1520927496453886053",
+      "imported_at_utc": "2026-06-30T14:38:48.262946+00:00"
+    },
+    "summer_2026_regular_season_challenger_1_7": {
+      "source_folder_name": "1.7_ Camden Crooks vs Vader Stars__1520927500203589693",
+      "imported_at_utc": "2026-06-30T14:38:48.273400+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_9": {
+      "source_folder_name": "1.9_ Vader Starkillers East vs No Name Nighthawks__1520931911856558241",
+      "imported_at_utc": "2026-06-30T14:38:48.284621+00:00"
+    }
+  },
+  "updated_at_utc": "2026-06-30T14:38:48.284756+00:00"
+}

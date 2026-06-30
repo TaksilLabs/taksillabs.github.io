@@ -1,0 +1,22 @@
+{
+  "source_folder_name": "C9_ Vader Saboteurs vs Barrie Bag Chasers__1518363738657263676",
+  "source_folder_path": "data/incoming_logs/unsorted/C9_ Vader Saboteurs vs Barrie Bag Chasers__1518363738657263676",
+  "parsed": {
+    "source_id": "",
+    "home_team": "",
+    "away_team": "",
+    "thread_id": "",
+    "warnings": [
+      "Could not parse folder name: C9_ Vader Saboteurs vs Barrie Bag Chasers__1518363738657263676"
+    ]
+  },
+  "match_info": {
+    "matched_by": "none",
+    "confidence": 0,
+    "warnings": [
+      "No schedule match found for :  vs "
+    ],
+    "candidates": []
+  },
+  "created_at_utc": "2026-06-30T14:26:51.698993+00:00"
+}

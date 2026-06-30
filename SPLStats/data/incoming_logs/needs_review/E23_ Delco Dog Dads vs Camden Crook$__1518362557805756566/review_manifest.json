@@ -1,0 +1,22 @@
+{
+  "source_folder_name": "E23_ Delco Dog Dads vs Camden Crook$__1518362557805756566",
+  "source_folder_path": "data/incoming_logs/unsorted/E23_ Delco Dog Dads vs Camden Crook$__1518362557805756566",
+  "parsed": {
+    "source_id": "",
+    "home_team": "",
+    "away_team": "",
+    "thread_id": "",
+    "warnings": [
+      "Could not parse folder name: E23_ Delco Dog Dads vs Camden Crook$__1518362557805756566"
+    ]
+  },
+  "match_info": {
+    "matched_by": "none",
+    "confidence": 0,
+    "warnings": [
+      "No schedule match found for :  vs "
+    ],
+    "candidates": []
+  },
+  "created_at_utc": "2026-06-30T14:26:51.711682+00:00"
+}
