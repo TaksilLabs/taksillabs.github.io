@@ -1,0 +1,205 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 5,
+                "score": 325,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 9,
+                "assists": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 21
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 105,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 10,
+                "assists": 1,
+                "post_hits": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Securitron MK II",
+            "game_user_id": "67088"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "score": 295,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 11,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 12
+            },
+            "username": "GiraffeKiller",
+            "game_user_id": "1314542"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 110,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 4,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 19
+            },
+            "username": "RIGSjr",
+            "game_user_id": "9265"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 760,
+                "shots": 6,
+                "blocks": 4,
+                "passes": 13,
+                "assists": 3,
+                "takeaways": 6,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 66
+            },
+            "username": "Cmann",
+            "game_user_id": "18011"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 470,
+                "shots": 4,
+                "blocks": 4,
+                "passes": 6,
+                "post_hits": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 5
+            },
+            "username": "Skiz",
+            "game_user_id": "4633"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 200,
+                "shots": 1,
+                "blocks": 5,
+                "passes": 5,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 6
+            },
+            "username": "Akakattack",
+            "game_user_id": "1689859"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 185,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 5,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 19
+            },
+            "username": "cybergoose",
+            "game_user_id": "1199765"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "passes": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 8
+            },
+            "username": "Midget",
+            "game_user_id": "948283"
+        }
+    ],
+    "match_id": "2a6984a8-0d69-422e-bbfe-a8507d92cdb2",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
