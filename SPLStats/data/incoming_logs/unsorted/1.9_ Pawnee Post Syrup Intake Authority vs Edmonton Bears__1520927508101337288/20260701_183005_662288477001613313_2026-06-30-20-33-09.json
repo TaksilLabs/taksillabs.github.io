@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 165,
+                "shots": 2,
+                "losses": 1,
+                "passes": 7,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 10
+            },
+            "username": "King",
+            "game_user_id": "634779"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 120,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 37
+            },
+            "username": "Zelviz 🐻",
+            "game_user_id": "865092"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 250,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 12
+            },
+            "username": "jace",
+            "game_user_id": "377710"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 390,
+                "blocks": 1,
+                "passes": 9,
+                "assists": 4,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 4,
+                "contributed_goals": 5,
+                "possession_time_sec": 19
+            },
+            "username": "RIGSjr",
+            "game_user_id": "9265"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 375,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 5,
+                "assists": 3,
+                "takeaways": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 2,
+                "possession_time_sec": 26
+            },
+            "username": "Dionysus",
+            "game_user_id": "87468"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "saves": 2,
+                "score": 620,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 12,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 9
+            },
+            "username": "GiraffeKiller",
+            "game_user_id": "1314542"
+        }
+    ],
+    "match_id": "697c2976-034d-47cf-be2e-e4cee9933853",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
