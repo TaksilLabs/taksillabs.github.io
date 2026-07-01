@@ -1,0 +1,132 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 115,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 15,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 35
+            },
+            "username": "JoeMer",
+            "game_user_id": "67383"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 55,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 9,
+                "takeaways": 3,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 21
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 20
+            },
+            "username": "napa0",
+            "game_user_id": "296477"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 300,
+                "shots": 3,
+                "blocks": 9,
+                "passes": 2,
+                "shutouts": 1,
+                "takeaways": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 24
+            },
+            "username": "Nic.",
+            "game_user_id": "381872"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 20,
+                "blocks": 2,
+                "passes": 8,
+                "shutouts": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Trayvon",
+            "game_user_id": "56496"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 10,
+                "blocks": 1,
+                "passes": 8,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "bick",
+            "game_user_id": "381871"
+        }
+    ],
+    "match_id": "5b500f95-b10d-44b8-be93-3db362e25078",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
