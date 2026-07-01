@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_16",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-01T22:01:32.822972+00:00",
+  "source_folder_name": "1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152",
+  "source_folder_path": "data/incoming_logs/unsorted/1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152",
+  "source_id": "1.16",
+  "thread_id": "1520930610217091152",
+  "detected_home_team": "Battle Creek Kings",
+  "detected_away_team": "Vader Saboteurs",
+  "matched_schedule_home_team_id": "battle_creek_kings",
+  "matched_schedule_away_team_id": "vader_saboteurs",
+  "matched_schedule_home_team": "Battle Creek Kings",
+  "matched_schedule_away_team": "Vader Saboteurs",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T19:06:56",
+  "last_log_timestamp": "2026-06-30T19:19:56",
+  "probable_start_time": "2026-06-30T19:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_055351_222108122272104450_2026-06-30-19-06-56.json",
+      "relative_path": "1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152/20260701_055351_222108122272104450_2026-06-30-19-06-56.json",
+      "timestamp_from_filename": "2026-06-30T19:06:56"
+    },
+    {
+      "original_name": "20260701_055351_222108122272104450_2026-06-30-19-12-49.json",
+      "relative_path": "1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152/20260701_055351_222108122272104450_2026-06-30-19-12-49.json",
+      "timestamp_from_filename": "2026-06-30T19:12:49"
+    },
+    {
+      "original_name": "20260701_055352_222108122272104450_2026-06-30-19-19-56.json",
+      "relative_path": "1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152/20260701_055352_222108122272104450_2026-06-30-19-19-56.json",
+      "timestamp_from_filename": "2026-06-30T19:19:56"
+    }
+  ],
+  "warnings": []
+}

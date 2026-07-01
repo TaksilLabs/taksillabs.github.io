@@ -162,6 +162,27 @@
       "thread_id": "1520927488530714635",
       "imported_at_utc": "2026-07-01T04:27:54.212639+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_4"
+    },
+    "1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152": {
+      "match_id": "summer_2026_regular_season_central_b_1_16",
+      "source_id": "1.16",
+      "thread_id": "1520930610217091152",
+      "imported_at_utc": "2026-07-01T22:01:32.822972+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_b_1_16"
+    },
+    "1.4_ No Name Nighthawks vs Whitby Wombats__1520931891187028139": {
+      "match_id": "summer_2026_regular_season_intermediate_1_4",
+      "source_id": "1.4",
+      "thread_id": "1520931891187028139",
+      "imported_at_utc": "2026-07-01T22:01:32.836210+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_4"
+    },
+    "1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288": {
+      "match_id": "summer_2026_regular_season_challenger_1_9",
+      "source_id": "1.9",
+      "thread_id": "1520927508101337288",
+      "imported_at_utc": "2026-07-01T22:01:32.850049+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_9"
     }
   },
   "imported_match_ids": {
@@ -256,7 +277,19 @@
     "summer_2026_regular_season_challenger_1_4": {
       "source_folder_name": "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635",
       "imported_at_utc": "2026-07-01T04:27:54.212639+00:00"
+    },
+    "summer_2026_regular_season_central_b_1_16": {
+      "source_folder_name": "1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152",
+      "imported_at_utc": "2026-07-01T22:01:32.822972+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_4": {
+      "source_folder_name": "1.4_ No Name Nighthawks vs Whitby Wombats__1520931891187028139",
+      "imported_at_utc": "2026-07-01T22:01:32.836210+00:00"
+    },
+    "summer_2026_regular_season_challenger_1_9": {
+      "source_folder_name": "1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288",
+      "imported_at_utc": "2026-07-01T22:01:32.850049+00:00"
     }
   },
-  "updated_at_utc": "2026-07-01T04:27:54.212781+00:00"
+  "updated_at_utc": "2026-07-01T22:01:32.850213+00:00"
 }

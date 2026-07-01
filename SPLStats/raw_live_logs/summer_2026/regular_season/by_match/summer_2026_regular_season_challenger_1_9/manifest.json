@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_challenger_1_9",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "challenger",
+  "imported_at_utc": "2026-07-01T22:01:32.850049+00:00",
+  "source_folder_name": "1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288",
+  "source_folder_path": "data/incoming_logs/unsorted/1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288",
+  "source_id": "1.9",
+  "thread_id": "1520927508101337288",
+  "detected_home_team": "Pawnee Post Syrup Intake Authority",
+  "detected_away_team": "Edmonton Bears",
+  "matched_schedule_home_team_id": "pawnee_post_syrup_intake_authority",
+  "matched_schedule_away_team_id": "edmonton_bears",
+  "matched_schedule_home_team": "Pawnee Post Syrup Intake Authority",
+  "matched_schedule_away_team": "Edmonton Bears",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T20:33:09",
+  "last_log_timestamp": "2026-06-30T20:46:33",
+  "probable_start_time": "2026-06-30T20:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_182909_662288477001613313_2026-06-30-20-46-33.json",
+      "relative_path": "1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288/20260701_182909_662288477001613313_2026-06-30-20-46-33.json",
+      "timestamp_from_filename": "2026-06-30T20:46:33"
+    },
+    {
+      "original_name": "20260701_183005_662288477001613313_2026-06-30-20-33-09.json",
+      "relative_path": "1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288/20260701_183005_662288477001613313_2026-06-30-20-33-09.json",
+      "timestamp_from_filename": "2026-06-30T20:33:09"
+    },
+    {
+      "original_name": "20260701_183014_662288477001613313_2026-06-30-20-40-14.json",
+      "relative_path": "1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288/20260701_183014_662288477001613313_2026-06-30-20-40-14.json",
+      "timestamp_from_filename": "2026-06-30T20:40:14"
+    }
+  ],
+  "warnings": []
+}
