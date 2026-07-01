@@ -2,7 +2,7 @@
   "season_id": "summer_2026",
   "season_name": "Summer 2026",
   "season_type": "regular_season",
-  "generated_at_utc": "2026-07-01T01:19:26.148761+00:00",
+  "generated_at_utc": "2026-07-01T02:39:29.971833+00:00",
   "match_count": 11,
   "completed_match_count": 4,
   "matches": [
@@ -176,7 +176,7 @@
       "source_folder_name": "1.16_ Okinawa Generations vs Vader Stars__1520927539667927242",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_challenger_1_17",
@@ -581,7 +581,7 @@
       "source_folder_name": "1.6_ Vader Gungans vs Cold Lake Hit Lits__1520927995349434498",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_3",
