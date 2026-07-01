@@ -1,0 +1,56 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_10",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-01T01:10:08.054478+00:00",
+  "source_folder_name": "1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793",
+  "source_folder_path": "data/incoming_logs/unsorted/1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793",
+  "source_id": "1.10",
+  "thread_id": "1520930575924334793",
+  "detected_home_team": "Vader Revanites",
+  "detected_away_team": "Vader Inquisitors",
+  "matched_schedule_home_team_id": "vader_revanites",
+  "matched_schedule_away_team_id": "vader_inquisitors",
+  "matched_schedule_home_team": "Vader Revanites",
+  "matched_schedule_away_team": "Vader Inquisitors",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T17:08:24",
+  "last_log_timestamp": "2026-06-30T17:24:54",
+  "probable_start_time": "2026-06-30T17:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_010655_268195319261429761_2026-06-30-17-16-10.json",
+      "relative_path": "1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793/20260701_010655_268195319261429761_2026-06-30-17-16-10.json",
+      "timestamp_from_filename": "2026-06-30T17:16:10"
+    },
+    {
+      "original_name": "20260701_010655_268195319261429761_2026-06-30-17-24-54.json",
+      "relative_path": "1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793/20260701_010655_268195319261429761_2026-06-30-17-24-54.json",
+      "timestamp_from_filename": "2026-06-30T17:24:54"
+    },
+    {
+      "original_name": "20260701_010656_268195319261429761_2026-06-30-17-08-24.json",
+      "relative_path": "1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793/20260701_010656_268195319261429761_2026-06-30-17-08-24.json",
+      "timestamp_from_filename": "2026-06-30T17:08:24"
+    },
+    {
+      "original_name": "20260701_010836_268195319261429761_2026-06-30-17-08-24.json",
+      "relative_path": "1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793/20260701_010836_268195319261429761_2026-06-30-17-08-24.json",
+      "timestamp_from_filename": "2026-06-30T17:08:24"
+    },
+    {
+      "original_name": "20260701_010836_268195319261429761_2026-06-30-17-16-10.json",
+      "relative_path": "1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793/20260701_010836_268195319261429761_2026-06-30-17-16-10.json",
+      "timestamp_from_filename": "2026-06-30T17:16:10"
+    },
+    {
+      "original_name": "20260701_010836_268195319261429761_2026-06-30-17-24-54.json",
+      "relative_path": "1.10_ Vader Revanites vs Vader Inquisitors__1520930575924334793/20260701_010836_268195319261429761_2026-06-30-17-24-54.json",
+      "timestamp_from_filename": "2026-06-30T17:24:54"
+    }
+  ],
+  "warnings": []
+}

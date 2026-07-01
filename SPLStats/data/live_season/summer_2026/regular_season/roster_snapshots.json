@@ -692,5 +692,203 @@
         "1502807"
       ]
     }
+  },
+  "summer_2026_regular_season_central_b_1_10": {
+    "match_id": "summer_2026_regular_season_central_b_1_10",
+    "source_id": "1.10",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "vader_revanites",
+    "home_team": "Vader Revanites",
+    "away_team_id": "vader_inquisitors",
+    "away_team": "Vader Inquisitors",
+    "home_roster": {
+      "team_id": "vader_revanites",
+      "team_display_name": "Vader Revanites",
+      "team": "Vader Revanites",
+      "team_abbreviation": "VADR",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "CheekyBathtub69",
+          "slap_id": "818797"
+        },
+        {
+          "role": "player",
+          "steam_name": "901x Amac",
+          "slap_id": "1362725"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "818797",
+        "1362725"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_inquisitors",
+      "team_display_name": "Vader Inquisitors",
+      "team": "Vader Inquisitors",
+      "team_abbreviation": "VADI",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "1439105",
+        "1689859",
+        "848840"
+      ]
+    }
+  },
+  "summer_2026_regular_season_pro_1_3": {
+    "match_id": "summer_2026_regular_season_pro_1_3",
+    "source_id": "1.3",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "pro",
+    "region": "east",
+    "home_team_id": "long_island_lightning",
+    "home_team": "Long Island Lightning",
+    "away_team_id": "pittsburgh_volts",
+    "away_team": "Pittsburgh Volts",
+    "home_roster": {
+      "team_id": "long_island_lightning",
+      "team_display_name": "Long Island Lightning",
+      "team": "Long Island Lightning",
+      "team_abbreviation": "LIL",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jagr",
+          "slap_id": "560316",
+          "jersey_number": "68"
+        },
+        {
+          "role": "player",
+          "steam_name": "Milk",
+          "slap_id": "429195"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hex",
+          "slap_id": "327983",
+          "jersey_number": "13"
+        },
+        {
+          "role": "player",
+          "steam_name": "chrislol",
+          "slap_id": "107083",
+          "jersey_number": "17"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "jersey_number": "7",
+          "slap_id": "19508"
+        }
+      ],
+      "slap_ids": [
+        "560316",
+        "429195",
+        "327983",
+        "107083",
+        "19508"
+      ]
+    },
+    "away_roster": {
+      "team_id": "pittsburgh_volts",
+      "team_display_name": "Pittsburgh Volts",
+      "team": "Pittsburgh Volts",
+      "team_abbreviation": "PIT",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Noah",
+          "slap_id": "678"
+        },
+        {
+          "role": "player",
+          "steam_name": "AboveAverageJoe",
+          "slap_id": "57885"
+        },
+        {
+          "role": "player",
+          "steam_name": "9th Coming of Jesus",
+          "slap_id": "47785"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meow",
+          "slap_id": "148141"
+        },
+        {
+          "role": "player",
+          "steam_name": "Buf",
+          "slap_id": "352018"
+        }
+      ],
+      "slap_ids": [
+        "678",
+        "57885",
+        "47785",
+        "148141",
+        "352018"
+      ]
+    }
   }
 }

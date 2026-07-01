@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_pro_1_3",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "pro",
+  "imported_at_utc": "2026-07-01T01:10:08.068212+00:00",
+  "source_folder_name": "1.3_ Long Island Lightning vs Pittsburgh Volts__1520927345505210570",
+  "source_folder_path": "data/incoming_logs/unsorted/1.3_ Long Island Lightning vs Pittsburgh Volts__1520927345505210570",
+  "source_id": "1.3",
+  "thread_id": "1520927345505210570",
+  "detected_home_team": "Long Island Lightning",
+  "detected_away_team": "Pittsburgh Volts",
+  "matched_schedule_home_team_id": "long_island_lightning",
+  "matched_schedule_away_team_id": "pittsburgh_volts",
+  "matched_schedule_home_team": "Long Island Lightning",
+  "matched_schedule_away_team": "Pittsburgh Volts",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T20:39:20",
+  "last_log_timestamp": "2026-06-30T20:52:35",
+  "probable_start_time": "2026-06-30T20:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_010623_268195319261429761_2026-06-30-20-45-35.json",
+      "relative_path": "1.3_ Long Island Lightning vs Pittsburgh Volts__1520927345505210570/20260701_010623_268195319261429761_2026-06-30-20-45-35.json",
+      "timestamp_from_filename": "2026-06-30T20:45:35"
+    },
+    {
+      "original_name": "20260701_010624_268195319261429761_2026-06-30-20-39-20.json",
+      "relative_path": "1.3_ Long Island Lightning vs Pittsburgh Volts__1520927345505210570/20260701_010624_268195319261429761_2026-06-30-20-39-20.json",
+      "timestamp_from_filename": "2026-06-30T20:39:20"
+    },
+    {
+      "original_name": "20260701_010624_268195319261429761_2026-06-30-20-52-35.json",
+      "relative_path": "1.3_ Long Island Lightning vs Pittsburgh Volts__1520927345505210570/20260701_010624_268195319261429761_2026-06-30-20-52-35.json",
+      "timestamp_from_filename": "2026-06-30T20:52:35"
+    }
+  ],
+  "warnings": []
+}
