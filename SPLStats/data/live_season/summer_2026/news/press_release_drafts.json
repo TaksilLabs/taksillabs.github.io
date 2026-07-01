@@ -2,6 +2,45 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-01_boston_shufflebottoms_roster_moves",
+      "transaction_ids": [
+        "20260701T231116Z_boston_shufflebottoms_add_dumbasrocks420"
+      ],
+      "transaction_id": "20260701T231116Z_boston_shufflebottoms_add_dumbasrocks420",
+      "status": "draft",
+      "created_at_utc": "2026-07-01T23:11:16Z",
+      "updated_at_utc": "2026-07-01T23:11:16Z",
+      "headline": "Boston Shufflebottoms Add DumbAsRocks420",
+      "subheadline": "The Boston Shufflebottoms have added #41 DumbAsRocks420 to their active roster.",
+      "slug": "boston-shufflebottoms-add-dumbasrocks420",
+      "team_id": "boston_shufflebottoms",
+      "team_abbreviation": "BSB",
+      "team_display_name": "Boston Shufflebottoms",
+      "division": "central_c",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "dumbasrocks420",
+          "player_display_name": "DumbAsRocks420",
+          "slap_id": "1628557",
+          "jersey_number": "41"
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "boston_shufflebottoms",
+        "central_c"
+      ],
+      "body_markdown": "The Boston Shufflebottoms have added #41 DumbAsRocks420 to their active roster adding another card to their deck.\n\nThe move gives the Boston Shufflebottoms another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-01_greensboro_goosans_roster_moves",
       "transaction_ids": [
         "20260701T222454Z_greensboro_goosans_add_saint"
@@ -369,5 +408,5 @@
       "last_edited_by": ""
     }
   ],
-  "updated_at_utc": "2026-07-01T00:45:01Z"
+  "updated_at_utc": "2026-07-01T23:12:06Z"
 }

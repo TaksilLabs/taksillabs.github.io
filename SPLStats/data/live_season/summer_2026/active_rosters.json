@@ -724,12 +724,14 @@
         {
           "role": "captain",
           "steam_name": "napqleon",
-          "slap_id": "1314476"
+          "slap_id": "1314476",
+          "jersey_number": "48"
         },
         {
           "role": "player",
           "steam_name": "FlightlessEgg",
-          "slap_id": "1834115"
+          "slap_id": "1834115",
+          "jersey_number": "41"
         },
         {
           "role": "player",
@@ -741,13 +743,20 @@
           "steam_name": "S1K",
           "jersey_number": "",
           "slap_id": "1412382"
+        },
+        {
+          "role": "player",
+          "steam_name": "DumbAsRocks420",
+          "jersey_number": "41",
+          "slap_id": "1628557"
         }
       ],
       "slap_ids": [
         "1314476",
         "1834115",
         "1313861",
-        "1412382"
+        "1412382",
+        "1628557"
       ],
       "season_id": "summer_2026",
       "division": "central_c",
