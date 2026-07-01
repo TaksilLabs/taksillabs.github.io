@@ -2,6 +2,92 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-01_greensboro_goosans_roster_moves",
+      "transaction_ids": [
+        "20260701T222454Z_greensboro_goosans_add_saint"
+      ],
+      "transaction_id": "20260701T222454Z_greensboro_goosans_add_saint",
+      "status": "draft",
+      "created_at_utc": "2026-07-01T22:24:54Z",
+      "updated_at_utc": "2026-07-01T22:24:54Z",
+      "headline": "Greensboro Goosans Add Saint",
+      "subheadline": "The Greensboro Goosans have added Saint to their active roster.",
+      "slug": "greensboro-goosans-add-saint",
+      "team_id": "greensboro_goosans",
+      "team_abbreviation": "GOOS",
+      "team_display_name": "Greensboro Goosans",
+      "division": "open",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "saint",
+          "player_display_name": "Saint",
+          "slap_id": "81320",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "greensboro_goosans",
+        "open"
+      ],
+      "body_markdown": "The Greensboro Goosans have added Saint to their active roster adding another card to their deck.\n\nThe move gives the Greensboro Goosans another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-01_delco_dog_dads_roster_moves",
+      "transaction_ids": [
+        "20260701T220701Z_delco_dog_dads_add_bread",
+        "20260701T220701Z_delco_dog_dads_remove_conro"
+      ],
+      "transaction_id": "",
+      "status": "draft",
+      "created_at_utc": "2026-07-01T22:07:01Z",
+      "updated_at_utc": "2026-07-01T22:07:01Z",
+      "headline": "Delco Dog Dads Make Roster Moves",
+      "subheadline": "The Delco Dog Dads have added bread and removed Conro from their active roster.",
+      "slug": "delco-dog-dads-make-roster-moves",
+      "team_id": "delco_dog_dads",
+      "team_abbreviation": "DDD",
+      "team_display_name": "Delco Dog Dads",
+      "division": "challenger",
+      "region": "east",
+      "conference": "1",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "bread",
+          "player_display_name": "bread",
+          "slap_id": "825118",
+          "jersey_number": ""
+        },
+        {
+          "type": "remove",
+          "player_id": "conro",
+          "player_display_name": "Conro",
+          "slap_id": "1850085",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "delco_dog_dads",
+        "challenger"
+      ],
+      "body_markdown": "The Delco Dog Dads have added bread and removed Conro from their active roster.\n\nThe move gives the Delco Dog Dads another option as they continue to shape their roster for the current campaign.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-01_barrie_belgian_waffles_roster_moves",
       "transaction_ids": [
         "20260701T001812Z_barrie_belgian_waffles_add_kevin"

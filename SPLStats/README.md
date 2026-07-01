@@ -132,6 +132,8 @@ python tools/live/build_regular_leaders.py
 run this from .\SPLStats
 python tools/news_article_builder.py
 
+These are a separate ecosystem from the Press_Releases
+
 
 
 

@@ -1076,8 +1076,9 @@
         },
         {
           "role": "player",
-          "steam_name": "Conro",
-          "slap_id": "1850085"
+          "steam_name": "bread",
+          "jersey_number": "",
+          "slap_id": "825118"
         }
       ],
       "slap_ids": [
@@ -1085,7 +1086,7 @@
         "200689",
         "19647",
         "702578",
-        "1850085"
+        "825118"
       ],
       "season_id": "summer_2026",
       "division": "challenger",
@@ -1299,13 +1300,20 @@
           "role": "player",
           "steam_name": "Overdrive",
           "slap_id": "150797"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saint",
+          "jersey_number": "",
+          "slap_id": "81320"
         }
       ],
       "slap_ids": [
         "978958",
         "865399",
         "1547281",
-        "150797"
+        "150797",
+        "81320"
       ],
       "season_id": "summer_2026",
       "division": "open",
