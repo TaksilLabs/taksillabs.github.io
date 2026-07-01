@@ -1,0 +1,171 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 10
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "saves": 2,
+                "score": 865,
+                "shots": 6,
+                "blocks": 3,
+                "passes": 18,
+                "assists": 4,
+                "shutouts": 2,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 4,
+                "contributed_goals": 10,
+                "possession_time_sec": 18
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 5,
+                "saves": 1,
+                "score": 760,
+                "shots": 5,
+                "blocks": 2,
+                "passes": 20,
+                "assists": 1,
+                "shutouts": 2,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "contributed_goals": 10,
+                "secondary_assists": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Tactical Miss",
+            "game_user_id": "1282529"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "saves": 1,
+                "score": 660,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 13,
+                "assists": 4,
+                "shutouts": 2,
+                "takeaways": 1,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 2,
+                "contributed_goals": 10,
+                "secondary_assists": 2,
+                "possession_time_sec": 69
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 95,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 4,
+                "post_hits": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 6
+            },
+            "username": "[OKG]Pip Starlather",
+            "game_user_id": "197140"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 2,
+                "score": 145,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 7,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 10,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "shutouts_against": 2
+            },
+            "username": "LessThanDennis",
+            "game_user_id": "513"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 85,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 13,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 10,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "possession_time_sec": 4
+            },
+            "username": "Renard_",
+            "game_user_id": "212"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 10,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 7,
+                "games_played": 1,
+                "conceded_goals": 5,
+                "periods_played": 1,
+                "was_mercy_ruled": 1,
+                "shutouts_against": 1
+            },
+            "username": "[OKG]Grey",
+            "game_user_id": "1420"
+        }
+    ],
+    "match_id": "35d32882-b407-4045-af34-6dddd6f769ee",
+    "end_reason": "MercyRule",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

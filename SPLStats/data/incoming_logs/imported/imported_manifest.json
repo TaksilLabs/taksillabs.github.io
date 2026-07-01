@@ -141,6 +141,27 @@
       "thread_id": "1520927504095776778",
       "imported_at_utc": "2026-07-01T03:00:04.645008+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_8"
+    },
+    "1.12_ Ottawa Valley Slappers With Attitude vs Chicago Sky Scrapers__1520928611945680926": {
+      "match_id": "summer_2026_regular_season_open_1_12",
+      "source_id": "1.12",
+      "thread_id": "1520928611945680926",
+      "imported_at_utc": "2026-07-01T04:27:54.185889+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_open_1_12"
+    },
+    "1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132": {
+      "match_id": "summer_2026_regular_season_intermediate_1_13",
+      "source_id": "1.13",
+      "thread_id": "1520931930525143132",
+      "imported_at_utc": "2026-07-01T04:27:54.199129+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_13"
+    },
+    "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635": {
+      "match_id": "summer_2026_regular_season_challenger_1_4",
+      "source_id": "1.4",
+      "thread_id": "1520927488530714635",
+      "imported_at_utc": "2026-07-01T04:27:54.212639+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_4"
     }
   },
   "imported_match_ids": {
@@ -223,7 +244,19 @@
     "summer_2026_regular_season_challenger_1_8": {
       "source_folder_name": "1.8_ Okinawa Generations vs Delco Dog Dads__1520927504095776778",
       "imported_at_utc": "2026-07-01T03:00:04.645008+00:00"
+    },
+    "summer_2026_regular_season_open_1_12": {
+      "source_folder_name": "1.12_ Ottawa Valley Slappers With Attitude vs Chicago Sky Scrapers__1520928611945680926",
+      "imported_at_utc": "2026-07-01T04:27:54.185889+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_13": {
+      "source_folder_name": "1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132",
+      "imported_at_utc": "2026-07-01T04:27:54.199129+00:00"
+    },
+    "summer_2026_regular_season_challenger_1_4": {
+      "source_folder_name": "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635",
+      "imported_at_utc": "2026-07-01T04:27:54.212639+00:00"
     }
   },
-  "updated_at_utc": "2026-07-01T03:00:04.645153+00:00"
+  "updated_at_utc": "2026-07-01T04:27:54.212781+00:00"
 }

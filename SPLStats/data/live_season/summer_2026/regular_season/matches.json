@@ -2,9 +2,9 @@
   "season_id": "summer_2026",
   "season_name": "Summer 2026",
   "season_type": "regular_season",
-  "generated_at_utc": "2026-07-01T03:00:04.676325+00:00",
-  "match_count": 20,
-  "completed_match_count": 13,
+  "generated_at_utc": "2026-07-01T04:27:54.245741+00:00",
+  "match_count": 23,
+  "completed_match_count": 16,
   "matches": [
     {
       "match_id": "summer_2026_regular_season_central_a_1_7",
@@ -61,7 +61,7 @@
       "source_folder_name": "1.7_ Baton Rouge Bobos vs Ottawa Valley Cool Cats__1520930163112677397",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_1",
@@ -118,7 +118,7 @@
       "source_folder_name": "1.1_ Barrie Bag Chasers vs Brampton Cows__1520930532177743883",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_10",
@@ -232,7 +232,7 @@
       "source_folder_name": "1.15_ Vader Inquisitors vs Barrie Bag Chasers__1520930606131707944",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_4",
@@ -347,7 +347,7 @@
       "source_folder_name": "1.8_ Battle Creek Kings vs Brampton Cows__1520930564746510448",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_c_1_2",
@@ -404,7 +404,7 @@
       "source_folder_name": "1.2_ Farmington Pilot Knobbers vs Vader Bounty Hunters__1520928599761223799",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_c_1_5",
@@ -461,7 +461,7 @@
       "source_folder_name": "1.5_ Vader Bounty Hunters vs Ottawa Valley Puck Masters__1520928612541268000",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_c_1_8",
@@ -518,7 +518,7 @@
       "source_folder_name": "1.8_ Farmington Pilot Knobbers vs Ottawa Valley Puck Masters__1520928641062801621",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_challenger_1_16",
@@ -634,6 +634,63 @@
       "source_folder_name": "1.17_ Pawnee Post Syrup Intake Authority vs Vader Eastern Attackers__1520927543383949322",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0
+    },
+    {
+      "match_id": "summer_2026_regular_season_challenger_1_4",
+      "source_id": "1.4",
+      "season_id": "summer_2026",
+      "season_type": "regular_season",
+      "division": "challenger",
+      "week": 1,
+      "match_number": 4,
+      "lr_group": "1",
+      "home_team": "Cold Lake Upper Deckies",
+      "home_team_id": "cold_lake_upper_deckies",
+      "home_division": "challenger",
+      "home_conference": "2",
+      "home_region": "east",
+      "away_team": "Okinawa Generations",
+      "away_team_id": "okinawa_generations",
+      "away_division": "challenger",
+      "away_conference": "2",
+      "away_region": "east",
+      "match_scope": "inner-conference",
+      "thread_name": "1.4: Cold Lake Upper Deckies vs Okinawa Generations",
+      "status": "final",
+      "source": {
+        "file": "challenger.csv",
+        "row": 5,
+        "home_gm": "449703678585339915",
+        "away_gm": "719724468028702750",
+        "week": "1",
+        "lr_date": "1",
+        "state": "Pending"
+      },
+      "season_name": "Summer 2026",
+      "phase": "regular_season",
+      "home_score": 4,
+      "away_score": 7,
+      "winner_team_id": "okinawa_generations",
+      "loser_team_id": "cold_lake_upper_deckies",
+      "end_reason": "EndOfRegulation",
+      "overtime": false,
+      "period": 3,
+      "thread_id": "1520927488530714635",
+      "log_folder": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_4",
+      "report_file": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_4/original/1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635/20260701_025226_449703678585339915_2026-06-30-22-23-07.json",
+      "side_mapping": "swapped",
+      "side_mapping_confidence": 3,
+      "side_mapping_normal_score": 1,
+      "side_mapping_swapped_score": 3,
+      "warnings": [],
+      "first_log_timestamp": "2026-06-30T22:23:07",
+      "last_log_timestamp": "2026-06-30T22:39:47",
+      "probable_start_time": "2026-06-30T22:15:00",
+      "start_time_source": "first_log_timestamp_floor_15_minutes",
+      "source_folder_name": "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635",
+      "matched_by": "source_id_and_team_pair",
+      "match_import_confidence": 1.0,
+      "side_mapping_roster_source": "active_rosters_fallback"
     },
     {
       "match_id": "summer_2026_regular_season_challenger_1_6",
@@ -806,7 +863,7 @@
       "source_folder_name": "1.8_ Okinawa Generations vs Delco Dog Dads__1520927504095776778",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_12",
@@ -865,6 +922,63 @@
       "source_folder_name": "1.12_ Gary Glizzy Gobblers vs Vader Starkillers East__1520931926792212650",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0
+    },
+    {
+      "match_id": "summer_2026_regular_season_intermediate_1_13",
+      "source_id": "1.13",
+      "season_id": "summer_2026",
+      "season_type": "regular_season",
+      "division": "intermediate",
+      "week": 1,
+      "match_number": 13,
+      "lr_group": "3",
+      "home_team": "Hagerstown Heroes",
+      "home_team_id": "hagerstown_heroes",
+      "home_division": "intermediate",
+      "home_conference": "",
+      "home_region": "east",
+      "away_team": "Whitby Wombats",
+      "away_team_id": "whitby_wombats",
+      "away_division": "intermediate",
+      "away_conference": "",
+      "away_region": "east",
+      "match_scope": "same-division",
+      "thread_name": "1.13: Hagerstown Heroes vs Whitby Wombats",
+      "status": "final",
+      "source": {
+        "file": "intermediate.csv",
+        "row": 14,
+        "home_gm": "548290255187607553",
+        "away_gm": "536377451627151360",
+        "week": "1",
+        "lr_date": "3",
+        "state": "Pending"
+      },
+      "season_name": "Summer 2026",
+      "phase": "regular_season",
+      "home_score": 6,
+      "away_score": 5,
+      "winner_team_id": "hagerstown_heroes",
+      "loser_team_id": "whitby_wombats",
+      "end_reason": "Overtime",
+      "overtime": true,
+      "period": 3,
+      "thread_id": "1520931930525143132",
+      "log_folder": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_13",
+      "report_file": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_13/original/1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132/20260701_042003_699421040790470676_2026-06-30-21-12-32.json",
+      "side_mapping": "normal",
+      "side_mapping_confidence": 7,
+      "side_mapping_normal_score": 7,
+      "side_mapping_swapped_score": 0,
+      "warnings": [],
+      "first_log_timestamp": "2026-06-30T20:58:39",
+      "last_log_timestamp": "2026-06-30T21:12:32",
+      "probable_start_time": "2026-06-30T20:45:00",
+      "start_time_source": "first_log_timestamp_floor_15_minutes",
+      "source_folder_name": "1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132",
+      "matched_by": "source_id_and_team_pair",
+      "match_import_confidence": 1.0,
+      "side_mapping_roster_source": "active_rosters_fallback"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_15",
@@ -979,7 +1093,7 @@
       "source_folder_name": "1.5_ Vader Whiteout vs Vader Starkillers East__1520931895481860096",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_9",
@@ -1095,6 +1209,63 @@
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
       "side_mapping_roster_source": "snapshot"
+    },
+    {
+      "match_id": "summer_2026_regular_season_open_1_12",
+      "source_id": "1.12",
+      "season_id": "summer_2026",
+      "season_type": "regular_season",
+      "division": "open",
+      "week": 1,
+      "match_number": 12,
+      "lr_group": "3",
+      "home_team": "Ottawa Valley Slappers With Attitude",
+      "home_team_id": "ottawa_valley_slappers_with_attitude",
+      "home_division": "open",
+      "home_conference": "",
+      "home_region": "east",
+      "away_team": "Chicago Sky Scrapers",
+      "away_team_id": "chicago_sky_scrapers",
+      "away_division": "open",
+      "away_conference": "",
+      "away_region": "east",
+      "match_scope": "same-division",
+      "thread_name": "1.12: Ottawa Valley Slappers With Attitude vs Chicago Sky Scrapers",
+      "status": "final",
+      "source": {
+        "file": "open.csv",
+        "row": 13,
+        "home_gm": "334537409134067723",
+        "away_gm": "401814913980432385",
+        "week": "1",
+        "lr_date": "3",
+        "state": "Pending"
+      },
+      "season_name": "Summer 2026",
+      "phase": "regular_season",
+      "home_score": 5,
+      "away_score": 3,
+      "winner_team_id": "ottawa_valley_slappers_with_attitude",
+      "loser_team_id": "chicago_sky_scrapers",
+      "end_reason": "EndOfRegulation",
+      "overtime": false,
+      "period": 3,
+      "thread_id": "1520928611945680926",
+      "log_folder": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_open_1_12",
+      "report_file": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_open_1_12/original/1.12_ Ottawa Valley Slappers With Attitude vs Chicago Sky Scrapers__1520928611945680926/20260701_024531_171791002627997696_2026-06-30-21-24-05.json",
+      "side_mapping": "swapped",
+      "side_mapping_confidence": 7,
+      "side_mapping_normal_score": 0,
+      "side_mapping_swapped_score": 7,
+      "warnings": [],
+      "first_log_timestamp": "2026-06-30T21:10:50",
+      "last_log_timestamp": "2026-06-30T21:24:05",
+      "probable_start_time": "2026-06-30T21:00:00",
+      "start_time_source": "first_log_timestamp_floor_15_minutes",
+      "source_folder_name": "1.12_ Ottawa Valley Slappers With Attitude vs Chicago Sky Scrapers__1520928611945680926",
+      "matched_by": "source_id_and_team_pair",
+      "match_import_confidence": 1.0,
+      "side_mapping_roster_source": "active_rosters_fallback"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_3",

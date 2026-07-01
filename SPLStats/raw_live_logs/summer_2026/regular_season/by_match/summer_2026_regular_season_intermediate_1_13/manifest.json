@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_intermediate_1_13",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "intermediate",
+  "imported_at_utc": "2026-07-01T04:27:54.199129+00:00",
+  "source_folder_name": "1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132",
+  "source_folder_path": "data/incoming_logs/unsorted/1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132",
+  "source_id": "1.13",
+  "thread_id": "1520931930525143132",
+  "detected_home_team": "Hagerstown Heroes",
+  "detected_away_team": "Whitby Wombats",
+  "matched_schedule_home_team_id": "hagerstown_heroes",
+  "matched_schedule_away_team_id": "whitby_wombats",
+  "matched_schedule_home_team": "Hagerstown Heroes",
+  "matched_schedule_away_team": "Whitby Wombats",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T20:58:39",
+  "last_log_timestamp": "2026-06-30T21:12:32",
+  "probable_start_time": "2026-06-30T20:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_042002_699421040790470676_2026-06-30-20-58-39.json",
+      "relative_path": "1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132/20260701_042002_699421040790470676_2026-06-30-20-58-39.json",
+      "timestamp_from_filename": "2026-06-30T20:58:39"
+    },
+    {
+      "original_name": "20260701_042002_699421040790470676_2026-06-30-21-06-02.json",
+      "relative_path": "1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132/20260701_042002_699421040790470676_2026-06-30-21-06-02.json",
+      "timestamp_from_filename": "2026-06-30T21:06:02"
+    },
+    {
+      "original_name": "20260701_042003_699421040790470676_2026-06-30-21-12-32.json",
+      "relative_path": "1.13_ Hagerstown Heroes vs Whitby Wombats__1520931930525143132/20260701_042003_699421040790470676_2026-06-30-21-12-32.json",
+      "timestamp_from_filename": "2026-06-30T21:12:32"
+    }
+  ],
+  "warnings": []
+}

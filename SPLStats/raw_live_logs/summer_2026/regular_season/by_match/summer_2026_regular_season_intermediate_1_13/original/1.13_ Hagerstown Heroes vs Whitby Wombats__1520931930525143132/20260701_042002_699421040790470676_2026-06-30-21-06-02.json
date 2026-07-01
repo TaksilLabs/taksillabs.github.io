@@ -1,0 +1,179 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "saves": 3,
+                "score": 660,
+                "shots": 4,
+                "blocks": 8,
+                "passes": 23,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 6,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 116
+            },
+            "username": "The Real Teddy Blueger",
+            "game_user_id": "848840"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "score": 225,
+                "blocks": 3,
+                "passes": 18,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 12
+            },
+            "username": "cavitee",
+            "game_user_id": "883507"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 2,
+                "score": 295,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 18,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 37
+            },
+            "username": "Yuvraj",
+            "game_user_id": "849146"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 170,
+                "shots": 1,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Nic.",
+            "game_user_id": "381872"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 270,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 11,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "Trayvon",
+            "game_user_id": "56496"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 395,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 16,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "bick",
+            "game_user_id": "381871"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 225,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 7
+            },
+            "username": "diego",
+            "game_user_id": "381869"
+        }
+    ],
+    "match_id": "9ceadbca-90ce-47dd-a30b-1ff748810cc3",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

@@ -1960,5 +1960,294 @@
         "524911"
       ]
     }
+  },
+  "summer_2026_regular_season_challenger_1_4": {
+    "match_id": "summer_2026_regular_season_challenger_1_4",
+    "source_id": "1.4",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "cold_lake_upper_deckies",
+    "home_team": "Cold Lake Upper Deckies",
+    "away_team_id": "okinawa_generations",
+    "away_team": "Okinawa Generations",
+    "home_roster": {
+      "team_id": "cold_lake_upper_deckies",
+      "team_display_name": "Cold Lake Upper Deckies",
+      "team": "Cold Lake Upper Deckies",
+      "team_abbreviation": "CLUD",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        }
+      ],
+      "slap_ids": [
+        "186627",
+        "1282529",
+        "913017",
+        "758362"
+      ]
+    },
+    "away_roster": {
+      "team_id": "okinawa_generations",
+      "team_display_name": "Okinawa Generations",
+      "team": "Okinawa Generations",
+      "team_abbreviation": "OKG",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "papa shieldz",
+          "slap_id": "503"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513",
+          "jersey_number": "21"
+        },
+        {
+          "role": "player",
+          "steam_name": "Pip Starlather",
+          "slap_id": "197140"
+        },
+        {
+          "role": "player",
+          "steam_name": "Greyghost",
+          "slap_id": "1420"
+        },
+        {
+          "role": "player",
+          "steam_name": "Renard_",
+          "slap_id": "212"
+        }
+      ],
+      "slap_ids": [
+        "503",
+        "513",
+        "197140",
+        "1420",
+        "212"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_13": {
+    "match_id": "summer_2026_regular_season_intermediate_1_13",
+    "source_id": "1.13",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "hagerstown_heroes",
+    "home_team": "Hagerstown Heroes",
+    "away_team_id": "whitby_wombats",
+    "away_team": "Whitby Wombats",
+    "home_roster": {
+      "team_id": "hagerstown_heroes",
+      "team_display_name": "Hagerstown Heroes",
+      "team": "Hagerstown Heroes",
+      "team_abbreviation": "HHRS",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Awlden",
+          "slap_id": "890370"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        },
+        {
+          "role": "player",
+          "steam_name": "Yuvraj",
+          "slap_id": "849146"
+        },
+        {
+          "role": "player",
+          "steam_name": "cavitee",
+          "slap_id": "883507"
+        },
+        {
+          "role": "player",
+          "steam_name": "Andriulous",
+          "slap_id": "2017598"
+        }
+      ],
+      "slap_ids": [
+        "890370",
+        "848840",
+        "849146",
+        "883507",
+        "2017598"
+      ]
+    },
+    "away_roster": {
+      "team_id": "whitby_wombats",
+      "team_display_name": "Whitby Wombats",
+      "team": "Whitby Wombats",
+      "team_abbreviation": "WWB",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Trayvon",
+          "slap_id": "56496"
+        },
+        {
+          "role": "player",
+          "steam_name": "Nic.",
+          "slap_id": "381872"
+        },
+        {
+          "role": "player",
+          "steam_name": "bick",
+          "slap_id": "381871"
+        },
+        {
+          "role": "player",
+          "steam_name": "diego",
+          "slap_id": "381869"
+        }
+      ],
+      "slap_ids": [
+        "56496",
+        "381872",
+        "381871",
+        "381869"
+      ]
+    }
+  },
+  "summer_2026_regular_season_open_1_12": {
+    "match_id": "summer_2026_regular_season_open_1_12",
+    "source_id": "1.12",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "open",
+    "region": "east",
+    "home_team_id": "ottawa_valley_slappers_with_attitude",
+    "home_team": "Ottawa Valley Slappers With Attitude",
+    "away_team_id": "chicago_sky_scrapers",
+    "away_team": "Chicago Sky Scrapers",
+    "home_roster": {
+      "team_id": "ottawa_valley_slappers_with_attitude",
+      "team_display_name": "Ottawa Valley Slappers With Attitude",
+      "team": "Ottawa Valley Slappers With Attitude",
+      "team_abbreviation": "S.W.A",
+      "region": "east",
+      "division": "open",
+      "conference": "",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Inph1del",
+          "slap_id": "6803"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crayon",
+          "slap_id": "61597"
+        },
+        {
+          "role": "player",
+          "steam_name": "JG Wentworth 877-Cash-Now",
+          "slap_id": "1591253"
+        },
+        {
+          "role": "player",
+          "steam_name": "800-588-2300 Empire Today",
+          "slap_id": "1591250"
+        },
+        {
+          "role": "player",
+          "steam_name": "Glitch",
+          "slap_id": "18350"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "6803",
+        "61597",
+        "1591253",
+        "1591250",
+        "18350"
+      ]
+    },
+    "away_roster": {
+      "team_id": "chicago_sky_scrapers",
+      "team_display_name": "Chicago Sky Scrapers",
+      "team": "Chicago Sky Scrapers",
+      "team_abbreviation": "CSS",
+      "region": "east",
+      "division": "open",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "andrewdewar104",
+          "slap_id": "453698"
+        },
+        {
+          "role": "player",
+          "steam_name": "Danimal1059",
+          "slap_id": "448394"
+        },
+        {
+          "role": "player",
+          "steam_name": "Rage Quitter",
+          "slap_id": "509256"
+        },
+        {
+          "role": "player",
+          "steam_name": "Dead2Soon",
+          "slap_id": "449498"
+        }
+      ],
+      "slap_ids": [
+        "453698",
+        "448394",
+        "509256",
+        "449498"
+      ]
+    }
   }
 }

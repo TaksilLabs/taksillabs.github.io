@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_challenger_1_4",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "challenger",
+  "imported_at_utc": "2026-07-01T04:27:54.212639+00:00",
+  "source_folder_name": "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635",
+  "source_folder_path": "data/incoming_logs/unsorted/1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635",
+  "source_id": "1.4",
+  "thread_id": "1520927488530714635",
+  "detected_home_team": "Cold Lake Upper Deckies",
+  "detected_away_team": "Okinawa Generations",
+  "matched_schedule_home_team_id": "cold_lake_upper_deckies",
+  "matched_schedule_away_team_id": "okinawa_generations",
+  "matched_schedule_home_team": "Cold Lake Upper Deckies",
+  "matched_schedule_away_team": "Okinawa Generations",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T22:23:07",
+  "last_log_timestamp": "2026-06-30T22:39:47",
+  "probable_start_time": "2026-06-30T22:15:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_025226_449703678585339915_2026-06-30-22-23-07.json",
+      "relative_path": "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635/20260701_025226_449703678585339915_2026-06-30-22-23-07.json",
+      "timestamp_from_filename": "2026-06-30T22:23:07"
+    },
+    {
+      "original_name": "20260701_025226_449703678585339915_2026-06-30-22-32-39.json",
+      "relative_path": "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635/20260701_025226_449703678585339915_2026-06-30-22-32-39.json",
+      "timestamp_from_filename": "2026-06-30T22:32:39"
+    },
+    {
+      "original_name": "20260701_025226_449703678585339915_2026-06-30-22-39-47.json",
+      "relative_path": "1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635/20260701_025226_449703678585339915_2026-06-30-22-39-47.json",
+      "timestamp_from_filename": "2026-06-30T22:39:47"
+    }
+  ],
+  "warnings": []
+}
