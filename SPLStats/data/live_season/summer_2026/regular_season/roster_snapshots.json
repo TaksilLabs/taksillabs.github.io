@@ -1093,5 +1093,872 @@
         "1127790"
       ]
     }
+  },
+  "summer_2026_regular_season_central_a_1_7": {
+    "match_id": "summer_2026_regular_season_central_a_1_7",
+    "source_id": "1.7",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_a",
+    "region": "central",
+    "home_team_id": "baton_rouge_bobos",
+    "home_team": "Baton Rouge Bobos",
+    "away_team_id": "ottawa_valley_cool_cats",
+    "away_team": "Ottawa Valley Cool Cats",
+    "home_roster": {
+      "team_id": "baton_rouge_bobos",
+      "team_display_name": "Baton Rouge Bobos",
+      "team": "Baton Rouge Bobos",
+      "team_abbreviation": "BRBO",
+      "region": "central",
+      "division": "central_a",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "McNulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "x6c",
+          "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "echo",
+          "slap_id": "22412",
+          "jersey_number": "86"
+        },
+        {
+          "role": "player",
+          "steam_name": "Skiztastic",
+          "jersey_number": "",
+          "slap_id": "4633"
+        }
+      ],
+      "slap_ids": [
+        "600238",
+        "871020",
+        "22412",
+        "4633"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_cool_cats",
+      "team_display_name": "Ottawa Valley Cool Cats",
+      "team": "Ottawa Valley Cool Cats",
+      "team_abbreviation": "OVCC",
+      "region": "central",
+      "division": "central_a",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sweatshirt",
+          "slap_id": "1856285"
+        },
+        {
+          "role": "player",
+          "steam_name": "Milk",
+          "slap_id": "429195"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jagr",
+          "slap_id": "560316",
+          "jersey_number": "68"
+        },
+        {
+          "role": "player",
+          "steam_name": "Panarin",
+          "slap_id": "35",
+          "jersey_number": "9"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "1856285",
+        "429195",
+        "560316",
+        "35"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_b_1_1": {
+    "match_id": "summer_2026_regular_season_central_b_1_1",
+    "source_id": "1.1",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "barrie_bag_chasers",
+    "home_team": "Barrie Bag Chasers",
+    "away_team_id": "brampton_cows",
+    "away_team": "Brampton Cows",
+    "home_roster": {
+      "team_id": "barrie_bag_chasers",
+      "team_display_name": "Barrie Bag Chasers",
+      "team": "Barrie Bag Chasers",
+      "team_abbreviation": "BBC",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Looees",
+          "slap_id": "281017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Shloompa",
+          "slap_id": "979880"
+        },
+        {
+          "role": "player",
+          "steam_name": "maia",
+          "slap_id": "1269140"
+        }
+      ],
+      "slap_ids": [
+        "913017",
+        "281017",
+        "979880",
+        "1269140"
+      ]
+    },
+    "away_roster": {
+      "team_id": "brampton_cows",
+      "team_display_name": "Brampton Cows",
+      "team": "Brampton Cows",
+      "team_abbreviation": "BRC",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1282529",
+        "186627",
+        "758362",
+        "633338"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_b_1_15": {
+    "match_id": "summer_2026_regular_season_central_b_1_15",
+    "source_id": "1.15",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "vader_inquisitors",
+    "home_team": "Vader Inquisitors",
+    "away_team_id": "barrie_bag_chasers",
+    "away_team": "Barrie Bag Chasers",
+    "home_roster": {
+      "team_id": "vader_inquisitors",
+      "team_display_name": "Vader Inquisitors",
+      "team": "Vader Inquisitors",
+      "team_abbreviation": "VADI",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "1439105",
+        "1689859",
+        "848840"
+      ]
+    },
+    "away_roster": {
+      "team_id": "barrie_bag_chasers",
+      "team_display_name": "Barrie Bag Chasers",
+      "team": "Barrie Bag Chasers",
+      "team_abbreviation": "BBC",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Looees",
+          "slap_id": "281017"
+        },
+        {
+          "role": "player",
+          "steam_name": "Shloompa",
+          "slap_id": "979880"
+        },
+        {
+          "role": "player",
+          "steam_name": "maia",
+          "slap_id": "1269140"
+        }
+      ],
+      "slap_ids": [
+        "913017",
+        "281017",
+        "979880",
+        "1269140"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_b_1_8": {
+    "match_id": "summer_2026_regular_season_central_b_1_8",
+    "source_id": "1.8",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "battle_creek_kings",
+    "home_team": "Battle Creek Kings",
+    "away_team_id": "brampton_cows",
+    "away_team": "Brampton Cows",
+    "home_roster": {
+      "team_id": "battle_creek_kings",
+      "team_display_name": "Battle Creek Kings",
+      "team": "Battle Creek Kings",
+      "team_abbreviation": "BACK",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Joemer",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "SPMZ",
+          "slap_id": "941924"
+        },
+        {
+          "role": "player",
+          "steam_name": "Semen Slayer",
+          "slap_id": "1427595"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "67383",
+        "941924",
+        "1427595"
+      ]
+    },
+    "away_roster": {
+      "team_id": "brampton_cows",
+      "team_display_name": "Brampton Cows",
+      "team": "Brampton Cows",
+      "team_abbreviation": "BRC",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Tactical Miss",
+          "slap_id": "1282529"
+        },
+        {
+          "role": "player",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saucy :(",
+          "slap_id": "758362"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1282529",
+        "186627",
+        "758362",
+        "633338"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_c_1_2": {
+    "match_id": "summer_2026_regular_season_central_c_1_2",
+    "source_id": "1.2",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_c",
+    "region": "central",
+    "home_team_id": "farmington_pilot_knobbers",
+    "home_team": "Farmington Pilot Knobbers",
+    "away_team_id": "vader_bounty_hunters",
+    "away_team": "Vader Bounty Hunters",
+    "home_roster": {
+      "team_id": "farmington_pilot_knobbers",
+      "team_display_name": "Farmington Pilot Knobbers",
+      "team": "Farmington Pilot Knobbers",
+      "team_abbreviation": "FPK",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Carried By Dad",
+          "slap_id": "323270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Olenikiboy",
+          "slap_id": "636982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Smellfuzz",
+          "slap_id": "640618"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kjayrage",
+          "slap_id": "637921"
+        },
+        {
+          "role": "player",
+          "steam_name": "Beefy T's",
+          "slap_id": "1757156"
+        }
+      ],
+      "slap_ids": [
+        "323270",
+        "636982",
+        "640618",
+        "637921",
+        "1757156"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_bounty_hunters",
+      "team_display_name": "Vader Bounty Hunters",
+      "team": "Vader Bounty Hunters",
+      "team_abbreviation": "VABH",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Boatsnhoes",
+          "slap_id": "1771333"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sowwea",
+          "slap_id": "2129"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crayon",
+          "slap_id": "61597"
+        },
+        {
+          "role": "player",
+          "steam_name": "dxmxnz",
+          "slap_id": "1310489"
+        }
+      ],
+      "slap_ids": [
+        "1771333",
+        "2129",
+        "61597",
+        "1310489"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_c_1_5": {
+    "match_id": "summer_2026_regular_season_central_c_1_5",
+    "source_id": "1.5",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_c",
+    "region": "central",
+    "home_team_id": "vader_bounty_hunters",
+    "home_team": "Vader Bounty Hunters",
+    "away_team_id": "ottawa_valley_puck_masters",
+    "away_team": "Ottawa Valley Puck Masters",
+    "home_roster": {
+      "team_id": "vader_bounty_hunters",
+      "team_display_name": "Vader Bounty Hunters",
+      "team": "Vader Bounty Hunters",
+      "team_abbreviation": "VABH",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Boatsnhoes",
+          "slap_id": "1771333"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sowwea",
+          "slap_id": "2129"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crayon",
+          "slap_id": "61597"
+        },
+        {
+          "role": "player",
+          "steam_name": "dxmxnz",
+          "slap_id": "1310489"
+        }
+      ],
+      "slap_ids": [
+        "1771333",
+        "2129",
+        "61597",
+        "1310489"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_puck_masters",
+      "team_display_name": "Ottawa Valley Puck Masters",
+      "team": "Ottawa Valley Puck Masters",
+      "team_abbreviation": "OVPM",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "TheRealAmeriCam",
+          "slap_id": "1937517"
+        },
+        {
+          "role": "player",
+          "steam_name": "Inph1del",
+          "slap_id": "6803"
+        },
+        {
+          "role": "player",
+          "steam_name": "JG Wentworth 877-Cash-Now",
+          "slap_id": "1591253"
+        },
+        {
+          "role": "player",
+          "steam_name": "Alt",
+          "slap_id": "24807",
+          "jersey_number": "17"
+        },
+        {
+          "role": "player",
+          "steam_name": "poops",
+          "slap_id": "819088",
+          "jersey_number": "67"
+        }
+      ],
+      "slap_ids": [
+        "1937517",
+        "6803",
+        "1591253",
+        "24807",
+        "819088"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_c_1_8": {
+    "match_id": "summer_2026_regular_season_central_c_1_8",
+    "source_id": "1.8",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_c",
+    "region": "central",
+    "home_team_id": "farmington_pilot_knobbers",
+    "home_team": "Farmington Pilot Knobbers",
+    "away_team_id": "ottawa_valley_puck_masters",
+    "away_team": "Ottawa Valley Puck Masters",
+    "home_roster": {
+      "team_id": "farmington_pilot_knobbers",
+      "team_display_name": "Farmington Pilot Knobbers",
+      "team": "Farmington Pilot Knobbers",
+      "team_abbreviation": "FPK",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Carried By Dad",
+          "slap_id": "323270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Olenikiboy",
+          "slap_id": "636982"
+        },
+        {
+          "role": "player",
+          "steam_name": "Smellfuzz",
+          "slap_id": "640618"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kjayrage",
+          "slap_id": "637921"
+        },
+        {
+          "role": "player",
+          "steam_name": "Beefy T's",
+          "slap_id": "1757156"
+        }
+      ],
+      "slap_ids": [
+        "323270",
+        "636982",
+        "640618",
+        "637921",
+        "1757156"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_puck_masters",
+      "team_display_name": "Ottawa Valley Puck Masters",
+      "team": "Ottawa Valley Puck Masters",
+      "team_abbreviation": "OVPM",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "TheRealAmeriCam",
+          "slap_id": "1937517"
+        },
+        {
+          "role": "player",
+          "steam_name": "Inph1del",
+          "slap_id": "6803"
+        },
+        {
+          "role": "player",
+          "steam_name": "JG Wentworth 877-Cash-Now",
+          "slap_id": "1591253"
+        },
+        {
+          "role": "player",
+          "steam_name": "Alt",
+          "slap_id": "24807",
+          "jersey_number": "17"
+        },
+        {
+          "role": "player",
+          "steam_name": "poops",
+          "slap_id": "819088",
+          "jersey_number": "67"
+        }
+      ],
+      "slap_ids": [
+        "1937517",
+        "6803",
+        "1591253",
+        "24807",
+        "819088"
+      ]
+    }
+  },
+  "summer_2026_regular_season_challenger_1_8": {
+    "match_id": "summer_2026_regular_season_challenger_1_8",
+    "source_id": "1.8",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "okinawa_generations",
+    "home_team": "Okinawa Generations",
+    "away_team_id": "delco_dog_dads",
+    "away_team": "Delco Dog Dads",
+    "home_roster": {
+      "team_id": "okinawa_generations",
+      "team_display_name": "Okinawa Generations",
+      "team": "Okinawa Generations",
+      "team_abbreviation": "OKG",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "papa shieldz",
+          "slap_id": "503"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513",
+          "jersey_number": "21"
+        },
+        {
+          "role": "player",
+          "steam_name": "Pip Starlather",
+          "slap_id": "197140"
+        },
+        {
+          "role": "player",
+          "steam_name": "Greyghost",
+          "slap_id": "1420"
+        },
+        {
+          "role": "player",
+          "steam_name": "Renard_",
+          "slap_id": "212"
+        }
+      ],
+      "slap_ids": [
+        "503",
+        "513",
+        "197140",
+        "1420",
+        "212"
+      ]
+    },
+    "away_roster": {
+      "team_id": "delco_dog_dads",
+      "team_display_name": "Delco Dog Dads",
+      "team": "Delco Dog Dads",
+      "team_abbreviation": "DDD",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Kavorka",
+          "slap_id": "816852"
+        },
+        {
+          "role": "player",
+          "steam_name": "Drewiou",
+          "slap_id": "200689"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lord Osprey",
+          "slap_id": "19647"
+        },
+        {
+          "role": "player",
+          "steam_name": "Pissy Yonky",
+          "slap_id": "702578"
+        },
+        {
+          "role": "player",
+          "steam_name": "Conro",
+          "slap_id": "1850085"
+        }
+      ],
+      "slap_ids": [
+        "816852",
+        "200689",
+        "19647",
+        "702578",
+        "1850085"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_5": {
+    "match_id": "summer_2026_regular_season_intermediate_1_5",
+    "source_id": "1.5",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "vader_whiteout",
+    "home_team": "Vader Whiteout",
+    "away_team_id": "vader_starkillers_east",
+    "away_team": "Vader Starkillers East",
+    "home_roster": {
+      "team_id": "vader_whiteout",
+      "team_display_name": "Vader Whiteout",
+      "team": "Vader Whiteout",
+      "team_abbreviation": "VADW",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "BiggieBag",
+          "slap_id": "1288337"
+        },
+        {
+          "role": "player",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "LilCricket",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "MaxZombieJaws",
+          "slap_id": "1124512"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bobby McMann",
+          "slap_id": "769650"
+        }
+      ],
+      "slap_ids": [
+        "1288337",
+        "249493",
+        "1287792",
+        "1124512",
+        "769650"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_starkillers_east",
+      "team_display_name": "Vader Starkillers East",
+      "team": "Vader Starkillers East",
+      "team_abbreviation": "VDSE",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Rigg",
+          "slap_id": "1530583"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kwispy (Cold Hands)",
+          "slap_id": "524929"
+        },
+        {
+          "role": "player",
+          "steam_name": "qptreyqp",
+          "slap_id": "893565"
+        },
+        {
+          "role": "player",
+          "steam_name": "oChase",
+          "slap_id": "767270"
+        },
+        {
+          "role": "player",
+          "steam_name": "grimace",
+          "slap_id": "524911"
+        }
+      ],
+      "slap_ids": [
+        "1530583",
+        "524929",
+        "893565",
+        "767270",
+        "524911"
+      ]
+    }
   }
 }

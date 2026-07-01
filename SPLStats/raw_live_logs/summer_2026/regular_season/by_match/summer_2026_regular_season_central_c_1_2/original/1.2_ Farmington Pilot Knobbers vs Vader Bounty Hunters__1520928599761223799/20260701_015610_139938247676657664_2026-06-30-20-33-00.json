@@ -1,0 +1,145 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 8,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 140,
+                "losses": 1,
+                "passes": 7,
+                "assists": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 8,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2
+            },
+            "username": "Smellfuzz",
+            "game_user_id": "640618"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "shots": 1,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 8,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 3
+            },
+            "username": "Kjayrage",
+            "game_user_id": "637921"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 3,
+                "score": 365,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 8,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 16
+            },
+            "username": "Carried By Dad",
+            "game_user_id": "323270"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 425,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 7,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 8,
+                "secondary_assists": 1,
+                "possession_time_sec": 21
+            },
+            "username": "Crayon",
+            "game_user_id": "61597"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "saves": 1,
+                "score": 870,
+                "shots": 6,
+                "passes": 13,
+                "assists": 3,
+                "post_hits": 1,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 8
+            },
+            "username": "Sowwea",
+            "game_user_id": "2129"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 560,
+                "shots": 4,
+                "blocks": 3,
+                "passes": 8,
+                "assists": 3,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 8,
+                "secondary_assists": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        }
+    ],
+    "match_id": "95d97d00-9295-4730-8b3b-dafb2550e6e0",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

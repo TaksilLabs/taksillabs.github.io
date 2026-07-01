@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_15",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-01T03:00:04.549343+00:00",
+  "source_folder_name": "1.15_ Vader Inquisitors vs Barrie Bag Chasers__1520930606131707944",
+  "source_folder_path": "data/incoming_logs/unsorted/1.15_ Vader Inquisitors vs Barrie Bag Chasers__1520930606131707944",
+  "source_id": "1.15",
+  "thread_id": "1520930606131707944",
+  "detected_home_team": "Vader Inquisitors",
+  "detected_away_team": "Barrie Bag Chasers",
+  "matched_schedule_home_team_id": "vader_inquisitors",
+  "matched_schedule_away_team_id": "barrie_bag_chasers",
+  "matched_schedule_home_team": "Vader Inquisitors",
+  "matched_schedule_away_team": "Barrie Bag Chasers",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T21:35:13",
+  "last_log_timestamp": "2026-06-30T21:47:40",
+  "probable_start_time": "2026-06-30T21:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_015430_520793839301296128_2026-06-30-21-35-13.json",
+      "relative_path": "1.15_ Vader Inquisitors vs Barrie Bag Chasers__1520930606131707944/20260701_015430_520793839301296128_2026-06-30-21-35-13.json",
+      "timestamp_from_filename": "2026-06-30T21:35:13"
+    },
+    {
+      "original_name": "20260701_015430_520793839301296128_2026-06-30-21-41-33.json",
+      "relative_path": "1.15_ Vader Inquisitors vs Barrie Bag Chasers__1520930606131707944/20260701_015430_520793839301296128_2026-06-30-21-41-33.json",
+      "timestamp_from_filename": "2026-06-30T21:41:33"
+    },
+    {
+      "original_name": "20260701_015430_520793839301296128_2026-06-30-21-47-40.json",
+      "relative_path": "1.15_ Vader Inquisitors vs Barrie Bag Chasers__1520930606131707944/20260701_015430_520793839301296128_2026-06-30-21-47-40.json",
+      "timestamp_from_filename": "2026-06-30T21:47:40"
+    }
+  ],
+  "warnings": []
+}

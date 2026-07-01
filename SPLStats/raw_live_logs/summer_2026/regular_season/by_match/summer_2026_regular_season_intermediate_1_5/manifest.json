@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_intermediate_1_5",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "intermediate",
+  "imported_at_utc": "2026-07-01T03:00:04.597122+00:00",
+  "source_folder_name": "1.5_ Vader Whiteout vs Vader Starkillers East__1520931895481860096",
+  "source_folder_path": "data/incoming_logs/unsorted/1.5_ Vader Whiteout vs Vader Starkillers East__1520931895481860096",
+  "source_id": "1.5",
+  "thread_id": "1520931895481860096",
+  "detected_home_team": "Vader Whiteout",
+  "detected_away_team": "Vader Starkillers East",
+  "matched_schedule_home_team_id": "vader_whiteout",
+  "matched_schedule_away_team_id": "vader_starkillers_east",
+  "matched_schedule_home_team": "Vader Whiteout",
+  "matched_schedule_away_team": "Vader Starkillers East",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T21:05:16",
+  "last_log_timestamp": "2026-06-30T21:18:38",
+  "probable_start_time": "2026-06-30T21:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_012645_503659339278581792_2026-06-30-21-05-16.json",
+      "relative_path": "1.5_ Vader Whiteout vs Vader Starkillers East__1520931895481860096/20260701_012645_503659339278581792_2026-06-30-21-05-16.json",
+      "timestamp_from_filename": "2026-06-30T21:05:16"
+    },
+    {
+      "original_name": "20260701_012645_503659339278581792_2026-06-30-21-11-49.json",
+      "relative_path": "1.5_ Vader Whiteout vs Vader Starkillers East__1520931895481860096/20260701_012645_503659339278581792_2026-06-30-21-11-49.json",
+      "timestamp_from_filename": "2026-06-30T21:11:49"
+    },
+    {
+      "original_name": "20260701_012645_503659339278581792_2026-06-30-21-18-38.json",
+      "relative_path": "1.5_ Vader Whiteout vs Vader Starkillers East__1520931895481860096/20260701_012645_503659339278581792_2026-06-30-21-18-38.json",
+      "timestamp_from_filename": "2026-06-30T21:18:38"
+    }
+  ],
+  "warnings": []
+}

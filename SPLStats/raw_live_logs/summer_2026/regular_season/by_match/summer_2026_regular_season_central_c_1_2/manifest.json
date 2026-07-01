@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_c_1_2",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_c",
+  "imported_at_utc": "2026-07-01T03:00:04.573512+00:00",
+  "source_folder_name": "1.2_ Farmington Pilot Knobbers vs Vader Bounty Hunters__1520928599761223799",
+  "source_folder_path": "data/incoming_logs/unsorted/1.2_ Farmington Pilot Knobbers vs Vader Bounty Hunters__1520928599761223799",
+  "source_id": "1.2",
+  "thread_id": "1520928599761223799",
+  "detected_home_team": "Farmington Pilot Knobbers",
+  "detected_away_team": "Vader Bounty Hunters",
+  "matched_schedule_home_team_id": "farmington_pilot_knobbers",
+  "matched_schedule_away_team_id": "vader_bounty_hunters",
+  "matched_schedule_home_team": "Farmington Pilot Knobbers",
+  "matched_schedule_away_team": "Vader Bounty Hunters",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T20:33:00",
+  "last_log_timestamp": "2026-06-30T20:47:01",
+  "probable_start_time": "2026-06-30T20:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_015610_139938247676657664_2026-06-30-20-33-00.json",
+      "relative_path": "1.2_ Farmington Pilot Knobbers vs Vader Bounty Hunters__1520928599761223799/20260701_015610_139938247676657664_2026-06-30-20-33-00.json",
+      "timestamp_from_filename": "2026-06-30T20:33:00"
+    },
+    {
+      "original_name": "20260701_015611_139938247676657664_2026-06-30-20-40-32.json",
+      "relative_path": "1.2_ Farmington Pilot Knobbers vs Vader Bounty Hunters__1520928599761223799/20260701_015611_139938247676657664_2026-06-30-20-40-32.json",
+      "timestamp_from_filename": "2026-06-30T20:40:32"
+    },
+    {
+      "original_name": "20260701_015611_139938247676657664_2026-06-30-20-47-01.json",
+      "relative_path": "1.2_ Farmington Pilot Knobbers vs Vader Bounty Hunters__1520928599761223799/20260701_015611_139938247676657664_2026-06-30-20-47-01.json",
+      "timestamp_from_filename": "2026-06-30T20:47:01"
+    }
+  ],
+  "warnings": []
+}

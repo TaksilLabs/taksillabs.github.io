@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_a_1_7",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_a",
+  "imported_at_utc": "2026-07-01T03:00:04.609351+00:00",
+  "source_folder_name": "1.7_ Baton Rouge Bobos vs Ottawa Valley Cool Cats__1520930163112677397",
+  "source_folder_path": "data/incoming_logs/unsorted/1.7_ Baton Rouge Bobos vs Ottawa Valley Cool Cats__1520930163112677397",
+  "source_id": "1.7",
+  "thread_id": "1520930163112677397",
+  "detected_home_team": "Baton Rouge Bobos",
+  "detected_away_team": "Ottawa Valley Cool Cats",
+  "matched_schedule_home_team_id": "baton_rouge_bobos",
+  "matched_schedule_away_team_id": "ottawa_valley_cool_cats",
+  "matched_schedule_home_team": "Baton Rouge Bobos",
+  "matched_schedule_away_team": "Ottawa Valley Cool Cats",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T21:51:01",
+  "last_log_timestamp": "2026-06-30T22:03:47",
+  "probable_start_time": "2026-06-30T21:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_021347_851281272290410546_2026-06-30-21-51-01.json",
+      "relative_path": "1.7_ Baton Rouge Bobos vs Ottawa Valley Cool Cats__1520930163112677397/20260701_021347_851281272290410546_2026-06-30-21-51-01.json",
+      "timestamp_from_filename": "2026-06-30T21:51:01"
+    },
+    {
+      "original_name": "20260701_021347_851281272290410546_2026-06-30-21-57-20.json",
+      "relative_path": "1.7_ Baton Rouge Bobos vs Ottawa Valley Cool Cats__1520930163112677397/20260701_021347_851281272290410546_2026-06-30-21-57-20.json",
+      "timestamp_from_filename": "2026-06-30T21:57:20"
+    },
+    {
+      "original_name": "20260701_021347_851281272290410546_2026-06-30-22-03-47.json",
+      "relative_path": "1.7_ Baton Rouge Bobos vs Ottawa Valley Cool Cats__1520930163112677397/20260701_021347_851281272290410546_2026-06-30-22-03-47.json",
+      "timestamp_from_filename": "2026-06-30T22:03:47"
+    }
+  ],
+  "warnings": []
+}

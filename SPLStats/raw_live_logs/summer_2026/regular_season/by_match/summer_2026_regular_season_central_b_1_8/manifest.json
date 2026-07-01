@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_8",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-01T03:00:04.620734+00:00",
+  "source_folder_name": "1.8_ Battle Creek Kings vs Brampton Cows__1520930564746510448",
+  "source_folder_path": "data/incoming_logs/unsorted/1.8_ Battle Creek Kings vs Brampton Cows__1520930564746510448",
+  "source_id": "1.8",
+  "thread_id": "1520930564746510448",
+  "detected_home_team": "Battle Creek Kings",
+  "detected_away_team": "Brampton Cows",
+  "matched_schedule_home_team_id": "battle_creek_kings",
+  "matched_schedule_away_team_id": "brampton_cows",
+  "matched_schedule_home_team": "Battle Creek Kings",
+  "matched_schedule_away_team": "Brampton Cows",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-06-30T21:47:37",
+  "last_log_timestamp": "2026-06-30T22:00:33",
+  "probable_start_time": "2026-06-30T21:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260701_020814_449703678585339915_2026-06-30-22-00-33.json",
+      "relative_path": "1.8_ Battle Creek Kings vs Brampton Cows__1520930564746510448/20260701_020814_449703678585339915_2026-06-30-22-00-33.json",
+      "timestamp_from_filename": "2026-06-30T22:00:33"
+    },
+    {
+      "original_name": "20260701_020815_449703678585339915_2026-06-30-21-47-37.json",
+      "relative_path": "1.8_ Battle Creek Kings vs Brampton Cows__1520930564746510448/20260701_020815_449703678585339915_2026-06-30-21-47-37.json",
+      "timestamp_from_filename": "2026-06-30T21:47:37"
+    },
+    {
+      "original_name": "20260701_020815_449703678585339915_2026-06-30-21-54-13.json",
+      "relative_path": "1.8_ Battle Creek Kings vs Brampton Cows__1520930564746510448/20260701_020815_449703678585339915_2026-06-30-21-54-13.json",
+      "timestamp_from_filename": "2026-06-30T21:54:13"
+    }
+  ],
+  "warnings": []
+}
