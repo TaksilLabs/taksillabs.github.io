@@ -443,6 +443,25 @@
   color: #ff8a8a;
 }
 
+.clubs-command-pill {
+  margin: 0;
+  font-family: inherit;
+  appearance: none;
+
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.clubs-command-pill:hover {
+  border-color: #7bdff2;
+  color: #7bdff2;
+}
+
+.clubs-command-pill.copied {
+  border-color: #5cff9d;
+  color: #5cff9d;
+}
+
 .match-review-warning {
   padding: 7px 12px;
 
