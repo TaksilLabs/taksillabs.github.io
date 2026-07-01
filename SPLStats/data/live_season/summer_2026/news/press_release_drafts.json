@@ -2,6 +2,45 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-01_barrie_belgian_waffles_roster_moves",
+      "transaction_ids": [
+        "20260701T001812Z_barrie_belgian_waffles_add_kevin"
+      ],
+      "transaction_id": "20260701T001812Z_barrie_belgian_waffles_add_kevin",
+      "status": "published",
+      "created_at_utc": "2026-07-01T00:18:12Z",
+      "updated_at_utc": "2026-07-01T00:44:56.033Z",
+      "headline": "Barrie Belgian Waffles Add Kevin",
+      "subheadline": "The Barrie Belgian Waffles have added kevin to their active roster.",
+      "slug": "barrie-belgian-waffles-add-kevin",
+      "team_id": "barrie_belgian_waffles",
+      "team_abbreviation": "BBW",
+      "team_display_name": "Barrie Belgian Waffles",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "kevin",
+          "player_display_name": "kevin",
+          "slap_id": "594707",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "barrie_belgian_waffles",
+        "central_a"
+      ],
+      "body_markdown": "The Barrie Belgian Waffles have announced the signing of veteran player Kevin ahead of the upcoming season.\n\nBarrie welcomes back this familiar face as Kevin rolls into town with a resume that speaks for itself: 10 seasons, 331 games played, 1,035 goals, 1,639 points, and 1,148 saves. A proven offensive weapon with a Pacific Cup championship already under his belt. Kevin brings hard-nose production, championship experience, and a level of versatility to what was a starved Waffles’ lineup.\n\nWith only 3 players on the active roster in Barrie, the Waffles were in need of a little extra man power. The organization is hoping for just that, and maybe a little more, with this battle-tested journeyman.\n\n\"First of all I'd like to welcome Kevin back to the Barrie Belgian Waffles. We decided after our winless start to the season we needed to change something up. We believe Kevin to be the perfect fit to complete our roster and we look forward to crushing every team this season. #WaffleOut✌️\"\n#color:#0c131a\n- Team Captain Beefus on Kevin's return\n\nThe Waffles welcome Kevin back to Barrie.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-06-30_edmonton_bears_roster_moves",
       "transaction_ids": [
         "20260630T220204Z_edmonton_bears_add_jace"
@@ -244,5 +283,5 @@
       "last_edited_by": ""
     }
   ],
-  "updated_at_utc": "2026-06-30T22:25:43Z"
+  "updated_at_utc": "2026-07-01T00:45:01Z"
 }

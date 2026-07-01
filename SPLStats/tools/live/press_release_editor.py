@@ -279,6 +279,55 @@ HTML = r"""
       padding-left: 8px;
     }
 
+    .press-release-quote {
+      position: relative;
+      overflow: hidden;
+      margin: 22px 0;
+      padding: 22px 24px;
+      border-radius: 18px;
+      border: 1px solid var(--quote-color);
+      background: rgba(7, 16, 24, 0.92);
+      box-shadow: inset 6px 0 0 var(--quote-color);
+    }
+
+    .press-release-quote::before {
+      content: "“";
+      position: absolute;
+      right: 14px;
+      top: -28px;
+      color: rgba(255, 255, 255, 0.08);
+      font-size: 8rem;
+      font-weight: 900;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .press-release-quote blockquote {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      color: var(--text);
+      font-size: 1.45rem;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .press-release-quote figcaption {
+      position: relative;
+      z-index: 1;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .press-release-quote figcaption::before {
+      content: "— ";
+      color: var(--quote-color);
+    }
+
     @media (max-width: 980px) {
       .main {
         grid-template-columns: 1fr;
@@ -540,18 +589,73 @@ function renderPlayerSummary(draft) {
   return "";
 }
 
+function isQuoteBlock(lines) {
+  if (lines.length < 3) return false;
+
+  const quoteLine = cleanText(lines[0]);
+  const colorLine = cleanText(lines[1]);
+  const speakerLine = cleanText(lines[2]);
+
+  return quoteLine.startsWith('"')
+    && quoteLine.endsWith('"')
+    && colorLine.toLowerCase().startsWith("#color:")
+    && speakerLine.startsWith("-");
+}
+
+function getSafeQuoteColor(value) {
+  const raw = cleanText(value)
+    .replace(/^#color:/i, "")
+    .replace("#", "");
+
+  if (/^[0-9a-f]{6}$/i.test(raw)) {
+    return `#${raw}`;
+  }
+
+  return "#00d1d1";
+}
+
+function renderQuoteBlock(lines) {
+  const quote = cleanText(lines[0]).replace(/^"|"$/g, "");
+  const color = getSafeQuoteColor(lines[1]);
+  const speaker = cleanText(lines[2]).replace(/^-+/, "").trim();
+
+  return `
+    <figure class="press-release-quote" style="--quote-color: ${color};">
+      <blockquote>
+        “${escapeHtml(quote)}”
+      </blockquote>
+      <figcaption>
+        ${escapeHtml(speaker)}
+      </figcaption>
+    </figure>
+  `;
+}
+
+function renderTextParagraph(lines) {
+  return `<p>${lines.map(line => escapeHtml(line)).join("<br>")}</p>`;
+}
+
 function markdownToHtml(markdown) {
-  const paragraphs = cleanText(markdown)
+  const blocks = cleanText(markdown)
     .split(/\n\s*\n/g)
-    .map(paragraph => paragraph.trim())
+    .map(block => block.trim())
     .filter(Boolean);
 
-  if (!paragraphs.length) {
+  if (!blocks.length) {
     return `<p>No body text yet.</p>`;
   }
 
-  return paragraphs.map(paragraph => {
-    return `<p>${escapeHtml(paragraph).replaceAll("\n", "<br>")}</p>`;
+  return blocks.map(block => {
+    const lines = block
+      .split("\n")
+      .map(line => line.trim())
+      .filter(Boolean);
+
+    if (isQuoteBlock(lines)) {
+      return renderQuoteBlock(lines);
+    }
+
+    return renderTextParagraph(lines);
   }).join("");
 }
 

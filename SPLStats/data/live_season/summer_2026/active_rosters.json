@@ -318,12 +318,19 @@
           "steam_name": "Tridoxity",
           "slap_id": "1127790",
           "jersey_number": "0"
+        },
+        {
+          "role": "player",
+          "steam_name": "kevin",
+          "jersey_number": "",
+          "slap_id": "594707"
         }
       ],
       "slap_ids": [
         "1354924",
         "929814",
-        "1127790"
+        "1127790",
+        "594707"
       ],
       "season_id": "summer_2026",
       "division": "central_a",

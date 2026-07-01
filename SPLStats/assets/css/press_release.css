@@ -107,3 +107,54 @@
   color: var(--muted, #9fb3c8);
   padding: 24px;
 }
+
+.press-release-quote {
+  position: relative;
+  overflow: hidden;
+  margin: 28px 0;
+  padding: 24px 26px;
+  border-radius: 18px;
+  border: 1px solid color-mix(in srgb, var(--quote-color) 55%, transparent);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--quote-color) 22%, transparent), rgba(7, 16, 24, 0.92)),
+    rgba(7, 16, 24, 0.92);
+}
+
+.press-release-quote::before {
+  content: "“";
+  position: absolute;
+  right: 16px;
+  top: -30px;
+  color: rgba(255, 255, 255, 0.08);
+  font-size: 9rem;
+  font-weight: 900;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.press-release-quote blockquote {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: var(--text, #f4f4f4);
+  font-size: clamp(1.2rem, 2.4vw, 1.8rem);
+  line-height: 1.35;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.press-release-quote figcaption {
+  position: relative;
+  z-index: 1;
+  margin-top: 14px;
+  color: var(--muted, #9fb3c8);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.press-release-quote figcaption::before {
+  content: "— ";
+  color: var(--quote-color);
+}

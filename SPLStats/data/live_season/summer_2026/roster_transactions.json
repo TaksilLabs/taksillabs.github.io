@@ -2,6 +2,23 @@
   "season_id": "summer_2026",
   "transactions": [
     {
+      "transaction_id": "20260701T001812Z_barrie_belgian_waffles_add_kevin",
+      "created_at_utc": "2026-07-01T00:18:12Z",
+      "type": "add",
+      "team_id": "barrie_belgian_waffles",
+      "team_abbreviation": "BBW",
+      "team_display_name": "Barrie Belgian Waffles",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "player_id": "kevin",
+      "player_display_name": "kevin",
+      "slap_id": "594707",
+      "jersey_number": "",
+      "previous_jersey_number": "",
+      "source": "active_roster_editor"
+    },
+    {
       "transaction_id": "20260630T220204Z_edmonton_bears_add_jace",
       "created_at_utc": "2026-06-30T22:02:04Z",
       "type": "add",

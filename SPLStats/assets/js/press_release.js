@@ -73,18 +73,91 @@ function formatDate(value) {
   });
 }
 
+
+// Start of quote block
+
+function isQuoteBlock(lines) {
+  if (lines.length < 3) return false;
+
+  const quoteLine = cleanText(lines[0]);
+  const colorLine = cleanText(lines[1]);
+  const speakerLine = cleanText(lines[2]);
+
+  return quoteLine.startsWith('"')
+    && quoteLine.endsWith('"')
+    && colorLine.toLowerCase().startsWith("#color:")
+    && speakerLine.startsWith("-");
+}
+
+function getSafeQuoteColor(value) {
+  const raw = cleanText(value)
+    .replace(/^#color:/i, "")
+    .replace("#", "");
+
+  if (/^[0-9a-f]{6}$/i.test(raw)) {
+    return `#${raw}`;
+  }
+
+  return "#00d1d1";
+}
+
+function renderQuoteBlock(lines) {
+  const quote = cleanText(lines[0]).replace(/^"|"$/g, "");
+  const color = getSafeQuoteColor(lines[1]);
+  const speaker = cleanText(lines[2]).replace(/^-+/, "").trim();
+
+  return `
+    <figure class="press-release-quote" style="--quote-color: ${color};">
+      <blockquote>
+        “${escapeHtml(quote)}”
+      </blockquote>
+      <figcaption>
+        ${escapeHtml(speaker)}
+      </figcaption>
+    </figure>
+  `;
+}
+
+function renderInlineMarkdown(value) {
+  let html = escapeHtml(value);
+
+  html = html.replace(
+    /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
+
+  return html;
+}
+
+function renderTextParagraph(lines) {
+  return `<p>${lines.map(line => renderInlineMarkdown(line)).join("<br>")}</p>`;
+}
+
+// End of quote block
+
+
+
 function markdownToHtml(markdown) {
-  const paragraphs = cleanText(markdown)
+  const blocks = cleanText(markdown)
     .split(/\n\s*\n/g)
-    .map(paragraph => paragraph.trim())
+    .map(block => block.trim())
     .filter(Boolean);
 
-  if (!paragraphs.length) {
+  if (!blocks.length) {
     return `<p>No article body available.</p>`;
   }
 
-  return paragraphs.map(paragraph => {
-    return `<p>${escapeHtml(paragraph).replaceAll("\n", "<br>")}</p>`;
+  return blocks.map(block => {
+    const lines = block
+      .split("\n")
+      .map(line => line.trim())
+      .filter(Boolean);
+
+    if (isQuoteBlock(lines)) {
+      return renderQuoteBlock(lines);
+    }
+
+    return renderTextParagraph(lines);
   }).join("");
 }
 
