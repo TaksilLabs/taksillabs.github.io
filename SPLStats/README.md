@@ -60,7 +60,7 @@ python tools/live/press_release_editor.py
 And select the transaction you wish to write for.
 
 
-#### Darth Tool
+#### !!! Darth Tool !!! DONT RUN THIS UNLESS YOUR NAME IS DARTHTAKSIL
 Backfill transaction builder is
 python tools/live/backfill_press_release_drafts.py
 
@@ -98,8 +98,7 @@ To change active rosters:
 python tools/live/active_roster_editor.py
 
 
-### 
-To set casters for games run
+### Set Casters for Games
 python tools/live/broadcast_editor.py
 
 
