@@ -890,5 +890,208 @@
         "352018"
       ]
     }
+  },
+  "summer_2026_regular_season_challenger_1_16": {
+    "match_id": "summer_2026_regular_season_challenger_1_16",
+    "source_id": "1.16",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "okinawa_generations",
+    "home_team": "Okinawa Generations",
+    "away_team_id": "vader_stars",
+    "away_team": "Vader Stars",
+    "home_roster": {
+      "team_id": "okinawa_generations",
+      "team_display_name": "Okinawa Generations",
+      "team": "Okinawa Generations",
+      "team_abbreviation": "OKG",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "papa shieldz",
+          "slap_id": "503"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513",
+          "jersey_number": "21"
+        },
+        {
+          "role": "player",
+          "steam_name": "Pip Starlather",
+          "slap_id": "197140"
+        },
+        {
+          "role": "player",
+          "steam_name": "Greyghost",
+          "slap_id": "1420"
+        },
+        {
+          "role": "player",
+          "steam_name": "Renard_",
+          "slap_id": "212"
+        }
+      ],
+      "slap_ids": [
+        "503",
+        "513",
+        "197140",
+        "1420",
+        "212"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_stars",
+      "team_display_name": "Vader Stars",
+      "team": "Vader Stars",
+      "team_abbreviation": "VAS",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "withdrawals",
+          "slap_id": "1326629"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylvatic",
+          "slap_id": "406789"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mcnulty",
+          "slap_id": "600238"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        }
+      ],
+      "slap_ids": [
+        "1326629",
+        "406789",
+        "40",
+        "600238",
+        "633338"
+      ]
+    }
+  },
+  "summer_2026_regular_season_masters_1_6": {
+    "match_id": "summer_2026_regular_season_masters_1_6",
+    "source_id": "1.6",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "masters",
+    "region": "west",
+    "home_team_id": "vader_gungans",
+    "home_team": "Vader Gungans",
+    "away_team_id": "cold_lake_hit_lits",
+    "away_team": "Cold Lake Hit Lits",
+    "home_roster": {
+      "team_id": "vader_gungans",
+      "team_display_name": "Vader Gungans",
+      "team": "Vader Gungans",
+      "team_abbreviation": "VADG",
+      "region": "west",
+      "division": "masters",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meenimizer",
+          "slap_id": "439532"
+        },
+        {
+          "role": "player",
+          "steam_name": "Flc",
+          "slap_id": "327512"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "slap_id": "19508",
+          "jersey_number": "7"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "439532",
+        "327512",
+        "19508"
+      ]
+    },
+    "away_roster": {
+      "team_id": "cold_lake_hit_lits",
+      "team_display_name": "Cold Lake Hit Lits",
+      "team": "Cold Lake Hit Lits",
+      "team_abbreviation": "CLHL",
+      "region": "west",
+      "division": "masters",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "hit",
+          "slap_id": "913017"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tridoxity",
+          "jersey_number": "",
+          "slap_id": "1127790"
+        }
+      ],
+      "slap_ids": [
+        "186627",
+        "913017",
+        "633338",
+        "985994",
+        "1127790"
+      ]
+    }
   }
 }
