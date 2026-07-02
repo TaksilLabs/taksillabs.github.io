@@ -2548,5 +2548,114 @@
         "381869"
       ]
     }
+  },
+  "summer_2026_regular_season_pro_1_13": {
+    "match_id": "summer_2026_regular_season_pro_1_13",
+    "source_id": "1.13",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "pro",
+    "region": "east",
+    "home_team_id": "champaign_champagne",
+    "home_team": "Champaign Champagne",
+    "away_team_id": "pittsburgh_volts",
+    "away_team": "Pittsburgh Volts",
+    "home_roster": {
+      "team_id": "champaign_champagne",
+      "team_display_name": "Champaign Champagne",
+      "team": "Champaign Champagne",
+      "team_abbreviation": "CHA",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Maia",
+          "slap_id": "1269140"
+        },
+        {
+          "role": "player",
+          "steam_name": "kevin",
+          "slap_id": "594707",
+          "jersey_number": "97"
+        },
+        {
+          "role": "player",
+          "steam_name": "axe",
+          "slap_id": "1202794",
+          "jersey_number": "5"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sweatshirt",
+          "slap_id": "1856285"
+        },
+        {
+          "role": "player",
+          "steam_name": "chaos",
+          "slap_id": "1026914",
+          "jersey_number": "37"
+        }
+      ],
+      "slap_ids": [
+        "1269140",
+        "594707",
+        "1202794",
+        "985994",
+        "1856285",
+        "1026914"
+      ]
+    },
+    "away_roster": {
+      "team_id": "pittsburgh_volts",
+      "team_display_name": "Pittsburgh Volts",
+      "team": "Pittsburgh Volts",
+      "team_abbreviation": "PIT",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Noah",
+          "slap_id": "678"
+        },
+        {
+          "role": "player",
+          "steam_name": "AboveAverageJoe",
+          "slap_id": "57885"
+        },
+        {
+          "role": "player",
+          "steam_name": "9th Coming of Jesus",
+          "slap_id": "47785"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meow",
+          "slap_id": "148141"
+        },
+        {
+          "role": "player",
+          "steam_name": "Buf",
+          "slap_id": "352018"
+        }
+      ],
+      "slap_ids": [
+        "678",
+        "57885",
+        "47785",
+        "148141",
+        "352018"
+      ]
+    }
   }
 }
