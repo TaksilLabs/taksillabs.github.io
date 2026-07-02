@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_a_1_1",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_a",
+  "imported_at_utc": "2026-07-02T05:02:36.238992+00:00",
+  "source_folder_name": "1.1_ Detroit Droids vs Barrie Belgian Waffles__1520930134578823388",
+  "source_folder_path": "data/incoming_logs/unsorted/1.1_ Detroit Droids vs Barrie Belgian Waffles__1520930134578823388",
+  "source_id": "1.1",
+  "thread_id": "1520930134578823388",
+  "detected_home_team": "Detroit Droids",
+  "detected_away_team": "Barrie Belgian Waffles",
+  "matched_schedule_home_team_id": "detroit_droids",
+  "matched_schedule_away_team_id": "barrie_belgian_waffles",
+  "matched_schedule_home_team": "Detroit Droids",
+  "matched_schedule_away_team": "Barrie Belgian Waffles",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-01T23:39:07",
+  "last_log_timestamp": "2026-07-01T23:52:12",
+  "probable_start_time": "2026-07-01T23:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260702_040312_981750527153016903_2026-07-01-23-39-07.json",
+      "relative_path": "1.1_ Detroit Droids vs Barrie Belgian Waffles__1520930134578823388/20260702_040312_981750527153016903_2026-07-01-23-39-07.json",
+      "timestamp_from_filename": "2026-07-01T23:39:07"
+    },
+    {
+      "original_name": "20260702_040312_981750527153016903_2026-07-01-23-46-07.json",
+      "relative_path": "1.1_ Detroit Droids vs Barrie Belgian Waffles__1520930134578823388/20260702_040312_981750527153016903_2026-07-01-23-46-07.json",
+      "timestamp_from_filename": "2026-07-01T23:46:07"
+    },
+    {
+      "original_name": "20260702_040312_981750527153016903_2026-07-01-23-52-12.json",
+      "relative_path": "1.1_ Detroit Droids vs Barrie Belgian Waffles__1520930134578823388/20260702_040312_981750527153016903_2026-07-01-23-52-12.json",
+      "timestamp_from_filename": "2026-07-01T23:52:12"
+    }
+  ],
+  "warnings": []
+}

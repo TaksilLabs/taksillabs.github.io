@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_7",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-02T05:02:36.286113+00:00",
+  "source_folder_name": "1.7_ Barrie Bag Chasers vs Vader Saboteurs__1520930561571426506",
+  "source_folder_path": "data/incoming_logs/unsorted/1.7_ Barrie Bag Chasers vs Vader Saboteurs__1520930561571426506",
+  "source_id": "1.7",
+  "thread_id": "1520930561571426506",
+  "detected_home_team": "Barrie Bag Chasers",
+  "detected_away_team": "Vader Saboteurs",
+  "matched_schedule_home_team_id": "barrie_bag_chasers",
+  "matched_schedule_away_team_id": "vader_saboteurs",
+  "matched_schedule_home_team": "Barrie Bag Chasers",
+  "matched_schedule_away_team": "Vader Saboteurs",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-01T21:08:42",
+  "last_log_timestamp": "2026-07-01T21:21:35",
+  "probable_start_time": "2026-07-01T21:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260702_012909_520793839301296128_2026-07-01-21-08-42.json",
+      "relative_path": "1.7_ Barrie Bag Chasers vs Vader Saboteurs__1520930561571426506/20260702_012909_520793839301296128_2026-07-01-21-08-42.json",
+      "timestamp_from_filename": "2026-07-01T21:08:42"
+    },
+    {
+      "original_name": "20260702_012909_520793839301296128_2026-07-01-21-15-07.json",
+      "relative_path": "1.7_ Barrie Bag Chasers vs Vader Saboteurs__1520930561571426506/20260702_012909_520793839301296128_2026-07-01-21-15-07.json",
+      "timestamp_from_filename": "2026-07-01T21:15:07"
+    },
+    {
+      "original_name": "20260702_012909_520793839301296128_2026-07-01-21-21-35.json",
+      "relative_path": "1.7_ Barrie Bag Chasers vs Vader Saboteurs__1520930561571426506/20260702_012909_520793839301296128_2026-07-01-21-21-35.json",
+      "timestamp_from_filename": "2026-07-01T21:21:35"
+    }
+  ],
+  "warnings": []
+}

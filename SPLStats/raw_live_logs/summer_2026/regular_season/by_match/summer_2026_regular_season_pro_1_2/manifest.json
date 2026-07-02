@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_pro_1_2",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "pro",
+  "imported_at_utc": "2026-07-02T05:02:36.255121+00:00",
+  "source_folder_name": "1.2_ Champaign Champagne vs Yucatan Yetis__1520927341025427558",
+  "source_folder_path": "data/incoming_logs/unsorted/1.2_ Champaign Champagne vs Yucatan Yetis__1520927341025427558",
+  "source_id": "1.2",
+  "thread_id": "1520927341025427558",
+  "detected_home_team": "Champaign Champagne",
+  "detected_away_team": "Yucatan Yetis",
+  "matched_schedule_home_team_id": "champaign_champagne",
+  "matched_schedule_away_team_id": "yucatn_yetis",
+  "matched_schedule_home_team": "Champaign Champagne",
+  "matched_schedule_away_team": "Yucatán Yetis",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-01T21:23:00",
+  "last_log_timestamp": "2026-07-01T21:36:22",
+  "probable_start_time": "2026-07-01T21:15:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260702_013721_493958038324117505_2026-07-01-21-23-00.json",
+      "relative_path": "1.2_ Champaign Champagne vs Yucatan Yetis__1520927341025427558/20260702_013721_493958038324117505_2026-07-01-21-23-00.json",
+      "timestamp_from_filename": "2026-07-01T21:23:00"
+    },
+    {
+      "original_name": "20260702_013721_493958038324117505_2026-07-01-21-29-21.json",
+      "relative_path": "1.2_ Champaign Champagne vs Yucatan Yetis__1520927341025427558/20260702_013721_493958038324117505_2026-07-01-21-29-21.json",
+      "timestamp_from_filename": "2026-07-01T21:29:21"
+    },
+    {
+      "original_name": "20260702_013721_493958038324117505_2026-07-01-21-36-22.json",
+      "relative_path": "1.2_ Champaign Champagne vs Yucatan Yetis__1520927341025427558/20260702_013721_493958038324117505_2026-07-01-21-36-22.json",
+      "timestamp_from_filename": "2026-07-01T21:36:22"
+    }
+  ],
+  "warnings": []
+}

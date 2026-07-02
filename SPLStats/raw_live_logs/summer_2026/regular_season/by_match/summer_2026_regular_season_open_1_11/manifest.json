@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_open_1_11",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "open",
+  "imported_at_utc": "2026-07-02T05:02:36.226874+00:00",
+  "source_folder_name": "1.11_ Beauport Lynx vs Vader Acolytes__1520928607139270687",
+  "source_folder_path": "data/incoming_logs/unsorted/1.11_ Beauport Lynx vs Vader Acolytes__1520928607139270687",
+  "source_id": "1.11",
+  "thread_id": "1520928607139270687",
+  "detected_home_team": "Beauport Lynx",
+  "detected_away_team": "Vader Acolytes",
+  "matched_schedule_home_team_id": "beauport_lynx",
+  "matched_schedule_away_team_id": "vader_acolytes",
+  "matched_schedule_home_team": "Beauport Lynx",
+  "matched_schedule_away_team": "Vader Acolytes",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-01T20:45:30",
+  "last_log_timestamp": "2026-07-01T20:57:58",
+  "probable_start_time": "2026-07-01T20:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260702_040539_370757850076807178_2026-07-01-20-45-30.json",
+      "relative_path": "1.11_ Beauport Lynx vs Vader Acolytes__1520928607139270687/20260702_040539_370757850076807178_2026-07-01-20-45-30.json",
+      "timestamp_from_filename": "2026-07-01T20:45:30"
+    },
+    {
+      "original_name": "20260702_040539_370757850076807178_2026-07-01-20-51-47.json",
+      "relative_path": "1.11_ Beauport Lynx vs Vader Acolytes__1520928607139270687/20260702_040539_370757850076807178_2026-07-01-20-51-47.json",
+      "timestamp_from_filename": "2026-07-01T20:51:47"
+    },
+    {
+      "original_name": "20260702_040539_370757850076807178_2026-07-01-20-57-58.json",
+      "relative_path": "1.11_ Beauport Lynx vs Vader Acolytes__1520928607139270687/20260702_040539_370757850076807178_2026-07-01-20-57-58.json",
+      "timestamp_from_filename": "2026-07-01T20:57:58"
+    }
+  ],
+  "warnings": []
+}
