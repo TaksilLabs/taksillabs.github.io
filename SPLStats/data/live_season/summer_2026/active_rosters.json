@@ -2161,12 +2161,19 @@
           "role": "player",
           "steam_name": "headass",
           "slap_id": "173111"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tony",
+          "jersey_number": "",
+          "slap_id": "1294369"
         }
       ],
       "slap_ids": [
         "1378966",
         "550187",
-        "173111"
+        "173111",
+        "1294369"
       ],
       "season_id": "summer_2026",
       "division": "masters",

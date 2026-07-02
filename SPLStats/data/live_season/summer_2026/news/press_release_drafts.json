@@ -2,6 +2,45 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-02_salem_cats_roster_moves",
+      "transaction_ids": [
+        "20260702T050210Z_salem_cats_add_tony"
+      ],
+      "transaction_id": "20260702T050210Z_salem_cats_add_tony",
+      "status": "draft",
+      "created_at_utc": "2026-07-02T05:02:10Z",
+      "updated_at_utc": "2026-07-02T05:02:10Z",
+      "headline": "Salem Cats Add Tony",
+      "subheadline": "The Salem Cats have added Tony to their active roster.",
+      "slug": "salem-cats-add-tony",
+      "team_id": "salem_cats",
+      "team_abbreviation": "SAL",
+      "team_display_name": "Salem Cats",
+      "division": "masters",
+      "region": "west",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "tony",
+          "player_display_name": "Tony",
+          "slap_id": "1294369",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "salem_cats",
+        "masters"
+      ],
+      "body_markdown": "The Salem Cats have added Tony to their active roster adding another card to their deck.\n\nThe move gives the Salem Cats another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-02_atlantic_city_zootiez_roster_moves",
       "transaction_ids": [
         "20260702T002802Z_atlantic_city_zootiez_add_mr_pigeon",
