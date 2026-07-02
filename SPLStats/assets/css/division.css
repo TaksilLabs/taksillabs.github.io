@@ -587,6 +587,27 @@ Hero Division Badges
 
 /**/
 
+/*Roster Wire Link*/
+
+
+.transaction-wire-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.transaction-wire-title-link span {
+  color: var(--accent, #00d1d1);
+}
+
+.transaction-wire-title-link:hover span {
+  text-decoration: none;
+  color:aqua;
+  text-underline-offset: 4px;
+}
+
+
+/**/
+
 
 @media (max-width: 1220px) {
   .division-layout {

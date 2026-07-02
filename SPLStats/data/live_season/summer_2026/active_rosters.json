@@ -107,15 +107,23 @@
         },
         {
           "role": "player",
-          "steam_name": "Nayr[QC]",
-          "slap_id": "286293"
+          "steam_name": "Mr Pigeon",
+          "jersey_number": "",
+          "slap_id": "508645"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "jersey_number": "",
+          "slap_id": "183790"
         }
       ],
       "slap_ids": [
         "950305",
         "948283",
         "72269",
-        "286293"
+        "508645",
+        "183790"
       ],
       "season_id": "summer_2026",
       "division": "central_b",

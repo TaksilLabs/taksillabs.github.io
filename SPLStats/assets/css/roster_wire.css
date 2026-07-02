@@ -170,12 +170,14 @@
     transform 0.16s ease,
     border-color 0.16s ease,
     box-shadow 0.16s ease;
+  text-decoration: none;
 }
 
 .roster-wire-row:hover .roster-wire-card {
   transform: translateY(-2px);
   border-color: var(--team-primary, var(--accent, #00d1d1));
   box-shadow: 0 22px 70px rgba(0, 0, 0, 0.36);
+  text-decoration: none;
 }
 
 .roster-wire-card::after {

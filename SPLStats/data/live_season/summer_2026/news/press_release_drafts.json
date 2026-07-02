@@ -2,6 +2,53 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-02_atlantic_city_zootiez_roster_moves",
+      "transaction_ids": [
+        "20260702T002802Z_atlantic_city_zootiez_add_mr_pigeon",
+        "20260702T002802Z_atlantic_city_zootiez_remove_nayr_qc"
+      ],
+      "transaction_id": "",
+      "status": "draft",
+      "created_at_utc": "2026-07-02T00:28:02Z",
+      "updated_at_utc": "2026-07-02T00:28:02Z",
+      "headline": "Atlantic City Zootiez$ Make Roster Moves",
+      "subheadline": "The Zootiez$ have added Mr Pigeon and removed Nayr[QC] from their active roster.",
+      "slug": "atlantic-city-zootiezs-make-roster-moves",
+      "team_id": "atlantic_city_zootiez",
+      "team_abbreviation": "ACZ",
+      "team_display_name": "Atlantic City Zootiez$",
+      "division": "central_b",
+      "region": "central",
+      "conference": "2",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "mr_pigeon",
+          "player_display_name": "Mr Pigeon",
+          "slap_id": "508645",
+          "jersey_number": ""
+        },
+        {
+          "type": "remove",
+          "player_id": "nayr_qc",
+          "player_display_name": "Nayr[QC]",
+          "slap_id": "286293",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "atlantic_city_zootiez",
+        "central_b"
+      ],
+      "body_markdown": "The Atlantic City Zootiez$ have added Mr Pigeon and removed Nayr[QC] from their active roster.\n\nThe move gives the Zootiez$ another option as they continue to shape their roster for the current campaign.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-01_boston_shufflebottoms_roster_moves",
       "transaction_ids": [
         "20260701T231116Z_boston_shufflebottoms_add_dumbasrocks420"
