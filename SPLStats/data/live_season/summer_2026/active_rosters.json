@@ -154,23 +154,23 @@
         },
         {
           "role": "player",
-          "steam_name": "yackslack",
-          "slap_id": "640761",
-          "jersey_number": "23"
-        },
-        {
-          "role": "player",
           "steam_name": "Baumz",
           "jersey_number": "69",
           "slap_id": "55"
+        },
+        {
+          "role": "player",
+          "steam_name": "N1xoh",
+          "jersey_number": "",
+          "slap_id": "1766"
         }
       ],
       "slap_ids": [
         "154305",
         "1320348",
         "1419124",
-        "640761",
-        "55"
+        "55",
+        "1766"
       ],
       "season_id": "summer_2026",
       "division": "central_a",
@@ -2313,13 +2313,20 @@
           "role": "player",
           "steam_name": "TheRealAmeriCam",
           "slap_id": "1937517"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sowwea",
+          "jersey_number": "",
+          "slap_id": "2129"
         }
       ],
       "slap_ids": [
         "184180",
         "1771333",
         "1562745",
-        "1937517"
+        "1937517",
+        "2129"
       ],
       "season_id": "summer_2026",
       "division": "open",

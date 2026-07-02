@@ -2,6 +2,92 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-02_barcelona_bobos_prep_academy_roster_moves",
+      "transaction_ids": [
+        "20260702T224814Z_barcelona_bobos_prep_academy_add_n1xoh",
+        "20260702T224814Z_barcelona_bobos_prep_academy_remove_yackslack"
+      ],
+      "transaction_id": "",
+      "status": "draft",
+      "created_at_utc": "2026-07-02T22:48:14Z",
+      "updated_at_utc": "2026-07-02T22:48:14Z",
+      "headline": "Barcelona Bobos Prep Academy Make Roster Moves",
+      "subheadline": "The Barcelona Bobos Prep Academy have added N1xoh and removed #23 yackslack from their active roster.",
+      "slug": "barcelona-bobos-prep-academy-make-roster-moves",
+      "team_id": "barcelona_bobos_prep_academy",
+      "team_abbreviation": "BBPA",
+      "team_display_name": "Barcelona Bobos Prep Academy",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "n1xoh",
+          "player_display_name": "N1xoh",
+          "slap_id": "1766",
+          "jersey_number": ""
+        },
+        {
+          "type": "remove",
+          "player_id": "yackslack",
+          "player_display_name": "yackslack",
+          "slap_id": "640761",
+          "jersey_number": "23"
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "barcelona_bobos_prep_academy",
+        "central_a"
+      ],
+      "body_markdown": "The Barcelona Bobos Prep Academy have added N1xoh and removed #23 yackslack from their active roster.\n\nThe move gives the Barcelona Bobos Prep Academy another option as they continue to shape their roster for the current campaign.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-02_vader_acolytes_roster_moves",
+      "transaction_ids": [
+        "20260702T224639Z_vader_acolytes_add_sowwea"
+      ],
+      "transaction_id": "20260702T224639Z_vader_acolytes_add_sowwea",
+      "status": "draft",
+      "created_at_utc": "2026-07-02T22:46:39Z",
+      "updated_at_utc": "2026-07-02T22:46:39Z",
+      "headline": "Vader Acolytes Add Sowwea",
+      "subheadline": "The Vader Acolytes have added Sowwea to their active roster.",
+      "slug": "vader-acolytes-add-sowwea",
+      "team_id": "vader_acolytes",
+      "team_abbreviation": "VADA",
+      "team_display_name": "Vader Acolytes",
+      "division": "open",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "sowwea",
+          "player_display_name": "Sowwea",
+          "slap_id": "2129",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "vader_acolytes",
+        "open"
+      ],
+      "body_markdown": "The Vader Acolytes have added Sowwea to their active roster adding another card to their deck.\n\nThe move gives the Vader Acolytes another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-02_salem_cats_roster_moves",
       "transaction_ids": [
         "20260702T050210Z_salem_cats_add_tony"
