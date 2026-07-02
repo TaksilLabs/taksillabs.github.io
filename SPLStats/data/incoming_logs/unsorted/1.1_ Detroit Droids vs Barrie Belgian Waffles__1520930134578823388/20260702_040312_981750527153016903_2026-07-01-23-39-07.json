@@ -1,0 +1,144 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 3,
+                "score": 290,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 4,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 28
+            },
+            "username": "Hydroid.",
+            "game_user_id": "1836154"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 160,
+                "shots": 4,
+                "blocks": 3,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 6
+            },
+            "username": "nutsack6",
+            "game_user_id": "914448"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 510,
+                "shots": 6,
+                "passes": 7,
+                "turnovers": 3,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 2
+            },
+            "username": "gold",
+            "game_user_id": "914959"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 290,
+                "shots": 3,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 5,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "Trid",
+            "game_user_id": "1127790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "saves": 7,
+                "score": 630,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 8,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 1
+            },
+            "username": "Beefus",
+            "game_user_id": "1354924"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 95,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 12,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 5,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 1
+            },
+            "username": "kevin🍾",
+            "game_user_id": "594707"
+        }
+    ],
+    "match_id": "3fd64fc9-1d42-4f76-9270-4e5c7c077a81",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
