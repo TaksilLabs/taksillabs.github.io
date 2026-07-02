@@ -1,0 +1,445 @@
+.roster-wire-header {
+  padding: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    radial-gradient(circle at top right, rgba(0, 209, 209, 0.12), transparent 34%),
+    rgba(8, 14, 22, 0.96);
+}
+
+.roster-wire-hero {
+  width: min(1180px, 100%);
+  margin: 34px auto 8px;
+  text-align: center;
+}
+
+.roster-wire-kicker {
+  display: block;
+  color: var(--accent, #00d1d1);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.roster-wire-hero h1 {
+  margin: 0;
+  color: var(--text, #f4f4f4);
+  font-size: clamp(2.6rem, 7vw, 6rem);
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+
+.roster-wire-hero p {
+  max-width: 680px;
+  margin: 18px auto 0;
+  color: var(--muted, #9fb3c8);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.roster-wire-layout {
+  width: min(1180px, calc(100% - 32px));
+  margin: 22px auto 80px;
+}
+
+.roster-wire-controls {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 26px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: rgba(12, 20, 28, 0.84);
+}
+
+.filter-group {
+  display: grid;
+  gap: 8px;
+}
+
+.filter-title {
+  color: var(--muted, #9fb3c8);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-button {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  background: rgba(7, 16, 24, 0.86);
+  color: var(--muted, #9fb3c8);
+  padding: 8px 12px;
+  font-size: 0.84rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  border-color: var(--accent, #00d1d1);
+  color: var(--text, #f4f4f4);
+}
+
+.filter-button.is-active {
+  color: var(--text, #f4f4f4);
+  border-color: var(--accent, #00d1d1);
+  background: rgba(0, 209, 209, 0.14);
+}
+
+.filter-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.roster-wire-timeline {
+  position: relative;
+  display: grid;
+  gap: 16px;
+}
+
+.roster-wire-timeline::before {
+  content: "";
+  position: absolute;
+  left: 31px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 209, 209, 0.1),
+    rgba(0, 209, 209, 0.55),
+    rgba(0, 209, 209, 0.1)
+  );
+}
+
+.roster-wire-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 16px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.roster-wire-dot {
+  position: relative;
+  z-index: 2;
+  width: 64px;
+  display: grid;
+  justify-items: center;
+  padding-top: 24px;
+}
+
+.roster-wire-dot::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--team-primary, var(--accent, #00d1d1));
+  box-shadow:
+    0 0 0 6px rgba(7, 16, 24, 1),
+    0 0 22px var(--team-primary, var(--accent, #00d1d1));
+}
+
+.roster-wire-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 146px;
+  padding: 18px 20px 18px;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, var(--team-primary, #00d1d1) 38%, rgba(255,255,255,0.1));
+  background:
+    radial-gradient(circle at top left, color-mix(in srgb, var(--team-primary, #00d1d1) 18%, transparent), transparent 32%),
+    linear-gradient(135deg, rgba(12, 20, 28, 0.96), rgba(7, 16, 24, 0.96));
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.28);
+  transition:
+    transform 0.16s ease,
+    border-color 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.roster-wire-row:hover .roster-wire-card {
+  transform: translateY(-2px);
+  border-color: var(--team-primary, var(--accent, #00d1d1));
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.36);
+}
+
+.roster-wire-card::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--team-primary, #00d1d1),
+    var(--team-secondary, #ffffff)
+  );
+  opacity: 0.88;
+}
+
+.roster-wire-top {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items: start;
+  margin-bottom: 14px;
+}
+
+.roster-wire-team {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+}
+
+.roster-wire-team-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.45));
+}
+
+.roster-wire-team-text {
+  min-width: 0;
+}
+
+.roster-wire-team-text strong {
+  display: block;
+  color: var(--text, #f4f4f4);
+  font-size: 1.05rem;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.roster-wire-date {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted, #9fb3c8);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.roster-wire-division {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--muted, #9fb3c8);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.roster-wire-division img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.roster-wire-lines {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 8px;
+}
+
+.roster-wire-player-line {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--text, #f4f4f4);
+  font-size: 1.06rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.roster-wire-symbol {
+  width: 22px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.roster-wire-player-line.add .roster-wire-symbol {
+  color: #5cff9d;
+}
+
+.roster-wire-player-line.remove .roster-wire-symbol {
+  color: #ff5c5c;
+}
+
+.roster-wire-player-meta {
+  color: var(--muted, #9fb3c8);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.roster-wire-summary {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.roster-wire-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  background: rgba(7, 16, 24, 0.72);
+  color: var(--muted, #9fb3c8);
+  padding: 5px 9px;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.roster-wire-ghost-number {
+  position: absolute;
+  right: 16px;
+  bottom: -26px;
+  color: rgba(255, 255, 255, 0.045);
+  font-size: 7rem;
+  line-height: 1;
+  font-weight: 900;
+  pointer-events: none;
+}
+
+.roster-wire-empty,
+.roster-wire-loading,
+.roster-wire-end {
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  background: rgba(12, 20, 28, 0.86);
+  color: var(--muted, #9fb3c8);
+  text-align: center;
+}
+
+.roster-wire-sentinel {
+  min-height: 1px;
+}
+
+.roster-lock-countdown {
+  width: fit-content;
+  margin: 22px auto 0;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 209, 209, 0.28);
+  background:
+    radial-gradient(circle at top left, rgba(0, 209, 209, 0.16), transparent 38%),
+    rgba(12, 20, 28, 0.86);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.26);
+  text-align: center;
+}
+
+.roster-lock-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--accent, #00d1d1);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.roster-lock-time {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.roster-lock-time span {
+  min-width: 72px;
+  padding: 9px 10px;
+  border-radius: 12px;
+  background: rgba(7, 16, 24, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--muted, #9fb3c8);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.roster-lock-time strong {
+  display: block;
+  color: var(--text, #f4f4f4);
+  font-size: 1.45rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.roster-lock-date {
+  display: block;
+  margin-top: 9px;
+  color: var(--muted, #9fb3c8);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.roster-lock-countdown.is-locked {
+  border-color: rgba(255, 92, 92, 0.45);
+  background:
+    radial-gradient(circle at top left, rgba(255, 92, 92, 0.18), transparent 38%),
+    rgba(12, 20, 28, 0.86);
+}
+
+.roster-lock-countdown.is-locked .roster-lock-label {
+  color: #ff5c5c;
+}
+
+@media (max-width: 760px) {
+  .roster-wire-layout {
+    width: min(100% - 20px, 1180px);
+  }
+
+  .roster-wire-timeline::before {
+    display: none;
+  }
+
+  .roster-wire-row {
+    grid-template-columns: 1fr;
+  }
+
+  .roster-wire-dot {
+    display: none;
+  }
+
+  .roster-wire-top {
+    grid-template-columns: 1fr;
+  }
+
+  .roster-wire-division {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .roster-wire-team-text strong {
+    white-space: normal;
+  }
+}
