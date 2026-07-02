@@ -2,7 +2,7 @@
   "season_id": "summer_2026",
   "season_name": "Summer 2026",
   "season_type": "regular_season",
-  "generated_at_utc": "2026-07-01T22:01:32.896807+00:00",
+  "generated_at_utc": "2026-07-02T00:49:29.599305+00:00",
   "match_count": 26,
   "completed_match_count": 19,
   "matches": [
@@ -289,7 +289,7 @@
       "source_folder_name": "1.16_ Battle Creek Kings vs Vader Saboteurs__1520930610217091152",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_4",
@@ -725,20 +725,20 @@
       },
       "season_name": "Summer 2026",
       "phase": "regular_season",
-      "home_score": 4,
-      "away_score": 7,
-      "winner_team_id": "okinawa_generations",
-      "loser_team_id": "cold_lake_upper_deckies",
-      "end_reason": "EndOfRegulation",
+      "home_score": 10,
+      "away_score": 0,
+      "winner_team_id": "cold_lake_upper_deckies",
+      "loser_team_id": "okinawa_generations",
+      "end_reason": "MercyRule",
       "overtime": false,
-      "period": 3,
+      "period": 2,
       "thread_id": "1520927488530714635",
       "log_folder": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_4",
-      "report_file": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_4/original/1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635/20260701_025226_449703678585339915_2026-06-30-22-23-07.json",
-      "side_mapping": "swapped",
-      "side_mapping_confidence": 3,
-      "side_mapping_normal_score": 1,
-      "side_mapping_swapped_score": 3,
+      "report_file": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_4/original/1.4_ Cold Lake Upper Deckies vs Okinawa Generations__1520927488530714635/20260701_025226_449703678585339915_2026-06-30-22-39-47.json",
+      "side_mapping": "normal",
+      "side_mapping_confidence": 7,
+      "side_mapping_normal_score": 7,
+      "side_mapping_swapped_score": 0,
       "warnings": [],
       "first_log_timestamp": "2026-06-30T22:23:07",
       "last_log_timestamp": "2026-06-30T22:39:47",
@@ -977,7 +977,7 @@
       "source_folder_name": "1.9_ Pawnee Post Syrup Intake Authority vs Edmonton Bears__1520927508101337288",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_12",
@@ -1207,7 +1207,7 @@
       "source_folder_name": "1.4_ No Name Nighthawks vs Whitby Wombats__1520931891187028139",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_5",

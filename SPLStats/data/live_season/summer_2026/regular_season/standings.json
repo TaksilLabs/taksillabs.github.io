@@ -1403,7 +1403,7 @@
     },
     {
       "rank": null,
-      "division_rank": 5,
+      "division_rank": 6,
       "conference_rank": 3,
       "team_id": "camden_crook",
       "team": "Camden Crook$",
@@ -1446,7 +1446,7 @@
       ],
       "playoff_bucket": "wildcard",
       "playoff_seed": null,
-      "wildcard_rank": 1,
+      "wildcard_rank": 2,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1456,7 +1456,7 @@
     },
     {
       "rank": null,
-      "division_rank": 6,
+      "division_rank": 7,
       "conference_rank": 4,
       "team_id": "ottawa_valley_post_dingers",
       "team": "Ottawa Valley Post Dingers",
@@ -1497,9 +1497,9 @@
         "Still tied with Seattle Cyclones; Best-of-1 may be required.",
         "Still tied with Vader Wookies; Best-of-1 may be required."
       ],
-      "playoff_bucket": "wildcard",
+      "playoff_bucket": "bubble",
       "playoff_seed": null,
-      "wildcard_rank": 2,
+      "wildcard_rank": 3,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1509,7 +1509,7 @@
     },
     {
       "rank": null,
-      "division_rank": 8,
+      "division_rank": 9,
       "conference_rank": 5,
       "team_id": "seattle_cyclones",
       "team": "Seattle Cyclones",
@@ -1552,7 +1552,7 @@
       ],
       "playoff_bucket": "bubble",
       "playoff_seed": null,
-      "wildcard_rank": 4,
+      "wildcard_rank": 5,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1562,7 +1562,7 @@
     },
     {
       "rank": null,
-      "division_rank": 10,
+      "division_rank": 11,
       "conference_rank": 6,
       "team_id": "vader_wookies",
       "team": "Vader Wookies",
@@ -1603,9 +1603,9 @@
         "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
         "Still tied with Seattle Cyclones; Best-of-1 may be required."
       ],
-      "playoff_bucket": "bubble",
+      "playoff_bucket": "chase",
       "playoff_seed": null,
-      "wildcard_rank": 6,
+      "wildcard_rank": 7,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1617,53 +1617,41 @@
       "rank": null,
       "division_rank": 1,
       "conference_rank": 1,
-      "team_id": "okinawa_generations",
-      "team": "Okinawa Generations",
-      "team_display_name": "Okinawa Generations",
-      "team_abbreviation": "OKG",
+      "team_id": "cold_lake_upper_deckies",
+      "team": "Cold Lake Upper Deckies",
+      "team_display_name": "Cold Lake Upper Deckies",
+      "team_abbreviation": "CLUD",
       "season_id": "summer_2026",
       "season_name": "Summer 2026",
       "season_type": "regular_season",
       "region": "east",
       "division": "challenger",
       "conference": "2",
-      "games_played": 3,
-      "wins": 2,
-      "regulation_losses": 1,
+      "games_played": 1,
+      "wins": 1,
+      "regulation_losses": 0,
       "overtime_losses": 0,
-      "points": 4,
-      "goals_for": 18,
-      "goals_against": 13,
-      "goal_diff": 5,
-      "last_5": "2-1-0",
+      "points": 2,
+      "goals_for": 10,
+      "goals_against": 0,
+      "goal_diff": 10,
+      "last_5": "1-0-0",
       "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_challenger_1_16",
-          "source_id": "1.16",
-          "result": "W",
-          "overtime": false,
-          "goals_for": 5,
-          "goals_against": 2
-        },
         {
           "match_id": "summer_2026_regular_season_challenger_1_4",
           "source_id": "1.4",
           "result": "W",
           "overtime": false,
-          "goals_for": 7,
-          "goals_against": 4
-        },
-        {
-          "match_id": "summer_2026_regular_season_challenger_1_8",
-          "source_id": "1.8",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 6,
-          "goals_against": 7
+          "goals_for": 10,
+          "goals_against": 0
         }
       ],
-      "tiebreaker_status": "none",
-      "tiebreaker_notes": [],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
       "playoff_bucket": "automatic_qualifier",
       "playoff_seed": null,
       "wildcard_rank": null,
@@ -1678,6 +1666,71 @@
       "rank": null,
       "division_rank": 4,
       "conference_rank": 2,
+      "team_id": "okinawa_generations",
+      "team": "Okinawa Generations",
+      "team_display_name": "Okinawa Generations",
+      "team_abbreviation": "OKG",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "challenger",
+      "conference": "2",
+      "games_played": 3,
+      "wins": 1,
+      "regulation_losses": 2,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 11,
+      "goals_against": 19,
+      "goal_diff": -8,
+      "last_5": "1-2-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_challenger_1_16",
+          "source_id": "1.16",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 5,
+          "goals_against": 2
+        },
+        {
+          "match_id": "summer_2026_regular_season_challenger_1_4",
+          "source_id": "1.4",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 0,
+          "goals_against": 10
+        },
+        {
+          "match_id": "summer_2026_regular_season_challenger_1_8",
+          "source_id": "1.8",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 6,
+          "goals_against": 7
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "automatic_qualifier",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 2,
+        "wildcard_count": 2,
+        "bubble_count": 4,
+        "playoff_team_count": 6
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 5,
+      "conference_rank": 3,
       "team_id": "pawnee_post_syrup_intake_authority",
       "team": "Pawnee Post Syrup Intake Authority",
       "team_display_name": "Pawnee Post Syrup Intake Authority",
@@ -1709,9 +1762,9 @@
       ],
       "tiebreaker_status": "none",
       "tiebreaker_notes": [],
-      "playoff_bucket": "automatic_qualifier",
+      "playoff_bucket": "wildcard",
       "playoff_seed": null,
-      "wildcard_rank": null,
+      "wildcard_rank": 1,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1721,8 +1774,8 @@
     },
     {
       "rank": null,
-      "division_rank": 7,
-      "conference_rank": 3,
+      "division_rank": 8,
+      "conference_rank": 4,
       "team_id": "quebec_flare",
       "team": "Quebec Flare",
       "team_display_name": "Quebec Flare",
@@ -1756,7 +1809,7 @@
       ],
       "playoff_bucket": "bubble",
       "playoff_seed": null,
-      "wildcard_rank": 3,
+      "wildcard_rank": 4,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1766,8 +1819,8 @@
     },
     {
       "rank": null,
-      "division_rank": 9,
-      "conference_rank": 4,
+      "division_rank": 10,
+      "conference_rank": 5,
       "team_id": "vader_eastern_attackers",
       "team": "Vader Eastern Attackers",
       "team_display_name": "Vader Eastern Attackers",
@@ -1801,61 +1854,7 @@
       ],
       "playoff_bucket": "bubble",
       "playoff_seed": null,
-      "wildcard_rank": 5,
-      "playoff_config": {
-        "auto_per_conference": 2,
-        "wildcard_count": 2,
-        "bubble_count": 4,
-        "playoff_team_count": 6
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 11,
-      "conference_rank": 5,
-      "team_id": "cold_lake_upper_deckies",
-      "team": "Cold Lake Upper Deckies",
-      "team_display_name": "Cold Lake Upper Deckies",
-      "team_abbreviation": "CLUD",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "challenger",
-      "conference": "2",
-      "games_played": 1,
-      "wins": 0,
-      "regulation_losses": 1,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 4,
-      "goals_against": 7,
-      "goal_diff": -3,
-      "last_5": "0-1-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_challenger_1_4",
-          "source_id": "1.4",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 4,
-          "goals_against": 7
-        }
-      ],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader Stars; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader Stars; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader Stars; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader Stars; Best-of-1 may be required."
-      ],
-      "playoff_bucket": "chase",
-      "playoff_seed": null,
-      "wildcard_rank": 7,
+      "wildcard_rank": 6,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1896,16 +1895,12 @@
           "goals_against": 5
         }
       ],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Cold Lake Upper Deckies; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Cold Lake Upper Deckies; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Cold Lake Upper Deckies; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Cold Lake Upper Deckies; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "chase",
       "playoff_seed": null,
