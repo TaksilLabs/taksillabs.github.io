@@ -236,6 +236,85 @@ function getThemeValue(teamId, key, fallback) {
   return theme[key] || fallback;
 }
 
+// --- Slapshot: Rebound "clubs" console command -----------------------------
+// Builds a copy-pasteable `clubs set` command for this matchup, using each
+// team's slug as the clubs.json `key`. If the two teams' home colors are too
+// close to tell apart on the ice, the away team is switched to its away
+// color set (clubs.json always mirrors primary/secondary for the away set).
+
+function hexToRgb(hex) {
+  const clean = cleanText(hex).replace("#", "");
+  if (clean.length !== 6) return null;
+
+  const num = parseInt(clean, 16);
+  if (Number.isNaN(num)) return null;
+
+  return {
+    r: (num >> 16) & 255,
+    g: (num >> 8) & 255,
+    b: num & 255
+  };
+}
+
+function colorDistance(hexA, hexB) {
+  const a = hexToRgb(hexA);
+  const b = hexToRgb(hexB);
+  if (!a || !b) return Infinity;
+
+  return Math.sqrt(
+    (a.r - b.r) ** 2 +
+    (a.g - b.g) ** 2 +
+    (a.b - b.b) ** 2
+  );
+}
+
+// Below this Euclidean RGB distance (out of a max of ~441), two colors are
+// considered too close to distinguish at a glance.
+const CLUBS_COLOR_COLLISION_THRESHOLD = 110;
+
+// Approximate colors Slapshot: Rebound shows for a team with no clubs.json
+// entry at all (i.e. not one of the teams we have real branding for) — the
+// `key:home`/`key:away` suffix still selects between these two generic
+// looks even when `key` isn't a recognized club. Best-guess values pending
+// exact hex confirmed in-game; safe to tighten later.
+const ENGINE_DEFAULT_HOME_COLOR = "#ED4949"; // matches clubs.json's own TEMPLATE red
+const ENGINE_DEFAULT_AWAY_COLOR = "#4A90E2"; // approximate default blue
+
+function hasCustomClub(teamId) {
+  return Boolean(getTeamMetadata(teamId)?.logo);
+}
+
+// The color a team will actually show for a given scheme — its real
+// clubs.json theme if it has one, otherwise the engine's generic default
+// for that scheme (since unrecognized keys still respect the suffix).
+function getEffectiveClubColor(teamId, scheme) {
+  if (hasCustomClub(teamId)) {
+    const key = scheme === "home" ? "primary" : "secondary";
+    return getThemeValue(teamId, key, scheme === "home" ? "#ffffff" : "#111111");
+  }
+
+  return scheme === "home" ? ENGINE_DEFAULT_HOME_COLOR : ENGINE_DEFAULT_AWAY_COLOR;
+}
+
+function buildClubsCommand(match) {
+  const homeId = match.home_team_id;
+  const awayId = match.away_team_id;
+
+  // Default: home team on its home scheme, away team on its away scheme
+  // (clubs.json mirrors primary/secondary for the away set, so the away
+  // team's "away primary" is its theme secondary — that's the whole point
+  // of the away scheme, keeping the visiting team visually distinct). This
+  // applies just the same whether either team has a real clubs.json entry
+  // or is showing the engine's generic default for that scheme.
+  const homeColor = getEffectiveClubColor(homeId, "home");
+  const awayAsAwayColor = getEffectiveClubColor(awayId, "away");
+
+  const collides = colorDistance(homeColor, awayAsAwayColor) < CLUBS_COLOR_COLLISION_THRESHOLD;
+  const awayScheme = collides ? "home" : "away";
+
+  return `clubs set ${homeId}:home ${awayId}:${awayScheme}`;
+}
+
 function pageStyle(match) {
   const homePrimary = getThemeValue(match.home_team_id, "primary", "#7bdff2");
   const homeCard = getThemeValue(match.home_team_id, "card", "#111111");
@@ -458,6 +537,15 @@ function renderHero(match) {
               ? `<span>${getFinalType(match)}</span>`
               : ""
           }
+
+          <button
+            id="copyClubsCommandBtn"
+            class="status-pill clubs-command-pill"
+            type="button"
+            title="Copy the Slapshot: Rebound console command for this matchup"
+          >
+            Styles
+          </button>
         </div>
 
         ${
@@ -878,6 +966,32 @@ function formatShotPeriod(period) {
   return period;
 }
 
+function attachClubsCommandButton(match) {
+  const button = document.querySelector("#copyClubsCommandBtn");
+
+  if (!button) return;
+
+  const originalLabel = button.textContent;
+
+  button.addEventListener("click", async () => {
+    const command = buildClubsCommand(match);
+
+    try {
+      await navigator.clipboard.writeText(command);
+    } catch (error) {
+      console.warn("Clipboard write failed", error);
+    }
+
+    button.textContent = "Copied!";
+    button.classList.add("copied");
+
+    setTimeout(() => {
+      button.textContent = originalLabel;
+      button.classList.remove("copied");
+    }, 1500);
+  });
+}
+
 function attachShotMapFilters() {
   const teamFilter = document.querySelector("#shotTeamFilter");
   const resultFilter = document.querySelector("#shotResultFilter");
@@ -1225,6 +1339,7 @@ function renderMatchPage(match) {
   `;
 
   attachShotMapFilters();
+  attachClubsCommandButton(match);
 }
 
 async function loadMatchData() {
