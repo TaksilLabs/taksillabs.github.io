@@ -8,7 +8,7 @@
     "active_rosters": "data/live_season/summer_2026/active_rosters.json"
   },
   "team_count": 73,
-  "completed_match_count": 44,
+  "completed_match_count": 46,
   "standings": [
     {
       "rank": null,
@@ -3047,62 +3047,6 @@
       "rank": null,
       "division_rank": 4,
       "conference_rank": 4,
-      "team_id": "vader_voltage",
-      "team": "Vader Voltage",
-      "team_display_name": "Vader Voltage",
-      "team_abbreviation": "VOLT",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "pro",
-      "conference": "1",
-      "games_played": 2,
-      "wins": 1,
-      "regulation_losses": 1,
-      "overtime_losses": 0,
-      "points": 2,
-      "goals_for": 17,
-      "goals_against": 16,
-      "goal_diff": 1,
-      "last_5": "1-1-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_pro_1_5",
-          "source_id": "1.5",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 5,
-          "goals_against": 10
-        },
-        {
-          "match_id": "summer_2026_regular_season_pro_1_8",
-          "source_id": "1.8",
-          "result": "W",
-          "overtime": false,
-          "goals_for": 12,
-          "goals_against": 6
-        }
-      ],
-      "tiebreaker_status": "applied",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 5,
-      "conference_rank": 5,
       "team_id": "ottawa_valley_puck_slappers",
       "team": "Ottawa Valley Puck Slappers",
       "team_display_name": "Ottawa Valley Puck Slappers",
@@ -3113,16 +3057,24 @@
       "region": "east",
       "division": "pro",
       "conference": "1",
-      "games_played": 2,
-      "wins": 1,
+      "games_played": 3,
+      "wins": 2,
       "regulation_losses": 1,
       "overtime_losses": 0,
-      "points": 2,
-      "goals_for": 11,
-      "goals_against": 17,
-      "goal_diff": -6,
-      "last_5": "1-1-0",
+      "points": 4,
+      "goals_for": 16,
+      "goals_against": 21,
+      "goal_diff": -5,
+      "last_5": "2-1-0",
       "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_14",
+          "source_id": "1.14",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 5,
+          "goals_against": 4
+        },
         {
           "match_id": "summer_2026_regular_season_pro_1_4",
           "source_id": "1.4",
@@ -3157,8 +3109,128 @@
     },
     {
       "rank": null,
+      "division_rank": 5,
+      "conference_rank": 5,
+      "team_id": "yucatn_yetis",
+      "team": "Yucatán Yetis",
+      "team_display_name": "Yucatán Yetis",
+      "team_abbreviation": "YETI",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "pro",
+      "conference": "1",
+      "games_played": 2,
+      "wins": 1,
+      "regulation_losses": 1,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 15,
+      "goals_against": 18,
+      "goal_diff": -3,
+      "last_5": "1-1-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_15",
+          "source_id": "1.15",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 9,
+          "goals_against": 7
+        },
+        {
+          "match_id": "summer_2026_regular_season_pro_1_2",
+          "source_id": "1.2",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 6,
+          "goals_against": 11
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
       "division_rank": 6,
       "conference_rank": 6,
+      "team_id": "vader_voltage",
+      "team": "Vader Voltage",
+      "team_display_name": "Vader Voltage",
+      "team_abbreviation": "VOLT",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "pro",
+      "conference": "1",
+      "games_played": 3,
+      "wins": 1,
+      "regulation_losses": 2,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 24,
+      "goals_against": 25,
+      "goal_diff": -1,
+      "last_5": "1-2-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_15",
+          "source_id": "1.15",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 7,
+          "goals_against": 9
+        },
+        {
+          "match_id": "summer_2026_regular_season_pro_1_5",
+          "source_id": "1.5",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 5,
+          "goals_against": 10
+        },
+        {
+          "match_id": "summer_2026_regular_season_pro_1_8",
+          "source_id": "1.8",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 12,
+          "goals_against": 6
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 7,
+      "conference_rank": 7,
       "team_id": "boston_bobos",
       "team": "Boston Bobos",
       "team_display_name": "Boston Bobos",
@@ -3202,8 +3274,8 @@
     },
     {
       "rank": null,
-      "division_rank": 7,
-      "conference_rank": 7,
+      "division_rank": 8,
+      "conference_rank": 8,
       "team_id": "beverly_hills_bobos",
       "team": "Beverly Hills Bobos",
       "team_display_name": "Beverly Hills Bobos",
@@ -3241,54 +3313,6 @@
     },
     {
       "rank": null,
-      "division_rank": 8,
-      "conference_rank": 8,
-      "team_id": "yucatn_yetis",
-      "team": "Yucatán Yetis",
-      "team_display_name": "Yucatán Yetis",
-      "team_abbreviation": "YETI",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "pro",
-      "conference": "1",
-      "games_played": 1,
-      "wins": 0,
-      "regulation_losses": 1,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 6,
-      "goals_against": 11,
-      "goal_diff": -5,
-      "last_5": "0-1-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_pro_1_2",
-          "source_id": "1.2",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 6,
-          "goals_against": 11
-        }
-      ],
-      "tiebreaker_status": "applied",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
       "division_rank": 9,
       "conference_rank": 9,
       "team_id": "miami_muffins",
@@ -3301,16 +3325,24 @@
       "region": "east",
       "division": "pro",
       "conference": "1",
-      "games_played": 1,
+      "games_played": 2,
       "wins": 0,
-      "regulation_losses": 1,
+      "regulation_losses": 2,
       "overtime_losses": 0,
       "points": 0,
-      "goals_for": 6,
-      "goals_against": 12,
-      "goal_diff": -6,
-      "last_5": "0-1-0",
+      "goals_for": 10,
+      "goals_against": 17,
+      "goal_diff": -7,
+      "last_5": "0-2-0",
       "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_14",
+          "source_id": "1.14",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 4,
+          "goals_against": 5
+        },
         {
           "match_id": "summer_2026_regular_season_pro_1_8",
           "source_id": "1.8",

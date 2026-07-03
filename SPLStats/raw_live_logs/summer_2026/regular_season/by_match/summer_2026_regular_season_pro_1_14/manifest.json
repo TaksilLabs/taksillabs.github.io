@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_pro_1_14",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "pro",
+  "imported_at_utc": "2026-07-03T22:50:41.321004+00:00",
+  "source_folder_name": "1.14_ Ottawa Valley Puck Slappers vs Miami Muffins__1520927395400515654",
+  "source_folder_path": "data/incoming_logs/unsorted/1.14_ Ottawa Valley Puck Slappers vs Miami Muffins__1520927395400515654",
+  "source_id": "1.14",
+  "thread_id": "1520927395400515654",
+  "detected_home_team": "Ottawa Valley Puck Slappers",
+  "detected_away_team": "Miami Muffins",
+  "matched_schedule_home_team_id": "ottawa_valley_puck_slappers",
+  "matched_schedule_away_team_id": "miami_muffins",
+  "matched_schedule_home_team": "Ottawa Valley Puck Slappers",
+  "matched_schedule_away_team": "Miami Muffins",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-03T04:39:21",
+  "last_log_timestamp": "2026-07-03T04:39:21",
+  "probable_start_time": "2026-07-03T04:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260703_043921_334537409134067723_2026-07-03-0-02-25.json",
+      "relative_path": "1.14_ Ottawa Valley Puck Slappers vs Miami Muffins__1520927395400515654/20260703_043921_334537409134067723_2026-07-03-0-02-25.json",
+      "timestamp_from_filename": "2026-07-03T04:39:21"
+    },
+    {
+      "original_name": "20260703_043921_334537409134067723_2026-07-03-0-08-34.json",
+      "relative_path": "1.14_ Ottawa Valley Puck Slappers vs Miami Muffins__1520927395400515654/20260703_043921_334537409134067723_2026-07-03-0-08-34.json",
+      "timestamp_from_filename": "2026-07-03T04:39:21"
+    },
+    {
+      "original_name": "20260703_043921_334537409134067723_2026-07-03-0-15-05.json",
+      "relative_path": "1.14_ Ottawa Valley Puck Slappers vs Miami Muffins__1520927395400515654/20260703_043921_334537409134067723_2026-07-03-0-15-05.json",
+      "timestamp_from_filename": "2026-07-03T04:39:21"
+    }
+  ],
+  "warnings": []
+}
