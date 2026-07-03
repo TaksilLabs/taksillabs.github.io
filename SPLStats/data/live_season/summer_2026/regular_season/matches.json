@@ -2,7 +2,7 @@
   "season_id": "summer_2026",
   "season_name": "Summer 2026",
   "season_type": "regular_season",
-  "generated_at_utc": "2026-07-02T05:02:36.347191+00:00",
+  "generated_at_utc": "2026-07-03T02:50:54.564558+00:00",
   "match_count": 33,
   "completed_match_count": 26,
   "matches": [
@@ -61,7 +61,7 @@
       "source_folder_name": "1.1_ Detroit Droids vs Barrie Belgian Waffles__1520930134578823388",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_a_1_7",
@@ -461,7 +461,7 @@
       "source_folder_name": "1.7_ Barrie Bag Chasers vs Vader Saboteurs__1520930561571426506",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_8",
@@ -632,7 +632,7 @@
       "source_folder_name": "1.3_ Ottawa Valley Puck Masters vs Vader 66ers__1520928604630814771",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_c_1_5",
@@ -746,7 +746,7 @@
       "source_folder_name": "1.7_ Boston Shufflebottoms vs Vader Bounty Hunters__1520928638332047480",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_c_1_8",
@@ -1664,7 +1664,7 @@
       "source_folder_name": "1.11_ Beauport Lynx vs Vader Acolytes__1520928607139270687",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_open_1_12",
@@ -1835,7 +1835,7 @@
       "source_folder_name": "1.2_ Champaign Champagne vs Yucatan Yetis__1520927341025427558",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_3",
