@@ -2,6 +2,131 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-03_arnold_ashtrays_roster_moves",
+      "transaction_ids": [
+        "20260703T030627Z_arnold_ashtrays_add_darth_slazo"
+      ],
+      "transaction_id": "20260703T030627Z_arnold_ashtrays_add_darth_slazo",
+      "status": "published",
+      "created_at_utc": "2026-07-03T03:06:27Z",
+      "updated_at_utc": "2026-07-03T03:25:31.490Z",
+      "headline": "Arnold Ashtrays Sign Darth Slazo",
+      "subheadline": "The Arnold Ashtrays have added Darth Slazo to their active roster.",
+      "slug": "arnold-ashtrays-sign-darth-slazo",
+      "team_id": "arnold_ashtrays",
+      "team_abbreviation": "PPG",
+      "team_display_name": "Arnold Ashtrays",
+      "division": "open",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "darth_slazo",
+          "player_display_name": "Darth Slazo",
+          "slap_id": "464969",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "arnold_ashtrays",
+        "open"
+      ],
+      "body_markdown": "The Arnold Ashtrays have announced the signing of Darth Slazo, adding the new SPL player to their roster ahead of the club’s Week 1 games.\n\nDarth Slazo joins the league as a fresh face, but the Ashtrays’ scouting staff saw enough early signs to move forward with the addition. After a strong showing in practice, management gave the green light to bring him into the fold.\n\n“Darth Slazo made a good impression with the group,” one of the head scouts said. “He came in, competed well, and showed enough in practice for us to feel comfortable giving him an opportunity.”\n\nWith Arnold yet to play their Week 1 match-ups, the signing gives the Ashtrays another option as they prepare to open their season.\n\n\"We needed more offense, I found him in the Vader player chat and I’m hoping he can create the offensive spark that we need.\"\n#color:#FF0000\n- arnold ashtrays General Manager Lilcricket\n\nThe club welcomes Darth Slazo to Arnold.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-03_barrie_ice_hounds_roster_moves",
+      "transaction_ids": [
+        "20260703T030627Z_barrie_ice_hounds_add_tridoxity",
+        "20260703T030627Z_barrie_ice_hounds_remove_beefus"
+      ],
+      "transaction_id": "",
+      "status": "draft",
+      "created_at_utc": "2026-07-03T03:06:27Z",
+      "updated_at_utc": "2026-07-03T03:06:27Z",
+      "headline": "Barrie Ice Hounds Make Roster Moves",
+      "subheadline": "The Barrie Ice Hounds have added Tridoxity and removed #16 Beefus from their active roster.",
+      "slug": "barrie-ice-hounds-make-roster-moves",
+      "team_id": "barrie_ice_hounds",
+      "team_abbreviation": "BIH",
+      "team_display_name": "Barrie Ice Hounds",
+      "division": "open",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "tridoxity",
+          "player_display_name": "Tridoxity",
+          "slap_id": "1127790",
+          "jersey_number": ""
+        },
+        {
+          "type": "remove",
+          "player_id": "beefus",
+          "player_display_name": "Beefus",
+          "slap_id": "134924",
+          "jersey_number": "16"
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "barrie_ice_hounds",
+        "open"
+      ],
+      "body_markdown": "The Barrie Ice Hounds have added Tridoxity and removed #16 Beefus from their active roster.\n\nThe move gives the Barrie Ice Hounds another option as they continue to shape their roster for the current campaign.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-03_camrose_cats_roster_moves",
+      "transaction_ids": [
+        "20260703T025708Z_camrose_cats_add_timmy"
+      ],
+      "transaction_id": "20260703T025708Z_camrose_cats_add_timmy",
+      "status": "draft",
+      "created_at_utc": "2026-07-03T02:57:08Z",
+      "updated_at_utc": "2026-07-03T02:57:08Z",
+      "headline": "Camrose Cats Add Timmy",
+      "subheadline": "The Camrose Cats have added Timmy to their active roster.",
+      "slug": "camrose-cats-add-timmy",
+      "team_id": "camrose_cats",
+      "team_abbreviation": "cat",
+      "team_display_name": "Camrose Cats",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "timmy",
+          "player_display_name": "Timmy",
+          "slap_id": "40",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "camrose_cats",
+        "central_a"
+      ],
+      "body_markdown": "The Camrose Cats have added Timmy to their active roster adding another card to their deck.\n\nThe move gives the Camrose Cats another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-02_barcelona_bobos_prep_academy_roster_moves",
       "transaction_ids": [
         "20260702T224814Z_barcelona_bobos_prep_academy_add_n1xoh",
@@ -580,5 +705,5 @@
       "last_edited_by": ""
     }
   ],
-  "updated_at_utc": "2026-07-01T23:12:06Z"
+  "updated_at_utc": "2026-07-03T03:25:32Z"
 }

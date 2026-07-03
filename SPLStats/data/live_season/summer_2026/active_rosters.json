@@ -29,13 +29,20 @@
           "role": "player",
           "steam_name": "Mrbarnacle",
           "slap_id": "1888210"
+        },
+        {
+          "role": "player",
+          "steam_name": "Darth Slazo",
+          "jersey_number": "",
+          "slap_id": "464969"
         }
       ],
       "slap_ids": [
         "1287792",
         "1891105",
         "1275507",
-        "1888210"
+        "1888210",
+        "464969"
       ],
       "season_id": "summer_2026",
       "division": "open",
@@ -356,12 +363,6 @@
       "region": "east",
       "players": [
         {
-          "role": "gm",
-          "steam_name": "Beefus",
-          "slap_id": "134924",
-          "jersey_number": "16"
-        },
-        {
           "role": "player",
           "steam_name": "Stim",
           "slap_id": "1319952"
@@ -380,14 +381,20 @@
           "role": "player",
           "steam_name": "Camden.mp4",
           "slap_id": "1853453"
+        },
+        {
+          "role": "gm",
+          "steam_name": "Tridoxity",
+          "jersey_number": "",
+          "slap_id": "1127790"
         }
       ],
       "slap_ids": [
-        "134924",
         "1319952",
         "1325186",
         "2037465",
-        "1853453"
+        "1853453",
+        "1127790"
       ],
       "season_id": "summer_2026",
       "division": "open",
@@ -871,11 +878,6 @@
       "region": "central",
       "players": [
         {
-          "role": "captain",
-          "steam_name": "hill",
-          "slap_id": "1378966"
-        },
-        {
           "role": "player",
           "steam_name": "tweek",
           "slap_id": "985994"
@@ -887,16 +889,29 @@
         },
         {
           "role": "player",
-          "steam_name": "zelviz",
-          "slap_id": "865092",
-          "jersey_number": "77"
+          "steam_name": "Timmy",
+          "jersey_number": "",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "headass",
+          "jersey_number": "",
+          "slap_id": "173111"
+        },
+        {
+          "role": "captain",
+          "steam_name": "hill",
+          "jersey_number": "",
+          "slap_id": "1378966"
         }
       ],
       "slap_ids": [
-        "1378966",
         "985994",
         "1234707",
-        "865092"
+        "40",
+        "173111",
+        "1378966"
       ],
       "season_id": "summer_2026",
       "division": "central_a",
@@ -2276,6 +2291,12 @@
           "role": "player",
           "steam_name": "XRevision",
           "slap_id": "1723185"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hostilebug",
+          "jersey_number": "",
+          "slap_id": ""
         }
       ],
       "slap_ids": [
