@@ -351,6 +351,13 @@
       "thread_id": "1520928150748659754",
       "imported_at_utc": "2026-07-03T03:26:23.955168+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_open_1_8"
+    },
+    "1.8_ Miami Muffins vs Vader Voltage Eastern__1520927369706082414": {
+      "match_id": "summer_2026_regular_season_pro_1_8",
+      "source_id": "1.8",
+      "thread_id": "1520927369706082414",
+      "imported_at_utc": "2026-07-03T04:33:14.148465+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_pro_1_8"
     }
   },
   "imported_match_ids": {
@@ -553,7 +560,11 @@
     "summer_2026_regular_season_open_1_8": {
       "source_folder_name": "1.8_ Vader Acolytes vs Arnold Ashtrays__1520928150748659754",
       "imported_at_utc": "2026-07-03T03:26:23.955168+00:00"
+    },
+    "summer_2026_regular_season_pro_1_8": {
+      "source_folder_name": "1.8_ Miami Muffins vs Vader Voltage Eastern__1520927369706082414",
+      "imported_at_utc": "2026-07-03T04:33:14.148465+00:00"
     }
   },
-  "updated_at_utc": "2026-07-03T03:26:23.955276+00:00"
+  "updated_at_utc": "2026-07-03T04:33:14.148669+00:00"
 }

@@ -8,7 +8,7 @@
     "active_rosters": "data/live_season/summer_2026/active_rosters.json"
   },
   "team_count": 73,
-  "completed_match_count": 43,
+  "completed_match_count": 44,
   "standings": [
     {
       "rank": null,
@@ -3047,6 +3047,62 @@
       "rank": null,
       "division_rank": 4,
       "conference_rank": 4,
+      "team_id": "vader_voltage",
+      "team": "Vader Voltage",
+      "team_display_name": "Vader Voltage",
+      "team_abbreviation": "VOLT",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "pro",
+      "conference": "1",
+      "games_played": 2,
+      "wins": 1,
+      "regulation_losses": 1,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 17,
+      "goals_against": 16,
+      "goal_diff": 1,
+      "last_5": "1-1-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_5",
+          "source_id": "1.5",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 5,
+          "goals_against": 10
+        },
+        {
+          "match_id": "summer_2026_regular_season_pro_1_8",
+          "source_id": "1.8",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 12,
+          "goals_against": 6
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 5,
+      "conference_rank": 5,
       "team_id": "ottawa_valley_puck_slappers",
       "team": "Ottawa Valley Puck Slappers",
       "team_display_name": "Ottawa Valley Puck Slappers",
@@ -3084,8 +3140,11 @@
           "goals_against": 12
         }
       ],
-      "tiebreaker_status": "none",
-      "tiebreaker_notes": [],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
       "wildcard_rank": null,
@@ -3098,8 +3157,8 @@
     },
     {
       "rank": null,
-      "division_rank": 5,
-      "conference_rank": 5,
+      "division_rank": 6,
+      "conference_rank": 6,
       "team_id": "boston_bobos",
       "team": "Boston Bobos",
       "team_display_name": "Boston Bobos",
@@ -3143,8 +3202,8 @@
     },
     {
       "rank": null,
-      "division_rank": 6,
-      "conference_rank": 6,
+      "division_rank": 7,
+      "conference_rank": 7,
       "team_id": "beverly_hills_bobos",
       "team": "Beverly Hills Bobos",
       "team_display_name": "Beverly Hills Bobos",
@@ -3165,53 +3224,10 @@
       "goal_diff": 0,
       "last_5": "0-0-0",
       "last_5_games": [],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Miami Muffins; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Miami Muffins; Best-of-1 may be required."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 7,
-      "conference_rank": 7,
-      "team_id": "miami_muffins",
-      "team": "Miami Muffins",
-      "team_display_name": "Miami Muffins",
-      "team_abbreviation": "MUFF",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "pro",
-      "conference": "1",
-      "games_played": 0,
-      "wins": 0,
-      "regulation_losses": 0,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_diff": 0,
-      "last_5": "0-0-0",
-      "last_5_games": [],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Beverly Hills Bobos; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Beverly Hills Bobos; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
@@ -3227,56 +3243,6 @@
       "rank": null,
       "division_rank": 8,
       "conference_rank": 8,
-      "team_id": "vader_voltage",
-      "team": "Vader Voltage",
-      "team_display_name": "Vader Voltage",
-      "team_abbreviation": "VOLT",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "pro",
-      "conference": "1",
-      "games_played": 1,
-      "wins": 0,
-      "regulation_losses": 1,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 5,
-      "goals_against": 10,
-      "goal_diff": -5,
-      "last_5": "0-1-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_pro_1_5",
-          "source_id": "1.5",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 5,
-          "goals_against": 10
-        }
-      ],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Yucatán Yetis; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Yucatán Yetis; Best-of-1 may be required."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 9,
-      "conference_rank": 9,
       "team_id": "yucatn_yetis",
       "team": "Yucatán Yetis",
       "team_display_name": "Yucatán Yetis",
@@ -3306,12 +3272,58 @@
           "goals_against": 11
         }
       ],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader Voltage; Best-of-1 may be required.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 9,
+      "conference_rank": 9,
+      "team_id": "miami_muffins",
+      "team": "Miami Muffins",
+      "team_display_name": "Miami Muffins",
+      "team_abbreviation": "MUFF",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "pro",
+      "conference": "1",
+      "games_played": 1,
+      "wins": 0,
+      "regulation_losses": 1,
+      "overtime_losses": 0,
+      "points": 0,
+      "goals_for": 6,
+      "goals_against": 12,
+      "goal_diff": -6,
+      "last_5": "0-1-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_8",
+          "source_id": "1.8",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 6,
+          "goals_against": 12
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader Voltage; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,

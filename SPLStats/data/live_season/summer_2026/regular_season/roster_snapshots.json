@@ -4983,5 +4983,113 @@
         "1026914"
       ]
     }
+  },
+  "summer_2026_regular_season_pro_1_8": {
+    "match_id": "summer_2026_regular_season_pro_1_8",
+    "source_id": "1.8",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "pro",
+    "region": "east",
+    "home_team_id": "miami_muffins",
+    "home_team": "Miami Muffins",
+    "away_team_id": "vader_voltage",
+    "away_team": "Vader Voltage",
+    "home_roster": {
+      "team_id": "miami_muffins",
+      "team_display_name": "Miami Muffins",
+      "team": "Miami Muffins",
+      "team_abbreviation": "MUFF",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "gold",
+          "slap_id": "914959",
+          "jersey_number": "09"
+        },
+        {
+          "role": "player",
+          "steam_name": "nutsack6",
+          "slap_id": "914448"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hydroid.",
+          "slap_id": "1836154"
+        },
+        {
+          "role": "player",
+          "steam_name": "FadsterΨ",
+          "slap_id": "915093"
+        },
+        {
+          "role": "player",
+          "steam_name": "",
+          "slap_id": "915093"
+        }
+      ],
+      "slap_ids": [
+        "914959",
+        "914448",
+        "1836154",
+        "915093"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_voltage",
+      "team_display_name": "Vader Voltage",
+      "team": "Vader Voltage",
+      "team_abbreviation": "VOLT",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Wind",
+          "slap_id": "613713"
+        },
+        {
+          "role": "player",
+          "steam_name": "SolaceThunders",
+          "slap_id": "31950",
+          "jersey_number": "4"
+        },
+        {
+          "role": "player",
+          "steam_name": "Magix",
+          "slap_id": "1064297",
+          "jersey_number": "11"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bolty",
+          "slap_id": "19642"
+        },
+        {
+          "role": "player",
+          "steam_name": "Doug",
+          "slap_id": "211281"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "613713",
+        "31950",
+        "1064297",
+        "19642",
+        "211281"
+      ]
+    }
   }
 }

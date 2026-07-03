@@ -2,9 +2,9 @@
   "season_id": "summer_2026",
   "season_name": "Summer 2026",
   "season_type": "regular_season",
-  "generated_at_utc": "2026-07-03T03:26:23.993206+00:00",
-  "match_count": 50,
-  "completed_match_count": 43,
+  "generated_at_utc": "2026-07-03T04:33:14.200826+00:00",
+  "match_count": 51,
+  "completed_match_count": 44,
   "matches": [
     {
       "match_id": "summer_2026_regular_season_central_a_1_1",
@@ -118,7 +118,7 @@
       "source_folder_name": "1.2_ Ottawa Valley Cool Cats vs Barcelona Bobos Prep Academy__1520930138630651977",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_a_1_6",
@@ -175,7 +175,7 @@
       "source_folder_name": "1.6_ Barrie Belgian Waffles vs Vader Voltage - Central__1520930158029050018",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_a_1_7",
@@ -403,7 +403,7 @@
       "source_folder_name": "1.11_ Vader Starkillers Central vs Ottawa Valley Bass Slappers__1520930580697452709",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_13",
@@ -460,7 +460,7 @@
       "source_folder_name": "1.13_ Brampton Cows vs Windy City Walruses__1520930592093634612",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_15",
@@ -1088,7 +1088,7 @@
       "source_folder_name": "1.12_ Vader Wookies vs Cold Lake Upper Deckies__1520927521967968419",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_challenger_1_13",
@@ -1145,7 +1145,7 @@
       "source_folder_name": "1.13_ Delco Dog Dads vs Vader Wookies__1520927525839306782",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_challenger_1_16",
@@ -1777,7 +1777,7 @@
       "source_folder_name": "1.2_ Gary Glizzy Gobblers vs Bedford Bobos Preparatory Academy__1520931882357751959",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_3",
@@ -1834,7 +1834,7 @@
       "source_folder_name": "1.3_ Hagerstown Heroes vs Birmingham Bobos__1520931886635942049",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_4",
@@ -2005,7 +2005,7 @@
       "source_folder_name": "1.8_ Birmingham Bobos vs Boston Bahds__1520931908593127685",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_intermediate_1_9",
@@ -2120,7 +2120,7 @@
       "source_folder_name": "1.1_ Cold Lake Hit Lits vs Ottawa Valley Sweatshirt And Friends__1520927972977152120",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_masters_1_5",
@@ -2177,7 +2177,7 @@
       "source_folder_name": "1.5_ Ottawa Valley Sweatshirt And Friends vs Salem Cats__1520927989637058771",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_masters_1_6",
@@ -2405,7 +2405,7 @@
       "source_folder_name": "1.4_ Ottawa Valley Slappers With Attitude vs Vader Acolytes__1520928134139084860",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_open_1_8",
@@ -2462,7 +2462,7 @@
       "source_folder_name": "1.8_ Vader Acolytes vs Arnold Ashtrays__1520928150748659754",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_13",
@@ -2690,7 +2690,7 @@
       "source_folder_name": "1.4_ Ottawa Valley Puck Slappers vs Boston Bobos__1520927349770817646",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_5",
@@ -2747,7 +2747,7 @@
       "source_folder_name": "1.5_ Vader Voltage Eastern vs Barrie Bald Boys__1520927353730236459",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_6",
@@ -2804,7 +2804,7 @@
       "source_folder_name": "1.6_ Barrie Bald Boys vs Ottawa Valley Puck Slappers__1520927360281608384",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_7",
@@ -2859,6 +2859,63 @@
       "probable_start_time": "2026-07-02T21:00:00",
       "start_time_source": "first_log_timestamp_floor_15_minutes",
       "source_folder_name": "1.7_ Long Island Lightning vs Champaign Champagne__1520927364022796310",
+      "matched_by": "source_id_and_team_pair",
+      "match_import_confidence": 1.0,
+      "side_mapping_roster_source": "snapshot"
+    },
+    {
+      "match_id": "summer_2026_regular_season_pro_1_8",
+      "source_id": "1.8",
+      "season_id": "summer_2026",
+      "season_type": "regular_season",
+      "division": "pro",
+      "week": 1,
+      "match_number": 8,
+      "lr_group": "2",
+      "home_team": "Miami Muffins",
+      "home_team_id": "miami_muffins",
+      "home_division": "pro",
+      "home_conference": "",
+      "home_region": "east",
+      "away_team": "Vader Voltage",
+      "away_team_id": "vader_voltage",
+      "away_division": "pro",
+      "away_conference": "",
+      "away_region": "east",
+      "match_scope": "same-division",
+      "thread_name": "1.8: Miami Muffins vs Vader Voltage Eastern",
+      "status": "final",
+      "source": {
+        "file": "pro.csv",
+        "row": 9,
+        "home_gm": "981750527153016903",
+        "away_gm": "775066600062844948",
+        "week": "1",
+        "lr_date": "2",
+        "state": "Pending"
+      },
+      "season_name": "Summer 2026",
+      "phase": "regular_season",
+      "home_score": 6,
+      "away_score": 12,
+      "winner_team_id": "vader_voltage",
+      "loser_team_id": "miami_muffins",
+      "end_reason": "EndOfRegulation",
+      "overtime": false,
+      "period": 3,
+      "thread_id": "1520927369706082414",
+      "log_folder": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_pro_1_8",
+      "report_file": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_pro_1_8/original/1.8_ Miami Muffins vs Vader Voltage Eastern__1520927369706082414/20260703_040301_404015429942509580_2026-07-02-23-53-29.json",
+      "side_mapping": "normal",
+      "side_mapping_confidence": 6,
+      "side_mapping_normal_score": 6,
+      "side_mapping_swapped_score": 0,
+      "warnings": [],
+      "first_log_timestamp": "2026-07-02T23:40:44",
+      "last_log_timestamp": "2026-07-02T23:53:29",
+      "probable_start_time": "2026-07-02T23:30:00",
+      "start_time_source": "first_log_timestamp_floor_15_minutes",
+      "source_folder_name": "1.8_ Miami Muffins vs Vader Voltage Eastern__1520927369706082414",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
       "side_mapping_roster_source": "active_rosters_fallback"
