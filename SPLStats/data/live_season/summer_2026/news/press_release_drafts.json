@@ -2,6 +2,53 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-03_boston_bobos_roster_moves",
+      "transaction_ids": [
+        "20260703T210526Z_boston_bobos_add_jeru",
+        "20260703T210526Z_boston_bobos_remove_booya"
+      ],
+      "transaction_id": "",
+      "status": "draft",
+      "created_at_utc": "2026-07-03T21:05:26Z",
+      "updated_at_utc": "2026-07-03T21:05:26Z",
+      "headline": "Boston Bobos Make Roster Moves",
+      "subheadline": "The Boston Bobos have added Jeru and removed booya from their active roster.",
+      "slug": "boston-bobos-make-roster-moves",
+      "team_id": "boston_bobos",
+      "team_abbreviation": "BOBO",
+      "team_display_name": "Boston Bobos",
+      "division": "pro",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "jeru",
+          "player_display_name": "Jeru",
+          "slap_id": "359314",
+          "jersey_number": ""
+        },
+        {
+          "type": "remove",
+          "player_id": "booya",
+          "player_display_name": "booya",
+          "slap_id": "1419124",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "boston_bobos",
+        "pro"
+      ],
+      "body_markdown": "The Boston Bobos have added Jeru and removed booya from their active roster.\n\nThe move gives the Boston Bobos another option as they continue to shape their roster for the current campaign.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-03_arnold_ashtrays_roster_moves",
       "transaction_ids": [
         "20260703T030627Z_arnold_ashtrays_add_darth_slazo"
