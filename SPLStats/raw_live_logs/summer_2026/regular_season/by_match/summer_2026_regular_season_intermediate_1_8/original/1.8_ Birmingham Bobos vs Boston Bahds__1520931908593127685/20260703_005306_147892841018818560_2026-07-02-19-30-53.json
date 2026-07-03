@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 220,
+                "shots": 2,
+                "blocks": 7,
+                "passes": 10,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 3
+            },
+            "username": "Normalhumanboy",
+            "game_user_id": "265889"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 95,
+                "blocks": 1,
+                "passes": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "JIRIAS2",
+            "game_user_id": "1491869"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 290,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 8,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 5
+            },
+            "username": "kaVi",
+            "game_user_id": "1432097"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 330,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 10,
+                "post_hits": 2,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 3
+            },
+            "username": "dxmxnz 🤐",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 125,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 5,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 3
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 310,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 3,
+                "assists": 2,
+                "takeaways": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 41
+            },
+            "username": "dvyr",
+            "game_user_id": "352226"
+        }
+    ],
+    "match_id": "5996d3a9-d2a1-42e8-9375-22bac47c3f2c",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

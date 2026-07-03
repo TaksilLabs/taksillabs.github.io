@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_a_1_6",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_a",
+  "imported_at_utc": "2026-07-03T03:26:23.926469+00:00",
+  "source_folder_name": "1.6_ Barrie Belgian Waffles vs Vader Voltage - Central__1520930158029050018",
+  "source_folder_path": "data/incoming_logs/unsorted/1.6_ Barrie Belgian Waffles vs Vader Voltage - Central__1520930158029050018",
+  "source_id": "1.6",
+  "thread_id": "1520930158029050018",
+  "detected_home_team": "Barrie Belgian Waffles",
+  "detected_away_team": "Vader Voltage - Central",
+  "matched_schedule_home_team_id": "barrie_belgian_waffles",
+  "matched_schedule_away_team_id": "vader_voltage_central",
+  "matched_schedule_home_team": "Barrie Belgian Waffles",
+  "matched_schedule_away_team": "Vader Voltage - Central",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-02T20:46:48",
+  "last_log_timestamp": "2026-07-02T20:59:23",
+  "probable_start_time": "2026-07-02T20:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260703_005937_728437674305781851_2026-07-02-20-46-48.json",
+      "relative_path": "1.6_ Barrie Belgian Waffles vs Vader Voltage - Central__1520930158029050018/20260703_005937_728437674305781851_2026-07-02-20-46-48.json",
+      "timestamp_from_filename": "2026-07-02T20:46:48"
+    },
+    {
+      "original_name": "20260703_005937_728437674305781851_2026-07-02-20-52-56.json",
+      "relative_path": "1.6_ Barrie Belgian Waffles vs Vader Voltage - Central__1520930158029050018/20260703_005937_728437674305781851_2026-07-02-20-52-56.json",
+      "timestamp_from_filename": "2026-07-02T20:52:56"
+    },
+    {
+      "original_name": "20260703_005937_728437674305781851_2026-07-02-20-59-23.json",
+      "relative_path": "1.6_ Barrie Belgian Waffles vs Vader Voltage - Central__1520930158029050018/20260703_005937_728437674305781851_2026-07-02-20-59-23.json",
+      "timestamp_from_filename": "2026-07-02T20:59:23"
+    }
+  ],
+  "warnings": []
+}

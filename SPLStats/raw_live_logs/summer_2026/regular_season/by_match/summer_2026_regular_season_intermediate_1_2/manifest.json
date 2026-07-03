@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_intermediate_1_2",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "intermediate",
+  "imported_at_utc": "2026-07-03T03:26:23.841313+00:00",
+  "source_folder_name": "1.2_ Gary Glizzy Gobblers vs Bedford Bobos Preparatory Academy__1520931882357751959",
+  "source_folder_path": "data/incoming_logs/unsorted/1.2_ Gary Glizzy Gobblers vs Bedford Bobos Preparatory Academy__1520931882357751959",
+  "source_id": "1.2",
+  "thread_id": "1520931882357751959",
+  "detected_home_team": "Gary Glizzy Gobblers",
+  "detected_away_team": "Bedford Bobos Preparatory Academy",
+  "matched_schedule_home_team_id": "gary_glizzy_gobblers",
+  "matched_schedule_away_team_id": "bedford_bobos_preparatory_academy",
+  "matched_schedule_home_team": "Gary Glizzy Gobblers",
+  "matched_schedule_away_team": "Bedford Bobos Preparatory Academy",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-02T22:31:15",
+  "last_log_timestamp": "2026-07-02T22:44:10",
+  "probable_start_time": "2026-07-02T22:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260703_024530_568523413807955988_2026-07-02-22-31-15.json",
+      "relative_path": "1.2_ Gary Glizzy Gobblers vs Bedford Bobos Preparatory Academy__1520931882357751959/20260703_024530_568523413807955988_2026-07-02-22-31-15.json",
+      "timestamp_from_filename": "2026-07-02T22:31:15"
+    },
+    {
+      "original_name": "20260703_024530_568523413807955988_2026-07-02-22-37-40.json",
+      "relative_path": "1.2_ Gary Glizzy Gobblers vs Bedford Bobos Preparatory Academy__1520931882357751959/20260703_024530_568523413807955988_2026-07-02-22-37-40.json",
+      "timestamp_from_filename": "2026-07-02T22:37:40"
+    },
+    {
+      "original_name": "20260703_024530_568523413807955988_2026-07-02-22-44-10.json",
+      "relative_path": "1.2_ Gary Glizzy Gobblers vs Bedford Bobos Preparatory Academy__1520931882357751959/20260703_024530_568523413807955988_2026-07-02-22-44-10.json",
+      "timestamp_from_filename": "2026-07-02T22:44:10"
+    }
+  ],
+  "warnings": []
+}

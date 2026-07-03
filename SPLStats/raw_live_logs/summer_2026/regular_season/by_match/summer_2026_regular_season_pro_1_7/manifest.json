@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_pro_1_7",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "pro",
+  "imported_at_utc": "2026-07-03T03:26:23.936301+00:00",
+  "source_folder_name": "1.7_ Long Island Lightning vs Champaign Champagne__1520927364022796310",
+  "source_folder_path": "data/incoming_logs/unsorted/1.7_ Long Island Lightning vs Champaign Champagne__1520927364022796310",
+  "source_id": "1.7",
+  "thread_id": "1520927364022796310",
+  "detected_home_team": "Long Island Lightning",
+  "detected_away_team": "Champaign Champagne",
+  "matched_schedule_home_team_id": "long_island_lightning",
+  "matched_schedule_away_team_id": "champaign_champagne",
+  "matched_schedule_home_team": "Long Island Lightning",
+  "matched_schedule_away_team": "Champaign Champagne",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-02T21:10:01",
+  "last_log_timestamp": "2026-07-02T21:23:14",
+  "probable_start_time": "2026-07-02T21:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260703_012514_901949665958834216_2026-07-02-21-10-01.json",
+      "relative_path": "1.7_ Long Island Lightning vs Champaign Champagne__1520927364022796310/20260703_012514_901949665958834216_2026-07-02-21-10-01.json",
+      "timestamp_from_filename": "2026-07-02T21:10:01"
+    },
+    {
+      "original_name": "20260703_012514_901949665958834216_2026-07-02-21-16-44.json",
+      "relative_path": "1.7_ Long Island Lightning vs Champaign Champagne__1520927364022796310/20260703_012514_901949665958834216_2026-07-02-21-16-44.json",
+      "timestamp_from_filename": "2026-07-02T21:16:44"
+    },
+    {
+      "original_name": "20260703_012514_901949665958834216_2026-07-02-21-23-14.json",
+      "relative_path": "1.7_ Long Island Lightning vs Champaign Champagne__1520927364022796310/20260703_012514_901949665958834216_2026-07-02-21-23-14.json",
+      "timestamp_from_filename": "2026-07-02T21:23:14"
+    }
+  ],
+  "warnings": []
+}

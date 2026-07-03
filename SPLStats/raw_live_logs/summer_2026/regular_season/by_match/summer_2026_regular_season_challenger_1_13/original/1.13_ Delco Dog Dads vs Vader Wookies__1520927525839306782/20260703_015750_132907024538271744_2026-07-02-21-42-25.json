@@ -1,0 +1,156 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 175,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 20,
+                "assists": 1,
+                "takeaways": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 32
+            },
+            "username": "Kavorka",
+            "game_user_id": "816852"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 270,
+                "shots": 6,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 26,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 1,
+                "possession_time_sec": 38
+            },
+            "username": "Pissy Yonky",
+            "game_user_id": "702578"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 255,
+                "shots": 2,
+                "blocks": 7,
+                "losses": 1,
+                "passes": 14,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 6,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 55
+            },
+            "username": "bread 🍞",
+            "game_user_id": "825118"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 2,
+                "saves": 3,
+                "score": 540,
+                "shots": 3,
+                "blocks": 7,
+                "passes": 11,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 18
+            },
+            "username": ">:)",
+            "game_user_id": "72269"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 270,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 16,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 7,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "Ghostwalker",
+            "game_user_id": "1439105"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 3,
+                "score": 155,
+                "blocks": 5,
+                "passes": 3,
+                "turnovers": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 13
+            },
+            "username": "papi tef 😎",
+            "game_user_id": "472364"
+        }
+    ],
+    "match_id": "f22f6a28-502d-453f-bfbb-0490269785fc",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}

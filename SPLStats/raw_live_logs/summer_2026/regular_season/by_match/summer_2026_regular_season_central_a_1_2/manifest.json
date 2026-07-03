@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_a_1_2",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_a",
+  "imported_at_utc": "2026-07-03T03:26:23.854229+00:00",
+  "source_folder_name": "1.2_ Ottawa Valley Cool Cats vs Barcelona Bobos Prep Academy__1520930138630651977",
+  "source_folder_path": "data/incoming_logs/unsorted/1.2_ Ottawa Valley Cool Cats vs Barcelona Bobos Prep Academy__1520930138630651977",
+  "source_id": "1.2",
+  "thread_id": "1520930138630651977",
+  "detected_home_team": "Ottawa Valley Cool Cats",
+  "detected_away_team": "Barcelona Bobos Prep Academy",
+  "matched_schedule_home_team_id": "ottawa_valley_cool_cats",
+  "matched_schedule_away_team_id": "barcelona_bobos_prep_academy",
+  "matched_schedule_home_team": "Ottawa Valley Cool Cats",
+  "matched_schedule_away_team": "Barcelona Bobos Prep Academy",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-02T22:34:44",
+  "last_log_timestamp": "2026-07-02T22:48:32",
+  "probable_start_time": "2026-07-02T22:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260703_030131_334537409134067723_2026-07-02-22-34-44.json",
+      "relative_path": "1.2_ Ottawa Valley Cool Cats vs Barcelona Bobos Prep Academy__1520930138630651977/20260703_030131_334537409134067723_2026-07-02-22-34-44.json",
+      "timestamp_from_filename": "2026-07-02T22:34:44"
+    },
+    {
+      "original_name": "20260703_030131_334537409134067723_2026-07-02-22-40-59.json",
+      "relative_path": "1.2_ Ottawa Valley Cool Cats vs Barcelona Bobos Prep Academy__1520930138630651977/20260703_030131_334537409134067723_2026-07-02-22-40-59.json",
+      "timestamp_from_filename": "2026-07-02T22:40:59"
+    },
+    {
+      "original_name": "20260703_030131_334537409134067723_2026-07-02-22-48-32.json",
+      "relative_path": "1.2_ Ottawa Valley Cool Cats vs Barcelona Bobos Prep Academy__1520930138630651977/20260703_030131_334537409134067723_2026-07-02-22-48-32.json",
+      "timestamp_from_filename": "2026-07-02T22:48:32"
+    }
+  ],
+  "warnings": []
+}

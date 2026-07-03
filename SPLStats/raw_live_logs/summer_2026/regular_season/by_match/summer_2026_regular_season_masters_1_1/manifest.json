@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_masters_1_1",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "masters",
+  "imported_at_utc": "2026-07-03T03:26:23.827422+00:00",
+  "source_folder_name": "1.1_ Cold Lake Hit Lits vs Ottawa Valley Sweatshirt And Friends__1520927972977152120",
+  "source_folder_path": "data/incoming_logs/unsorted/1.1_ Cold Lake Hit Lits vs Ottawa Valley Sweatshirt And Friends__1520927972977152120",
+  "source_id": "1.1",
+  "thread_id": "1520927972977152120",
+  "detected_home_team": "Cold Lake Hit Lits",
+  "detected_away_team": "Ottawa Valley Sweatshirt And Friends",
+  "matched_schedule_home_team_id": "cold_lake_hit_lits",
+  "matched_schedule_away_team_id": "ottawa_valley_sweatshirt_and_friends",
+  "matched_schedule_home_team": "Cold Lake Hit Lits",
+  "matched_schedule_away_team": "Ottawa Valley Sweatshirt And Friends",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-02T22:05:29",
+  "last_log_timestamp": "2026-07-02T22:18:58",
+  "probable_start_time": "2026-07-02T22:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260703_022728_449703678585339915_2026-07-02-22-05-29.json",
+      "relative_path": "1.1_ Cold Lake Hit Lits vs Ottawa Valley Sweatshirt And Friends__1520927972977152120/20260703_022728_449703678585339915_2026-07-02-22-05-29.json",
+      "timestamp_from_filename": "2026-07-02T22:05:29"
+    },
+    {
+      "original_name": "20260703_022728_449703678585339915_2026-07-02-22-11-44.json",
+      "relative_path": "1.1_ Cold Lake Hit Lits vs Ottawa Valley Sweatshirt And Friends__1520927972977152120/20260703_022728_449703678585339915_2026-07-02-22-11-44.json",
+      "timestamp_from_filename": "2026-07-02T22:11:44"
+    },
+    {
+      "original_name": "20260703_022728_449703678585339915_2026-07-02-22-18-58.json",
+      "relative_path": "1.1_ Cold Lake Hit Lits vs Ottawa Valley Sweatshirt And Friends__1520927972977152120/20260703_022728_449703678585339915_2026-07-02-22-18-58.json",
+      "timestamp_from_filename": "2026-07-02T22:18:58"
+    }
+  ],
+  "warnings": []
+}
