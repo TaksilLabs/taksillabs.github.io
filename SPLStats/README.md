@@ -21,6 +21,10 @@ python build_team_records.py
 python build_teams.py
 
 
+run local server
+python3 -m http.server 8000
+
+
 # ------------------------------------------
 # IGNORE THE ABOVE IF NOT NAMED DARTHTAKSIL
 # ------------------------------------------

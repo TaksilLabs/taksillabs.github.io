@@ -2,7 +2,7 @@
   "season_id": "summer_2026",
   "season_name": "Summer 2026",
   "season_type": "regular_season",
-  "generated_at_utc": "2026-07-03T22:50:41.372779+00:00",
+  "generated_at_utc": "2026-07-04T12:32:35.606142+00:00",
   "match_count": 53,
   "completed_match_count": 46,
   "matches": [
@@ -2576,7 +2576,7 @@
       "source_folder_name": "1.14_ Ottawa Valley Puck Slappers vs Miami Muffins__1520927395400515654",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_15",
@@ -2633,7 +2633,7 @@
       "source_folder_name": "1.15_ Vader Voltage Eastern vs Yucatan Yetis__1520927399598887054",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_2",
