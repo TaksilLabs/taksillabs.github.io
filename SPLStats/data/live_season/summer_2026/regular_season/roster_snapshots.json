@@ -5294,5 +5294,712 @@
         "1367326"
       ]
     }
+  },
+  "summer_2026_regular_season_central_b_1_2": {
+    "match_id": "summer_2026_regular_season_central_b_1_2",
+    "source_id": "1.2",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "vader_starkillers_central",
+    "home_team": "Vader Starkillers Central",
+    "away_team_id": "vader_inquisitors",
+    "away_team": "Vader Inquisitors",
+    "home_roster": {
+      "team_id": "vader_starkillers_central",
+      "team_display_name": "Vader Starkillers Central",
+      "team": "Vader Starkillers Central",
+      "team_abbreviation": "VSKC",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Rigg",
+          "slap_id": "1530583"
+        },
+        {
+          "role": "player",
+          "steam_name": "qptreyqp",
+          "slap_id": "893565"
+        },
+        {
+          "role": "player",
+          "steam_name": "grimace",
+          "slap_id": "524911"
+        },
+        {
+          "role": "player",
+          "steam_name": "oChase",
+          "slap_id": "767270"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kwispy (Cold Hands)",
+          "slap_id": "524929"
+        }
+      ],
+      "slap_ids": [
+        "1530583",
+        "893565",
+        "524911",
+        "767270",
+        "524929"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_inquisitors",
+      "team_display_name": "Vader Inquisitors",
+      "team": "Vader Inquisitors",
+      "team_abbreviation": "VADI",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ghostwalker",
+          "slap_id": "1439105"
+        },
+        {
+          "role": "player",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "1439105",
+        "1689859",
+        "848840"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_1": {
+    "match_id": "summer_2026_regular_season_intermediate_1_1",
+    "source_id": "1.1",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "boston_bahds",
+    "home_team": "Boston Bahds",
+    "away_team_id": "barrie_beaver_brigade",
+    "away_team": "Barrie Beaver Brigade",
+    "home_roster": {
+      "team_id": "boston_bahds",
+      "team_display_name": "Boston Bahds",
+      "team": "Boston Bahds",
+      "team_abbreviation": "BAHD",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "dxmxnz",
+          "slap_id": "1310489",
+          "jersey_number": "9"
+        },
+        {
+          "role": "player",
+          "steam_name": "Sylat00n",
+          "slap_id": "1313906",
+          "jersey_number": "13"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ademy24",
+          "slap_id": "710101",
+          "jersey_number": "10"
+        },
+        {
+          "role": "player",
+          "steam_name": "dvyr",
+          "slap_id": "352226",
+          "jersey_number": "0"
+        },
+        {
+          "role": "player",
+          "steam_name": "napqleon",
+          "slap_id": "1314476",
+          "jersey_number": "48"
+        }
+      ],
+      "slap_ids": [
+        "1310489",
+        "1313906",
+        "710101",
+        "352226",
+        "1314476"
+      ]
+    },
+    "away_roster": {
+      "team_id": "barrie_beaver_brigade",
+      "team_display_name": "Barrie Beaver Brigade",
+      "team": "Barrie Beaver Brigade",
+      "team_abbreviation": "BBB",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "ScitruS",
+          "slap_id": "2069819",
+          "jersey_number": "15"
+        },
+        {
+          "role": "player",
+          "steam_name": "Shloompa",
+          "slap_id": "979880",
+          "jersey_number": "77"
+        },
+        {
+          "role": "player",
+          "steam_name": "Semen Slayer",
+          "slap_id": "1427595",
+          "jersey_number": "07"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lathyros",
+          "slap_id": "604541",
+          "jersey_number": "44"
+        }
+      ],
+      "slap_ids": [
+        "2069819",
+        "979880",
+        "1427595",
+        "604541"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_11": {
+    "match_id": "summer_2026_regular_season_intermediate_1_11",
+    "source_id": "1.11",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "bedford_bobos_preparatory_academy",
+    "home_team": "Bedford Bobos Preparatory Academy",
+    "away_team_id": "birmingham_bobos",
+    "away_team": "Birmingham Bobos",
+    "home_roster": {
+      "team_id": "bedford_bobos_preparatory_academy",
+      "team_display_name": "Bedford Bobos Preparatory Academy",
+      "team": "Bedford Bobos Preparatory Academy",
+      "team_abbreviation": "BBPA",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Clever",
+          "slap_id": "1592510"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jonny",
+          "slap_id": "178325"
+        },
+        {
+          "role": "player",
+          "steam_name": "Headass",
+          "slap_id": "173111"
+        },
+        {
+          "role": "player",
+          "steam_name": "x6c",
+          "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hammy",
+          "slap_id": "1483800"
+        }
+      ],
+      "slap_ids": [
+        "1592510",
+        "178325",
+        "173111",
+        "871020",
+        "1483800"
+      ]
+    },
+    "away_roster": {
+      "team_id": "birmingham_bobos",
+      "team_display_name": "Birmingham Bobos",
+      "team": "Birmingham Bobos",
+      "team_abbreviation": "BHBB",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "JIRIAS2",
+          "slap_id": "1491869"
+        },
+        {
+          "role": "player",
+          "steam_name": "Normalhumanboy",
+          "slap_id": "265889"
+        },
+        {
+          "role": "player",
+          "steam_name": "bqvh",
+          "slap_id": "1432097"
+        },
+        {
+          "role": "player",
+          "steam_name": "cheesed",
+          "slap_id": "2105273"
+        },
+        {
+          "role": "player",
+          "steam_name": "Snark",
+          "slap_id": "5400"
+        }
+      ],
+      "slap_ids": [
+        "1491869",
+        "265889",
+        "1432097",
+        "2105273",
+        "5400"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_14": {
+    "match_id": "summer_2026_regular_season_intermediate_1_14",
+    "source_id": "1.14",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "no_name_nighthawks",
+    "home_team": "No Name Nighthawks",
+    "away_team_id": "barrie_beaver_brigade",
+    "away_team": "Barrie Beaver Brigade",
+    "home_roster": {
+      "team_id": "no_name_nighthawks",
+      "team_display_name": "No Name Nighthawks",
+      "team": "No Name Nighthawks",
+      "team_abbreviation": "NNN",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Napa0",
+          "slap_id": "296477"
+        },
+        {
+          "role": "player",
+          "steam_name": "HammerTime9000",
+          "slap_id": "1238207"
+        },
+        {
+          "role": "player",
+          "steam_name": "Noob_Weapons",
+          "slap_id": "87"
+        },
+        {
+          "role": "player",
+          "steam_name": "JoeMer",
+          "slap_id": "67383"
+        },
+        {
+          "role": "player",
+          "steam_name": "Victon22",
+          "slap_id": "1502807"
+        }
+      ],
+      "slap_ids": [
+        "296477",
+        "1238207",
+        "87",
+        "67383",
+        "1502807"
+      ]
+    },
+    "away_roster": {
+      "team_id": "barrie_beaver_brigade",
+      "team_display_name": "Barrie Beaver Brigade",
+      "team": "Barrie Beaver Brigade",
+      "team_abbreviation": "BBB",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "ScitruS",
+          "slap_id": "2069819",
+          "jersey_number": "15"
+        },
+        {
+          "role": "player",
+          "steam_name": "Shloompa",
+          "slap_id": "979880",
+          "jersey_number": "77"
+        },
+        {
+          "role": "player",
+          "steam_name": "Semen Slayer",
+          "slap_id": "1427595",
+          "jersey_number": "07"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lathyros",
+          "slap_id": "604541",
+          "jersey_number": "44"
+        }
+      ],
+      "slap_ids": [
+        "2069819",
+        "979880",
+        "1427595",
+        "604541"
+      ]
+    }
+  },
+  "summer_2026_regular_season_intermediate_1_7": {
+    "match_id": "summer_2026_regular_season_intermediate_1_7",
+    "source_id": "1.7",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "intermediate",
+    "region": "east",
+    "home_team_id": "bedford_bobos_preparatory_academy",
+    "home_team": "Bedford Bobos Preparatory Academy",
+    "away_team_id": "hagerstown_heroes",
+    "away_team": "Hagerstown Heroes",
+    "home_roster": {
+      "team_id": "bedford_bobos_preparatory_academy",
+      "team_display_name": "Bedford Bobos Preparatory Academy",
+      "team": "Bedford Bobos Preparatory Academy",
+      "team_abbreviation": "BBPA",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Clever",
+          "slap_id": "1592510"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jonny",
+          "slap_id": "178325"
+        },
+        {
+          "role": "player",
+          "steam_name": "Headass",
+          "slap_id": "173111"
+        },
+        {
+          "role": "player",
+          "steam_name": "x6c",
+          "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hammy",
+          "slap_id": "1483800"
+        }
+      ],
+      "slap_ids": [
+        "1592510",
+        "178325",
+        "173111",
+        "871020",
+        "1483800"
+      ]
+    },
+    "away_roster": {
+      "team_id": "hagerstown_heroes",
+      "team_display_name": "Hagerstown Heroes",
+      "team": "Hagerstown Heroes",
+      "team_abbreviation": "HHRS",
+      "region": "east",
+      "division": "intermediate",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Awlden",
+          "slap_id": "890370"
+        },
+        {
+          "role": "player",
+          "steam_name": "The Real Teddy Blueger",
+          "slap_id": "848840"
+        },
+        {
+          "role": "player",
+          "steam_name": "Yuvraj",
+          "slap_id": "849146"
+        },
+        {
+          "role": "player",
+          "steam_name": "cavitee",
+          "slap_id": "883507"
+        },
+        {
+          "role": "player",
+          "steam_name": "Andriulous",
+          "slap_id": "2017598"
+        }
+      ],
+      "slap_ids": [
+        "890370",
+        "848840",
+        "849146",
+        "883507",
+        "2017598"
+      ]
+    }
+  },
+  "summer_2026_regular_season_open_1_5": {
+    "match_id": "summer_2026_regular_season_open_1_5",
+    "source_id": "1.5",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "open",
+    "region": "east",
+    "home_team_id": "barrie_ice_hounds",
+    "home_team": "Barrie Ice Hounds",
+    "away_team_id": "ottawa_valley_slappers_with_attitude",
+    "away_team": "Ottawa Valley Slappers With Attitude",
+    "home_roster": {
+      "team_id": "barrie_ice_hounds",
+      "team_display_name": "Barrie Ice Hounds",
+      "team": "Barrie Ice Hounds",
+      "team_abbreviation": "BIH",
+      "region": "east",
+      "division": "open",
+      "conference": "",
+      "players": [
+        {
+          "role": "player",
+          "steam_name": "Stim",
+          "slap_id": "1319952"
+        },
+        {
+          "role": "player",
+          "steam_name": "lmb",
+          "slap_id": "1325186"
+        },
+        {
+          "role": "player",
+          "steam_name": "special son",
+          "slap_id": "2037465"
+        },
+        {
+          "role": "player",
+          "steam_name": "Camden.mp4",
+          "slap_id": "1853453"
+        },
+        {
+          "role": "gm",
+          "steam_name": "Tridoxity",
+          "jersey_number": "",
+          "slap_id": "1127790"
+        }
+      ],
+      "slap_ids": [
+        "1319952",
+        "1325186",
+        "2037465",
+        "1853453",
+        "1127790"
+      ]
+    },
+    "away_roster": {
+      "team_id": "ottawa_valley_slappers_with_attitude",
+      "team_display_name": "Ottawa Valley Slappers With Attitude",
+      "team": "Ottawa Valley Slappers With Attitude",
+      "team_abbreviation": "S.W.A",
+      "region": "east",
+      "division": "open",
+      "conference": "",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Inph1del",
+          "slap_id": "6803"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crayon",
+          "slap_id": "61597"
+        },
+        {
+          "role": "player",
+          "steam_name": "JG Wentworth 877-Cash-Now",
+          "slap_id": "1591253"
+        },
+        {
+          "role": "player",
+          "steam_name": "800-588-2300 Empire Today",
+          "slap_id": "1591250"
+        },
+        {
+          "role": "player",
+          "steam_name": "Glitch",
+          "slap_id": "18350"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "6803",
+        "61597",
+        "1591253",
+        "1591250",
+        "18350"
+      ]
+    }
+  },
+  "summer_2026_regular_season_open_1_6": {
+    "match_id": "summer_2026_regular_season_open_1_6",
+    "source_id": "1.6",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "open",
+    "region": "east",
+    "home_team_id": "greensboro_goosans",
+    "home_team": "Greensboro Goosans",
+    "away_team_id": "atlanta_aces",
+    "away_team": "Atlanta Aces",
+    "home_roster": {
+      "team_id": "greensboro_goosans",
+      "team_display_name": "Greensboro Goosans",
+      "team": "Greensboro Goosans",
+      "team_abbreviation": "GOOS",
+      "region": "east",
+      "division": "open",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "MAcademySammy88",
+          "slap_id": "978958"
+        },
+        {
+          "role": "player",
+          "steam_name": "EpiX",
+          "slap_id": "865399"
+        },
+        {
+          "role": "player",
+          "steam_name": "hog wild stunna",
+          "slap_id": "1547281"
+        },
+        {
+          "role": "player",
+          "steam_name": "Overdrive",
+          "slap_id": "150797"
+        },
+        {
+          "role": "player",
+          "steam_name": "Saint",
+          "jersey_number": "",
+          "slap_id": "81320"
+        }
+      ],
+      "slap_ids": [
+        "978958",
+        "865399",
+        "1547281",
+        "150797",
+        "81320"
+      ]
+    },
+    "away_roster": {
+      "team_id": "atlanta_aces",
+      "team_display_name": "Atlanta Aces",
+      "team": "Atlanta Aces",
+      "team_abbreviation": "Atl",
+      "region": "east",
+      "division": "open",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Alt",
+          "slap_id": "24807",
+          "jersey_number": "17"
+        },
+        {
+          "role": "player",
+          "steam_name": "Joe",
+          "slap_id": "6799",
+          "jersey_number": "12"
+        },
+        {
+          "role": "player",
+          "steam_name": "poops",
+          "slap_id": "819088",
+          "jersey_number": "67"
+        },
+        {
+          "role": "player",
+          "steam_name": "PatK9123",
+          "jersey_number": "68",
+          "slap_id": "1392514"
+        }
+      ],
+      "slap_ids": [
+        "24807",
+        "6799",
+        "819088",
+        "1392514"
+      ]
+    }
   }
 }

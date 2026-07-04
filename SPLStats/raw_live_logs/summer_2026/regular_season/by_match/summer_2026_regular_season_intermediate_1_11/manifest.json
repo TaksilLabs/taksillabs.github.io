@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_intermediate_1_11",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "intermediate",
+  "imported_at_utc": "2026-07-04T13:13:25.398455+00:00",
+  "source_folder_name": "1.11_ Bedford Bobos Preparatory Academy vs Birmingham Bobos__1520931922614812903",
+  "source_folder_path": "data/incoming_logs/unsorted/1.11_ Bedford Bobos Preparatory Academy vs Birmingham Bobos__1520931922614812903",
+  "source_id": "1.11",
+  "thread_id": "1520931922614812903",
+  "detected_home_team": "Bedford Bobos Preparatory Academy",
+  "detected_away_team": "Birmingham Bobos",
+  "matched_schedule_home_team_id": "bedford_bobos_preparatory_academy",
+  "matched_schedule_away_team_id": "birmingham_bobos",
+  "matched_schedule_home_team": "Bedford Bobos Preparatory Academy",
+  "matched_schedule_away_team": "Birmingham Bobos",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-03T22:03:19",
+  "last_log_timestamp": "2026-07-03T22:16:29",
+  "probable_start_time": "2026-07-03T22:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260704_022042_246077263286632449_2026-07-03-22-03-19.json",
+      "relative_path": "1.11_ Bedford Bobos Preparatory Academy vs Birmingham Bobos__1520931922614812903/20260704_022042_246077263286632449_2026-07-03-22-03-19.json",
+      "timestamp_from_filename": "2026-07-03T22:03:19"
+    },
+    {
+      "original_name": "20260704_022043_246077263286632449_2026-07-03-22-09-31.json",
+      "relative_path": "1.11_ Bedford Bobos Preparatory Academy vs Birmingham Bobos__1520931922614812903/20260704_022043_246077263286632449_2026-07-03-22-09-31.json",
+      "timestamp_from_filename": "2026-07-03T22:09:31"
+    },
+    {
+      "original_name": "20260704_022043_246077263286632449_2026-07-03-22-16-29.json",
+      "relative_path": "1.11_ Bedford Bobos Preparatory Academy vs Birmingham Bobos__1520931922614812903/20260704_022043_246077263286632449_2026-07-03-22-16-29.json",
+      "timestamp_from_filename": "2026-07-03T22:16:29"
+    }
+  ],
+  "warnings": []
+}

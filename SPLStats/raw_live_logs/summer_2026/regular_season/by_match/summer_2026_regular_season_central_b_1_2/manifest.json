@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_2",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-04T13:13:25.430351+00:00",
+  "source_folder_name": "1.2_ Vader Starkillers Central vs Vader Inquisitors__1520930535998886000",
+  "source_folder_path": "data/incoming_logs/unsorted/1.2_ Vader Starkillers Central vs Vader Inquisitors__1520930535998886000",
+  "source_id": "1.2",
+  "thread_id": "1520930535998886000",
+  "detected_home_team": "Vader Starkillers Central",
+  "detected_away_team": "Vader Inquisitors",
+  "matched_schedule_home_team_id": "vader_starkillers_central",
+  "matched_schedule_away_team_id": "vader_inquisitors",
+  "matched_schedule_home_team": "Vader Starkillers Central",
+  "matched_schedule_away_team": "Vader Inquisitors",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-03T19:03:37",
+  "last_log_timestamp": "2026-07-03T19:18:26",
+  "probable_start_time": "2026-07-03T19:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260704_022717_370757850076807178_2026-07-03-19-03-37.json",
+      "relative_path": "1.2_ Vader Starkillers Central vs Vader Inquisitors__1520930535998886000/20260704_022717_370757850076807178_2026-07-03-19-03-37.json",
+      "timestamp_from_filename": "2026-07-03T19:03:37"
+    },
+    {
+      "original_name": "20260704_022717_370757850076807178_2026-07-03-19-11-26.json",
+      "relative_path": "1.2_ Vader Starkillers Central vs Vader Inquisitors__1520930535998886000/20260704_022717_370757850076807178_2026-07-03-19-11-26.json",
+      "timestamp_from_filename": "2026-07-03T19:11:26"
+    },
+    {
+      "original_name": "20260704_022717_370757850076807178_2026-07-03-19-18-26.json",
+      "relative_path": "1.2_ Vader Starkillers Central vs Vader Inquisitors__1520930535998886000/20260704_022717_370757850076807178_2026-07-03-19-18-26.json",
+      "timestamp_from_filename": "2026-07-03T19:18:26"
+    }
+  ],
+  "warnings": []
+}

@@ -416,7 +416,7 @@ function formatRecord(standingsData, teamId) {
   const row = getTeamStanding(standingsData, teamId);
 
   const wins = Number(row.wins || row.w || 0);
-  const losses = Number(row.losses || row.l || 0);
+  const losses = Number(row.regulation_losses || row.l || 0);
   const otl = Number(row.overtime_losses || row.otl || row.ot_losses || 0);
 
   return `${wins} - ${losses} - ${otl}`;
