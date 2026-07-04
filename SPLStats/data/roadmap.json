@@ -360,9 +360,9 @@
     "description": "The old formula compared player saves / opposing team's shots. This was wrong, it should be player saves / (opposing team's shots - teammate saves ).  Just because you didnt make a save doesnt mean it was a goal against."
   },{
     "title": "Player Card Support",
-    "status": "working",
+    "status": "finished",
     "order": 4,
-    "date_completed": "",
+    "date_completed": "2026-07-04",
     "description": "Build infastructure to allow player cards like we do on League Republic."
   }
 ]

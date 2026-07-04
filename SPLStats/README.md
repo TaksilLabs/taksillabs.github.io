@@ -25,6 +25,11 @@ run local server
 python3 -m http.server 8000
 
 
+
+When importing raw_csv make sure the files are named
+`SPL-Springxxxx`
+Underscores kill the scripts.
+
 # ------------------------------------------
 # IGNORE THE ABOVE IF NOT NAMED DARTHTAKSIL
 # ------------------------------------------

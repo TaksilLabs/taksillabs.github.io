@@ -9,11 +9,11 @@
     "raw_teams": [
       "Adirondack Acclimate (ACE)"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/old_acclimate.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#20e0f0",
+      "secondary": "#102020",
+      "accent": "#10b0f0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -7527,7 +7527,7 @@
       "faceoff_win_percent": 48.72
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Intermediate Division",
@@ -7543,7 +7543,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -7581,7 +7581,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 20.0,
@@ -7619,7 +7619,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -7657,7 +7657,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -9432,7 +9432,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2026"
     ],
@@ -9456,7 +9456,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -9497,7 +9497,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -9578,7 +9578,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -9695,7 +9695,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -9810,7 +9810,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -9849,7 +9849,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -9887,7 +9887,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -10039,7 +10039,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -12335,7 +12335,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Blade Cup Playoffs",
@@ -12357,7 +12357,7 @@
         "seasons_played": 2,
         "seasons": [
           "Fall 2025",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 40.0,
@@ -12471,7 +12471,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 32.0,
@@ -12509,7 +12509,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 34.0,
@@ -12547,7 +12547,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 23.0,
@@ -12585,7 +12585,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 13.0,
@@ -12666,7 +12666,7 @@
     ],
     "logo": "assets/images/teams/barrie_bald_boys.png",
     "theme": {
-      "primary": "#103060",
+      "primary": "#164387",
       "secondary": "#204040",
       "accent": "#e0b030",
       "background": "#050505",
@@ -12711,7 +12711,7 @@
       "Fall 2024",
       "Fall 2025",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2025",
@@ -12784,7 +12784,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -12864,7 +12864,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -12983,7 +12983,7 @@
         ],
         "seasons_played": 3,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -13062,7 +13062,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 46.0,
@@ -13252,7 +13252,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 20.0,
@@ -14682,7 +14682,7 @@
       "faceoff_win_percent": 56.98
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Blade Cup Playoffs",
@@ -14700,7 +14700,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 59.0,
@@ -14738,7 +14738,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 30.0,
@@ -14776,7 +14776,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 22.0,
@@ -14814,7 +14814,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -14852,7 +14852,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -14890,7 +14890,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -16455,7 +16455,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -16478,7 +16478,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -16556,7 +16556,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -16672,7 +16672,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -16711,7 +16711,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 28.0,
@@ -16749,7 +16749,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 31.0,
@@ -16826,7 +16826,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -16864,7 +16864,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -16902,7 +16902,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -17016,7 +17016,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -18374,7 +18374,7 @@
     "seasons": [
       "Fall 2025",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2025"
     ],
@@ -18399,7 +18399,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2025"
         ],
@@ -18598,7 +18598,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -18637,7 +18637,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -18713,7 +18713,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 13.0,
@@ -18827,7 +18827,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -21201,27 +21201,28 @@
     ]
   },
   {
-    "team_id": "beverly_hill_bobos",
-    "team_name": "Beverly Hill Bobos",
-    "team_display_name": "Beverly Hill Bobos",
+    "team_id": "beverly_hills_bobos",
+    "team_name": "Beverly Hills Bobos",
+    "team_display_name": "Beverly Hills Bobos",
     "team_aliases": [
-      "Beverly Hill Bobos"
+      "Beverly Hill Bobos",
+      "Beverly Hills Bobos"
     ],
     "raw_teams": [
       "Beverly Hill Bobos (BEV)"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/beverly_hills_bobos.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#10c0b0",
+      "secondary": "#200010",
+      "accent": "#f00060",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
     },
     "name_history": [
       {
-        "name": "Beverly Hill Bobos",
+        "name": "Beverly Hills Bobos",
         "start_season": null,
         "end_season": null
       }
@@ -24135,7 +24136,7 @@
     "theme": {
       "primary": "#702020",
       "secondary": "#201010",
-      "accent": "#a07070",
+      "accent": "#c44040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -24175,7 +24176,7 @@
       "faceoff_win_percent": 52.85
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -24194,7 +24195,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -24233,7 +24234,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -24272,7 +24273,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 30.0,
@@ -24310,7 +24311,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -24387,7 +24388,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 22.0,
@@ -26413,9 +26414,9 @@
     ],
     "logo": "assets/images/teams/brampton_cows.png",
     "theme": {
-      "primary": "#909070",
+      "primary": "#6f6f6f",
       "secondary": "#111111",
-      "accent": "#fff000",
+      "accent": "#979797",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -26458,7 +26459,7 @@
       "Fall 2024",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2024",
@@ -26496,7 +26497,7 @@
           "Fall 2024",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2024",
@@ -26584,7 +26585,7 @@
         "seasons_played": 4,
         "seasons": [
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -26750,7 +26751,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -26903,7 +26904,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -30465,7 +30466,7 @@
       "Fall 2025",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Winter 2024",
       "Winter 2025",
@@ -30496,7 +30497,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Winter 2024",
           "Winter 2025",
@@ -30542,7 +30543,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Winter 2024",
           "Winter 2025",
@@ -30588,7 +30589,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Winter 2024",
           "Winter 2025",
@@ -30633,7 +30634,7 @@
           "Fall 2024",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Winter 2024",
           "Winter 2025",
@@ -30678,7 +30679,7 @@
           "Fall 2024",
           "Fall 2025",
           "Spring 2024",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Winter 2024"
         ],
@@ -32281,7 +32282,7 @@
       "faceoff_win_percent": 41.48
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Challenger Cross-Conf",
@@ -32297,7 +32298,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 9.0,
@@ -32335,7 +32336,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 14.0,
@@ -32373,7 +32374,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -32411,7 +32412,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -32449,7 +32450,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -32487,7 +32488,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -32525,7 +32526,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -32563,7 +32564,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -37827,7 +37828,7 @@
       "Fall 2025",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2024",
@@ -37860,7 +37861,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2024",
           "Winter 2026"
@@ -37987,7 +37988,7 @@
         "seasons": [
           "Fall 2024",
           "Fall 2025",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 108.0,
@@ -38025,7 +38026,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -38259,7 +38260,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 25.0,
@@ -38297,7 +38298,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 25.0,
@@ -38335,7 +38336,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -43989,7 +43990,7 @@
     "seasons": [
       "Fall 2025",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2026"
     ],
@@ -44012,7 +44013,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -44054,7 +44055,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -44096,7 +44097,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -44136,7 +44137,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -44216,7 +44217,7 @@
         "seasons_played": 4,
         "seasons": [
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -45602,7 +45603,7 @@
       "faceoff_win_percent": 40.94
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Pacific Cup Playoffs",
@@ -45619,7 +45620,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 22.0,
@@ -45657,7 +45658,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 14.0,
@@ -45695,7 +45696,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -45733,7 +45734,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -45771,7 +45772,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -50572,7 +50573,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2026"
     ],
@@ -50595,7 +50596,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -50636,7 +50637,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -50678,7 +50679,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -50719,7 +50720,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -50873,7 +50874,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -50911,7 +50912,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -50949,7 +50950,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -52270,7 +52271,7 @@
       "faceoff_win_percent": 40.77
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Open Division",
@@ -52286,7 +52287,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -52324,7 +52325,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -52362,7 +52363,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -52400,7 +52401,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -52438,7 +52439,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -62174,7 +62175,7 @@
       "faceoff_win_percent": 52.46
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "B Bowl Playoffs",
@@ -62191,7 +62192,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 19.0,
@@ -62229,7 +62230,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 35.0,
@@ -62267,7 +62268,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 24.0,
@@ -62305,7 +62306,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 18.0,
@@ -62343,7 +62344,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -68725,7 +68726,7 @@
       "Fall 2025",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2024",
@@ -68761,7 +68762,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2024",
@@ -68809,7 +68810,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2024",
@@ -68857,7 +68858,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2024",
@@ -69018,7 +69019,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 30.0,
@@ -69364,7 +69365,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -75638,7 +75639,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -75659,7 +75660,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -75699,7 +75700,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -75739,7 +75740,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -80952,7 +80953,7 @@
       "faceoff_win_percent": 30.89
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central C",
@@ -80969,7 +80970,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 29.0,
@@ -81007,7 +81008,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 25.0,
@@ -81045,7 +81046,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 22.0,
@@ -81083,7 +81084,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -82862,10 +82863,11 @@
     "players": [
       {
         "player_id": "unknown_player",
-        "player_name": ".",
-        "player_display_name": ".",
+        "player_name": "Kush",
+        "player_display_name": "Kush",
         "aliases": [
-          "."
+          ".",
+          "Kush"
         ],
         "seasons_played": 1,
         "seasons": [
@@ -85851,7 +85853,7 @@
       "faceoff_win_percent": 52.28
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central C",
@@ -85867,7 +85869,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 24.0,
@@ -85905,7 +85907,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 47.0,
@@ -85943,7 +85945,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 20.0,
@@ -85981,7 +85983,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -89708,7 +89710,7 @@
       "faceoff_win_percent": 64.04
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Genesis Cup Playoffs",
@@ -89725,7 +89727,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 39.0,
@@ -89763,7 +89765,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 42.0,
@@ -89801,7 +89803,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 16.0,
@@ -89839,7 +89841,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -89877,7 +89879,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -90945,9 +90947,9 @@
     ],
     "logo": "assets/images/teams/hagerstown_heroes.png",
     "theme": {
-      "primary": "#a00000",
+      "primary": "#c40000",
       "secondary": "#403030",
-      "accent": "#f0a0a0",
+      "accent": "#e24747",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -97024,7 +97026,7 @@
       "faceoff_win_percent": 49.9
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -97044,7 +97046,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -97083,7 +97085,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -97122,7 +97124,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -97161,7 +97163,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 16.0,
@@ -97237,7 +97239,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 4.0,
@@ -97313,7 +97315,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -97351,7 +97353,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -97389,7 +97391,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -104243,7 +104245,7 @@
       "Spring 2021",
       "Spring 2022",
       "Spring 2023",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2023",
       "Summer 2024",
       "Winter 2020",
@@ -104276,7 +104278,7 @@
           "Spring 2020",
           "Spring 2021",
           "Spring 2023",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2023",
           "Winter 2020",
           "Winter 2023"
@@ -104398,7 +104400,7 @@
         "seasons_played": 2,
         "seasons": [
           "Spring 2023",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 53.0,
@@ -104512,7 +104514,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 30.0,
@@ -105203,7 +105205,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -105444,7 +105446,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -108107,7 +108109,7 @@
       "faceoff_win_percent": 53.89
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Challenger Cross-Conf",
@@ -108124,7 +108126,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -108162,7 +108164,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -108200,7 +108202,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -108238,7 +108240,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -108276,7 +108278,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -108314,7 +108316,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -108354,7 +108356,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -108392,7 +108394,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -108430,7 +108432,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -108468,7 +108470,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -114468,7 +114470,7 @@
       "faceoff_win_percent": 49.45
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central C",
@@ -114485,7 +114487,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 40.0,
@@ -114523,7 +114525,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 38.0,
@@ -114561,7 +114563,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 33.0,
@@ -114599,7 +114601,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 36.0,
@@ -117100,7 +117102,7 @@
       "faceoff_win_percent": 40.31
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Preseason",
@@ -117116,7 +117118,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 18.0,
@@ -117154,7 +117156,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -117193,7 +117195,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -117231,7 +117233,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -117269,7 +117271,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -117307,7 +117309,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -117345,7 +117347,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -118691,7 +118693,7 @@
       "Fall 2025",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2024",
@@ -118719,7 +118721,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2024",
@@ -118765,7 +118767,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2024",
           "Winter 2025",
@@ -118810,7 +118812,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2025",
           "Winter 2026"
@@ -118853,7 +118855,7 @@
         "seasons": [
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2024",
           "Winter 2025"
@@ -118895,7 +118897,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -119011,7 +119013,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -119320,7 +119322,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -119358,7 +119360,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -126799,36 +126801,36 @@
     ],
     "franchise_id": null,
     "career": {
-      "assists": 652.0,
-      "blocks": 507.0,
-      "faceoffs_lost": 533.0,
-      "faceoffs_won": 844.0,
-      "goals": 794.0,
-      "passes": 5467.0,
-      "points": 1446.0,
-      "possession_time_sec": 14497.0,
-      "post_hits": 345.0,
-      "primary_assists": 530.0,
-      "saves": 437.0,
-      "secondary_assists": 123.0,
-      "shots": 1734.0,
-      "takeaways": 2108.0,
-      "turnovers": 1449.0,
-      "goals_against": 1221.0,
-      "shots_against": 2549.0,
-      "games_played": 277.0,
-      "faceoffs_total": 1377.0,
-      "periods_played": 246.0,
-      "shot_percent": 45.79,
-      "save_percent": 17.14,
-      "gaa": 4.41,
-      "faceoff_win_percent": 61.29
+      "assists": 680.0,
+      "blocks": 559.0,
+      "faceoffs_lost": 552.0,
+      "faceoffs_won": 884.0,
+      "goals": 828.0,
+      "passes": 5765.0,
+      "points": 1508.0,
+      "possession_time_sec": 15366.0,
+      "post_hits": 358.0,
+      "primary_assists": 553.0,
+      "saves": 469.0,
+      "secondary_assists": 128.0,
+      "shots": 1808.0,
+      "takeaways": 2194.0,
+      "turnovers": 1505.0,
+      "goals_against": 1269.0,
+      "shots_against": 2693.0,
+      "games_played": 289.0,
+      "faceoffs_total": 1436.0,
+      "periods_played": 282.0,
+      "shot_percent": 45.8,
+      "save_percent": 17.42,
+      "gaa": 4.39,
+      "faceoff_win_percent": 61.56
     },
     "seasons": [
       "Fall 2021",
       "Fall 2024",
       "Spring 2021",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2021",
       "Winter 2022"
     ],
@@ -126855,35 +126857,35 @@
           "Fall 2021",
           "Fall 2024",
           "Spring 2021",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2021",
           "Winter 2022"
         ],
         "stats": {
-          "assists": 181.0,
-          "blocks": 197.0,
-          "faceoffs_lost": 151.0,
-          "faceoffs_won": 284.0,
-          "goals": 355.0,
-          "passes": 1766.0,
-          "points": 536.0,
-          "possession_time_sec": 4371.0,
-          "post_hits": 148.0,
-          "primary_assists": 148.0,
-          "saves": 87.0,
-          "secondary_assists": 34.0,
-          "shots": 805.0,
-          "takeaways": 742.0,
-          "turnovers": 511.0,
-          "goals_against": 356.0,
-          "shots_against": 754.0,
-          "games_played": 83.0,
-          "faceoffs_total": 435.0,
-          "periods_played": 76.0,
-          "shot_percent": 44.1,
-          "save_percent": 11.54,
-          "gaa": 4.29,
-          "faceoff_win_percent": 65.29
+          "assists": 196.0,
+          "blocks": 230.0,
+          "faceoffs_lost": 158.0,
+          "faceoffs_won": 294.0,
+          "goals": 361.0,
+          "passes": 1879.0,
+          "points": 557.0,
+          "possession_time_sec": 4886.0,
+          "post_hits": 154.0,
+          "primary_assists": 160.0,
+          "saves": 116.0,
+          "secondary_assists": 37.0,
+          "shots": 823.0,
+          "takeaways": 783.0,
+          "turnovers": 523.0,
+          "goals_against": 372.0,
+          "shots_against": 802.0,
+          "games_played": 87.0,
+          "faceoffs_total": 452.0,
+          "periods_played": 88.0,
+          "shot_percent": 43.86,
+          "save_percent": 14.46,
+          "gaa": 4.28,
+          "faceoff_win_percent": 65.04
         }
       },
       {
@@ -127127,33 +127129,71 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
-          "assists": 22.0,
-          "blocks": 18.0,
-          "faceoffs_lost": 7.0,
-          "faceoffs_won": 32.0,
-          "goals": 41.0,
-          "passes": 261.0,
-          "periods_played": 23.0,
-          "points": 63.0,
-          "possession_time_sec": 458.0,
-          "post_hits": 24.0,
-          "primary_assists": 19.0,
-          "saves": 4.0,
+          "assists": 29.0,
+          "blocks": 34.0,
+          "faceoffs_lost": 11.0,
+          "faceoffs_won": 46.0,
+          "goals": 59.0,
+          "passes": 377.0,
+          "periods_played": 35.0,
+          "points": 88.0,
+          "possession_time_sec": 725.0,
+          "post_hits": 29.0,
+          "primary_assists": 26.0,
+          "saves": 7.0,
           "secondary_assists": 3.0,
-          "shots": 93.0,
-          "takeaways": 56.0,
-          "turnovers": 18.0,
-          "goals_against": 38.0,
-          "shots_against": 65.0,
+          "shots": 132.0,
+          "takeaways": 93.0,
+          "turnovers": 42.0,
+          "goals_against": 54.0,
+          "shots_against": 113.0,
+          "games_played": 13.0,
+          "faceoffs_total": 57.0,
+          "shot_percent": 44.7,
+          "save_percent": 6.19,
+          "gaa": 4.15,
+          "faceoff_win_percent": 80.7
+        }
+      },
+      {
+        "player_id": "headass",
+        "player_name": "Headass",
+        "player_display_name": "Headass",
+        "aliases": [
+          "Headass"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Spring_2026"
+        ],
+        "stats": {
+          "assists": 19.0,
+          "blocks": 8.0,
+          "faceoffs_lost": 17.0,
+          "faceoffs_won": 40.0,
+          "goals": 26.0,
+          "passes": 173.0,
+          "periods_played": 25.0,
+          "points": 45.0,
+          "possession_time_sec": 209.0,
+          "post_hits": 6.0,
+          "primary_assists": 15.0,
+          "saves": 1.0,
+          "secondary_assists": 4.0,
+          "shots": 43.0,
+          "takeaways": 23.0,
+          "turnovers": 36.0,
+          "goals_against": 40.0,
+          "shots_against": 94.0,
           "games_played": 9.0,
-          "faceoffs_total": 39.0,
-          "shot_percent": 44.09,
-          "save_percent": 6.15,
-          "gaa": 4.22,
-          "faceoff_win_percent": 82.05
+          "faceoffs_total": 57.0,
+          "shot_percent": 60.47,
+          "save_percent": 1.06,
+          "gaa": 4.44,
+          "faceoff_win_percent": 70.18
         }
       },
       {
@@ -127166,7 +127206,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -127204,7 +127244,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 18.0,
@@ -127234,44 +127274,6 @@
         }
       },
       {
-        "player_id": "headass",
-        "player_name": "Headass",
-        "player_display_name": "Headass",
-        "aliases": [
-          "Headass"
-        ],
-        "seasons_played": 1,
-        "seasons": [
-          "Spring 2026"
-        ],
-        "stats": {
-          "assists": 13.0,
-          "blocks": 5.0,
-          "faceoffs_lost": 9.0,
-          "faceoffs_won": 24.0,
-          "goals": 16.0,
-          "passes": 104.0,
-          "periods_played": 13.0,
-          "points": 29.0,
-          "possession_time_sec": 122.0,
-          "post_hits": 4.0,
-          "primary_assists": 11.0,
-          "saves": 1.0,
-          "secondary_assists": 2.0,
-          "shots": 26.0,
-          "takeaways": 15.0,
-          "turnovers": 16.0,
-          "goals_against": 24.0,
-          "shots_against": 46.0,
-          "games_played": 5.0,
-          "faceoffs_total": 33.0,
-          "shot_percent": 61.54,
-          "save_percent": 2.17,
-          "gaa": 4.8,
-          "faceoff_win_percent": 72.73
-        }
-      },
-      {
         "player_id": "fueeqo",
         "player_name": "fueeqo",
         "player_display_name": "fueeqo",
@@ -127280,7 +127282,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -127625,7 +127627,7 @@
       "faceoff_win_percent": 53.97
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Blade Cup Playoffs",
@@ -127642,7 +127644,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 26.0,
@@ -127680,7 +127682,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 25.0,
@@ -127718,7 +127720,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 31.0,
@@ -129411,7 +129413,7 @@
       "Fall 2021",
       "Spring 2022",
       "Spring 2024",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2022",
       "Winter 2023",
@@ -129448,7 +129450,7 @@
           "Fall 2021",
           "Spring 2022",
           "Spring 2024",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2022",
           "Winter 2023",
@@ -129492,7 +129494,7 @@
         "seasons_played": 6,
         "seasons": [
           "Spring 2024",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2023",
           "Winter 2024",
@@ -129698,7 +129700,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 22.0,
@@ -129736,7 +129738,7 @@
         ],
         "seasons_played": 3,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -130000,7 +130002,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -130270,7 +130272,7 @@
       "faceoff_win_percent": 54.41
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025"
     ],
     "divisions": [
@@ -130290,7 +130292,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025"
         ],
         "stats": {
@@ -130329,7 +130331,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 40.0,
@@ -130367,7 +130369,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 78.0,
@@ -130557,7 +130559,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -130633,7 +130635,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 4.0,
@@ -130671,7 +130673,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -131401,7 +131403,7 @@
       "faceoff_win_percent": 60.36
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central A",
@@ -131418,7 +131420,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 50.0,
@@ -131456,7 +131458,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 31.0,
@@ -131494,7 +131496,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 22.0,
@@ -131532,7 +131534,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 19.0,
@@ -131570,7 +131572,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 16.0,
@@ -131608,7 +131610,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -131646,7 +131648,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -138903,7 +138905,7 @@
       "Spring 2023",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2023",
       "Summer 2024",
       "Winter 2022",
@@ -138946,7 +138948,7 @@
           "Spring 2023",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2023",
           "Summer 2024",
           "Winter 2022",
@@ -138997,7 +138999,7 @@
           "Spring 2022",
           "Spring 2023",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2023",
           "Summer 2024",
           "Winter 2023",
@@ -139132,7 +139134,7 @@
           "Fall 2024",
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024"
         ],
         "stats": {
@@ -141503,7 +141505,7 @@
       "faceoff_win_percent": 58.66
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Pro Division"
@@ -141518,7 +141520,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 34.0,
@@ -141556,7 +141558,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 36.0,
@@ -141594,7 +141596,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 38.0,
@@ -141632,7 +141634,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 14.0,
@@ -141670,7 +141672,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -144492,7 +144494,7 @@
     ],
     "logo": "assets/images/teams/new_jersey_dragons.png",
     "theme": {
-      "primary": "#001050",
+      "primary": "#303fa9",
       "secondary": "#303040",
       "accent": "#d02010",
       "background": "#050505",
@@ -145116,7 +145118,7 @@
     "theme": {
       "primary": "#b02030",
       "secondary": "#302020",
-      "accent": "#c05060",
+      "accent": "#a73d4d",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -146072,9 +146074,9 @@
     ],
     "logo": "assets/images/teams/new_jersey_noobs.jpg",
     "theme": {
-      "primary": "#502040",
-      "secondary": "#302030",
-      "accent": "#ffa0f0",
+      "primary": "#ff00ff",
+      "secondary": "#2d002d",
+      "accent": "#00e5ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -148925,7 +148927,7 @@
     "seasons": [
       "Fall 2025",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025"
     ],
     "divisions": [
@@ -148948,7 +148950,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025"
         ],
         "stats": {
@@ -148988,7 +148990,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025"
         ],
         "stats": {
@@ -149108,7 +149110,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 27.0,
@@ -149147,7 +149149,7 @@
         "seasons_played": 2,
         "seasons": [
           "Fall 2025",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 25.0,
@@ -149185,7 +149187,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 27.0,
@@ -154577,7 +154579,7 @@
       "Spring 2023",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2021",
       "Summer 2023",
       "Summer 2024",
@@ -154622,7 +154624,7 @@
           "Spring 2022",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2021",
           "Summer 2023",
           "Summer 2024",
@@ -154679,7 +154681,7 @@
           "Spring 2023",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2021",
           "Summer 2023",
           "Summer 2024",
@@ -154734,7 +154736,7 @@
           "Spring 2023",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2023",
           "Summer 2024",
           "Summer 2025",
@@ -154788,7 +154790,7 @@
           "Spring 2023",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2021",
           "Summer 2023",
           "Summer 2024",
@@ -154837,7 +154839,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2025",
           "Winter 2026"
@@ -160540,7 +160542,7 @@
       "Fall 2024",
       "Spring 2022",
       "Spring 2023",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2023",
       "Winter 2022",
       "Winter 2023",
@@ -160626,7 +160628,7 @@
           "Fall 2024",
           "Spring 2022",
           "Spring 2023",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2023",
           "Winter 2023",
           "Winter 2024"
@@ -160935,7 +160937,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2025"
         ],
         "stats": {
@@ -160975,7 +160977,7 @@
         "seasons_played": 2,
         "seasons": [
           "Fall 2022",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 20.0,
@@ -161237,7 +161239,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 9.0,
@@ -161313,7 +161315,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 4.0,
@@ -161388,7 +161390,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -163055,7 +163057,7 @@
       "Fall 2023",
       "Spring 2021",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2021",
       "Summer 2023",
       "Winter 2021",
@@ -163100,7 +163102,7 @@
           "Fall 2023",
           "Spring 2021",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2021",
           "Summer 2023",
           "Winter 2021",
@@ -163149,7 +163151,7 @@
           "Fall 2023",
           "Spring 2021",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2021",
           "Summer 2023",
           "Winter 2021",
@@ -163242,7 +163244,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -163281,7 +163283,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -163436,7 +163438,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -166459,7 +166461,7 @@
       "faceoff_win_percent": 46.13
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Pacific Cup Playoffs",
@@ -166475,7 +166477,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 21.0,
@@ -166513,7 +166515,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 24.0,
@@ -166551,7 +166553,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 19.0,
@@ -166590,7 +166592,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -166628,7 +166630,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 13.0,
@@ -166666,7 +166668,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -166704,7 +166706,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -167155,7 +167157,7 @@
       "faceoff_win_percent": 45.23
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Intermediate Division",
@@ -167171,7 +167173,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 27.0,
@@ -167209,7 +167211,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -167247,7 +167249,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 16.0,
@@ -167286,7 +167288,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -167324,7 +167326,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -167362,7 +167364,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -168352,7 +168354,7 @@
       "Fall 2024",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2025"
@@ -168811,7 +168813,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 26.0,
@@ -168888,7 +168890,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -169003,7 +169005,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 14.0,
@@ -169041,7 +169043,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -169155,7 +169157,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -169193,7 +169195,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -169269,7 +169271,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 9.0,
@@ -169307,7 +169309,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -171779,7 +171781,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -171800,7 +171802,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -171841,7 +171843,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -171881,7 +171883,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -171922,7 +171924,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -171962,7 +171964,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -172001,7 +172003,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -172741,7 +172743,7 @@
       "faceoff_win_percent": 58.36
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central C",
@@ -172758,7 +172760,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 36.0,
@@ -172796,7 +172798,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 31.0,
@@ -172834,7 +172836,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -172872,7 +172874,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 16.0,
@@ -172910,7 +172912,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -172948,7 +172950,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -172986,7 +172988,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -173404,7 +173406,7 @@
       "Fall 2024",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2025"
@@ -173427,7 +173429,7 @@
         "seasons": [
           "Fall 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2025"
         ],
@@ -173550,7 +173552,7 @@
         "seasons_played": 3,
         "seasons": [
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025"
         ],
         "stats": {
@@ -173628,7 +173630,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025"
         ],
         "stats": {
@@ -174051,7 +174053,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -174127,7 +174129,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -174165,7 +174167,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -175269,7 +175271,7 @@
       "faceoff_win_percent": 46.67
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -175291,7 +175293,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -175330,7 +175332,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -175369,7 +175371,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -175446,7 +175448,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 19.0,
@@ -175484,7 +175486,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 20.0,
@@ -185951,7 +185953,7 @@
       "faceoff_win_percent": 62.2
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central A",
@@ -185969,7 +185971,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 37.0,
@@ -186007,7 +186009,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 45.0,
@@ -186045,7 +186047,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -186083,7 +186085,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 18.0,
@@ -186121,7 +186123,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -186159,7 +186161,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -190881,7 +190883,7 @@
       "Fall 2025",
       "Spring 2023",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2023",
       "Summer 2024",
       "Summer 2025",
@@ -190924,7 +190926,7 @@
           "Fall 2025",
           "Spring 2023",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2023",
           "Summer 2024",
           "Summer 2025",
@@ -191125,7 +191127,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 53.0,
@@ -191583,7 +191585,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 41.0,
@@ -191812,7 +191814,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -191963,7 +191965,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -192231,7 +192233,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 24.0,
@@ -192648,7 +192650,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -192838,7 +192840,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -217417,7 +217419,7 @@
     "seasons": [
       "Fall 2025",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2026"
     ],
@@ -217440,7 +217442,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -217482,7 +217484,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -217524,7 +217526,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -223115,7 +223117,7 @@
       "faceoff_win_percent": 46.37
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -223134,7 +223136,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -223173,7 +223175,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -223212,7 +223214,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -223251,7 +223253,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -227675,7 +227677,7 @@
       "faceoff_win_percent": 64.66
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -227692,7 +227694,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -227731,7 +227733,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -227770,7 +227772,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -228765,7 +228767,7 @@
       "Fall 2025",
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2026"
     ],
@@ -228797,7 +228799,7 @@
           "Fall 2025",
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -229112,7 +229114,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -229150,7 +229152,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -229264,7 +229266,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -230024,7 +230026,7 @@
       "faceoff_win_percent": 46.43
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -230044,7 +230046,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -230083,7 +230085,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -230122,7 +230124,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -230161,7 +230163,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 29.0,
@@ -230199,7 +230201,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 14.0,
@@ -230237,7 +230239,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 6.0,
@@ -230361,7 +230363,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -230381,7 +230383,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -230421,7 +230423,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -230462,7 +230464,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -230501,7 +230503,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -230616,7 +230618,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -230777,7 +230779,7 @@
       "faceoff_win_percent": 41.18
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Open Division"
@@ -230792,7 +230794,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -230830,7 +230832,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -230868,7 +230870,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -230906,7 +230908,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -230991,7 +230993,7 @@
       "faceoff_win_percent": 56.13
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -231009,7 +231011,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -231048,7 +231050,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 63.0,
@@ -231086,7 +231088,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 55.0,
@@ -231324,7 +231326,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -231349,7 +231351,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -231503,7 +231505,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 26.0,
@@ -231541,7 +231543,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 16.0,
@@ -231579,7 +231581,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 19.0,
@@ -231655,7 +231657,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -232886,7 +232888,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -232909,7 +232911,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -232948,7 +232950,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -232987,7 +232989,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 54.0,
@@ -233283,15 +233285,16 @@
         }
       },
       {
-        "player_id": "hostilebug",
-        "player_name": "Hostilebug",
-        "player_display_name": "Hostilebug",
+        "player_id": "darth_slazo",
+        "player_name": "Darth Slazo",
+        "player_display_name": "Darth Slazo",
         "aliases": [
+          "Darth Slazo",
           "Hostilebug"
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -233519,7 +233522,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -234270,7 +234273,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -234290,7 +234293,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -234330,7 +234333,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -234370,7 +234373,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -234409,7 +234412,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -234525,7 +234528,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -234689,7 +234692,7 @@
     "seasons": [
       "Fall 2025",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2025",
       "Winter 2026"
     ],
@@ -234718,7 +234721,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -234760,7 +234763,7 @@
         "seasons": [
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -234801,7 +234804,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -234880,7 +234883,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -235034,7 +235037,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 9.0,
@@ -235187,7 +235190,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -235819,7 +235822,7 @@
       "faceoff_win_percent": 38.83
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central C",
@@ -235835,7 +235838,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 9.0,
@@ -235874,7 +235877,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 17.0,
@@ -235912,7 +235915,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 10.0,
@@ -235950,7 +235953,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -235988,7 +235991,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -236073,7 +236076,7 @@
       "faceoff_win_percent": 48.34
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central B",
@@ -236089,7 +236092,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 18.0,
@@ -236127,7 +236130,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -236165,7 +236168,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -236203,7 +236206,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -236241,7 +236244,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 8.0,
@@ -236279,7 +236282,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 4.0,
@@ -236317,7 +236320,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 18.0,
@@ -236402,7 +236405,7 @@
       "faceoff_win_percent": 58.94
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central C",
@@ -236419,7 +236422,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 38.0,
@@ -236457,7 +236460,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 40.0,
@@ -236495,7 +236498,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 32.0,
@@ -236533,7 +236536,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 22.0,
@@ -236571,7 +236574,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 11.0,
@@ -236609,7 +236612,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -236694,7 +236697,7 @@
       "faceoff_win_percent": 51.08
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Intermediate Division",
@@ -236710,7 +236713,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 21.0,
@@ -236748,7 +236751,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 14.0,
@@ -236786,7 +236789,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 16.0,
@@ -236824,7 +236827,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 18.0,
@@ -236862,7 +236865,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 12.0,
@@ -237612,7 +237615,7 @@
       "faceoff_win_percent": 63.17
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "B Bowl Playoffs",
@@ -237632,7 +237635,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 158.0,
@@ -237670,7 +237673,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 128.0,
@@ -237708,7 +237711,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 124.0,
@@ -237746,7 +237749,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 5.0,
@@ -237784,7 +237787,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -238122,7 +238125,7 @@
       "faceoff_win_percent": 45.74
     },
     "seasons": [
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -238143,7 +238146,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -238182,7 +238185,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -238221,7 +238224,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -238260,7 +238263,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -238337,7 +238340,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -238375,7 +238378,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -238451,7 +238454,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -238489,7 +238492,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -239440,7 +239443,7 @@
       "faceoff_win_percent": 30.6
     },
     "seasons": [
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Preseason",
@@ -239456,7 +239459,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 7.0,
@@ -239494,7 +239497,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -239532,7 +239535,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,
@@ -239570,7 +239573,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 13.0,
@@ -240301,7 +240304,7 @@
     "seasons": [
       "Spring 2024",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2024",
@@ -240325,7 +240328,7 @@
         "seasons": [
           "Spring 2024",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2024",
@@ -240368,7 +240371,7 @@
         "seasons_played": 4,
         "seasons": [
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2025"
         ],
@@ -240489,7 +240492,7 @@
         "seasons_played": 4,
         "seasons": [
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2025"
         ],
@@ -240529,7 +240532,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025"
         ],
         "stats": {
@@ -240606,7 +240609,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -242362,10 +242365,11 @@
       },
       {
         "player_id": "unknown_player",
-        "player_name": ".",
-        "player_display_name": ".",
+        "player_name": "Kush",
+        "player_display_name": "Kush",
         "aliases": [
-          "."
+          ".",
+          "Kush"
         ],
         "seasons_played": 1,
         "seasons": [
@@ -248515,7 +248519,7 @@
       "Fall 2024",
       "Fall 2025",
       "Spring 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Summer 2024",
       "Summer 2025",
       "Winter 2025",
@@ -248548,7 +248552,7 @@
           "Fall 2024",
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2025",
@@ -248593,7 +248597,7 @@
           "Fall 2024",
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2025",
@@ -248638,7 +248642,7 @@
           "Fall 2024",
           "Fall 2025",
           "Spring 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Summer 2025",
           "Winter 2025",
@@ -248681,7 +248685,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2025",
           "Winter 2026"
         ],
@@ -248722,7 +248726,7 @@
         "seasons_played": 4,
         "seasons": [
           "Fall 2024",
-          "Spring 2026",
+          "Spring_2026",
           "Summer 2024",
           "Winter 2026"
         ],
@@ -249494,7 +249498,7 @@
     },
     "seasons": [
       "Fall 2025",
-      "Spring 2026",
+      "Spring_2026",
       "Winter 2026"
     ],
     "divisions": [
@@ -249522,7 +249526,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -249561,7 +249565,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -249600,7 +249604,7 @@
         ],
         "seasons_played": 2,
         "seasons": [
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -249678,7 +249682,7 @@
         "seasons_played": 3,
         "seasons": [
           "Fall 2025",
-          "Spring 2026",
+          "Spring_2026",
           "Winter 2026"
         ],
         "stats": {
@@ -249832,7 +249836,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 30.0,
@@ -249870,7 +249874,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 31.0,
@@ -249908,7 +249912,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 35.0,
@@ -249946,7 +249950,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 39.0,
@@ -250022,7 +250026,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 33.0,
@@ -250061,7 +250065,7 @@
         "seasons_played": 2,
         "seasons": [
           "Fall 2025",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 15.0,
@@ -250099,7 +250103,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -250137,7 +250141,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 3.0,
@@ -250291,7 +250295,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -250329,7 +250333,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 2.0,
@@ -250367,7 +250371,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 1.0,
@@ -255221,42 +255225,43 @@
     ],
     "franchise_id": null,
     "career": {
-      "assists": 410.0,
-      "blocks": 910.0,
-      "faceoffs_lost": 556.0,
-      "faceoffs_won": 503.0,
-      "goals": 461.0,
-      "passes": 3787.0,
-      "periods_played": 562.0,
-      "points": 871.0,
-      "possession_time_sec": 7656.0,
-      "post_hits": 206.0,
-      "primary_assists": 335.0,
-      "saves": 526.0,
-      "secondary_assists": 75.0,
-      "shots": 983.0,
-      "takeaways": 767.0,
-      "turnovers": 756.0,
-      "goals_against": 1572.0,
-      "shots_against": 3236.0,
-      "games_played": 201.0,
-      "faceoffs_total": 1059.0,
-      "shot_percent": 46.9,
-      "save_percent": 16.25,
-      "gaa": 7.82,
-      "faceoff_win_percent": 47.5
+      "assists": 422.0,
+      "blocks": 975.0,
+      "faceoffs_lost": 596.0,
+      "faceoffs_won": 522.0,
+      "goals": 477.0,
+      "passes": 3964.0,
+      "periods_played": 599.0,
+      "points": 899.0,
+      "possession_time_sec": 8067.0,
+      "post_hits": 215.0,
+      "primary_assists": 344.0,
+      "saves": 566.0,
+      "secondary_assists": 78.0,
+      "shots": 1031.0,
+      "takeaways": 823.0,
+      "turnovers": 842.0,
+      "goals_against": 1717.0,
+      "shots_against": 3536.0,
+      "games_played": 217.0,
+      "faceoffs_total": 1118.0,
+      "shot_percent": 46.27,
+      "save_percent": 16.01,
+      "gaa": 7.91,
+      "faceoff_win_percent": 46.69
     },
     "seasons": [
       "Fall 2023",
       "Fall 2024",
       "Spring 2025",
-      "Spring 2026"
+      "Spring_2026"
     ],
     "divisions": [
       "Central A",
       "Challenger Division",
       "Erveon Cup - Playoffs",
       "Gazz Cup - Playoffs",
+      "Pacific Cup Playoffs",
       "Preseason",
       "Pro Division",
       "West Division"
@@ -255274,7 +255279,7 @@
           "Fall 2023",
           "Fall 2024",
           "Spring 2025",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 64.0,
@@ -255354,7 +255359,7 @@
           "Fall 2023",
           "Fall 2024",
           "Spring 2025",
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 26.0,
@@ -255381,6 +255386,45 @@
           "save_percent": 10.51,
           "gaa": 8.5,
           "faceoff_win_percent": 54.43
+        }
+      },
+      {
+        "player_id": "pediatric_patrick",
+        "player_name": "Pediatric Patrick",
+        "player_display_name": "Pediatric Patrick",
+        "aliases": [
+          "Pediatric Patrick"
+        ],
+        "seasons_played": 2,
+        "seasons": [
+          "Fall 2023",
+          "Spring_2026"
+        ],
+        "stats": {
+          "assists": 28.0,
+          "blocks": 32.0,
+          "faceoffs_lost": 34.0,
+          "faceoffs_won": 41.0,
+          "goals": 27.0,
+          "passes": 263.0,
+          "periods_played": 45.0,
+          "points": 55.0,
+          "possession_time_sec": 337.0,
+          "post_hits": 10.0,
+          "primary_assists": 23.0,
+          "saves": 8.0,
+          "secondary_assists": 5.0,
+          "shots": 55.0,
+          "takeaways": 32.0,
+          "turnovers": 68.0,
+          "goals_against": 120.0,
+          "shots_against": 228.0,
+          "games_played": 17.0,
+          "faceoffs_total": 75.0,
+          "shot_percent": 49.09,
+          "save_percent": 3.51,
+          "gaa": 7.06,
+          "faceoff_win_percent": 54.67
         }
       },
       {
@@ -255537,45 +255581,6 @@
         }
       },
       {
-        "player_id": "pediatric_patrick",
-        "player_name": "Pediatric Patrick",
-        "player_display_name": "Pediatric Patrick",
-        "aliases": [
-          "Pediatric Patrick"
-        ],
-        "seasons_played": 2,
-        "seasons": [
-          "Fall 2023",
-          "Spring 2026"
-        ],
-        "stats": {
-          "assists": 28.0,
-          "blocks": 27.0,
-          "faceoffs_lost": 25.0,
-          "faceoffs_won": 38.0,
-          "goals": 26.0,
-          "passes": 237.0,
-          "periods_played": 38.0,
-          "points": 54.0,
-          "possession_time_sec": 317.0,
-          "post_hits": 8.0,
-          "primary_assists": 23.0,
-          "saves": 8.0,
-          "secondary_assists": 5.0,
-          "shots": 54.0,
-          "takeaways": 30.0,
-          "turnovers": 55.0,
-          "goals_against": 90.0,
-          "shots_against": 168.0,
-          "games_played": 14.0,
-          "faceoffs_total": 63.0,
-          "shot_percent": 48.15,
-          "save_percent": 4.76,
-          "gaa": 6.43,
-          "faceoff_win_percent": 60.32
-        }
-      },
-      {
         "player_id": "x6c",
         "player_name": "X6C-",
         "player_display_name": "X6C-",
@@ -255584,33 +255589,33 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
-          "assists": 34.0,
-          "blocks": 67.0,
-          "faceoffs_lost": 33.0,
-          "faceoffs_won": 45.0,
-          "goals": 43.0,
-          "passes": 228.0,
-          "periods_played": 32.0,
-          "points": 77.0,
-          "possession_time_sec": 466.0,
-          "post_hits": 22.0,
-          "primary_assists": 23.0,
-          "saves": 19.0,
-          "secondary_assists": 11.0,
-          "shots": 88.0,
-          "takeaways": 58.0,
-          "turnovers": 46.0,
-          "goals_against": 63.0,
-          "shots_against": 121.0,
-          "games_played": 11.0,
-          "faceoffs_total": 78.0,
-          "shot_percent": 48.86,
-          "save_percent": 15.7,
-          "gaa": 5.73,
-          "faceoff_win_percent": 57.69
+          "assists": 40.0,
+          "blocks": 80.0,
+          "faceoffs_lost": 42.0,
+          "faceoffs_won": 49.0,
+          "goals": 46.0,
+          "passes": 269.0,
+          "periods_played": 40.0,
+          "points": 86.0,
+          "possession_time_sec": 535.0,
+          "post_hits": 26.0,
+          "primary_assists": 27.0,
+          "saves": 25.0,
+          "secondary_assists": 13.0,
+          "shots": 101.0,
+          "takeaways": 67.0,
+          "turnovers": 70.0,
+          "goals_against": 97.0,
+          "shots_against": 195.0,
+          "games_played": 15.0,
+          "faceoffs_total": 91.0,
+          "shot_percent": 45.54,
+          "save_percent": 12.82,
+          "gaa": 6.47,
+          "faceoff_win_percent": 53.85
         }
       },
       {
@@ -255622,33 +255627,33 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
-          "assists": 31.0,
-          "blocks": 52.0,
-          "faceoffs_lost": 14.0,
-          "faceoffs_won": 19.0,
-          "goals": 26.0,
-          "passes": 168.0,
-          "periods_played": 21.0,
-          "points": 57.0,
-          "possession_time_sec": 608.0,
-          "post_hits": 10.0,
-          "primary_assists": 26.0,
-          "saves": 33.0,
+          "assists": 35.0,
+          "blocks": 75.0,
+          "faceoffs_lost": 25.0,
+          "faceoffs_won": 26.0,
+          "goals": 31.0,
+          "passes": 221.0,
+          "periods_played": 30.0,
+          "points": 66.0,
+          "possession_time_sec": 737.0,
+          "post_hits": 12.0,
+          "primary_assists": 30.0,
+          "saves": 62.0,
           "secondary_assists": 5.0,
-          "shots": 60.0,
-          "takeaways": 54.0,
-          "turnovers": 23.0,
-          "goals_against": 54.0,
-          "shots_against": 107.0,
-          "games_played": 8.0,
-          "faceoffs_total": 33.0,
-          "shot_percent": 43.33,
-          "save_percent": 30.84,
-          "gaa": 6.75,
-          "faceoff_win_percent": 57.58
+          "shots": 73.0,
+          "takeaways": 69.0,
+          "turnovers": 40.0,
+          "goals_against": 88.0,
+          "shots_against": 181.0,
+          "games_played": 12.0,
+          "faceoffs_total": 51.0,
+          "shot_percent": 42.47,
+          "save_percent": 34.25,
+          "gaa": 7.33,
+          "faceoff_win_percent": 50.98
         }
       },
       {
@@ -255690,6 +255695,44 @@
         }
       },
       {
+        "player_id": "tony",
+        "player_name": "Tony",
+        "player_display_name": "Tony",
+        "aliases": [
+          "Tony"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Spring_2026"
+        ],
+        "stats": {
+          "assists": 14.0,
+          "blocks": 35.0,
+          "faceoffs_lost": 14.0,
+          "faceoffs_won": 11.0,
+          "goals": 12.0,
+          "passes": 131.0,
+          "periods_played": 21.0,
+          "points": 26.0,
+          "possession_time_sec": 479.0,
+          "post_hits": 3.0,
+          "primary_assists": 10.0,
+          "saves": 6.0,
+          "secondary_assists": 4.0,
+          "shots": 35.0,
+          "takeaways": 60.0,
+          "turnovers": 38.0,
+          "goals_against": 50.0,
+          "shots_against": 97.0,
+          "games_played": 7.0,
+          "faceoffs_total": 25.0,
+          "shot_percent": 34.29,
+          "save_percent": 6.19,
+          "gaa": 7.14,
+          "faceoff_win_percent": 44.0
+        }
+      },
+      {
         "player_id": "bey",
         "player_name": "Bey",
         "player_display_name": "Bey",
@@ -255728,41 +255771,42 @@
         }
       },
       {
-        "player_id": "tony",
-        "player_name": "Tony",
-        "player_display_name": "Tony",
+        "player_id": "square",
+        "player_name": "Square",
+        "player_display_name": "Square",
         "aliases": [
-          "Tony"
+          "Kevin",
+          "Square"
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
-          "assists": 12.0,
-          "blocks": 13.0,
-          "faceoffs_lost": 4.0,
-          "faceoffs_won": 7.0,
-          "goals": 6.0,
-          "passes": 79.0,
-          "periods_played": 9.0,
-          "points": 18.0,
-          "possession_time_sec": 292.0,
-          "post_hits": 2.0,
-          "primary_assists": 9.0,
+          "assists": 2.0,
+          "blocks": 4.0,
+          "faceoffs_lost": 2.0,
+          "faceoffs_won": 3.0,
+          "goals": 5.0,
+          "passes": 24.0,
+          "periods_played": 4.0,
+          "points": 7.0,
+          "possession_time_sec": 8.0,
+          "post_hits": 0.0,
+          "primary_assists": 2.0,
           "saves": 2.0,
-          "secondary_assists": 3.0,
-          "shots": 16.0,
-          "takeaways": 30.0,
-          "turnovers": 11.0,
-          "goals_against": 16.0,
-          "shots_against": 23.0,
-          "games_played": 3.0,
-          "faceoffs_total": 11.0,
-          "shot_percent": 37.5,
-          "save_percent": 8.7,
-          "gaa": 5.33,
-          "faceoff_win_percent": 63.64
+          "secondary_assists": 0.0,
+          "shots": 10.0,
+          "takeaways": 0.0,
+          "turnovers": 10.0,
+          "goals_against": 17.0,
+          "shots_against": 27.0,
+          "games_played": 2.0,
+          "faceoffs_total": 5.0,
+          "shot_percent": 50.0,
+          "save_percent": 7.41,
+          "gaa": 8.5,
+          "faceoff_win_percent": 60.0
         }
       },
       {
@@ -255804,45 +255848,6 @@
         }
       },
       {
-        "player_id": "square",
-        "player_name": "Square",
-        "player_display_name": "Square",
-        "aliases": [
-          "Kevin",
-          "Square"
-        ],
-        "seasons_played": 1,
-        "seasons": [
-          "Spring 2026"
-        ],
-        "stats": {
-          "assists": 2.0,
-          "blocks": 2.0,
-          "faceoffs_lost": 1.0,
-          "faceoffs_won": 2.0,
-          "goals": 4.0,
-          "passes": 19.0,
-          "periods_played": 3.0,
-          "points": 6.0,
-          "possession_time_sec": 2.0,
-          "post_hits": 0.0,
-          "primary_assists": 2.0,
-          "saves": 1.0,
-          "secondary_assists": 0.0,
-          "shots": 8.0,
-          "takeaways": 0.0,
-          "turnovers": 5.0,
-          "goals_against": 4.0,
-          "shots_against": 9.0,
-          "games_played": 1.0,
-          "faceoffs_total": 3.0,
-          "shot_percent": 50.0,
-          "save_percent": 11.11,
-          "gaa": 4.0,
-          "faceoff_win_percent": 66.67
-        }
-      },
-      {
         "player_id": "tridoxity",
         "player_name": "Tridoxity",
         "player_display_name": "Tridoxity",
@@ -255851,7 +255856,7 @@
         ],
         "seasons_played": 1,
         "seasons": [
-          "Spring 2026"
+          "Spring_2026"
         ],
         "stats": {
           "assists": 0.0,

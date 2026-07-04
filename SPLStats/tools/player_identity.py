@@ -69,3 +69,8 @@ def resolve_player_identity(raw_name, alias_lookup=None):
         "aliases": [str(raw_name or "").strip()],
         "slap_ids": []
     }
+
+
+def get_player_id_from_name(raw_name, alias_lookup=None):
+    identity = resolve_player_identity(raw_name, alias_lookup)
+    return identity["player_id"]
