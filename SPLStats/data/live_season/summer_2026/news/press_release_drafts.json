@@ -2,6 +2,45 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-06-29_bedford_bobos_preparatory_academy_roster_moves",
+      "transaction_ids": [
+        "20260704T174757Z_bedford_bobos_preparatory_academy_remove_x6c"
+      ],
+      "transaction_id": "20260704T174757Z_bedford_bobos_preparatory_academy_remove_x6c",
+      "status": "draft",
+      "created_at_utc": "2026-06-29T18:14:57Z",
+      "updated_at_utc": "2026-06-29T18:14:57Z",
+      "headline": "Bedford Bobos Preparatory Academy Remove x6c",
+      "subheadline": "The Bedford Bobos Preparatory Academy have removed x6c from their active roster.",
+      "slug": "bedford-bobos-preparatory-academy-remove-x6c",
+      "team_id": "bedford_bobos_preparatory_academy",
+      "team_abbreviation": "BBPA",
+      "team_display_name": "Bedford Bobos Preparatory Academy",
+      "division": "intermediate",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "remove",
+          "player_id": "x6c",
+          "player_display_name": "x6c",
+          "slap_id": "871020",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "bedford_bobos_preparatory_academy",
+        "intermediate"
+      ],
+      "body_markdown": "The Bedford Bobos Preparatory Academy have removed x6c from their active roster.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-03_boston_bobos_roster_moves",
       "transaction_ids": [
         "20260703T210526Z_boston_bobos_add_jeru",
