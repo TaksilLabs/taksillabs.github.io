@@ -2,29 +2,29 @@
   "season_id": "summer_2026",
   "drafts": [
     {
-      "draft_id": "2026-06-29_bedford_bobos_preparatory_academy_roster_moves",
+      "draft_id": "2026-07-05_birmingham_bobos_roster_moves",
       "transaction_ids": [
-        "20260704T174757Z_bedford_bobos_preparatory_academy_remove_x6c"
+        "20260705T024852Z_birmingham_bobos_remove_normalhumanboy"
       ],
-      "transaction_id": "20260704T174757Z_bedford_bobos_preparatory_academy_remove_x6c",
-      "status": "draft",
-      "created_at_utc": "2026-06-29T18:14:57Z",
-      "updated_at_utc": "2026-06-29T18:14:57Z",
-      "headline": "Bedford Bobos Preparatory Academy Remove x6c",
-      "subheadline": "The Bedford Bobos Preparatory Academy have removed x6c from their active roster.",
-      "slug": "bedford-bobos-preparatory-academy-remove-x6c",
-      "team_id": "bedford_bobos_preparatory_academy",
-      "team_abbreviation": "BBPA",
-      "team_display_name": "Bedford Bobos Preparatory Academy",
+      "transaction_id": "20260705T024852Z_birmingham_bobos_remove_normalhumanboy",
+      "status": "published",
+      "created_at_utc": "2026-07-05T02:48:52Z",
+      "updated_at_utc": "2026-07-05T02:51:25.193Z",
+      "headline": "Normalhumanboy Leaves Birmingham Bobos",
+      "subheadline": "Normalhumanboy packs his bags and heads out.",
+      "slug": "normalhumanboy-leaves-birmingham-bobos",
+      "team_id": "birmingham_bobos",
+      "team_abbreviation": "BHBB",
+      "team_display_name": "Birmingham Bobos",
       "division": "intermediate",
       "region": "east",
       "conference": "",
       "players": [
         {
           "type": "remove",
-          "player_id": "x6c",
-          "player_display_name": "x6c",
-          "slap_id": "871020",
+          "player_id": "normalhumanboy",
+          "player_display_name": "Normalhumanboy",
+          "slap_id": "265889",
           "jersey_number": ""
         }
       ],
@@ -32,10 +32,10 @@
       "tags": [
         "transactions",
         "roster",
-        "bedford_bobos_preparatory_academy",
+        "birmingham_bobos",
         "intermediate"
       ],
-      "body_markdown": "The Bedford Bobos Preparatory Academy have removed x6c from their active roster.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "body_markdown": "Normalhumanboy departs Birmingham with the intention of exploring the open market and seeing what opportunities may be available around the league. The move gives both player and club a chance to evaluate their options as the season continues.\n\nNormalhumanboy is now eligible to sign with a new club.",
       "writer_notes": "",
       "created_by": "active_roster_editor",
       "last_edited_by": ""
@@ -789,7 +789,46 @@
       "writer_notes": "",
       "created_by": "press_release_backfill",
       "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-06-29_bedford_bobos_preparatory_academy_roster_moves",
+      "transaction_ids": [
+        "20260704T174757Z_bedford_bobos_preparatory_academy_remove_x6c"
+      ],
+      "transaction_id": "20260704T174757Z_bedford_bobos_preparatory_academy_remove_x6c",
+      "status": "draft",
+      "created_at_utc": "2026-06-29T18:14:57Z",
+      "updated_at_utc": "2026-06-29T18:14:57Z",
+      "headline": "Bedford Bobos Preparatory Academy Remove x6c",
+      "subheadline": "The Bedford Bobos Preparatory Academy have removed x6c from their active roster.",
+      "slug": "bedford-bobos-preparatory-academy-remove-x6c",
+      "team_id": "bedford_bobos_preparatory_academy",
+      "team_abbreviation": "BBPA",
+      "team_display_name": "Bedford Bobos Preparatory Academy",
+      "division": "intermediate",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "remove",
+          "player_id": "x6c",
+          "player_display_name": "x6c",
+          "slap_id": "871020",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "bedford_bobos_preparatory_academy",
+        "intermediate"
+      ],
+      "body_markdown": "The Bedford Bobos Preparatory Academy have removed x6c from their active roster.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
     }
   ],
-  "updated_at_utc": "2026-07-03T03:25:32Z"
+  "updated_at_utc": "2026-07-05T02:51:25Z"
 }
