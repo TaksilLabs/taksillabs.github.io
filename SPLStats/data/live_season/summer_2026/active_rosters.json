@@ -618,15 +618,23 @@
         },
         {
           "role": "player",
-          "steam_name": "Snark",
-          "slap_id": "5400"
+          "steam_name": "quion games",
+          "jersey_number": "",
+          "slap_id": "1519437"
+        },
+        {
+          "role": "player",
+          "steam_name": "ubes",
+          "jersey_number": "",
+          "slap_id": "688562"
         }
       ],
       "slap_ids": [
         "1491869",
         "1432097",
         "2105273",
-        "5400"
+        "1519437",
+        "688562"
       ],
       "season_id": "summer_2026",
       "division": "intermediate",
