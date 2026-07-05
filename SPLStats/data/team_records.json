@@ -6,11 +6,11 @@
     "team_aliases": [
       "Adirondack Acclimate"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/old_acclimate.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#20e0f0",
+      "secondary": "#102020",
+      "accent": "#10b0f0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -2152,7 +2152,7 @@
     ],
     "logo": "assets/images/teams/barrie_bald_boys.png",
     "theme": {
-      "primary": "#103060",
+      "primary": "#164387",
       "secondary": "#204040",
       "accent": "#e0b030",
       "background": "#050505",
@@ -3512,24 +3512,25 @@
     ]
   },
   {
-    "team_id": "beverly_hill_bobos",
-    "team": "Beverly Hill Bobos",
-    "team_display_name": "Beverly Hill Bobos",
+    "team_id": "beverly_hills_bobos",
+    "team": "Beverly Hills Bobos",
+    "team_display_name": "Beverly Hills Bobos",
     "team_aliases": [
+      "Beverly Hills Bobos",
       "Beverly Hill Bobos"
     ],
-    "logo": "",
+    "logo": "assets/images/teams/beverly_hills_bobos.png",
     "theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#10c0b0",
+      "secondary": "#200010",
+      "accent": "#f00060",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
     },
     "name_history": [
       {
-        "name": "Beverly Hill Bobos",
+        "name": "Beverly Hills Bobos",
         "start_season": null,
         "end_season": null
       }
@@ -4123,7 +4124,7 @@
     "theme": {
       "primary": "#702020",
       "secondary": "#201010",
-      "accent": "#a07070",
+      "accent": "#c44040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4569,9 +4570,9 @@
     ],
     "logo": "assets/images/teams/brampton_cows.png",
     "theme": {
-      "primary": "#909070",
+      "primary": "#6f6f6f",
       "secondary": "#111111",
-      "accent": "#fff000",
+      "accent": "#979797",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -16617,9 +16618,9 @@
     ],
     "logo": "assets/images/teams/hagerstown_heroes.png",
     "theme": {
-      "primary": "#a00000",
+      "primary": "#c40000",
       "secondary": "#403030",
-      "accent": "#f0a0a0",
+      "accent": "#e24747",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -23065,13 +23066,13 @@
         "end_season": null
       }
     ],
-    "games_played": 91,
-    "wins": 74,
-    "losses": 17,
-    "win_percent": 0.813,
-    "goals_for": 794,
-    "goals_against": 402,
-    "goal_differential": 392,
+    "games_played": 95,
+    "wins": 77,
+    "losses": 18,
+    "win_percent": 0.811,
+    "goals_for": 828,
+    "goals_against": 418,
+    "goal_differential": 410,
     "seasons": [
       "spring_2021",
       "summer_2021",
@@ -23137,15 +23138,15 @@
         "win_percent": 0.533
       },
       {
-        "games_played": 15,
-        "wins": 14,
-        "losses": 1,
-        "goals_for": 160,
-        "goals_against": 54,
+        "games_played": 19,
+        "wins": 17,
+        "losses": 2,
+        "goals_for": 194,
+        "goals_against": 70,
         "season": "Spring 2026",
         "season_id": "spring_2026",
-        "goal_differential": 106,
-        "win_percent": 0.933
+        "goal_differential": 124,
+        "win_percent": 0.895
       }
     ]
   },
@@ -26139,7 +26140,7 @@
     ],
     "logo": "assets/images/teams/new_jersey_dragons.png",
     "theme": {
-      "primary": "#001050",
+      "primary": "#303fa9",
       "secondary": "#303040",
       "accent": "#d02010",
       "background": "#050505",
@@ -26259,7 +26260,7 @@
     "theme": {
       "primary": "#b02030",
       "secondary": "#302020",
-      "accent": "#c05060",
+      "accent": "#a73d4d",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -26376,9 +26377,9 @@
     ],
     "logo": "assets/images/teams/new_jersey_noobs.jpg",
     "theme": {
-      "primary": "#502040",
-      "secondary": "#302030",
-      "accent": "#ffa0f0",
+      "primary": "#ff00ff",
+      "secondary": "#2d002d",
+      "accent": "#00e5ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -45424,13 +45425,13 @@
         "end_season": null
       }
     ],
-    "games_played": 64,
-    "wins": 27,
-    "losses": 37,
-    "win_percent": 0.422,
-    "goals_for": 461,
-    "goals_against": 507,
-    "goal_differential": -46,
+    "games_played": 68,
+    "wins": 28,
+    "losses": 40,
+    "win_percent": 0.412,
+    "goals_for": 477,
+    "goals_against": 541,
+    "goal_differential": -64,
     "seasons": [
       "fall_2023",
       "fall_2024",
@@ -45472,15 +45473,15 @@
         "win_percent": 0.235
       },
       {
-        "games_played": 13,
-        "wins": 9,
-        "losses": 4,
-        "goals_for": 113,
-        "goals_against": 78,
+        "games_played": 17,
+        "wins": 10,
+        "losses": 7,
+        "goals_for": 129,
+        "goals_against": 112,
         "season": "Spring 2026",
         "season_id": "spring_2026",
-        "goal_differential": 35,
-        "win_percent": 0.692
+        "goal_differential": 17,
+        "win_percent": 0.588
       }
     ]
   }

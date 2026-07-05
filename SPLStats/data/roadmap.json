@@ -364,5 +364,11 @@
     "order": 4,
     "date_completed": "2026-07-04",
     "description": "Build infastructure to allow player cards like we do on League Republic."
+  },{
+    "title": "Live Seasons support for All-Time Hubs",
+    "status": "finished",
+    "order": 1,
+    "date_completed": "2026-07-04",
+    "description": "Add math to include the ongoing season into the All-Time Stat hubs. This includes Franchise totals, Team totals, and Player totals."
   }
 ]
