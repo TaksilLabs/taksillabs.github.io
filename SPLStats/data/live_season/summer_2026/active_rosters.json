@@ -889,11 +889,6 @@
         },
         {
           "role": "player",
-          "steam_name": "chausie",
-          "slap_id": "1234707"
-        },
-        {
-          "role": "player",
           "steam_name": "Timmy",
           "jersey_number": "",
           "slap_id": "40"
@@ -913,7 +908,6 @@
       ],
       "slap_ids": [
         "985994",
-        "1234707",
         "40",
         "173111",
         "1378966"

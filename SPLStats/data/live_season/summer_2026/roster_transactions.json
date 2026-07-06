@@ -2,6 +2,23 @@
   "season_id": "summer_2026",
   "transactions": [
     {
+      "transaction_id": "20260706T030112Z_camrose_cats_remove_chausie",
+      "created_at_utc": "2026-07-06T03:01:12Z",
+      "type": "remove",
+      "team_id": "camrose_cats",
+      "team_abbreviation": "cat",
+      "team_display_name": "Camrose Cats",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "player_id": "chausie",
+      "player_display_name": "chausie",
+      "slap_id": "1234707",
+      "jersey_number": "",
+      "previous_jersey_number": "",
+      "source": "active_roster_editor"
+    },
+    {
       "transaction_id": "20260706T005312Z_ottawa_valley_post_dingers_add_jak",
       "created_at_utc": "2026-07-06T00:53:12Z",
       "type": "add",

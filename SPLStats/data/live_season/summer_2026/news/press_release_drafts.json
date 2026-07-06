@@ -2,6 +2,45 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-06_camrose_cats_roster_moves",
+      "transaction_ids": [
+        "20260706T030112Z_camrose_cats_remove_chausie"
+      ],
+      "transaction_id": "20260706T030112Z_camrose_cats_remove_chausie",
+      "status": "draft",
+      "created_at_utc": "2026-07-06T03:01:12Z",
+      "updated_at_utc": "2026-07-06T03:01:12Z",
+      "headline": "Camrose Cats Remove chausie",
+      "subheadline": "The Camrose Cats have removed chausie from their active roster.",
+      "slug": "camrose-cats-remove-chausie",
+      "team_id": "camrose_cats",
+      "team_abbreviation": "cat",
+      "team_display_name": "Camrose Cats",
+      "division": "central_a",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "remove",
+          "player_id": "chausie",
+          "player_display_name": "chausie",
+          "slap_id": "1234707",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "camrose_cats",
+        "central_a"
+      ],
+      "body_markdown": "The Camrose Cats have removed chausie from their active roster.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-06_ottawa_valley_post_dingers_roster_moves",
       "transaction_ids": [
         "20260706T005312Z_ottawa_valley_post_dingers_add_jak"
