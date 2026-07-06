@@ -109,7 +109,7 @@
       "passes": 31,
       "possession_time_sec": 56,
       "conceded_goals": 5,
-      "shots_faced": 21,
+      "shots_faced": 5,
       "save_percent": "0.000",
       "gaa": 5,
       "score": 1180
@@ -134,8 +134,8 @@
       "passes": 33,
       "possession_time_sec": 14,
       "conceded_goals": 5,
-      "shots_faced": 21,
-      "save_percent": "0.095",
+      "shots_faced": 7,
+      "save_percent": "0.286",
       "gaa": 5,
       "score": 900
     },
@@ -159,8 +159,8 @@
       "passes": 21,
       "possession_time_sec": 27,
       "conceded_goals": 5,
-      "shots_faced": 21,
-      "save_percent": "0.667",
+      "shots_faced": 19,
+      "save_percent": "0.737",
       "gaa": 5,
       "score": 1170
     },
@@ -184,7 +184,7 @@
       "passes": 20,
       "possession_time_sec": 5,
       "conceded_goals": 12,
-      "shots_faced": 20,
+      "shots_faced": 12,
       "save_percent": "0.000",
       "gaa": 12,
       "score": 680
@@ -209,8 +209,8 @@
       "passes": 26,
       "possession_time_sec": 112,
       "conceded_goals": 12,
-      "shots_faced": 20,
-      "save_percent": "0.150",
+      "shots_faced": 15,
+      "save_percent": "0.200",
       "gaa": 12,
       "score": 680
     },
@@ -234,8 +234,8 @@
       "passes": 12,
       "possession_time_sec": 45,
       "conceded_goals": 12,
-      "shots_faced": 20,
-      "save_percent": "0.250",
+      "shots_faced": 17,
+      "save_percent": "0.294",
       "gaa": 12,
       "score": 505
     }

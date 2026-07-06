@@ -371,151 +371,204 @@
       "West Division",
       "Masters Division"
     ],
-    "winner_team_id": "vancouver_pandas",
-    "winner_team": "Vancouver Pandas",
-    "winner_team_display_name": "Vancouver Pandas",
+    "winner_team_id": "maui_monkeys",
+    "winner_team": "Maui Monkeys",
+    "winner_team_display_name": "Maui Monkeys",
     "winner_team_aliases": [
-      "Vancouver Pandas"
+      "Maui Monkeys",
+      "Maui Monkeys - west"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/maui_monkeys.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#00b000",
+      "secondary": "#503010",
+      "accent": "#b08020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
     },
-    "runner_up_team_id": "chicken_nuggets",
-    "runner_up_team": "Chicken Nuggets",
-    "runner_up_team_display_name": "Chicken Nuggets",
+    "runner_up_team_id": "zurich_zynners",
+    "runner_up_team": "Zurich Zynners",
+    "runner_up_team_display_name": "Zurich Zynners",
     "runner_up_team_aliases": [
-      "Chicken Nuggets"
+      "Zurich Zynners"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/zurich_zynners.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#003080",
+      "secondary": "#303020",
+      "accent": "#4060a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
     },
     "winner_franchise_id": null,
-    "series_result": "2-1",
-    "winner_series_wins": 2,
+    "series_result": "3-1",
+    "winner_series_wins": 3,
     "runner_up_series_wins": 1,
-    "final_fixture_id": "spring_2026|Pacific Cup Playoffs|Tue 26 May 2026 09:30 PM|vancouver_pandas|chicken_nuggets",
-    "final_fixture_date": "Tue 26 May 2026 09:30 PM",
+    "final_fixture_id": "spring_2026|Pacific Cup Playoffs|Mon 01 Jun 2026 01:00 PM|zurich_zynners|maui_monkeys",
+    "final_fixture_date": "Mon 01 Jun 2026 01:00 PM",
     "team_regular_season_games": 12,
-    "team_playoff_games": 3,
-    "team_finals_games": 3,
+    "team_playoff_games": 7,
+    "team_finals_games": 4,
     "finals_games": [
       {
-        "fixture_id": "spring_2026|Pacific Cup Playoffs|Tue 26 May 2026 08:30 PM|vancouver_pandas|chicken_nuggets",
-        "fixture_date": "Tue 26 May 2026 08:30 PM",
-        "home_team_id": "vancouver_pandas",
-        "away_team_id": "chicken_nuggets",
-        "home_team": "Vancouver Pandas",
-        "away_team": "Chicken Nuggets",
-        "raw_home_team": "Vancouver Pandas (PNDA)",
-        "raw_away_team": "Chicken Nuggets (NUG)",
+        "fixture_id": "spring_2026|Pacific Cup Playoffs|Mon 01 Jun 2026 12:00 PM|maui_monkeys|zurich_zynners",
+        "fixture_date": "Mon 01 Jun 2026 12:00 PM",
+        "home_team_id": "maui_monkeys",
+        "away_team_id": "zurich_zynners",
+        "home_team": "Maui Monkeys",
+        "away_team": "Zurich Zynners",
+        "raw_home_team": "Maui Monkeys - west (MKY)",
+        "raw_away_team": "Zurich Zynners (ZYN)",
+        "home_score": 8,
+        "away_score": 2,
+        "winner_team_id": "maui_monkeys",
+        "winner_team": "Maui Monkeys"
+      },
+      {
+        "fixture_id": "spring_2026|Pacific Cup Playoffs|Mon 01 Jun 2026 12:20 PM|zurich_zynners|maui_monkeys",
+        "fixture_date": "Mon 01 Jun 2026 12:20 PM",
+        "home_team_id": "zurich_zynners",
+        "away_team_id": "maui_monkeys",
+        "home_team": "Zurich Zynners",
+        "away_team": "Maui Monkeys",
+        "raw_home_team": "Zurich Zynners (ZYN)",
+        "raw_away_team": "Maui Monkeys - west (MKY)",
         "home_score": 5,
-        "away_score": 3,
-        "winner_team_id": "vancouver_pandas",
-        "winner_team": "Vancouver Pandas"
+        "away_score": 4,
+        "winner_team_id": "zurich_zynners",
+        "winner_team": "Zurich Zynners"
       },
       {
-        "fixture_id": "spring_2026|Pacific Cup Playoffs|Tue 26 May 2026 09:00 PM|chicken_nuggets|vancouver_pandas",
-        "fixture_date": "Tue 26 May 2026 09:00 PM",
-        "home_team_id": "chicken_nuggets",
-        "away_team_id": "vancouver_pandas",
-        "home_team": "Chicken Nuggets",
-        "away_team": "Vancouver Pandas",
-        "raw_home_team": "Chicken Nuggets (NUG)",
-        "raw_away_team": "Vancouver Pandas (PNDA)",
-        "home_score": 10,
-        "away_score": 8,
-        "winner_team_id": "chicken_nuggets",
-        "winner_team": "Chicken Nuggets"
+        "fixture_id": "spring_2026|Pacific Cup Playoffs|Mon 01 Jun 2026 12:40 PM|maui_monkeys|zurich_zynners",
+        "fixture_date": "Mon 01 Jun 2026 12:40 PM",
+        "home_team_id": "maui_monkeys",
+        "away_team_id": "zurich_zynners",
+        "home_team": "Maui Monkeys",
+        "away_team": "Zurich Zynners",
+        "raw_home_team": "Maui Monkeys - west (MKY)",
+        "raw_away_team": "Zurich Zynners (ZYN)",
+        "home_score": 9,
+        "away_score": 5,
+        "winner_team_id": "maui_monkeys",
+        "winner_team": "Maui Monkeys"
       },
       {
-        "fixture_id": "spring_2026|Pacific Cup Playoffs|Tue 26 May 2026 09:30 PM|vancouver_pandas|chicken_nuggets",
-        "fixture_date": "Tue 26 May 2026 09:30 PM",
-        "home_team_id": "vancouver_pandas",
-        "away_team_id": "chicken_nuggets",
-        "home_team": "Vancouver Pandas",
-        "away_team": "Chicken Nuggets",
-        "raw_home_team": "Vancouver Pandas (PNDA)",
-        "raw_away_team": "Chicken Nuggets (NUG)",
-        "home_score": 7,
-        "away_score": 6,
-        "winner_team_id": "vancouver_pandas",
-        "winner_team": "Vancouver Pandas"
+        "fixture_id": "spring_2026|Pacific Cup Playoffs|Mon 01 Jun 2026 01:00 PM|zurich_zynners|maui_monkeys",
+        "fixture_date": "Mon 01 Jun 2026 01:00 PM",
+        "home_team_id": "zurich_zynners",
+        "away_team_id": "maui_monkeys",
+        "home_team": "Zurich Zynners",
+        "away_team": "Maui Monkeys",
+        "raw_home_team": "Zurich Zynners (ZYN)",
+        "raw_away_team": "Maui Monkeys - west (MKY)",
+        "home_score": 4,
+        "away_score": 13,
+        "winner_team_id": "maui_monkeys",
+        "winner_team": "Maui Monkeys"
       }
     ],
     "championship_roster": [
       {
-        "player_id": "goku",
-        "player_name": "Goku",
-        "player_display_name": "Goku",
+        "player_id": "blue",
+        "player_name": "Blue",
+        "player_display_name": "Blue",
         "aliases": [
-          "Goku"
-        ],
-        "regular_season_games": 9,
-        "team_regular_season_games": 12,
-        "regular_season_percent": 0.75,
-        "playoff_games": 3,
-        "team_playoff_games": 3,
-        "playoff_percent": 1.0,
-        "finals_games": 3,
-        "team_finals_games": 3,
-        "qualified_by": [
-          "regular_season_50_percent",
-          "playoffs_50_percent",
-          "finals_appearance"
-        ]
-      },
-      {
-        "player_id": "soccerboyej",
-        "player_name": "SoccerboyEJ",
-        "player_display_name": "SoccerboyEJ",
-        "aliases": [
-          "SoccerboyEJ"
-        ],
-        "regular_season_games": 8,
-        "team_regular_season_games": 12,
-        "regular_season_percent": 0.667,
-        "playoff_games": 3,
-        "team_playoff_games": 3,
-        "playoff_percent": 1.0,
-        "finals_games": 3,
-        "team_finals_games": 3,
-        "qualified_by": [
-          "regular_season_50_percent",
-          "playoffs_50_percent",
-          "finals_appearance"
-        ]
-      },
-      {
-        "player_id": "yackslack",
-        "player_name": "YackSlack",
-        "player_display_name": "YackSlack",
-        "aliases": [
-          "YackSlack"
+          "Blue"
         ],
         "regular_season_games": 12,
         "team_regular_season_games": 12,
         "regular_season_percent": 1.0,
-        "playoff_games": 3,
-        "team_playoff_games": 3,
+        "playoff_games": 7,
+        "team_playoff_games": 7,
         "playoff_percent": 1.0,
-        "finals_games": 3,
-        "team_finals_games": 3,
+        "finals_games": 4,
+        "team_finals_games": 4,
         "qualified_by": [
           "regular_season_50_percent",
           "playoffs_50_percent",
           "finals_appearance"
+        ]
+      },
+      {
+        "player_id": "carried_by_dad",
+        "player_name": "Carried by Dad",
+        "player_display_name": "Carried by Dad",
+        "aliases": [
+          "Carried by Dad"
+        ],
+        "regular_season_games": 7,
+        "team_regular_season_games": 12,
+        "regular_season_percent": 0.583,
+        "playoff_games": 0,
+        "team_playoff_games": 7,
+        "playoff_percent": 0.0,
+        "finals_games": 0,
+        "team_finals_games": 4,
+        "qualified_by": [
+          "regular_season_50_percent"
+        ]
+      },
+      {
+        "player_id": "graves",
+        "player_name": "Graves",
+        "player_display_name": "Graves",
+        "aliases": [
+          "Graves"
+        ],
+        "regular_season_games": 6,
+        "team_regular_season_games": 12,
+        "regular_season_percent": 0.5,
+        "playoff_games": 7,
+        "team_playoff_games": 7,
+        "playoff_percent": 1.0,
+        "finals_games": 4,
+        "team_finals_games": 4,
+        "qualified_by": [
+          "regular_season_50_percent",
+          "playoffs_50_percent",
+          "finals_appearance"
+        ]
+      },
+      {
+        "player_id": "headass",
+        "player_name": "Headass",
+        "player_display_name": "Headass",
+        "aliases": [
+          "Headass"
+        ],
+        "regular_season_games": 5,
+        "team_regular_season_games": 12,
+        "regular_season_percent": 0.417,
+        "playoff_games": 4,
+        "team_playoff_games": 7,
+        "playoff_percent": 0.571,
+        "finals_games": 4,
+        "team_finals_games": 4,
+        "qualified_by": [
+          "playoffs_50_percent",
+          "finals_appearance"
+        ]
+      },
+      {
+        "player_id": "square",
+        "player_name": "Square",
+        "player_display_name": "Square",
+        "aliases": [
+          "Square",
+          "Kevin"
+        ],
+        "regular_season_games": 7,
+        "team_regular_season_games": 12,
+        "regular_season_percent": 0.583,
+        "playoff_games": 0,
+        "team_playoff_games": 7,
+        "playoff_percent": 0.0,
+        "finals_games": 0,
+        "team_finals_games": 4,
+        "qualified_by": [
+          "regular_season_50_percent"
         ]
       }
     ]
@@ -537,8 +590,8 @@
     ],
     "winner_logo": "assets/images/teams/long_island_lightning.png",
     "winner_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -552,9 +605,9 @@
     ],
     "runner_up_logo": "assets/images/teams/new_england_stars.png",
     "runner_up_theme": {
-      "primary": "#ff0000",
+      "primary": "#a07070",
       "secondary": "#101030",
-      "accent": "#ff0000",
+      "accent": "#a07070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -1141,8 +1194,8 @@
     ],
     "winner_logo": "assets/images/teams/long_island_lightning.png",
     "winner_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -1156,9 +1209,9 @@
     ],
     "runner_up_logo": "assets/images/teams/new_england_stars.png",
     "runner_up_theme": {
-      "primary": "#ff0000",
+      "primary": "#a07070",
       "secondary": "#101030",
-      "accent": "#ff0000",
+      "accent": "#a07070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -1802,24 +1855,25 @@
     ],
     "winner_logo": "assets/images/teams/long_island_lightning.png",
     "winner_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
     },
-    "runner_up_team_id": "yucatan_yetis",
-    "runner_up_team": "Yucatan Yetis",
-    "runner_up_team_display_name": "Yucatan Yetis",
+    "runner_up_team_id": "yucatn_yetis",
+    "runner_up_team": "Yucatán Yetis",
+    "runner_up_team_display_name": "Yucatán Yetis",
     "runner_up_team_aliases": [
+      "Yucatán Yetis",
       "Yucatan Yetis"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/yucatan_yetis.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#401080",
+      "secondary": "#000020",
+      "accent": "#7080a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -1828,19 +1882,19 @@
     "series_result": "3-0",
     "winner_series_wins": 3,
     "runner_up_series_wins": 0,
-    "final_fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:50 PM|long_island_lightning|yucatan_yetis",
+    "final_fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:50 PM|long_island_lightning|yucatn_yetis",
     "final_fixture_date": "Wed 03 Sep 2025 12:50 PM",
     "team_regular_season_games": 18,
     "team_playoff_games": 5,
     "team_finals_games": 3,
     "finals_games": [
       {
-        "fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:00 PM|long_island_lightning|yucatan_yetis",
+        "fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:00 PM|long_island_lightning|yucatn_yetis",
         "fixture_date": "Wed 03 Sep 2025 12:00 PM",
         "home_team_id": "long_island_lightning",
-        "away_team_id": "yucatan_yetis",
+        "away_team_id": "yucatn_yetis",
         "home_team": "Long Island Lightning",
-        "away_team": "Yucatan Yetis",
+        "away_team": "Yucatán Yetis",
         "raw_home_team": "Long Island Lightning (LIL)",
         "raw_away_team": "Yucatan Yetis (YY)",
         "home_score": 6,
@@ -1849,11 +1903,11 @@
         "winner_team": "Long Island Lightning"
       },
       {
-        "fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:30 PM|yucatan_yetis|long_island_lightning",
+        "fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:30 PM|yucatn_yetis|long_island_lightning",
         "fixture_date": "Wed 03 Sep 2025 12:30 PM",
-        "home_team_id": "yucatan_yetis",
+        "home_team_id": "yucatn_yetis",
         "away_team_id": "long_island_lightning",
-        "home_team": "Yucatan Yetis",
+        "home_team": "Yucatán Yetis",
         "away_team": "Long Island Lightning",
         "raw_home_team": "Yucatan Yetis (YY)",
         "raw_away_team": "Long Island Lightning (LIL)",
@@ -1863,12 +1917,12 @@
         "winner_team": "Long Island Lightning"
       },
       {
-        "fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:50 PM|long_island_lightning|yucatan_yetis",
+        "fixture_id": "summer_2025|Erveon Cup - Playoffs|Wed 03 Sep 2025 12:50 PM|long_island_lightning|yucatn_yetis",
         "fixture_date": "Wed 03 Sep 2025 12:50 PM",
         "home_team_id": "long_island_lightning",
-        "away_team_id": "yucatan_yetis",
+        "away_team_id": "yucatn_yetis",
         "home_team": "Long Island Lightning",
-        "away_team": "Yucatan Yetis",
+        "away_team": "Yucatán Yetis",
         "raw_home_team": "Long Island Lightning (LIL)",
         "raw_away_team": "Yucatan Yetis (YY)",
         "home_score": 8,
@@ -2010,11 +2064,11 @@
     "runner_up_team_aliases": [
       "Saint-Louis-du-Ha! Ha! Maniacs"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/saint_louis_du_ha_ha_maniacs.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a0e0d0",
+      "secondary": "#202010",
+      "accent": "#00d0b0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -2187,9 +2241,9 @@
     ],
     "winner_logo": "assets/images/teams/new_england_stars.png",
     "winner_theme": {
-      "primary": "#ff0000",
+      "primary": "#a07070",
       "secondary": "#101030",
-      "accent": "#ff0000",
+      "accent": "#a07070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -2202,8 +2256,8 @@
     ],
     "runner_up_logo": "assets/images/teams/long_island_lightning.png",
     "runner_up_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -2357,11 +2411,11 @@
     "winner_team_aliases": [
       "Saint-Louis-du-Ha! Ha! Maniacs"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/saint_louis_du_ha_ha_maniacs.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a0e0d0",
+      "secondary": "#202010",
+      "accent": "#00d0b0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -2372,11 +2426,11 @@
     "runner_up_team_aliases": [
       "Barrie Belgian Waffles"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/barrie_belgian_waffles.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
+      "primary": "#103050",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#a04000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -2555,7 +2609,7 @@
     ],
     "winner_logo": "assets/images/teams/los_angeles_comets.png",
     "winner_theme": {
-      "primary": "#9020f0",
+      "primary": "#8090a0",
       "secondary": "#200020",
       "accent": "#9020f0",
       "background": "#050505",
@@ -2752,8 +2806,8 @@
     ],
     "winner_logo": "assets/images/teams/long_island_lightning.png",
     "winner_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -2908,11 +2962,11 @@
     "winner_team_aliases": [
       "Saint-Louis-du-Ha! Ha! Maniacs"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/saint_louis_du_ha_ha_maniacs.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a0e0d0",
+      "secondary": "#202010",
+      "accent": "#00d0b0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3101,11 +3155,11 @@
       "Minneapolis Milk Duds",
       "west - Minneapolis Milk Duds"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/minneapolis_milkduds.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a08070",
+      "secondary": "#203030",
+      "accent": "#a08070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3116,11 +3170,11 @@
     "runner_up_team_aliases": [
       "North West Big Dogs"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/north_west_big_dogs.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
+      "primary": "#203050",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#90c0e0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3342,8 +3396,8 @@
     ],
     "runner_up_logo": "assets/images/teams/long_island_lightning.png",
     "runner_up_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -3515,11 +3569,11 @@
     "winner_team_aliases": [
       "Shediac Lobsters"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/shediac_lobsters.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e02030",
+      "secondary": "#401010",
+      "accent": "#e06040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3530,11 +3584,11 @@
     "runner_up_team_aliases": [
       "Zurich Zynners"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/zurich_zynners.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#003080",
+      "secondary": "#303020",
+      "accent": "#4060a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -3900,8 +3954,8 @@
     ],
     "winner_logo": "assets/images/teams/long_island_lightning.png",
     "winner_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -4085,11 +4139,11 @@
     "runner_up_team_aliases": [
       "Shediac Lobsters"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/shediac_lobsters.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e02030",
+      "secondary": "#401010",
+      "accent": "#e06040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4466,8 +4520,8 @@
     ],
     "winner_logo": "assets/images/teams/long_island_lightning.png",
     "winner_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -4479,11 +4533,11 @@
     "runner_up_team_aliases": [
       "Miami Vice"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/miami_vice.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#509090",
+      "secondary": "#402030",
+      "accent": "#90f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4655,11 +4709,11 @@
     "winner_team_aliases": [
       "Shediac Lobsters"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/shediac_lobsters.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#e02030",
+      "secondary": "#401010",
+      "accent": "#e06040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4853,11 +4907,11 @@
     "winner_team_aliases": [
       "Provo Polar Bears"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/provo_polarbears.png",
     "winner_theme": {
-      "primary": "#ffffff",
+      "primary": "#008080",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#b08050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -4869,11 +4923,11 @@
       "Minneapolis Milk Duds",
       "west - Minneapolis Milk Duds"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/minneapolis_milkduds.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a08070",
+      "secondary": "#203030",
+      "accent": "#a08070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5078,8 +5132,8 @@
     ],
     "winner_logo": "assets/images/teams/long_island_lightning.png",
     "winner_theme": {
-      "primary": "#0050a0",
-      "secondary": "#111111",
+      "primary": "#007EB3",
+      "secondary": "#103050",
       "accent": "#80f0ff",
       "background": "#050505",
       "card": "#111111",
@@ -5091,11 +5145,11 @@
     "runner_up_team_aliases": [
       "Miami Vice"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/miami_vice.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#509090",
+      "secondary": "#402030",
+      "accent": "#90f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5267,11 +5321,11 @@
     "winner_team_aliases": [
       "Provo Polar Bears"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/provo_polarbears.png",
     "winner_theme": {
-      "primary": "#ffffff",
+      "primary": "#008080",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#b08050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5283,11 +5337,11 @@
       "Minneapolis Milk Duds",
       "west - Minneapolis Milk Duds"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/minneapolis_milkduds.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a08070",
+      "secondary": "#203030",
+      "accent": "#a08070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5631,11 +5685,11 @@
     "winner_team_aliases": [
       "Provo Polar Bears"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/provo_polarbears.png",
     "winner_theme": {
-      "primary": "#ffffff",
+      "primary": "#008080",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#b08050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5649,11 +5703,11 @@
       "Oregon Capybaras - Central",
       "Oregon Capybaras - East"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/oregon_capybaras.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#504030",
+      "secondary": "#302020",
+      "accent": "#ff6000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -5808,7 +5862,7 @@
     ],
     "runner_up_logo": "assets/images/teams/coaticook_stars.png",
     "runner_up_theme": {
-      "primary": "#a01000",
+      "primary": "#b06010",
       "secondary": "#202000",
       "accent": "#f01000",
       "background": "#050505",
@@ -5951,11 +6005,11 @@
       "Minneapolis Milk Duds",
       "west - Minneapolis Milk Duds"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/minneapolis_milkduds.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a08070",
+      "secondary": "#203030",
+      "accent": "#a08070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -6330,11 +6384,11 @@
     "runner_up_team_aliases": [
       "Syracuse Scorpions"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/syracuse_scorpions.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#300040",
+      "secondary": "#402050",
+      "accent": "#d040ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -6530,7 +6584,7 @@
     ],
     "runner_up_logo": "assets/images/teams/coaticook_stars.png",
     "runner_up_theme": {
-      "primary": "#a01000",
+      "primary": "#b06010",
       "secondary": "#202000",
       "accent": "#f01000",
       "background": "#050505",
@@ -6694,11 +6748,11 @@
       "Oregon Capybaras - Central",
       "Oregon Capybaras - East"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/oregon_capybaras.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#504030",
+      "secondary": "#302020",
+      "accent": "#ff6000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -6718,7 +6772,7 @@
       "card": "#111111",
       "surface": "#1a1a1a"
     },
-    "winner_franchise_id": null,
+    "winner_franchise_id": "Oregon",
     "series_result": "3-1",
     "winner_series_wins": 3,
     "runner_up_series_wins": 1,
@@ -7410,11 +7464,11 @@
       "Minneapolis Milk Duds",
       "west - Minneapolis Milk Duds"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/minneapolis_milkduds.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#a08070",
+      "secondary": "#203030",
+      "accent": "#a08070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -7428,11 +7482,11 @@
       "Oregon Capybaras - Central",
       "Oregon Capybaras - East"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/oregon_capybaras.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#504030",
+      "secondary": "#302020",
+      "accent": "#ff6000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -7634,11 +7688,11 @@
       "Maui Monkeys",
       "Maui Monkeys - west"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/maui_monkeys.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#00b000",
+      "secondary": "#503010",
+      "accent": "#b08020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -7800,8 +7854,8 @@
     ],
     "winner_logo": "assets/images/teams/edmonton_beauties.png",
     "winner_theme": {
-      "primary": "#ff0000",
-      "secondary": "#111111",
+      "primary": "#d0a030",
+      "secondary": "#302020",
       "accent": "#ff0000",
       "background": "#050505",
       "card": "#111111",
@@ -8009,7 +8063,7 @@
     "runner_up_theme": {
       "primary": "#803080",
       "secondary": "#101030",
-      "accent": "#803080",
+      "accent": "#a060a0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8185,8 +8239,8 @@
     ],
     "winner_logo": "assets/images/teams/edmonton_beauties.png",
     "winner_theme": {
-      "primary": "#ff0000",
-      "secondary": "#111111",
+      "primary": "#d0a030",
+      "secondary": "#302020",
       "accent": "#ff0000",
       "background": "#050505",
       "card": "#111111",
@@ -8198,11 +8252,11 @@
     "runner_up_team_aliases": [
       "Las Vegas Sentinels"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/las_vegas_sentinels.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#506070",
+      "secondary": "#203030",
+      "accent": "#506070",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8369,11 +8423,11 @@
     "winner_team_aliases": [
       "Miami Vice"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/miami_vice.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#509090",
+      "secondary": "#402030",
+      "accent": "#90f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8386,14 +8440,14 @@
     ],
     "runner_up_logo": "assets/images/teams/colorado_cobras.png",
     "runner_up_theme": {
-      "primary": "#c09010",
+      "primary": "#e0b010",
       "secondary": "#202010",
       "accent": "#f0d050",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
     },
-    "winner_franchise_id": null,
+    "winner_franchise_id": "Miami",
     "series_result": "3-2",
     "winner_series_wins": 3,
     "runner_up_series_wins": 2,
@@ -8557,11 +8611,11 @@
       "Maui Monkeys",
       "Maui Monkeys - west"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/maui_monkeys.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#00b000",
+      "secondary": "#503010",
+      "accent": "#b08020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8575,8 +8629,8 @@
     ],
     "runner_up_logo": "assets/images/teams/edmonton_beauties.png",
     "runner_up_theme": {
-      "primary": "#ff0000",
-      "secondary": "#111111",
+      "primary": "#d0a030",
+      "secondary": "#302020",
       "accent": "#ff0000",
       "background": "#050505",
       "card": "#111111",
@@ -8716,11 +8770,11 @@
     "winner_team_aliases": [
       "Miami Vice"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/miami_vice.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#509090",
+      "secondary": "#402030",
+      "accent": "#90f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8731,16 +8785,16 @@
     "runner_up_team_aliases": [
       "Toronto Penguins"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/toronto_penguins.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#402020",
+      "secondary": "#102020",
+      "accent": "#ff0000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
     },
-    "winner_franchise_id": null,
+    "winner_franchise_id": "Miami",
     "series_result": "3-0",
     "winner_series_wins": 3,
     "runner_up_series_wins": 0,
@@ -8876,11 +8930,11 @@
       "Maui Monkeys",
       "Maui Monkeys - west"
     ],
-    "winner_logo": "",
+    "winner_logo": "assets/images/teams/maui_monkeys.png",
     "winner_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#00b000",
+      "secondary": "#503010",
+      "accent": "#b08020",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -8891,11 +8945,11 @@
     "runner_up_team_aliases": [
       "Halifax Hydras"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/halifax_hydras.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
+      "primary": "#308020",
       "secondary": "#111111",
-      "accent": "#ffd166",
+      "accent": "#20c0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9037,8 +9091,8 @@
     "winner_logo": "assets/images/teams/columbus_clappers.png",
     "winner_theme": {
       "primary": "#002040",
-      "secondary": "#504030",
-      "accent": "#ffe0d0",
+      "secondary": "#001020",
+      "accent": "#002040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9049,11 +9103,11 @@
     "runner_up_team_aliases": [
       "Toronto Penguins"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/toronto_penguins.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#402020",
+      "secondary": "#102020",
+      "accent": "#ff0000",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9223,8 +9277,8 @@
     "winner_logo": "assets/images/teams/columbus_clappers.png",
     "winner_theme": {
       "primary": "#002040",
-      "secondary": "#504030",
-      "accent": "#ffe0d0",
+      "secondary": "#001020",
+      "accent": "#002040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9235,11 +9289,11 @@
     "runner_up_team_aliases": [
       "Chicago Sail"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/chicago_sail.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#303040",
+      "secondary": "#201050",
+      "accent": "#b0e0f0",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9395,8 +9449,8 @@
     "winner_logo": "assets/images/teams/columbus_clappers.png",
     "winner_theme": {
       "primary": "#002040",
-      "secondary": "#504030",
-      "accent": "#ffe0d0",
+      "secondary": "#001020",
+      "accent": "#002040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9407,11 +9461,11 @@
     "runner_up_team_aliases": [
       "Miami Vice"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/miami_vice.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#509090",
+      "secondary": "#402030",
+      "accent": "#90f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9553,8 +9607,8 @@
     "winner_logo": "assets/images/teams/columbus_clappers.png",
     "winner_theme": {
       "primary": "#002040",
-      "secondary": "#504030",
-      "accent": "#ffe0d0",
+      "secondary": "#001020",
+      "accent": "#002040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9565,11 +9619,11 @@
     "runner_up_team_aliases": [
       "Miami Vice"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/miami_vice.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#509090",
+      "secondary": "#402030",
+      "accent": "#90f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9739,8 +9793,8 @@
     "winner_logo": "assets/images/teams/columbus_clappers.png",
     "winner_theme": {
       "primary": "#002040",
-      "secondary": "#504030",
-      "accent": "#ffe0d0",
+      "secondary": "#001020",
+      "accent": "#002040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9751,11 +9805,11 @@
     "runner_up_team_aliases": [
       "Miami Vice"
     ],
-    "runner_up_logo": "",
+    "runner_up_logo": "assets/images/teams/miami_vice.png",
     "runner_up_theme": {
-      "primary": "#ffffff",
-      "secondary": "#111111",
-      "accent": "#ffd166",
+      "primary": "#509090",
+      "secondary": "#402030",
+      "accent": "#90f0ff",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"
@@ -9897,8 +9951,8 @@
     "winner_logo": "assets/images/teams/columbus_clappers.png",
     "winner_theme": {
       "primary": "#002040",
-      "secondary": "#504030",
-      "accent": "#ffe0d0",
+      "secondary": "#001020",
+      "accent": "#002040",
       "background": "#050505",
       "card": "#111111",
       "surface": "#1a1a1a"

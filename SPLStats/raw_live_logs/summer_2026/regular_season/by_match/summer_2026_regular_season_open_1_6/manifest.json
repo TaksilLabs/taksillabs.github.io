@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_open_1_6",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "open",
+  "imported_at_utc": "2026-07-04T13:13:25.461906+00:00",
+  "source_folder_name": "1.6_ Greensboro Goosans vs Atlanta Aces__1520928141776912598",
+  "source_folder_path": "data/incoming_logs/unsorted/1.6_ Greensboro Goosans vs Atlanta Aces__1520928141776912598",
+  "source_id": "1.6",
+  "thread_id": "1520928141776912598",
+  "detected_home_team": "Greensboro Goosans",
+  "detected_away_team": "Atlanta Aces",
+  "matched_schedule_home_team_id": "greensboro_goosans",
+  "matched_schedule_away_team_id": "atlanta_aces",
+  "matched_schedule_home_team": "Greensboro Goosans",
+  "matched_schedule_away_team": "Atlanta Aces",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-03T22:34:24",
+  "last_log_timestamp": "2026-07-03T22:48:16",
+  "probable_start_time": "2026-07-03T22:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260704_025529_419649626564722688_2026-07-03-22-48-16.json",
+      "relative_path": "1.6_ Greensboro Goosans vs Atlanta Aces__1520928141776912598/20260704_025529_419649626564722688_2026-07-03-22-48-16.json",
+      "timestamp_from_filename": "2026-07-03T22:48:16"
+    },
+    {
+      "original_name": "20260704_025530_419649626564722688_2026-07-03-22-34-24.json",
+      "relative_path": "1.6_ Greensboro Goosans vs Atlanta Aces__1520928141776912598/20260704_025530_419649626564722688_2026-07-03-22-34-24.json",
+      "timestamp_from_filename": "2026-07-03T22:34:24"
+    },
+    {
+      "original_name": "20260704_025530_419649626564722688_2026-07-03-22-41-45.json",
+      "relative_path": "1.6_ Greensboro Goosans vs Atlanta Aces__1520928141776912598/20260704_025530_419649626564722688_2026-07-03-22-41-45.json",
+      "timestamp_from_filename": "2026-07-03T22:41:45"
+    }
+  ],
+  "warnings": []
+}

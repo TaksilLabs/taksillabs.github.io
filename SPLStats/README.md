@@ -8,18 +8,28 @@ py build_teams.py
 2026-06-16 update
 
 Note for Future Darth;
-Should run these scripts, in this order:
+Should run these scripts, in this order to update the all-time stats:
 
+python3 build_live_season.py --season summer_2026 --season-type regular_season
 python build_lr_season.py
 python build_all_time.py
-python build_career_totals.py
+
 python build_franchises.py
-
-
-// if team records are involved run:
 python build_team_records.py
 python build_teams.py
 
+
+Moved this somewhere, dont know where.
+python build_career_totals.py
+
+run local server
+python3 -m http.server 8000
+
+
+
+When importing raw_csv make sure the files are named
+`SPL-Springxxxx`
+Underscores kill the scripts.
 
 # ------------------------------------------
 # IGNORE THE ABOVE IF NOT NAMED DARTHTAKSIL
@@ -124,6 +134,23 @@ python tools/live/build_regular_standings.py
 4. Build compact leaders.json / player stat rows
 python tools/live/build_regular_leaders.py
 
+5. Convert live match_details/*.json into all-time-compatible season rows
+python tools/build_live_season.py --season summer_2026 --season-type regular_season
+
+6. Rebuild LeagueRepublic season JSON files from archived CSV exports
+python tools/build_lr_season.py
+
+7. Rebuild all_time_players.json from every file in data/seasons/, including summer_2026_live.json
+python tools/build_all_time.py
+
+8. Rebuild franchise/team grouping data
+python tools/build_franchises.py
+
+9. Rebuild team records/history data
+python tools/build_team_records.py
+
+10. Rebuild team profile/page data
+python tools/build_teams.py
 
 
 

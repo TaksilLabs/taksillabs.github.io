@@ -372,6 +372,55 @@
       "thread_id": "1520927399598887054",
       "imported_at_utc": "2026-07-03T22:50:41.331014+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_pro_1_15"
+    },
+    "1.11_ Bedford Bobos Preparatory Academy vs Birmingham Bobos__1520931922614812903": {
+      "match_id": "summer_2026_regular_season_intermediate_1_11",
+      "source_id": "1.11",
+      "thread_id": "1520931922614812903",
+      "imported_at_utc": "2026-07-04T13:13:25.398455+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_11"
+    },
+    "1.14_ No Name Nighthawks vs Barrie Beaver Brigade__1520931934614589641": {
+      "match_id": "summer_2026_regular_season_intermediate_1_14",
+      "source_id": "1.14",
+      "thread_id": "1520931934614589641",
+      "imported_at_utc": "2026-07-04T13:13:25.409135+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_14"
+    },
+    "1.1_ Boston Bahds vs Barrie Beaver Brigade__1520931878838730842": {
+      "match_id": "summer_2026_regular_season_intermediate_1_1",
+      "source_id": "1.1",
+      "thread_id": "1520931878838730842",
+      "imported_at_utc": "2026-07-04T13:13:25.419997+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_1"
+    },
+    "1.2_ Vader Starkillers Central vs Vader Inquisitors__1520930535998886000": {
+      "match_id": "summer_2026_regular_season_central_b_1_2",
+      "source_id": "1.2",
+      "thread_id": "1520930535998886000",
+      "imported_at_utc": "2026-07-04T13:13:25.430351+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_b_1_2"
+    },
+    "1.5_ Barrie Ice Hounds vs Ottawa Valley Slappers With Attitude__1520928137574088836": {
+      "match_id": "summer_2026_regular_season_open_1_5",
+      "source_id": "1.5",
+      "thread_id": "1520928137574088836",
+      "imported_at_utc": "2026-07-04T13:13:25.451558+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_open_1_5"
+    },
+    "1.6_ Greensboro Goosans vs Atlanta Aces__1520928141776912598": {
+      "match_id": "summer_2026_regular_season_open_1_6",
+      "source_id": "1.6",
+      "thread_id": "1520928141776912598",
+      "imported_at_utc": "2026-07-04T13:13:25.461906+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_open_1_6"
+    },
+    "1.7_ Bedford Bobos Preparatory Academy vs Hagerstown Heroes__1520931904897945681": {
+      "match_id": "summer_2026_regular_season_intermediate_1_7",
+      "source_id": "1.7",
+      "thread_id": "1520931904897945681",
+      "imported_at_utc": "2026-07-04T13:13:25.473595+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_7"
     }
   },
   "imported_match_ids": {
@@ -586,7 +635,35 @@
     "summer_2026_regular_season_pro_1_15": {
       "source_folder_name": "1.15_ Vader Voltage Eastern vs Yucatan Yetis__1520927399598887054",
       "imported_at_utc": "2026-07-03T22:50:41.331014+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_11": {
+      "source_folder_name": "1.11_ Bedford Bobos Preparatory Academy vs Birmingham Bobos__1520931922614812903",
+      "imported_at_utc": "2026-07-04T13:13:25.398455+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_14": {
+      "source_folder_name": "1.14_ No Name Nighthawks vs Barrie Beaver Brigade__1520931934614589641",
+      "imported_at_utc": "2026-07-04T13:13:25.409135+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_1": {
+      "source_folder_name": "1.1_ Boston Bahds vs Barrie Beaver Brigade__1520931878838730842",
+      "imported_at_utc": "2026-07-04T13:13:25.419997+00:00"
+    },
+    "summer_2026_regular_season_central_b_1_2": {
+      "source_folder_name": "1.2_ Vader Starkillers Central vs Vader Inquisitors__1520930535998886000",
+      "imported_at_utc": "2026-07-04T13:13:25.430351+00:00"
+    },
+    "summer_2026_regular_season_open_1_5": {
+      "source_folder_name": "1.5_ Barrie Ice Hounds vs Ottawa Valley Slappers With Attitude__1520928137574088836",
+      "imported_at_utc": "2026-07-04T13:13:25.451558+00:00"
+    },
+    "summer_2026_regular_season_open_1_6": {
+      "source_folder_name": "1.6_ Greensboro Goosans vs Atlanta Aces__1520928141776912598",
+      "imported_at_utc": "2026-07-04T13:13:25.461906+00:00"
+    },
+    "summer_2026_regular_season_intermediate_1_7": {
+      "source_folder_name": "1.7_ Bedford Bobos Preparatory Academy vs Hagerstown Heroes__1520931904897945681",
+      "imported_at_utc": "2026-07-04T13:13:25.473595+00:00"
     }
   },
-  "updated_at_utc": "2026-07-03T22:50:41.331175+00:00"
+  "updated_at_utc": "2026-07-05T00:19:32.300196+00:00"
 }

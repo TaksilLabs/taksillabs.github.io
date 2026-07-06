@@ -746,7 +746,13 @@ function getLeaderData(statKey, division = getDivisionFromUrl()) {
     .filter(player => normalizeKey(player.division) === divisionKey)
     .filter(player => {
       if (statKey === "save_percent") {
-        return Number(player.shots_faced || 0) > 0;
+        const saves = Number(player.saves || 0);
+        const shotsFaced = Number(player.shots_faced || 0);
+        const savePercent = Number(player.save_percent || 0);
+
+        return saves > 0
+          && shotsFaced > 0
+          && savePercent > 0;
       }
 
       if (statKey === "shooting_percent") {
@@ -765,6 +771,8 @@ function getLeaderData(statKey, division = getDivisionFromUrl()) {
     .sort((a, b) => {
       return (
         Number(b[statKey] || 0) - Number(a[statKey] || 0)
+        || Number(b.shots_faced || 0) - Number(a.shots_faced || 0)
+        || Number(b.saves || 0) - Number(a.saves || 0)
         || Number(b.points || 0) - Number(a.points || 0)
         || Number(b.goals || 0) - Number(a.goals || 0)
         || cleanText(a.player_display_name || a.player_name).localeCompare(

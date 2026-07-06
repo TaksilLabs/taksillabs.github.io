@@ -319,19 +319,24 @@ def build_match_detail(match, report_data, side_mapping):
     for player in players:
         if player["team_side"] == "home":
             opposing_shots = team_stats["away"]["shots"]
+            team_saves = team_stats["home"]["saves"]
             goals_allowed = match["away_score"] or 0
         else:
             opposing_shots = team_stats["home"]["shots"]
+            team_saves = team_stats["away"]["saves"]
             goals_allowed = match["home_score"] or 0
 
         saves = float(player.get("saves", 0) or 0)
 
-        player["shots_faced"] = format_number(opposing_shots)
+        teammate_saves = max(0, team_saves - saves)
+        shots_faced = max(0, opposing_shots - teammate_saves)
+
+        player["shots_faced"] = format_number(shots_faced)
         player["conceded_goals"] = format_number(goals_allowed)
         player["gaa"] = format_number(goals_allowed)
 
-        if opposing_shots > 0:
-            player["save_percent"] = f"{saves / opposing_shots:.3f}"
+        if shots_faced > 0:
+            player["save_percent"] = f"{saves / shots_faced:.3f}"
         else:
             player["save_percent"] = "0.000"
 

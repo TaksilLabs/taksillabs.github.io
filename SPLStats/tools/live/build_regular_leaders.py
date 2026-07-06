@@ -447,7 +447,36 @@ def aggregate_match_players(match_id, match, players):
             row["stats"][stat] += as_float(player.get(stat))
 
         row["conceded_goals"] += as_float(player.get("conceded_goals"))
-        row["shots_faced"] += as_float(player.get("shots_faced"))
+
+    team_totals = {}
+
+    for row in per_match.values():
+        team_id = row["team_id"]
+
+        team_totals.setdefault(team_id, {
+            "shots": 0,
+            "saves": 0,
+        })
+
+        team_totals[team_id]["shots"] += as_float(row["stats"].get("shots"))
+        team_totals[team_id]["saves"] += as_float(row["stats"].get("saves"))
+
+    for row in per_match.values():
+        team_id = row["team_id"]
+
+        player_saves = as_float(row["stats"].get("saves"))
+        team_saves = as_float(team_totals.get(team_id, {}).get("saves"))
+
+        opponent_team_shots = sum(
+            as_float(team_data.get("shots"))
+            for other_team_id, team_data in team_totals.items()
+            if other_team_id != team_id
+        )
+
+        teammate_saves = max(0, team_saves - player_saves)
+        shots_faced = max(0, opponent_team_shots - teammate_saves)
+
+        row["shots_faced"] = shots_faced
 
     return per_match.values()
 

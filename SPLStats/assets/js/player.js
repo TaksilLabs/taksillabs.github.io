@@ -159,6 +159,42 @@ function mergePlayerSeasonRows(rows) {
   return [...merged.values()];
 }
 
+function getPlayerCardImagePath(player) {
+  const playerId = player?.player_id;
+
+  if (!playerId) {
+    return "assets/images/player_cards/fallback.webp";
+  }
+
+  return `assets/images/player_cards/${playerId}.webp`;
+}
+
+function renderPlayerProfileImage(player) {
+  const container = document.querySelector("#playerProfileImage");
+
+  if (!container) {
+    return;
+  }
+
+  const displayName =
+    player.player_display_name
+    || player.player_name
+    || player.player_id
+    || "Player";
+
+  const imagePath = getPlayerCardImagePath(player);
+  const fallbackPath = "assets/images/player_cards/fallback.webp";
+
+  container.innerHTML = `
+    <img
+      src="${imagePath}"
+      alt="${displayName} player card"
+      loading="lazy"
+      onerror="this.onerror=null; this.src='${fallbackPath}';"
+    />
+  `;
+}
+
 function divisionBelongsToRegion(division, region) {
   if (!region || region === "all") return true;
 
@@ -246,6 +282,31 @@ function renderCareerPercentile(player, allPlayers) {
   `;
 }
 
+function fitPlayerNameToHero() {
+  const nameEl = document.querySelector("#playerName");
+  const heroMain = document.querySelector(".player-hero-main");
+
+  if (!nameEl || !heroMain) {
+    return;
+  }
+
+  // Reset first so short names can grow back to normal.
+  nameEl.style.removeProperty("--player-name-font-size");
+
+  const styles = window.getComputedStyle(nameEl);
+  const maxSize = parseFloat(styles.fontSize);
+  const minSize = 34;
+
+  let size = maxSize;
+
+  nameEl.style.whiteSpace = "nowrap";
+
+  while (nameEl.scrollWidth > heroMain.clientWidth && size > minSize) {
+    size -= 2;
+    nameEl.style.setProperty("--player-name-font-size", `${size}px`);
+  }
+}
+
 function renderPlayer(
   player,
   championships = [],
@@ -263,6 +324,8 @@ function renderPlayer(
   document.querySelector("#playerName").textContent = displayName;
 
   renderPlayerHero(player, activeRosters, teamMetadata);
+  fitPlayerNameToHero();
+  renderPlayerProfileImage(player);
   renderCurrentTeam(player, activeRosters, teamMetadata);
 
   renderPlayerChampionships(player, championships);
@@ -1242,4 +1305,5 @@ function renderSeasons(rows) {
   }).join("");
 }
 
+window.addEventListener("resize", fitPlayerNameToHero);
 loadPlayer();

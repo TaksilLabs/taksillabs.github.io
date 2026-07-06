@@ -1,0 +1,170 @@
+{
+    "type": "report_stats",
+    "arena": "Outdoor",
+    "score": {
+        "away": 7,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 2,
+                "score": 270,
+                "shots": 1,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 60
+            },
+            "username": "Saint",
+            "game_user_id": "81320"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 230,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 7,
+                "takeaways": 1,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 4
+            },
+            "username": "[GOOS] MAcademySammy88",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 125,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 10,
+                "post_hits": 2,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 26
+            },
+            "username": "Epix",
+            "game_user_id": "865399"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 150,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 19
+            },
+            "username": "[ATL] Alt",
+            "game_user_id": "24807"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 730,
+                "shots": 4,
+                "blocks": 9,
+                "passes": 17,
+                "assists": 3,
+                "post_hits": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 31
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "saves": 1,
+                "score": 655,
+                "shots": 5,
+                "blocks": 3,
+                "passes": 16,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 7,
+                "secondary_assists": 1,
+                "possession_time_sec": 8
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 50,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 7,
+                "takeaways": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 21
+            },
+            "username": "[ATL]PatK9123",
+            "game_user_id": "1392514"
+        }
+    ],
+    "match_id": "8539571a-3c3a-4463-a5e3-5e20c1bdc565",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "0"
+}

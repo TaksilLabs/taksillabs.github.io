@@ -43,6 +43,32 @@ def main():
 
     season_files = sorted(SEASONS_DIR.glob("*.json"))
 
+    season_id_sources = defaultdict(list)
+
+    for season_file in season_files:
+        season_rows = load_json(season_file)
+
+        if not season_rows:
+            continue
+
+        season_id = season_rows[0].get("season_id") or season_file.stem
+        season_id_sources[season_id].append(season_file.name)
+
+    duplicate_seasons = {
+        season_id: files
+        for season_id, files in season_id_sources.items()
+        if len(files) > 1
+    }
+
+    if duplicate_seasons:
+        print("WARNING: Multiple season files share the same season_id.")
+        print("This can double-count stats if one is live and one is official.")
+
+        for season_id, files in duplicate_seasons.items():
+            print(f"  {season_id}: {', '.join(files)}")
+
+        print()
+
     for season_file in season_files:
         season_rows = load_json(season_file)
 
