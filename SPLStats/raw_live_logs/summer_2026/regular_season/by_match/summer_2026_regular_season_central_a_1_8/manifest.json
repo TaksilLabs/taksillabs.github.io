@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_a_1_8",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_a",
+  "imported_at_utc": "2026-07-06T02:30:13.683308+00:00",
+  "source_folder_name": "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557",
+  "source_folder_path": "data/incoming_logs/unsorted/1.8_ Camrose Cats vs Detroit Droids__1520930169143955557",
+  "source_id": "1.8",
+  "thread_id": "1520930169143955557",
+  "detected_home_team": "Camrose Cats",
+  "detected_away_team": "Detroit Droids",
+  "matched_schedule_home_team_id": "camrose_cats",
+  "matched_schedule_away_team_id": "detroit_droids",
+  "matched_schedule_home_team": "Camrose Cats",
+  "matched_schedule_away_team": "Detroit Droids",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-05T20:26:51",
+  "last_log_timestamp": "2026-07-05T20:39:45",
+  "probable_start_time": "2026-07-05T20:15:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260706_004851_981750527153016903_2026-07-05-20-26-51.json",
+      "relative_path": "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557/20260706_004851_981750527153016903_2026-07-05-20-26-51.json",
+      "timestamp_from_filename": "2026-07-05T20:26:51"
+    },
+    {
+      "original_name": "20260706_004851_981750527153016903_2026-07-05-20-33-08.json",
+      "relative_path": "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557/20260706_004851_981750527153016903_2026-07-05-20-33-08.json",
+      "timestamp_from_filename": "2026-07-05T20:33:08"
+    },
+    {
+      "original_name": "20260706_004852_981750527153016903_2026-07-05-20-39-45.json",
+      "relative_path": "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557/20260706_004852_981750527153016903_2026-07-05-20-39-45.json",
+      "timestamp_from_filename": "2026-07-05T20:39:45"
+    }
+  ],
+  "warnings": []
+}

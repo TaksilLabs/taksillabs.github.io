@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_18",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-06T02:30:13.643967+00:00",
+  "source_folder_name": "1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414",
+  "source_folder_path": "data/incoming_logs/unsorted/1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414",
+  "source_id": "1.18",
+  "thread_id": "1520930620694331414",
+  "detected_home_team": "Ottawa Valley Bass Slappers",
+  "detected_away_team": "Atlantic City Zootiez$",
+  "matched_schedule_home_team_id": "ottawa_valley_bass_slappers",
+  "matched_schedule_away_team_id": "atlantic_city_zootiez",
+  "matched_schedule_home_team": "Ottawa Valley Bass Slappers",
+  "matched_schedule_away_team": "Atlantic City Zootiez$",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-05T20:50:08",
+  "last_log_timestamp": "2026-07-05T21:04:06",
+  "probable_start_time": "2026-07-05T20:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260706_010442_321415739363819532_2026-07-05-20-50-08.json",
+      "relative_path": "1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414/20260706_010442_321415739363819532_2026-07-05-20-50-08.json",
+      "timestamp_from_filename": "2026-07-05T20:50:08"
+    },
+    {
+      "original_name": "20260706_010442_321415739363819532_2026-07-05-20-57-04.json",
+      "relative_path": "1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414/20260706_010442_321415739363819532_2026-07-05-20-57-04.json",
+      "timestamp_from_filename": "2026-07-05T20:57:04"
+    },
+    {
+      "original_name": "20260706_010442_321415739363819532_2026-07-05-21-04-06.json",
+      "relative_path": "1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414/20260706_010442_321415739363819532_2026-07-05-21-04-06.json",
+      "timestamp_from_filename": "2026-07-05T21:04:06"
+    }
+  ],
+  "warnings": []
+}

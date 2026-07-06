@@ -6001,5 +6001,637 @@
         "1392514"
       ]
     }
+  },
+  "summer_2026_regular_season_central_a_1_3": {
+    "match_id": "summer_2026_regular_season_central_a_1_3",
+    "source_id": "1.3",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_a",
+    "region": "central",
+    "home_team_id": "vader_voltage_central",
+    "home_team": "Vader Voltage - Central",
+    "away_team_id": "camrose_cats",
+    "away_team": "Camrose Cats",
+    "home_roster": {
+      "team_id": "vader_voltage_central",
+      "team_display_name": "Vader Voltage - Central",
+      "team": "Vader Voltage - Central",
+      "team_abbreviation": "VDVC",
+      "region": "central",
+      "division": "central_a",
+      "conference": "",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Akakattack",
+          "slap_id": "1689859"
+        },
+        {
+          "role": "player",
+          "steam_name": "Wind",
+          "slap_id": "613713"
+        },
+        {
+          "role": "player",
+          "steam_name": "SolaceThunders",
+          "slap_id": "31950",
+          "jersey_number": "4"
+        },
+        {
+          "role": "player",
+          "steam_name": "Magix",
+          "slap_id": "1064297",
+          "jersey_number": "11"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bolty",
+          "slap_id": "19642"
+        }
+      ],
+      "slap_ids": [
+        "1689859",
+        "613713",
+        "31950",
+        "1064297",
+        "19642"
+      ]
+    },
+    "away_roster": {
+      "team_id": "camrose_cats",
+      "team_display_name": "Camrose Cats",
+      "team": "Camrose Cats",
+      "team_abbreviation": "cat",
+      "region": "central",
+      "division": "central_a",
+      "conference": "",
+      "players": [
+        {
+          "role": "player",
+          "steam_name": "tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "chausie",
+          "slap_id": "1234707"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "jersey_number": "",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "headass",
+          "jersey_number": "",
+          "slap_id": "173111"
+        },
+        {
+          "role": "captain",
+          "steam_name": "hill",
+          "jersey_number": "",
+          "slap_id": "1378966"
+        }
+      ],
+      "slap_ids": [
+        "985994",
+        "1234707",
+        "40",
+        "173111",
+        "1378966"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_a_1_8": {
+    "match_id": "summer_2026_regular_season_central_a_1_8",
+    "source_id": "1.8",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_a",
+    "region": "central",
+    "home_team_id": "camrose_cats",
+    "home_team": "Camrose Cats",
+    "away_team_id": "detroit_droids",
+    "away_team": "Detroit Droids",
+    "home_roster": {
+      "team_id": "camrose_cats",
+      "team_display_name": "Camrose Cats",
+      "team": "Camrose Cats",
+      "team_abbreviation": "cat",
+      "region": "central",
+      "division": "central_a",
+      "conference": "",
+      "players": [
+        {
+          "role": "player",
+          "steam_name": "tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "chausie",
+          "slap_id": "1234707"
+        },
+        {
+          "role": "player",
+          "steam_name": "Timmy",
+          "jersey_number": "",
+          "slap_id": "40"
+        },
+        {
+          "role": "player",
+          "steam_name": "headass",
+          "jersey_number": "",
+          "slap_id": "173111"
+        },
+        {
+          "role": "captain",
+          "steam_name": "hill",
+          "jersey_number": "",
+          "slap_id": "1378966"
+        }
+      ],
+      "slap_ids": [
+        "985994",
+        "1234707",
+        "40",
+        "173111",
+        "1378966"
+      ]
+    },
+    "away_roster": {
+      "team_id": "detroit_droids",
+      "team_display_name": "Detroit Droids",
+      "team": "Detroit Droids",
+      "team_abbreviation": "DTD",
+      "region": "central",
+      "division": "central_a",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "gold",
+          "slap_id": "914959",
+          "jersey_number": "09"
+        },
+        {
+          "role": "player",
+          "steam_name": "nutsack6",
+          "slap_id": "914448"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "slap_id": "19508",
+          "jersey_number": "7"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hydroid.",
+          "slap_id": "1836154"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
+        }
+      ],
+      "slap_ids": [
+        "914959",
+        "914448",
+        "19508",
+        "1836154",
+        "1071429"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_b_1_12": {
+    "match_id": "summer_2026_regular_season_central_b_1_12",
+    "source_id": "1.12",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "windy_city_walruses",
+    "home_team": "Windy City Walruses",
+    "away_team_id": "atlantic_city_zootiez",
+    "away_team": "Atlantic City Zootiez$",
+    "home_roster": {
+      "team_id": "windy_city_walruses",
+      "team_display_name": "Windy City Walruses",
+      "team": "Windy City Walruses",
+      "team_abbreviation": "WCW",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "LilPrecip",
+          "slap_id": "1005605"
+        },
+        {
+          "role": "player",
+          "steam_name": "plsstankrate",
+          "slap_id": "1005628"
+        },
+        {
+          "role": "player",
+          "steam_name": "MyRickFellOff",
+          "slap_id": "1005594"
+        },
+        {
+          "role": "player",
+          "steam_name": "Ranchero",
+          "slap_id": "1713654"
+        },
+        {
+          "role": "player",
+          "steam_name": "Potato",
+          "slap_id": "1277002"
+        }
+      ],
+      "slap_ids": [
+        "1005605",
+        "1005628",
+        "1005594",
+        "1713654",
+        "1277002"
+      ]
+    },
+    "away_roster": {
+      "team_id": "atlantic_city_zootiez",
+      "team_display_name": "Atlantic City Zootiez$",
+      "team": "Atlantic City Zootiez$",
+      "team_abbreviation": "ACZ",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "950305"
+        },
+        {
+          "role": "player",
+          "steam_name": "midget",
+          "slap_id": "948283"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mr Pigeon",
+          "jersey_number": "",
+          "slap_id": "508645"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "jersey_number": "",
+          "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "Chief",
+          "jersey_number": "",
+          "slap_id": "957603"
+        }
+      ],
+      "slap_ids": [
+        "950305",
+        "948283",
+        "508645",
+        "183790",
+        "957603"
+      ]
+    }
+  },
+  "summer_2026_regular_season_central_b_1_18": {
+    "match_id": "summer_2026_regular_season_central_b_1_18",
+    "source_id": "1.18",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "ottawa_valley_bass_slappers",
+    "home_team": "Ottawa Valley Bass Slappers",
+    "away_team_id": "atlantic_city_zootiez",
+    "away_team": "Atlantic City Zootiez$",
+    "home_roster": {
+      "team_id": "ottawa_valley_bass_slappers",
+      "team_display_name": "Ottawa Valley Bass Slappers",
+      "team": "Ottawa Valley Bass Slappers",
+      "team_abbreviation": "OVBS",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "EggsThink",
+          "slap_id": "417498"
+        },
+        {
+          "role": "player",
+          "steam_name": "Noob_Weapons",
+          "slap_id": "87"
+        },
+        {
+          "role": "player",
+          "steam_name": "LessThanDennis",
+          "slap_id": "513"
+        },
+        {
+          "role": "player",
+          "steam_name": "GiraffeKiller",
+          "slap_id": "1314542"
+        },
+        {
+          "role": "player",
+          "steam_name": "Dionysus",
+          "slap_id": "87468"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kavorka",
+          "slap_id": "816852"
+        }
+      ],
+      "slap_ids": [
+        "417498",
+        "87",
+        "513",
+        "1314542",
+        "87468",
+        "816852"
+      ]
+    },
+    "away_roster": {
+      "team_id": "atlantic_city_zootiez",
+      "team_display_name": "Atlantic City Zootiez$",
+      "team": "Atlantic City Zootiez$",
+      "team_abbreviation": "ACZ",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "950305"
+        },
+        {
+          "role": "player",
+          "steam_name": "midget",
+          "slap_id": "948283"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mr Pigeon",
+          "jersey_number": "",
+          "slap_id": "508645"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "jersey_number": "",
+          "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "Chief",
+          "jersey_number": "",
+          "slap_id": "957603"
+        }
+      ],
+      "slap_ids": [
+        "950305",
+        "948283",
+        "508645",
+        "183790",
+        "957603"
+      ]
+    }
+  },
+  "summer_2026_regular_season_challenger_1_1": {
+    "match_id": "summer_2026_regular_season_challenger_1_1",
+    "source_id": "1.1",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "camden_crook",
+    "home_team": "Camden Crook$",
+    "away_team_id": "delco_dog_dads",
+    "away_team": "Delco Dog Dads",
+    "home_roster": {
+      "team_id": "camden_crook",
+      "team_display_name": "Camden Crook$",
+      "team": "Camden Crook$",
+      "team_abbreviation": "CRKS",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "286293"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "chief",
+          "slap_id": "957603"
+        },
+        {
+          "role": "player",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mr Pigeon",
+          "slap_id": "508645"
+        }
+      ],
+      "slap_ids": [
+        "286293",
+        "183790",
+        "957603",
+        "1378966",
+        "508645"
+      ]
+    },
+    "away_roster": {
+      "team_id": "delco_dog_dads",
+      "team_display_name": "Delco Dog Dads",
+      "team": "Delco Dog Dads",
+      "team_abbreviation": "DDD",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Kavorka",
+          "slap_id": "816852"
+        },
+        {
+          "role": "player",
+          "steam_name": "Drewiou",
+          "slap_id": "200689"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lord Osprey",
+          "slap_id": "19647"
+        },
+        {
+          "role": "player",
+          "steam_name": "Pissy Yonky",
+          "slap_id": "702578"
+        },
+        {
+          "role": "player",
+          "steam_name": "bread",
+          "jersey_number": "",
+          "slap_id": "825118"
+        }
+      ],
+      "slap_ids": [
+        "816852",
+        "200689",
+        "19647",
+        "702578",
+        "825118"
+      ]
+    }
+  },
+  "summer_2026_regular_season_pro_1_12": {
+    "match_id": "summer_2026_regular_season_pro_1_12",
+    "source_id": "1.12",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "pro",
+    "region": "east",
+    "home_team_id": "boston_bobos",
+    "home_team": "Boston Bobos",
+    "away_team_id": "barrie_bald_boys",
+    "away_team": "Barrie Bald Boys",
+    "home_roster": {
+      "team_id": "boston_bobos",
+      "team_display_name": "Boston Bobos",
+      "team": "Boston Bobos",
+      "team_abbreviation": "BOBO",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "echo",
+          "slap_id": "22412",
+          "jersey_number": "86"
+        },
+        {
+          "role": "player",
+          "steam_name": "YackSlack",
+          "slap_id": "640761",
+          "jersey_number": "23"
+        },
+        {
+          "role": "player",
+          "steam_name": "jakee",
+          "slap_id": "4153",
+          "jersey_number": "72"
+        },
+        {
+          "role": "player",
+          "steam_name": "pl4zma",
+          "slap_id": "636422"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jeru",
+          "jersey_number": "",
+          "slap_id": "359314"
+        }
+      ],
+      "slap_ids": [
+        "22412",
+        "640761",
+        "4153",
+        "636422",
+        "359314"
+      ]
+    },
+    "away_roster": {
+      "team_id": "barrie_bald_boys",
+      "team_display_name": "Barrie Bald Boys",
+      "team": "Barrie Bald Boys",
+      "team_abbreviation": "BBB",
+      "region": "east",
+      "division": "pro",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Beefus",
+          "slap_id": "1354924",
+          "jersey_number": "16"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tridoxity",
+          "slap_id": "1127790",
+          "jersey_number": "0"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meatballer36",
+          "slap_id": "929814",
+          "jersey_number": "36"
+        },
+        {
+          "role": "player",
+          "steam_name": "Darth Daevin",
+          "slap_id": "836900",
+          "jersey_number": "42"
+        },
+        {
+          "role": "player",
+          "steam_name": "Charles",
+          "slap_id": "122257",
+          "jersey_number": "11"
+        }
+      ],
+      "slap_ids": [
+        "1354924",
+        "1127790",
+        "929814",
+        "836900",
+        "122257"
+      ]
+    }
   }
 }

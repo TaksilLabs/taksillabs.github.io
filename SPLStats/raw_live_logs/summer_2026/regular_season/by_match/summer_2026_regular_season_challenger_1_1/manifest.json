@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_challenger_1_1",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "challenger",
+  "imported_at_utc": "2026-07-06T02:30:13.654755+00:00",
+  "source_folder_name": "1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975",
+  "source_folder_path": "data/incoming_logs/unsorted/1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975",
+  "source_id": "1.1",
+  "thread_id": "1520927475662589975",
+  "detected_home_team": "Camden Crooks",
+  "detected_away_team": "Delco Dog Dads",
+  "matched_schedule_home_team_id": "camden_crook",
+  "matched_schedule_away_team_id": "delco_dog_dads",
+  "matched_schedule_home_team": "Camden Crook$",
+  "matched_schedule_away_team": "Delco Dog Dads",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-05T21:50:01",
+  "last_log_timestamp": "2026-07-05T22:02:56",
+  "probable_start_time": "2026-07-05T21:45:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260706_020956_593566495762808842_2026-07-05-21-50-01.json",
+      "relative_path": "1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975/20260706_020956_593566495762808842_2026-07-05-21-50-01.json",
+      "timestamp_from_filename": "2026-07-05T21:50:01"
+    },
+    {
+      "original_name": "20260706_020957_593566495762808842_2026-07-05-21-55-55.json",
+      "relative_path": "1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975/20260706_020957_593566495762808842_2026-07-05-21-55-55.json",
+      "timestamp_from_filename": "2026-07-05T21:55:55"
+    },
+    {
+      "original_name": "20260706_020957_593566495762808842_2026-07-05-22-02-56.json",
+      "relative_path": "1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975/20260706_020957_593566495762808842_2026-07-05-22-02-56.json",
+      "timestamp_from_filename": "2026-07-05T22:02:56"
+    }
+  ],
+  "warnings": []
+}

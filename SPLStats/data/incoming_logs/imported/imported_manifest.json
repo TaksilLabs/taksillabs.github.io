@@ -421,6 +421,48 @@
       "thread_id": "1520931904897945681",
       "imported_at_utc": "2026-07-04T13:13:25.473595+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_intermediate_1_7"
+    },
+    "1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757": {
+      "match_id": "summer_2026_regular_season_pro_1_12",
+      "source_id": "1.12",
+      "thread_id": "1520927384776474757",
+      "imported_at_utc": "2026-07-06T02:30:13.621097+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_pro_1_12"
+    },
+    "1.12_ Windy City Walruses vs Atlantic City Zootiez$__1520930588083622050": {
+      "match_id": "summer_2026_regular_season_central_b_1_12",
+      "source_id": "1.12",
+      "thread_id": "1520930588083622050",
+      "imported_at_utc": "2026-07-06T02:30:13.632291+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_b_1_12"
+    },
+    "1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414": {
+      "match_id": "summer_2026_regular_season_central_b_1_18",
+      "source_id": "1.18",
+      "thread_id": "1520930620694331414",
+      "imported_at_utc": "2026-07-06T02:30:13.643967+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_b_1_18"
+    },
+    "1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975": {
+      "match_id": "summer_2026_regular_season_challenger_1_1",
+      "source_id": "1.1",
+      "thread_id": "1520927475662589975",
+      "imported_at_utc": "2026-07-06T02:30:13.654755+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_1_1"
+    },
+    "1.3_ Vader Voltage - Central vs Camrose Cats__1520930144087183400": {
+      "match_id": "summer_2026_regular_season_central_a_1_3",
+      "source_id": "1.3",
+      "thread_id": "1520930144087183400",
+      "imported_at_utc": "2026-07-06T02:30:13.673403+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_a_1_3"
+    },
+    "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557": {
+      "match_id": "summer_2026_regular_season_central_a_1_8",
+      "source_id": "1.8",
+      "thread_id": "1520930169143955557",
+      "imported_at_utc": "2026-07-06T02:30:13.683308+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_a_1_8"
     }
   },
   "imported_match_ids": {
@@ -663,7 +705,31 @@
     "summer_2026_regular_season_intermediate_1_7": {
       "source_folder_name": "1.7_ Bedford Bobos Preparatory Academy vs Hagerstown Heroes__1520931904897945681",
       "imported_at_utc": "2026-07-04T13:13:25.473595+00:00"
+    },
+    "summer_2026_regular_season_pro_1_12": {
+      "source_folder_name": "1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757",
+      "imported_at_utc": "2026-07-06T02:30:13.621097+00:00"
+    },
+    "summer_2026_regular_season_central_b_1_12": {
+      "source_folder_name": "1.12_ Windy City Walruses vs Atlantic City Zootiez$__1520930588083622050",
+      "imported_at_utc": "2026-07-06T02:30:13.632291+00:00"
+    },
+    "summer_2026_regular_season_central_b_1_18": {
+      "source_folder_name": "1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414",
+      "imported_at_utc": "2026-07-06T02:30:13.643967+00:00"
+    },
+    "summer_2026_regular_season_challenger_1_1": {
+      "source_folder_name": "1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975",
+      "imported_at_utc": "2026-07-06T02:30:13.654755+00:00"
+    },
+    "summer_2026_regular_season_central_a_1_3": {
+      "source_folder_name": "1.3_ Vader Voltage - Central vs Camrose Cats__1520930144087183400",
+      "imported_at_utc": "2026-07-06T02:30:13.673403+00:00"
+    },
+    "summer_2026_regular_season_central_a_1_8": {
+      "source_folder_name": "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557",
+      "imported_at_utc": "2026-07-06T02:30:13.683308+00:00"
     }
   },
-  "updated_at_utc": "2026-07-05T00:19:32.300196+00:00"
+  "updated_at_utc": "2026-07-06T02:30:13.683521+00:00"
 }

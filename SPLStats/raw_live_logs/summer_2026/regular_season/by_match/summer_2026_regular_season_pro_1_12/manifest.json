@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_pro_1_12",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "pro",
+  "imported_at_utc": "2026-07-06T02:30:13.621097+00:00",
+  "source_folder_name": "1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757",
+  "source_folder_path": "data/incoming_logs/unsorted/1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757",
+  "source_id": "1.12",
+  "thread_id": "1520927384776474757",
+  "detected_home_team": "Boston Bobos",
+  "detected_away_team": "Barrie Bald Boys",
+  "matched_schedule_home_team_id": "boston_bobos",
+  "matched_schedule_away_team_id": "barrie_bald_boys",
+  "matched_schedule_home_team": "Boston Bobos",
+  "matched_schedule_away_team": "Barrie Bald Boys",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-05T21:36:54",
+  "last_log_timestamp": "2026-07-05T21:53:26",
+  "probable_start_time": "2026-07-05T21:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260706_015506_728437674305781851_2026-07-05-21-36-54.json",
+      "relative_path": "1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757/20260706_015506_728437674305781851_2026-07-05-21-36-54.json",
+      "timestamp_from_filename": "2026-07-05T21:36:54"
+    },
+    {
+      "original_name": "20260706_015506_728437674305781851_2026-07-05-21-46-00.json",
+      "relative_path": "1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757/20260706_015506_728437674305781851_2026-07-05-21-46-00.json",
+      "timestamp_from_filename": "2026-07-05T21:46:00"
+    },
+    {
+      "original_name": "20260706_015506_728437674305781851_2026-07-05-21-53-26.json",
+      "relative_path": "1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757/20260706_015506_728437674305781851_2026-07-05-21-53-26.json",
+      "timestamp_from_filename": "2026-07-05T21:53:26"
+    }
+  ],
+  "warnings": []
+}

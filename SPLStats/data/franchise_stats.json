@@ -4166,33 +4166,33 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3625.0,
-          "blocks": 13867.0,
-          "faceoffs_lost": 5403.0,
-          "faceoffs_won": 4916.0,
-          "goals": 4324.0,
-          "passes": 39125.0,
+          "assists": 3627.0,
+          "blocks": 13882.0,
+          "faceoffs_lost": 5411.0,
+          "faceoffs_won": 4918.0,
+          "goals": 4327.0,
+          "passes": 39162.0,
           "periods_played": 5976.0,
-          "points": 7949.0,
-          "possession_time_sec": 77903.0,
-          "post_hits": 1820.0,
+          "points": 7954.0,
+          "possession_time_sec": 77939.0,
+          "post_hits": 1823.0,
           "primary_assists": 2818.0,
-          "saves": 5370.0,
+          "saves": 5374.0,
           "secondary_assists": 678.0,
-          "shots": 9307.0,
-          "takeaways": 7168.0,
-          "turnovers": 8021.0,
-          "goals_against": 15050.0,
-          "shots_against": 32597.0,
-          "games_played": 2332.0,
-          "faceoffs_total": 10319.0,
-          "conceded_goals": 466.0,
-          "shots_faced": 648.0,
-          "score": 44085.0,
+          "shots": 9313.0,
+          "takeaways": 7173.0,
+          "turnovers": 8028.0,
+          "goals_against": 15062.0,
+          "shots_against": 32613.0,
+          "games_played": 2335.0,
+          "faceoffs_total": 10329.0,
+          "conceded_goals": 478.0,
+          "shots_faced": 664.0,
+          "score": 45005.0,
           "shot_percent": 46.46,
-          "save_percent": 16.47,
+          "save_percent": 16.48,
           "gaa": 6.45,
-          "faceoff_win_percent": 47.64
+          "faceoff_win_percent": 47.61
         },
         "leaders": {
           "goals": [
@@ -8657,30 +8657,30 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 2735.0,
-          "blocks": 8085.0,
-          "faceoffs_lost": 3343.0,
-          "faceoffs_won": 3742.0,
-          "goals": 3188.0,
-          "passes": 27117.0,
+          "assists": 2746.0,
+          "blocks": 8115.0,
+          "faceoffs_lost": 3353.0,
+          "faceoffs_won": 3754.0,
+          "goals": 3201.0,
+          "passes": 27200.0,
           "periods_played": 3847.0,
-          "points": 5923.0,
-          "possession_time_sec": 56965.0,
-          "post_hits": 1320.0,
+          "points": 5947.0,
+          "possession_time_sec": 57131.0,
+          "post_hits": 1324.0,
           "primary_assists": 2150.0,
-          "saves": 3427.0,
+          "saves": 3433.0,
           "secondary_assists": 534.0,
-          "shots": 6696.0,
-          "takeaways": 5399.0,
-          "turnovers": 5026.0,
-          "goals_against": 9630.0,
-          "shots_against": 20425.0,
-          "games_played": 1406.0,
-          "faceoffs_total": 7085.0,
-          "conceded_goals": 102.0,
-          "shots_faced": 186.0,
-          "score": 17390.0,
-          "shot_percent": 47.61,
+          "shots": 6714.0,
+          "takeaways": 5414.0,
+          "turnovers": 5044.0,
+          "goals_against": 9654.0,
+          "shots_against": 20455.0,
+          "games_played": 1409.0,
+          "faceoffs_total": 7107.0,
+          "conceded_goals": 126.0,
+          "shots_faced": 216.0,
+          "score": 20630.0,
+          "shot_percent": 47.68,
           "save_percent": 16.78,
           "gaa": 6.85,
           "faceoff_win_percent": 52.82
@@ -8689,7 +8689,7 @@
           "goals": [
             {
               "player_name": "meatballer36",
-              "value": 316.0
+              "value": 318.0
             },
             {
               "player_name": "Looees",
@@ -8705,17 +8705,17 @@
             },
             {
               "player_name": "Beefus",
-              "value": 176.0
+              "value": 177.0
             }
           ],
           "assists": [
             {
               "player_name": "Beefus",
-              "value": 270.0
+              "value": 275.0
             },
             {
               "player_name": "meatballer36",
-              "value": 243.0
+              "value": 248.0
             },
             {
               "player_name": "hit",
@@ -8733,11 +8733,11 @@
           "points": [
             {
               "player_name": "meatballer36",
-              "value": 559.0
+              "value": 566.0
             },
             {
               "player_name": "Beefus",
-              "value": 446.0
+              "value": 452.0
             },
             {
               "player_name": "Looees",
@@ -8755,7 +8755,7 @@
           "shots": [
             {
               "player_name": "meatballer36",
-              "value": 667.0
+              "value": 671.0
             },
             {
               "player_name": "Looees",
@@ -8771,13 +8771,13 @@
             },
             {
               "player_name": "Beefus",
-              "value": 369.0
+              "value": 372.0
             }
           ],
           "takeaways": [
             {
               "player_name": "meatballer36",
-              "value": 533.0
+              "value": 538.0
             },
             {
               "player_name": "Looees",
@@ -8785,7 +8785,7 @@
             },
             {
               "player_name": "Beefus",
-              "value": 412.0
+              "value": 418.0
             },
             {
               "player_name": "hit",
@@ -8799,7 +8799,7 @@
           "saves": [
             {
               "player_name": "Beefus",
-              "value": 839.0
+              "value": 845.0
             },
             {
               "player_name": "Cheddx",
@@ -8821,11 +8821,11 @@
           "blocks": [
             {
               "player_name": "Beefus",
-              "value": 921.0
+              "value": 931.0
             },
             {
               "player_name": "meatballer36",
-              "value": 799.0
+              "value": 812.0
             },
             {
               "player_name": "Looees",
@@ -8855,7 +8855,7 @@
             },
             {
               "player_name": "Beefus",
-              "value": 61.44
+              "value": 61.38
             },
             {
               "player_name": "Quion Games",
@@ -8865,11 +8865,11 @@
           "games_played": [
             {
               "player_name": "meatballer36",
-              "value": 125.0
+              "value": 126.0
             },
             {
               "player_name": "Beefus",
-              "value": 120.0
+              "value": 121.0
             },
             {
               "player_name": "hit",

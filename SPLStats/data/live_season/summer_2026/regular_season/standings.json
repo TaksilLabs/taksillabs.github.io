@@ -8,12 +8,65 @@
     "active_rosters": "data/live_season/summer_2026/active_rosters.json"
   },
   "team_count": 73,
-  "completed_match_count": 53,
+  "completed_match_count": 59,
   "standings": [
     {
       "rank": null,
       "division_rank": 1,
       "conference_rank": 1,
+      "team_id": "detroit_droids",
+      "team": "Detroit Droids",
+      "team_display_name": "Detroit Droids",
+      "team_abbreviation": "DTD",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "central",
+      "division": "central_a",
+      "conference": "1",
+      "games_played": 2,
+      "wins": 2,
+      "regulation_losses": 0,
+      "overtime_losses": 0,
+      "points": 4,
+      "goals_for": 21,
+      "goals_against": 12,
+      "goal_diff": 9,
+      "last_5": "2-0-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_central_a_1_1",
+          "source_id": "1.1",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 8,
+          "goals_against": 6
+        },
+        {
+          "match_id": "summer_2026_regular_season_central_a_1_8",
+          "source_id": "1.8",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 13,
+          "goals_against": 6
+        }
+      ],
+      "tiebreaker_status": "none",
+      "tiebreaker_notes": [],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 2,
+      "conference_rank": 2,
       "team_id": "baton_rouge_bobos",
       "team": "Baton Rouge Bobos",
       "team_display_name": "Baton Rouge Bobos",
@@ -43,12 +96,10 @@
           "goals_against": 5
         }
       ],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Detroit Droids; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Detroit Droids; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
@@ -62,8 +113,8 @@
     },
     {
       "rank": null,
-      "division_rank": 2,
-      "conference_rank": 2,
+      "division_rank": 3,
+      "conference_rank": 3,
       "team_id": "ottawa_valley_cool_cats",
       "team": "Ottawa Valley Cool Cats",
       "team_display_name": "Ottawa Valley Cool Cats",
@@ -105,56 +156,6 @@
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
         "Tied on standing points; SPL tiebreakers checked."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 3,
-      "conference_rank": 3,
-      "team_id": "detroit_droids",
-      "team": "Detroit Droids",
-      "team_display_name": "Detroit Droids",
-      "team_abbreviation": "DTD",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "central",
-      "division": "central_a",
-      "conference": "1",
-      "games_played": 1,
-      "wins": 1,
-      "regulation_losses": 0,
-      "overtime_losses": 0,
-      "points": 2,
-      "goals_for": 8,
-      "goals_against": 6,
-      "goal_diff": 2,
-      "last_5": "1-0-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_central_a_1_1",
-          "source_id": "1.1",
-          "result": "W",
-          "overtime": false,
-          "goals_for": 8,
-          "goals_against": 6
-        }
-      ],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Baton Rouge Bobos; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Baton Rouge Bobos; Best-of-1 may be required."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
@@ -236,22 +237,37 @@
       "region": "central",
       "division": "central_a",
       "conference": "1",
-      "games_played": 0,
-      "wins": 0,
-      "regulation_losses": 0,
+      "games_played": 2,
+      "wins": 1,
+      "regulation_losses": 1,
       "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_diff": 0,
-      "last_5": "0-0-0",
-      "last_5_games": [],
-      "tiebreaker_status": "bo1_required",
+      "points": 2,
+      "goals_for": 10,
+      "goals_against": 16,
+      "goal_diff": -6,
+      "last_5": "1-1-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_central_a_1_3",
+          "source_id": "1.3",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 4,
+          "goals_against": 3
+        },
+        {
+          "match_id": "summer_2026_regular_season_central_a_1_8",
+          "source_id": "1.8",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 6,
+          "goals_against": 13
+        }
+      ],
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Yukon Yetis; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Yukon Yetis; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
@@ -287,12 +303,10 @@
       "goal_diff": 0,
       "last_5": "0-0-0",
       "last_5_games": [],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camrose Cats; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camrose Cats; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
@@ -318,16 +332,24 @@
       "region": "central",
       "division": "central_a",
       "conference": "1",
-      "games_played": 1,
+      "games_played": 2,
       "wins": 0,
-      "regulation_losses": 1,
+      "regulation_losses": 2,
       "overtime_losses": 0,
       "points": 0,
-      "goals_for": 5,
-      "goals_against": 12,
-      "goal_diff": -7,
-      "last_5": "0-1-0",
+      "goals_for": 8,
+      "goals_against": 16,
+      "goal_diff": -8,
+      "last_5": "0-2-0",
       "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_central_a_1_3",
+          "source_id": "1.3",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 3,
+          "goals_against": 4
+        },
         {
           "match_id": "summer_2026_regular_season_central_a_1_6",
           "source_id": "1.6",
@@ -528,7 +550,7 @@
     },
     {
       "rank": null,
-      "division_rank": 3,
+      "division_rank": 4,
       "conference_rank": 3,
       "team_id": "vader_inquisitors",
       "team": "Vader Inquisitors",
@@ -634,58 +656,8 @@
     },
     {
       "rank": null,
-      "division_rank": 10,
+      "division_rank": 11,
       "conference_rank": 5,
-      "team_id": "windy_city_walruses",
-      "team": "Windy City Walruses",
-      "team_display_name": "Windy City Walruses",
-      "team_abbreviation": "WCW",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "central",
-      "division": "central_b",
-      "conference": "1",
-      "games_played": 1,
-      "wins": 0,
-      "regulation_losses": 1,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 0,
-      "goals_against": 10,
-      "goal_diff": -10,
-      "last_5": "0-1-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_central_b_1_13",
-          "source_id": "1.13",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 0,
-          "goals_against": 10
-        }
-      ],
-      "tiebreaker_status": "applied",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
-      ],
-      "playoff_bucket": "bubble",
-      "playoff_seed": null,
-      "wildcard_rank": 6,
-      "playoff_config": {
-        "auto_per_conference": 2,
-        "wildcard_count": 2,
-        "bubble_count": 4,
-        "playoff_team_count": 6
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 12,
-      "conference_rank": 6,
       "team_id": "vader_starkillers_central",
       "team": "Vader Starkillers Central",
       "team_display_name": "Vader Starkillers Central",
@@ -732,6 +704,64 @@
       ],
       "playoff_bucket": "chase",
       "playoff_seed": null,
+      "wildcard_rank": 7,
+      "playoff_config": {
+        "auto_per_conference": 2,
+        "wildcard_count": 2,
+        "bubble_count": 4,
+        "playoff_team_count": 6
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 12,
+      "conference_rank": 6,
+      "team_id": "windy_city_walruses",
+      "team": "Windy City Walruses",
+      "team_display_name": "Windy City Walruses",
+      "team_abbreviation": "WCW",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "central",
+      "division": "central_b",
+      "conference": "1",
+      "games_played": 2,
+      "wins": 0,
+      "regulation_losses": 2,
+      "overtime_losses": 0,
+      "points": 0,
+      "goals_for": 3,
+      "goals_against": 22,
+      "goal_diff": -19,
+      "last_5": "0-2-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_central_b_1_12",
+          "source_id": "1.12",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 3,
+          "goals_against": 12
+        },
+        {
+          "match_id": "summer_2026_regular_season_central_b_1_13",
+          "source_id": "1.13",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 0,
+          "goals_against": 10
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "chase",
+      "playoff_seed": null,
       "wildcard_rank": 8,
       "playoff_config": {
         "auto_per_conference": 2,
@@ -742,7 +772,7 @@
     },
     {
       "rank": null,
-      "division_rank": 4,
+      "division_rank": 3,
       "conference_rank": 1,
       "team_id": "ottawa_valley_bass_slappers",
       "team": "Ottawa Valley Bass Slappers",
@@ -754,15 +784,15 @@
       "region": "central",
       "division": "central_b",
       "conference": "2",
-      "games_played": 1,
-      "wins": 1,
+      "games_played": 2,
+      "wins": 2,
       "regulation_losses": 0,
       "overtime_losses": 0,
-      "points": 2,
-      "goals_for": 10,
-      "goals_against": 2,
-      "goal_diff": 8,
-      "last_5": "1-0-0",
+      "points": 4,
+      "goals_for": 17,
+      "goals_against": 6,
+      "goal_diff": 11,
+      "last_5": "2-0-0",
       "last_5_games": [
         {
           "match_id": "summer_2026_regular_season_central_b_1_11",
@@ -771,6 +801,67 @@
           "overtime": false,
           "goals_for": 10,
           "goals_against": 2
+        },
+        {
+          "match_id": "summer_2026_regular_season_central_b_1_18",
+          "source_id": "1.18",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 7,
+          "goals_against": 4
+        }
+      ],
+      "tiebreaker_status": "none",
+      "tiebreaker_notes": [],
+      "playoff_bucket": "automatic_qualifier",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 2,
+        "wildcard_count": 2,
+        "bubble_count": 4,
+        "playoff_team_count": 6
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 5,
+      "conference_rank": 2,
+      "team_id": "atlantic_city_zootiez",
+      "team": "Atlantic City Zootiez$",
+      "team_display_name": "Atlantic City Zootiez$",
+      "team_abbreviation": "ACZ",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "games_played": 2,
+      "wins": 1,
+      "regulation_losses": 1,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 16,
+      "goals_against": 10,
+      "goal_diff": 6,
+      "last_5": "1-1-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_central_b_1_12",
+          "source_id": "1.12",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 12,
+          "goals_against": 3
+        },
+        {
+          "match_id": "summer_2026_regular_season_central_b_1_18",
+          "source_id": "1.18",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 4,
+          "goals_against": 7
         }
       ],
       "tiebreaker_status": "applied",
@@ -791,8 +882,8 @@
     },
     {
       "rank": null,
-      "division_rank": 5,
-      "conference_rank": 2,
+      "division_rank": 6,
+      "conference_rank": 3,
       "team_id": "vader_saboteurs",
       "team": "Vader Saboteurs",
       "team_display_name": "Vader Saboteurs",
@@ -836,51 +927,6 @@
         "Tied on standing points; SPL tiebreakers checked.",
         "Tied on standing points; SPL tiebreakers checked."
       ],
-      "playoff_bucket": "automatic_qualifier",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 2,
-        "wildcard_count": 2,
-        "bubble_count": 4,
-        "playoff_team_count": 6
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 6,
-      "conference_rank": 3,
-      "team_id": "atlantic_city_zootiez",
-      "team": "Atlantic City Zootiez$",
-      "team_display_name": "Atlantic City Zootiez$",
-      "team_abbreviation": "ACZ",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "central",
-      "division": "central_b",
-      "conference": "2",
-      "games_played": 0,
-      "wins": 0,
-      "regulation_losses": 0,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_diff": 0,
-      "last_5": "0-0-0",
-      "last_5_games": [],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Lakeshore Loons; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Lakeshore Loons; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Lakeshore Loons; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Lakeshore Loons; Best-of-1 may be required."
-      ],
       "playoff_bucket": "wildcard",
       "playoff_seed": null,
       "wildcard_rank": 2,
@@ -915,16 +961,12 @@
       "goal_diff": 0,
       "last_5": "0-0-0",
       "last_5_games": [],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Atlantic City Zootiez$; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Atlantic City Zootiez$; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Atlantic City Zootiez$; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Atlantic City Zootiez$; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "bubble",
       "playoff_seed": null,
@@ -988,7 +1030,7 @@
     },
     {
       "rank": null,
-      "division_rank": 11,
+      "division_rank": 10,
       "conference_rank": 6,
       "team_id": "battle_creek_kings",
       "team": "Battle Creek Kings",
@@ -1034,9 +1076,9 @@
         "Tied on standing points; SPL tiebreakers checked.",
         "Tied on standing points; SPL tiebreakers checked."
       ],
-      "playoff_bucket": "chase",
+      "playoff_bucket": "bubble",
       "playoff_seed": null,
-      "wildcard_rank": 7,
+      "wildcard_rank": 6,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1375,16 +1417,24 @@
       "region": "east",
       "division": "challenger",
       "conference": "1",
-      "games_played": 2,
+      "games_played": 3,
       "wins": 2,
-      "regulation_losses": 0,
+      "regulation_losses": 1,
       "overtime_losses": 0,
       "points": 4,
-      "goals_for": 11,
-      "goals_against": 9,
-      "goal_diff": 2,
-      "last_5": "2-0-0",
+      "goals_for": 12,
+      "goals_against": 15,
+      "goal_diff": -3,
+      "last_5": "2-1-0",
       "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_challenger_1_1",
+          "source_id": "1.1",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 1,
+          "goals_against": 6
+        },
         {
           "match_id": "summer_2026_regular_season_challenger_1_13",
           "source_id": "1.13",
@@ -1418,6 +1468,55 @@
       "rank": null,
       "division_rank": 3,
       "conference_rank": 2,
+      "team_id": "camden_crook",
+      "team": "Camden Crook$",
+      "team_display_name": "Camden Crook$",
+      "team_abbreviation": "CRKS",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "games_played": 1,
+      "wins": 1,
+      "regulation_losses": 0,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 6,
+      "goals_against": 1,
+      "goal_diff": 5,
+      "last_5": "1-0-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_challenger_1_1",
+          "source_id": "1.1",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 6,
+          "goals_against": 1
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "automatic_qualifier",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 2,
+        "wildcard_count": 2,
+        "bubble_count": 4,
+        "playoff_team_count": 6
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 4,
+      "conference_rank": 3,
       "team_id": "edmonton_bears",
       "team": "Edmonton Bears",
       "team_display_name": "Edmonton Bears",
@@ -1447,60 +1546,15 @@
           "goals_against": 7
         }
       ],
-      "tiebreaker_status": "none",
-      "tiebreaker_notes": [],
-      "playoff_bucket": "automatic_qualifier",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 2,
-        "wildcard_count": 2,
-        "bubble_count": 4,
-        "playoff_team_count": 6
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 6,
-      "conference_rank": 3,
-      "team_id": "camden_crook",
-      "team": "Camden Crook$",
-      "team_display_name": "Camden Crook$",
-      "team_abbreviation": "CRKS",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "challenger",
-      "conference": "1",
-      "games_played": 0,
-      "wins": 0,
-      "regulation_losses": 0,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_diff": 0,
-      "last_5": "0-0-0",
-      "last_5_games": [],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
-        "Still tied with Seattle Cyclones; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
-        "Still tied with Seattle Cyclones; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
-        "Still tied with Seattle Cyclones; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
-        "Still tied with Seattle Cyclones; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "wildcard",
       "playoff_seed": null,
-      "wildcard_rank": 2,
+      "wildcard_rank": 1,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -1535,16 +1589,12 @@
       "tiebreaker_status": "bo1_required",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Seattle Cyclones; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Seattle Cyclones; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Seattle Cyclones; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Seattle Cyclones; Best-of-1 may be required."
       ],
       "playoff_bucket": "bubble",
@@ -1584,16 +1634,12 @@
       "tiebreaker_status": "bo1_required",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Camden Crook$; Best-of-1 may be required.",
         "Still tied with Ottawa Valley Post Dingers; Best-of-1 may be required."
       ],
       "playoff_bucket": "bubble",
@@ -1719,7 +1765,7 @@
     },
     {
       "rank": null,
-      "division_rank": 4,
+      "division_rank": 5,
       "conference_rank": 2,
       "team_id": "okinawa_generations",
       "team": "Okinawa Generations",
@@ -1780,7 +1826,7 @@
     },
     {
       "rank": null,
-      "division_rank": 5,
+      "division_rank": 6,
       "conference_rank": 3,
       "team_id": "pawnee_post_syrup_intake_authority",
       "team": "Pawnee Post Syrup Intake Authority",
@@ -1815,7 +1861,7 @@
       "tiebreaker_notes": [],
       "playoff_bucket": "wildcard",
       "playoff_seed": null,
-      "wildcard_rank": 1,
+      "wildcard_rank": 2,
       "playoff_config": {
         "auto_per_conference": 2,
         "wildcard_count": 2,
@@ -2978,16 +3024,24 @@
       "region": "east",
       "division": "pro",
       "conference": "1",
-      "games_played": 2,
-      "wins": 2,
+      "games_played": 3,
+      "wins": 3,
       "regulation_losses": 0,
       "overtime_losses": 0,
-      "points": 4,
-      "goals_for": 22,
-      "goals_against": 10,
-      "goal_diff": 12,
-      "last_5": "2-0-0",
+      "points": 6,
+      "goals_for": 35,
+      "goals_against": 18,
+      "goal_diff": 17,
+      "last_5": "3-0-0",
       "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_12",
+          "source_id": "1.12",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 13,
+          "goals_against": 8
+        },
         {
           "match_id": "summer_2026_regular_season_pro_1_5",
           "source_id": "1.5",
@@ -3005,13 +3059,8 @@
           "goals_against": 5
         }
       ],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Champaign Champagne; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Champaign Champagne; Best-of-1 may be required."
-      ],
+      "tiebreaker_status": "none",
+      "tiebreaker_notes": [],
       "playoff_bucket": "standings",
       "playoff_seed": null,
       "wildcard_rank": null,
@@ -3127,12 +3176,10 @@
           "goals_against": 9
         }
       ],
-      "tiebreaker_status": "bo1_required",
+      "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Barrie Bald Boys; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Barrie Bald Boys; Best-of-1 may be required."
+        "Tied on standing points; SPL tiebreakers checked."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
@@ -3342,16 +3389,24 @@
       "region": "east",
       "division": "pro",
       "conference": "1",
-      "games_played": 1,
+      "games_played": 2,
       "wins": 0,
-      "regulation_losses": 0,
+      "regulation_losses": 1,
       "overtime_losses": 1,
       "points": 1,
-      "goals_for": 5,
-      "goals_against": 6,
-      "goal_diff": -1,
-      "last_5": "0-0-1",
+      "goals_for": 13,
+      "goals_against": 19,
+      "goal_diff": -6,
+      "last_5": "0-1-1",
       "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_12",
+          "source_id": "1.12",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 8,
+          "goals_against": 13
+        },
         {
           "match_id": "summer_2026_regular_season_pro_1_4",
           "source_id": "1.4",
