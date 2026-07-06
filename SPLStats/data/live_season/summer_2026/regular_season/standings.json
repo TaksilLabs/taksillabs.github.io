@@ -8,7 +8,7 @@
     "active_rosters": "data/live_season/summer_2026/active_rosters.json"
   },
   "team_count": 73,
-  "completed_match_count": 59,
+  "completed_match_count": 60,
   "standings": [
     {
       "rank": null,
@@ -1151,6 +1151,59 @@
       "rank": null,
       "division_rank": 2,
       "conference_rank": 2,
+      "team_id": "vader_66ers",
+      "team": "Vader 66ers",
+      "team_display_name": "Vader 66ers",
+      "team_abbreviation": "V66",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "central",
+      "division": "central_c",
+      "conference": "1",
+      "games_played": 2,
+      "wins": 2,
+      "regulation_losses": 0,
+      "overtime_losses": 0,
+      "points": 4,
+      "goals_for": 12,
+      "goals_against": 6,
+      "goal_diff": 6,
+      "last_5": "2-0-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_central_c_1_3",
+          "source_id": "1.3",
+          "result": "W",
+          "overtime": true,
+          "goals_for": 6,
+          "goals_against": 5
+        },
+        {
+          "match_id": "summer_2026_regular_season_central_c_1_9",
+          "source_id": "1.9",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 6,
+          "goals_against": 1
+        }
+      ],
+      "tiebreaker_status": "none",
+      "tiebreaker_notes": [],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 3,
+      "conference_rank": 3,
       "team_id": "farmington_pilot_knobbers",
       "team": "Farmington Pilot Knobbers",
       "team_display_name": "Farmington Pilot Knobbers",
@@ -1188,63 +1241,8 @@
           "goals_against": 5
         }
       ],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader 66ers; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Vader 66ers; Best-of-1 may be required."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 3,
-      "conference_rank": 3,
-      "team_id": "vader_66ers",
-      "team": "Vader 66ers",
-      "team_display_name": "Vader 66ers",
-      "team_abbreviation": "V66",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "central",
-      "division": "central_c",
-      "conference": "1",
-      "games_played": 1,
-      "wins": 1,
-      "regulation_losses": 0,
-      "overtime_losses": 0,
-      "points": 2,
-      "goals_for": 6,
-      "goals_against": 5,
-      "goal_diff": 1,
-      "last_5": "1-0-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_central_c_1_3",
-          "source_id": "1.3",
-          "result": "W",
-          "overtime": true,
-          "goals_for": 6,
-          "goals_against": 5
-        }
-      ],
-      "tiebreaker_status": "bo1_required",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Farmington Pilot Knobbers; Best-of-1 may be required.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Still tied with Farmington Pilot Knobbers; Best-of-1 may be required."
-      ],
+      "tiebreaker_status": "none",
+      "tiebreaker_notes": [],
       "playoff_bucket": "standings",
       "playoff_seed": null,
       "wildcard_rank": null,
@@ -1320,45 +1318,6 @@
       "rank": null,
       "division_rank": 5,
       "conference_rank": 5,
-      "team_id": "vader_vanquishers",
-      "team": "Vader Vanquishers",
-      "team_display_name": "Vader Vanquishers",
-      "team_abbreviation": "VANQ",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "central",
-      "division": "central_c",
-      "conference": "1",
-      "games_played": 0,
-      "wins": 0,
-      "regulation_losses": 0,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_diff": 0,
-      "last_5": "0-0-0",
-      "last_5_games": [],
-      "tiebreaker_status": "applied",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 6,
-      "conference_rank": 6,
       "team_id": "boston_shufflebottoms",
       "team": "Boston Shufflebottoms",
       "team_display_name": "Boston Shufflebottoms",
@@ -1386,6 +1345,54 @@
           "overtime": false,
           "goals_for": 6,
           "goals_against": 10
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 6,
+      "conference_rank": 6,
+      "team_id": "vader_vanquishers",
+      "team": "Vader Vanquishers",
+      "team_display_name": "Vader Vanquishers",
+      "team_abbreviation": "VANQ",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "central",
+      "division": "central_c",
+      "conference": "1",
+      "games_played": 1,
+      "wins": 0,
+      "regulation_losses": 1,
+      "overtime_losses": 0,
+      "points": 0,
+      "goals_for": 1,
+      "goals_against": 6,
+      "goal_diff": -5,
+      "last_5": "0-1-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_central_c_1_9",
+          "source_id": "1.9",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 1,
+          "goals_against": 6
         }
       ],
       "tiebreaker_status": "applied",

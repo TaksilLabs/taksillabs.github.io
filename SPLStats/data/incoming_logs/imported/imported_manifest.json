@@ -463,6 +463,13 @@
       "thread_id": "1520930169143955557",
       "imported_at_utc": "2026-07-06T02:30:13.683308+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_a_1_8"
+    },
+    "1.9_ Vader Vanquishers vs Vader 66ers__1520928645072420954": {
+      "match_id": "summer_2026_regular_season_central_c_1_9",
+      "source_id": "1.9",
+      "thread_id": "1520928645072420954",
+      "imported_at_utc": "2026-07-06T02:43:45.604511+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_c_1_9"
     }
   },
   "imported_match_ids": {
@@ -729,7 +736,11 @@
     "summer_2026_regular_season_central_a_1_8": {
       "source_folder_name": "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557",
       "imported_at_utc": "2026-07-06T02:30:13.683308+00:00"
+    },
+    "summer_2026_regular_season_central_c_1_9": {
+      "source_folder_name": "1.9_ Vader Vanquishers vs Vader 66ers__1520928645072420954",
+      "imported_at_utc": "2026-07-06T02:43:45.604511+00:00"
     }
   },
-  "updated_at_utc": "2026-07-06T02:30:13.683521+00:00"
+  "updated_at_utc": "2026-07-06T02:43:45.604640+00:00"
 }

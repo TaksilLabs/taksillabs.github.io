@@ -2,9 +2,9 @@
   "season_id": "summer_2026",
   "season_name": "Summer 2026",
   "season_type": "regular_season",
-  "generated_at_utc": "2026-07-06T02:30:13.778402+00:00",
-  "match_count": 66,
-  "completed_match_count": 59,
+  "generated_at_utc": "2026-07-06T02:43:45.650246+00:00",
+  "match_count": 67,
+  "completed_match_count": 60,
   "matches": [
     {
       "match_id": "summer_2026_regular_season_central_a_1_1",
@@ -175,7 +175,7 @@
       "source_folder_name": "1.3_ Vader Voltage - Central vs Camrose Cats__1520930144087183400",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_a_1_6",
@@ -346,7 +346,7 @@
       "source_folder_name": "1.8_ Camrose Cats vs Detroit Droids__1520930169143955557",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_1",
@@ -574,7 +574,7 @@
       "source_folder_name": "1.12_ Windy City Walruses vs Atlantic City Zootiez$__1520930588083622050",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_13",
@@ -802,7 +802,7 @@
       "source_folder_name": "1.18_ Ottawa Valley Bass Slappers vs Atlantic City Zootiez$__1520930620694331414",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_central_b_1_2",
@@ -1319,6 +1319,63 @@
       "side_mapping_roster_source": "snapshot"
     },
     {
+      "match_id": "summer_2026_regular_season_central_c_1_9",
+      "source_id": "1.9",
+      "season_id": "summer_2026",
+      "season_type": "regular_season",
+      "division": "central_c",
+      "week": 1,
+      "match_number": 9,
+      "lr_group": "3",
+      "home_team": "Vader Vanquishers",
+      "home_team_id": "vader_vanquishers",
+      "home_division": "central_c",
+      "home_conference": "",
+      "home_region": "central",
+      "away_team": "Vader 66ers",
+      "away_team_id": "vader_66ers",
+      "away_division": "central_c",
+      "away_conference": "",
+      "away_region": "central",
+      "match_scope": "same-division",
+      "thread_name": "1.9: Vader Vanquishers vs Vader 66ers",
+      "status": "final",
+      "source": {
+        "file": "central_c.csv",
+        "row": 10,
+        "home_gm": "447252603072675843",
+        "away_gm": "1116178444259164300",
+        "week": "1",
+        "lr_date": "3",
+        "state": "Pending"
+      },
+      "season_name": "Summer 2026",
+      "phase": "regular_season",
+      "home_score": 1,
+      "away_score": 6,
+      "winner_team_id": "vader_66ers",
+      "loser_team_id": "vader_vanquishers",
+      "end_reason": "EndOfRegulation",
+      "overtime": false,
+      "period": 3,
+      "thread_id": "1520928645072420954",
+      "log_folder": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_c_1_9",
+      "report_file": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_c_1_9/original/1.9_ Vader Vanquishers vs Vader 66ers__1520928645072420954/20260706_024055_1116178444259164300_2026-07-05-22-39-41.json",
+      "side_mapping": "swapped",
+      "side_mapping_confidence": 5,
+      "side_mapping_normal_score": 0,
+      "side_mapping_swapped_score": 5,
+      "warnings": [],
+      "first_log_timestamp": "2026-07-05T22:27:03",
+      "last_log_timestamp": "2026-07-05T22:39:41",
+      "probable_start_time": "2026-07-05T22:15:00",
+      "start_time_source": "first_log_timestamp_floor_15_minutes",
+      "source_folder_name": "1.9_ Vader Vanquishers vs Vader 66ers__1520928645072420954",
+      "matched_by": "source_id_and_team_pair",
+      "match_import_confidence": 1.0,
+      "side_mapping_roster_source": "active_rosters_fallback"
+    },
+    {
       "match_id": "summer_2026_regular_season_challenger_1_1",
       "source_id": "1.1",
       "season_id": "summer_2026",
@@ -1373,7 +1430,7 @@
       "source_folder_name": "1.1_ Camden Crooks vs Delco Dog Dads__1520927475662589975",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_challenger_1_12",
@@ -3203,7 +3260,7 @@
       "source_folder_name": "1.12_ Boston Bobos vs Barrie Bald Boys__1520927384776474757",
       "matched_by": "source_id_and_team_pair",
       "match_import_confidence": 1.0,
-      "side_mapping_roster_source": "active_rosters_fallback"
+      "side_mapping_roster_source": "snapshot"
     },
     {
       "match_id": "summer_2026_regular_season_pro_1_13",

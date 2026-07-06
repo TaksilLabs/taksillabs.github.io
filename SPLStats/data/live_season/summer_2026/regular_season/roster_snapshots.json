@@ -6633,5 +6633,106 @@
         "122257"
       ]
     }
+  },
+  "summer_2026_regular_season_central_c_1_9": {
+    "match_id": "summer_2026_regular_season_central_c_1_9",
+    "source_id": "1.9",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_c",
+    "region": "central",
+    "home_team_id": "vader_vanquishers",
+    "home_team": "Vader Vanquishers",
+    "away_team_id": "vader_66ers",
+    "away_team": "Vader 66ers",
+    "home_roster": {
+      "team_id": "vader_vanquishers",
+      "team_display_name": "Vader Vanquishers",
+      "team": "Vader Vanquishers",
+      "team_abbreviation": "VANQ",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "sharqq",
+          "slap_id": "787"
+        },
+        {
+          "role": "player",
+          "steam_name": "Makar",
+          "slap_id": "739963"
+        },
+        {
+          "role": "player",
+          "steam_name": "_V",
+          "slap_id": "1853671"
+        },
+        {
+          "role": "player",
+          "steam_name": "Drpecker",
+          "slap_id": "1562745"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bobby McMann",
+          "jersey_number": "",
+          "slap_id": "469650"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "787",
+        "739963",
+        "1853671",
+        "1562745",
+        "469650"
+      ]
+    },
+    "away_roster": {
+      "team_id": "vader_66ers",
+      "team_display_name": "Vader 66ers",
+      "team": "Vader 66ers",
+      "team_abbreviation": "V66",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Lilcricket26",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "Liquidpoo22",
+          "slap_id": "1722341"
+        },
+        {
+          "role": "player",
+          "steam_name": "XRevision",
+          "slap_id": "1723185"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hostilebug",
+          "jersey_number": "",
+          "slap_id": ""
+        }
+      ],
+      "slap_ids": [
+        "1287792",
+        "1722341",
+        "1723185"
+      ]
+    }
   }
 }

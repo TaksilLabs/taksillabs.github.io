@@ -4166,33 +4166,33 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3627.0,
-          "blocks": 13882.0,
-          "faceoffs_lost": 5411.0,
-          "faceoffs_won": 4918.0,
-          "goals": 4327.0,
-          "passes": 39162.0,
+          "assists": 3630.0,
+          "blocks": 13936.0,
+          "faceoffs_lost": 5421.0,
+          "faceoffs_won": 4928.0,
+          "goals": 4334.0,
+          "passes": 39256.0,
           "periods_played": 5976.0,
-          "points": 7954.0,
-          "possession_time_sec": 77939.0,
-          "post_hits": 1823.0,
+          "points": 7964.0,
+          "possession_time_sec": 78191.0,
+          "post_hits": 1825.0,
           "primary_assists": 2818.0,
-          "saves": 5374.0,
+          "saves": 5382.0,
           "secondary_assists": 678.0,
-          "shots": 9313.0,
-          "takeaways": 7173.0,
-          "turnovers": 8028.0,
-          "goals_against": 15062.0,
-          "shots_against": 32613.0,
-          "games_played": 2335.0,
-          "faceoffs_total": 10329.0,
-          "conceded_goals": 478.0,
-          "shots_faced": 664.0,
-          "score": 45005.0,
+          "shots": 9328.0,
+          "takeaways": 7202.0,
+          "turnovers": 8057.0,
+          "goals_against": 15083.0,
+          "shots_against": 32642.0,
+          "games_played": 2341.0,
+          "faceoffs_total": 10349.0,
+          "conceded_goals": 499.0,
+          "shots_faced": 693.0,
+          "score": 47275.0,
           "shot_percent": 46.46,
-          "save_percent": 16.48,
-          "gaa": 6.45,
-          "faceoff_win_percent": 47.61
+          "save_percent": 16.49,
+          "gaa": 6.44,
+          "faceoff_win_percent": 47.62
         },
         "leaders": {
           "goals": [
@@ -4324,7 +4324,7 @@
             },
             {
               "player_name": "lilcricket26",
-              "value": 286.0
+              "value": 288.0
             }
           ],
           "blocks": [
@@ -4342,7 +4342,7 @@
             },
             {
               "player_name": "lilcricket26",
-              "value": 617.0
+              "value": 633.0
             },
             {
               "player_name": "Ghostwalker",
@@ -4440,6 +4440,7 @@
           "Vader Starkillers East",
           "Vader Stars",
           "Vader Troopers",
+          "Vader Vanquishers",
           "Vader Vapors",
           "Vader Voltage - Central",
           "Vader Western Inquisitors",
