@@ -2151,32 +2151,32 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 7692.0,
-          "blocks": 23368.0,
-          "faceoffs_lost": 10845.0,
-          "faceoffs_won": 11145.0,
-          "goals": 9311.0,
-          "passes": 84428.0,
+          "assists": 7699.0,
+          "blocks": 23389.0,
+          "faceoffs_lost": 10853.0,
+          "faceoffs_won": 11151.0,
+          "goals": 9319.0,
+          "passes": 84496.0,
           "periods_played": 12460.0,
-          "points": 17003.0,
-          "possession_time_sec": 175500.0,
-          "post_hits": 4031.0,
+          "points": 17018.0,
+          "possession_time_sec": 175624.0,
+          "post_hits": 4034.0,
           "primary_assists": 6265.0,
-          "saves": 11179.0,
+          "saves": 11187.0,
           "secondary_assists": 1373.0,
-          "shots": 20398.0,
-          "takeaways": 17168.0,
-          "turnovers": 17085.0,
-          "goals_against": 32796.0,
-          "shots_against": 70889.0,
-          "games_played": 5135.0,
-          "faceoffs_total": 21990.0,
-          "conceded_goals": 242.0,
-          "shots_faced": 346.0,
-          "score": 24665.0,
+          "shots": 20416.0,
+          "takeaways": 17182.0,
+          "turnovers": 17099.0,
+          "goals_against": 32805.0,
+          "shots_against": 70906.0,
+          "games_played": 5138.0,
+          "faceoffs_total": 22004.0,
+          "conceded_goals": 251.0,
+          "shots_faced": 363.0,
+          "score": 26970.0,
           "shot_percent": 45.65,
-          "save_percent": 15.77,
-          "gaa": 6.39,
+          "save_percent": 15.78,
+          "gaa": 6.38,
           "faceoff_win_percent": 50.68
         },
         "leaders": {
@@ -4166,33 +4166,33 @@
       "all_divisions": {
         "has_data": true,
         "career": {
-          "assists": 3630.0,
-          "blocks": 13936.0,
-          "faceoffs_lost": 5421.0,
-          "faceoffs_won": 4928.0,
-          "goals": 4334.0,
-          "passes": 39256.0,
+          "assists": 3644.0,
+          "blocks": 13968.0,
+          "faceoffs_lost": 5441.0,
+          "faceoffs_won": 4940.0,
+          "goals": 4351.0,
+          "passes": 39358.0,
           "periods_played": 5976.0,
-          "points": 7964.0,
-          "possession_time_sec": 78191.0,
-          "post_hits": 1825.0,
+          "points": 7995.0,
+          "possession_time_sec": 78348.0,
+          "post_hits": 1833.0,
           "primary_assists": 2818.0,
-          "saves": 5382.0,
+          "saves": 5402.0,
           "secondary_assists": 678.0,
-          "shots": 9328.0,
-          "takeaways": 7202.0,
-          "turnovers": 8057.0,
-          "goals_against": 15083.0,
-          "shots_against": 32642.0,
-          "games_played": 2341.0,
-          "faceoffs_total": 10349.0,
-          "conceded_goals": 499.0,
-          "shots_faced": 693.0,
-          "score": 47275.0,
+          "shots": 9365.0,
+          "takeaways": 7213.0,
+          "turnovers": 8088.0,
+          "goals_against": 15116.0,
+          "shots_against": 32695.0,
+          "games_played": 2347.0,
+          "faceoffs_total": 10381.0,
+          "conceded_goals": 532.0,
+          "shots_faced": 746.0,
+          "score": 52075.0,
           "shot_percent": 46.46,
-          "save_percent": 16.49,
+          "save_percent": 16.52,
           "gaa": 6.44,
-          "faceoff_win_percent": 47.62
+          "faceoff_win_percent": 47.59
         },
         "leaders": {
           "goals": [
@@ -4202,11 +4202,11 @@
             },
             {
               "player_name": "Flc",
-              "value": 260.0
+              "value": 261.0
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 255.0
+              "value": 256.0
             },
             {
               "player_name": "Lucki",
@@ -4224,7 +4224,7 @@
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 232.0
+              "value": 233.0
             },
             {
               "player_name": "Galalendon",
@@ -4250,7 +4250,7 @@
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 487.0
+              "value": 489.0
             },
             {
               "player_name": "Galalendon",
@@ -4258,7 +4258,7 @@
             },
             {
               "player_name": "Flc",
-              "value": 401.0
+              "value": 403.0
             }
           ],
           "shots": [
@@ -4272,11 +4272,11 @@
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 586.0
+              "value": 591.0
             },
             {
               "player_name": "Flc",
-              "value": 533.0
+              "value": 536.0
             },
             {
               "player_name": "Galalendon",
@@ -4286,7 +4286,7 @@
           "takeaways": [
             {
               "player_name": "Filip Chytil Stan",
-              "value": 697.0
+              "value": 701.0
             },
             {
               "player_name": "Lucki",
@@ -4308,7 +4308,7 @@
           "saves": [
             {
               "player_name": "Filip Chytil Stan",
-              "value": 691.0
+              "value": 697.0
             },
             {
               "player_name": "Galalendon",
@@ -4319,12 +4319,12 @@
               "value": 379.0
             },
             {
-              "player_name": "pvW.",
-              "value": 297.0
+              "player_name": "lilcricket26",
+              "value": 298.0
             },
             {
-              "player_name": "lilcricket26",
-              "value": 288.0
+              "player_name": "pvW.",
+              "value": 297.0
             }
           ],
           "blocks": [
@@ -4334,7 +4334,7 @@
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 1054.0
+              "value": 1061.0
             },
             {
               "player_name": "Lucki",
@@ -4342,7 +4342,7 @@
             },
             {
               "player_name": "lilcricket26",
-              "value": 633.0
+              "value": 642.0
             },
             {
               "player_name": "Ghostwalker",
@@ -4382,15 +4382,15 @@
             },
             {
               "player_name": "Filip Chytil Stan",
-              "value": 154.0
+              "value": 155.0
             },
             {
               "player_name": "Akakattack",
               "value": 105.0
             },
             {
-              "player_name": "Lucki",
-              "value": 97.0
+              "player_name": "Flc",
+              "value": 98.0
             }
           ],
           "seasons_played": [
@@ -13149,6 +13149,394 @@
           "fall_2022",
           "spring_2022",
           "winter_2022"
+        ]
+      }
+    }
+  },
+  {
+    "franchise_id": "boston",
+    "franchise_name": "Boston",
+    "status": "active",
+    "description": "",
+    "founders": [
+      "dxmxnz",
+      "Sylat00n"
+    ],
+    "owners": [
+      "dxmxnz",
+      "Sylat00n"
+    ],
+    "part_owners": [
+      "napqleon",
+      "tuna_key",
+      "DumbAsRocks420",
+      "FlightlessEgg"
+    ],
+    "coaches": [
+      "dxmxnz"
+    ],
+    "hall_of_fame": [
+      {}
+    ],
+    "memberships": [
+      {
+        "team": "Boston Bahds",
+        "order": 1,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      },
+      {
+        "team": "Boston Shufflebottoms",
+        "order": 2,
+        "start_season": "",
+        "end_season": "",
+        "notes": ""
+      }
+    ],
+    "team_totals": {
+      "teams": 1,
+      "games_played": 41,
+      "wins": 20,
+      "losses": 21,
+      "goals_for": 238,
+      "goals_against": 234,
+      "goal_differential": 4,
+      "win_percent": 0.488,
+      "seasons": 2
+    },
+    "team_records": {
+      "most_games_played": {
+        "team": "Boston Bahds",
+        "value": 41
+      },
+      "most_wins": {
+        "team": "Boston Bahds",
+        "value": 20
+      },
+      "best_win_percent": {
+        "team": "Boston Bahds",
+        "value": 0.488
+      },
+      "most_goals_for": {
+        "team": "Boston Bahds",
+        "value": 238
+      },
+      "fewest_goals_against": {
+        "team": "Boston Bahds",
+        "value": 234
+      },
+      "best_goal_differential": {
+        "team": "Boston Bahds",
+        "value": 4
+      }
+    },
+    "team_rows": [
+      {
+        "team": "Boston Bahds",
+        "games_played": 41,
+        "wins": 20,
+        "losses": 21,
+        "goals_for": 238,
+        "goals_against": 234,
+        "goal_differential": 4,
+        "win_percent": 0.488,
+        "seasons": [
+          "winter_2026",
+          "spring_2026"
+        ],
+        "start_season": "",
+        "end_season": "",
+        "order": 1
+      }
+    ],
+    "stats": {
+      "pro": {
+        "has_data": false,
+        "career": {
+          "points": 0,
+          "shot_percent": 0,
+          "save_percent": 0,
+          "gaa": 0,
+          "faceoffs_total": 0,
+          "faceoff_win_percent": 0
+        },
+        "leaders": {
+          "goals": [],
+          "assists": [],
+          "points": [],
+          "shots": [],
+          "takeaways": [],
+          "saves": [],
+          "blocks": [],
+          "faceoff_percent": [],
+          "games_played": [],
+          "seasons_played": []
+        },
+        "teams": [],
+        "seasons": []
+      },
+      "all_divisions": {
+        "has_data": true,
+        "career": {
+          "assists": 196.0,
+          "blocks": 867.0,
+          "faceoffs_lost": 306.0,
+          "faceoffs_won": 328.0,
+          "goals": 261.0,
+          "passes": 2110.0,
+          "periods_played": 366.0,
+          "points": 457.0,
+          "possession_time_sec": 5453.0,
+          "post_hits": 98.0,
+          "primary_assists": 156.0,
+          "saves": 244.0,
+          "secondary_assists": 24.0,
+          "shots": 554.0,
+          "takeaways": 508.0,
+          "turnovers": 474.0,
+          "goals_against": 858.0,
+          "shots_against": 1539.0,
+          "games_played": 141.0,
+          "faceoffs_total": 634.0,
+          "conceded_goals": 127.0,
+          "shots_faced": 161.0,
+          "score": 7375.0,
+          "shot_percent": 47.11,
+          "save_percent": 15.85,
+          "gaa": 6.09,
+          "faceoff_win_percent": 51.74
+        },
+        "leaders": {
+          "goals": [
+            {
+              "player_name": "dxmxnz",
+              "value": 113.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 58.0
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 29.0
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 23.0
+            },
+            {
+              "player_name": "dvyr",
+              "value": 16.0
+            }
+          ],
+          "assists": [
+            {
+              "player_name": "dxmxnz",
+              "value": 69.0
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 32.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 28.0
+            },
+            {
+              "player_name": "dvyr",
+              "value": 27.0
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 21.0
+            }
+          ],
+          "points": [
+            {
+              "player_name": "dxmxnz",
+              "value": 182.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 86.0
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 55.0
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 50.0
+            },
+            {
+              "player_name": "dvyr",
+              "value": 43.0
+            }
+          ],
+          "shots": [
+            {
+              "player_name": "dxmxnz",
+              "value": 222.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 124.0
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 55.0
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 54.0
+            },
+            {
+              "player_name": "dvyr",
+              "value": 40.0
+            }
+          ],
+          "takeaways": [
+            {
+              "player_name": "dxmxnz",
+              "value": 137.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 101.0
+            },
+            {
+              "player_name": "dvyr",
+              "value": 100.0
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 81.0
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 62.0
+            }
+          ],
+          "saves": [
+            {
+              "player_name": "Ademy24",
+              "value": 59.0
+            },
+            {
+              "player_name": "napqleon",
+              "value": 53.0
+            },
+            {
+              "player_name": "dxmxnz",
+              "value": 49.0
+            },
+            {
+              "player_name": "dvyr",
+              "value": 32.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 24.0
+            }
+          ],
+          "blocks": [
+            {
+              "player_name": "dxmxnz",
+              "value": 270.0
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 182.0
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 107.0
+            },
+            {
+              "player_name": "dvyr",
+              "value": 98.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 91.0
+            }
+          ],
+          "faceoff_percent": [
+            {
+              "player_name": "dxmxnz",
+              "value": 59.51
+            },
+            {
+              "player_name": "dvyr",
+              "value": 55.32
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 53.03
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 52.05
+            },
+            {
+              "player_name": "napqleon",
+              "value": 47.37
+            }
+          ],
+          "games_played": [
+            {
+              "player_name": "dxmxnz",
+              "value": 43.0
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 32.0
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 19.0
+            },
+            {
+              "player_name": "napqleon",
+              "value": 17.0
+            },
+            {
+              "player_name": "MacademySammy88",
+              "value": 13.0
+            }
+          ],
+          "seasons_played": [
+            {
+              "player_name": "dxmxnz",
+              "value": 3
+            },
+            {
+              "player_name": "Sylat00n",
+              "value": 3
+            },
+            {
+              "player_name": "napqleon",
+              "value": 3
+            },
+            {
+              "player_name": "dvyr",
+              "value": 2
+            },
+            {
+              "player_name": "Ademy24",
+              "value": 2
+            }
+          ]
+        },
+        "teams": [
+          "Boston Bahds",
+          "Boston Shufflebottoms"
+        ],
+        "seasons": [
+          "summer_2026",
+          "spring_2026",
+          "winter_2026"
         ]
       }
     }

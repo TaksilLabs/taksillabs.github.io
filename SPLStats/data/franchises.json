@@ -2363,6 +2363,83 @@
                 "notes": ""
             }
         ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "franchise_id": "boston",
+        "franchise_name": "Boston",
+        "logo": "assets/images/franchises/boston_capybaras.png",
+        "status": "active",
+        "founded": "2025-12-15",
+        "closed": "yyyy-mm-dd",
+
+        "theme": {
+            "primary": "#b71e3b",
+            "secondary": "#7a2c3b",
+            "accent": "#b71e3b",
+
+            "background": "#121212",
+            "card": "#1a1a1a",
+            "surface": "#121212",
+            "header": "#2c2c2c"
+        },
+
+        "description": "",
+
+        "founders": [
+            "dxmxnz",
+            "Sylat00n"
+        ],
+
+        "owners": [
+            "dxmxnz",
+            "Sylat00n"
+        ],
+
+        "part_owners": [
+            "napqleon",
+            "tuna_key",
+            "DumbAsRocks420",
+            "FlightlessEgg"
+        ],
+
+        "coaches": [
+            "dxmxnz"
+        ],
+
+        "hall_of_fame": [
+            {}
+        ],
+
+        "memberships": [
+            {
+                "team": "Boston Bahds",
+                "order": 1,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            },{
+                "team": "Boston Shufflebottoms",
+                "order": 2,
+                "start_season": "",
+                "end_season": "",
+                "notes": ""
+            }
+        ]
     }
 
 ]

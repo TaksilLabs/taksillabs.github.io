@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_masters_1_8",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "masters",
+  "imported_at_utc": "2026-07-06T04:40:06.535372+00:00",
+  "source_folder_name": "1.8_ Vader Gungans vs Jerusalem Golden Bobos__1520928002936930446",
+  "source_folder_path": "data/incoming_logs/unsorted/1.8_ Vader Gungans vs Jerusalem Golden Bobos__1520928002936930446",
+  "source_id": "1.8",
+  "thread_id": "1520928002936930446",
+  "detected_home_team": "Vader Gungans",
+  "detected_away_team": "Jerusalem Golden Bobos",
+  "matched_schedule_home_team_id": "vader_gungans",
+  "matched_schedule_away_team_id": "jerusalem_golden_bobos",
+  "matched_schedule_home_team": "Vader Gungans",
+  "matched_schedule_away_team": "Jerusalem Golden Bobos",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-05T21:32:27",
+  "last_log_timestamp": "2026-07-05T21:45:17",
+  "probable_start_time": "2026-07-05T21:30:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260706_025217_268793849839747074_2026-07-05-21-32-27.json",
+      "relative_path": "1.8_ Vader Gungans vs Jerusalem Golden Bobos__1520928002936930446/20260706_025217_268793849839747074_2026-07-05-21-32-27.json",
+      "timestamp_from_filename": "2026-07-05T21:32:27"
+    },
+    {
+      "original_name": "20260706_025217_268793849839747074_2026-07-05-21-39-22.json",
+      "relative_path": "1.8_ Vader Gungans vs Jerusalem Golden Bobos__1520928002936930446/20260706_025217_268793849839747074_2026-07-05-21-39-22.json",
+      "timestamp_from_filename": "2026-07-05T21:39:22"
+    },
+    {
+      "original_name": "20260706_025217_268793849839747074_2026-07-05-21-45-17.json",
+      "relative_path": "1.8_ Vader Gungans vs Jerusalem Golden Bobos__1520928002936930446/20260706_025217_268793849839747074_2026-07-05-21-45-17.json",
+      "timestamp_from_filename": "2026-07-05T21:45:17"
+    }
+  ],
+  "warnings": []
+}

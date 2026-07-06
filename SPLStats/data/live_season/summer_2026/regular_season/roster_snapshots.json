@@ -6734,5 +6734,301 @@
         "1723185"
       ]
     }
+  },
+  "summer_2026_regular_season_central_c_1_4": {
+    "match_id": "summer_2026_regular_season_central_c_1_4",
+    "source_id": "1.4",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_c",
+    "region": "central",
+    "home_team_id": "vader_66ers",
+    "home_team": "Vader 66ers",
+    "away_team_id": "boston_shufflebottoms",
+    "away_team": "Boston Shufflebottoms",
+    "home_roster": {
+      "team_id": "vader_66ers",
+      "team_display_name": "Vader 66ers",
+      "team": "Vader 66ers",
+      "team_abbreviation": "V66",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Lilcricket26",
+          "slap_id": "1287792"
+        },
+        {
+          "role": "player",
+          "steam_name": "Liquidpoo22",
+          "slap_id": "1722341"
+        },
+        {
+          "role": "player",
+          "steam_name": "XRevision",
+          "slap_id": "1723185"
+        },
+        {
+          "role": "player",
+          "steam_name": "Hostilebug",
+          "jersey_number": "",
+          "slap_id": ""
+        }
+      ],
+      "slap_ids": [
+        "1287792",
+        "1722341",
+        "1723185"
+      ]
+    },
+    "away_roster": {
+      "team_id": "boston_shufflebottoms",
+      "team_display_name": "Boston Shufflebottoms",
+      "team": "Boston Shufflebottoms",
+      "team_abbreviation": "BSB",
+      "region": "central",
+      "division": "central_c",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "napqleon",
+          "slap_id": "1314476",
+          "jersey_number": "48"
+        },
+        {
+          "role": "player",
+          "steam_name": "FlightlessEgg",
+          "slap_id": "1834115",
+          "jersey_number": "41"
+        },
+        {
+          "role": "player",
+          "steam_name": "tuna_key",
+          "slap_id": "1313861"
+        },
+        {
+          "role": "player",
+          "steam_name": "DumbAsRocks420",
+          "jersey_number": "41",
+          "slap_id": "1628557"
+        }
+      ],
+      "slap_ids": [
+        "1314476",
+        "1834115",
+        "1313861",
+        "1628557"
+      ]
+    }
+  },
+  "summer_2026_regular_season_challenger_1_15": {
+    "match_id": "summer_2026_regular_season_challenger_1_15",
+    "source_id": "1.15",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "challenger",
+    "region": "east",
+    "home_team_id": "ottawa_valley_post_dingers",
+    "home_team": "Ottawa Valley Post Dingers",
+    "away_team_id": "camden_crook",
+    "away_team": "Camden Crook$",
+    "home_roster": {
+      "team_id": "ottawa_valley_post_dingers",
+      "team_display_name": "Ottawa Valley Post Dingers",
+      "team": "Ottawa Valley Post Dingers",
+      "team_abbreviation": "OVPD",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Dave",
+          "slap_id": "186"
+        },
+        {
+          "role": "player",
+          "steam_name": "Crusade",
+          "slap_id": "1374"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
+        },
+        {
+          "role": "player",
+          "steam_name": "Walster",
+          "jersey_number": "",
+          "slap_id": "111"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jak",
+          "jersey_number": "",
+          "slap_id": "163"
+        }
+      ],
+      "slap_ids": [
+        "186",
+        "1374",
+        "1071429",
+        "111",
+        "163"
+      ]
+    },
+    "away_roster": {
+      "team_id": "camden_crook",
+      "team_display_name": "Camden Crook$",
+      "team": "Camden Crook$",
+      "team_abbreviation": "CRKS",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "AddyP786",
+          "slap_id": "286293"
+        },
+        {
+          "role": "player",
+          "steam_name": "Romey",
+          "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "chief",
+          "slap_id": "957603"
+        },
+        {
+          "role": "player",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "Mr Pigeon",
+          "slap_id": "508645"
+        }
+      ],
+      "slap_ids": [
+        "286293",
+        "183790",
+        "957603",
+        "1378966",
+        "508645"
+      ]
+    }
+  },
+  "summer_2026_regular_season_masters_1_8": {
+    "match_id": "summer_2026_regular_season_masters_1_8",
+    "source_id": "1.8",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "masters",
+    "region": "west",
+    "home_team_id": "vader_gungans",
+    "home_team": "Vader Gungans",
+    "away_team_id": "jerusalem_golden_bobos",
+    "away_team": "Jerusalem Golden Bobos",
+    "home_roster": {
+      "team_id": "vader_gungans",
+      "team_display_name": "Vader Gungans",
+      "team": "Vader Gungans",
+      "team_abbreviation": "VADG",
+      "region": "west",
+      "division": "masters",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Galalendon",
+          "slap_id": "249493"
+        },
+        {
+          "role": "player",
+          "steam_name": "Filip Chytil Stan",
+          "slap_id": "184180"
+        },
+        {
+          "role": "player",
+          "steam_name": "Meenimizer",
+          "slap_id": "439532"
+        },
+        {
+          "role": "player",
+          "steam_name": "Flc",
+          "slap_id": "327512"
+        },
+        {
+          "role": "player",
+          "steam_name": "Kajun",
+          "slap_id": "19508",
+          "jersey_number": "7"
+        }
+      ],
+      "slap_ids": [
+        "249493",
+        "184180",
+        "439532",
+        "327512",
+        "19508"
+      ]
+    },
+    "away_roster": {
+      "team_id": "jerusalem_golden_bobos",
+      "team_display_name": "Jerusalem Golden Bobos",
+      "team": "Jerusalem Golden Bobos",
+      "team_abbreviation": "JGB",
+      "region": "west",
+      "division": "masters",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "Jenediah",
+          "slap_id": "154305",
+          "jersey_number": "52"
+        },
+        {
+          "role": "player",
+          "steam_name": "yackslack",
+          "slap_id": "640761",
+          "jersey_number": "23"
+        },
+        {
+          "role": "player",
+          "steam_name": "X6C",
+          "slap_id": "871020"
+        },
+        {
+          "role": "player",
+          "steam_name": "Oblivion",
+          "slap_id": "1071429"
+        },
+        {
+          "role": "player",
+          "steam_name": "Scruffy",
+          "slap_id": "267559"
+        }
+      ],
+      "slap_ids": [
+        "154305",
+        "640761",
+        "871020",
+        "1071429",
+        "267559"
+      ]
+    }
   }
 }

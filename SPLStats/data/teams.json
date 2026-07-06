@@ -8701,6 +8701,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -28021,30 +28022,30 @@
     ],
     "franchise_id": null,
     "career": {
-      "games_played": 3.0,
-      "goals": 6.0,
-      "assists": 5.0,
-      "points": 11.0,
-      "shots": 8.0,
-      "saves": 16.0,
-      "blocks": 20.0,
-      "faceoffs_won": 4.0,
-      "faceoffs_lost": 15.0,
-      "takeaways": 1.0,
-      "turnovers": 11.0,
+      "games_played": 6.0,
+      "goals": 10.0,
+      "assists": 7.0,
+      "points": 17.0,
+      "shots": 24.0,
+      "saves": 26.0,
+      "blocks": 49.0,
+      "faceoffs_won": 15.0,
+      "faceoffs_lost": 23.0,
+      "takeaways": 11.0,
+      "turnovers": 16.0,
       "post_hits": 3.0,
-      "passes": 38.0,
-      "possession_time_sec": 35.0,
-      "conceded_goals": 30.0,
-      "shots_faced": 46.0,
-      "score": 1995.0,
-      "goals_against": 30.0,
-      "shots_against": 46.0,
-      "faceoffs_total": 19.0,
-      "shot_percent": 75.0,
-      "save_percent": 34.78,
-      "gaa": 10.0,
-      "faceoff_win_percent": 21.05
+      "passes": 73.0,
+      "possession_time_sec": 136.0,
+      "conceded_goals": 69.0,
+      "shots_faced": 95.0,
+      "score": 3750.0,
+      "goals_against": 69.0,
+      "shots_against": 95.0,
+      "faceoffs_total": 38.0,
+      "shot_percent": 41.67,
+      "save_percent": 27.37,
+      "gaa": 11.5,
+      "faceoff_win_percent": 39.47
     },
     "seasons": [
       "Summer 2026"
@@ -28065,30 +28066,68 @@
           "Summer 2026"
         ],
         "stats": {
-          "games_played": 1.0,
-          "goals": 0.0,
-          "assists": 1.0,
-          "points": 1.0,
-          "shots": 1.0,
-          "saves": 12.0,
-          "blocks": 8.0,
-          "faceoffs_won": 2.0,
-          "faceoffs_lost": 9.0,
-          "takeaways": 0.0,
-          "turnovers": 0.0,
+          "games_played": 2.0,
+          "goals": 1.0,
+          "assists": 2.0,
+          "points": 3.0,
+          "shots": 4.0,
+          "saves": 19.0,
+          "blocks": 20.0,
+          "faceoffs_won": 8.0,
+          "faceoffs_lost": 11.0,
+          "takeaways": 3.0,
+          "turnovers": 2.0,
           "post_hits": 1.0,
-          "passes": 8.0,
-          "possession_time_sec": 15.0,
-          "conceded_goals": 10.0,
-          "shots_faced": 22.0,
-          "score": 630.0,
-          "goals_against": 10.0,
-          "shots_against": 22.0,
-          "faceoffs_total": 11.0,
-          "shot_percent": 0.0,
-          "save_percent": 54.55,
-          "gaa": 10.0,
-          "faceoff_win_percent": 18.18
+          "passes": 21.0,
+          "possession_time_sec": 50.0,
+          "conceded_goals": 23.0,
+          "shots_faced": 42.0,
+          "score": 1335.0,
+          "goals_against": 23.0,
+          "shots_against": 42.0,
+          "faceoffs_total": 19.0,
+          "shot_percent": 25.0,
+          "save_percent": 45.24,
+          "gaa": 11.5,
+          "faceoff_win_percent": 42.11
+        }
+      },
+      {
+        "player_id": "flightlessegg",
+        "player_name": "FlightlessEgg",
+        "player_display_name": "FlightlessEgg",
+        "aliases": [
+          "FlightlessEgg"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Summer 2026"
+        ],
+        "stats": {
+          "games_played": 2.0,
+          "goals": 4.0,
+          "assists": 2.0,
+          "points": 6.0,
+          "shots": 6.0,
+          "saves": 2.0,
+          "blocks": 13.0,
+          "faceoffs_won": 2.0,
+          "faceoffs_lost": 8.0,
+          "takeaways": 3.0,
+          "turnovers": 11.0,
+          "post_hits": 1.0,
+          "passes": 25.0,
+          "possession_time_sec": 29.0,
+          "conceded_goals": 23.0,
+          "shots_faced": 25.0,
+          "score": 930.0,
+          "goals_against": 23.0,
+          "shots_against": 25.0,
+          "faceoffs_total": 10.0,
+          "shot_percent": 66.67,
+          "save_percent": 8.0,
+          "gaa": 11.5,
+          "faceoff_win_percent": 20.0
         }
       },
       {
@@ -28130,11 +28169,11 @@
         }
       },
       {
-        "player_id": "flightlessegg",
-        "player_name": "FlightlessEgg",
-        "player_display_name": "FlightlessEgg",
+        "player_id": "s1k",
+        "player_name": "S1K",
+        "player_display_name": "S1K",
         "aliases": [
-          "FlightlessEgg"
+          "S1K"
         ],
         "seasons_played": 1,
         "seasons": [
@@ -28142,29 +28181,29 @@
         ],
         "stats": {
           "games_played": 1.0,
-          "goals": 4.0,
-          "assists": 1.0,
-          "points": 5.0,
-          "shots": 4.0,
-          "saves": 1.0,
-          "blocks": 5.0,
-          "faceoffs_won": 0.0,
-          "faceoffs_lost": 5.0,
-          "takeaways": 1.0,
-          "turnovers": 9.0,
-          "post_hits": 1.0,
-          "passes": 17.0,
-          "possession_time_sec": 16.0,
-          "conceded_goals": 10.0,
-          "shots_faced": 11.0,
-          "score": 660.0,
-          "goals_against": 10.0,
-          "shots_against": 11.0,
-          "faceoffs_total": 5.0,
-          "shot_percent": 100.0,
-          "save_percent": 9.09,
-          "gaa": 10.0,
-          "faceoff_win_percent": 0.0
+          "goals": 3.0,
+          "assists": 0.0,
+          "points": 3.0,
+          "shots": 11.0,
+          "saves": 2.0,
+          "blocks": 9.0,
+          "faceoffs_won": 3.0,
+          "faceoffs_lost": 3.0,
+          "takeaways": 5.0,
+          "turnovers": 1.0,
+          "post_hits": 0.0,
+          "passes": 14.0,
+          "possession_time_sec": 53.0,
+          "conceded_goals": 13.0,
+          "shots_faced": 15.0,
+          "score": 780.0,
+          "goals_against": 13.0,
+          "shots_against": 15.0,
+          "faceoffs_total": 6.0,
+          "shot_percent": 27.27,
+          "save_percent": 13.33,
+          "gaa": 13.0,
+          "faceoff_win_percent": 50.0
         }
       }
     ]
@@ -31011,6 +31050,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 2,
@@ -34398,30 +34438,30 @@
     ],
     "franchise_id": null,
     "career": {
-      "games_played": 4.0,
-      "goals": 6.0,
-      "assists": 8.0,
-      "points": 14.0,
-      "shots": 9.0,
-      "saves": 5.0,
-      "blocks": 24.0,
-      "faceoffs_won": 5.0,
-      "faceoffs_lost": 4.0,
-      "takeaways": 23.0,
-      "turnovers": 18.0,
-      "post_hits": 1.0,
-      "passes": 65.0,
-      "possession_time_sec": 211.0,
-      "conceded_goals": 4.0,
-      "shots_faced": 9.0,
-      "score": 1865.0,
-      "goals_against": 4.0,
-      "shots_against": 9.0,
-      "faceoffs_total": 9.0,
-      "shot_percent": 66.67,
-      "save_percent": 55.56,
-      "gaa": 1.0,
-      "faceoff_win_percent": 55.56
+      "games_played": 7.0,
+      "goals": 9.0,
+      "assists": 11.0,
+      "points": 20.0,
+      "shots": 20.0,
+      "saves": 15.0,
+      "blocks": 40.0,
+      "faceoffs_won": 13.0,
+      "faceoffs_lost": 10.0,
+      "takeaways": 37.0,
+      "turnovers": 32.0,
+      "post_hits": 3.0,
+      "passes": 119.0,
+      "possession_time_sec": 355.0,
+      "conceded_goals": 28.0,
+      "shots_faced": 43.0,
+      "score": 3270.0,
+      "goals_against": 28.0,
+      "shots_against": 43.0,
+      "faceoffs_total": 23.0,
+      "shot_percent": 45.0,
+      "save_percent": 34.88,
+      "gaa": 4.0,
+      "faceoff_win_percent": 56.52
     },
     "seasons": [
       "Summer 2026"
@@ -34442,30 +34482,30 @@
           "Summer 2026"
         ],
         "stats": {
-          "games_played": 1.0,
-          "goals": 1.0,
-          "assists": 0.0,
-          "points": 1.0,
-          "shots": 1.0,
+          "games_played": 2.0,
+          "goals": 2.0,
+          "assists": 2.0,
+          "points": 4.0,
+          "shots": 7.0,
           "saves": 0.0,
-          "blocks": 2.0,
-          "faceoffs_won": 1.0,
-          "faceoffs_lost": 0.0,
-          "takeaways": 2.0,
-          "turnovers": 3.0,
-          "post_hits": 0.0,
-          "passes": 10.0,
-          "possession_time_sec": 12.0,
-          "conceded_goals": 1.0,
-          "shots_faced": 1.0,
-          "score": 160.0,
-          "goals_against": 1.0,
-          "shots_against": 1.0,
-          "faceoffs_total": 1.0,
-          "shot_percent": 100.0,
+          "blocks": 7.0,
+          "faceoffs_won": 4.0,
+          "faceoffs_lost": 3.0,
+          "takeaways": 8.0,
+          "turnovers": 8.0,
+          "post_hits": 2.0,
+          "passes": 30.0,
+          "possession_time_sec": 55.0,
+          "conceded_goals": 9.0,
+          "shots_faced": 9.0,
+          "score": 655.0,
+          "goals_against": 9.0,
+          "shots_against": 9.0,
+          "faceoffs_total": 7.0,
+          "shot_percent": 28.57,
           "save_percent": 0.0,
-          "gaa": 1.0,
-          "faceoff_win_percent": 100.0
+          "gaa": 4.5,
+          "faceoff_win_percent": 57.14
         }
       },
       {
@@ -34480,30 +34520,69 @@
           "Summer 2026"
         ],
         "stats": {
-          "games_played": 1.0,
+          "games_played": 2.0,
           "goals": 1.0,
-          "assists": 2.0,
-          "points": 3.0,
-          "shots": 1.0,
-          "saves": 4.0,
-          "blocks": 14.0,
-          "faceoffs_won": 4.0,
-          "faceoffs_lost": 3.0,
-          "takeaways": 9.0,
-          "turnovers": 6.0,
+          "assists": 3.0,
+          "points": 4.0,
+          "shots": 2.0,
+          "saves": 13.0,
+          "blocks": 20.0,
+          "faceoffs_won": 7.0,
+          "faceoffs_lost": 5.0,
+          "takeaways": 14.0,
+          "turnovers": 7.0,
           "post_hits": 0.0,
-          "passes": 19.0,
-          "possession_time_sec": 111.0,
-          "conceded_goals": 1.0,
-          "shots_faced": 5.0,
-          "score": 590.0,
-          "goals_against": 1.0,
-          "shots_against": 5.0,
-          "faceoffs_total": 7.0,
-          "shot_percent": 100.0,
-          "save_percent": 80.0,
-          "gaa": 1.0,
-          "faceoff_win_percent": 57.14
+          "passes": 33.0,
+          "possession_time_sec": 185.0,
+          "conceded_goals": 9.0,
+          "shots_faced": 22.0,
+          "score": 1085.0,
+          "goals_against": 9.0,
+          "shots_against": 22.0,
+          "faceoffs_total": 12.0,
+          "shot_percent": 50.0,
+          "save_percent": 59.09,
+          "gaa": 4.5,
+          "faceoff_win_percent": 58.33
+        }
+      },
+      {
+        "player_id": "mr_pigeon",
+        "player_name": "Mr. Pigeon",
+        "player_display_name": "Mr. Pigeon",
+        "aliases": [
+          "MR PIGEON",
+          "Mr. Pigeon"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Summer 2026"
+        ],
+        "stats": {
+          "games_played": 2.0,
+          "goals": 5.0,
+          "assists": 3.0,
+          "points": 8.0,
+          "shots": 9.0,
+          "saves": 1.0,
+          "blocks": 9.0,
+          "faceoffs_won": 2.0,
+          "faceoffs_lost": 2.0,
+          "takeaways": 14.0,
+          "turnovers": 12.0,
+          "post_hits": 1.0,
+          "passes": 45.0,
+          "possession_time_sec": 105.0,
+          "conceded_goals": 9.0,
+          "shots_faced": 10.0,
+          "score": 1080.0,
+          "goals_against": 9.0,
+          "shots_against": 10.0,
+          "faceoffs_total": 4.0,
+          "shot_percent": 55.56,
+          "save_percent": 10.0,
+          "gaa": 4.5,
+          "faceoff_win_percent": 50.0
         }
       },
       {
@@ -34542,45 +34621,6 @@
           "save_percent": 50.0,
           "gaa": 1.0,
           "faceoff_win_percent": 0
-        }
-      },
-      {
-        "player_id": "mr_pigeon",
-        "player_name": "Mr. Pigeon",
-        "player_display_name": "Mr. Pigeon",
-        "aliases": [
-          "MR PIGEON",
-          "Mr. Pigeon"
-        ],
-        "seasons_played": 1,
-        "seasons": [
-          "Summer 2026"
-        ],
-        "stats": {
-          "games_played": 1.0,
-          "goals": 3.0,
-          "assists": 3.0,
-          "points": 6.0,
-          "shots": 5.0,
-          "saves": 0.0,
-          "blocks": 4.0,
-          "faceoffs_won": 0.0,
-          "faceoffs_lost": 1.0,
-          "takeaways": 11.0,
-          "turnovers": 4.0,
-          "post_hits": 1.0,
-          "passes": 25.0,
-          "possession_time_sec": 78.0,
-          "conceded_goals": 1.0,
-          "shots_faced": 1.0,
-          "score": 665.0,
-          "goals_against": 1.0,
-          "shots_against": 1.0,
-          "faceoffs_total": 1.0,
-          "shot_percent": 60.0,
-          "save_percent": 0.0,
-          "gaa": 1.0,
-          "faceoff_win_percent": 0.0
         }
       }
     ]
@@ -75810,6 +75850,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 2,
@@ -76873,6 +76914,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -97890,6 +97932,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -99893,6 +99936,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -107992,6 +108036,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 5,
@@ -110533,6 +110578,182 @@
           "save_percent": 14.29,
           "gaa": 7.0,
           "faceoff_win_percent": 0
+        }
+      }
+    ]
+  },
+  {
+    "team_id": "jerusalem_golden_bobos",
+    "team_name": "Jerusalem Golden Bobos",
+    "team_display_name": "Jerusalem Golden Bobos",
+    "team_aliases": [
+      "Jerusalem Golden Bobos"
+    ],
+    "raw_teams": [
+      "Jerusalem Golden Bobos"
+    ],
+    "logo": "",
+    "theme": {
+      "primary": "#ffffff",
+      "secondary": "#111111",
+      "accent": "#ffffff",
+      "background": "#050505",
+      "card": "#111111",
+      "surface": "#1a1a1a"
+    },
+    "name_history": [
+      {
+        "name": "Jerusalem Golden Bobos",
+        "start_season": null,
+        "end_season": null
+      }
+    ],
+    "franchise_id": null,
+    "career": {
+      "games_played": 3.0,
+      "goals": 7.0,
+      "assists": 6.0,
+      "points": 13.0,
+      "shots": 15.0,
+      "saves": 10.0,
+      "blocks": 17.0,
+      "faceoffs_won": 9.0,
+      "faceoffs_lost": 4.0,
+      "takeaways": 21.0,
+      "turnovers": 6.0,
+      "post_hits": 3.0,
+      "passes": 74.0,
+      "possession_time_sec": 212.0,
+      "conceded_goals": 12.0,
+      "shots_faced": 22.0,
+      "score": 2155.0,
+      "goals_against": 12.0,
+      "shots_against": 22.0,
+      "faceoffs_total": 13.0,
+      "shot_percent": 46.67,
+      "save_percent": 45.45,
+      "gaa": 4.0,
+      "faceoff_win_percent": 69.23
+    },
+    "seasons": [
+      "Summer 2026"
+    ],
+    "divisions": [
+      "Masters"
+    ],
+    "players": [
+      {
+        "player_id": "jenediah",
+        "player_name": "Jenediah",
+        "player_display_name": "Jenediah",
+        "aliases": [
+          "Jenediah"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Summer 2026"
+        ],
+        "stats": {
+          "games_played": 1.0,
+          "goals": 3.0,
+          "assists": 2.0,
+          "points": 5.0,
+          "shots": 4.0,
+          "saves": 6.0,
+          "blocks": 10.0,
+          "faceoffs_won": 4.0,
+          "faceoffs_lost": 4.0,
+          "takeaways": 12.0,
+          "turnovers": 4.0,
+          "post_hits": 0.0,
+          "passes": 27.0,
+          "possession_time_sec": 115.0,
+          "conceded_goals": 4.0,
+          "shots_faced": 10.0,
+          "score": 920.0,
+          "goals_against": 4.0,
+          "shots_against": 10.0,
+          "faceoffs_total": 8.0,
+          "shot_percent": 75.0,
+          "save_percent": 60.0,
+          "gaa": 4.0,
+          "faceoff_win_percent": 50.0
+        }
+      },
+      {
+        "player_id": "scruffy",
+        "player_name": "Scruffy",
+        "player_display_name": "Scruffy",
+        "aliases": [
+          "Scruffy"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Summer 2026"
+        ],
+        "stats": {
+          "games_played": 1.0,
+          "goals": 2.0,
+          "assists": 1.0,
+          "points": 3.0,
+          "shots": 8.0,
+          "saves": 0.0,
+          "blocks": 4.0,
+          "faceoffs_won": 2.0,
+          "faceoffs_lost": 0.0,
+          "takeaways": 5.0,
+          "turnovers": 2.0,
+          "post_hits": 3.0,
+          "passes": 27.0,
+          "possession_time_sec": 64.0,
+          "conceded_goals": 4.0,
+          "shots_faced": 4.0,
+          "score": 520.0,
+          "goals_against": 4.0,
+          "shots_against": 4.0,
+          "faceoffs_total": 2.0,
+          "shot_percent": 25.0,
+          "save_percent": 0.0,
+          "gaa": 4.0,
+          "faceoff_win_percent": 100.0
+        }
+      },
+      {
+        "player_id": "x6c",
+        "player_name": "X6C-",
+        "player_display_name": "X6C-",
+        "aliases": [
+          "X6C-"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Summer 2026"
+        ],
+        "stats": {
+          "games_played": 1.0,
+          "goals": 2.0,
+          "assists": 3.0,
+          "points": 5.0,
+          "shots": 3.0,
+          "saves": 4.0,
+          "blocks": 3.0,
+          "faceoffs_won": 3.0,
+          "faceoffs_lost": 0.0,
+          "takeaways": 4.0,
+          "turnovers": 0.0,
+          "post_hits": 0.0,
+          "passes": 20.0,
+          "possession_time_sec": 33.0,
+          "conceded_goals": 4.0,
+          "shots_faced": 8.0,
+          "score": 715.0,
+          "goals_against": 4.0,
+          "shots_against": 8.0,
+          "faceoffs_total": 3.0,
+          "shot_percent": 66.67,
+          "save_percent": 50.0,
+          "gaa": 4.0,
+          "faceoff_win_percent": 100.0
         }
       }
     ]
@@ -113981,6 +114202,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -124332,6 +124554,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -134912,6 +135135,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 2,
@@ -140239,6 +140463,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -146508,6 +146733,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -147624,6 +147850,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -159836,6 +160063,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -163499,6 +163727,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -164084,6 +164313,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -172862,6 +173092,7 @@
       "Ottawa Valley Post Dingers"
     ],
     "raw_teams": [
+      "Ottawa Valley Post Dingers",
       "Ottawa Valley Post Dingers (OVPD)"
     ],
     "logo": "assets/images/teams/ottawa_valley_post_dingers.png",
@@ -172882,30 +173113,33 @@
     ],
     "franchise_id": null,
     "career": {
-      "assists": 644.0,
-      "blocks": 2088.0,
-      "faceoffs_lost": 796.0,
-      "faceoffs_won": 895.0,
-      "goals": 789.0,
-      "passes": 6425.0,
+      "assists": 651.0,
+      "blocks": 2109.0,
+      "faceoffs_lost": 804.0,
+      "faceoffs_won": 901.0,
+      "goals": 797.0,
+      "passes": 6493.0,
       "periods_played": 1074.0,
-      "points": 1433.0,
-      "possession_time_sec": 15939.0,
-      "post_hits": 335.0,
+      "points": 1448.0,
+      "possession_time_sec": 16063.0,
+      "post_hits": 338.0,
       "primary_assists": 519.0,
-      "saves": 782.0,
+      "saves": 790.0,
       "secondary_assists": 125.0,
-      "shots": 1634.0,
-      "takeaways": 1370.0,
-      "turnovers": 1192.0,
-      "goals_against": 2201.0,
-      "shots_against": 4892.0,
-      "games_played": 413.0,
-      "faceoffs_total": 1691.0,
-      "shot_percent": 48.29,
-      "save_percent": 15.99,
-      "gaa": 5.33,
-      "faceoff_win_percent": 52.93
+      "shots": 1652.0,
+      "takeaways": 1384.0,
+      "turnovers": 1206.0,
+      "goals_against": 2210.0,
+      "shots_against": 4909.0,
+      "games_played": 416.0,
+      "faceoffs_total": 1705.0,
+      "conceded_goals": 9.0,
+      "shots_faced": 17.0,
+      "score": 2305.0,
+      "shot_percent": 48.24,
+      "save_percent": 16.09,
+      "gaa": 5.31,
+      "faceoff_win_percent": 52.84
     },
     "seasons": [
       "Fall 2024",
@@ -172914,9 +173148,11 @@
       "Spring 2026",
       "Summer 2024",
       "Summer 2025",
+      "Summer 2026",
       "Winter 2025"
     ],
     "divisions": [
+      "Challenger",
       "Challenger Cross-Conf",
       "Challenger Division - M1NNSNOWTA",
       "Genesis Cup - Playoffs",
@@ -173368,35 +173604,39 @@
         "aliases": [
           "Oblivion"
         ],
-        "seasons_played": 1,
+        "seasons_played": 2,
         "seasons": [
-          "Spring 2026"
+          "Spring 2026",
+          "Summer 2026"
         ],
         "stats": {
-          "assists": 26.0,
-          "blocks": 88.0,
-          "faceoffs_lost": 25.0,
-          "faceoffs_won": 17.0,
-          "goals": 7.0,
-          "passes": 143.0,
+          "assists": 30.0,
+          "blocks": 98.0,
+          "faceoffs_lost": 28.0,
+          "faceoffs_won": 18.0,
+          "goals": 8.0,
+          "passes": 157.0,
           "periods_played": 29.0,
-          "points": 33.0,
-          "possession_time_sec": 729.0,
+          "points": 38.0,
+          "possession_time_sec": 813.0,
           "post_hits": 2.0,
           "primary_assists": 12.0,
-          "saves": 85.0,
+          "saves": 89.0,
           "secondary_assists": 14.0,
-          "shots": 16.0,
-          "takeaways": 51.0,
-          "turnovers": 44.0,
-          "goals_against": 90.0,
-          "shots_against": 189.0,
-          "games_played": 10.0,
-          "faceoffs_total": 42.0,
-          "shot_percent": 43.75,
-          "save_percent": 44.97,
-          "gaa": 9.0,
-          "faceoff_win_percent": 40.48
+          "shots": 18.0,
+          "takeaways": 61.0,
+          "turnovers": 45.0,
+          "goals_against": 93.0,
+          "shots_against": 196.0,
+          "games_played": 11.0,
+          "faceoffs_total": 46.0,
+          "conceded_goals": 3.0,
+          "shots_faced": 7.0,
+          "score": 680.0,
+          "shot_percent": 44.44,
+          "save_percent": 45.41,
+          "gaa": 8.45,
+          "faceoff_win_percent": 39.13
         }
       },
       {
@@ -173436,6 +173676,49 @@
           "save_percent": 14.29,
           "gaa": 3.33,
           "faceoff_win_percent": 63.89
+        }
+      },
+      {
+        "player_id": "dave",
+        "player_name": "dave",
+        "player_display_name": "dave",
+        "aliases": [
+          "Dave.",
+          "dave"
+        ],
+        "seasons_played": 2,
+        "seasons": [
+          "Spring 2026",
+          "Summer 2026"
+        ],
+        "stats": {
+          "assists": 15.0,
+          "blocks": 28.0,
+          "faceoffs_lost": 26.0,
+          "faceoffs_won": 17.0,
+          "goals": 23.0,
+          "passes": 164.0,
+          "periods_played": 18.0,
+          "points": 38.0,
+          "possession_time_sec": 115.0,
+          "post_hits": 11.0,
+          "primary_assists": 12.0,
+          "saves": 13.0,
+          "secondary_assists": 2.0,
+          "shots": 40.0,
+          "takeaways": 10.0,
+          "turnovers": 29.0,
+          "goals_against": 53.0,
+          "shots_against": 120.0,
+          "games_played": 7.0,
+          "faceoffs_total": 43.0,
+          "conceded_goals": 3.0,
+          "shots_faced": 6.0,
+          "score": 745.0,
+          "shot_percent": 57.5,
+          "save_percent": 10.83,
+          "gaa": 7.57,
+          "faceoff_win_percent": 39.53
         }
       },
       {
@@ -173551,44 +173834,6 @@
           "save_percent": 8.53,
           "gaa": 8.29,
           "faceoff_win_percent": 32.14
-        }
-      },
-      {
-        "player_id": "dave",
-        "player_name": "dave",
-        "player_display_name": "dave",
-        "aliases": [
-          "dave"
-        ],
-        "seasons_played": 1,
-        "seasons": [
-          "Spring 2026"
-        ],
-        "stats": {
-          "assists": 14.0,
-          "blocks": 26.0,
-          "faceoffs_lost": 23.0,
-          "faceoffs_won": 14.0,
-          "goals": 20.0,
-          "passes": 138.0,
-          "periods_played": 18.0,
-          "points": 34.0,
-          "possession_time_sec": 99.0,
-          "post_hits": 10.0,
-          "primary_assists": 12.0,
-          "saves": 10.0,
-          "secondary_assists": 2.0,
-          "shots": 32.0,
-          "takeaways": 9.0,
-          "turnovers": 21.0,
-          "goals_against": 50.0,
-          "shots_against": 114.0,
-          "games_played": 6.0,
-          "faceoffs_total": 37.0,
-          "shot_percent": 62.5,
-          "save_percent": 8.77,
-          "gaa": 8.33,
-          "faceoff_win_percent": 37.84
         }
       },
       {
@@ -173893,6 +174138,44 @@
           "save_percent": 4.76,
           "gaa": 9.0,
           "faceoff_win_percent": 0.0
+        }
+      },
+      {
+        "player_id": "walitooo",
+        "player_name": "walitooo",
+        "player_display_name": "walitooo",
+        "aliases": [
+          "walitooo"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Summer 2026"
+        ],
+        "stats": {
+          "games_played": 1.0,
+          "goals": 4.0,
+          "assists": 2.0,
+          "points": 6.0,
+          "shots": 8.0,
+          "saves": 1.0,
+          "blocks": 9.0,
+          "faceoffs_won": 2.0,
+          "faceoffs_lost": 2.0,
+          "takeaways": 3.0,
+          "turnovers": 5.0,
+          "post_hits": 2.0,
+          "passes": 28.0,
+          "possession_time_sec": 24.0,
+          "conceded_goals": 3.0,
+          "shots_faced": 4.0,
+          "score": 880.0,
+          "goals_against": 3.0,
+          "shots_against": 4.0,
+          "faceoffs_total": 4.0,
+          "shot_percent": 50.0,
+          "save_percent": 25.0,
+          "gaa": 3.0,
+          "faceoff_win_percent": 50.0
         }
       },
       {
@@ -175139,6 +175422,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -183719,6 +184003,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -193419,6 +193704,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -219168,6 +219454,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 2,
@@ -222417,6 +222704,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -229798,6 +230086,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
@@ -235667,33 +235956,33 @@
     ],
     "franchise_id": null,
     "career": {
-      "assists": 228.0,
-      "blocks": 1123.0,
-      "faceoffs_lost": 327.0,
-      "faceoffs_won": 285.0,
-      "goals": 290.0,
-      "passes": 2642.0,
+      "assists": 238.0,
+      "blocks": 1138.0,
+      "faceoffs_lost": 338.0,
+      "faceoffs_won": 293.0,
+      "goals": 303.0,
+      "passes": 2691.0,
       "periods_played": 387.0,
-      "points": 518.0,
-      "possession_time_sec": 3877.0,
-      "post_hits": 108.0,
+      "points": 541.0,
+      "possession_time_sec": 3940.0,
+      "post_hits": 114.0,
       "primary_assists": 184.0,
-      "saves": 337.0,
+      "saves": 349.0,
       "secondary_assists": 39.0,
-      "shots": 566.0,
-      "takeaways": 377.0,
-      "turnovers": 530.0,
-      "goals_against": 687.0,
-      "shots_against": 1755.0,
-      "games_played": 144.0,
-      "faceoffs_total": 612.0,
-      "conceded_goals": 18.0,
-      "shots_faced": 33.0,
-      "score": 3635.0,
-      "shot_percent": 51.24,
-      "save_percent": 19.2,
-      "gaa": 4.77,
-      "faceoff_win_percent": 46.57
+      "shots": 589.0,
+      "takeaways": 382.0,
+      "turnovers": 540.0,
+      "goals_against": 699.0,
+      "shots_against": 1779.0,
+      "games_played": 147.0,
+      "faceoffs_total": 631.0,
+      "conceded_goals": 30.0,
+      "shots_faced": 57.0,
+      "score": 6900.0,
+      "shot_percent": 51.44,
+      "save_percent": 19.62,
+      "gaa": 4.76,
+      "faceoff_win_percent": 46.43
     },
     "seasons": [
       "Spring 2026",
@@ -235723,33 +236012,33 @@
           "Winter 2026"
         ],
         "stats": {
-          "assists": 75.0,
-          "blocks": 435.0,
-          "faceoffs_lost": 100.0,
-          "faceoffs_won": 70.0,
-          "goals": 73.0,
-          "passes": 719.0,
+          "assists": 78.0,
+          "blocks": 444.0,
+          "faceoffs_lost": 103.0,
+          "faceoffs_won": 74.0,
+          "goals": 77.0,
+          "passes": 735.0,
           "periods_played": 109.0,
-          "points": 148.0,
-          "possession_time_sec": 892.0,
-          "post_hits": 25.0,
+          "points": 155.0,
+          "possession_time_sec": 908.0,
+          "post_hits": 29.0,
           "primary_assists": 60.0,
-          "saves": 157.0,
+          "saves": 167.0,
           "secondary_assists": 13.0,
-          "shots": 145.0,
-          "takeaways": 60.0,
-          "turnovers": 159.0,
-          "goals_against": 186.0,
-          "shots_against": 477.0,
-          "games_played": 39.0,
-          "faceoffs_total": 170.0,
-          "conceded_goals": 6.0,
-          "shots_faced": 12.0,
-          "score": 1590.0,
-          "shot_percent": 50.34,
-          "save_percent": 32.91,
-          "gaa": 4.77,
-          "faceoff_win_percent": 41.18
+          "shots": 156.0,
+          "takeaways": 62.0,
+          "turnovers": 163.0,
+          "goals_against": 190.0,
+          "shots_against": 491.0,
+          "games_played": 40.0,
+          "faceoffs_total": 177.0,
+          "conceded_goals": 10.0,
+          "shots_faced": 26.0,
+          "score": 2965.0,
+          "shot_percent": 49.36,
+          "save_percent": 34.01,
+          "gaa": 4.75,
+          "faceoff_win_percent": 41.81
         }
       },
       {
@@ -235766,33 +236055,33 @@
           "Winter 2026"
         ],
         "stats": {
-          "assists": 65.0,
-          "blocks": 284.0,
-          "faceoffs_lost": 89.0,
-          "faceoffs_won": 91.0,
-          "goals": 118.0,
-          "passes": 882.0,
+          "assists": 70.0,
+          "blocks": 287.0,
+          "faceoffs_lost": 93.0,
+          "faceoffs_won": 93.0,
+          "goals": 123.0,
+          "passes": 900.0,
           "periods_played": 105.0,
-          "points": 183.0,
-          "possession_time_sec": 1552.0,
+          "points": 193.0,
+          "possession_time_sec": 1588.0,
           "post_hits": 48.0,
           "primary_assists": 55.0,
           "saves": 33.0,
           "secondary_assists": 8.0,
-          "shots": 233.0,
-          "takeaways": 167.0,
-          "turnovers": 188.0,
-          "goals_against": 191.0,
-          "shots_against": 477.0,
-          "games_played": 38.0,
-          "faceoffs_total": 180.0,
-          "conceded_goals": 6.0,
-          "shots_faced": 9.0,
-          "score": 1170.0,
-          "shot_percent": 50.64,
-          "save_percent": 6.92,
-          "gaa": 5.03,
-          "faceoff_win_percent": 50.56
+          "shots": 239.0,
+          "takeaways": 170.0,
+          "turnovers": 191.0,
+          "goals_against": 195.0,
+          "shots_against": 481.0,
+          "games_played": 39.0,
+          "faceoffs_total": 186.0,
+          "conceded_goals": 10.0,
+          "shots_faced": 13.0,
+          "score": 2230.0,
+          "shot_percent": 51.46,
+          "save_percent": 6.86,
+          "gaa": 5.0,
+          "faceoff_win_percent": 50.0
         }
       },
       {
@@ -235809,33 +236098,33 @@
           "Winter 2026"
         ],
         "stats": {
-          "assists": 36.0,
-          "blocks": 162.0,
-          "faceoffs_lost": 75.0,
-          "faceoffs_won": 50.0,
-          "goals": 41.0,
-          "passes": 463.0,
+          "assists": 38.0,
+          "blocks": 165.0,
+          "faceoffs_lost": 79.0,
+          "faceoffs_won": 52.0,
+          "goals": 45.0,
+          "passes": 478.0,
           "periods_played": 73.0,
-          "points": 77.0,
-          "possession_time_sec": 319.0,
-          "post_hits": 11.0,
+          "points": 83.0,
+          "possession_time_sec": 330.0,
+          "post_hits": 13.0,
           "primary_assists": 26.0,
-          "saves": 91.0,
+          "saves": 93.0,
           "secondary_assists": 9.0,
-          "shots": 79.0,
+          "shots": 85.0,
           "takeaways": 21.0,
-          "turnovers": 77.0,
-          "goals_against": 135.0,
-          "shots_against": 356.0,
-          "games_played": 28.0,
-          "faceoffs_total": 125.0,
-          "conceded_goals": 6.0,
-          "shots_faced": 12.0,
-          "score": 875.0,
-          "shot_percent": 51.9,
-          "save_percent": 25.56,
-          "gaa": 4.82,
-          "faceoff_win_percent": 40.0
+          "turnovers": 80.0,
+          "goals_against": 139.0,
+          "shots_against": 362.0,
+          "games_played": 29.0,
+          "faceoffs_total": 131.0,
+          "conceded_goals": 10.0,
+          "shots_faced": 18.0,
+          "score": 1705.0,
+          "shot_percent": 52.94,
+          "save_percent": 25.69,
+          "gaa": 4.79,
+          "faceoff_win_percent": 39.69
         }
       },
       {
@@ -240171,33 +240460,33 @@
     ],
     "franchise_id": null,
     "career": {
-      "games_played": 127.0,
-      "goals": 200.0,
-      "assists": 143.0,
-      "points": 343.0,
-      "shots": 399.0,
-      "saves": 416.0,
-      "blocks": 742.0,
-      "faceoffs_won": 223.0,
-      "faceoffs_lost": 338.0,
-      "takeaways": 348.0,
-      "turnovers": 577.0,
-      "post_hits": 85.0,
-      "passes": 1738.0,
-      "possession_time_sec": 3479.0,
-      "conceded_goals": 40.0,
-      "shots_faced": 48.0,
-      "score": 2075.0,
-      "goals_against": 950.0,
-      "shots_against": 2293.0,
-      "faceoffs_total": 561.0,
+      "games_played": 130.0,
+      "goals": 204.0,
+      "assists": 147.0,
+      "points": 351.0,
+      "shots": 413.0,
+      "saves": 424.0,
+      "blocks": 759.0,
+      "faceoffs_won": 227.0,
+      "faceoffs_lost": 347.0,
+      "takeaways": 354.0,
+      "turnovers": 598.0,
+      "post_hits": 87.0,
+      "passes": 1791.0,
+      "possession_time_sec": 3573.0,
+      "conceded_goals": 61.0,
+      "shots_faced": 77.0,
+      "score": 3610.0,
+      "goals_against": 971.0,
+      "shots_against": 2322.0,
+      "faceoffs_total": 574.0,
       "periods_played": 318.0,
       "primary_assists": 111.0,
       "secondary_assists": 26.0,
-      "shot_percent": 50.13,
-      "save_percent": 18.14,
-      "gaa": 7.48,
-      "faceoff_win_percent": 39.75
+      "shot_percent": 49.39,
+      "save_percent": 18.26,
+      "gaa": 7.47,
+      "faceoff_win_percent": 39.55
     },
     "seasons": [
       "Fall 2025",
@@ -240228,33 +240517,33 @@
           "Winter 2026"
         ],
         "stats": {
-          "assists": 46.0,
-          "blocks": 223.0,
-          "faceoffs_lost": 96.0,
-          "faceoffs_won": 69.0,
-          "goals": 47.0,
-          "passes": 482.0,
+          "assists": 47.0,
+          "blocks": 230.0,
+          "faceoffs_lost": 99.0,
+          "faceoffs_won": 71.0,
+          "goals": 48.0,
+          "passes": 501.0,
           "periods_played": 87.0,
-          "points": 93.0,
-          "possession_time_sec": 1071.0,
+          "points": 95.0,
+          "possession_time_sec": 1114.0,
           "post_hits": 22.0,
           "primary_assists": 37.0,
-          "saves": 215.0,
+          "saves": 221.0,
           "secondary_assists": 6.0,
-          "shots": 102.0,
-          "takeaways": 108.0,
-          "turnovers": 161.0,
-          "goals_against": 262.0,
-          "shots_against": 643.0,
-          "games_played": 33.0,
-          "faceoffs_total": 165.0,
-          "conceded_goals": 8.0,
-          "shots_faced": 13.0,
-          "score": 870.0,
-          "shot_percent": 46.08,
-          "save_percent": 33.44,
-          "gaa": 7.94,
-          "faceoff_win_percent": 41.82
+          "shots": 107.0,
+          "takeaways": 112.0,
+          "turnovers": 166.0,
+          "goals_against": 269.0,
+          "shots_against": 656.0,
+          "games_played": 34.0,
+          "faceoffs_total": 170.0,
+          "conceded_goals": 15.0,
+          "shots_faced": 26.0,
+          "score": 1480.0,
+          "shot_percent": 44.86,
+          "save_percent": 33.69,
+          "gaa": 7.91,
+          "faceoff_win_percent": 41.76
         }
       },
       {
@@ -240359,33 +240648,33 @@
           "Winter 2026"
         ],
         "stats": {
-          "assists": 26.0,
-          "blocks": 100.0,
-          "faceoffs_lost": 58.0,
+          "assists": 27.0,
+          "blocks": 105.0,
+          "faceoffs_lost": 61.0,
           "faceoffs_won": 28.0,
-          "goals": 51.0,
-          "passes": 304.0,
+          "goals": 52.0,
+          "passes": 319.0,
           "periods_played": 47.0,
-          "points": 77.0,
-          "possession_time_sec": 433.0,
+          "points": 79.0,
+          "possession_time_sec": 454.0,
           "post_hits": 20.0,
           "primary_assists": 22.0,
           "saves": 21.0,
           "secondary_assists": 3.0,
-          "shots": 83.0,
+          "shots": 86.0,
           "takeaways": 57.0,
-          "turnovers": 83.0,
-          "goals_against": 112.0,
-          "shots_against": 268.0,
-          "games_played": 20.0,
-          "faceoffs_total": 86.0,
-          "conceded_goals": 8.0,
-          "shots_faced": 8.0,
-          "score": 100.0,
-          "shot_percent": 61.45,
-          "save_percent": 7.84,
-          "gaa": 5.6,
-          "faceoff_win_percent": 32.56
+          "turnovers": 88.0,
+          "goals_against": 119.0,
+          "shots_against": 275.0,
+          "games_played": 21.0,
+          "faceoffs_total": 89.0,
+          "conceded_goals": 15.0,
+          "shots_faced": 15.0,
+          "score": 375.0,
+          "shot_percent": 60.47,
+          "save_percent": 7.64,
+          "gaa": 5.67,
+          "faceoff_win_percent": 31.46
         }
       },
       {
@@ -240504,6 +240793,44 @@
         }
       },
       {
+        "player_id": "kajun",
+        "player_name": "Kajun",
+        "player_display_name": "Kajun",
+        "aliases": [
+          "Kajun"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Summer 2026"
+        ],
+        "stats": {
+          "games_played": 2.0,
+          "goals": 4.0,
+          "assists": 2.0,
+          "points": 6.0,
+          "shots": 11.0,
+          "saves": 4.0,
+          "blocks": 8.0,
+          "faceoffs_won": 3.0,
+          "faceoffs_lost": 3.0,
+          "takeaways": 3.0,
+          "turnovers": 13.0,
+          "post_hits": 3.0,
+          "passes": 27.0,
+          "possession_time_sec": 73.0,
+          "conceded_goals": 15.0,
+          "shots_faced": 19.0,
+          "score": 1090.0,
+          "goals_against": 15.0,
+          "shots_against": 19.0,
+          "faceoffs_total": 6.0,
+          "shot_percent": 36.36,
+          "save_percent": 21.05,
+          "gaa": 7.5,
+          "faceoff_win_percent": 50.0
+        }
+      },
+      {
         "player_id": "rat",
         "player_name": "Rat",
         "player_display_name": "Rat",
@@ -240578,44 +240905,6 @@
           "save_percent": 19.51,
           "gaa": 11.0,
           "faceoff_win_percent": 16.67
-        }
-      },
-      {
-        "player_id": "kajun",
-        "player_name": "Kajun",
-        "player_display_name": "Kajun",
-        "aliases": [
-          "Kajun"
-        ],
-        "seasons_played": 1,
-        "seasons": [
-          "Summer 2026"
-        ],
-        "stats": {
-          "games_played": 1.0,
-          "goals": 2.0,
-          "assists": 0.0,
-          "points": 2.0,
-          "shots": 5.0,
-          "saves": 2.0,
-          "blocks": 3.0,
-          "faceoffs_won": 1.0,
-          "faceoffs_lost": 0.0,
-          "takeaways": 1.0,
-          "turnovers": 2.0,
-          "post_hits": 1.0,
-          "passes": 8.0,
-          "possession_time_sec": 43.0,
-          "conceded_goals": 8.0,
-          "shots_faced": 10.0,
-          "score": 440.0,
-          "goals_against": 8.0,
-          "shots_against": 10.0,
-          "faceoffs_total": 1.0,
-          "shot_percent": 40.0,
-          "save_percent": 20.0,
-          "gaa": 8.0,
-          "faceoff_win_percent": 100.0
         }
       }
     ]
@@ -245781,6 +246070,44 @@
         }
       },
       {
+        "player_id": "xrevision",
+        "player_name": "xRevision",
+        "player_display_name": "xRevision",
+        "aliases": [
+          "xRevision"
+        ],
+        "seasons_played": 1,
+        "seasons": [
+          "Spring 2026"
+        ],
+        "stats": {
+          "assists": 3.0,
+          "blocks": 13.0,
+          "faceoffs_lost": 8.0,
+          "faceoffs_won": 3.0,
+          "goals": 3.0,
+          "passes": 22.0,
+          "periods_played": 5.0,
+          "points": 6.0,
+          "possession_time_sec": 25.0,
+          "post_hits": 2.0,
+          "primary_assists": 3.0,
+          "saves": 4.0,
+          "secondary_assists": 0.0,
+          "shots": 5.0,
+          "takeaways": 1.0,
+          "turnovers": 6.0,
+          "goals_against": 16.0,
+          "shots_against": 38.0,
+          "games_played": 2.0,
+          "faceoffs_total": 11.0,
+          "shot_percent": 60.0,
+          "save_percent": 10.53,
+          "gaa": 8.0,
+          "faceoff_win_percent": 27.27
+        }
+      },
+      {
         "player_id": "papi_tef",
         "player_name": "papi tef",
         "player_display_name": "papi tef",
@@ -245817,44 +246144,6 @@
           "save_percent": 46.67,
           "gaa": 8.0,
           "faceoff_win_percent": 9.09
-        }
-      },
-      {
-        "player_id": "xrevision",
-        "player_name": "xRevision",
-        "player_display_name": "xRevision",
-        "aliases": [
-          "xRevision"
-        ],
-        "seasons_played": 1,
-        "seasons": [
-          "Spring 2026"
-        ],
-        "stats": {
-          "assists": 3.0,
-          "blocks": 13.0,
-          "faceoffs_lost": 8.0,
-          "faceoffs_won": 3.0,
-          "goals": 3.0,
-          "passes": 22.0,
-          "periods_played": 5.0,
-          "points": 6.0,
-          "possession_time_sec": 25.0,
-          "post_hits": 2.0,
-          "primary_assists": 3.0,
-          "saves": 4.0,
-          "secondary_assists": 0.0,
-          "shots": 5.0,
-          "takeaways": 1.0,
-          "turnovers": 6.0,
-          "goals_against": 16.0,
-          "shots_against": 38.0,
-          "games_played": 2.0,
-          "faceoffs_total": 11.0,
-          "shot_percent": 60.0,
-          "save_percent": 10.53,
-          "gaa": 8.0,
-          "faceoff_win_percent": 27.27
         }
       },
       {
@@ -263010,6 +263299,7 @@
         "player_name": "dave",
         "player_display_name": "dave",
         "aliases": [
+          "Dave.",
           "dave"
         ],
         "seasons_played": 1,
