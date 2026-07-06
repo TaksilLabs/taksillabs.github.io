@@ -2,6 +2,45 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-06_boston_shufflebottoms_roster_moves",
+      "transaction_ids": [
+        "20260706T040521Z_boston_shufflebottoms_remove_s1k"
+      ],
+      "transaction_id": "20260706T040521Z_boston_shufflebottoms_remove_s1k",
+      "status": "published",
+      "created_at_utc": "2026-07-06T04:05:21Z",
+      "updated_at_utc": "2026-07-06T04:18:10.503Z",
+      "headline": "Boston Shufflebottoms Remove S1K",
+      "subheadline": "The Boston Shufflebottoms have removed S1K from their active roster.",
+      "slug": "boston-shufflebottoms-remove-s1k",
+      "team_id": "boston_shufflebottoms",
+      "team_abbreviation": "BSB",
+      "team_display_name": "Boston Shufflebottoms",
+      "division": "central_c",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "remove",
+          "player_id": "s1k",
+          "player_display_name": "S1K",
+          "slap_id": "1412382",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "boston_shufflebottoms",
+        "central_c"
+      ],
+      "body_markdown": "After the front office meeting tonight the Boston Shufflebottoms have made the decision to part ways with S1K.\n\nAs S1K's tryout contract came to a close this week the President of Hockey Operations in Boston decided it was in the organization's best interest to not renew it.\n\n\"To boil it down to the fundamentals: He just didn't fit into our system. We here at Boston look for a team player that can uplift their teammates in the locker room. And we didn't find that with S1K.\"\n#color:#b71e3b\n- Boston Front Office\n\nThe Boston organization will be re-evaluating their scouts and hope to move forward with their season with their best foot forward.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-06_camrose_cats_roster_moves",
       "transaction_ids": [
         "20260706T030112Z_camrose_cats_remove_chausie"
@@ -1033,5 +1072,5 @@
       "last_edited_by": ""
     }
   ],
-  "updated_at_utc": "2026-07-06T01:06:20Z"
+  "updated_at_utc": "2026-07-06T04:18:11Z"
 }

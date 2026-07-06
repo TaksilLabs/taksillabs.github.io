@@ -2,6 +2,23 @@
   "season_id": "summer_2026",
   "transactions": [
     {
+      "transaction_id": "20260706T040521Z_boston_shufflebottoms_remove_s1k",
+      "created_at_utc": "2026-07-06T04:05:21Z",
+      "type": "remove",
+      "team_id": "boston_shufflebottoms",
+      "team_abbreviation": "BSB",
+      "team_display_name": "Boston Shufflebottoms",
+      "division": "central_c",
+      "region": "central",
+      "conference": "",
+      "player_id": "s1k",
+      "player_display_name": "S1K",
+      "slap_id": "1412382",
+      "jersey_number": "",
+      "previous_jersey_number": "",
+      "source": "active_roster_editor"
+    },
+    {
       "transaction_id": "20260706T030112Z_camrose_cats_remove_chausie",
       "created_at_utc": "2026-07-06T03:01:12Z",
       "type": "remove",
