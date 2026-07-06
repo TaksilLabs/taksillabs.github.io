@@ -2,6 +2,170 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-06_ottawa_valley_post_dingers_roster_moves",
+      "transaction_ids": [
+        "20260706T005312Z_ottawa_valley_post_dingers_add_jak"
+      ],
+      "transaction_id": "20260706T005312Z_ottawa_valley_post_dingers_add_jak",
+      "status": "published",
+      "created_at_utc": "2026-07-06T00:53:12Z",
+      "updated_at_utc": "2026-07-06T01:06:19.715Z",
+      "headline": "Ottawa Valley Post Dingers Add Jak",
+      "subheadline": "The Ottawa Valley Post Dingers have added Jak to their active roster.",
+      "slug": "ottawa-valley-post-dingers-add-jak",
+      "team_id": "ottawa_valley_post_dingers",
+      "team_abbreviation": "OVPD",
+      "team_display_name": "Ottawa Valley Post Dingers",
+      "division": "challenger",
+      "region": "east",
+      "conference": "1",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "jak",
+          "player_display_name": "Jak",
+          "slap_id": "163",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "ottawa_valley_post_dingers",
+        "challenger"
+      ],
+      "body_markdown": "The Ottawa Valley Post Dingers have signed Jak to a two-way 1 season deal valued at 2.3M Puxs. This addition provides the Ottawa Valley Post Dingers much sought after stability in terms of man-power for the season ahead.\n\n\"gotta have the roster full at all times now, can’t afford another FF.\"\n#color:#ff7000\n- Team Captain Dave\n\nJak hasn't played in a starting position since the Spring 2022, Ireland Pepe Tactics. But the team captain is as sure as ever that Jak will answer if the signal calls. Dave stated that he was officially \"Yanking him out of retirement.\" and that he's excited to see what he can bring to the team.\n\nJak is a man of honor, integrity, and tenacity. The league never forgets the moment he stepped on the ice during Season 1's finals against the Clappers. He wasn't shaken, he wasn't scared, he was poised, he was ready, he was excited. He stared down the barrel of Slapshot's first king and said \"Bring it on.\" That's exactly the man every team dreams of having.\n\nThe SPL will watch earnestly at the return of one of Slapshot's Legends.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-06_atlanta_aces_roster_moves",
+      "transaction_ids": [
+        "20260706T005248Z_atlanta_aces_add_nonodagoat"
+      ],
+      "transaction_id": "20260706T005248Z_atlanta_aces_add_nonodagoat",
+      "status": "draft",
+      "created_at_utc": "2026-07-06T00:52:48Z",
+      "updated_at_utc": "2026-07-06T00:52:48Z",
+      "headline": "Atlanta Aces Add NoNoDaGoat",
+      "subheadline": "The Atlanta Aces have added NoNoDaGoat to their active roster.",
+      "slug": "atlanta-aces-add-nonodagoat",
+      "team_id": "atlanta_aces",
+      "team_abbreviation": "Atl",
+      "team_display_name": "Atlanta Aces",
+      "division": "open",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "nonodagoat",
+          "player_display_name": "NoNoDaGoat",
+          "slap_id": "700861",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "atlanta_aces",
+        "open"
+      ],
+      "body_markdown": "The Atlanta Aces have added NoNoDaGoat to their active roster adding another card to their deck.\n\nThe move gives the Atlanta Aces another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-06_atlantic_city_zootiez_roster_moves",
+      "transaction_ids": [
+        "20260706T004755Z_atlantic_city_zootiez_add_chief",
+        "20260706T004755Z_atlantic_city_zootiez_remove_unknown"
+      ],
+      "transaction_id": "",
+      "status": "draft",
+      "created_at_utc": "2026-07-06T00:47:55Z",
+      "updated_at_utc": "2026-07-06T00:47:55Z",
+      "headline": "Atlantic City Zootiez$ Make Roster Moves",
+      "subheadline": "The Zootiez$ have added Chief and removed >:) from their active roster.",
+      "slug": "atlantic-city-zootiezs-make-roster-moves",
+      "team_id": "atlantic_city_zootiez",
+      "team_abbreviation": "ACZ",
+      "team_display_name": "Atlantic City Zootiez$",
+      "division": "central_b",
+      "region": "central",
+      "conference": "2",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "chief",
+          "player_display_name": "Chief",
+          "slap_id": "957603",
+          "jersey_number": ""
+        },
+        {
+          "type": "remove",
+          "player_id": "unknown",
+          "player_display_name": ">:)",
+          "slap_id": "72269",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "atlantic_city_zootiez",
+        "central_b"
+      ],
+      "body_markdown": "The Atlantic City Zootiez$ have added Chief and removed >:) from their active roster.\n\nThe move gives the Zootiez$ another option as they continue to shape their roster for the current campaign.\n\nThe departing player will no longer be listed on the club's active roster.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-06_vader_vanquishers_roster_moves",
+      "transaction_ids": [
+        "20260706T001734Z_vader_vanquishers_add_bobby_mcmann"
+      ],
+      "transaction_id": "20260706T001734Z_vader_vanquishers_add_bobby_mcmann",
+      "status": "draft",
+      "created_at_utc": "2026-07-06T00:17:34Z",
+      "updated_at_utc": "2026-07-06T00:17:34Z",
+      "headline": "Vader Vanquishers Add Bobby McMann",
+      "subheadline": "The Vader Vanquishers have added Bobby McMann to their active roster.",
+      "slug": "vader-vanquishers-add-bobby-mcmann",
+      "team_id": "vader_vanquishers",
+      "team_abbreviation": "VANQ",
+      "team_display_name": "Vader Vanquishers",
+      "division": "central_c",
+      "region": "central",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "bobby_mcmann",
+          "player_display_name": "Bobby McMann",
+          "slap_id": "469650",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "vader_vanquishers",
+        "central_c"
+      ],
+      "body_markdown": "The Vader Vanquishers have added Bobby McMann to their active roster adding another card to their deck.\n\nThe move gives the Vader Vanquishers another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-05_birmingham_bobos_roster_moves",
       "transaction_ids": [
         "20260705T024852Z_birmingham_bobos_remove_normalhumanboy"
@@ -830,5 +994,5 @@
       "last_edited_by": ""
     }
   ],
-  "updated_at_utc": "2026-07-05T02:51:25Z"
+  "updated_at_utc": "2026-07-06T01:06:20Z"
 }

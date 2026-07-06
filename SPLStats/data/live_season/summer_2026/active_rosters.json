@@ -78,13 +78,20 @@
           "steam_name": "PatK9123",
           "jersey_number": "68",
           "slap_id": "1392514"
+        },
+        {
+          "role": "player",
+          "steam_name": "NoNoDaGoat",
+          "jersey_number": "",
+          "slap_id": "700861"
         }
       ],
       "slap_ids": [
         "24807",
         "6799",
         "819088",
-        "1392514"
+        "1392514",
+        "700861"
       ],
       "season_id": "summer_2026",
       "division": "open",
@@ -109,11 +116,6 @@
         },
         {
           "role": "player",
-          "steam_name": ">:)",
-          "slap_id": "72269"
-        },
-        {
-          "role": "player",
           "steam_name": "Mr Pigeon",
           "jersey_number": "",
           "slap_id": "508645"
@@ -123,14 +125,20 @@
           "steam_name": "Romey",
           "jersey_number": "",
           "slap_id": "183790"
+        },
+        {
+          "role": "player",
+          "steam_name": "Chief",
+          "jersey_number": "",
+          "slap_id": "957603"
         }
       ],
       "slap_ids": [
         "950305",
         "948283",
-        "72269",
         "508645",
-        "183790"
+        "183790",
+        "957603"
       ],
       "season_id": "summer_2026",
       "division": "central_b",
@@ -1827,13 +1835,20 @@
           "steam_name": "Walster",
           "jersey_number": "",
           "slap_id": "111"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jak",
+          "jersey_number": "",
+          "slap_id": "163"
         }
       ],
       "slap_ids": [
         "186",
         "1374",
         "1071429",
-        "111"
+        "111",
+        "163"
       ],
       "season_id": "summer_2026",
       "division": "challenger",
@@ -2815,6 +2830,12 @@
           "role": "player",
           "steam_name": "Drpecker",
           "slap_id": "1562745"
+        },
+        {
+          "role": "player",
+          "steam_name": "Bobby McMann",
+          "jersey_number": "",
+          "slap_id": "469650"
         }
       ],
       "slap_ids": [
@@ -2822,7 +2843,8 @@
         "787",
         "739963",
         "1853671",
-        "1562745"
+        "1562745",
+        "469650"
       ],
       "season_id": "summer_2026",
       "division": "central_c",
