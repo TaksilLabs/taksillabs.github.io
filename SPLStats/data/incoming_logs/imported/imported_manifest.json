@@ -505,6 +505,27 @@
       "thread_id": "1520927999485018303",
       "imported_at_utc": "2026-07-07T02:09:22.704057+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_masters_1_7"
+    },
+    "2.1_ Edmonton Bears vs Delco Dog Dads__1523797831620628591": {
+      "match_id": "summer_2026_regular_season_challenger_2_1",
+      "source_id": "2.1",
+      "thread_id": "1523797831620628591",
+      "imported_at_utc": "2026-07-07T21:55:30.495867+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_challenger_2_1"
+    },
+    "2.3_ Miami Muffins vs Boston Bobos__1523794713935741163": {
+      "match_id": "summer_2026_regular_season_pro_2_3",
+      "source_id": "2.3",
+      "thread_id": "1523794713935741163",
+      "imported_at_utc": "2026-07-07T21:55:30.507826+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_pro_2_3"
+    },
+    "2.7_ Jerusalem Golden Bobos vs Salem Cats__1523800274932863157": {
+      "match_id": "summer_2026_regular_season_masters_2_7",
+      "source_id": "2.7",
+      "thread_id": "1523800274932863157",
+      "imported_at_utc": "2026-07-07T21:55:30.520168+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_masters_2_7"
     }
   },
   "imported_match_ids": {
@@ -795,7 +816,19 @@
     "summer_2026_regular_season_masters_1_7": {
       "source_folder_name": "1.7_ Cold Lake Hit Lits vs Salem Cats__1520927999485018303",
       "imported_at_utc": "2026-07-07T02:09:22.704057+00:00"
+    },
+    "summer_2026_regular_season_challenger_2_1": {
+      "source_folder_name": "2.1_ Edmonton Bears vs Delco Dog Dads__1523797831620628591",
+      "imported_at_utc": "2026-07-07T21:55:30.495867+00:00"
+    },
+    "summer_2026_regular_season_pro_2_3": {
+      "source_folder_name": "2.3_ Miami Muffins vs Boston Bobos__1523794713935741163",
+      "imported_at_utc": "2026-07-07T21:55:30.507826+00:00"
+    },
+    "summer_2026_regular_season_masters_2_7": {
+      "source_folder_name": "2.7_ Jerusalem Golden Bobos vs Salem Cats__1523800274932863157",
+      "imported_at_utc": "2026-07-07T21:55:30.520168+00:00"
     }
   },
-  "updated_at_utc": "2026-07-07T02:09:22.704265+00:00"
+  "updated_at_utc": "2026-07-07T21:55:30.520345+00:00"
 }

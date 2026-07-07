@@ -8,7 +8,7 @@
     "active_rosters": "data/live_season/summer_2026/active_rosters.json"
   },
   "team_count": 73,
-  "completed_match_count": 65,
+  "completed_match_count": 68,
   "standings": [
     {
       "rank": null,
@@ -1455,7 +1455,7 @@
     },
     {
       "rank": null,
-      "division_rank": 2,
+      "division_rank": 1,
       "conference_rank": 1,
       "team_id": "delco_dog_dads",
       "team": "Delco Dog Dads",
@@ -1467,15 +1467,15 @@
       "region": "east",
       "division": "challenger",
       "conference": "1",
-      "games_played": 3,
-      "wins": 2,
+      "games_played": 4,
+      "wins": 3,
       "regulation_losses": 1,
       "overtime_losses": 0,
-      "points": 4,
-      "goals_for": 12,
-      "goals_against": 15,
-      "goal_diff": -3,
-      "last_5": "2-1-0",
+      "points": 6,
+      "goals_for": 17,
+      "goals_against": 19,
+      "goal_diff": -2,
+      "last_5": "3-1-0",
       "last_5_games": [
         {
           "match_id": "summer_2026_regular_season_challenger_1_1",
@@ -1500,6 +1500,14 @@
           "overtime": false,
           "goals_for": 7,
           "goals_against": 6
+        },
+        {
+          "match_id": "summer_2026_regular_season_challenger_2_1",
+          "source_id": "2.1",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 5,
+          "goals_against": 4
         }
       ],
       "tiebreaker_status": "none",
@@ -1567,56 +1575,6 @@
       "rank": null,
       "division_rank": 4,
       "conference_rank": 3,
-      "team_id": "edmonton_bears",
-      "team": "Edmonton Bears",
-      "team_display_name": "Edmonton Bears",
-      "team_abbreviation": "EDM",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "challenger",
-      "conference": "1",
-      "games_played": 1,
-      "wins": 1,
-      "regulation_losses": 0,
-      "overtime_losses": 0,
-      "points": 2,
-      "goals_for": 8,
-      "goals_against": 7,
-      "goal_diff": 1,
-      "last_5": "1-0-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_challenger_1_9",
-          "source_id": "1.9",
-          "result": "W",
-          "overtime": true,
-          "goals_for": 8,
-          "goals_against": 7
-        }
-      ],
-      "tiebreaker_status": "applied",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
-      ],
-      "playoff_bucket": "wildcard",
-      "playoff_seed": null,
-      "wildcard_rank": 1,
-      "playoff_config": {
-        "auto_per_conference": 2,
-        "wildcard_count": 2,
-        "bubble_count": 4,
-        "playoff_team_count": 6
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 5,
-      "conference_rank": 4,
       "team_id": "camden_crook",
       "team": "Camden Crook$",
       "team_display_name": "Camden Crook$",
@@ -1654,12 +1612,78 @@
           "goals_against": 8
         }
       ],
-      "tiebreaker_status": "applied",
+      "tiebreaker_status": "bo1_required",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Edmonton Bears; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Edmonton Bears; Best-of-1 may be required.",
         "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
+        "Still tied with Edmonton Bears; Best-of-1 may be required.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Edmonton Bears; Best-of-1 may be required."
+      ],
+      "playoff_bucket": "wildcard",
+      "playoff_seed": null,
+      "wildcard_rank": 1,
+      "playoff_config": {
+        "auto_per_conference": 2,
+        "wildcard_count": 2,
+        "bubble_count": 4,
+        "playoff_team_count": 6
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 5,
+      "conference_rank": 4,
+      "team_id": "edmonton_bears",
+      "team": "Edmonton Bears",
+      "team_display_name": "Edmonton Bears",
+      "team_abbreviation": "EDM",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "challenger",
+      "conference": "1",
+      "games_played": 2,
+      "wins": 1,
+      "regulation_losses": 1,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 12,
+      "goals_against": 12,
+      "goal_diff": 0,
+      "last_5": "1-1-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_challenger_1_9",
+          "source_id": "1.9",
+          "result": "W",
+          "overtime": true,
+          "goals_for": 8,
+          "goals_against": 7
+        },
+        {
+          "match_id": "summer_2026_regular_season_challenger_2_1",
+          "source_id": "2.1",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 4,
+          "goals_against": 5
+        }
+      ],
+      "tiebreaker_status": "bo1_required",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Camden Crook$; Best-of-1 may be required.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Camden Crook$; Best-of-1 may be required.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Camden Crook$; Best-of-1 may be required.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Camden Crook$; Best-of-1 may be required."
       ],
       "playoff_bucket": "wildcard",
       "playoff_seed": null,
@@ -1772,7 +1796,7 @@
     },
     {
       "rank": null,
-      "division_rank": 1,
+      "division_rank": 2,
       "conference_rank": 1,
       "team_id": "cold_lake_upper_deckies",
       "team": "Cold Lake Upper Deckies",
@@ -3319,6 +3343,70 @@
       "rank": null,
       "division_rank": 5,
       "conference_rank": 5,
+      "team_id": "miami_muffins",
+      "team": "Miami Muffins",
+      "team_display_name": "Miami Muffins",
+      "team_abbreviation": "MUFF",
+      "season_id": "summer_2026",
+      "season_name": "Summer 2026",
+      "season_type": "regular_season",
+      "region": "east",
+      "division": "pro",
+      "conference": "1",
+      "games_played": 3,
+      "wins": 1,
+      "regulation_losses": 2,
+      "overtime_losses": 0,
+      "points": 2,
+      "goals_for": 23,
+      "goals_against": 24,
+      "goal_diff": -1,
+      "last_5": "1-2-0",
+      "last_5_games": [
+        {
+          "match_id": "summer_2026_regular_season_pro_1_14",
+          "source_id": "1.14",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 4,
+          "goals_against": 5
+        },
+        {
+          "match_id": "summer_2026_regular_season_pro_1_8",
+          "source_id": "1.8",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 6,
+          "goals_against": 12
+        },
+        {
+          "match_id": "summer_2026_regular_season_pro_2_3",
+          "source_id": "2.3",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 13,
+          "goals_against": 7
+        }
+      ],
+      "tiebreaker_status": "applied",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Tied on standing points; SPL tiebreakers checked."
+      ],
+      "playoff_bucket": "standings",
+      "playoff_seed": null,
+      "wildcard_rank": null,
+      "playoff_config": {
+        "auto_per_conference": 0,
+        "wildcard_count": 0,
+        "bubble_count": 4,
+        "playoff_team_count": 0
+      }
+    },
+    {
+      "rank": null,
+      "division_rank": 6,
+      "conference_rank": 6,
       "team_id": "yucatn_yetis",
       "team": "Yucatán Yetis",
       "team_display_name": "Yucatán Yetis",
@@ -3373,8 +3461,8 @@
     },
     {
       "rank": null,
-      "division_rank": 6,
-      "conference_rank": 6,
+      "division_rank": 7,
+      "conference_rank": 7,
       "team_id": "vader_voltage",
       "team": "Vader Voltage",
       "team_display_name": "Vader Voltage",
@@ -3437,8 +3525,8 @@
     },
     {
       "rank": null,
-      "division_rank": 7,
-      "conference_rank": 7,
+      "division_rank": 8,
+      "conference_rank": 8,
       "team_id": "boston_bobos",
       "team": "Boston Bobos",
       "team_display_name": "Boston Bobos",
@@ -3449,15 +3537,15 @@
       "region": "east",
       "division": "pro",
       "conference": "1",
-      "games_played": 2,
+      "games_played": 3,
       "wins": 0,
-      "regulation_losses": 1,
+      "regulation_losses": 2,
       "overtime_losses": 1,
       "points": 1,
-      "goals_for": 13,
-      "goals_against": 19,
-      "goal_diff": -6,
-      "last_5": "0-1-1",
+      "goals_for": 20,
+      "goals_against": 32,
+      "goal_diff": -12,
+      "last_5": "0-2-1",
       "last_5_games": [
         {
           "match_id": "summer_2026_regular_season_pro_1_12",
@@ -3474,6 +3562,14 @@
           "overtime": true,
           "goals_for": 5,
           "goals_against": 6
+        },
+        {
+          "match_id": "summer_2026_regular_season_pro_2_3",
+          "source_id": "2.3",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 7,
+          "goals_against": 13
         }
       ],
       "tiebreaker_status": "none",
@@ -3490,8 +3586,8 @@
     },
     {
       "rank": null,
-      "division_rank": 8,
-      "conference_rank": 8,
+      "division_rank": 9,
+      "conference_rank": 9,
       "team_id": "beverly_hills_bobos",
       "team": "Beverly Hills Bobos",
       "team_display_name": "Beverly Hills Bobos",
@@ -3512,62 +3608,6 @@
       "goal_diff": 0,
       "last_5": "0-0-0",
       "last_5_games": [],
-      "tiebreaker_status": "applied",
-      "tiebreaker_notes": [
-        "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
-      ],
-      "playoff_bucket": "standings",
-      "playoff_seed": null,
-      "wildcard_rank": null,
-      "playoff_config": {
-        "auto_per_conference": 0,
-        "wildcard_count": 0,
-        "bubble_count": 4,
-        "playoff_team_count": 0
-      }
-    },
-    {
-      "rank": null,
-      "division_rank": 9,
-      "conference_rank": 9,
-      "team_id": "miami_muffins",
-      "team": "Miami Muffins",
-      "team_display_name": "Miami Muffins",
-      "team_abbreviation": "MUFF",
-      "season_id": "summer_2026",
-      "season_name": "Summer 2026",
-      "season_type": "regular_season",
-      "region": "east",
-      "division": "pro",
-      "conference": "1",
-      "games_played": 2,
-      "wins": 0,
-      "regulation_losses": 2,
-      "overtime_losses": 0,
-      "points": 0,
-      "goals_for": 10,
-      "goals_against": 17,
-      "goal_diff": -7,
-      "last_5": "0-2-0",
-      "last_5_games": [
-        {
-          "match_id": "summer_2026_regular_season_pro_1_14",
-          "source_id": "1.14",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 4,
-          "goals_against": 5
-        },
-        {
-          "match_id": "summer_2026_regular_season_pro_1_8",
-          "source_id": "1.8",
-          "result": "L",
-          "overtime": false,
-          "goals_for": 6,
-          "goals_against": 12
-        }
-      ],
       "tiebreaker_status": "applied",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
@@ -3653,15 +3693,15 @@
       "region": "west",
       "division": "masters",
       "conference": "1",
-      "games_played": 2,
+      "games_played": 3,
       "wins": 2,
-      "regulation_losses": 0,
+      "regulation_losses": 1,
       "overtime_losses": 0,
       "points": 4,
-      "goals_for": 16,
-      "goals_against": 10,
-      "goal_diff": 6,
-      "last_5": "2-0-0",
+      "goals_for": 18,
+      "goals_against": 15,
+      "goal_diff": 3,
+      "last_5": "2-1-0",
       "last_5_games": [
         {
           "match_id": "summer_2026_regular_season_masters_1_5",
@@ -3677,6 +3717,14 @@
           "result": "W",
           "overtime": false,
           "goals_for": 7,
+          "goals_against": 5
+        },
+        {
+          "match_id": "summer_2026_regular_season_masters_2_7",
+          "source_id": "2.7",
+          "result": "L",
+          "overtime": false,
+          "goals_for": 2,
           "goals_against": 5
         }
       ],
@@ -3744,10 +3792,12 @@
           "goals_against": 7
         }
       ],
-      "tiebreaker_status": "applied",
+      "tiebreaker_status": "bo1_required",
       "tiebreaker_notes": [
         "Tied on standing points; SPL tiebreakers checked.",
-        "Tied on standing points; SPL tiebreakers checked."
+        "Still tied with Jerusalem Golden Bobos; Best-of-1 may be required.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Jerusalem Golden Bobos; Best-of-1 may be required."
       ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
@@ -3773,15 +3823,15 @@
       "region": "west",
       "division": "masters",
       "conference": "1",
-      "games_played": 1,
-      "wins": 1,
+      "games_played": 2,
+      "wins": 2,
       "regulation_losses": 0,
       "overtime_losses": 0,
-      "points": 2,
-      "goals_for": 7,
-      "goals_against": 4,
-      "goal_diff": 3,
-      "last_5": "1-0-0",
+      "points": 4,
+      "goals_for": 12,
+      "goals_against": 6,
+      "goal_diff": 6,
+      "last_5": "2-0-0",
       "last_5_games": [
         {
           "match_id": "summer_2026_regular_season_masters_1_8",
@@ -3790,10 +3840,23 @@
           "overtime": false,
           "goals_for": 7,
           "goals_against": 4
+        },
+        {
+          "match_id": "summer_2026_regular_season_masters_2_7",
+          "source_id": "2.7",
+          "result": "W",
+          "overtime": false,
+          "goals_for": 5,
+          "goals_against": 2
         }
       ],
-      "tiebreaker_status": "none",
-      "tiebreaker_notes": [],
+      "tiebreaker_status": "bo1_required",
+      "tiebreaker_notes": [
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Cold Lake Hit Lits; Best-of-1 may be required.",
+        "Tied on standing points; SPL tiebreakers checked.",
+        "Still tied with Cold Lake Hit Lits; Best-of-1 may be required."
+      ],
       "playoff_bucket": "standings",
       "playoff_seed": null,
       "wildcard_rank": null,
