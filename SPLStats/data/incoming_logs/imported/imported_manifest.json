@@ -491,6 +491,20 @@
       "thread_id": "1520928002936930446",
       "imported_at_utc": "2026-07-06T04:40:06.535372+00:00",
       "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_masters_1_8"
+    },
+    "1.6_ Vader Saboteurs vs Lakeshore Loons__1520930554206224506": {
+      "match_id": "summer_2026_regular_season_central_b_1_6",
+      "source_id": "1.6",
+      "thread_id": "1520930554206224506",
+      "imported_at_utc": "2026-07-07T02:09:22.693219+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_central_b_1_6"
+    },
+    "1.7_ Cold Lake Hit Lits vs Salem Cats__1520927999485018303": {
+      "match_id": "summer_2026_regular_season_masters_1_7",
+      "source_id": "1.7",
+      "thread_id": "1520927999485018303",
+      "imported_at_utc": "2026-07-07T02:09:22.704057+00:00",
+      "destination": "raw_live_logs/summer_2026/regular_season/by_match/summer_2026_regular_season_masters_1_7"
     }
   },
   "imported_match_ids": {
@@ -773,7 +787,15 @@
     "summer_2026_regular_season_masters_1_8": {
       "source_folder_name": "1.8_ Vader Gungans vs Jerusalem Golden Bobos__1520928002936930446",
       "imported_at_utc": "2026-07-06T04:40:06.535372+00:00"
+    },
+    "summer_2026_regular_season_central_b_1_6": {
+      "source_folder_name": "1.6_ Vader Saboteurs vs Lakeshore Loons__1520930554206224506",
+      "imported_at_utc": "2026-07-07T02:09:22.693219+00:00"
+    },
+    "summer_2026_regular_season_masters_1_7": {
+      "source_folder_name": "1.7_ Cold Lake Hit Lits vs Salem Cats__1520927999485018303",
+      "imported_at_utc": "2026-07-07T02:09:22.704057+00:00"
     }
   },
-  "updated_at_utc": "2026-07-06T04:40:06.535592+00:00"
+  "updated_at_utc": "2026-07-07T02:09:22.704265+00:00"
 }

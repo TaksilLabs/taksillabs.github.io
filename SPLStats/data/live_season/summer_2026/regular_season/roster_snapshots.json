@@ -7030,5 +7030,217 @@
         "267559"
       ]
     }
+  },
+  "summer_2026_regular_season_central_b_1_6": {
+    "match_id": "summer_2026_regular_season_central_b_1_6",
+    "source_id": "1.6",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "central_b",
+    "region": "central",
+    "home_team_id": "vader_saboteurs",
+    "home_team": "Vader Saboteurs",
+    "away_team_id": "lakeshore_loons",
+    "away_team": "Lakeshore Loons",
+    "home_roster": {
+      "team_id": "vader_saboteurs",
+      "team_display_name": "Vader Saboteurs",
+      "team": "Vader Saboteurs",
+      "team_abbreviation": "VADS",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "meenimizer",
+          "slap_id": "439532"
+        },
+        {
+          "role": "player",
+          "steam_name": "pl4zma",
+          "slap_id": "636422"
+        },
+        {
+          "role": "player",
+          "steam_name": "cybergoose",
+          "slap_id": "1199765"
+        },
+        {
+          "role": "player",
+          "steam_name": "Basho",
+          "slap_id": "153665"
+        },
+        {
+          "role": "player",
+          "steam_name": "bread",
+          "slap_id": "825118"
+        }
+      ],
+      "slap_ids": [
+        "439532",
+        "636422",
+        "1199765",
+        "153665",
+        "825118"
+      ]
+    },
+    "away_roster": {
+      "team_id": "lakeshore_loons",
+      "team_display_name": "Lakeshore Loons",
+      "team": "Lakeshore Loons",
+      "team_abbreviation": "LOON",
+      "region": "central",
+      "division": "central_b",
+      "conference": "2",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "West",
+          "slap_id": "1450864"
+        },
+        {
+          "role": "player",
+          "steam_name": "Jot",
+          "slap_id": "1452681"
+        },
+        {
+          "role": "player",
+          "steam_name": "frosty",
+          "slap_id": "1450531"
+        },
+        {
+          "role": "player",
+          "steam_name": "Rocker`",
+          "slap_id": "1450474"
+        }
+      ],
+      "slap_ids": [
+        "1450864",
+        "1452681",
+        "1450531",
+        "1450474"
+      ]
+    }
+  },
+  "summer_2026_regular_season_masters_1_7": {
+    "match_id": "summer_2026_regular_season_masters_1_7",
+    "source_id": "1.7",
+    "season_id": "summer_2026",
+    "season_name": "Summer 2026",
+    "season_type": "regular_season",
+    "phase": "regular_season",
+    "division": "masters",
+    "region": "west",
+    "home_team_id": "cold_lake_hit_lits",
+    "home_team": "Cold Lake Hit Lits",
+    "away_team_id": "salem_cats",
+    "away_team": "Salem Cats",
+    "home_roster": {
+      "team_id": "cold_lake_hit_lits",
+      "team_display_name": "Cold Lake Hit Lits",
+      "team": "Cold Lake Hit Lits",
+      "team_abbreviation": "CLHL",
+      "region": "west",
+      "division": "masters",
+      "conference": "",
+      "players": [
+        {
+          "role": "gm",
+          "steam_name": "lacaaas",
+          "slap_id": "186627"
+        },
+        {
+          "role": "player",
+          "steam_name": "hit",
+          "slap_id": "913017",
+          "jersey_number": "10"
+        },
+        {
+          "role": "player",
+          "steam_name": "LIT",
+          "slap_id": "633338"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tweek",
+          "slap_id": "985994"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tridoxity",
+          "jersey_number": "",
+          "slap_id": "1127790"
+        },
+        {
+          "role": "player",
+          "steam_name": "Graves",
+          "jersey_number": "",
+          "slap_id": "437644"
+        }
+      ],
+      "slap_ids": [
+        "186627",
+        "913017",
+        "633338",
+        "985994",
+        "1127790",
+        "437644"
+      ]
+    },
+    "away_roster": {
+      "team_id": "salem_cats",
+      "team_display_name": "Salem Cats",
+      "team": "Salem Cats",
+      "team_abbreviation": "SAL",
+      "region": "west",
+      "division": "masters",
+      "conference": "",
+      "players": [
+        {
+          "role": "captain",
+          "steam_name": "hill",
+          "slap_id": "1378966"
+        },
+        {
+          "role": "player",
+          "steam_name": "mahalo",
+          "slap_id": "550187"
+        },
+        {
+          "role": "player",
+          "steam_name": "headass",
+          "slap_id": "173111"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tony",
+          "jersey_number": "",
+          "slap_id": "1294369"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lucki",
+          "jersey_number": "",
+          "slap_id": "1367326"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tezz",
+          "jersey_number": "",
+          "slap_id": "1868988"
+        }
+      ],
+      "slap_ids": [
+        "1378966",
+        "550187",
+        "173111",
+        "1294369",
+        "1367326",
+        "1868988"
+      ]
+    }
   }
 }

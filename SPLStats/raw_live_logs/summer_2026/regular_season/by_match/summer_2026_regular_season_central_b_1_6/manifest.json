@@ -1,0 +1,41 @@
+{
+  "match_id": "summer_2026_regular_season_central_b_1_6",
+  "season_id": "summer_2026",
+  "season_type": "regular_season",
+  "division": "central_b",
+  "imported_at_utc": "2026-07-07T02:09:22.693219+00:00",
+  "source_folder_name": "1.6_ Vader Saboteurs vs Lakeshore Loons__1520930554206224506",
+  "source_folder_path": "data/incoming_logs/unsorted/1.6_ Vader Saboteurs vs Lakeshore Loons__1520930554206224506",
+  "source_id": "1.6",
+  "thread_id": "1520930554206224506",
+  "detected_home_team": "Vader Saboteurs",
+  "detected_away_team": "Lakeshore Loons",
+  "matched_schedule_home_team_id": "vader_saboteurs",
+  "matched_schedule_away_team_id": "lakeshore_loons",
+  "matched_schedule_home_team": "Vader Saboteurs",
+  "matched_schedule_away_team": "Lakeshore Loons",
+  "matched_by": "source_id_and_team_pair",
+  "confidence": 1.0,
+  "first_log_timestamp": "2026-07-05T19:10:33",
+  "last_log_timestamp": "2026-07-05T19:24:45",
+  "probable_start_time": "2026-07-05T19:00:00",
+  "start_time_source": "first_log_timestamp_floor_15_minutes",
+  "source_files": [
+    {
+      "original_name": "20260706_064556_222108122272104450_2026-07-05-19-10-33.json",
+      "relative_path": "1.6_ Vader Saboteurs vs Lakeshore Loons__1520930554206224506/20260706_064556_222108122272104450_2026-07-05-19-10-33.json",
+      "timestamp_from_filename": "2026-07-05T19:10:33"
+    },
+    {
+      "original_name": "20260706_064556_222108122272104450_2026-07-05-19-17-14.json",
+      "relative_path": "1.6_ Vader Saboteurs vs Lakeshore Loons__1520930554206224506/20260706_064556_222108122272104450_2026-07-05-19-17-14.json",
+      "timestamp_from_filename": "2026-07-05T19:17:14"
+    },
+    {
+      "original_name": "20260706_064556_222108122272104450_2026-07-05-19-24-45.json",
+      "relative_path": "1.6_ Vader Saboteurs vs Lakeshore Loons__1520930554206224506/20260706_064556_222108122272104450_2026-07-05-19-24-45.json",
+      "timestamp_from_filename": "2026-07-05T19:24:45"
+    }
+  ],
+  "warnings": []
+}
