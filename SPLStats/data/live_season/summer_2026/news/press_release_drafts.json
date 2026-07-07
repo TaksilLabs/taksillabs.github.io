@@ -2,6 +2,162 @@
   "season_id": "summer_2026",
   "drafts": [
     {
+      "draft_id": "2026-07-07_salem_cats_roster_moves",
+      "transaction_ids": [
+        "20260707T020818Z_salem_cats_add_tezz"
+      ],
+      "transaction_id": "20260707T020818Z_salem_cats_add_tezz",
+      "status": "draft",
+      "created_at_utc": "2026-07-07T02:08:18Z",
+      "updated_at_utc": "2026-07-07T02:08:18Z",
+      "headline": "Salem Cats Add Tezz",
+      "subheadline": "The Salem Cats have added Tezz to their active roster.",
+      "slug": "salem-cats-add-tezz",
+      "team_id": "salem_cats",
+      "team_abbreviation": "SAL",
+      "team_display_name": "Salem Cats",
+      "division": "masters",
+      "region": "west",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "tezz",
+          "player_display_name": "Tezz",
+          "slap_id": "1868988",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "salem_cats",
+        "masters"
+      ],
+      "body_markdown": "The Salem Cats have added Tezz to their active roster adding another card to their deck.\n\nThe move gives the Salem Cats another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-07_cold_lake_hit_lits_roster_moves",
+      "transaction_ids": [
+        "20260707T010524Z_cold_lake_hit_lits_add_graves"
+      ],
+      "transaction_id": "20260707T010524Z_cold_lake_hit_lits_add_graves",
+      "status": "draft",
+      "created_at_utc": "2026-07-07T01:05:24Z",
+      "updated_at_utc": "2026-07-07T01:05:24Z",
+      "headline": "Cold Lake Hit Lits Add Graves",
+      "subheadline": "The Cold Lake Hit Lits have added Graves to their active roster.",
+      "slug": "cold-lake-hit-lits-add-graves",
+      "team_id": "cold_lake_hit_lits",
+      "team_abbreviation": "CLHL",
+      "team_display_name": "Cold Lake Hit Lits",
+      "division": "masters",
+      "region": "west",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "graves",
+          "player_display_name": "Graves",
+          "slap_id": "437644",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "cold_lake_hit_lits",
+        "masters"
+      ],
+      "body_markdown": "The Cold Lake Hit Lits have added Graves to their active roster adding another card to their deck.\n\nThe move gives the Cold Lake Hit Lits another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-06_yucatn_yetis_roster_moves",
+      "transaction_ids": [
+        "20260706T230653Z_yucatn_yetis_add_blue"
+      ],
+      "transaction_id": "20260706T230653Z_yucatn_yetis_add_blue",
+      "status": "draft",
+      "created_at_utc": "2026-07-06T23:06:53Z",
+      "updated_at_utc": "2026-07-06T23:06:53Z",
+      "headline": "Yucatán Yetis Add Blue",
+      "subheadline": "The Yucatán Yetis have added Blue to their active roster.",
+      "slug": "yucat-n-yetis-add-blue",
+      "team_id": "yucatn_yetis",
+      "team_abbreviation": "YETI",
+      "team_display_name": "Yucatán Yetis",
+      "division": "pro",
+      "region": "east",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "blue",
+          "player_display_name": "Blue",
+          "slap_id": "100703",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "yucatn_yetis",
+        "pro"
+      ],
+      "body_markdown": "The Yucatán Yetis have added Blue to their active roster adding another card to their deck.\n\nThe move gives the Yucatán Yetis another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
+      "draft_id": "2026-07-06_salem_cats_roster_moves",
+      "transaction_ids": [
+        "20260706T230617Z_salem_cats_add_lucki"
+      ],
+      "transaction_id": "20260706T230617Z_salem_cats_add_lucki",
+      "status": "draft",
+      "created_at_utc": "2026-07-06T23:06:17Z",
+      "updated_at_utc": "2026-07-06T23:06:17Z",
+      "headline": "Salem Cats Add Lucki",
+      "subheadline": "The Salem Cats have added Lucki to their active roster.",
+      "slug": "salem-cats-add-lucki",
+      "team_id": "salem_cats",
+      "team_abbreviation": "SAL",
+      "team_display_name": "Salem Cats",
+      "division": "masters",
+      "region": "west",
+      "conference": "",
+      "players": [
+        {
+          "type": "add",
+          "player_id": "lucki",
+          "player_display_name": "Lucki",
+          "slap_id": "1367326",
+          "jersey_number": ""
+        }
+      ],
+      "article_type": "transaction",
+      "tags": [
+        "transactions",
+        "roster",
+        "salem_cats",
+        "masters"
+      ],
+      "body_markdown": "The Salem Cats have added Lucki to their active roster adding another card to their deck.\n\nThe move gives the Salem Cats another option as they continue to shape their roster for the current campaign.\n\nFurther details may be added by SPL staff.",
+      "writer_notes": "",
+      "created_by": "active_roster_editor",
+      "last_edited_by": ""
+    },
+    {
       "draft_id": "2026-07-06_boston_shufflebottoms_roster_moves",
       "transaction_ids": [
         "20260706T040521Z_boston_shufflebottoms_remove_s1k"

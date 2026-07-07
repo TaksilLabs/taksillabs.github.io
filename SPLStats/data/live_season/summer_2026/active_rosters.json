@@ -1008,7 +1008,7 @@
       "region": "west",
       "players": [
         {
-          "role": "captain",
+          "role": "gm",
           "steam_name": "lacaaas",
           "slap_id": "186627"
         },
@@ -1033,6 +1033,12 @@
           "steam_name": "Tridoxity",
           "jersey_number": "",
           "slap_id": "1127790"
+        },
+        {
+          "role": "player",
+          "steam_name": "Graves",
+          "jersey_number": "",
+          "slap_id": "437644"
         }
       ],
       "slap_ids": [
@@ -1040,7 +1046,8 @@
         "913017",
         "633338",
         "985994",
-        "1127790"
+        "1127790",
+        "437644"
       ],
       "season_id": "summer_2026",
       "division": "masters",
@@ -2181,13 +2188,27 @@
           "steam_name": "Tony",
           "jersey_number": "",
           "slap_id": "1294369"
+        },
+        {
+          "role": "player",
+          "steam_name": "Lucki",
+          "jersey_number": "",
+          "slap_id": "1367326"
+        },
+        {
+          "role": "player",
+          "steam_name": "Tezz",
+          "jersey_number": "",
+          "slap_id": "1868988"
         }
       ],
       "slap_ids": [
         "1378966",
         "550187",
         "173111",
-        "1294369"
+        "1294369",
+        "1367326",
+        "1868988"
       ],
       "season_id": "summer_2026",
       "division": "masters",
@@ -3120,12 +3141,19 @@
           "role": "player",
           "steam_name": "Lucki",
           "slap_id": "1367326"
+        },
+        {
+          "role": "player",
+          "steam_name": "Blue",
+          "jersey_number": "",
+          "slap_id": "100703"
         }
       ],
       "slap_ids": [
         "75184",
         "405738",
-        "1367326"
+        "1367326",
+        "100703"
       ],
       "season_id": "summer_2026",
       "division": "pro",
