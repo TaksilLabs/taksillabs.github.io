@@ -1,0 +1,161 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 4
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 245,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 10,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 2
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 3,
+                "saves": 2,
+                "score": 510,
+                "shots": 4,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 10,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 1
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 340,
+                "shots": 3,
+                "losses": 2,
+                "passes": 9,
+                "assists": 2,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 16
+            },
+            "username": "AndrewDewar104",
+            "game_user_id": "453698"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 410,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 22,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 6,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 56
+            },
+            "username": "stim",
+            "game_user_id": "1319952"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "saves": 2,
+                "score": 690,
+                "shots": 4,
+                "blocks": 4,
+                "passes": 18,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 2
+            },
+            "username": "special son",
+            "game_user_id": "2037465"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 405,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 21,
+                "assists": 3,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 13
+            },
+            "username": "Everybody Hates Camden.mp4",
+            "game_user_id": "1853453"
+        }
+    ],
+    "match_id": "bfc8acf3-7ed4-4916-9656-03f286e1f3b7",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
