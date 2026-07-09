@@ -1,0 +1,152 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 7,
+                "score": 435,
+                "shots": 2,
+                "blocks": 11,
+                "losses": 2,
+                "passes": 14,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 18
+            },
+            "username": "wads",
+            "game_user_id": "962536"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 200,
+                "blocks": 10,
+                "losses": 2,
+                "passes": 12,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 4
+            },
+            "username": "Normalhumanboy",
+            "game_user_id": "265889"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 130,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 11,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 26
+            },
+            "username": "kaVi",
+            "game_user_id": "1432097"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 2,
+                "score": 415,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 17,
+                "assists": 4,
+                "shutouts": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "secondary_assists": 2,
+                "possession_time_sec": 56
+            },
+            "username": "lacaaas",
+            "game_user_id": "186627"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 660,
+                "shots": 6,
+                "blocks": 2,
+                "passes": 24,
+                "assists": 4,
+                "shutouts": 2,
+                "post_hits": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "secondary_assists": 1,
+                "possession_time_sec": 12
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 5,
+                "score": 910,
+                "shots": 11,
+                "blocks": 6,
+                "passes": 30,
+                "assists": 1,
+                "shutouts": 2,
+                "post_hits": 1,
+                "takeaways": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 49
+            },
+            "username": "Tactical Miss",
+            "game_user_id": "1282529"
+        }
+    ],
+    "match_id": "4e23fb4f-eb8e-4cf0-b6ce-69f8d826b65a",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
