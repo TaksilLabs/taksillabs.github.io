@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 110,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 5,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 90,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 165,
+                "shots": 2,
+                "losses": 1,
+                "passes": 5,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 13
+            },
+            "username": "AndrewDewar104",
+            "game_user_id": "453698"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 320,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 12,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 5,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 41
+            },
+            "username": "stim",
+            "game_user_id": "1319952"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 495,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 10,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 1
+            },
+            "username": "special son",
+            "game_user_id": "2037465"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 275,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 2,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 4
+            },
+            "username": "Everybody Hates Camden.mp4",
+            "game_user_id": "1853453"
+        }
+    ],
+    "match_id": "dce26587-3828-4013-830c-08e2c3f51263",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
