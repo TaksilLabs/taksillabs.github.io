@@ -1,0 +1,116 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 0
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 80,
+                "blocks": 1,
+                "passes": 6,
+                "takeaways": 5,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "possession_time_sec": 43
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 50,
+                "blocks": 5,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 11
+            },
+            "username": "tovic",
+            "game_user_id": "409115"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 10,
+                "blocks": 1,
+                "passes": 7,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 5
+            },
+            "username": "Baumz",
+            "game_user_id": "55"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 55,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 9,
+                "takeaways": 1,
+                "turnovers": 6,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 41
+            },
+            "username": "lucki",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 40,
+                "shots": 1,
+                "passes": 10,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 11
+            },
+            "username": "GoldenKnight",
+            "game_user_id": "75184"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 20,
+                "blocks": 2,
+                "passes": 9,
+                "takeaways": 3,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Bey",
+            "game_user_id": "405748"
+        }
+    ],
+    "match_id": "552ad6c2-fbba-4c0b-9599-2c7a63a94324",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
