@@ -1,0 +1,157 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 155,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 12,
+                "turnovers": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 19
+            },
+            "username": "walitooo",
+            "game_user_id": "111"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 455,
+                "shots": 6,
+                "blocks": 4,
+                "passes": 23,
+                "assists": 2,
+                "takeaways": 9,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 27
+            },
+            "username": "Dave.",
+            "game_user_id": "186"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 410,
+                "shots": 3,
+                "blocks": 8,
+                "passes": 21,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 18
+            },
+            "username": "jak",
+            "game_user_id": "163"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 245,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 13,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 5,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 21
+            },
+            "username": "[OKG]Pip Starlather",
+            "game_user_id": "197140"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 255,
+                "shots": 1,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 9,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 26
+            },
+            "username": "LessThanDennis",
+            "game_user_id": "513"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 3,
+                "score": 375,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 11,
+                "assists": 2,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 26
+            },
+            "username": "Renard_",
+            "game_user_id": "212"
+        }
+    ],
+    "match_id": "91c61adc-4f0d-402b-ae28-53179b0fd8a6",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
