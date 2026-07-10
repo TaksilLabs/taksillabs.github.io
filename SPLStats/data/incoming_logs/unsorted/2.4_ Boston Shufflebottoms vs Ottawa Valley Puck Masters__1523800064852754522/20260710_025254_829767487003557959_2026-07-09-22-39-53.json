@@ -1,0 +1,192 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 465,
+                "shots": 5,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 16,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 39
+            },
+            "username": "Sylat00n",
+            "game_user_id": "1313906"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 65,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 4
+            },
+            "username": "tuna_key",
+            "game_user_id": "1313861"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 195,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 17
+            },
+            "username": "napqleon",
+            "game_user_id": "1314476"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 190,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 4,
+                "takeaways": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 9
+            },
+            "username": "FlightlessEgg",
+            "game_user_id": "1834115"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 4,
+                "score": 450,
+                "shots": 1,
+                "blocks": 8,
+                "passes": 8,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 30
+            },
+            "username": "TheRealAmeriCam",
+            "game_user_id": "1937517"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 260,
+                "shots": 2,
+                "passes": 15,
+                "assists": 1,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 10
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 25,
+                "shots": 1,
+                "passes": 7,
+                "takeaways": 3,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 16
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 160,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 2,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "[ATL] Alt",
+            "game_user_id": "24807"
+        }
+    ],
+    "match_id": "86e75a37-8a6d-45b0-bf27-8c1808f1483b",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
