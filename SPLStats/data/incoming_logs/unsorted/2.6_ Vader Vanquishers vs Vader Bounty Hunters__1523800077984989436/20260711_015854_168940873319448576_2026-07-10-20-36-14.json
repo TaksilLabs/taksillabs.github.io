@@ -1,0 +1,150 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 3,
+                "score": 420,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 9,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 17
+            },
+            "username": "sharqq",
+            "game_user_id": "787"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 145,
+                "blocks": 3,
+                "passes": 5,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 11
+            },
+            "username": "Drpecker",
+            "game_user_id": "1562745"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 200,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 7,
+                "assists": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 4
+            },
+            "username": "Makar",
+            "game_user_id": "739963"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 215,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 5,
+                "assists": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1
+            },
+            "username": "Sowwea",
+            "game_user_id": "2129"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 350,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 6,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 8
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 140,
+                "blocks": 3,
+                "passes": 9,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 11
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        }
+    ],
+    "match_id": "1ba47232-bbb5-4851-975f-e2e2ad9399fd",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
