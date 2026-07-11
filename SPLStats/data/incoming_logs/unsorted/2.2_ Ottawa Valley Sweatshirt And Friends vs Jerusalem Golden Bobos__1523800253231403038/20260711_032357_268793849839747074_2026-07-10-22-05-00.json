@@ -1,0 +1,135 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 1
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 4,
+                "score": 345,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 3,
+                "takeaways": 7,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 56
+            },
+            "username": "sweatshirt 🍾",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 40,
+                "shots": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "BroBurgota",
+            "game_user_id": "431751"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "passes": 9,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 275,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 10,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 26
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 175,
+                "shots": 2,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 14
+            },
+            "username": "X6C-",
+            "game_user_id": "871020"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 25,
+                "shots": 1,
+                "passes": 5,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 15
+            },
+            "username": "Yackslack",
+            "game_user_id": "640761"
+        }
+    ],
+    "match_id": "ca2e3a45-298f-43a8-b96d-1e6e84623a66",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
