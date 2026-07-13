@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 445,
+                "shots": 2,
+                "blocks": 7,
+                "passes": 6,
+                "assists": 1,
+                "post_hits": 2,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 18
+            },
+            "username": "Nic.",
+            "game_user_id": "381872"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 50,
+                "passes": 5,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 5
+            },
+            "username": "bick",
+            "game_user_id": "381871"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 175,
+                "shots": 1,
+                "blocks": 5,
+                "passes": 5,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 3
+            },
+            "username": "Trayvon",
+            "game_user_id": "56496"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 75,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 10,
+                "post_hits": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 4
+            },
+            "username": "cheesed",
+            "game_user_id": "2105273"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 200,
+                "shots": 1,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 5,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 45
+            },
+            "username": "Quion Games",
+            "game_user_id": "1519437"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 100,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 11,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 5
+            },
+            "username": "JIRIAS2",
+            "game_user_id": "1491869"
+        }
+    ],
+    "match_id": "ec69ccb0-7c22-47d0-8623-126f04e29686",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
