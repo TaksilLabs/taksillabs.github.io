@@ -1,0 +1,154 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 3,
+        "home": 3
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 210,
+                "shots": 2,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 14,
+                "assists": 1,
+                "turnovers": 1,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 14
+            },
+            "username": "cheesed",
+            "game_user_id": "2105273"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 510,
+                "shots": 4,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 14,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 9,
+                "turnovers": 2,
+                "faceoffs_won": 7,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 79
+            },
+            "username": "Quion Games",
+            "game_user_id": "1519437"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 305,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 14,
+                "turnovers": 4,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "JIRIAS2",
+            "game_user_id": "1491869"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 4,
+                "score": 425,
+                "shots": 2,
+                "blocks": 12,
+                "passes": 12,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 68
+            },
+            "username": "Skeetshooter42",
+            "game_user_id": "1329800"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 1,
+                "score": 95,
+                "blocks": 6,
+                "passes": 10,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 6
+            },
+            "username": "fee dup laybach",
+            "game_user_id": "1528532"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 2,
+                "score": 365,
+                "shots": 5,
+                "blocks": 4,
+                "passes": 9,
+                "takeaways": 2,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "possession_time_sec": 17
+            },
+            "username": "Looees",
+            "game_user_id": "281017"
+        }
+    ],
+    "match_id": "c250eb62-6370-4186-9696-679564f1344f",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
