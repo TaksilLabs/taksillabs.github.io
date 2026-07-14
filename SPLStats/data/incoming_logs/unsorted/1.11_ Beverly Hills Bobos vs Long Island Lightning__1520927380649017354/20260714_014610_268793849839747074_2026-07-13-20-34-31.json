@@ -1,0 +1,161 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 5,
+                "score": 405,
+                "shots": 2,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 15,
+                "takeaways": 6,
+                "turnovers": 5,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 66
+            },
+            "username": "Jenediah",
+            "game_user_id": "154305"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 5,
+                "score": 430,
+                "shots": 2,
+                "blocks": 7,
+                "losses": 2,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 2,
+                "turnovers": 5,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 23
+            },
+            "username": "tovic",
+            "game_user_id": "409115"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 275,
+                "shots": 2,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 11,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 11
+            },
+            "username": "Yackslack",
+            "game_user_id": "640761"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 3,
+                "score": 430,
+                "blocks": 1,
+                "passes": 10,
+                "assists": 5,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "secondary_assists": 3,
+                "possession_time_sec": 53
+            },
+            "username": "Kajun",
+            "game_user_id": "19508"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 815,
+                "shots": 10,
+                "passes": 27,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 7,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 48
+            },
+            "username": "milk",
+            "game_user_id": "429195"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "saves": 1,
+                "score": 790,
+                "shots": 7,
+                "blocks": 4,
+                "passes": 23,
+                "assists": 3,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 18
+            },
+            "username": "Jágr",
+            "game_user_id": "560316"
+        }
+    ],
+    "match_id": "501d1d48-e9b7-4645-ada0-b098aa92b2f2",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
