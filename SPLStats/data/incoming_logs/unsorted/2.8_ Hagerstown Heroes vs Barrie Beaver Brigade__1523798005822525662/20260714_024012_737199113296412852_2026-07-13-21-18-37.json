@@ -1,0 +1,142 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 14
+            },
+            "username": "Awlden",
+            "game_user_id": "890370"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 210,
+                "shots": 2,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 10,
+                "post_hits": 1,
+                "takeaways": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 42
+            },
+            "username": "The Real Teddy Blueger",
+            "game_user_id": "848840"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 95,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "takeaways": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 7
+            },
+            "username": "cavitee",
+            "game_user_id": "883507"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 75,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 9
+            },
+            "username": "ScitruS",
+            "game_user_id": "2069819"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 175,
+                "blocks": 2,
+                "passes": 10,
+                "assists": 2,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 12
+            },
+            "username": "Shloompa",
+            "game_user_id": "979880"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 345,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 5,
+                "post_hits": 2,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 23
+            },
+            "username": "SemenSlayer",
+            "game_user_id": "1427595"
+        }
+    ],
+    "match_id": "43247f42-fd9b-4146-b240-86bf89697dd9",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
