@@ -1,0 +1,134 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 2
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 245,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 7,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 21
+            },
+            "username": "Hydroid.",
+            "game_user_id": "1836154"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 2,
+                "score": 90,
+                "blocks": 2,
+                "passes": 7,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 9
+            },
+            "username": "gold",
+            "game_user_id": "914959"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 150,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 8,
+                "shutouts": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 7
+            },
+            "username": "SirElly",
+            "game_user_id": "58559"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "losses": 1,
+                "passes": 12,
+                "post_hits": 2,
+                "turnovers": 7,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 3
+            },
+            "username": "milk",
+            "game_user_id": "429195"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 65,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 28
+            },
+            "username": "Jágr",
+            "game_user_id": "560316"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 50,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 9
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        }
+    ],
+    "match_id": "cf9ea4b8-5662-4f55-a93a-d4cc3bd039f8",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
