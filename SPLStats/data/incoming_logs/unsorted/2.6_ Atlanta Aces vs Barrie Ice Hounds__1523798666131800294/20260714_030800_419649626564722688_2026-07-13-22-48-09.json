@@ -1,0 +1,135 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 1
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 75,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 3,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 14
+            },
+            "username": "[ATL] Alt",
+            "game_user_id": "24807"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 200,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 5,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 22
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 10,
+                "blocks": 1,
+                "passes": 4,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 4
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 120,
+                "blocks": 5,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 32
+            },
+            "username": "stim",
+            "game_user_id": "1319952"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 140,
+                "shots": 1,
+                "passes": 5,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 7
+            },
+            "username": "special son",
+            "game_user_id": "2037465"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 135,
+                "blocks": 1,
+                "passes": 4,
+                "assists": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 2
+            },
+            "username": "napqleon",
+            "game_user_id": "1314476"
+        }
+    ],
+    "match_id": "a95a5677-c445-434d-adc7-a6c95955ce96",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
