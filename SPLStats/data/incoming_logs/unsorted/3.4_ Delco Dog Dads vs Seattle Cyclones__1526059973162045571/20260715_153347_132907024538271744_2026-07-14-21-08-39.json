@@ -1,0 +1,153 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 6,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 295,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 9,
+                "assists": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 15
+            },
+            "username": "Pissy Yonky",
+            "game_user_id": "702578"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 235,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 6,
+                "assists": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 6,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3
+            },
+            "username": "Kavorka",
+            "game_user_id": "816852"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 250,
+                "shots": 1,
+                "losses": 1,
+                "passes": 4,
+                "assists": 1,
+                "post_hits": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 5
+            },
+            "username": "Drewiou",
+            "game_user_id": "200689"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 475,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 9,
+                "assists": 4,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 6,
+                "secondary_assists": 1,
+                "possession_time_sec": 16
+            },
+            "username": "Gronk",
+            "game_user_id": "1232982"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 165,
+                "blocks": 1,
+                "passes": 6,
+                "assists": 2,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "secondary_assists": 1,
+                "possession_time_sec": 8
+            },
+            "username": "wads",
+            "game_user_id": "962536"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 5,
+                "score": 705,
+                "shots": 7,
+                "passes": 15,
+                "post_hits": 1,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 3
+            },
+            "username": "kaVi",
+            "game_user_id": "1432097"
+        }
+    ],
+    "match_id": "1d78b6c4-2f6a-46c2-99bf-dbd2a0d27944",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
