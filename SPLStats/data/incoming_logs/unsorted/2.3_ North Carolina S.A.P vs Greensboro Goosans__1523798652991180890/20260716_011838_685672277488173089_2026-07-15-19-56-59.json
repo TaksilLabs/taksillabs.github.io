@@ -1,0 +1,141 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 80,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 25
+            },
+            "username": "molotce",
+            "game_user_id": "1639521"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 35,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 14
+            },
+            "username": "Apu",
+            "game_user_id": "1636587"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 35,
+                "losses": 1,
+                "passes": 2,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 7
+            },
+            "username": "Myroko",
+            "game_user_id": "1637509"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 125,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 7,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 16
+            },
+            "username": "[GOOS] MAcademySammy88 [C]",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 2,
+                "score": 380,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 6,
+                "shutouts": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 19
+            },
+            "username": "Epix",
+            "game_user_id": "865399"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 120,
+                "blocks": 3,
+                "passes": 4,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 37
+            },
+            "username": "Saint",
+            "game_user_id": "81320"
+        }
+    ],
+    "match_id": "c3ae3abb-5560-4f78-b51e-9fed2163ce20",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "0"
+}
