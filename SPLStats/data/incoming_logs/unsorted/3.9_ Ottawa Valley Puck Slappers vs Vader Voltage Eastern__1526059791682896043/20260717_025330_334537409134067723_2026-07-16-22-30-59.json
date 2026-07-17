@@ -1,0 +1,143 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 2
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 365,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 10,
+                "post_hits": 1,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 54
+            },
+            "username": "Taco",
+            "game_user_id": "321499"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 160,
+                "shots": 2,
+                "passes": 9,
+                "assists": 1,
+                "takeaways": 3,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 44
+            },
+            "username": "Syy :D",
+            "game_user_id": "1506478"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 50,
+                "passes": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 310,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 7,
+                "assists": 1,
+                "post_hits": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2
+            },
+            "username": "SolaceThunders",
+            "game_user_id": "31950"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 80,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 7,
+                "post_hits": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 17
+            },
+            "username": "Wind",
+            "game_user_id": "613713"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 190,
+                "shots": 1,
+                "blocks": 5,
+                "passes": 4,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 7
+            },
+            "username": "𝙙𝙤𝙪𝙜",
+            "game_user_id": "211281"
+        }
+    ],
+    "match_id": "b095fec6-6484-4c5b-a81b-f03cd8583e3b",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
