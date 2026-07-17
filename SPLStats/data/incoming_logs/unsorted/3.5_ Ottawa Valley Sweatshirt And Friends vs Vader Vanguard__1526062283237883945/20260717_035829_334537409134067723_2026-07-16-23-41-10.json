@@ -1,0 +1,203 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 9
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 2,
+                "saves": 2,
+                "score": 855,
+                "shots": 6,
+                "blocks": 4,
+                "passes": 10,
+                "assists": 5,
+                "post_hits": 3,
+                "takeaways": 4,
+                "turnovers": 6,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 7,
+                "periods_played": 2,
+                "primary_assists": 4,
+                "contributed_goals": 9,
+                "secondary_assists": 1,
+                "possession_time_sec": 21
+            },
+            "username": "sweatshirt 🍾",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 95,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 4
+            },
+            "username": "kevin🍾",
+            "game_user_id": "594707"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 325,
+                "shots": 3,
+                "blocks": 2,
+                "passes": 2,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 4
+            },
+            "username": "maia",
+            "game_user_id": "1269140"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 505,
+                "shots": 4,
+                "passes": 5,
+                "assists": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 2
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 2,
+                "score": 410,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 1
+            },
+            "username": "chaos",
+            "game_user_id": "1026914"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 530,
+                "shots": 3,
+                "blocks": 10,
+                "losses": 1,
+                "passes": 16,
+                "assists": 1,
+                "post_hits": 1,
+                "takeaways": 3,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 23
+            },
+            "username": "= Equal =",
+            "game_user_id": "1033794"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 3,
+                "score": 705,
+                "shots": 4,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 13,
+                "assists": 3,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 33
+            },
+            "username": "gutter",
+            "game_user_id": "2429"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 3,
+                "saves": 5,
+                "score": 650,
+                "shots": 5,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 12,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "contributed_goals": 7,
+                "possession_time_sec": 26
+            },
+            "username": "Skaudoingle",
+            "game_user_id": "767712"
+        }
+    ],
+    "match_id": "8c3e0232-280c-4796-bd30-9635d4632e2f",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
