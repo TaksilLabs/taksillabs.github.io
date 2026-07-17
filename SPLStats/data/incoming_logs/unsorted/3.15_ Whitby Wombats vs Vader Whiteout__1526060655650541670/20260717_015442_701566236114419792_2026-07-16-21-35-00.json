@@ -1,0 +1,127 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 25,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Trayvon",
+            "game_user_id": "56496"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 4
+            },
+            "username": "diego",
+            "game_user_id": "381869"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 90,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 5,
+                "post_hits": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 9
+            },
+            "username": "bick",
+            "game_user_id": "381871"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 55,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 9,
+                "shutouts": 1,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 10
+            },
+            "username": "Galalendon",
+            "game_user_id": "249493"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 110,
+                "blocks": 6,
+                "passes": 3,
+                "shutouts": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 43
+            },
+            "username": "BiggieBag",
+            "game_user_id": "1288337"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 135,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 3,
+                "shutouts": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 18
+            },
+            "username": "MaxZombieJaws",
+            "game_user_id": "1124512"
+        }
+    ],
+    "match_id": "33db4304-8173-437f-8655-611a2336f48b",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
