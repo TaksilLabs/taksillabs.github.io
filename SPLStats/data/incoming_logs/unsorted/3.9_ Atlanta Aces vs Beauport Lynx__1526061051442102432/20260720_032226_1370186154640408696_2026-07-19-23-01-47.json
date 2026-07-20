@@ -1,0 +1,118 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 0
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 55,
+                "blocks": 2,
+                "passes": 9,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 16
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 50,
+                "shots": 2,
+                "passes": 12,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 33
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 45,
+                "shots": 1,
+                "blocks": 2,
+                "passes": 5,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "possession_time_sec": 59
+            },
+            "username": "[ATL] Alt",
+            "game_user_id": "24807"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 20,
+                "blocks": 2,
+                "passes": 3,
+                "takeaways": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 4
+            },
+            "username": "Twitch @ Bromanz",
+            "game_user_id": "1407742"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 3,
+                "score": 150,
+                "blocks": 3,
+                "passes": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 16
+            },
+            "username": "assassinje123",
+            "game_user_id": "1015166"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 35,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 8,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 2
+            },
+            "username": "illumix22",
+            "game_user_id": "1000671"
+        }
+    ],
+    "match_id": "2d2dc520-c09e-41ab-b030-6f4d03c72fc1",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
