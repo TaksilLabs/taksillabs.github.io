@@ -1,0 +1,141 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 2
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 200,
+                "shots": 1,
+                "blocks": 5,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 7
+            },
+            "username": "Crayon",
+            "game_user_id": "61597"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 270,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 8,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 17
+            },
+            "username": "800-588-2300 Empire Today",
+            "game_user_id": "1591250"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "score": 85,
+                "blocks": 1,
+                "passes": 6,
+                "assists": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 1
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 390,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 10,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 24
+            },
+            "username": "molotce",
+            "game_user_id": "1639521"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 60,
+                "blocks": 1,
+                "passes": 4,
+                "assists": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "secondary_assists": 1
+            },
+            "username": "Apu",
+            "game_user_id": "1636587"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 125,
+                "blocks": 2,
+                "passes": 4,
+                "assists": 1,
+                "post_hits": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 5
+            },
+            "username": "Myroko",
+            "game_user_id": "1637509"
+        }
+    ],
+    "match_id": "a2afb79e-ddf8-4228-9d8c-7af50305abab",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "0"
+}
