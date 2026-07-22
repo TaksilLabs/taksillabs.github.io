@@ -1,0 +1,162 @@
+{
+    "type": "report_stats",
+    "arena": "Table Hockey",
+    "score": {
+        "away": 5,
+        "home": 6
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 3,
+                "goals": 1,
+                "saves": 6,
+                "score": 630,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 17,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 5,
+                "turnovers": 5,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 3,
+                "primary_assists": 2,
+                "contributed_goals": 6,
+                "possession_time_sec": 98
+            },
+            "username": "molotce",
+            "game_user_id": "1639521"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 3,
+                "saves": 2,
+                "score": 315,
+                "shots": 1,
+                "blocks": 4,
+                "passes": 12,
+                "assists": 2,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 3,
+                "primary_assists": 2,
+                "contributed_goals": 6,
+                "possession_time_sec": 11
+            },
+            "username": "Myroko",
+            "game_user_id": "1637509"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 3,
+                "goals": 5,
+                "saves": 4,
+                "score": 845,
+                "shots": 7,
+                "passes": 14,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 3,
+                "contributed_goals": 6,
+                "game_winning_goals": 1,
+                "possession_time_sec": 30
+            },
+            "username": "Apu",
+            "game_user_id": "1636587"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 3,
+                "saves": 3,
+                "score": 835,
+                "shots": 7,
+                "blocks": 9,
+                "losses": 3,
+                "passes": 27,
+                "assists": 2,
+                "takeaways": 5,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 6,
+                "periods_played": 3,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 73
+            },
+            "username": "Alto",
+            "game_user_id": "10676"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "saves": 1,
+                "score": 665,
+                "shots": 6,
+                "blocks": 10,
+                "losses": 3,
+                "passes": 22,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 6,
+                "periods_played": 3,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 92
+            },
+            "username": "Nore",
+            "game_user_id": "8787"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 195,
+                "shots": 4,
+                "losses": 3,
+                "passes": 21,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 3,
+                "contributed_goals": 5,
+                "possession_time_sec": 9
+            },
+            "username": "Hog69",
+            "game_user_id": "1763205"
+        }
+    ],
+    "match_id": "03c47b62-d306-4a36-bb4e-42f8d588aa17",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "0"
+}
