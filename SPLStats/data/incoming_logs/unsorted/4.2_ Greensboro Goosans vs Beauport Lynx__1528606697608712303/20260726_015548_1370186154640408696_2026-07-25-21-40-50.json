@@ -1,0 +1,163 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 12,
+        "home": 4
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 135,
+                "shots": 1,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 15,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 9
+            },
+            "username": "Epix",
+            "game_user_id": "865399"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 355,
+                "shots": 3,
+                "blocks": 8,
+                "losses": 2,
+                "passes": 9,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 47
+            },
+            "username": "Saint",
+            "game_user_id": "81320"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 4,
+                "saves": 1,
+                "score": 700,
+                "shots": 7,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 10,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 18
+            },
+            "username": "[GOOS] MAcademySammy88 [C]",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 6,
+                "score": 1035,
+                "shots": 7,
+                "passes": 15,
+                "assists": 3,
+                "post_hits": 2,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 12,
+                "secondary_assists": 1,
+                "possession_time_sec": 4
+            },
+            "username": "Twitch @ Bromanz",
+            "game_user_id": "1407742"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "saves": 7,
+                "score": 690,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 4,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 12,
+                "secondary_assists": 1,
+                "possession_time_sec": 71
+            },
+            "username": "assassinje123",
+            "game_user_id": "1015166"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "score": 840,
+                "shots": 5,
+                "blocks": 3,
+                "passes": 17,
+                "assists": 3,
+                "post_hits": 1,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 12,
+                "possession_time_sec": 7
+            },
+            "username": "illumix22",
+            "game_user_id": "1000671"
+        }
+    ],
+    "match_id": "ac99befa-d318-47f7-b5ae-762a5d4129f8",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "0"
+}
