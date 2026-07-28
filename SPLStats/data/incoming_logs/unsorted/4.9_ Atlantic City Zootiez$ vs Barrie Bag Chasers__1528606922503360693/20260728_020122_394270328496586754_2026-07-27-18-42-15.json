@@ -1,0 +1,136 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 135,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 6
+            },
+            "username": "Midget",
+            "game_user_id": "948283"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 105,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 2,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 32
+            },
+            "username": "AddyP786",
+            "game_user_id": "950305"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 100,
+                "shots": 1,
+                "losses": 1,
+                "passes": 9,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 13
+            },
+            "username": "romey",
+            "game_user_id": "183790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 310,
+                "shots": 4,
+                "blocks": 1,
+                "passes": 9,
+                "post_hits": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 12
+            },
+            "username": "hit",
+            "game_user_id": "913017"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 90,
+                "blocks": 1,
+                "passes": 7,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 23
+            },
+            "username": "Looees",
+            "game_user_id": "281017"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "passes": 5,
+                "takeaways": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 23
+            },
+            "username": "Shloompa",
+            "game_user_id": "979880"
+        }
+    ],
+    "match_id": "39b7f3a5-0bbb-4876-913c-04914b416b92",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
