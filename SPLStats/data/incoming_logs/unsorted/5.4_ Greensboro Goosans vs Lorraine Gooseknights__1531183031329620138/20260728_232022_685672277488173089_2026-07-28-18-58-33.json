@@ -1,0 +1,138 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 85,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 2,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 22
+            },
+            "username": "[GOOS] MAcademySammy88 [C]",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 20,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 3,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 5
+            },
+            "username": "hog wild stunna",
+            "game_user_id": "1547281"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 130,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 9,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 1
+            },
+            "username": "Overdrive",
+            "game_user_id": "150797"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 385,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 5,
+                "assists": 3,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 40
+            },
+            "username": "molotce",
+            "game_user_id": "1639521"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 125,
+                "shots": 1,
+                "passes": 7,
+                "shutouts": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 2
+            },
+            "username": "Myroko",
+            "game_user_id": "1637509"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 335,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 7,
+                "assists": 1,
+                "shutouts": 1,
+                "post_hits": 2,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 6
+            },
+            "username": "Apu",
+            "game_user_id": "1636587"
+        }
+    ],
+    "match_id": "75af945d-077e-4df4-bc25-bd3a30fc2ff6",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "0"
+}

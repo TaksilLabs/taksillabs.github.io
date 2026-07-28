@@ -1,0 +1,182 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 6,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 235,
+                "shots": 3,
+                "blocks": 8,
+                "losses": 3,
+                "passes": 19,
+                "post_hits": 1,
+                "takeaways": 5,
+                "turnovers": 4,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 6,
+                "periods_played": 3,
+                "shutouts_against": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 42
+            },
+            "username": "[GOOS] MAcademySammy88 [C]",
+            "game_user_id": "978598"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 65,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 7,
+                "takeaways": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 2,
+                "possession_time_sec": 10
+            },
+            "username": "hog wild stunna",
+            "game_user_id": "1547281"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 4,
+                "score": 445,
+                "shots": 3,
+                "blocks": 10,
+                "losses": 3,
+                "passes": 17,
+                "post_hits": 3,
+                "takeaways": 6,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 6,
+                "periods_played": 3,
+                "shutouts_against": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 37
+            },
+            "username": "Overdrive",
+            "game_user_id": "150797"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 245,
+                "shots": 1,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 4,
+                "post_hits": 1,
+                "takeaways": 7,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 36
+            },
+            "username": "Saint",
+            "game_user_id": "81320"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 3,
+                "goals": 2,
+                "saves": 4,
+                "score": 780,
+                "shots": 7,
+                "blocks": 5,
+                "passes": 15,
+                "assists": 3,
+                "shutouts": 2,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 7,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 3,
+                "primary_assists": 2,
+                "contributed_goals": 6,
+                "secondary_assists": 1,
+                "possession_time_sec": 102
+            },
+            "username": "molotce",
+            "game_user_id": "1639521"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 3,
+                "goals": 2,
+                "score": 280,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 19,
+                "shutouts": 2,
+                "turnovers": 6,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 2,
+                "periods_played": 3,
+                "contributed_goals": 6,
+                "possession_time_sec": 23
+            },
+            "username": "Myroko",
+            "game_user_id": "1637509"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 3,
+                "goals": 2,
+                "saves": 2,
+                "score": 480,
+                "shots": 3,
+                "blocks": 3,
+                "passes": 16,
+                "assists": 1,
+                "shutouts": 2,
+                "post_hits": 3,
+                "takeaways": 2,
+                "turnovers": 6,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 54
+            },
+            "username": "Apu",
+            "game_user_id": "1636587"
+        }
+    ],
+    "match_id": "d955a8d3-5bf1-4ad2-a485-940ac6011a15",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "0"
+}
