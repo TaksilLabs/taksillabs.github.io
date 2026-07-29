@@ -1,0 +1,162 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "score": 100,
+                "shots": 3,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 4,
+                "takeaways": 2,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "saves": 1,
+                "score": 385,
+                "shots": 4,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 16,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 36
+            },
+            "username": "graves",
+            "game_user_id": "437644"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 605,
+                "shots": 9,
+                "blocks": 10,
+                "losses": 2,
+                "passes": 10,
+                "assists": 2,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 128
+            },
+            "username": "bLue :)",
+            "game_user_id": "100703"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "score": 135,
+                "blocks": 1,
+                "passes": 11,
+                "assists": 2,
+                "shutouts": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 19
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "saves": 3,
+                "score": 555,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 13,
+                "shutouts": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 3
+            },
+            "username": "Galalendon",
+            "game_user_id": "249493"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 10,
+                "score": 775,
+                "shots": 1,
+                "blocks": 12,
+                "passes": 11,
+                "assists": 2,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 8,
+                "turnovers": 5,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 81
+            },
+            "username": "Kajun",
+            "game_user_id": "19508"
+        }
+    ],
+    "match_id": "abecf45e-fb19-4bff-ad6c-76fcbce08670",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
