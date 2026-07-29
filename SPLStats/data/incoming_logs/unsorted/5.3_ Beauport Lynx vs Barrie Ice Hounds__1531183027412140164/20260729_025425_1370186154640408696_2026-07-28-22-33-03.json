@@ -1,0 +1,146 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "saves": 1,
+                "score": 420,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 8,
+                "turnovers": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 1
+            },
+            "username": "♕ Twitch @ Bromanz ♕",
+            "game_user_id": "1407742"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 355,
+                "shots": 1,
+                "blocks": 8,
+                "passes": 6,
+                "assists": 3,
+                "takeaways": 3,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 24
+            },
+            "username": "assassinje123",
+            "game_user_id": "1015166"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 2,
+                "score": 360,
+                "shots": 1,
+                "passes": 8,
+                "assists": 2,
+                "post_hits": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 4
+            },
+            "username": "illumix22",
+            "game_user_id": "1000671"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 200,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 1,
+                "passes": 8,
+                "assists": 1,
+                "takeaways": 7,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 58
+            },
+            "username": "stim",
+            "game_user_id": "1319952"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "saves": 1,
+                "score": 360,
+                "shots": 4,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 10,
+                "takeaways": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 9
+            },
+            "username": "special son",
+            "game_user_id": "2037465"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 15,
+                "losses": 1,
+                "passes": 5,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 2
+            },
+            "username": "napqleon",
+            "game_user_id": "1314476"
+        }
+    ],
+    "match_id": "0f5de7c0-458f-4784-a95f-ffc00f7e838a",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
