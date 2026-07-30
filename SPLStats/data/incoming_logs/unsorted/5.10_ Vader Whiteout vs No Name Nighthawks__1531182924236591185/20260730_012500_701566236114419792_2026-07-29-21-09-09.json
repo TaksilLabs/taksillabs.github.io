@@ -1,0 +1,180 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 6,
+        "home": 3
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 4,
+                "score": 365,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 7,
+                "assists": 1,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "secondary_assists": 1,
+                "possession_time_sec": 68
+            },
+            "username": "BiggieBag",
+            "game_user_id": "1288337"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 285,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 11,
+                "assists": 1,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3
+            },
+            "username": "Darth Slazo",
+            "game_user_id": "464969"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 335,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 19,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "MaxZombieJaws",
+            "game_user_id": "1124512"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "saves": 2,
+                "score": 590,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 19,
+                "assists": 2,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 6,
+                "possession_time_sec": 3
+            },
+            "username": "JoeMer",
+            "game_user_id": "67383"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 4,
+                "saves": 1,
+                "score": 760,
+                "shots": 8,
+                "blocks": 2,
+                "passes": 18,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 6,
+                "possession_time_sec": 38
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 90,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 17
+            },
+            "username": "napa0",
+            "game_user_id": "296477"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 115,
+                "blocks": 3,
+                "passes": 5,
+                "assists": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Hammertime9000",
+            "game_user_id": "1238207"
+        }
+    ],
+    "match_id": "928f2337-01d3-4615-aed6-3a291a0e5e9c",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
