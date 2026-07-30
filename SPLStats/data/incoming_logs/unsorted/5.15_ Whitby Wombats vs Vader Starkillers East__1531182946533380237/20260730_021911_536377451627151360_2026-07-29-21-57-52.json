@@ -1,0 +1,149 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 3,
+                "score": 370,
+                "shots": 1,
+                "passes": 5,
+                "assists": 2,
+                "takeaways": 2,
+                "turnovers": 6,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 4,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "secondary_assists": 1,
+                "possession_time_sec": 21
+            },
+            "username": "Nic.",
+            "game_user_id": "381872"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 485,
+                "shots": 4,
+                "blocks": 2,
+                "passes": 9,
+                "assists": 2,
+                "post_hits": 1,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 2
+            },
+            "username": "Trayvon",
+            "game_user_id": "56496"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 245,
+                "shots": 5,
+                "blocks": 2,
+                "passes": 5,
+                "takeaways": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 9
+            },
+            "username": "bick",
+            "game_user_id": "381871"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 5,
+                "score": 315,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 2,
+                "assists": 1,
+                "takeaways": 2,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 17
+            },
+            "username": "TMNNational",
+            "game_user_id": "666987"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 35,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "takeaways": 4,
+                "turnovers": 1,
+                "games_played": 1,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 16
+            },
+            "username": "Rigg",
+            "game_user_id": "1530583"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 2,
+                "saves": 1,
+                "score": 415,
+                "shots": 4,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 7,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 22
+            },
+            "username": "ochase",
+            "game_user_id": "767270"
+        }
+    ],
+    "match_id": "c466592d-dd39-4d36-ba06-c72cf389c97c",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
