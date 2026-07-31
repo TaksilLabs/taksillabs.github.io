@@ -1,0 +1,162 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 4
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "goals": 2,
+                "saves": 2,
+                "score": 745,
+                "shots": 10,
+                "blocks": 6,
+                "passes": 32,
+                "assists": 2,
+                "shutouts": 1,
+                "post_hits": 2,
+                "takeaways": 9,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 3,
+                "primary_assists": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 98
+            },
+            "username": "cybergoose",
+            "game_user_id": "1199765"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "goals": 1,
+                "saves": 4,
+                "score": 410,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 15,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 4,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 3,
+                "contributed_goals": 4,
+                "game_winning_goals": 1,
+                "possession_time_sec": 101
+            },
+            "username": "pl4zma",
+            "game_user_id": "636422"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "goals": 1,
+                "score": 255,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 19,
+                "shutouts": 1,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 3,
+                "contributed_goals": 4,
+                "possession_time_sec": 43
+            },
+            "username": "meenimizer",
+            "game_user_id": "439532"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "saves": 2,
+                "score": 530,
+                "shots": 8,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 22,
+                "post_hits": 5,
+                "takeaways": 2,
+                "turnovers": 10,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 4,
+                "periods_played": 3,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 39
+            },
+            "username": "My Rick Fell Off",
+            "game_user_id": "1005594"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 10,
+                "score": 505,
+                "blocks": 14,
+                "losses": 2,
+                "passes": 14,
+                "takeaways": 5,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 3,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 86
+            },
+            "username": "plsstankrate",
+            "game_user_id": "1005628"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 30,
+                "losses": 2,
+                "passes": 16,
+                "turnovers": 5,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 3,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "LilPrecip",
+            "game_user_id": "1005605"
+        }
+    ],
+    "match_id": "5edeb1eb-1115-44d9-8f1e-66f82e6518a0",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
