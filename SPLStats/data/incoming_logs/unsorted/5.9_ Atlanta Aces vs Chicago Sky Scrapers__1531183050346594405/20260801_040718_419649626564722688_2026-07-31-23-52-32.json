@@ -1,0 +1,163 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 2
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 270,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 27,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 3,
+                "turnovers": 5,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "secondary_assists": 1,
+                "possession_time_sec": 30
+            },
+            "username": "[ATL]Joe",
+            "game_user_id": "6799"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "saves": 1,
+                "score": 150,
+                "shots": 1,
+                "passes": 19,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 5,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 65
+            },
+            "username": "NonoDaGoat",
+            "game_user_id": "700861"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 1,
+                "goals": 1,
+                "score": 310,
+                "shots": 6,
+                "blocks": 3,
+                "passes": 14,
+                "shutouts": 1,
+                "post_hits": 2,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "contributed_goals": 2,
+                "possession_time_sec": 44
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 145,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 13,
+                "takeaways": 3,
+                "turnovers": 4,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 19
+            },
+            "username": "Rage Quitter",
+            "game_user_id": "509256"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 4,
+                "score": 455,
+                "blocks": 15,
+                "losses": 1,
+                "passes": 8,
+                "assists": 2,
+                "takeaways": 3,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 31
+            },
+            "username": "Danimal1059",
+            "game_user_id": "448394"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 2,
+                "score": 295,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 14,
+                "takeaways": 5,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 10
+            },
+            "username": "AndrewDewar104",
+            "game_user_id": "453698"
+        }
+    ],
+    "match_id": "c0b0ad0d-3639-4b64-af4b-8b15409393d7",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
