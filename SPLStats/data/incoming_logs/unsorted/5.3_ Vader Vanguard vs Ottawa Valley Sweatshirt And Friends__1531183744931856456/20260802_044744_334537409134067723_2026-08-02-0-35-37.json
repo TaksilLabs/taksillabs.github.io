@@ -1,0 +1,150 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 0
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 2,
+                "score": 165,
+                "shots": 1,
+                "blocks": 7,
+                "losses": 1,
+                "passes": 3,
+                "takeaways": 3,
+                "games_played": 1,
+                "faceoffs_lost": 3,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 5
+            },
+            "username": "= Equal =",
+            "game_user_id": "1033794"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 70,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 3,
+                "turnovers": 3,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 3
+            },
+            "username": "maia",
+            "game_user_id": "1269140"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 60,
+                "shots": 1,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 7,
+                "periods_played": 1,
+                "shutouts_against": 1,
+                "possession_time_sec": 5
+            },
+            "username": "Skaudoingle",
+            "game_user_id": "767712"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 1,
+                "score": 430,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 13,
+                "assists": 3,
+                "shutouts": 1,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "secondary_assists": 2,
+                "possession_time_sec": 64
+            },
+            "username": "bLue :)",
+            "game_user_id": "100703"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 400,
+                "shots": 2,
+                "blocks": 1,
+                "passes": 6,
+                "assists": 1,
+                "shutouts": 1,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 7,
+                "possession_time_sec": 3
+            },
+            "username": "EggsThink",
+            "game_user_id": "417498"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 4,
+                "saves": 1,
+                "score": 840,
+                "shots": 6,
+                "passes": 13,
+                "assists": 3,
+                "shutouts": 1,
+                "post_hits": 3,
+                "turnovers": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "periods_played": 1,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 8
+            },
+            "username": "graves",
+            "game_user_id": "437644"
+        }
+    ],
+    "match_id": "bb3c5611-098b-4e28-a6ca-223470b582e1",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
