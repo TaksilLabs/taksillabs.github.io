@@ -1,0 +1,216 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 7,
+        "home": 8
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "goals": 2,
+                "saves": 5,
+                "score": 780,
+                "shots": 4,
+                "blocks": 6,
+                "passes": 18,
+                "assists": 3,
+                "takeaways": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 7,
+                "periods_played": 3,
+                "primary_assists": 2,
+                "contributed_goals": 8,
+                "secondary_assists": 1,
+                "possession_time_sec": 29
+            },
+            "username": "Skeetshooter42",
+            "game_user_id": "1329800"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "wins": 2,
+                "goals": 3,
+                "score": 570,
+                "shots": 5,
+                "blocks": 4,
+                "passes": 21,
+                "assists": 1,
+                "post_hits": 2,
+                "takeaways": 7,
+                "turnovers": 4,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 7,
+                "periods_played": 3,
+                "primary_assists": 1,
+                "contributed_goals": 8,
+                "game_winning_goals": 1,
+                "possession_time_sec": 49
+            },
+            "username": "Looees",
+            "game_user_id": "281017"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "score": 150,
+                "shots": 1,
+                "blocks": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 3
+            },
+            "username": "Cheddx",
+            "game_user_id": "8081"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "score": 425,
+                "shots": 5,
+                "blocks": 4,
+                "passes": 16,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 4,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 5
+            },
+            "username": "PleZo",
+            "game_user_id": "174650"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 3,
+                "score": 565,
+                "shots": 4,
+                "blocks": 6,
+                "losses": 1,
+                "passes": 17,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 6,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "possession_time_sec": 11
+            },
+            "username": "ScitruS",
+            "game_user_id": "2069819"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 200,
+                "shots": 3,
+                "losses": 1,
+                "passes": 14,
+                "assists": 2,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 23
+            },
+            "username": "Shloompa",
+            "game_user_id": "979880"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "goals": 1,
+                "saves": 6,
+                "score": 690,
+                "shots": 2,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 21,
+                "assists": 3,
+                "post_hits": 1,
+                "takeaways": 4,
+                "turnovers": 5,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 5,
+                "conceded_goals": 8,
+                "periods_played": 3,
+                "primary_assists": 3,
+                "contributed_goals": 7,
+                "possession_time_sec": 60
+            },
+            "username": "SemenSlayer",
+            "game_user_id": "1427595"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 3,
+                "saves": 1,
+                "score": 450,
+                "shots": 3,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 13,
+                "post_hits": 1,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 13
+            },
+            "username": "withdrawals",
+            "game_user_id": "1326629"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "periods_played": 1
+            },
+            "username": "dxmxnz",
+            "game_user_id": "1310489"
+        }
+    ],
+    "match_id": "7c6afd18-5b1f-4612-9ea3-bbf18dfa79b7",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "3",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
