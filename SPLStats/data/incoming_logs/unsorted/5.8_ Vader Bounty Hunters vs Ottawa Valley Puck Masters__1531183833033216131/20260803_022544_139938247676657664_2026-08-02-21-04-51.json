@@ -1,0 +1,133 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 2,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 195,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 1,
+                "passes": 8,
+                "takeaways": 2,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 18
+            },
+            "username": "Crayon",
+            "game_user_id": "61597"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 100,
+                "shots": 1,
+                "losses": 1,
+                "passes": 6,
+                "assists": 1,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 7
+            },
+            "username": "Sowwea",
+            "game_user_id": "2129"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 80,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 1,
+                "passes": 6,
+                "post_hits": 1,
+                "turnovers": 1,
+                "faceoffs_won": 3,
+                "games_played": 1,
+                "conceded_goals": 2,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 3,
+                "score": 220,
+                "blocks": 4,
+                "passes": 6,
+                "assists": 1,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2
+            },
+            "username": "TheRealAmeriCam",
+            "game_user_id": "1937517"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "saves": 1,
+                "score": 315,
+                "shots": 2,
+                "blocks": 3,
+                "passes": 5,
+                "takeaways": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 5
+            },
+            "username": "poops",
+            "game_user_id": "819088"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "score": 95,
+                "blocks": 2,
+                "passes": 3,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "Inph1del",
+            "game_user_id": "6803"
+        }
+    ],
+    "match_id": "a4d8668e-a359-4fa6-a5f7-9e783dbcb2a4",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
