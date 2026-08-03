@@ -1,0 +1,136 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "score": 190,
+                "shots": 2,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 6,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "gold",
+            "game_user_id": "914959"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 85,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 5,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Hydroid.",
+            "game_user_id": "1836154"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 1,
+                "score": 225,
+                "shots": 3,
+                "blocks": 4,
+                "losses": 1,
+                "passes": 8,
+                "assists": 1,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 4,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 1
+            },
+            "username": "nutsack6",
+            "game_user_id": "914448"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 3,
+                "score": 455,
+                "shots": 5,
+                "passes": 13,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 1
+            },
+            "username": "Trid",
+            "game_user_id": "1127790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "saves": 3,
+                "score": 365,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 3,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 41
+            },
+            "username": "Beefus",
+            "game_user_id": "1354924"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 1,
+                "saves": 1,
+                "score": 160,
+                "blocks": 2,
+                "passes": 2,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 3
+            },
+            "username": "meatballer36",
+            "game_user_id": "929814"
+        }
+    ],
+    "match_id": "f39cee74-74ef-429d-96b1-cb620bc2b405",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
