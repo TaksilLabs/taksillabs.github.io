@@ -1,0 +1,163 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 5,
+        "home": 9
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 675,
+                "shots": 5,
+                "blocks": 1,
+                "passes": 13,
+                "assists": 3,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 3,
+                "contributed_goals": 9,
+                "possession_time_sec": 7
+            },
+            "username": "AboveAverageJoe",
+            "game_user_id": "57885"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 5,
+                "saves": 1,
+                "score": 860,
+                "shots": 10,
+                "blocks": 3,
+                "passes": 17,
+                "takeaways": 6,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "contributed_goals": 9,
+                "possession_time_sec": 35
+            },
+            "username": "Bey",
+            "game_user_id": "405748"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 6,
+                "score": 1050,
+                "shots": 5,
+                "blocks": 9,
+                "passes": 10,
+                "assists": 6,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 5,
+                "periods_played": 2,
+                "primary_assists": 6,
+                "contributed_goals": 9,
+                "possession_time_sec": 29
+            },
+            "username": "lucki",
+            "game_user_id": "1367326"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 3,
+                "score": 665,
+                "shots": 7,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 17,
+                "assists": 2,
+                "post_hits": 2,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 33
+            },
+            "username": "Trid",
+            "game_user_id": "1127790"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 7,
+                "score": 470,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 10,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "contributed_goals": 5,
+                "possession_time_sec": 15
+            },
+            "username": "kevin🍾",
+            "game_user_id": "594707"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 4,
+                "score": 585,
+                "shots": 3,
+                "blocks": 4,
+                "losses": 2,
+                "passes": 15,
+                "assists": 3,
+                "takeaways": 1,
+                "turnovers": 6,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 9,
+                "periods_played": 2,
+                "primary_assists": 2,
+                "contributed_goals": 5,
+                "secondary_assists": 1,
+                "possession_time_sec": 4
+            },
+            "username": "meatballer36",
+            "game_user_id": "929814"
+        }
+    ],
+    "match_id": "9c00fcc7-6100-4875-aa76-865d7511cd76",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
