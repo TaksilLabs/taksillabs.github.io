@@ -1,0 +1,131 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 2,
+                "score": 340,
+                "shots": 2,
+                "blocks": 4,
+                "passes": 10,
+                "assists": 1,
+                "post_hits": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "contributed_goals": 3,
+                "secondary_assists": 1
+            },
+            "username": "_V",
+            "game_user_id": "1853671"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "goals": 1,
+                "score": 230,
+                "shots": 1,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 2,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 9
+            },
+            "username": "sharqq",
+            "game_user_id": "787"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 1,
+                "score": 120,
+                "blocks": 3,
+                "passes": 6,
+                "assists": 1,
+                "takeaways": 1,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 1,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 6
+            },
+            "username": "Makar",
+            "game_user_id": "739963"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "losses": 1,
+                "passes": 10,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Olenikiboy",
+            "game_user_id": "636982"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "score": 175,
+                "shots": 1,
+                "blocks": 5,
+                "losses": 1,
+                "passes": 12,
+                "turnovers": 2,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1
+            },
+            "username": "Carried By Dad",
+            "game_user_id": "323270"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "score": 30,
+                "losses": 1,
+                "passes": 8,
+                "faceoffs_won": 2,
+                "games_played": 1,
+                "conceded_goals": 3,
+                "periods_played": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 3
+            },
+            "username": "Smellfuzz",
+            "game_user_id": "640618"
+        }
+    ],
+    "match_id": "c7f6095c-2f8c-4af4-bff3-01a0401d0e03",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
