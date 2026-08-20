@@ -1,0 +1,161 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 1,
+        "home": 3
+    },
+    "winner": "home",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 2,
+                "saves": 1,
+                "score": 505,
+                "shots": 6,
+                "blocks": 3,
+                "passes": 22,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 4,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 93
+            },
+            "username": "The Real Teddy Blueger",
+            "game_user_id": "848840"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "score": 215,
+                "shots": 1,
+                "blocks": 9,
+                "passes": 14,
+                "assists": 2,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 2,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "contributed_goals": 3,
+                "secondary_assists": 2,
+                "possession_time_sec": 24
+            },
+            "username": "Awlden",
+            "game_user_id": "890370"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 1,
+                "score": 295,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 18,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 2,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 3,
+                "possession_time_sec": 27
+            },
+            "username": "Yuvraj",
+            "game_user_id": "849146"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 4,
+                "score": 210,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 21,
+                "assists": 1,
+                "takeaways": 3,
+                "turnovers": 3,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "secondary_assists": 1,
+                "possession_time_sec": 75
+            },
+            "username": "JoeMer",
+            "game_user_id": "67383"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 260,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 12,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 27
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "saves": 1,
+                "score": 160,
+                "shots": 1,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 11,
+                "assists": 1,
+                "takeaways": 4,
+                "turnovers": 3,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 3,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 12
+            },
+            "username": "napa0",
+            "game_user_id": "296477"
+        }
+    ],
+    "match_id": "418f0b5c-006c-4f20-818d-66d02074ad9d",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
