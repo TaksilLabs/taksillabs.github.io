@@ -1,0 +1,155 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 12,
+        "home": 2
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "goals": 2,
+                "score": 300,
+                "shots": 4,
+                "losses": 2,
+                "passes": 12,
+                "takeaways": 1,
+                "turnovers": 3,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 2
+            },
+            "username": "Trid",
+            "game_user_id": "1127790"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 265,
+                "blocks": 5,
+                "losses": 2,
+                "passes": 11,
+                "takeaways": 1,
+                "turnovers": 2,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 35
+            },
+            "username": "Beefus",
+            "game_user_id": "1354924"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 265,
+                "shots": 2,
+                "blocks": 3,
+                "losses": 2,
+                "passes": 11,
+                "turnovers": 2,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 12,
+                "periods_played": 2,
+                "was_mercy_ruled": 1,
+                "contributed_goals": 2,
+                "possession_time_sec": 16
+            },
+            "username": "meatballer36",
+            "game_user_id": "929814"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 5,
+                "saves": 3,
+                "score": 975,
+                "shots": 7,
+                "blocks": 3,
+                "passes": 10,
+                "assists": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 2,
+                "contributed_goals": 12
+            },
+            "username": "sweatshirt 🍾",
+            "game_user_id": "1856285"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 1,
+                "score": 450,
+                "shots": 2,
+                "blocks": 5,
+                "passes": 10,
+                "assists": 4,
+                "takeaways": 1,
+                "turnovers": 1,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 2,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 4,
+                "contributed_goals": 12,
+                "possession_time_sec": 29
+            },
+            "username": "bLue :)",
+            "game_user_id": "100703"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 7,
+                "score": 1200,
+                "shots": 11,
+                "passes": 14,
+                "assists": 2,
+                "post_hits": 1,
+                "takeaways": 6,
+                "turnovers": 1,
+                "faceoffs_won": 5,
+                "games_played": 2,
+                "faceoffs_lost": 3,
+                "conceded_goals": 2,
+                "periods_played": 2,
+                "has_mercy_ruled": 1,
+                "primary_assists": 2,
+                "contributed_goals": 12,
+                "possession_time_sec": 22
+            },
+            "username": "chaos",
+            "game_user_id": "1026914"
+        }
+    ],
+    "match_id": "11555b5e-4933-4670-8d7e-a6674dba9380",
+    "end_reason": "MercyRule",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
