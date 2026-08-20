@@ -1,0 +1,117 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 0,
+        "home": 0
+    },
+    "winner": "none",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 90,
+                "shots": 1,
+                "blocks": 3,
+                "passes": 9,
+                "takeaways": 4,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 41
+            },
+            "username": "The Real Teddy Blueger",
+            "game_user_id": "848840"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 105,
+                "shots": 2,
+                "blocks": 2,
+                "passes": 10,
+                "takeaways": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 10
+            },
+            "username": "Awlden",
+            "game_user_id": "890370"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 35,
+                "passes": 9,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "faceoffs_lost": 1,
+                "periods_played": 1,
+                "possession_time_sec": 7
+            },
+            "username": "Yuvraj",
+            "game_user_id": "849146"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 2,
+                "score": 80,
+                "blocks": 1,
+                "passes": 7,
+                "takeaways": 1,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 29
+            },
+            "username": "JoeMer",
+            "game_user_id": "67383"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "saves": 1,
+                "score": 65,
+                "blocks": 3,
+                "passes": 6,
+                "turnovers": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 8
+            },
+            "username": "Noob_Weapons",
+            "game_user_id": "87"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "ties": 1,
+                "score": 90,
+                "shots": 3,
+                "passes": 9,
+                "turnovers": 4,
+                "faceoffs_won": 1,
+                "games_played": 1,
+                "periods_played": 1,
+                "possession_time_sec": 13
+            },
+            "username": "napa0",
+            "game_user_id": "296477"
+        }
+    ],
+    "match_id": "1586b538-1340-431d-aaf2-2a8912925724",
+    "end_reason": "Tie",
+    "match_length": "300",
+    "current_period": "1",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
