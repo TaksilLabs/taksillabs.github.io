@@ -1,0 +1,157 @@
+{
+    "type": "report_stats",
+    "arena": "Slap Stadium",
+    "score": {
+        "away": 4,
+        "home": 1
+    },
+    "winner": "away",
+    "players": [
+        {
+            "team": "home",
+            "stats": {
+                "saves": 4,
+                "score": 290,
+                "blocks": 6,
+                "losses": 2,
+                "passes": 10,
+                "assists": 1,
+                "takeaways": 15,
+                "turnovers": 2,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 122
+            },
+            "username": "stim",
+            "game_user_id": "1319952"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "goals": 1,
+                "saves": 1,
+                "score": 315,
+                "shots": 5,
+                "blocks": 1,
+                "losses": 2,
+                "passes": 16,
+                "takeaways": 2,
+                "turnovers": 3,
+                "faceoffs_won": 3,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 23
+            },
+            "username": "special son",
+            "game_user_id": "2037465"
+        },
+        {
+            "team": "home",
+            "stats": {
+                "score": 110,
+                "shots": 3,
+                "blocks": 2,
+                "losses": 2,
+                "passes": 11,
+                "takeaways": 1,
+                "turnovers": 5,
+                "faceoffs_won": 1,
+                "games_played": 2,
+                "conceded_goals": 4,
+                "periods_played": 2,
+                "shutouts_against": 1,
+                "contributed_goals": 1,
+                "possession_time_sec": 8
+            },
+            "username": "napqleon",
+            "game_user_id": "1314476"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 3,
+                "score": 425,
+                "shots": 3,
+                "blocks": 5,
+                "passes": 6,
+                "shutouts": 1,
+                "post_hits": 1,
+                "takeaways": 3,
+                "turnovers": 2,
+                "games_played": 2,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "contributed_goals": 4,
+                "possession_time_sec": 15
+            },
+            "username": "Sowwea",
+            "game_user_id": "2129"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "saves": 1,
+                "score": 225,
+                "shots": 3,
+                "blocks": 4,
+                "passes": 11,
+                "assists": 1,
+                "shutouts": 1,
+                "turnovers": 9,
+                "games_played": 2,
+                "faceoffs_lost": 1,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 11
+            },
+            "username": "Boatsnhoes",
+            "game_user_id": "1771333"
+        },
+        {
+            "team": "away",
+            "stats": {
+                "wins": 2,
+                "goals": 1,
+                "saves": 6,
+                "score": 500,
+                "shots": 3,
+                "blocks": 1,
+                "passes": 12,
+                "assists": 1,
+                "shutouts": 1,
+                "takeaways": 7,
+                "turnovers": 7,
+                "faceoffs_won": 2,
+                "games_played": 2,
+                "faceoffs_lost": 4,
+                "conceded_goals": 1,
+                "periods_played": 2,
+                "primary_assists": 1,
+                "contributed_goals": 4,
+                "possession_time_sec": 58
+            },
+            "username": "Filip Chytil Stan",
+            "game_user_id": "184180"
+        }
+    ],
+    "match_id": "bc470fa1-8159-4f4f-9f0e-b5711e531804",
+    "end_reason": "EndOfRegulation",
+    "match_length": "300",
+    "current_period": "2",
+    "periods_enabled": "True",
+    "custom_mercy_rule": "10"
+}
